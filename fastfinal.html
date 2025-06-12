@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eine kuratierte Sammlung von Kaffee-Rezepten für den xBloom-Automaten, optimiert für Süße, Körper und Klarheit, inklusive detaillierter Brüh-Guides.">
+    <meta name="author" content="Leon Filla">
+    <title>Leon's xBloom Kaffee-Rezepte</title>
+    
+    <!-- Tailwind CSS with Typography Plugin -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    
+    <!-- React & ReactDOM Libraries (Production Version) -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <!-- Google Fonts: Inter (sans-serif) and Lora (serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom font family definitions to match the code's Tailwind classes */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-sans {
+             font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Lora', serif;
+        }
+        /* New, robust animation for accordion using CSS Grid */
+        .grid-transition {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.35s ease-in-out;
+        }
+        .grid-transition.open {
+            grid-template-rows: 1fr;
+        }
+        .grid-transition > div {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-stone-100">
+
+    <!-- The root element where the React app will be mounted -->
+    <div id="root"></div>
+
+    <!-- The React application code, pre-compiled to plain JavaScript -->
+    <script type="text/javascript">
+        const { useState, useEffect, useRef } = React;
+
+        // ### ICONS ###
+        const ChevronDownIcon = ({ className = "w-5 h-5 text-stone-600" }) => (
+          React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", strokeWidth: 1.5, stroke: "currentColor", className: className },
+            React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "m19.5 8.25-7.5 7.5-7.5-7.5" })
+          )
+        );
+        
+        const StarIcon = ({ className, filled = false }) => (
+            React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: filled ? 'currentColor' : 'none', stroke: "currentColor", strokeWidth: "1.5", className: className },
+              React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 21.1a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" })
+            )
+        );
+        
+        // ###################################################################################
+        // ### COFFEE DATA ###
+        // ###################################################################################
+        const coffeeData = [
+          {
+            id: "heilandt_kerinci",
+            name: "Kerinci",
+            isDecaf: false,
+            processing: "Anaerobic & Fermented",
+            shortDescription: "Intensive Pflaume, Nougat und eine komplexe Grapefruit-Note.",
+            mainImage: "https://placehold.co/600x400/b45309/FFFFFF?text=Heilandt+Kerinci", // amber-700
+            colorAccent: "bg-amber-700",
+            textColorAccent: "text-amber-800",
+            borderColorAccent: "border-amber-600",
+            bgColorAccentLight: "bg-amber-50",
+            details: {
+              roesterei: "Heilandt",
+              sorte: "Anaerobic Natural",
+              region: "Indonesien, Sumatra",
+              produzent: "Rukun Saudara Coop.",
+              wertung: 4,
+              menge: 15,
+              verhaeltnis: "1:16.5", 
+              wasserGesamt: 248,      
+              mahlgrad: 42, 
+              rpm: 70,
+              aromaProfil: "Ein exotischer Anaerobic Natural, der mit Noten von Pflaume, Nougat und Grapefruit besticht. Ziel ist es, die expressive Säure und Komplexität zu bewahren und eine Überextraktion des schnell extrahierenden Kaffees zu vermeiden.",
+              aufgussStrategieText: "Aufgrund der schnellen Löslichkeit wird eine sanfte Extraktionsstrategie verfolgt. Eine niedrigere Temperatur (91°C) und ein gröberer Mahlgrad sind entscheidend. Fünf kleine, gleichmäßige Güsse sorgen für eine kontrollierte Extraktion, die die feinen Aromen schützt.",
+              aufgussStrategiePunkte: ["Niedrige Temperatur (91°C): Schützt vor Überextraktion.","Fünf Güsse: Sorgt für eine konstante und kontrollierte Extraktion.","Sanfte Gießmuster: Minimieren die Agitation des Kaffeebetts.","Vibration nach Bloom: Einmalige Vibration zur Nivellierung des Kaffeebetts."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 91, durchfluss: 3.1, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Ja", dauer: 51, },
+                { phase: "Aufguss 2", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 3", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 4", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 5", menge: 50, temp: 91, durchfluss: 3.1, pause: 0, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 16, },
+              ],
+              gesamtBruehzeit: "3:10",
+              anmerkungenTabelle: "Fokus: Kontrolle der schnellen Extraktion, Bewahrung der komplexen Fruchtigkeit. Startpunkt, empfohlen von Heilandt: 28 Klicks auf der Comandante.",
+            },
+          },
+          {
+            id: "heilandt_joven_macario",
+            name: "Joven Macario",
+            isDecaf: false,
+            processing: "Anaerobic & Fermented",
+            shortDescription: "Süße Traube, Orange und elegante Oolong-Tee-Noten.",
+            mainImage: "https://placehold.co/600x400/c2410c/FFFFFF?text=Heilandt+Joven+Macario", // orange-600
+            colorAccent: "bg-orange-600",
+            textColorAccent: "text-orange-700",
+            borderColorAccent: "border-orange-500",
+            bgColorAccentLight: "bg-orange-50",
+            details: {
+              roesterei: "Heilandt",
+              sorte: "Red Honey",
+              region: "Mexiko, Oaxaca",
+              produzent: "Joven Macario",
+              wertung: 4,
+              menge: 15,
+              verhaeltnis: "1:16.5",
+              wasserGesamt: 248,
+              mahlgrad: 38,
+              rpm: 80,
+              aromaProfil: "Ein sehr ausgewogener und 'pflegeleichter' Red Honey mit Noten von Traube, Orange und Oolong. Der Kaffee zeichnet sich durch seine Süße und eine teeähnliche Textur aus. Ziel ist eine unkomplizierte, geschmackvolle Extraktion.",
+              aufgussStrategieText: "Da dieser Kaffee als sehr verzeihend gilt, wird ein Standardrezept verwendet, das auf Konsistenz und Balance ausgelegt ist. Eine moderate Temperatur, ein mittlerer Mahlgrad und fünf gleichmäßige Güsse sorgen für eine stetige Extraktion.",
+              aufgussStrategiePunkte: ["Moderate Temperatur (92°C): Idealer Kompromiss für Süße und Frucht.","Fünf Güsse: Eine klassische Methode für eine ausgewogene Tasse.","Spiralförmige Gießmuster: Sorgen für eine gleichmäßige Benetzung.","Lange Pausen: Geben dem Wasser Zeit zu drainieren."],
+              brewSteps: [
+                { phase: "Blooming", menge: 50, temp: 92, durchfluss: 3.2, pause: 40, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 56, },
+                { phase: "Aufguss 2", menge: 50, temp: 92, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 3", menge: 50, temp: 92, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 4", menge: 50, temp: 92, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 5", menge: 48, temp: 92, durchfluss: 3.2, pause: 0, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 15, },
+              ],
+              gesamtBruehzeit: "3:29",
+              anmerkungenTabelle: "Fokus: Ausgewogene Süße und Fruchtigkeit. Ein 'Alltagsrezept'. Startpunkt, empfohlen von Heilandt: 25 Klicks auf der Comandante.",
+            },
+          },
+          {
+            id: "gran_galope",
+            name: "Gran Galope Filter",
+            isDecaf: false,
+            processing: "Washed",
+            shortDescription: "Saftige Schwarzbeere, Melasse-Süße, Hauch Pampelmuse, voller Körper.",
+            mainImage: "https://placehold.co/600x400/059669/FFFFFF?text=Gran+Galope", // emerald-600
+            colorAccent: "bg-emerald-600", 
+            textColorAccent: "text-emerald-700",
+            borderColorAccent: "border-emerald-500",
+            bgColorAccentLight: "bg-emerald-50",
+            details: { 
+              roesterei: "Kaffeekirsche",
+              sorte: "Washed Filter",
+              region: "Kolumbien, Huila",
+              produzent: "Diverse Kleinbauern",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:15.5",
+              wasserGesamt: 248,
+              mahlgrad: 56,
+              rpm: 80,
+              aromaProfil: "Kolumbianischer Washed Filter mit Noten von Schwarzbeere und Pampelmuse, ergänzt durch eine tiefe Melasse-Süße. Ziel ist es, eine saftige Fruchtigkeit und lebendige Säure zu erzielen und die Melasse-Süße voll zu entwickeln.",
+              aufgussStrategieText: "Eine 5-Phasen-Strategie mit fallendem Temperaturprofil. Der heiße Start extrahiert Säure und Frucht. Die folgenden vier Güsse balancieren die Extraktion aus, um eine tiefe Melasse-Süße und einen vollen Körper zu entwickeln. Vibration nach dem Blooming ebnet das Kaffeebett.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss: Gleichmäßigere Extraktion.","Blooming (95°C) & Vibration: Für eine optimale Vorbereitung des Kaffeebetts.","Vier Hauptgüsse (95-93°C): Betonen zunächst die Säure und entwickeln dann schrittweise Süße und Körper."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 95, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Ja", dauer: 45, },
+                { phase: "Aufguss 2", menge: 50, temp: 95, durchfluss: 3.4, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 40, },
+                { phase: "Aufguss 3", menge: 50, temp: 94, durchfluss: 3.4, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 40, },
+                { phase: "Aufguss 4", menge: 50, temp: 93, durchfluss: 3.2, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 5", menge: 50, temp: 93, durchfluss: 3.2, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 16, },
+              ],
+              gesamtBruehzeit: "3:02",
+              anmerkungenTabelle: "Fokus: Saftige Säure & Frucht, Melasse-Süße, voller Körper. 5 Güsse für eine kontrollierte, ausbalancierte Extraktion.",
+            },
+          },
+          {
+            id: "kenya_aa",
+            name: "Kenya AA Top Githima",
+            isDecaf: false,
+            processing: "Washed",
+            shortDescription: "Komplexer Schwarztee, Pflaume, Physalis, elegante Süße.",
+            mainImage: "https://placehold.co/600x400/0284c7/FFFFFF?text=Kenya+AA", // sky-600
+            colorAccent: "bg-sky-600", 
+            textColorAccent: "text-sky-700",
+            borderColorAccent: "border-sky-500",
+            bgColorAccentLight: "bg-sky-50",
+            details: { 
+              roesterei: "Kaffeekirsche",
+              sorte: "Washed Doppel-Fermentiert",
+              region: "Kenia, Nyeri",
+              produzent: "Githima Factory",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:16.0",
+              wasserGesamt: 256,
+              mahlgrad: 61,
+              rpm: 65,
+              aromaProfil: "Ein Kenia Washed mit Noten von Schwarztee, Pflaume und Physalis. Er hat einen lang anhaltenden Körper, eine subtile Süße und eine lebendige Säure. Ziel ist es, die Komplexität zu entwickeln und eine teenähnliche Klarheit zu erreichen.",
+              aufgussStrategieText: "Aufgrund der hohen Löslichkeit wird eine sanfte 5-Phasen-Strategie gewählt. Niedrigere Temperaturen, geringere Flussraten und vier kontrollierte Hauptgüsse mit langen Pausen sorgen für eine schonende, gleichmäßige Extraktion, die die Klarheit bewahrt und die Komplexität voll entfaltet.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss: Ideal für hochlösliche, delikate Kaffees.","Sanfte Parameter: Niedrige Temperatur, RPM und Flussrate.","Lange Pausen: Geben dem Kaffee Zeit, seine Aromen zu entfalten, ohne ihn zu überfordern."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 92, durchfluss: 3.0, pause: 40, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 56, },
+                { phase: "Aufguss 2", menge: 52, temp: 93, durchfluss: 3.1, pause: 35, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 52, },
+                { phase: "Aufguss 3", menge: 52, temp: 92, durchfluss: 3.1, pause: 35, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 52, },
+                { phase: "Aufguss 4", menge: 52, temp: 91, durchfluss: 3.0, pause: 35, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 52, },
+                { phase: "Aufguss 5", menge: 52, temp: 91, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 17, },
+              ],
+              gesamtBruehzeit: "3:49",
+              anmerkungenTabelle: "Fokus: Spritzige Säure, subtile Süße, komplexer Schwarztee-Körper. 5 Güsse zur schonenden Extraktion und Wahrung der Klarheit.",
+            },
+          },
+          {
+            id: "uraga",
+            name: "Uraga Raro Boda",
+            isDecaf: false,
+            processing: "Natural",
+            shortDescription: "Intensive rote Beeren, floraler Jasmin, voller Körper & ausgeprägte Süße.",
+            mainImage: "https://placehold.co/600x400/e11d48/FFFFFF?text=Uraga+Raro", // rose-600
+            colorAccent: "bg-rose-600",
+            textColorAccent: "text-rose-700",
+            borderColorAccent: "border-rose-500",
+            bgColorAccentLight: "bg-rose-50",
+            details: { 
+              roesterei: "Kaffeekirsche",
+              sorte: "Natural Omniroast",
+              region: "Äthiopien, Guji",
+              produzent: "Uraga Raro Boda",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:16.0",
+              wasserGesamt: 256,
+              mahlgrad: 59, 
+              rpm: 70, 
+              aromaProfil: "Ein klassischer äthiopischer Natural, der durch seine Süße, Noten von roten Beeren und Jasmin sowie einen vollen, klaren Körper besticht. Ziel ist es, die delikaten floralen Jasminnoten zu schützen und die intensive Fruchtigkeit hervorzuheben.",
+              aufgussStrategieText: "Eine 5-Phasen-Strategie mit fallendem Temperaturprofil. Die vier Hauptgüsse sorgen für eine gleichmäßige Extraktion, die die delikaten floralen und fruchtigen Noten schützt und gleichzeitig eine ausgeprägte Süße und einen vollen Körper entwickelt. Keine Vibration für maximale Klarheit.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss: Bessere Kontrolle über die Extraktion.","Blooming (92°C): Sanftes Öffnen der Aromen.","Zwei Güsse bei 93°C: Betonen Fruchtigkeit und florale Noten.","Zwei finale Güsse (92°C, 90°C): Entwickeln Süße und runden den Körper ab."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 92, durchfluss: 3.0, pause: 40, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 56, },
+                { phase: "Aufguss 2", menge: 52, temp: 93, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 3", menge: 52, temp: 93, durchfluss: 3.2, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 4", menge: 52, temp: 92, durchfluss: 3.0, pause: 30, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 47, },
+                { phase: "Aufguss 5", menge: 52, temp: 90, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 17, },
+              ],
+              gesamtBruehzeit: "3:32",
+              anmerkungenTabelle: "Fokus: Schutz der Jasminnote, Betonung von intensiver Frucht (rote Beeren) & ausgeprägter Süße. 5 Güsse für mehr Klarheit und Kontrolle.",
+            },
+          },
+          { 
+            id: "ruronzi_anaerobic_elbgold",
+            name: "Ruronzi Anaerobic",
+            isDecaf: false,
+            processing: "Anaerobic & Fermented",
+            shortDescription: "Intensive Kirsche, Ananas, komplexe Rum-Noten, saftiger Körper.",
+            mainImage: "https://placehold.co/600x400/be123c/FFFFFF?text=Ruronzi+Anaerobic", // rose-700
+            colorAccent: "bg-rose-700", 
+            textColorAccent: "text-rose-800",
+            borderColorAccent: "border-rose-600",
+            bgColorAccentLight: "bg-rose-50",
+            details: { 
+              roesterei: "elbgold",
+              sorte: "120h Anaerobic Natural", 
+              region: "Ruanda, Karongi", 
+              produzent: "Uzziel Habimana", 
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:16.5",
+              wasserGesamt: 264,
+              mahlgrad: 60, 
+              rpm: 60, 
+              aromaProfil: "Ein 120h Anaerobic Natural, der mit Noten von reifer Kirsche, saftiger Ananas und Rum-Anklängen explodiert. Erwarten Sie einen saftigen, vollen Körper und eine komplexe Süße. Ziel ist es, die vielschichtige Fruchtigkeit und die Fermentationsnoten präzise herauszuarbeiten.",
+              aufgussStrategieText: "Eine besonders behutsame 5-Phasen-Strategie, um die intensiven und flüchtigen Aromen zu schützen. Vier kleine Hauptgüsse mit fallender Temperatur, sehr niedrige RPM (60) und keine Vibration sind essenziell, um die Klarheit zu maximieren und die komplexen Fermentationsnoten nicht zu überdecken.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss: Maximale Kontrolle für delikate Anaerobics.","Fallendes Temperaturprofil (93°C auf 88°C): Extrahiert schrittweise verschiedene Aromen.","Sehr sanfte Parameter: Niedrige RPM und keine Vibration zum Schutz der Aromen."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 93, durchfluss: 3.0, pause: 45, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 61, },
+                { phase: "Aufguss 2", menge: 54, temp: 92, durchfluss: 3.1, pause: 35, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 52, },
+                { phase: "Aufguss 3", menge: 54, temp: 90, durchfluss: 3.0, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 53, },
+                { phase: "Aufguss 4", menge: 54, temp: 88, durchfluss: 3.0, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 53, },
+                { phase: "Aufguss 5", menge: 54, temp: 88, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 18, },
+              ],
+              gesamtBruehzeit: "3:57", 
+              anmerkungenTabelle: "Fokus: Maximale Entfaltung der Fruchtigkeit (Kirsche, Ananas) & Rum-Note. 5 Güsse für höchste Klarheit und Aromen-Schutz.",
+            },
+          },
+          {
+            id: "huye_mountain_elbgold",
+            name: "Huye Mountain",
+            isDecaf: false,
+            processing: "Natural",
+            shortDescription: "Weisse Nektarine, Kakaonibs, Preiselbeere, ausgeprägte Fruchtsüße.",
+            mainImage: "https://placehold.co/600x400/b45309/FFFFFF?text=Huye+Mountain", // amber-700
+            colorAccent: "bg-amber-700", 
+            textColorAccent: "text-amber-800",
+            borderColorAccent: "border-amber-600",
+            bgColorAccentLight: "bg-amber-50",
+            details: {
+              roesterei: "elbgold",
+              sorte: "Red Bourbon (Natural)",
+              region: "Ruanda, Huye District", 
+              produzent: "David Rubanzangabo", 
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:16.0",
+              wasserGesamt: 256,
+              mahlgrad: 57,
+              rpm: 60,
+              aromaProfil: "Ein Natural Red Bourbon aus Ruanda mit Aromen von weißer Nektarine, Kakaonibs und Preiselbeere. Ziel ist es, die ausgeprägte Fruchtsüße und die komplexen Aromen des Natural-Prozesses hervorzuheben und einen runden Körper zu entwickeln.",
+              aufgussStrategieText: "Die 5-Phasen-Strategie fokussiert auf eine sanfte Extraktion, um die delikaten Fruchtnoten zu bewahren. Niedrigere Temperaturen und Mahlwerk-RPMs (60) helfen, Überextraktion zu vermeiden und die Klarheit zu fördern. Keine Vibration, um die Geschmacksnuancen nicht zu überdecken.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss: Sanfte Extraktion für delikate Naturals.","Fallendes Temperaturprofil (91°C auf 88°C): Schützt feine Aromen.","Niedrige RPM & keine Vibration: Fördert Klarheit und vermeidet Bitterkeit."],
+              brewSteps: [ 
+                { phase: "Blooming", menge: 48, temp: 91, durchfluss: 3.0, pause: 45, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 61 }, 
+                { phase: "Aufguss 2", menge: 52, temp: 92, durchfluss: 3.0, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 47 }, 
+                { phase: "Aufguss 3", menge: 52, temp: 90, durchfluss: 3.0, pause: 30, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 47 }, 
+                { phase: "Aufguss 4", menge: 52, temp: 88, durchfluss: 3.0, pause: 30, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 47 }, 
+                { phase: "Aufguss 5", menge: 52, temp: 88, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 17 },      
+              ],
+              gesamtBruehzeit: "3:39", 
+              anmerkungenTabelle: "Fokus: Fruchtige Süße (Weisse Nektarine, Preiselbeere) und Kakaonibs-Noten. 5 Güsse für mehr Klarheit und Kontrolle.",
+            },
+          },
+           {
+            id: "heilandt_24_sieben_decaf",
+            name: "24/sieben Decaf",
+            isDecaf: true,
+            processing: "Decaf",
+            shortDescription: "Noten von Kirsche und Brownie in einer klaren Filterröstung.",
+            mainImage: "https://placehold.co/600x400/57534e/FFFFFF?text=Heilandt+24/7+Decaf", // stone-600
+            colorAccent: "bg-stone-600",
+            textColorAccent: "text-stone-700",
+            borderColorAccent: "border-stone-500",
+            bgColorAccentLight: "bg-stone-200",
+            details: {
+              roesterei: "Heilandt",
+              sorte: "Mountain Water Decaf",
+              region: "Mexiko, Oaxaca",
+              produzent: "Diverse Kleinbauern",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:15.5",
+              wasserGesamt: 248,
+              mahlgrad: 32,
+              rpm: 60,
+              aromaProfil: "Ein hochwertiger Decaf, entkoffeiniert durch den schonenden Mountain Water Process. Erwartet werden Noten von Kirsche und Brownie. Ziel ist, eine volle, süße Tasse zu kreieren, die einem koffeinhaltigen Kaffee in nichts nachsteht.",
+              aufgussStrategieText: "Eine 5-Phasen-Strategie für maximale Kontrolle. Die leicht höhere Temperatur extrahiert die Aromen aus den dichteren Decaf-Bohnen, während vier kleine Hauptgüsse eine gleichmäßige Extraktion für vollen Körper und klare Süße sichern.",
+              aufgussStrategiePunkte: ["Angepasste 5-Phasen-Extraktion für mehr Kontrolle.","Etwas höhere Temperatur (93°C): Löst die Aromen aus den Bohnen.","Vier Hauptgüsse: Sorgen für eine gleichmäßigere und tiefere Extraktion.","Niedrige RPM (60): Minimiert Feinstpartikel, wichtig bei Decafs."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 93, durchfluss: 3.0, pause: 40, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 56, },
+                { phase: "Aufguss 2", menge: 50, temp: 93, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 3", menge: 50, temp: 93, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 4", menge: 50, temp: 92, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 41, },
+                { phase: "Aufguss 5", menge: 50, temp: 92, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 17, },
+              ],
+              gesamtBruehzeit: "3:16",
+              anmerkungenTabelle: "Fokus: Maximale Süße & Körper, Noten von Kirsche & Brownie. 5 Güsse für gleichmäßigere Extraktion & besseres Temperaturmanagement.",
+            },
+          },
+          {
+            id: "popayan_decaf",
+            name: "Popayan Reserve Decaf",
+            isDecaf: true,
+            processing: "Decaf",
+            shortDescription: "Süßes Zuckerrohr, Kakaonibs, Bergpfirsich, präsente Süße.",
+            mainImage: "https://placehold.co/600x400/c2410c/FFFFFF?text=Popayan+Decaf", // orange-600
+            colorAccent: "bg-orange-600", 
+            textColorAccent: "text-orange-700",
+            borderColorAccent: "border-orange-500",
+            bgColorAccentLight: "bg-orange-50",
+            details: { 
+              roesterei: "Kaffeekirsche",
+              sorte: "E.A. Decaf",
+              region: "Kolumbien, Popayan",
+              produzent: "Diverse Kleinbauern",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:15.0",
+              wasserGesamt: 240,
+              mahlgrad: 60,
+              rpm: 60,
+              aromaProfil: "Ein E.A. Decaf, der mit Noten von süßem Zuckerrohr, Kakaonibs und saftigem Bergpfirsich überzeugt. Er bietet einen fruchtbetonten Körper und eine präsente Süße. Ziel ist es, maximale Süße und klare Fruchtnoten zu extrahieren.",
+              aufgussStrategieText: "Eine sanfte 4-Phasen-Puls-Strategie. Statt eines großen Aufgusses sorgen drei kleinere Hauptgüsse für eine bessere Temperaturstabilität und gleichmäßigere Extraktion. Dies maximiert die Süße, ohne durch Agitation Bitterkeit zu provozieren.",
+              aufgussStrategiePunkte: ["4-Phasen-Strategie: Bessere Kontrolle als die 2-Phasen-Methode.","Drei sanfte Hauptgüsse: Maximieren die Süße und Klarheit.","Niedrige RPM und keine Vibration: Essentiell zur Vermeidung von Bitterkeit."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 93, durchfluss: 3.0, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 51, },
+                { phase: "Aufguss 2", menge: 64, temp: 93, durchfluss: 3.0, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 3", menge: 64, temp: 93, durchfluss: 3.0, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 4", menge: 64, temp: 92, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 21, },
+              ],
+              gesamtBruehzeit: "2:44",
+              anmerkungenTabelle: "Fokus: Maximale Süße & fruchtiger Körper. Überarbeitetes 4-Phasen-Rezept für mehr Gleichmäßigkeit und Temperaturstabilität.",
+            },
+          },
+          {
+            id: "kijani_kiboko_decaf",
+            name: "Kijani Kiboko Decaf",
+            isDecaf: true,
+            processing: "Decaf",
+            shortDescription: "Johannisbeere, Grapefruit, dunkle Trauben, seidiges Mundgefühl.",
+            mainImage: "https://placehold.co/600x400/d97706/FFFFFF?text=Kijani+Kiboko", // amber-600
+            colorAccent: "bg-amber-600",
+            textColorAccent: "text-amber-700",
+            borderColorAccent: "border-amber-500",
+            bgColorAccentLight: "bg-amber-50",
+            details: { 
+              roesterei: "19grams",
+              sorte: "CO₂ Decaf Filter",
+              region: "Kenia",
+              produzent: "Diverse Kooperativen",
+              wertung: 4,
+              menge: 16,
+              verhaeltnis: "1:15.5",
+              wasserGesamt: 248,
+              mahlgrad: 58,
+              rpm: 60,
+              aromaProfil: "Ein Kenia CO₂ Decaf mit Noten von schwarzer Johannisbeere, Grapefruit und dunklen Trauben. Er besitzt ein besonders seidiges Mundgefühl. Ziel ist es, die delikaten Fruchtnoten präzise herauszuarbeiten und ein geschmeidiges Mundgefühl zu entwickeln.",
+              aufgussStrategieText: "Eine sanfte 5-Phasen-Extraktion wird angestrebt. Spezifische Muster, ein fallendes Temperaturprofil und niedrigste RPM (60) sorgen für eine schonende Behandlung. Auf Vibration wird verzichtet, um die feinen Aromen und die Klarheit zu bewahren.",
+              aufgussStrategiePunkte: ["5-Phasen-Aufguss für maximale Kontrolle.","Fallendes Temperaturprofil (92°C auf 91°C) zur Balance von Frucht und Süße.","Keine Vibration zur Wahrung des seidigen Mundgefühls."],
+              brewSteps: [
+                { phase: "Blooming", menge: 48, temp: 92, durchfluss: 3.0, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Nein", dauer: 51, },
+                { phase: "Aufguss 2", menge: 50, temp: 93, durchfluss: 3.1, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 3", menge: 50, temp: 92, durchfluss: 3.1, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 4", menge: 50, temp: 92, durchfluss: 3.1, pause: 30, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein", dauer: 46, },
+                { phase: "Aufguss 5", menge: 50, temp: 91, durchfluss: 3.0, pause: 0, muster: "Zentral", vibVor: "Nein", vibNach: "Nein", dauer: 17, },
+              ],
+              gesamtBruehzeit: "3:26",
+              anmerkungenTabelle: "Fokus: Klare Kenia-Frucht, Süße & seidiges Mundgefühl. 5 Güsse für maximale Kontrolle und Aromaschutz.",
+            },
+          },
+        ];
+
+        // ### COMPONENTS ###
+        
+        const StarRating = ({ rating, total = 7, colorClass = 'text-amber-700' }) => {
+          const stars = [];
+          for (let i = 1; i <= total; i++) {
+            stars.push(React.createElement(StarIcon, { key: i, className: `w-5 h-5 ${colorClass}`, filled: i <= rating }));
+          }
+          return React.createElement("div", { className: "flex items-center space-x-0.5" }, ...stars);
+        };
+
+        const AccordionItem = ({ title, children, titleClassName, initiallyOpen = false }) => {
+            const [isOpen, setIsOpen] = useState(initiallyOpen);
+
+            return (
+                React.createElement("div", { className: "border-b border-stone-200" },
+                    React.createElement("button", {
+                        onClick: () => setIsOpen(!isOpen),
+                        className: `flex items-center justify-between w-full text-left py-4 focus:outline-none ${titleClassName}`
+                    },
+                        React.createElement("span", { className: "font-medium" }, title),
+                        React.createElement("span", { className: `transform transition-transform duration-300 ${isOpen ? "rotate-180" : ""}` },
+                            React.createElement(ChevronDownIcon, null)
+                        )
+                    ),
+                    React.createElement("div", { className: `grid-transition ${isOpen ? 'open' : ''}` },
+                        React.createElement("div", null,
+                          React.createElement("div", { className: "pb-6 pt-2 prose prose-stone max-w-none prose-strong:text-stone-800 prose-a:text-amber-700 hover:prose-a:text-amber-800 prose-ul:pl-5 prose-li:my-1" },
+                              children
+                          )
+                        )
+                    )
+                )
+            );
+        };
+        
+        const CollapsibleSection = ({ title, isOpen, onToggle, children }) => (
+          React.createElement("div", { className: "mb-10 bg-white rounded-lg shadow-sm p-4 sm:p-6" },
+            React.createElement("button", {
+              onClick: onToggle,
+              className: "flex items-center justify-between w-full text-left text-2xl font-serif text-stone-700 pb-4"
+            },
+              title,
+              React.createElement("span", { className: `transform transition-transform duration-300 ${isOpen ? "rotate-180" : ""}` },
+                React.createElement(ChevronDownIcon, { className: "w-6 h-6 text-stone-500" })
+              )
+            ),
+            React.createElement("div", { className: `grid-transition ${isOpen ? 'open' : ''}` },
+                React.createElement("div", null,
+                  React.createElement("div", { className: "pt-4 border-t border-stone-200" },
+                    children
+                  )
+                )
+            )
+          )
+        );
+        
+        // Main App Component
+        const App = () => {
+          const [selectedCoffee, setSelectedCoffee] = useState(null);
+          const [isInfoOpen, setIsInfoOpen] = useState(true); 
+          const [isCaffeinatedOpen, setIsCaffeinatedOpen] = useState(true);
+          const [isDecafOpen, setIsDecafOpen] = useState(true); 
+
+          const decafCoffees = coffeeData.filter((coffee) => coffee.isDecaf);
+          const caffeinatedCoffees = coffeeData.filter((coffee) => !coffee.isDecaf);
+
+          const groupedCaffeinatedCoffees = caffeinatedCoffees.reduce((acc, coffee) => {
+            const group = coffee.processing || 'Unbekannt';
+            if (!acc[group]) {
+              acc[group] = [];
+            }
+            acc[group].push(coffee);
+            return acc;
+          }, {});
+
+          const groupOrder = ['Washed', 'Natural', 'Anaerobic & Fermented'];
+
+          const openRecipeModal = (coffee) => {
+            setSelectedCoffee(coffee);
+            document.body.style.overflow = 'hidden';
+          };
+
+          const closeRecipeModal = () => {
+            setSelectedCoffee(null);
+            document.body.style.overflow = 'auto';
+          };
+
+          return (
+            React.createElement("div", { className: "min-h-screen bg-stone-100 text-stone-800 p-4 sm:p-8 lg:p-12 font-sans selection:bg-amber-200 selection:text-amber-900" },
+              React.createElement("header", { className: "text-center mb-16" },
+                React.createElement("h1", { className: "text-5xl lg:text-6xl font-serif font-medium text-stone-700" }, "Leon's xBloom Recipes"),
+                React.createElement("p", { className: "text-lg text-stone-500 mt-3" }, "Curated for Sweetness, Body & Clarity.")
+              ),
+
+              React.createElement("div", { className: "max-w-7xl mx-auto" },
+                React.createElement(CollapsibleSection, {
+                  title: "Brühphilosophie & xBloom Guide",
+                  isOpen: isInfoOpen,
+                  onToggle: () => setIsInfoOpen(!isInfoOpen)
+                },
+                  React.createElement(AccordionItem, { title: "1. Zielsetzung & Grundlagen der Extraktion", titleClassName: "text-xl text-stone-700 font-serif", initiallyOpen: true },
+                      React.createElement("p", null, "Diese Rezepte zielen darauf ab, das Geschmackspotenzial von Kaffeesorten durch die präzise Steuerung der xBloom-Parameter zu maximieren. Wir fokussieren uns auf die drei zentralen Geschmacksdimensionen:"),
+                      React.createElement("ul", null,
+                          React.createElement("li", null, React.createElement("strong", null, "Süße:"), " Entsteht durch den Abbau von komplexen Kohlenhydraten. Sie wird typischerweise im mittleren bis späten Teil der Extraktion gelöst."),
+                          React.createElement("li", null, React.createElement("strong", null, "Fruchtigkeit/Säure:"), " Stammt von organischen Säuren in der Bohne. Diese lösen sich sehr früh und schnell im Brühprozess."),
+                          React.createElement("li", null, React.createElement("strong", null, "Körper/Mundgefühl:"), " Wird durch Öle und ungelöste Feststoffe (Kolloide) erzeugt. Diese benötigen mehr Zeit und Energie (Temperatur) zur Extraktion.")
+                      ),
+                      React.createElement("p", null, "Eine gute Extraktion balanciert diese drei Dimensionen aus, um eine komplexe, aber harmonische Tasse zu erzeugen. Die folgenden Parameter sind unsere Werkzeuge, um dieses Gleichgewicht zu steuern.")
+                  ),
+                  React.createElement(AccordionItem, { title: "2. Die xBloom-Parameter im Detail", titleClassName: "text-xl text-stone-700 font-serif" },
+                      React.createElement("div", { className: "pl-4 border-l-2 border-stone-200 space-y-2" },
+                          React.createElement(AccordionItem, { title: "Mahlgrad", titleClassName: "text-lg text-stone-600" },
+                              React.createElement("p", null, "Der Mahlgrad ist der ", React.createElement("strong", null, "wichtigste Hebel"), " zur Steuerung der Extraktion. Er bestimmt die Oberfläche des Kaffeemehls und damit, wie schnell Aromen extrahiert werden."),
+                              React.createElement("ul", null,
+                                  React.createElement("li", null, React.createElement("strong", null, "Feinerer Mahlgrad:"), " Mehr Oberfläche, höherer Widerstand für das Wasser. Führt zu einer langsameren, intensiveren Extraktion. Zu fein: Überextraktion (bitter, trocken, adstringierend)."),
+                                  React.createElement("li", null, React.createElement("strong", null, "Gröberer Mahlgrad:"), " Weniger Oberfläche, geringerer Widerstand. Führt zu einer schnelleren, weniger intensiven Extraktion. Zu grob: Unterextraktion (sauer, wässrig, leer).")
+                              ),
+                              React.createElement("p", null, React.createElement("strong", null, "Die xBloom-Skala:"), " Das xBloom Studio verwendet eine numerische Skala von ", React.createElement("strong", null, "1 (sehr fein)"), " bis ", React.createElement("strong", null, "80 (sehr grob)"), ". Für Filterkaffee bewegen sich die meisten Rezepte in einem Bereich von ca. ", React.createElement("strong", null, "400 bis 900 Mikron"), ", was auf der xBloom-Skala typischerweise Einstellungen zwischen ", React.createElement("strong", null, "30 und 65"), " entspricht."),
+                              React.createElement("p", null, React.createElement("strong", null, "Praxistipp:"), " Passen Sie immer zuerst den Mahlgrad an. Eine Änderung von 1-2 Klicks in der xBloom-App kann bereits einen deutlichen Unterschied machen.")
+                          ),
+                          React.createElement(AccordionItem, { title: "Brühverhältnis & Wassermenge", titleClassName: "text-lg text-stone-600" },
+                               React.createElement("p", null, "Das Brühverhältnis (Ratio) beschreibt das Verhältnis von Kaffeemehl zu Wasser (z.B. 1:16 bedeutet 1g Kaffee auf 16ml Wasser)."),
+                              React.createElement("ul", null,
+                                  React.createElement("li", null, React.createElement("strong", null, "Engeres Verhältnis (z.B. 1:14):"), " Konzentrierter, kräftigerer Kaffee mit mehr Körper. Gefahr der Unterextraktion, da weniger Wasser zur Verfügung steht, um alle Aromen zu lösen."),
+                                  React.createElement("li", null, React.createElement("strong", null, "Weiteres Verhältnis (z.B. 1:17):"), " Leichterer, oft klarerer Kaffee mit mehr betonten floralen oder fruchtigen Noten. Gefahr der Überextraktion, da mehr Wasser mehr Aromen (auch unerwünschte) lösen kann.")
+                              ),
+                              React.createElement("p", null, React.createElement("strong", null, "Hinweis zur App:"), " Die xBloom-App erlaubt die Einstellung des Verhältnisses nur in ", React.createElement("strong", null, "0.5er-Schritten"), ". Die Rezepte hier sind auf diese Limitierung abgestimmt.")
+                          ),
+                           React.createElement(AccordionItem, { title: "Temperatur", titleClassName: "text-lg text-stone-600" },
+                              React.createElement("p", null, "Die Wassertemperatur beeinflusst, welche Verbindungen wie schnell aus dem Kaffee gelöst werden. Die xBloom App erlaubt phasenweise Temperatursteuerung (bis 95°C)."),
+                              React.createElement("ul", null,
+                                React.createElement("li", null, React.createElement("strong", null, "Höhere Temperaturen (92-95°C):"), " Lösen Aromen schneller und effizienter, betonen oft Säuren und Fruchtigkeit. Ideal für hell geröstete oder dichte Bohnen. Zu heiß kann zu Bitterkeit führen."),
+                                React.createElement("li", null, React.createElement("strong", null, "Niedrigere Temperaturen (88-91°C):"), " Extrahieren sanfter und langsamer, betonen oft Süße und Körper und reduzieren Bitterkeit. Ideal für dunklere Röstungen oder um empfindliche Aromen zu schützen.")
+                              ),
+                              React.createElement("p", null, React.createElement("strong", null, "Strategie:"), " Viele Rezepte nutzen ein fallendes Temperaturprofil: Heißer Start für Fruchtigkeit, gefolgt von kühleren Güssen, um Süße zu entwickeln und Bitterkeit am Ende zu vermeiden.")
+                          ),
+                           React.createElement(AccordionItem, { title: "Aufgussstrategie (Güsse, Fluss, Muster & Pausen)", titleClassName: "text-lg text-stone-600" },
+                              React.createElement("p", null, "Die Art, wie das Wasser auf das Kaffeebett trifft, ist entscheidend."),
+                              React.createElement("ul", null,
+                                React.createElement("li", null, React.createElement("strong", null, "Anzahl der Güsse:"), " Mehrere kleine Güsse (z.B. 4-5) halten das Temperaturniveau stabiler und erlauben eine kontrolliertere Extraktion als ein einziger großer Guss."),
+                                React.createElement("li", null, React.createElement("strong", null, "Flussgeschwindigkeit:"), " In der App einstellbar von ", React.createElement("strong", null, "3.0 bis 3.5 ml/s"), " in 0.1er-Schritten. Eine höhere Flussrate erhöht die Agitation (Verwirbelung) des Kaffeebetts, was die Extraktion beschleunigt, aber auch das Risiko von Channeling erhöht. Eine niedrigere Rate ist sanfter und fördert eine gleichmäßigere Extraktion."),
+                                 React.createElement("li", null, React.createElement("strong", null, "Aufgussmuster:"),
+                                    React.createElement("ul", null,
+                                        React.createElement("li", null, React.createElement("strong", null, "Spiralförmig:"), " Das Wasser wird in einer kontinuierlichen Spirale von innen nach außen (oder umgekehrt) verteilt. Dies sorgt für eine sehr gleichmäßige Benetzung der gesamten Oberfläche und eine moderate Agitation. Ideal für die meisten Aufgüsse."),
+                                        React.createElement("li", null, React.createElement("strong", null, "Kreisförmig:"), " Das Wasser wird in konzentrischen Kreisen auf das Kaffeebett gegeben. Dies führt zu einer etwas geringeren Agitation im Vergleich zur Spirale und ist sehr gut geeignet, um das Kaffeebett sanft zu sättigen, z.B. während des Bloomings."),
+                                        React.createElement("li", null, React.createElement("strong", null, "Zentral:"), " Fokussiert den Wasserstrahl in der Mitte. Minimale Agitation, ideal für den letzten Guss, um die Extraktion sanft ausklingen zu lassen und den Körper zu finalisieren, ohne Bitterstoffe zu extrahieren.")
+                                    )
+                                ),
+                                React.createElement("li", null, React.createElement("strong", null, "Pausen:"), " Längere Pausen zwischen den Güssen lassen das Wasser komplett durchlaufen (\"Drain Time\"), was zu mehr Klarheit führen kann. Kürzere Pausen halten das Bett gesättigter und fördern eine höhere Extraktion.")
+                              )
+                          ),
+                          React.createElement(AccordionItem, { title: "Mahlwerk-Drehzahl (RPM) & Vibration", titleClassName: "text-lg text-stone-600" },
+                               React.createElement("p", null, "Zwei spezielle xBloom-Funktionen zur Feinabstimmung."),
+                               React.createElement("ul", null,
+                                   React.createElement("li", null, React.createElement("strong", null, "RPM (Umdrehungen pro Minute):"), " Steuert die Geschwindigkeit des Mahlwerks (60-120 RPM).",
+                                      React.createElement("ul", null,
+                                        React.createElement("li", null, React.createElement("strong", null, "Niedrigere RPM (60-70):"), " Produziert weniger Feinstpartikel (\"Fines\"). Das Ergebnis ist oft eine klarere, süßere Tasse mit weniger Bitterkeit, da Fines schnell überextrahieren. Empfohlen für die meisten Filterkaffees."),
+                                        React.createElement("li", null, React.createElement("strong", null, "Höhere RPM (>80):"), " Kann bei sehr harten, hellen Bohnen helfen, diese effizient zu mahlen, erhöht aber das Risiko von Fines.")
+                                      )
+                                   ),
+                                   React.createElement("li", null, React.createElement("strong", null, "Vibration:"), " Ein An/Aus-Schalter, der das Filterbett durchrüttelt.",
+                                       React.createElement("ul", null,
+                                           React.createElement("li", null, React.createElement("strong", null, "Vorteil:"), " Kann ein unebenes Kaffeebett nach dem Blooming einebnen."),
+                                           React.createElement("li", null, React.createElement("strong", null, "Risiko:"), " Kann Feinstpartikel zum Filterboden spülen, was zu Verstopfung und ungleichmäßiger Extraktion führt."),
+                                           React.createElement("li", null, React.createElement("strong", null, "Empfehlung:"), " Sehr zurückhaltend einsetzen. In den meisten Rezepten wird darauf verzichtet, um die Klarheit zu maximieren.")
+                                       )
+                                   )
+                               )
+                          )
+                      )
+                  ),
+                  React.createElement(AccordionItem, { title: "3. Anleitung zur Rezept-Anpassung (Dial-In Guide)", titleClassName: "text-xl text-stone-700 font-serif" },
+                      React.createElement("p", null, "Ein Rezept ist ein optimierter Startpunkt, aber jeder Kaffee ist einzigartig. Bohnenalter, Wasserhärte und persönlicher Geschmack machen eine Feinabstimmung – das \"Dial-In\" – unerlässlich. Hier ist eine systematische Anleitung, um das Beste aus jeder Bohne herauszuholen."),
+    
+                      React.createElement("h4", { className: "font-serif text-lg font-semibold mt-4 mb-2 text-stone-700" }, "Schritt 1: Der Referenz-Brühvorgang"),
+                      React.createElement("p", null, "Brühen Sie den Kaffee zunächst exakt nach Rezept, um einen Geschmacks-Referenzpunkt zu erhalten. Schmecken Sie bewusst und versuchen Sie, das Ergebnis einzuordnen."),
+                      
+                      React.createElement("h4", { className: "font-serif text-lg font-semibold mt-4 mb-2 text-stone-700" }, "Schritt 2: Geschmack analysieren & Problem identifizieren"),
+                      React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4 my-4" },
+                          React.createElement("div", { className: "bg-stone-50 p-3 rounded-md border-l-4 border-red-400" },
+                              React.createElement("strong", { className: "text-red-700" }, "Problem: Sauer / Unangenehm spitz"), React.createElement("br", null),
+                              React.createElement("span", { className: "text-sm" }, "Schmeckt wie unreife Zitrone, grasig. Fühlt sich im Mund wässrig an."), React.createElement("br", null),
+                              React.createElement("span", { className: "text-sm" }, React.createElement("strong", null, "Diagnose:"), " Unterextraktion.")
+                          ),
+                          React.createElement("div", { className: "bg-stone-50 p-3 rounded-md border-l-4 border-blue-400" },
+                              React.createElement("strong", { className: "text-blue-700" }, "Problem: Bitter / Trocken / Adstringierend"), React.createElement("br", null),
+                              React.createElement("span", { className: "text-sm" }, "Hinterlässt ein trockenes, pelziges Gefühl auf der Zunge (wie bei starkem Schwarztee)."), React.createElement("br", null),
+                              React.createElement("span", { className: "text-sm" }, React.createElement("strong", null, "Diagnose:"), " Überextraktion.")
+                          )
+                      ),
+
+                      React.createElement("h4", { className: "font-serif text-lg font-semibold mt-4 mb-2 text-stone-700" }, "Schritt 3: Anpassung der primären Variable: Mahlgrad"),
+                      React.createElement("p", null, "Der Mahlgrad ist Ihr mächtigstes Werkzeug. Er hat den größten Einfluss auf die Extraktionszeit und damit auf das Geschmacksergebnis."),
+                      React.createElement("ul", null,
+                          React.createElement("li", null, React.createElement("strong", null, "Bei saurem Geschmack → feiner mahlen."), " Machen Sie kleine Schritte (z.B. 1-2 Klicks auf der xBloom-Skala). Dadurch erhöht sich die Kontaktzeit des Wassers mit dem Kaffee und es werden mehr süße Verbindungen gelöst."),
+                          React.createElement("li", null, React.createElement("strong", null, "Bei bitterem Geschmack → gröber mahlen."), " Dies verkürzt die Kontaktzeit und verhindert, dass zu viele bitter schmeckende Stoffe extrahiert werden.")
+                      ),
+                      React.createElement("p", null, "Wiederholen Sie diesen Schritt, bis weder eine dominante Säure noch Bitterkeit vorhanden ist. Erst dann sind Sie im richtigen \"Fenster\" für die Feinabstimmung."),
+
+                      React.createElement("h4", { className: "font-serif text-lg font-semibold mt-4 mb-2 text-stone-700" }, "Schritt 4: Feinabstimmung mit sekundären Variablen"),
+                      React.createElement("p", null, "Sobald der Mahlgrad passt, können Sie den Charakter des Kaffees mit diesen Hebeln verfeinern:"),
+                      React.createElement("ul", null,
+                          React.createElement("li", null, React.createElement("strong", null, "Für mehr Süße und Körper:"),
+                              React.createElement("ul", null,
+                                  React.createElement("li", null, "Senken Sie die Temperatur der letzten 1-2 Aufgüsse um 1-2°C."),
+                                  React.createElement("li", null, "Verwenden Sie ein leicht engeres Brühverhältnis (z.B. von 1:16 auf 1:15.5).")
+                              )
+                          ),
+                          React.createElement("li", null, React.createElement("strong", null, "Für mehr Klarheit und betonte Fruchtnoten:"),
+                              React.createElement("ul", null,
+                                  React.createElement("li", null, "Erhöhen Sie die Temperatur des ersten Hauptgusses (nach dem Blooming) um 1-2°C."),
+                                  React.createElement("li", null, "Verlängern Sie die Pausenzeiten zwischen den Güssen um 5-10 Sekunden, um eine bessere Trennung der Extraktionsphasen zu erreichen.")
+                              )
+                          )
+                      ),
+
+                      React.createElement("h4", { className: "font-serif text-lg font-semibold mt-4 mb-2 text-stone-700" }, "Spezialfall: \"Sauer und bitter zugleich\""),
+                      React.createElement("p", null, "Dieser widersprüchliche Geschmack deutet fast immer auf eine ", React.createElement("strong", null, "ungleichmäßige Extraktion (Channeling)"), " hin. Das Wasser fließt durch Kanäle im Kaffeebett zu schnell (extrahiert sauer), während es an anderen Stellen fast stillsteht (extrahiert bitter). Auch wenn die xBloom dies minimiert, können Sie Folgendes versuchen:"),
+                      React.createElement("ul", null,
+                          React.createElement("li", null, "Mahlen Sie deutlich ", React.createElement("strong", null, "gröber"), ", um den Wasserfluss zu erleichtern."),
+                          React.createElement("li", null, "Kompensieren Sie den gröberen Mahlgrad, indem Sie die ", React.createElement("strong", null, "Temperatur leicht erhöhen"), " oder die Gesamt-Wassermenge etwas steigern (z.B. von 1:16 auf 1:16.5).")
+                      ),
+                      
+                      React.createElement("p", { className: "mt-6 border-t border-stone-200 pt-4" }, React.createElement("strong", null, "Goldene Regel:"), " Ändern Sie immer nur ", React.createElement("strong", null, "einen Parameter"), " auf einmal und brühen Sie erneut. Nur so können Sie die Auswirkung Ihrer Anpassung klar beurteilen und sich schrittweise dem perfekten Geschmack nähern.")
+                  )
+                ),
+                
+                React.createElement(CollapsibleSection, {
+                  title: "Signature Coffees",
+                  isOpen: isCaffeinatedOpen,
+                  onToggle: () => setIsCaffeinatedOpen(!isCaffeinatedOpen)
+                },
+                  groupOrder.map(group => (
+                    groupedCaffeinatedCoffees[group] && (
+                      React.createElement("div", { key: group },
+                        React.createElement("h4", { className: "text-2xl font-serif text-stone-600 border-b border-stone-300 pb-2 mb-6" }, group),
+                        React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-12" },
+                          groupedCaffeinatedCoffees[group].map(coffee => (
+                            React.createElement(CoffeeCard, {
+                              key: coffee.id,
+                              coffee: coffee,
+                              onSelect: openRecipeModal
+                            })
+                          ))
+                        )
+                      )
+                    )
+                  ))
+                ),
+
+                React.createElement(CollapsibleSection, {
+                  title: "Decaf Selections",
+                  isOpen: isDecafOpen,
+                  onToggle: () => setIsDecafOpen(!isDecafOpen)
+                },
+                   React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10" },
+                    decafCoffees.map((coffee) => (
+                      React.createElement(CoffeeCard, {
+                        key: coffee.id,
+                        coffee: coffee,
+                        onSelect: openRecipeModal
+                      })
+                    ))
+                  )
+                )
+              ),
+
+              selectedCoffee && (
+                React.createElement(RecipeModal, {
+                  coffee: selectedCoffee,
+                  onClose: closeRecipeModal
+                })
+              ),
+             
+              React.createElement("footer", { className: "text-center mt-20 py-10 border-t border-stone-300" },
+                React.createElement("p", { className: "text-stone-500 text-sm" },
+                  `© ${new Date().getFullYear()} Leon Filla. `,
+                  React.createElement("span", { className: "block sm:inline" }, " All rights reserved.")
+                ),
+                React.createElement("p", { className: "text-stone-400 text-xs mt-1" },
+                  "Coffee recipes optimized for the xBloom Studio."
+                )
+              )
+            )
+          );
+        };
+        
+        // Coffee Card Component
+        const CoffeeCard = ({
+          coffee,
+          onSelect,
+        }) => {
+          const colorAccent = coffee.colorAccent || 'bg-amber-600';
+          const textColorAccent = coffee.textColorAccent || 'text-stone-800';
+          
+          return (
+            React.createElement("div", {
+              className: "bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col overflow-hidden border border-stone-200 group"
+            },
+              React.createElement("div", { className: "relative overflow-hidden" },
+                React.createElement("img", {
+                  src: coffee.mainImage,
+                  alt: `[Bild von ${coffee.name}]`,
+                  className: "w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300",
+                  onError: (e) => {
+                    e.target.onerror = null;
+                    e.target.src = "https://placehold.co/600x400/E0E0E0/9E9E9E?text=Bild+Ladefehler"; 
+                  }
+                }),
+                React.createElement("div", { className: `absolute top-0 left-0 h-1.5 w-full ${colorAccent}` })
+              ),
+              
+              React.createElement("div", { className: "p-5 flex flex-col flex-grow" },
+                React.createElement("h3", { className: `text-xl font-serif font-medium ${textColorAccent} mb-2` },
+                  coffee.name
+                ),
+                React.createElement("p", { className: "text-stone-600 text-sm mb-4 flex-grow leading-relaxed" },
+                  coffee.shortDescription
+                ),
+                
+                 React.createElement("div", { className: "flex justify-center mb-4" },
+                    React.createElement(StarRating, { rating: coffee.details.wertung, colorClass: textColorAccent })
+                ),
+                
+                React.createElement("div", { className: "space-y-2 text-xs text-stone-500 border-t border-stone-200 pt-4 mt-auto" },
+                    React.createElement("p", null, React.createElement("strong", null, "Rösterei:"), " ", coffee.details.roesterei),
+                    React.createElement("p", null, React.createElement("strong", null, "Produzent:"), " ", coffee.details.produzent || 'N/A'),
+                    React.createElement("p", null, React.createElement("strong", null, "Region:"), " ", coffee.details.region || 'N/A'),
+                    React.createElement("p", null, React.createElement("strong", null, "Sorte:"), " ", coffee.details.sorte)
+                ),
+
+                React.createElement("div", { className: "mt-5" },
+                  React.createElement("button", {
+                    onClick: () => onSelect(coffee),
+                    className: `${colorAccent} text-white w-full py-2.5 px-4 rounded-md text-sm font-semibold hover:opacity-85 transition-opacity shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500 flex items-center justify-center`
+                  },
+                    "Rezept ansehen"
+                  )
+                )
+              )
+            )
+          );
+        };
+        
+        // Recipe Modal Component
+        const RecipeModal = ({
+          coffee,
+          onClose,
+        }) => {
+          if (!coffee) return null;
+
+          const getVibrationText = (step) => {
+            if (String(step.vibVor).toLowerCase() === "ja") return 'Davor';
+            if (String(step.vibNach).toLowerCase() === "ja") return 'Danach';
+            return 'Nein';
+          };
+
+          const textColorAccent = coffee.textColorAccent || 'text-amber-800';
+          const bgColorAccentLight = coffee.bgColorAccentLight || 'bg-amber-50';
+          const borderColorAccent = coffee.borderColorAccent || 'border-amber-500';
+
+          return (
+            React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-start py-6 sm:py-10 px-4 z-40 transition-opacity duration-300 ease-in-out overflow-y-auto" },
+              React.createElement("div", { className: "bg-white p-0 rounded-lg shadow-2xl w-full max-w-4xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto relative font-sans text-stone-800" },
+                React.createElement("button", {
+                  onClick: onClose,
+                  className: "absolute top-4 right-4 text-stone-400 hover:text-stone-700 text-3xl font-light transition-colors z-10 focus:outline-none focus:ring-2 focus:ring-stone-400 rounded-full",
+                  "aria-label": "Schließen"
+                }, "×"),
+                
+                React.createElement("div", { className: `p-5 sm:p-6 rounded-t-lg ${bgColorAccentLight} border-b-4 ${borderColorAccent}` },
+                    React.createElement("h3", { className: "text-xl sm:text-2xl font-serif font-semibold text-stone-800" }, coffee.details.region),
+                    React.createElement("p", { className: `text-sm sm:text-base font-medium ${textColorAccent}` }, coffee.details.sorte)
+                ),
+
+                React.createElement("div", { className: "p-6 sm:p-8" },
+                    React.createElement("div", { className: "mb-6" },
+                        React.createElement("h2", { className: `text-3xl sm:text-4xl font-serif font-medium ${textColorAccent}` },
+                          coffee.name
+                        ),
+                        React.createElement("p", { className: "text-stone-500 text-lg" }, "von ", React.createElement("strong", null, coffee.details.roesterei)),
+                         React.createElement("div", { className: "mt-4" },
+                            React.createElement(StarRating, { rating: coffee.details.wertung, total: 7, colorClass: textColorAccent })
+                        )
+                    ),
+
+                    React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6" },
+                        React.createElement("div", null,
+                            React.createElement("div", { className: `p-4 sm:p-5 rounded-md mb-6 ${bgColorAccentLight} border-l-4 ${borderColorAccent}` },
+                              React.createElement("h4", { className: `text-lg font-serif font-medium ${textColorAccent} mb-1.5` }, "Aromaprofil & Zielsetzung"),
+                              React.createElement("p", { className: "text-stone-700 text-sm leading-relaxed" }, coffee.details.aromaProfil)
+                            ),
+                            
+                            React.createElement("div", { className: `p-4 sm:p-5 rounded-md ${bgColorAccentLight} border-l-4 ${borderColorAccent}` },
+                              React.createElement("h4", { className: `text-lg font-serif font-medium ${textColorAccent} mb-1.5` }, "Erläuterung der Strategie"),
+                              React.createElement("p", { className: "text-stone-700 text-sm leading-relaxed mb-2" }, coffee.details.aufgussStrategieText),
+                              coffee.details.aufgussStrategiePunkte?.length > 0 && (
+                                React.createElement("ul", { className: "list-disc list-inside text-sm text-stone-700 space-y-0.5 pl-1 leading-relaxed" },
+                                  coffee.details.aufgussStrategiePunkte.map((punkt, i) => React.createElement("li", { key: i }, punkt))
+                                )
+                              )
+                            )
+                        ),
+
+                        React.createElement("div", null,
+                            React.createElement("h4", { className: `text-lg font-serif font-medium ${textColorAccent} mb-3` }, "Brühparameter (xBloom App)"),
+                            React.createElement("div", { className: "mb-6 bg-stone-50 p-4 rounded-md border border-stone-200" },
+                              React.createElement("div", { className: "grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-sm text-stone-700" },
+                                React.createElement("p", null, React.createElement("strong", null, "Kaffeemenge:"), " ", coffee.details.menge, "g"),
+                                React.createElement("p", null, React.createElement("strong", null, "Gesamtwasser:"), " ", coffee.details.wasserGesamt, "ml"),
+                                React.createElement("p", null, React.createElement("strong", null, "Verhältnis:"), " ", coffee.details.verhaeltnis),
+                                React.createElement("p", null, React.createElement("strong", null, "Mahlgrad:"), " ", coffee.details.mahlgrad),
+                                React.createElement("p", null, React.createElement("strong", null, "RPM:"), " ", coffee.details.rpm),
+                                React.createElement("p", null, React.createElement("strong", null, "Brühzeit:"), " ", coffee.details.gesamtBruehzeit)
+                              )
+                            ),
+
+                            React.createElement("div", { className: "space-y-2 text-sm" },
+                              coffee.details.brewSteps.map((step, index) => {
+                                return (
+                                  React.createElement("div", { key: index, className: "grid grid-cols-9 gap-x-4 items-center p-2 rounded-md hover:bg-stone-50 transition-colors" },
+                                    React.createElement("p", { className: `col-span-2 font-semibold ${textColorAccent}` }, step.phase),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, step.menge, "ml"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, step.temp, "°C"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, step.durchfluss, "ml/s"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, step.pause, "s"),
+                                    React.createElement("p", { className: "col-span-2 text-center" }, step.muster),
+                                    React.createElement("p", { className: `col-span-1 text-center font-medium ${getVibrationText(step) !== 'Nein' ? textColorAccent : 'text-stone-400'}` }, getVibrationText(step))
+                                  )
+                                );
+                              }),
+                               React.createElement("div", { className: "grid grid-cols-9 gap-x-4 items-center p-2 text-xs text-stone-400 border-t border-stone-200 mt-2 pt-2" },
+                                    React.createElement("p", { className: "col-span-2" }),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, "Menge"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, "Temp"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, "Fluss"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, "Pause"),
+                                    React.createElement("p", { className: "col-span-2 text-center" }, "Muster"),
+                                    React.createElement("p", { className: "col-span-1 text-center" }, "Vibration")
+                                )
+                            )
+                        )
+                    ),
+
+                    React.createElement("p", { className: "text-xs text-stone-500 mt-8 mb-6 italic text-center border-t border-stone-200 pt-4" }, "Hinweis: ", coffee.details.anmerkungenTabelle),
+
+                    React.createElement("div", { className: "mt-8 pt-5 border-t border-stone-200 flex justify-end" },
+                      React.createElement("button", {
+                        onClick: onClose,
+                        className: "bg-stone-200 text-stone-700 py-2.5 px-8 rounded-md hover:bg-stone-300 transition-colors text-sm font-medium shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2"
+                      },
+                        "Schließen"
+                      )
+                    )
+                )
+              )
+            )
+          );
+        };
+        
+        // Render the React app into the 'root' div.
+        ReactDOM.render(React.createElement(App), document.getElementById('root'));
+
+    </script>
+</body>
+</html>
