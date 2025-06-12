@@ -86,7 +86,7 @@
               sorte: "Anaerobic Natural",
               region: "Indonesien, Sumatra",
               produzent: "Rukun Saudara Coop.",
-              wertung: 4,
+              wertung: 8, // Updated rating
               menge: 15,
               verhaeltnis: "1:16.5", 
               wasserGesamt: 248,      
@@ -122,7 +122,7 @@
               sorte: "Red Honey",
               region: "Mexiko, Oaxaca",
               produzent: "Joven Macario",
-              wertung: 4,
+              wertung: 8, // Updated rating
               menge: 15,
               verhaeltnis: "1:16.5",
               wasserGesamt: 248,
@@ -158,7 +158,7 @@
               sorte: "Washed Filter",
               region: "Kolumbien, Huila",
               produzent: "Diverse Kleinbauern",
-              wertung: 4,
+              wertung: 9, // Updated rating
               menge: 16,
               verhaeltnis: "1:15.5",
               wasserGesamt: 248,
@@ -194,7 +194,7 @@
               sorte: "Washed Doppel-Fermentiert",
               region: "Kenia, Nyeri",
               produzent: "Githima Factory",
-              wertung: 4,
+              wertung: 9, // Updated rating
               menge: 16,
               verhaeltnis: "1:16.0",
               wasserGesamt: 256,
@@ -230,7 +230,7 @@
               sorte: "Natural Omniroast",
               region: "Äthiopien, Guji",
               produzent: "Uraga Raro Boda",
-              wertung: 4,
+              wertung: 9, // Updated rating
               menge: 16,
               verhaeltnis: "1:16.0",
               wasserGesamt: 256,
@@ -266,7 +266,7 @@
               sorte: "120h Anaerobic Natural", 
               region: "Ruanda, Karongi", 
               produzent: "Uzziel Habimana", 
-              wertung: 4,
+              wertung: 10, // Updated rating
               menge: 16,
               verhaeltnis: "1:16.5",
               wasserGesamt: 264,
@@ -302,7 +302,7 @@
               sorte: "Red Bourbon (Natural)",
               region: "Ruanda, Huye District", 
               produzent: "David Rubanzangabo", 
-              wertung: 4,
+              wertung: 8, // Updated rating
               menge: 16,
               verhaeltnis: "1:16.0",
               wasserGesamt: 256,
@@ -338,7 +338,7 @@
               sorte: "Mountain Water Decaf",
               region: "Mexiko, Oaxaca",
               produzent: "Diverse Kleinbauern",
-              wertung: 4,
+              wertung: 7, // Updated rating
               menge: 16,
               verhaeltnis: "1:15.5",
               wasserGesamt: 248,
@@ -374,7 +374,7 @@
               sorte: "E.A. Decaf",
               region: "Kolumbien, Popayan",
               produzent: "Diverse Kleinbauern",
-              wertung: 4,
+              wertung: 7, // Updated rating
               menge: 16,
               verhaeltnis: "1:15.0",
               wasserGesamt: 240,
@@ -409,7 +409,7 @@
               sorte: "CO₂ Decaf Filter",
               region: "Kenia",
               produzent: "Diverse Kooperativen",
-              wertung: 4,
+              wertung: 8, // Updated rating
               menge: 16,
               verhaeltnis: "1:15.5",
               wasserGesamt: 248,
@@ -433,7 +433,7 @@
 
         // ### COMPONENTS ###
         
-        const StarRating = ({ rating, total = 7, colorClass = 'text-amber-700' }) => {
+        const StarRating = ({ rating, total = 10, colorClass = 'text-amber-700' }) => {
           const stars = [];
           for (let i = 1; i <= total; i++) {
             stars.push(React.createElement(StarIcon, { key: i, className: `w-5 h-5 ${colorClass}`, filled: i <= rating }));
@@ -750,7 +750,7 @@
                 ),
                 
                  React.createElement("div", { className: "flex justify-center mb-4" },
-                    React.createElement(StarRating, { rating: coffee.details.wertung, colorClass: textColorAccent })
+                    React.createElement(StarRating, { rating: coffee.details.wertung, total: 10, colorClass: textColorAccent })
                 ),
                 
                 React.createElement("div", { className: "space-y-2 text-xs text-stone-500 border-t border-stone-200 pt-4 mt-auto" },
@@ -811,7 +811,7 @@
                         ),
                         React.createElement("p", { className: "text-stone-500 text-lg" }, "von ", React.createElement("strong", null, coffee.details.roesterei)),
                          React.createElement("div", { className: "mt-4" },
-                            React.createElement(StarRating, { rating: coffee.details.wertung, total: 7, colorClass: textColorAccent })
+                            React.createElement(StarRating, { rating: coffee.details.wertung, total: 10, colorClass: textColorAccent })
                         )
                     ),
 
@@ -845,31 +845,48 @@
                                 React.createElement("p", null, React.createElement("strong", null, "Brühzeit:"), " ", coffee.details.gesamtBruehzeit)
                               )
                             ),
-
-                            React.createElement("div", { className: "space-y-2 text-sm" },
-                              coffee.details.brewSteps.map((step, index) => {
-                                return (
-                                  React.createElement("div", { key: index, className: "grid grid-cols-9 gap-x-4 items-center p-2 rounded-md hover:bg-stone-50 transition-colors" },
-                                    React.createElement("p", { className: `col-span-2 font-semibold ${textColorAccent}` }, step.phase),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, step.menge, "ml"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, step.temp, "°C"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, step.durchfluss, "ml/s"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, step.pause, "s"),
-                                    React.createElement("p", { className: "col-span-2 text-center" }, step.muster),
-                                    React.createElement("p", { className: `col-span-1 text-center font-medium ${getVibrationText(step) !== 'Nein' ? textColorAccent : 'text-stone-400'}` }, getVibrationText(step))
-                                  )
-                                );
-                              }),
-                               React.createElement("div", { className: "grid grid-cols-9 gap-x-4 items-center p-2 text-xs text-stone-400 border-t border-stone-200 mt-2 pt-2" },
-                                    React.createElement("p", { className: "col-span-2" }),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, "Menge"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, "Temp"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, "Fluss"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, "Pause"),
-                                    React.createElement("p", { className: "col-span-2 text-center" }, "Muster"),
-                                    React.createElement("p", { className: "col-span-1 text-center" }, "Vibration")
+                            
+                            // ### START: Responsive Brew Steps Table ###
+                            React.createElement("div", { className: "w-full" },
+                                // Desktop Header (hidden on mobile)
+                                React.createElement("div", { className: "hidden md:grid grid-cols-9 gap-x-4 items-center p-2 text-xs text-stone-400 border-b border-stone-200" },
+                                    React.createElement("p", { className: "col-span-2 font-medium" }, "Phase"),
+                                    React.createElement("p", { className: "col-span-1 text-center font-medium" }, "Menge"),
+                                    React.createElement("p", { className: "col-span-1 text-center font-medium" }, "Temp"),
+                                    React.createElement("p", { className: "col-span-1 text-center font-medium" }, "Fluss"),
+                                    React.createElement("p", { className: "col-span-1 text-center font-medium" }, "Pause"),
+                                    React.createElement("p", { className: "col-span-2 text-center font-medium" }, "Muster"),
+                                    React.createElement("p", { className: "col-span-1 text-center font-medium" }, "Vibration")
+                                ),
+                                // Brew step rows
+                                React.createElement("div", { className: "space-y-2 md:space-y-0" },
+                                  coffee.details.brewSteps.map((step, index) => {
+                                    return (
+                                      React.createElement("div", { key: index, className: "md:grid md:grid-cols-9 md:gap-x-4 md:items-center text-sm p-3 md:p-2 rounded-lg bg-stone-50 md:bg-transparent md:border-b md:border-stone-200" },
+                                        // -- Desktop & Mobile: Phase --
+                                        React.createElement("p", { className: `col-span-2 font-semibold ${textColorAccent} text-base md:text-sm mb-2 md:mb-0` }, step.phase),
+                                        
+                                        // -- Grouping for remaining items for flex layout on mobile --
+                                        React.createElement("div", {className: "col-span-7 grid grid-cols-2 gap-x-6 md:grid-cols-7 md:gap-x-4 gap-y-1" },
+                                            // -- Menge --
+                                            React.createElement("div", { className: "md:col-span-1 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Menge"), React.createElement("span", null, `${step.menge}ml`)),
+                                            // -- Temp --
+                                            React.createElement("div", { className: "md:col-span-1 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Temperatur"), React.createElement("span", null, `${step.temp}°C`)),
+                                            // -- Durchfluss --
+                                            React.createElement("div", { className: "md:col-span-1 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Flussrate"), React.createElement("span", null, `${step.durchfluss.toFixed(1)}ml/s`)),
+                                            // -- Pause --
+                                            React.createElement("div", { className: "md:col-span-1 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Pause"), React.createElement("span", null, `${step.pause}s`)),
+                                            // -- Muster --
+                                            React.createElement("div", { className: "md:col-span-2 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Muster"), React.createElement("span", null, step.muster)),
+                                            // -- Vibration --
+                                            React.createElement("div", { className: "md:col-span-1 flex justify-between md:block md:text-center" }, React.createElement("span", {className: "text-stone-500 md:hidden"}, "Vibration"), React.createElement("span", { className: `font-medium ${getVibrationText(step) !== 'Nein' ? textColorAccent : 'text-stone-500'}` }, getVibrationText(step)))
+                                        )
+                                      )
+                                    );
+                                  })
                                 )
                             )
+                            // ### END: Responsive Brew Steps Table ###
                         )
                     ),
 
