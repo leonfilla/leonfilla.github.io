@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eine Sammlung von Kaffee-Rezepten für die xBloom Studio, optimiert für Süße, Körper und Klarheit, inklusive detaillierter Brüh-Guides.">
+    <meta name="description" content="Eine Sammlung von Kaffee-Rezepten für die xBloom Studio, optimiert für Süße, Körper und Klarheit, inklusive detaillierter Brüh-Guides und rechtlicher Hinweise.">
     <meta name="author" content="Leon Filla">
     <title>Leons xBloom-Studio-Guide</title>
     
@@ -469,6 +469,59 @@
           },
         ];
 
+        // ###################################################################################
+        // ### LEGAL CONTENT ###
+        // ###################################################################################
+        const legalContent = {
+            impressum: {
+                title: 'Impressum',
+                content: React.createElement(
+                    'div',
+                    { className: 'prose prose-stone max-w-none prose-headings:font-serif prose-headings:text-stone-800' },
+                    React.createElement('h2', null, 'Angaben gemäß § 5 TMG'),
+                    React.createElement('p', null, 'Leon Filla', React.createElement('br'), 'Jütländer Allee 49', React.createElement('br'), '22527 Hamburg'),
+                    React.createElement('h2', null, 'Kontakt'),
+                    React.createElement('p', null, '+49151/22998676', React.createElement('br'), 'leonfilla@gmail.com'),
+                    React.createElement('h2', null, 'Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV'),
+                    React.createElement('p', null, 'Leon Filla', React.createElement('br'), 'Anschrift wie oben'),
+                    React.createElement('h3', { className: 'mt-6' }, 'Haftungsausschluss'),
+                    React.createElement('p', null, 'Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.')
+                ),
+            },
+            datenschutz: {
+                title: 'Datenschutzerklärung',
+                content: React.createElement(
+                    'div',
+                    { className: 'prose prose-stone max-w-none prose-headings:font-serif prose-headings:text-stone-800 prose-a:text-orange-800 hover:prose-a:text-orange-900' },
+                    React.createElement('p', null, 'Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:'),
+                    React.createElement('p', null, 'Leon Filla', React.createElement('br'), 'Jütländer Allee 49', React.createElement('br'), '22527 Hamburg'),
+                    React.createElement('h3', null, 'Ihre Betroffenenrechte'),
+                    React.createElement('p', null, 'Unter den angegebenen Kontaktdaten können Sie jederzeit folgende Rechte ausüben:'),
+                    React.createElement('ul', null, 
+                        React.createElement('li', null, 'Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),'),
+                        React.createElement('li', null, 'Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),'),
+                        React.createElement('li', null, 'Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),'),
+                        React.createElement('li', null, 'Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),'),
+                        React.createElement('li', null, 'Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und'),
+                        React.createElement('li', null, 'Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).')
+                    ),
+                    React.createElement('p', null, 'Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.'),
+                    React.createElement('h3', null, 'Erfassung allgemeiner Informationen beim Besuch unserer Website'),
+                    React.createElement('h4', null, 'Art und Zweck der Verarbeitung:'),
+                    React.createElement('p', null, 'Wenn Sie auf unsere Website zugreifen, werden automatisch mittels eines Cookies Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches.'),
+                    React.createElement('h3', null, 'Eingebundene Dienste von Drittanbietern'),
+                     React.createElement('p', null, 'Um unsere Inhalte korrekt auszuliefern und darzustellen, verwenden wir auf dieser Website externe Dienste:'),
+                     React.createElement('ul', null, 
+                        React.createElement('li', null, React.createElement('strong', null, 'Google Fonts:'), ' Zur einheitlichen Darstellung von Schriftarten. Anbieter ist die Google Ireland Limited. Durch die Einbindung wird Ihre IP-Adresse an Google übertragen. Weitere Informationen finden Sie in der ', React.createElement('a', {href: 'https://policies.google.com/privacy', target: '_blank', rel: 'noopener noreferrer'}, 'Datenschutzerklärung von Google'), '.'),
+                        React.createElement('li', null, React.createElement('strong', null, 'Tailwind CSS (CDN):'), ' Zur visuellen Gestaltung der Website. Der Dienst wird über ein Content Delivery Network (CDN) bereitgestellt, was zur Übertragung Ihrer IP-Adresse an den CDN-Anbieter führen kann.'),
+                        React.createElement('li', null, React.createElement('strong', null, 'React & ReactDOM (via unpkg):'), ' Die JavaScript-Bibliotheken zur Funktionalität der Seite werden über das CDN unpkg.com geladen. Auch hierbei wird Ihre IP-Adresse an den Anbieter übertragen.')
+                     ),
+                    React.createElement('h3', null, 'Änderung unserer Datenschutzbestimmungen'),
+                    React.createElement('p', null, 'Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z. B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.')
+                ),
+            },
+        };
+
         // ### COMPONENTS ###
         
         const StarRating = ({ rating, total = 10, colorClass = 'text-amber-700' }) => {
@@ -532,6 +585,7 @@
         const App = () => {
           const [isLoading, setIsLoading] = useState(true);
           const [selectedCoffee, setSelectedCoffee] = useState(null);
+          const [legalModalContentKey, setLegalModalContentKey] = useState(null);
           const [isInfoOpen, setIsInfoOpen] = useState(true); 
           const [isCaffeinatedOpen, setIsCaffeinatedOpen] = useState(true);
           const [isDecafOpen, setIsDecafOpen] = useState(true);
@@ -592,13 +646,13 @@
 
           const groupOrder = ['Washed', 'Natural', 'Anaerobic & Fermented'];
 
-          const openRecipeModal = (coffee) => {
-            setSelectedCoffee(coffee);
+          const openModal = (setter, value) => {
+            setter(value);
             document.body.style.overflow = 'hidden';
           };
 
-          const closeRecipeModal = () => {
-            setSelectedCoffee(null);
+          const closeModal = (setter) => {
+            setter(null);
             document.body.style.overflow = 'auto';
           };
 
@@ -773,7 +827,7 @@
                             React.createElement(CoffeeCard, {
                               key: coffee.id,
                               coffee: coffee,
-                              onSelect: openRecipeModal
+                              onSelect: (coffee) => openModal(setSelectedCoffee, coffee)
                             })
                           ))
                         )
@@ -793,7 +847,7 @@
                       React.createElement(CoffeeCard, {
                         key: coffee.id,
                         coffee: coffee,
-                        onSelect: openRecipeModal
+                        onSelect: (coffee) => openModal(setSelectedCoffee, coffee)
                       })
                     ))
                   )
@@ -804,10 +858,18 @@
               selectedCoffee && (
                 React.createElement(RecipeModal, {
                   coffee: selectedCoffee,
-                  onClose: closeRecipeModal
+                  onClose: () => closeModal(setSelectedCoffee)
                 })
               ),
               
+              legalModalContentKey && (
+                React.createElement(LegalModal, {
+                   title: legalContent[legalModalContentKey].title,
+                   content: legalContent[legalModalContentKey].content,
+                   onClose: () => closeModal(setLegalModalContentKey)
+                })
+              ),
+
               showBackToTop && (
                 React.createElement("button", {
                     onClick: scrollToTop,
@@ -817,6 +879,11 @@
               ),
              
               React.createElement("footer", { className: "text-center mt-20 py-10 border-t border-stone-300" },
+                  React.createElement("div", { className: "flex justify-center items-center space-x-4 mb-4" },
+                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'impressum'), className: "text-stone-500 hover:text-orange-800 text-sm transition-colors" }, "Impressum"),
+                      React.createElement("span", { className: "text-stone-400" }, "|"),
+                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'datenschutz'), className: "text-stone-500 hover:text-orange-800 text-sm transition-colors" }, "Datenschutz")
+                  ),
                 React.createElement("p", { className: "text-stone-500 text-sm" },
                   `© ${new Date().getFullYear()} Leon Filla. `,
                   React.createElement("span", { className: "block sm:inline" }, " All rights reserved.")
@@ -885,6 +952,27 @@
           );
         };
         
+        // Legal Modal Component
+        const LegalModal = ({ title, content, onClose }) => {
+            return React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-start py-6 sm:py-10 px-4 z-40 transition-opacity duration-300 ease-in-out overflow-y-auto", onClick: onClose },
+                React.createElement("div", { className: "bg-white p-6 sm:p-8 rounded-lg shadow-2xl w-full max-w-3xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto relative font-sans text-stone-800", onClick: e => e.stopPropagation() },
+                    React.createElement("button", {
+                        onClick: onClose,
+                        className: "absolute top-4 right-4 text-stone-400 hover:text-stone-700 text-3xl font-light transition-colors z-10 focus:outline-none focus:ring-2 focus:ring-stone-400 rounded-full",
+                        "aria-label": "Schließen"
+                    }, "×"),
+                    React.createElement("h2", { className: "text-3xl sm:text-4xl font-serif font-medium text-orange-900 mb-6" }, title),
+                    content,
+                     React.createElement("div", { className: "mt-8 pt-5 border-t border-stone-200 flex justify-end" },
+                        React.createElement("button", {
+                            onClick: onClose,
+                            className: "w-full sm:w-auto bg-stone-200 text-stone-700 py-2.5 px-8 rounded-md hover:bg-stone-300 transition-colors text-sm font-medium shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2"
+                        }, "Schließen")
+                     )
+                )
+            );
+        };
+
         // Recipe Modal Component
         const RecipeModal = ({
           coffee,
