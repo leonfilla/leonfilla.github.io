@@ -23,6 +23,7 @@
         /* Custom font family definitions to match the code's Tailwind classes */
         body {
             font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* Enables smooth scrolling for the "Back to Top" button */
         }
         .font-sans {
              font-family: 'Inter', sans-serif;
@@ -42,16 +43,41 @@
         .grid-transition > div {
             overflow: hidden;
         }
+
+        /* Initial Loading Spinner */
+        #initial-loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #57534e; /* stone-600 */
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body class="bg-stone-100">
 
     <!-- The root element where the React app will be mounted -->
-    <div id="root"></div>
+    <div id="root">
+        <!-- Initial Loader shown before React mounts -->
+        <div id="initial-loader">
+            <div class="spinner"></div>
+        </div>
+    </div>
 
     <!-- The React application code, pre-compiled to plain JavaScript -->
     <script type="text/javascript">
-        const { useState, useEffect, useRef } = React;
+        const { useState, useEffect, useRef, useMemo } = React;
 
         // ### ICONS ###
         const ChevronDownIcon = ({ className = "w-5 h-5 text-stone-600" }) => (
@@ -59,10 +85,22 @@
             React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "m19.5 8.25-7.5 7.5-7.5-7.5" })
           )
         );
+
+        const ChevronUpIcon = ({ className = "w-6 h-6" }) => (
+            React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", strokeWidth: 1.5, stroke: "currentColor", className: className },
+                React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "m4.5 15.75 7.5-7.5 7.5 7.5" })
+            )
+        );
         
         const StarIcon = ({ className, filled = false }) => (
             React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: filled ? 'currentColor' : 'none', stroke: "currentColor", strokeWidth: "1.5", className: className },
               React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 21.1a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" })
+            )
+        );
+
+        const ClipboardCopyIcon = ({ className = "w-5 h-5" }) => (
+            React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", strokeWidth: 1.5, stroke: "currentColor", className: className },
+                React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2" })
             )
         );
         
@@ -76,7 +114,7 @@
             isDecaf: false,
             processing: "Anaerobic & Fermented",
             shortDescription: "Intensive Pflaume, Nougat und eine komplexe Grapefruit-Note.",
-            mainImage: "https://placehold.co/600x400/b45309/FFFFFF?text=Heilandt+Kerinci", // amber-700
+            mainImage: "https://www.heilandt.de/cdn/shop/files/Micro_FL_Kerinci_m.webp", // amber-700
             colorAccent: "bg-amber-700",
             textColorAccent: "text-amber-800",
             borderColorAccent: "border-amber-600",
@@ -112,7 +150,7 @@
             isDecaf: false,
             processing: "Anaerobic & Fermented",
             shortDescription: "Süße Traube, Orange und elegante Oolong-Tee-Noten.",
-            mainImage: "https://placehold.co/600x400/c2410c/FFFFFF?text=Heilandt+Joven+Macario", // orange-600
+            mainImage: "https://www.heilandt.de/cdn/shop/files/Micro_FL_JovenMacario_m.webp", // orange-600
             colorAccent: "bg-orange-600",
             textColorAccent: "text-orange-700",
             borderColorAccent: "border-orange-500",
@@ -184,7 +222,7 @@
             isDecaf: false,
             processing: "Washed",
             shortDescription: "Komplexer Schwarztee, Pflaume, Physalis, elegante Süße.",
-            mainImage: "https://placehold.co/600x400/0284c7/FFFFFF?text=Kenya+AA", // sky-600
+            mainImage: "https://kaffeekirsche.berlin/cdn/shop/files/7_ae101fb5-bc47-49fa-aa70-ad0e5fce901b_768x768.png", // sky-600
             colorAccent: "bg-sky-600", 
             textColorAccent: "text-sky-700",
             borderColorAccent: "border-sky-500",
@@ -220,7 +258,7 @@
             isDecaf: false,
             processing: "Natural",
             shortDescription: "Intensive rote Beeren, floraler Jasmin, voller Körper & ausgeprägte Süße.",
-            mainImage: "https://placehold.co/600x400/e11d48/FFFFFF?text=Uraga+Raro", // rose-600
+            mainImage: "https://kaffeekirsche.berlin/cdn/shop/files/EthiopiaUraga_768x768.png", // rose-600
             colorAccent: "bg-rose-600",
             textColorAccent: "text-rose-700",
             borderColorAccent: "border-rose-500",
@@ -256,7 +294,7 @@
             isDecaf: false,
             processing: "Anaerobic & Fermented",
             shortDescription: "Intensive Kirsche, Ananas, komplexe Rum-Noten, saftiger Körper.",
-            mainImage: "https://placehold.co/600x400/be123c/FFFFFF?text=Ruronzi+Anaerobic", // rose-700
+            mainImage: "https://img.versacommerce.io/resize=grande/canvas=0/++/assets.versacommerce.de/images/7466d2805db4649f6f9fccd2dc422ddd6d34ab0c.jpg", // rose-700
             colorAccent: "bg-rose-700", 
             textColorAccent: "text-rose-800",
             borderColorAccent: "border-rose-600",
@@ -292,7 +330,7 @@
             isDecaf: false,
             processing: "Natural",
             shortDescription: "Weisse Nektarine, Kakaonibs, Preiselbeere, ausgeprägte Fruchtsüße.",
-            mainImage: "https://placehold.co/600x400/b45309/FFFFFF?text=Huye+Mountain", // amber-700
+            mainImage: "https://img.versacommerce.io/resize=grande/canvas=0/++/assets.versacommerce.de/images/ea51682f86a5e8bb2da4a15b8c64bd472f078c19.jpg", // amber-700
             colorAccent: "bg-amber-700", 
             textColorAccent: "text-amber-800",
             borderColorAccent: "border-amber-600",
@@ -328,7 +366,7 @@
             isDecaf: true,
             processing: "Decaf",
             shortDescription: "Noten von Kirsche und Brownie in einer klaren Filterröstung.",
-            mainImage: "https://placehold.co/600x400/57534e/FFFFFF?text=Heilandt+24/7+Decaf", // stone-600
+            mainImage: "https://www.heilandt.de/cdn/shop/files/FL_24_sieben_m.webp", // stone-600
             colorAccent: "bg-stone-600",
             textColorAccent: "text-stone-700",
             borderColorAccent: "border-stone-500",
@@ -364,7 +402,7 @@
             isDecaf: true,
             processing: "Decaf",
             shortDescription: "Süßes Zuckerrohr, Kakaonibs, Bergpfirsich, präsente Süße.",
-            mainImage: "https://placehold.co/600x400/c2410c/FFFFFF?text=Popayan+Decaf", // orange-600
+            mainImage: "https://kaffeekirsche.berlin/cdn/shop/files/KK_Popayan-Decaf_Square_768x768.jpg", // orange-600
             colorAccent: "bg-orange-600", 
             textColorAccent: "text-orange-700",
             borderColorAccent: "border-orange-500",
@@ -399,7 +437,7 @@
             isDecaf: true,
             processing: "Decaf",
             shortDescription: "Johannisbeere, Grapefruit, dunkle Trauben, seidiges Mundgefühl.",
-            mainImage: "https://placehold.co/600x400/d97706/FFFFFF?text=Kijani+Kiboko", // amber-600
+            mainImage: "https://19grams.coffee/cdn/shop/files/Kijani_Filter.webp", // amber-600
             colorAccent: "bg-amber-600",
             textColorAccent: "text-amber-700",
             borderColorAccent: "border-amber-500",
@@ -434,7 +472,6 @@
         // ### COMPONENTS ###
         
         const StarRating = ({ rating, total = 10, colorClass = 'text-amber-700' }) => {
-          // If rating is 0, don't render anything.
           if (rating === 0) {
             return null;
           }
@@ -493,13 +530,56 @@
         
         // Main App Component
         const App = () => {
+          const [isLoading, setIsLoading] = useState(true);
           const [selectedCoffee, setSelectedCoffee] = useState(null);
           const [isInfoOpen, setIsInfoOpen] = useState(true); 
           const [isCaffeinatedOpen, setIsCaffeinatedOpen] = useState(true);
-          const [isDecafOpen, setIsDecafOpen] = useState(true); 
+          const [isDecafOpen, setIsDecafOpen] = useState(true);
+          const [searchTerm, setSearchTerm] = useState('');
+          const [showBackToTop, setShowBackToTop] = useState(false);
 
-          const decafCoffees = coffeeData.filter((coffee) => coffee.isDecaf);
-          const caffeinatedCoffees = coffeeData.filter((coffee) => !coffee.isDecaf);
+          // Simulate loading
+          useEffect(() => {
+            const timer = setTimeout(() => {
+                const loader = document.getElementById('initial-loader');
+                if (loader) {
+                    loader.style.display = 'none';
+                }
+                setIsLoading(false);
+            }, 500);
+            return () => clearTimeout(timer);
+          }, []);
+
+          // Back to Top button logic
+          useEffect(() => {
+            const checkScrollTop = () => {
+              if (!showBackToTop && window.pageYOffset > 400) {
+                setShowBackToTop(true);
+              } else if (showBackToTop && window.pageYOffset <= 400) {
+                setShowBackToTop(false);
+              }
+            };
+            window.addEventListener('scroll', checkScrollTop);
+            return () => window.removeEventListener('scroll', checkScrollTop);
+          }, [showBackToTop]);
+
+          // Filtering Logic
+          const filteredCoffees = useMemo(() => {
+              return coffeeData
+                  .filter(coffee => {
+                      const term = searchTerm.toLowerCase();
+                      return (
+                          coffee.name.toLowerCase().includes(term) ||
+                          coffee.details.roesterei.toLowerCase().includes(term) ||
+                          coffee.details.region.toLowerCase().includes(term) ||
+                          coffee.processing.toLowerCase().includes(term)
+                      );
+                  })
+                  .sort((a, b) => a.name.localeCompare(b.name)); // Default sort by name A-Z
+          }, [searchTerm]);
+          
+          const decafCoffees = filteredCoffees.filter((coffee) => coffee.isDecaf);
+          const caffeinatedCoffees = filteredCoffees.filter((coffee) => !coffee.isDecaf);
 
           const groupedCaffeinatedCoffees = caffeinatedCoffees.reduce((acc, coffee) => {
             const group = coffee.processing || 'Unbekannt';
@@ -521,6 +601,14 @@
             setSelectedCoffee(null);
             document.body.style.overflow = 'auto';
           };
+
+          const scrollToTop = () => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+          };
+
+          if (isLoading) {
+              return null; // Don't render the app until the loader is hidden
+          }
 
           return (
             React.createElement("div", { className: "min-h-screen bg-stone-100 text-stone-800 p-4 sm:p-8 lg:p-12 font-sans selection:bg-amber-200 selection:text-amber-900" },
@@ -660,13 +748,24 @@
                   )
                 ),
                 
+                // Controls for Search
+                React.createElement("div", { className: "bg-white rounded-lg shadow-sm p-4 mb-10" },
+                    React.createElement("input", {
+                        type: "text",
+                        placeholder: "Kaffee, Rösterei, Region oder Verarbeitung suchen...",
+                        value: searchTerm,
+                        onChange: (e) => setSearchTerm(e.target.value),
+                        className: "w-full px-4 py-2 border border-stone-300 rounded-md focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition"
+                    })
+                ),
+
                 React.createElement(CollapsibleSection, {
                   title: "Signature Coffees",
                   isOpen: isCaffeinatedOpen,
                   onToggle: () => setIsCaffeinatedOpen(!isCaffeinatedOpen)
                 },
                   groupOrder.map(group => (
-                    groupedCaffeinatedCoffees[group] && (
+                    groupedCaffeinatedCoffees[group] && groupedCaffeinatedCoffees[group].length > 0 && (
                       React.createElement("div", { key: group },
                         React.createElement("h4", { className: "text-2xl font-serif text-stone-600 border-b border-stone-300 pb-2 mb-6" }, group),
                         React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-12" },
@@ -688,6 +787,7 @@
                   isOpen: isDecafOpen,
                   onToggle: () => setIsDecafOpen(!isDecafOpen)
                 },
+                   decafCoffees.length > 0 ? 
                    React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10" },
                     decafCoffees.map((coffee) => (
                       React.createElement(CoffeeCard, {
@@ -697,6 +797,7 @@
                       })
                     ))
                   )
+                  : React.createElement("p", {className: "text-stone-500 italic"}, "Keine Decaf-Kaffees gefunden, die den Kriterien entsprechen.")
                 )
               ),
 
@@ -705,6 +806,14 @@
                   coffee: selectedCoffee,
                   onClose: closeRecipeModal
                 })
+              ),
+              
+              showBackToTop && (
+                React.createElement("button", {
+                    onClick: scrollToTop,
+                    className: "fixed bottom-8 right-8 bg-stone-700 text-white p-3 rounded-full shadow-lg hover:bg-stone-800 transition-all duration-300 z-30",
+                    "aria-label": "Nach oben scrollen"
+                }, React.createElement(ChevronUpIcon, null))
               ),
              
               React.createElement("footer", { className: "text-center mt-20 py-10 border-t border-stone-300" },
@@ -782,6 +891,46 @@
           coffee,
           onClose,
         }) => {
+          const [copySuccess, setCopySuccess] = useState('');
+
+          const copyToClipboard = () => {
+              const recipeText = `
+Rezept für: ${coffee.name} von ${coffee.details.roesterei}
+--------------------------------------------------
+PARAMETER:
+Kaffeemenge: ${coffee.details.menge}g
+Wassermenge: ${coffee.details.wasserGesamt}ml
+Verhältnis: ${coffee.details.verhaeltnis}
+Mahlgrad (xBloom): ${coffee.details.mahlgrad}
+RPM: ${coffee.details.rpm}
+Gesamtbrühzeit: ${coffee.details.gesamtBruehzeit}
+--------------------------------------------------
+BRÜHSCHRITTE:
+${coffee.details.brewSteps.map(step => 
+`  - ${step.phase}: ${step.menge}ml @ ${step.temp}°C | Fluss: ${step.durchfluss.toFixed(1)}ml/s | Pause: ${step.pause}s | Muster: ${step.muster}`
+).join('\n')}
+--------------------------------------------------
+Anmerkungen: ${coffee.details.anmerkungenTabelle}
+              `.trim();
+
+              const textArea = document.createElement("textarea");
+              textArea.value = recipeText;
+              textArea.style.position = "fixed";
+              textArea.style.left = "-9999px";
+              document.body.appendChild(textArea);
+              textArea.focus();
+              textArea.select();
+              try {
+                  document.execCommand('copy');
+                  setCopySuccess('Rezept in die Zwischenablage kopiert!');
+              } catch (err) {
+                  setCopySuccess('Fehler beim Kopieren.');
+              }
+              document.body.removeChild(textArea);
+
+              setTimeout(() => setCopySuccess(''), 2000);
+          };
+
           if (!coffee) return null;
 
           const getVibrationText = (step) => {
@@ -793,10 +942,35 @@
           const textColorAccent = coffee.textColorAccent || 'text-amber-800';
           const bgColorAccentLight = coffee.bgColorAccentLight || 'bg-amber-50';
           const borderColorAccent = coffee.borderColorAccent || 'border-amber-500';
+          
+          const recipeSchema = {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": `${coffee.name} (xBloom Rezept)`,
+            "author": {
+              "@type": "Person",
+              "name": "Leon Filla"
+            },
+            "description": coffee.details.aromaProfil,
+            "recipeYield": "1 Tasse",
+            "totalTime": `PT${coffee.details.gesamtBruehzeit.replace(':', 'M')}S`,
+            "recipeIngredient": [
+              `${coffee.details.menge}g ${coffee.name} Kaffee`,
+              `${coffee.details.wasserGesamt}ml Wasser`
+            ],
+            "recipeInstructions": coffee.details.brewSteps.map((step, index) => ({
+                "@type": "HowToStep",
+                "name": step.phase,
+                "text": `Phase ${index + 1} (${step.phase}): ${step.menge}ml Wasser bei ${step.temp}°C mit einer Flussrate von ${step.durchfluss.toFixed(1)}ml/s gießen. Pausiere für ${step.pause} Sekunden. Gießmuster: ${step.muster}.`
+            }))
+          };
 
           return (
-            React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-start py-6 sm:py-10 px-4 z-40 transition-opacity duration-300 ease-in-out overflow-y-auto" },
-              React.createElement("div", { className: "bg-white p-0 rounded-lg shadow-2xl w-full max-w-4xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto relative font-sans text-stone-800" },
+            React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-start py-6 sm:py-10 px-4 z-40 transition-opacity duration-300 ease-in-out overflow-y-auto", onClick: onClose },
+              React.createElement("div", { className: "bg-white p-0 rounded-lg shadow-2xl w-full max-w-4xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto relative font-sans text-stone-800", onClick: e => e.stopPropagation() },
+                // Add structured data for SEO
+                React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: JSON.stringify(recipeSchema) } }),
+
                 React.createElement("button", {
                   onClick: onClose,
                   className: "absolute top-4 right-4 text-stone-400 hover:text-stone-700 text-3xl font-light transition-colors z-10 focus:outline-none focus:ring-2 focus:ring-stone-400 rounded-full",
@@ -896,10 +1070,18 @@
 
                     React.createElement("p", { className: "text-xs text-stone-500 mt-8 mb-6 italic text-center border-t border-stone-200 pt-4" }, "Hinweis: ", coffee.details.anmerkungenTabelle),
 
-                    React.createElement("div", { className: "mt-8 pt-5 border-t border-stone-200 flex justify-end" },
+                    React.createElement("div", { className: "mt-8 pt-5 border-t border-stone-200 flex flex-col sm:flex-row justify-end items-center gap-4" },
+                      copySuccess && React.createElement("p", { className: "text-sm text-emerald-600" }, copySuccess),
+                      React.createElement("button", {
+                        onClick: copyToClipboard,
+                        className: `w-full sm:w-auto flex items-center justify-center gap-2 ${bgColorAccentLight} ${textColorAccent} py-2.5 px-6 rounded-md hover:opacity-80 transition-opacity text-sm font-medium shadow-sm hover:shadow-md focus:outline-none focus:ring-2 ${borderColorAccent} focus:ring-offset-2`
+                      },
+                        React.createElement(ClipboardCopyIcon, null),
+                        "Rezept kopieren"
+                      ),
                       React.createElement("button", {
                         onClick: onClose,
-                        className: "bg-stone-200 text-stone-700 py-2.5 px-8 rounded-md hover:bg-stone-300 transition-colors text-sm font-medium shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2"
+                        className: "w-full sm:w-auto bg-stone-200 text-stone-700 py-2.5 px-8 rounded-md hover:bg-stone-300 transition-colors text-sm font-medium shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2"
                       },
                         "Schließen"
                       )
