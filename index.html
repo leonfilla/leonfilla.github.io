@@ -61,7 +61,7 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-        /* Styles for the new Infographic Modal */
+        /* Styles for the Infographic Modal */
         .chart-container {
             position: relative;
             width: 100%;
@@ -129,9 +129,15 @@
                 React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-4.5 0V6.375c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0110.5 10.5z" })
             )
         );
+
+        const SparklesIcon = ({ className = "w-5 h-5" }) => (
+            React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", strokeWidth: 1.5, stroke: "currentColor", className: className },
+              React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.25 12l.813-2.846a4.5 4.5 0 00-3.09-3.09L13.125 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L21.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09L15.187 18.75l.813-2.846a4.5 4.5 0 003.09-3.09L21.75 12z" })
+            )
+        );
         
-        // ### COFFEE DATA ###
-        const coffeeData = [
+        // ### INITIAL COFFEE DATA ###
+        const initialCoffeeData = [
           {id: "heilandt_kerinci",name: "Kerinci",isDecaf: false,processing: "Anaerobic & Fermented",shortDescription: "Intensive Pflaume, Nougat und eine komplexe Grapefruit-Note.",mainImage: "https://www.heilandt.de/cdn/shop/files/Micro_FL_Kerinci_m.webp",colorAccent: "bg-rose-800",textColorAccent: "text-rose-900",borderColorAccent: "border-rose-700",bgColorAccentLight: "bg-rose-50",details: {roesterei: "Heilandt",sorte: "Anaerobic Natural",region: "Indonesien, Sumatra",produzent: "Rukun Saudara Coop.",wertung: 0, buyLink: "https://www.heilandt.de/products/kerinci",
             recipes: {
                 original: {title: "Originalrezept", menge: 15, verhaeltnis: "1:16.5", wasserGesamt: 248, mahlgrad: 44, rpm: 70, gesamtBruehzeit: "3:10", anmerkungenTabelle: "Fokus: Kontrolle der schnellen Extraktion, Bewahrung der komplexen Fruchtigkeit.", aufgussStrategieText: "Aufgrund der schnellen Löslichkeit wird eine sanfte Extraktionsstrategie verfolgt. Eine niedrigere Temperatur (91°C) und ein mittelgrober Mahlgrad sind entscheidend. Fünf kleine, gleichmäßige Aufgüsse sorgen für eine kontrollierte Extraktion, die die feinen Aromen schützt.", brewSteps: [{ phase: "Blooming", menge: 48, temp: 91, durchfluss: 3.1, pause: 35, muster: "Kreisförmig", vibVor: "Nein", vibNach: "Ja" },{ phase: "Aufguss 2", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein" },{ phase: "Aufguss 3", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein" },{ phase: "Aufguss 4", menge: 50, temp: 91, durchfluss: 3.1, pause: 25, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein" },{ phase: "Aufguss 5", menge: 50, temp: 91, durchfluss: 3.1, pause: 0, muster: "Spiralförmig", vibVor: "Nein", vibNach: "Nein" },]},
@@ -390,10 +396,12 @@
         
         // Main App Component
         const App = () => {
+          const [coffeeData, setCoffeeData] = useState(initialCoffeeData);
           const [isLoading, setIsLoading] = useState(true);
           const [selectedCoffee, setSelectedCoffee] = useState(null);
           const [legalModalContentKey, setLegalModalContentKey] = useState(null);
           const [showPasswordModal, setShowPasswordModal] = useState(false);
+          const [showAdminAreaModal, setShowAdminAreaModal] = useState(false);
           const [showInfographicModal, setShowInfographicModal] = useState(false);
           const [isInfoOpen, setIsInfoOpen] = useState(true); 
           const [isCaffeinatedOpen, setIsCaffeinatedOpen] = useState(true);
@@ -431,7 +439,7 @@
                       );
                   })
                   .sort((a, b) => a.name.localeCompare(b.name));
-          }, [searchTerm]);
+          }, [searchTerm, coffeeData]);
           
           const decafCoffees = filteredCoffees.filter((coffee) => coffee.isDecaf);
           const caffeinatedCoffees = filteredCoffees.filter((coffee) => !coffee.isDecaf);
@@ -455,17 +463,23 @@
             document.body.style.overflow = 'auto';
           };
           
-          const closeAllModals = () => {
+          const handleAdminLogin = () => {
               setShowPasswordModal(false);
-              setShowInfographicModal(false);
-              document.body.style.overflow = 'auto';
-          };
-
-          const handlePasswordSuccess = () => {
-              setShowPasswordModal(false);
-              setShowInfographicModal(true);
+              setShowAdminAreaModal(true);
               document.body.style.overflow = 'hidden';
           };
+          
+          const closeAllModals = () => {
+              setShowPasswordModal(false);
+              setShowAdminAreaModal(false);
+              setShowInfographicModal(false);
+              document.body.style.overflow = 'auto';
+          }
+          
+          const showInfographic = () => {
+              setShowAdminAreaModal(false);
+              setShowInfographicModal(true);
+          }
 
           const scrollToTop = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -628,16 +642,21 @@
               ),
               selectedCoffee && React.createElement(RecipeModal, { coffee: selectedCoffee, onClose: () => closeModal(setSelectedCoffee) }),
               legalModalContentKey && React.createElement(LegalModal, { title: legalContent[legalModalContentKey].title, content: legalContent[legalModalContentKey].content, onClose: () => closeModal(setLegalModalContentKey) }),
-              showPasswordModal && React.createElement(PasswordModal, { onClose: closeAllModals, onSuccess: handlePasswordSuccess }),
+              showPasswordModal && React.createElement(PasswordModal, { onClose: closeAllModals, onSuccess: handleAdminLogin }),
+              showAdminAreaModal && React.createElement(AdminAreaModal, { onClose: closeAllModals, setCoffeeData: setCoffeeData, onShowInfographic: showInfographic }),
               showInfographicModal && React.createElement(InfographicModal, { onClose: closeAllModals }),
               showBackToTop && React.createElement("button", { onClick: scrollToTop, className: "fixed bottom-8 right-8 bg-stone-700 text-white p-3 rounded-full shadow-lg hover:bg-stone-800 transition-all duration-300 z-30", "aria-label": "Nach oben scrollen" }, React.createElement(ChevronUpIcon, null)),
               React.createElement("footer", { className: "text-center mt-20 py-10 border-t border-stone-300" },
-                  React.createElement("div", { className: "flex justify-center items-center space-x-4 mb-4" },
-                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'impressum'), className: "text-stone-500 hover:text-orange-800 text-sm transition-colors" }, "Impressum"),
-                      React.createElement("button", { onClick: () => { document.body.style.overflow = 'hidden'; setShowPasswordModal(true); }, className: "text-stone-400 hover:text-orange-800 transition-colors px-2" }, "|"),
-                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'datenschutz'), className: "text-stone-500 hover:text-orange-800 text-sm transition-colors" }, "Datenschutz")
+                  React.createElement("div", { className: "flex justify-center items-center space-x-4 text-sm" },
+                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'impressum'), className: "text-stone-500 hover:text-orange-800 transition-colors" }, "Impressum"),
+                      React.createElement("button", { 
+                          onClick: () => setShowPasswordModal(true), 
+                          className: "text-stone-400 hover:text-orange-800 transition-colors px-2",
+                          "aria-label": "Adminbereich öffnen"
+                      }, "|"),
+                      React.createElement("button", { onClick: () => openModal(setLegalModalContentKey, 'datenschutz'), className: "text-stone-500 hover:text-orange-800 transition-colors" }, "Datenschutz")
                   ),
-                React.createElement("p", { className: "text-stone-500 text-sm" }, `© ${new Date().getFullYear()} Leon Filla. `, React.createElement("span", { className: "block sm:inline" }, " All rights reserved.")),
+                React.createElement("p", { className: "text-stone-500 text-sm mt-4" }, `© ${new Date().getFullYear()} Leon Filla. `, React.createElement("span", { className: "block sm:inline" }, " All rights reserved.")),
                 React.createElement("p", { className: "text-stone-400 text-xs mt-1" }, "Coffee recipes optimized for the xBloom Studio.")
               )
             )
@@ -675,7 +694,7 @@
                 )
             );
         };
-        
+
         const InfographicModal = ({ onClose }) => {
              return React.createElement("div", { className: "fixed inset-0 bg-black/70 flex justify-center items-center p-4 z-50", onClick: onClose },
                 React.createElement("div", { className: "bg-white rounded-lg shadow-2xl w-full max-w-6xl h-[95vh] overflow-y-auto relative", onClick: e => e.stopPropagation() },
@@ -687,13 +706,243 @@
             );
         };
         
+        const AdminAreaModal = ({ onClose, setCoffeeData, onShowInfographic }) => {
+            const [url, setUrl] = useState('');
+            const [isLoading, setIsLoading] = useState(false);
+            const [error, setError] = useState('');
+            const [status, setStatus] = useState('');
+            const inputRef = useRef(null);
+
+            useEffect(() => {
+                if (inputRef.current) {
+                    inputRef.current.focus();
+                }
+            }, []);
+            
+            const handleGenerate = async () => {
+                if (!url) {
+                    setError('Bitte geben Sie eine URL ein.');
+                    return;
+                }
+                setIsLoading(true);
+                setError('');
+                setStatus('1/3 - Analysiere Kaffeedaten...');
+
+                try {
+                    const recipeSchema = {
+                      type: "OBJECT",
+                      properties: {
+                        id: { type: "STRING", description: "Einzigartige ID im Format 'roesterei_name', alles in Kleinbuchstaben." },
+                        name: { type: "STRING", description: "Der vollständige Name des Kaffees." },
+                        isDecaf: { type: "BOOLEAN", description: "Ist der Kaffee entkoffeiniert?" },
+                        processing: { type: "STRING", description: "Aufbereitungsmethode (z.B. 'Washed', 'Natural', 'Anaerobic & Fermented')." },
+                        shortDescription: { type: "STRING", description: "Kurze, ansprechende Zusammenfassung der primären Geschmacksnoten (max. 2 Sätze)." },
+                        mainImage: { type: "STRING", description: "Direkter Link zu einem hochauflösenden Produktbild. Wenn nicht gefunden, eine leere Zeichenfolge." },
+                        colorAccent: { type: "STRING", description: "Eine passende Tailwind CSS Hintergrund-Farbklasse (z.B. 'bg-orange-800'), basierend auf der Aufbereitung." },
+                        textColorAccent: { type: "STRING", description: "Eine passende Tailwind CSS Text-Farbklasse (z.B. 'text-orange-900')." },
+                        borderColorAccent: { type: "STRING", description: "Eine passende Tailwind CSS Border-Farbklasse (z.B. 'border-orange-700')." },
+                        bgColorAccentLight: { type: "STRING", description: "Eine passende helle Tailwind CSS Hintergrund-Farbklasse (z.B. 'bg-orange-50')." },
+                        details: {
+                          type: "OBJECT",
+                          properties: {
+                            roesterei: { type: "STRING", description: "Name der Rösterei." },
+                            sorte: { type: "STRING", description: "Kaffeesorte/Varietät (z.B. 'Red Bourbon (Natural)')." },
+                            region: { type: "STRING", description: "Herkunftsland und die Region (z.B. 'Äthiopien, Guji')." },
+                            produzent: { type: "STRING", description: "Name des Produzenten oder der Kooperative, falls verfügbar, sonst 'N/A'." },
+                            wertung: { type: "NUMBER", description: "Platzhalter, immer auf 0 setzen." },
+                            buyLink: { type: "STRING", description: "Die ursprüngliche URL, die analysiert wurde." },
+                            recipes: {
+                              type: "OBJECT",
+                              properties: {
+                                original: {
+                                  type: "OBJECT",
+                                  properties: {
+                                    title: { type: "STRING", description: "Titel: 'Originalrezept'" },
+                                    menge: { type: "NUMBER" },
+                                    verhaeltnis: { type: "STRING" },
+                                    wasserGesamt: { type: "NUMBER" },
+                                    mahlgrad: { type: "NUMBER" },
+                                    rpm: { type: "NUMBER" },
+                                    gesamtBruehzeit: { type: "STRING" },
+                                    anmerkungenTabelle: { type: "STRING" },
+                                    aufgussStrategieText: { type: "STRING" },
+                                    brewSteps: {
+                                      type: "ARRAY",
+                                      items: {
+                                        type: "OBJECT",
+                                        properties: {
+                                          phase: { type: "STRING" },
+                                          menge: { type: "NUMBER" },
+                                          temp: { type: "NUMBER" },
+                                          durchfluss: { type: "NUMBER" },
+                                          pause: { type: "NUMBER" },
+                                          muster: { type: "STRING" },
+                                          vibVor: { type: "STRING" },
+                                          vibNach: { type: "STRING" }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                balanced: {
+                                  type: "OBJECT",
+                                  properties: {
+                                    title: { type: "STRING", description: "Titel: 'Optimiert & Ausgewogen'" },
+                                    menge: { type: "NUMBER" },
+                                    verhaeltnis: { type: "STRING" },
+                                    wasserGesamt: { type: "NUMBER" },
+                                    mahlgrad: { type: "NUMBER" },
+                                    rpm: { type: "NUMBER" },
+                                    gesamtBruehzeit: { type: "STRING" },
+                                    anmerkungenTabelle: { type: "STRING" },
+                                    aufgussStrategieText: { type: "STRING" },
+                                    brewSteps: { type: "ARRAY", items: { "$ref": "#/properties/details/properties/recipes/properties/original/properties/brewSteps/items" } }
+                                  }
+                                },
+                                alternative: {
+                                  type: "OBJECT",
+                                  properties: {
+                                    title: { type: "STRING", description: "Titel: 'Charakter-Fokus: [Merkmal]'" },
+                                    menge: { type: "NUMBER" },
+                                    verhaeltnis: { type: "STRING" },
+                                    wasserGesamt: { type: "NUMBER" },
+                                    mahlgrad: { type: "NUMBER" },
+                                    rpm: { type: "NUMBER" },
+                                    gesamtBruehzeit: { type: "STRING" },
+                                    anmerkungenTabelle: { type: "STRING" },
+                                    aufgussStrategieText: { type: "STRING" },
+                                    brewSteps: { type: "ARRAY", items: { "$ref": "#/properties/details/properties/recipes/properties/original/properties/brewSteps/items" } }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    };
+
+                    const generationPrompt = `Du bist ein professioneller Barista und Rezeptentwickler für die xBloom Kaffeemaschine. Deine Aufgabe ist es, eine Webseite für ein Kaffeeprodukt zu analysieren und daraus ein komplettes JSON-Objekt mit allen relevanten Informationen und drei einzigartigen Brührezepten zu erstellen.
+
+**Analyse der URL:**
+Greife auf die folgende URL zu und analysiere den Inhalt der Seite sorgfältig: ${url}
+
+**Extrahiere die folgenden Informationen und entwickle 3 Brührezepte für die xBloom:**
+Basierend auf den extrahierten Informationen (insbesondere Aufbereitung, Herkunft und Geschmacksprofil), entwickle drei unterschiedliche Rezepte. Beachte dabei die Logik der bestehenden Rezepte auf der Website:
+
+1.  **Originalrezept**: Ein solides Alltagsrezept, das einen guten Startpunkt darstellt.
+2.  **Optimiert & Ausgewogen**: Ein verfeinertes Rezept, das darauf abzielt, die beste Balance zwischen Süße, Säure und Körper zu finden.
+3.  **Charakter-Fokus**: Ein alternatives Rezept, das ein bestimmtes Geschmacksmerkmal (z.B. "Fruchtbombe", "Tee-Klarheit") gezielt maximiert.
+
+**Beachte die xBloom-Parameter:**
+- **mahlgrad**: Auf der xBloom-Skala (1-80). Typischerweise 30-45 für Decaf, 40-65 für die meisten Filterkaffees. Passe den Mahlgrad logisch an das Rezeptziel an (feiner für mehr Extraktion, gröber für mehr Klarheit).
+- **rpm**: 60-120. Niedriger (60-70) für Klarheit.
+- **temperatur**: 88-95°C.
+- **durchfluss**: 3.0-3.5 ml/s.
+
+**Anforderungen an das JSON-Format:**
+Gib deine gesamte Antwort **ausschließlich** als ein einziges JSON-Objekt zurück, das dem bereitgestellten Schema entspricht. Füge keine Erklärungen, Kommentare oder sonstigen Text außerhalb des JSON-Objekts hinzu.`;
+
+                    let chatHistory = [];
+                    chatHistory.push({ role: "user", parts: [{ text: generationPrompt }] });
+
+                    const payload = { 
+                      contents: chatHistory, 
+                      generationConfig: {
+                        responseMimeType: "application/json",
+                        responseSchema: recipeSchema
+                      }
+                    };
+                    
+                    const apiKey = ""; 
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                    
+                    setStatus('2/3 - Generiere Rezepte...');
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        const errorBody = await response.text();
+                        throw new Error(`API Error: ${response.status} ${errorBody}`);
+                    }
+                    
+                    const result = await response.json();
+                    
+                    if (!result.candidates || !result.candidates[0].content.parts[0].text) {
+                        throw new Error("Unerwartete API-Antwortstruktur.");
+                    }
+
+                    setStatus('3/3 - Fertig!');
+                    const newCoffee = JSON.parse(result.candidates[0].content.parts[0].text);
+                    setCoffeeData(prevData => [newCoffee, ...prevData]);
+                    onClose();
+
+                } catch (err) {
+                    console.error("Fehler bei der Rezept-Generierung:", err);
+                    setError(`Ein Fehler ist aufgetreten: ${err.message}. Bitte versuchen Sie es erneut.`);
+                    setStatus('');
+                } finally {
+                    setIsLoading(false);
+                }
+            };
+
+
+            return React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-center px-4 z-50", onClick: onClose },
+                React.createElement("div", { className: "bg-white p-8 rounded-lg shadow-2xl w-full max-w-lg", onClick: e => e.stopPropagation() },
+                    React.createElement("h2", { className: "text-2xl font-serif font-medium text-stone-800 mb-4" }, "Admin-Bereich"),
+                    
+                    React.createElement("div", {className: "space-y-6"},
+                        React.createElement("div", null, 
+                           React.createElement("h3", { className: "text-lg font-serif font-medium text-stone-700 mb-2" }, "Neuen Kaffee hinzufügen"),
+                           React.createElement("p", { className: "text-stone-600 text-sm mb-3" }, "Fügen Sie einen Link zu einer Produktseite ein, um automatisch neue Rezepte zu generieren."),
+                           React.createElement("div", { className: "space-y-3" },
+                                React.createElement("input", {
+                                    ref: inputRef,
+                                    type: "url",
+                                    value: url,
+                                    onChange: (e) => setUrl(e.target.value),
+                                    className: "w-full px-4 py-2 border border-stone-300 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition",
+                                    placeholder: "https://beispiel-roester.de/kaffee/..."
+                                }),
+                                
+                                isLoading ? 
+                                    React.createElement("div", { className: "text-center py-2" }, 
+                                        React.createElement("div", { className: "spinner mx-auto" }),
+                                        React.createElement("p", { className: "text-sm text-stone-600 mt-2" }, status || 'Verarbeitung...')
+                                    )
+                                : React.createElement("button", { onClick: handleGenerate, className: "w-full bg-orange-700 text-white py-2.5 px-6 rounded-md hover:bg-orange-800 transition-colors text-sm font-semibold flex items-center justify-center gap-2" }, 
+                                        React.createElement(SparklesIcon, { className: "w-5 h-5" }),
+                                        "Rezepte generieren"
+                                    )
+                           )
+                        ),
+                        React.createElement("div", { className: "border-t border-stone-200 pt-6" },
+                            React.createElement("h3", { className: "text-lg font-serif font-medium text-stone-700 mb-2" }, "Gesundheitsdaten"),
+                            React.createElement("p", { className: "text-stone-600 text-sm mb-3" }, "Zeigen Sie die Analyse des immunologischen Fingerabdrucks an."),
+                            React.createElement("button", { onClick: onShowInfographic, className: "w-full bg-stone-600 text-white py-2.5 px-6 rounded-md hover:bg-stone-700 transition-colors text-sm font-semibold" }, "Immunologischen Fingerabdruck anzeigen")
+                        )
+                    ),
+                    
+                    error && React.createElement("p", { className: "text-red-600 text-xs text-center mt-4 bg-red-50 p-3 rounded-md" }, error),
+                    
+                    React.createElement("div", { className: "flex justify-center mt-8 border-t border-stone-200 pt-6" },
+                        React.createElement("button", { type: "button", onClick: onClose, className: "bg-stone-200 text-stone-700 py-2 px-8 rounded-md hover:bg-stone-300 transition-colors text-sm font-medium" }, "Schließen")
+                    )
+                )
+            );
+        };
+
         const PasswordModal = ({ onClose, onSuccess }) => {
             const [password, setPassword] = useState('');
             const [error, setError] = useState('');
             const inputRef = useRef(null);
 
             useEffect(() => {
-                inputRef.current.focus();
+                if (inputRef.current) {
+                  inputRef.current.focus();
+                }
             }, []);
 
             const handleSubmit = (e) => {
@@ -708,7 +957,7 @@
 
             return React.createElement("div", { className: "fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-center px-4 z-50", onClick: onClose },
                 React.createElement("div", { className: "bg-white p-8 rounded-lg shadow-2xl w-full max-w-sm", onClick: e => e.stopPropagation() },
-                    React.createElement("h2", { className: "text-2xl font-serif font-medium text-stone-800 mb-4 text-center" }, "Passwort erforderlich"),
+                    React.createElement("h2", { className: "text-2xl font-serif font-medium text-stone-800 mb-4 text-center" }, "Admin-Login"),
                     React.createElement("p", { className: "text-stone-600 text-sm mb-6 text-center" }, "Bitte geben Sie das Passwort ein, um fortzufahren."),
                     React.createElement("form", { onSubmit: handleSubmit },
                         React.createElement("input", {
@@ -730,16 +979,22 @@
         };
 
         const RecipeModal = ({ coffee, onClose }) => {
-          const [activeRecipeKey, setActiveRecipeKey] = useState('balanced'); // Default to the new balanced recipe
+          const [activeRecipeKey, setActiveRecipeKey] = useState('balanced');
           const [copySuccess, setCopySuccess] = useState('');
           
-          if (!coffee) return null;
+          useEffect(() => {
+              if (coffee && coffee.details.recipes) {
+                  const preferredOrder = ['balanced', 'alternative', 'original'];
+                  const availableKey = preferredOrder.find(key => coffee.details.recipes[key]);
+                  setActiveRecipeKey(availableKey || Object.keys(coffee.details.recipes)[0]);
+              }
+          }, [coffee]);
 
+          if (!coffee) return null;
+          
           const activeRecipe = coffee.details.recipes[activeRecipeKey];
           if (!activeRecipe) {
-            // Fallback if the activeRecipeKey is somehow invalid
-            console.error("Invalid recipe key:", activeRecipeKey);
-            setActiveRecipeKey('original'); // fallback to original
+            console.error("Invalid or missing recipe key:", activeRecipeKey, coffee.details.recipes);
             return null;
           }
 
