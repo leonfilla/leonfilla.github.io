@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block titel %}Wissen · {% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a></nav>
+<header class="seitenkopf">
+  <h1>Wissen</h1>
+  <p class="unterzeile">Grundlagen und Prinzipien, die sich in der Praxis bestätigt haben.</p>
+</header>
+{% for bereich, eintraege in ctx.wissen|groupby('bereich') %}
+<section class="abschnitt">
+  <h2>{{ ctx.bereiche[bereich].name if bereich in ctx.bereiche else 'Allgemein' }}</h2>
+  <div class="raster">
+    {% for w in eintraege %}
+    <a class="karte" href="{{ w.url }}"><span class="karte-titel">{{ w.titel }}</span><span class="karte-text">{{ w.kurz }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% from "_makros.html" import karte %}
+{% block titel %}{{ bereich.name }} · {% endblock %}
+{% block akzent %}{{ bereich.farbe }}{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a> › {{ bereich.gruppe }}</nav>
+<header class="seitenkopf">
+  <h1>{{ bereich.name }}</h1>
+  <p class="unterzeile">{{ bereich.kurz }}</p>
+</header>
+
+{% if wissen %}
+<div class="wissen-leiste">
+  {% for w in wissen %}<a href="{{ w.url }}">{{ w.titel }}</a>{% endfor %}
+</div>
+{% endif %}
+
+{% if gruppen %}
+  {% for name, bohnen in gruppen %}
+  <section class="abschnitt">
+    <h2>{{ name }}</h2>
+    <div class="raster">
+      {% for b in bohnen %}
+      <a class="karte" href="{{ b.url }}">
+        <span class="karte-titel">{{ b.name }}</span>
+        <span class="karte-meta"><span>{{ b.roesterei }}</span><span>{{ b.herkunft }}</span></span>
+        <span class="karte-text">{{ b.geschmack }}</span>
+        <span class="karte-fuss">{{ b.rezepte|length }} Rezept{{ 'e' if b.rezepte|length != 1 }}
+          {% set aktiv = b.rezepte|rejectattr('status', 'equalto', 'archiv')|list %}
+          {% if not aktiv %} · Archiv{% endif %}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+{% elif aktuell or aelter %}
+  {% if aktuell %}
+  <section class="abschnitt">
+    <div class="raster">{% for r in aktuell %}{{ karte(r) }}{% endfor %}</div>
+  </section>
+  {% endif %}
+  {% if aelter %}
+  <details class="abschnitt archiv">
+    <summary>Archiv und ältere Versionen ({{ aelter|length }})</summary>
+    <div class="raster">{% for r in aelter %}{{ karte(r) }}{% endfor %}</div>
+  </details>
+  {% endif %}
+{% else %}
+<div class="leer">
+  <p>Hier ist noch nichts. Rezepte aus den bisherigen Chats kommen mit dem Import dazu.</p>
+  <p class="leise">Neue Rezepte landen als Datei in <code>content/rezepte/{{ bereich.id }}/</code>.</p>
+</div>
+{% endif %}
+{% endblock %}

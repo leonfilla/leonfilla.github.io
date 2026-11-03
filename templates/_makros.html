@@ -1,0 +1,34 @@
+{% macro status(r) -%}
+{% if r.status != 'aktiv' %}<span class="marke-status {{ r.status }}">{{ STATUS[r.status] }}</span>{% endif %}
+{%- endmacro %}
+
+{% macro karte(r, zeige_bereich=false) -%}
+<a class="karte" href="{{ r.url }}" style="--akzent: {{ r.bereich_info.farbe }}">
+  <span class="karte-titel">{{ r.titel }}</span>
+  <span class="karte-meta">
+    {% if zeige_bereich %}<span>{{ r.bereich_info.name }}</span>{% endif %}
+    {% if r.version %}<span>{{ r.version }}</span>{% endif %}
+    {% if r.variante and r.variante not in r.titel %}<span>{{ r.variante }}</span>{% endif %}
+    {% if r.favorit %}<span class="stern" title="Go-to">★</span>{% endif %}
+    {{ status(r) }}
+  </span>
+  {% if r.fokus %}<span class="karte-text">{{ r.fokus }}</span>{% endif %}
+</a>
+{%- endmacro %}
+
+{% macro hinweise(liste) -%}
+{% if liste %}
+<aside class="hinweise" aria-label="Prüfhinweise">
+  <p class="hinweise-titel">Prüfung gegen Gerätegrenzen</p>
+  <ul>
+    {% for h in liste %}<li class="{{ h.level }}">{{ h.text }}</li>{% endfor %}
+  </ul>
+</aside>
+{% endif %}
+{%- endmacro %}
+
+{% macro kachel(label, wert, einheit='') -%}
+{% if wert is defined and wert is not none and wert != '' %}
+<div class="kachel"><span class="kachel-label">{{ label }}</span><span class="kachel-wert">{{ wert|fmt }}{% if einheit %}<small> {{ einheit }}</small>{% endif %}</span></div>
+{% endif %}
+{%- endmacro %}

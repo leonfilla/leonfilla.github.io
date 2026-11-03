@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_makros.html" import karte %}
+{% block inhalt %}
+<section class="held">
+  <h1>Leons Rezepte</h1>
+  <p class="unterzeile">Kaffee, Brot und Küche – versioniert, gegen die eigenen Geräte geprüft und mit Kochmodus fürs Handy.</p>
+  <div class="suche" role="search">
+    <label for="suchfeld" class="sr-only">Rezepte durchsuchen</label>
+    <input id="suchfeld" type="search" placeholder="Rezept, Bohne, Röster, Zutat …" autocomplete="off">
+    <ul id="treffer" class="treffer" hidden></ul>
+  </div>
+</section>
+
+{% if favoriten %}
+<section class="abschnitt">
+  <h2>Go-to</h2>
+  <div class="raster">{% for r in favoriten %}{{ karte(r, true) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+{% for gruppe in ctx.cfg.gruppen %}
+<section class="abschnitt">
+  <h2>{{ gruppe.name }}</h2>
+  <div class="raster bereiche">
+    {% for b in gruppe.bereiche %}
+    <a class="bereich-kachel" href="/{{ b.id }}/" style="--akzent: {{ b.farbe }}">
+      <span class="bereich-name">{{ b.name }}</span>
+      <span class="bereich-kurz">{{ b.kurz }}</span>
+      <span class="bereich-zahl">
+        {% if zaehler[b.id] %}{{ zaehler[b.id] }} Rezept{{ 'e' if zaehler[b.id] != 1 }}{% elif not archiv[b.id] %}noch leer{% endif %}
+        {% if archiv[b.id] %}{% if zaehler[b.id] %} · {% endif %}{{ archiv[b.id] }} im Archiv{% endif %}
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+{% if neueste %}
+<section class="abschnitt">
+  <h2>Zuletzt hinzugefügt</h2>
+  <div class="raster">{% for r in neueste %}{{ karte(r, true) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+<script type="application/json" id="suchindex">{{ index_json|safe }}</script>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block titel %}{{ w.titel }} · {% endblock %}
+{% block beschreibung %}{{ w.kurz }}{% endblock %}
+{% block akzent %}{{ ctx.bereiche[w.bereich].farbe if w.bereich in ctx.bereiche else '#4f5d6b' }}{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a> › <a href="/wissen/">Wissen</a></nav>
+<header class="seitenkopf">
+  <h1>{{ w.titel }}</h1>
+  {% if w.kurz %}<p class="unterzeile">{{ w.kurz }}</p>{% endif %}
+</header>
+<article class="fliesstext">{{ w.body_html|safe }}</article>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block titel %}Bohnen · {% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a></nav>
+<header class="seitenkopf">
+  <h1>Bohnen</h1>
+  <p class="unterzeile">Alle Kaffees mit ihren Rezepten, nach Rösterei.</p>
+</header>
+{% for roesterei, bohnen in ctx.bohnen.values()|groupby('roesterei') %}
+<section class="abschnitt">
+  <h2>{{ roesterei }}</h2>
+  <div class="raster">
+    {% for b in bohnen|sort(attribute='name') %}
+    <a class="karte" href="{{ b.url }}">
+      <span class="karte-titel">{{ b.name }}</span>
+      <span class="karte-meta"><span>{{ b.herkunft }}</span><span>{{ b.aufbereitung }}</span>{% if b.decaf %}<span>Decaf</span>{% endif %}</span>
+      <span class="karte-text">{{ b.geschmack }}</span>
+      <span class="karte-fuss">{{ b.rezepte|length }} Rezept{{ 'e' if b.rezepte|length != 1 }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

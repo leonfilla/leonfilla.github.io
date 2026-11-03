@@ -1,0 +1,5 @@
+# Vorrat – was gerade da ist. Rezepte können darauf Bezug nehmen.
+# Format: - {name: Belugalinsen, menge: 500 g, ort: Vorratsschrank}
+grundvorrat: []
+tiefkuehl: []
+kaffee: []

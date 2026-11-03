@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+{% from "_makros.html" import status, hinweise, kachel, karte %}
+{% block titel %}{{ r.titel }} · {% endblock %}
+{% block beschreibung %}{{ r.fokus or r.titel }}{% endblock %}
+{% block akzent %}{{ r.bereich_info.farbe }}{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad">
+  <a href="/">Start</a> › <a href="/{{ r.bereich }}/">{{ r.bereich_info.name }}</a>
+  {% if bohne %} › <a href="{{ bohne.url }}">{{ bohne.name }}</a>{% endif %}
+</nav>
+
+<header class="seitenkopf">
+  <h1>{{ r.titel }}</h1>
+  <p class="marken">
+    {% if r.version %}<span class="marke">{{ r.version }}</span>{% endif %}
+    {% if r.variante and r.variante not in r.titel %}<span class="marke">{{ r.variante }}</span>{% endif %}
+    {% if r.favorit %}<span class="marke stern">★ Go-to</span>{% endif %}
+    {{ status(r) }}
+    {% if r.bewertung %}<span class="marke">{{ r.bewertung }}/10</span>{% endif %}
+    {% if r.datum %}<span class="marke leise">{{ r.datum|datum }}</span>{% endif %}
+  </p>
+  {% if r.fokus %}<p class="fokus">{{ r.fokus }}</p>{% endif %}
+</header>
+
+{{ hinweise(r.hinweise) }}
+
+{# ---------------- xBloom ---------------- #}
+{% if r.xbloom %}{% set xb = r.xbloom %}{% set vib = xb.guesse|selectattr('vib_vor')|list or xb.guesse|selectattr('vib_nach')|list %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Dosis', xb.dosis, 'g') }}
+    {{ kachel('Verhältnis', '1:' ~ (xb.verhaeltnis|fmt)) }}
+    {{ kachel('Wasser', xb.wasser, 'g') }}
+    {{ kachel('Mahlgrad', xb.mahlgrad) }}
+    {{ kachel('RPM', xb.rpm) }}
+    {{ kachel('Brühzeit', xb.bruehzeit) }}
+    {% if xb.bypass %}{{ kachel('Bypass', xb.bypass.menge, 'g · ' ~ xb.bypass.temp ~ ' °C') }}{% endif %}
+  </div>
+</section>
+
+<section class="abschnitt">
+  <h2>Güsse</h2>
+  <div class="tabelle-rahmen">
+    <table class="tabelle guesse">
+      <thead><tr><th>Phase</th><th>g</th><th>°C</th><th>ml/s</th><th>Pause</th><th>Muster</th>{% if vib %}<th>Vib.</th>{% endif %}</tr></thead>
+      <tbody>
+        {% for s in xb.guesse %}
+        <tr>
+          <th scope="row">{{ s.phase }}</th>
+          <td>{{ s.menge }}</td><td>{{ s.temp }}</td><td>{{ ('%.1f'|format(s.fluss))|replace('.', ',') if s.fluss is number else '–' }}</td>
+          <td>{{ s.pause ~ ' s' if s.pause is number else '–' }}</td><td>{{ MUSTER.get(s.muster, s.muster) or '–' }}</td>
+          {% if vib %}<td>{% if s.vib_vor %}vor{% endif %}{% if s.vib_vor and s.vib_nach %} · {% endif %}{% if s.vib_nach %}nach{% endif %}{% if not s.vib_vor and not s.vib_nach %}–{% endif %}</td>{% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot><tr><th scope="row">Summe</th><td>{{ r.berechnet.guss_summe }}</td><td colspan="{{ 5 if vib else 4 }}"></td></tr></tfoot>
+    </table>
+  </div>
+  {% if r.tempkurve %}<figure class="kurve">{{ r.tempkurve|safe }}<figcaption>Temperatur pro Guss</figcaption></figure>{% endif %}
+  <button class="knopf" type="button" data-kopie="{{ r.kopiertext }}">Für die xBloom-App kopieren</button>
+</section>
+{% endif %}
+
+{# ---------------- Espresso ---------------- #}
+{% if r.espresso %}{% set es = r.espresso %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Getränk', es.getraenk) }}
+    {{ kachel('Dosis', es.dosis, 'g') }}
+    {{ kachel('Ausbeute', es.ausbeute, 'g') }}
+    {% if es.dosis and es.ausbeute %}{{ kachel('Verhältnis', '1:' ~ ((es.ausbeute / es.dosis)|round(1)|fmt)) }}{% endif %}
+    {{ kachel('Zeit', es.zeit, 's') }}
+    {{ kachel('Temperatur', es.temperatur, '°C') }}
+    {{ kachel('Mahlgrad', es.mahlgrad) }}
+    {{ kachel('Pre-Infusion', es.preinfusion, 's') }}
+    {% if es.milch %}{{ kachel('Milch', es.milch.menge, 'g · ' ~ es.milch.temp ~ ' °C') }}{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Instant Pot ---------------- #}
+{% if r.instantpot %}{% set ip = r.instantpot %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Programm', ip.programm) }}
+    {{ kachel('Druck', ip.druck) }}
+    {{ kachel('Garzeit', ip.zeit, 'min') }}
+    {{ kachel('Druckablass', ip.ablass ~ (' ' ~ ip.ablass_min ~ ' min' if ip.ablass_min else '') if ip.ablass else none) }}
+    {{ kachel('Temperatur', ip.temperatur, '°C') }}
+    {% if ip.pot_in_pot %}{{ kachel('Aufbau', 'Pot-in-Pot') }}{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Brot / Smoothie / frei ---------------- #}
+{% set br = r.brot or {} %}
+{% set sm = r.smoothie or {} %}
+{% if br or r.berechnet.hydration or sm or r.parameter %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Programm', br.programm) }}
+    {% if r.berechnet.mehl %}{{ kachel('Mehl', r.berechnet.mehl|round|int, 'g') }}{% endif %}
+    {% if r.berechnet.hydration %}{{ kachel('Hydration', r.berechnet.hydration|round(1), '%') }}{% endif %}
+    {{ kachel('Kerntemperatur', br.kerntemperatur, '°C') }}
+    {{ kachel('Volumen', sm.volumen_ml, 'ml') }}
+    {{ kachel('Protein', sm.protein, 'g') }}
+    {{ kachel('Energie', sm.kcal, 'kcal') }}
+    {% for k, v in (r.parameter or {}).items() %}{{ kachel(k, v) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Zutaten ---------------- #}
+{% if r.zutaten %}
+<section class="abschnitt" id="zutaten">
+  <div class="zeile-zwischen">
+    <h2>Zutaten</h2>
+    <label class="skalierer">
+      {% if r.portionen %}Portionen
+      <input type="number" min="0.25" step="any" value="{{ r.portionen }}" data-basis="{{ r.portionen }}" inputmode="decimal">
+      {% else %}Faktor
+      <input type="number" min="0.1" step="0.1" value="1" data-basis="1" inputmode="decimal">
+      {% endif %}
+    </label>
+  </div>
+  <div class="tabelle-rahmen">
+    <table class="tabelle zutaten">
+      {% if r.berechnet.mehl %}<thead><tr><th>Zutat</th><th class="zahl">Menge</th><th class="zahl">Bäcker-%</th></tr></thead>{% endif %}
+      <tbody>
+        {% set ns = namespace(gruppe=none) %}
+        {% for z in r.zutaten %}
+          {% if z.gruppe and z.gruppe != ns.gruppe %}{% set ns.gruppe = z.gruppe %}
+          <tr class="gruppe"><th colspan="3">{{ z.gruppe }}</th></tr>
+          {% endif %}
+          <tr class="abhaken">
+            <td>{{ z.name }}{% if z.hinweis %}<span class="leise"> – {{ z.hinweis }}</span>{% endif %}</td>
+            <td class="zahl">{% if z.menge is number %}<span data-menge="{{ z.menge }}">{{ z.menge|fmt }}</span>{% else %}{{ z.menge or '' }}{% endif %} {{ z.einheit if z.einheit is defined else ('g' if z.menge is number else '') }}</td>
+            {% if r.berechnet.mehl %}<td class="zahl leise">{% if z.bp is defined %}{{ z.bp|round(1)|fmt }}{% endif %}</td>{% endif %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Schritte ---------------- #}
+{% if r.schritte %}
+<section class="abschnitt" id="schritte">
+  <div class="zeile-zwischen">
+    <h2>Zubereitung</h2>
+    <button class="knopf leise-knopf" type="button" data-kochmodus>Kochmodus</button>
+  </div>
+  <ol class="schritte">
+    {% for s in r.schritte %}
+    <li class="schritt" tabindex="0">
+      {% if s.titel %}<strong>{{ s.titel }}</strong>{% endif %}
+      <div>{{ s.text|md_inline|safe }}</div>
+      {% if s.timer %}<button class="timer" type="button" data-sekunden="{{ s.timer }}" data-titel="{{ s.titel or 'Timer' }}">▶ {{ '%d:%02d'|format(s.timer // 60, s.timer % 60) }}</button>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if r.body_html %}
+<section class="abschnitt fliesstext">{{ r.body_html|safe }}</section>
+{% endif %}
+
+{% if r.changelog %}
+<section class="abschnitt">
+  <h2>Änderungen</h2>
+  <ul class="changelog">
+    {% for c in r.changelog %}<li><strong>{{ c.version }}</strong>{% if c.datum %} <span class="leise">{{ c.datum }}</span>{% endif %} – {{ c.text|md_inline|safe }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if r.geschwister %}
+<section class="abschnitt">
+  <h2>{{ 'Weitere Rezepte für diese Bohne' if r.bohne else 'Andere Versionen' }}</h2>
+  <div class="raster">{% for x in r.geschwister %}{{ karte(x) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+<footer class="rezept-fuss leise">
+  {% if r.geraete %}<p>Geräte: {% for g in r.geraete %}{{ ctx.geraete[g].name if g in ctx.geraete else g }}{{ ', ' if not loop.last }}{% endfor %}</p>{% endif %}
+  {% if r.quelle %}<p>Quelle: {% if r.quelle.url %}<a href="{{ r.quelle.url }}" rel="noopener">{{ r.quelle.hinweis or 'Chat' }}</a>{% else %}{{ r.quelle.hinweis or r.quelle.typ }}{% endif %}</p>{% endif %}
+  <p><a href="{{ repo_edit }}{{ r.quelle_datei }}" rel="noopener">Auf GitHub bearbeiten</a></p>
+</footer>
+{% endblock %}

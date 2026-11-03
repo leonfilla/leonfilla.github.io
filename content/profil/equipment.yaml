@@ -1,0 +1,96 @@
+# Equipment mit Gerätegrenzen.
+# Die Grenzen unter `grenzen` prüft der Build bei jedem Rezept, das das Gerät nutzt.
+# Verstöße sind bei aktiven Rezepten und Entwürfen Fehler (Build bricht ab),
+# bei archivierten Rezepten nur Warnungen.
+geraete:
+  - id: xbloom-studio
+    name: xBloom Studio
+    kategorie: Kaffee
+    notizen:
+      - Dosis fest 16 g, Halbprogramme mit 8 g
+      - Temperatur pro Guss einstellbar
+      - Bypass-Funktion – Wasser mit eigener Temperatur am Kaffeebett vorbei, unabhängig von der Ratio programmiert
+      - Vibration vor und nach jedem Guss schaltbar, Pausen zwischen Güssen frei wählbar
+    grenzen:
+      dosis: [16, 8]
+      mahlgrad: {min: 1, max: 80}
+      rpm: {min: 60, max: 120}
+      temp: {max: 96}
+      fluss: {min: 3.0, max: 3.5}
+      verhaeltnis_schritt: 0.5
+
+  - id: oracle-jet
+    name: Sage Oracle Jet
+    kategorie: Kaffee
+    notizen:
+      - Sieb IMS Big Bang 20/22 g (H25,5) – Mindestdosis 22 g bei niedrigster Einstellung
+      - Brühtemperatur nur global für alle Getränke
+      - Dosiert nach Füllhöhe, nicht volumetrisch; Zeit wird ab Pumpenstart gemessen
+      - Standard-Bohnenbehälter, kein Single-Dose-Hopper; kein Puck-Screen
+      - Milch über Auto MilQ
+    grenzen:
+      dosis: {min: 22}
+
+  - id: rhinowares-barista
+    name: Rhinowares Barista Milchkännchen 360 ml
+    kategorie: Kaffee
+
+  - id: pulsar-kit
+    name: Reisekit Pulsar
+    kategorie: Kaffee
+    notizen:
+      - NextLevel Pulsar mit Pulsar-Papierfiltern
+      - 1Zpresso X-Ultra Handmühle
+      - Unold Reiseblitz Reisewasserkocher
+      - Varia Aku Pro Waage
+      - Fellow Carter 340 ml
+
+  - id: bosch-hng978
+    name: Bosch HNG978NB1
+    kategorie: Backen
+    notizen:
+      - Backofen mit Dampfunterstützung und Kerntemperaturfühler
+      - Pizzastein für frei geschobene Brote
+
+  - id: wilfa-probaker
+    name: Wilfa ProBaker
+    kategorie: Backen
+    notizen:
+      - Küchenmaschine mit Spiralhaken, K-Haken und Schneebesen
+
+  - id: panasonic-sd-yr2540
+    name: Panasonic SD-YR2540
+    kategorie: Backen
+    notizen:
+      - Brotbackautomat mit Hefespender und Rosinen-Nuss-Spender
+    grenzen:
+      spender_max_g: 150
+
+  - id: instant-pot-pro-max
+    name: Instant Pot Pro Max WiFi
+    kategorie: Küche
+    notizen:
+      - Druckstufen Low, High und Max
+      - Sous Vide, Joghurt, Sauté, NutriBoost
+    grenzen:
+      druck: [low, high, max]
+
+  - id: mixer-hr3760
+    name: Standmixer HR3760
+    kategorie: Küche
+
+  - id: optigrill
+    name: OptiGrill mit Waffel- und Grillplatte
+    kategorie: Küche
+
+  - id: apera-ph60f
+    name: Apera PH60F pH-Meter
+    kategorie: Messen
+
+  - id: kernthermometer
+    name: Einstichthermometer
+    kategorie: Messen
+
+  - id: wasserfilter
+    name: Blanco-Filtereinheit mit Magnesium-Kartusche
+    kategorie: Wasser

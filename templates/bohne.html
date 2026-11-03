@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% from "_makros.html" import status, karte %}
+{% block titel %}{{ b.name }} · {% endblock %}
+{% block beschreibung %}{{ b.name }} von {{ b.roesterei }}: {{ b.geschmack }}{% endblock %}
+{% block akzent %}#9a3b2e{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a> › <a href="/kaffee-xbloom/">xBloom Studio</a> › <a href="/bohnen/">Bohnen</a></nav>
+<header class="seitenkopf">
+  <h1>{{ b.name }}</h1>
+  <p class="unterzeile">{{ b.geschmack }}</p>
+</header>
+
+<section class="abschnitt">
+  <dl class="steckbrief">
+    <div><dt>Rösterei</dt><dd>{{ b.roesterei }}</dd></div>
+    <div><dt>Herkunft</dt><dd>{{ b.herkunft }}</dd></div>
+    {% if b.produzent %}<div><dt>Produzent</dt><dd>{{ b.produzent }}</dd></div>{% endif %}
+    {% if b.varietaet %}<div><dt>Varietät</dt><dd>{{ b.varietaet }}</dd></div>{% endif %}
+    <div><dt>Aufbereitung</dt><dd>{{ b.aufbereitung }}{% if b.decaf %} · Decaf{% endif %}</dd></div>
+    {% if b.hoehe %}<div><dt>Höhe</dt><dd>{{ b.hoehe }} m</dd></div>{% endif %}
+    {% if b.roestdatum %}<div><dt>Röstdatum</dt><dd>{{ b.roestdatum }}</dd></div>{% endif %}
+  </dl>
+  {% if b.kauflink %}<p><a class="knopf leise-knopf" href="{{ b.kauflink }}" rel="noopener" target="_blank">Beim Röster ansehen ↗</a></p>{% endif %}
+</section>
+
+{% set xr = b.rezepte|selectattr('xbloom')|list %}
+{% if xr|length > 1 %}
+<section class="abschnitt">
+  <h2>Vergleich</h2>
+  <div class="tabelle-rahmen">
+    <table class="tabelle vergleich">
+      <thead><tr><th></th>{% for r in xr %}<th scope="col"><a href="{{ r.url }}">{{ r.variante or r.titel }}</a></th>{% endfor %}</tr></thead>
+      <tbody>
+        <tr><th scope="row">Status</th>{% for r in xr %}<td>{{ STATUS[r.status] }}</td>{% endfor %}</tr>
+        <tr><th scope="row">Dosis</th>{% for r in xr %}<td>{{ r.xbloom.dosis|fmt }} g</td>{% endfor %}</tr>
+        <tr><th scope="row">Verhältnis</th>{% for r in xr %}<td>1:{{ r.xbloom.verhaeltnis|fmt }}</td>{% endfor %}</tr>
+        <tr><th scope="row">Wasser</th>{% for r in xr %}<td>{{ r.xbloom.wasser }} g</td>{% endfor %}</tr>
+        <tr><th scope="row">Mahlgrad</th>{% for r in xr %}<td>{{ r.xbloom.mahlgrad }}</td>{% endfor %}</tr>
+        <tr><th scope="row">RPM</th>{% for r in xr %}<td>{{ r.xbloom.rpm }}</td>{% endfor %}</tr>
+        <tr><th scope="row">Güsse</th>{% for r in xr %}<td>{{ r.xbloom.guesse|length }}</td>{% endfor %}</tr>
+        <tr><th scope="row">Temperatur</th>{% for r in xr %}{% set t = r.xbloom.guesse|map(attribute='temp')|list %}<td>{{ t|first }}→{{ t|last }} °C</td>{% endfor %}</tr>
+        <tr><th scope="row">Brühzeit</th>{% for r in xr %}<td>{{ r.xbloom.bruehzeit }}</td>{% endfor %}</tr>
+      </tbody>
+    </table>
+  </div>
+  {% if b.tempkurve %}
+  <figure class="kurve">
+    {{ b.tempkurve|safe }}
+    <figcaption class="legende">{% for label, var in b.serien %}<span><i style="background: var({{ var }})"></i>{{ label }}</span>{% endfor %}</figcaption>
+  </figure>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="abschnitt">
+  <h2>Rezepte</h2>
+  <div class="raster">{% for r in b.rezepte %}{{ karte(r) }}{% endfor %}</div>
+</section>
+{% endblock %}

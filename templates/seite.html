@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block titel %}{{ s.titel }} · {% endblock %}
+{% block inhalt %}
+<header class="seitenkopf"><h1>{{ s.titel }}</h1></header>
+<article class="fliesstext">{{ s.body_html|safe }}</article>
+{% endblock %}

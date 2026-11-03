@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block titel %}Profil · {% endblock %}
+{% block akzent %}#4f5d6b{% endblock %}
+{% macro liste(eintraege) -%}
+{% if eintraege %}<ul class="punkte">{% for e in eintraege %}<li>{% if e is mapping %}{{ e.name }}{% if e.menge %} <span class="leise">– {{ e.menge }}</span>{% endif %}{% if e.ort %} <span class="leise">({{ e.ort }})</span>{% endif %}{% else %}{{ e }}{% endif %}</li>{% endfor %}</ul>
+{% else %}<p class="leise">Noch nichts eingetragen.</p>{% endif %}
+{%- endmacro %}
+{% set titel = {'allgemein': 'Allgemein', 'kaffee': 'Kaffee', 'brot': 'Brot', 'moegen': 'Mag ich', 'meiden': 'Meide ich',
+                'wasser': 'Wasser', 'backen': 'Backen & Gären', 'raum': 'Raum & Klima',
+                'grundvorrat': 'Grundvorrat', 'tiefkuehl': 'Tiefkühler'} %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a></nav>
+<header class="seitenkopf">
+  <h1>Profil</h1>
+  <p class="unterzeile">Geräte, Vorlieben und Rahmenbedingungen. Neue Rezepte werden darauf abgestimmt, und der Build prüft jedes Rezept gegen die Gerätegrenzen.</p>
+</header>
+
+<nav class="sprungmarken" aria-label="Abschnitte">
+  <a href="#equipment">Equipment</a><a href="#vorlieben">Vorlieben</a><a href="#prozess">Prozess</a><a href="#vorrat">Vorrat</a>
+</nav>
+
+<section class="abschnitt" id="equipment">
+  <h2>Equipment</h2>
+  {% for kat, geraete in p.equipment.geraete|groupby('kategorie') %}
+  <h3>{{ kat }}</h3>
+  <div class="raster">
+    {% for g in geraete %}
+    <div class="karte statisch">
+      <span class="karte-titel">{{ g.name }}</span>
+      {% if g.notizen %}<ul class="punkte klein">{% for n in g.notizen %}<li>{{ n }}</li>{% endfor %}</ul>{% endif %}
+      {% if g.grenzen %}
+      <p class="grenzen">
+        {% for k, v in g.grenzen.items() %}<span><b>{{ k|replace('_', ' ') }}</b> {% if v is mapping %}{% if v.min is defined and v.max is defined %}{{ v.min|fmt }}–{{ v.max|fmt }}{% elif v.min is defined %}≥ {{ v.min|fmt }}{% else %}≤ {{ v.max|fmt }}{% endif %}{% elif v is sequence and v is not string %}{{ v|join(' / ') }}{% else %}{{ v|fmt }}{% endif %}</span>{% endfor %}
+      </p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
+
+<section class="abschnitt" id="vorlieben">
+  <h2>Vorlieben</h2>
+  {% for k, v in p.vorlieben.items() %}{% if v or k in ['moegen', 'meiden'] %}<h3>{{ titel.get(k, k|capitalize) }}</h3>{{ liste(v) }}{% endif %}{% endfor %}
+</section>
+
+<section class="abschnitt" id="prozess">
+  <h2>Prozesseigenschaften</h2>
+  {% for k, v in p.prozess.items() %}<h3>{{ titel.get(k, k|capitalize) }}</h3>{{ liste(v) }}{% endfor %}
+</section>
+
+<section class="abschnitt" id="vorrat">
+  <h2>Vorrat</h2>
+  {% for k, v in p.vorrat.items() %}<h3>{{ titel.get(k, k|capitalize) }}</h3>{{ liste(v) }}{% endfor %}
+</section>
+{% endblock %}

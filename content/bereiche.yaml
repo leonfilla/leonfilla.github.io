@@ -1,0 +1,55 @@
+# Reihenfolge und Gruppierung der Bereiche auf der Startseite.
+# id = Ordnername unter content/rezepte/
+gruppen:
+  - name: Kaffee
+    bereiche:
+      - id: kaffee-xbloom
+        name: xBloom Studio
+        kurz: Filterkaffee, programmiert pro Guss
+        farbe: "#9a3b2e"
+        typ: xbloom
+      - id: kaffee-oracle-jet
+        name: Oracle Jet
+        kurz: Espresso, Americano, Flat White
+        farbe: "#6b4226"
+        typ: espresso
+      - id: kaffee-unterwegs
+        name: Unterwegs
+        kurz: Pulsar-Reisekit
+        farbe: "#8a6a2f"
+        typ: allgemein
+  - name: Brot
+    bereiche:
+      - id: brot-sauerteig
+        name: Sauerteig
+        kurz: Vollkorn, pH-gesteuerte Gare
+        farbe: "#a0662b"
+        typ: brot
+      - id: brot-automat
+        name: Brotbackautomat
+        kurz: Panasonic SD-YR2540
+        farbe: "#b07d3c"
+        typ: brot
+  - name: Küche
+    bereiche:
+      - id: instant-pot
+        name: Instant Pot
+        kurz: Pro Max WiFi – Druck, Sous Vide, Joghurt
+        farbe: "#3d6b5a"
+        typ: instantpot
+      - id: smoothies
+        name: Smoothies
+        kurz: Proteinbasis, max. 600 ml
+        farbe: "#7a3f6e"
+        typ: smoothie
+        max_volumen_ml: 600
+      - id: backen
+        name: Backen
+        kurz: Kuchen, Bananenbrot, Waffeln
+        farbe: "#a8573a"
+        typ: allgemein
+      - id: allgemein
+        name: Allgemein
+        kurz: Alles andere
+        farbe: "#4f5d6b"
+        typ: allgemein
