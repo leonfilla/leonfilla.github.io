@@ -232,3 +232,45 @@ body.kochmodus [data-kochmodus] { background: var(--akzent); color: #fff; border
   body { background: #fff; color: #000; }
   .karte, .kachel, .schritt, .tabelle-rahmen { break-inside: avoid; }
 }
+
+/* Status: Aktiv normal, Unfertig bernsteinfarben markiert, Archiv und ältere Versionen ausgegraut */
+:root { --st-aktiv: #2f7a50; --st-aktiv-bg: #e2f1e8; --st-unfertig: #9a6a00; --st-unfertig-bg: #fbf0d4; --st-archiv: #6f6862; --st-archiv-bg: #ebe6df; }
+@media (prefers-color-scheme: dark) {
+  :root { --st-aktiv: #7fd0a3; --st-aktiv-bg: #1d3a2b; --st-unfertig: #e8c062; --st-unfertig-bg: #3a2f17; --st-archiv: #a59c94; --st-archiv-bg: #322c28; }
+}
+.st-aktiv { --st: var(--st-aktiv); --st-bg: var(--st-aktiv-bg); }
+.st-unfertig { --st: var(--st-unfertig); --st-bg: var(--st-unfertig-bg); }
+.st-archiv { --st: var(--st-archiv); --st-bg: var(--st-archiv-bg); }
+.marke-status.unfertig { background: var(--st-unfertig-bg); color: var(--st-unfertig); }
+.marke-status.archiv { background: var(--st-archiv-bg); color: var(--st-archiv); }
+
+.karte.st-unfertig { border-left-color: var(--st-unfertig); background: color-mix(in srgb, var(--st-unfertig-bg) 45%, var(--flaeche)); }
+.karte.st-archiv, .karte.veraltet { border-left-color: var(--linie); background: var(--flaeche-2); }
+.karte.st-archiv .karte-titel, .karte.veraltet .karte-titel,
+.karte.st-archiv .karte-text, .karte.veraltet .karte-text { color: var(--tinte-3); }
+.karte.st-archiv:hover, .karte.veraltet:hover { border-left-color: var(--tinte-3); }
+
+.zahl-pille { display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 99px; margin: 0 4px 2px 0; background: var(--st-bg); color: var(--st); font-variant-numeric: tabular-nums; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 99px; cursor: pointer;
+  border: 1px solid var(--st); background: var(--st-bg); color: var(--st); font-variant-numeric: tabular-nums;
+}
+.chip[aria-pressed="false"] { background: transparent; color: var(--tinte-3); border-color: var(--linie); text-decoration: line-through; }
+.chip b { font-weight: 600; margin-left: 2px; }
+
+.suche-filter { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+.suche-filter select, .filterleiste input {
+  font: inherit; font-size: .92rem; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--linie);
+  background: var(--flaeche); color: var(--tinte); min-width: 0;
+}
+.suche-filter select { flex: 1 1 160px; max-width: 260px; }
+.treffer-zahl { margin: 10px 0 0; font-size: .85rem; }
+.treffer li.st-unfertig a { border-left: 3px solid var(--st-unfertig); }
+.treffer li.st-archiv a span { color: var(--tinte-3); }
+.treffer em.marke-status { font-style: normal; margin-left: 4px; font-size: .75rem; padding: 1px 6px; border-radius: 99px; }
+
+.filterleiste { display: grid; gap: 10px; margin: 18px 0 4px; }
+.filterleiste input { width: 100%; max-width: 420px; }
+.filter-leer { margin: 0; }

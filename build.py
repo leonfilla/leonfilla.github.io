@@ -27,7 +27,9 @@ CONTENT = ROOT / "content"
 OUT = ROOT / "_site"
 SITE_URL = "https://rezepte.leonfilla.de"
 
-STATUS = {"aktiv": "Aktiv", "entwurf": "Entwurf", "archiv": "Archiv"}
+STATUS = {"aktiv": "Aktiv", "unfertig": "Unfertig", "archiv": "Archiv"}
+STATUS_ALIAS = {"entwurf": "unfertig"}
+STATUS_RANG = {"aktiv": 0, "unfertig": 1, "archiv": 2}
 MUSTER = {"spirale": "Spirale", "kreis": "Kreis", "zentral": "Zentral"}
 
 
@@ -95,7 +97,8 @@ def spec_text(spec) -> str:
 
 
 def pruefe(r, ctx, report: Report):
-    hart = "warnung" if r["status"] == "archiv" else "fehler"
+    # Nur aktive Rezepte müssen alle Grenzen einhalten; unfertige und archivierte bekommen Hinweise.
+    hart = "fehler" if r["status"] == "aktiv" else "warnung"
     def add(level, text):
         report.add(r, level, text)
 
@@ -287,7 +290,7 @@ def lade():
             "bereich_info": bereiche[bereich],
             "url": f"/rezept/{bereich}/{p.stem}/",
             "quelle_datei": str(p.relative_to(ROOT)),
-            "status": r.get("status", "aktiv"),
+            "status": STATUS_ALIAS.get(r.get("status", "aktiv"), r.get("status", "aktiv")),
             "linie": r.get("linie", p.stem),
             "hinweise": [],
             "body_html": md(body),
@@ -327,9 +330,16 @@ def verknuepfe(ctx):
         rs.sort(key=lambda r: (version_key(r.get("version")), r.get("variante") or ""))
         for r in rs:
             r["geschwister"] = [x for x in rs if x is not r]
+        # Ältere Versionen einer Linie gelten als überholt, sobald es eine neuere nicht archivierte gibt
+        lebend = [x for x in rs if x["status"] != "archiv"]
+        kopf = lebend[-1] if lebend else None
+        for r in rs:
+            r["veraltet"] = bool(kopf and r is not kopf and r.get("version") and kopf.get("version")
+                                 and r["status"] != "archiv")
     for b in ctx["bohnen"].values():
         reihenfolge = {"Ausgewogen": 0, "Original": 1}
-        b["rezepte"].sort(key=lambda r: (r["status"] == "archiv", reihenfolge.get(r.get("variante"), 2),
+        b["status"] = sorted({r["status"] for r in b["rezepte"]}, key=lambda s: STATUS_RANG.get(s, 9))
+        b["rezepte"].sort(key=lambda r: (STATUS_RANG.get(r["status"], 9), reihenfolge.get(r.get("variante"), 2),
                                          r.get("variante") or ""))
     for r in ctx["rezepte"]:
         if r.get("xbloom"):
@@ -352,11 +362,11 @@ def suchindex(ctx):
             r.get("titel"), r.get("variante"), r["bereich_info"]["name"], bohne.get("name"),
             bohne.get("roesterei"), bohne.get("herkunft"), bohne.get("aufbereitung"),
             " ".join(r.get("tags") or []), " ".join(z.get("name", "") for z in r.get("zutaten") or [])]))
-        eintraege.append({"t": r["titel"], "u": r["url"], "b": r["bereich_info"]["name"],
-                          "s": r["status"], "q": text.lower()})
+        eintraege.append({"t": r["titel"], "u": r["url"], "b": r["bereich_info"]["name"], "bid": r["bereich"],
+                          "s": r["status"], "v": r.get("veraltet", False), "q": text.lower()})
     for b in ctx["bohnen"].values():
-        eintraege.append({"t": b["name"] + " (Bohne)", "u": b["url"], "b": b.get("roesterei", ""),
-                          "s": "aktiv", "q": " ".join(str(b.get(k, "")) for k in
+        eintraege.append({"t": b["name"] + " (Bohne)", "u": b["url"], "b": b.get("roesterei", ""), "bid": "kaffee-xbloom",
+                          "s": (b.get("status") or ["aktiv"])[0], "bohne": True, "q": " ".join(str(b.get(k, "")) for k in
                                                        ("name", "roesterei", "herkunft", "aufbereitung", "geschmack")).lower()})
     return eintraege
 
@@ -398,19 +408,16 @@ def schreibe(ctx):
         ziel.write_text(env.get_template(template).render(pfad=pfad, **kw), encoding="utf-8")
 
     sichtbar = [r for r in ctx["rezepte"]]
-    zaehler = {b: sum(1 for r in sichtbar if r["bereich"] == b and r["status"] != "archiv") for b in ctx["bereiche"]}
-    archiv = {b: sum(1 for r in sichtbar if r["bereich"] == b and r["status"] == "archiv") for b in ctx["bereiche"]}
+    zaehler = {b: {s: sum(1 for r in sichtbar if r["bereich"] == b and r["status"] == s) for s in STATUS}
+               for b in ctx["bereiche"]}
     favoriten = [r for r in sichtbar if r.get("favorit")]
     neueste = sorted([r for r in sichtbar if r.get("datum")], key=lambda r: r["datum"], reverse=True)[:6]
 
-    seite("/", "index.html", zaehler=zaehler, archiv=archiv, favoriten=favoriten, neueste=neueste,
+    seite("/", "index.html", zaehler=zaehler, favoriten=favoriten, neueste=neueste,
           index_json=json.dumps(suchindex(ctx), ensure_ascii=False))
 
     for bid, b in ctx["bereiche"].items():
         rs = [r for r in sichtbar if r["bereich"] == bid]
-        linien = {}
-        for r in rs:
-            linien.setdefault(r["linie"], []).append(r)
         gruppen = []
         if b["typ"] == "xbloom":
             bohnen = sorted({r.get("bohne") for r in rs if r.get("bohne")},
@@ -423,19 +430,11 @@ def schreibe(ctx):
             ordnung = ["Gewaschen", "Natural", "Anaerob / fermentiert"]
             gruppen = sorted(nach_aufb.items(), key=lambda kv: (kv[0] == "Decaf",
                              ordnung.index(kv[0]) if kv[0] in ordnung else 9, kv[0]))
-        aktuell, aelter = [], []
-        for rs_linie in linien.values():
-            rs_linie.sort(key=lambda r: version_key(r.get("version")))
-            lebend = [r for r in rs_linie if r["status"] != "archiv"]
-            kopf = lebend[-1] if lebend else None
-            if kopf:
-                aktuell.append(kopf)
-            aelter.extend(r for r in rs_linie if r is not kopf)
-        aktuell.sort(key=lambda r: (not r.get("favorit"), r["titel"].lower()))
-        aelter.sort(key=lambda r: r["titel"].lower())
+        liste = sorted(rs, key=lambda r: (STATUS_RANG.get(r["status"], 9) + (1.5 if r.get("veraltet") else 0),
+                                          not r.get("favorit"), r["titel"].lower(), version_key(r.get("version"))))
+        anzahl = {s: sum(1 for r in rs if r["status"] == s) for s in STATUS}
         wissen = [w for w in ctx["wissen"] if w.get("bereich") == bid]
-        seite(f"/{bid}/", "bereich.html", bereich=b, gruppen=gruppen, wissen=wissen,
-              aktuell=aktuell, aelter=aelter)
+        seite(f"/{bid}/", "bereich.html", bereich=b, gruppen=gruppen, wissen=wissen, liste=liste, anzahl=anzahl)
 
     for r in sichtbar:
         seite(r["url"], "rezept.html", r=r, bohne=ctx["bohnen"].get(r.get("bohne")))

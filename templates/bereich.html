@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_makros.html" import karte %}
+{% from "_makros.html" import karte, filterleiste %}
 {% block titel %}{{ bereich.name }} · {% endblock %}
 {% block akzent %}{{ bereich.farbe }}{% endblock %}
 {% block inhalt %}
@@ -15,36 +15,34 @@
 </div>
 {% endif %}
 
+{% if liste %}
+{{ filterleiste(anzahl) }}
+{% endif %}
+
 {% if gruppen %}
   {% for name, bohnen in gruppen %}
-  <section class="abschnitt">
+  <section class="abschnitt" data-filter-gruppe>
     <h2>{{ name }}</h2>
     <div class="raster">
       {% for b in bohnen %}
-      <a class="karte" href="{{ b.url }}">
+      {% set lebt = 'aktiv' in b.status or 'unfertig' in b.status %}
+      <a class="karte{{ '' if lebt else ' st-archiv' }}" href="{{ b.url }}" data-filter-item data-status="{{ b.status|join(' ') }}"
+         data-q="{{ (b.name ~ ' ' ~ b.roesterei ~ ' ' ~ b.herkunft ~ ' ' ~ b.geschmack ~ ' ' ~ (b.rezepte|map(attribute='titel')|join(' ')))|lower }}">
         <span class="karte-titel">{{ b.name }}</span>
         <span class="karte-meta"><span>{{ b.roesterei }}</span><span>{{ b.herkunft }}</span></span>
         <span class="karte-text">{{ b.geschmack }}</span>
-        <span class="karte-fuss">{{ b.rezepte|length }} Rezept{{ 'e' if b.rezepte|length != 1 }}
-          {% set aktiv = b.rezepte|rejectattr('status', 'equalto', 'archiv')|list %}
-          {% if not aktiv %} · Archiv{% endif %}</span>
+        <span class="karte-fuss">
+          {% for s, name in STATUS.items() %}{% set n = b.rezepte|selectattr('status', 'equalto', s)|list|length %}{% if n %}<span class="zahl-pille st-{{ s }}">{{ n }} {{ name }}</span>{% endif %}{% endfor %}
+        </span>
       </a>
       {% endfor %}
     </div>
   </section>
   {% endfor %}
-{% elif aktuell or aelter %}
-  {% if aktuell %}
-  <section class="abschnitt">
-    <div class="raster">{% for r in aktuell %}{{ karte(r) }}{% endfor %}</div>
+{% elif liste %}
+  <section class="abschnitt" data-filter-gruppe>
+    <div class="raster">{% for r in liste %}{{ karte(r) }}{% endfor %}</div>
   </section>
-  {% endif %}
-  {% if aelter %}
-  <details class="abschnitt archiv">
-    <summary>Archiv und ältere Versionen ({{ aelter|length }})</summary>
-    <div class="raster">{% for r in aelter %}{{ karte(r) }}{% endfor %}</div>
-  </details>
-  {% endif %}
 {% else %}
 <div class="leer">
   <p>Hier ist noch nichts. Rezepte aus den bisherigen Chats kommen mit dem Import dazu.</p>

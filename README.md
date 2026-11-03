@@ -40,7 +40,7 @@ titel: El Eucalipto – Go-to heiß
 linie: heilandt-el-eucalipto   # fasst Versionen und Varianten zusammen (Standard: Dateiname)
 version: v2                    # z. B. v5, V18.1 – sortiert numerisch
 variante: Go-to heiß
-status: aktiv                  # aktiv | entwurf | archiv
+status: aktiv                  # aktiv | unfertig | archiv
 favorit: true                  # erscheint unter „Go-to“
 bewertung: 8                   # 0–10
 datum: 2026-07-27
@@ -86,7 +86,7 @@ parameter:  {Frei: Wert}   # beliebige weitere Kacheln
 - **Smoothies:** Volumen ≤ 600 ml
 - Geräte und Bohnen müssen existieren
 
-Bei aktiven Rezepten und Entwürfen bricht der Build ab, bei archivierten Rezepten erscheint nur ein Hinweis auf der Seite.
+Bei aktiven Rezepten bricht der Build ab; bei unfertigen und archivierten Rezepten erscheint nur ein Hinweis auf der Seite.
 
 ## Maschinenlesbar
 

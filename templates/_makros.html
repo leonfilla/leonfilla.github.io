@@ -1,9 +1,11 @@
 {% macro status(r) -%}
-{% if r.status != 'aktiv' %}<span class="marke-status {{ r.status }}">{{ STATUS[r.status] }}</span>{% endif %}
+{% if r.veraltet %}<span class="marke-status archiv">Ältere Version</span>
+{% elif r.status != 'aktiv' %}<span class="marke-status {{ r.status }}">{{ STATUS[r.status] }}</span>{% endif %}
 {%- endmacro %}
 
 {% macro karte(r, zeige_bereich=false) -%}
-<a class="karte" href="{{ r.url }}" style="--akzent: {{ r.bereich_info.farbe }}">
+<a class="karte st-{{ r.status }}{{ ' veraltet' if r.veraltet }}" href="{{ r.url }}" style="--akzent: {{ r.bereich_info.farbe }}"
+   data-filter-item data-status="{{ 'archiv' if r.veraltet else r.status }}" data-q="{{ (r.titel ~ ' ' ~ (r.variante or '') ~ ' ' ~ ((r.tags or [])|join(' ')) ~ ' ' ~ ((r.zutaten or [])|map(attribute='name')|join(' ')))|lower }}">
   <span class="karte-titel">{{ r.titel }}</span>
   <span class="karte-meta">
     {% if zeige_bereich %}<span>{{ r.bereich_info.name }}</span>{% endif %}
@@ -14,6 +16,18 @@
   </span>
   {% if r.fokus %}<span class="karte-text">{{ r.fokus }}</span>{% endif %}
 </a>
+{%- endmacro %}
+
+{% macro filterleiste(anzahl, platzhalter='In diesem Bereich filtern …') -%}
+<div class="filterleiste" data-filterbar>
+  <div class="chips" role="group" aria-label="Status">
+    {% for s, name in STATUS.items() %}
+    <button type="button" class="chip st-{{ s }}" data-st="{{ s }}" aria-pressed="true">{{ name }} <b>{{ anzahl[s] }}</b></button>
+    {% endfor %}
+  </div>
+  <input type="search" data-filter-text placeholder="{{ platzhalter }}" aria-label="Freitext-Filter">
+  <p class="leise filter-leer" hidden>Keine Treffer für diese Auswahl.</p>
+</div>
 {%- endmacro %}
 
 {% macro hinweise(liste) -%}

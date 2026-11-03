@@ -8,30 +8,67 @@
     return String(r).replace(".", ",");
   };
 
-  // ---- Suche (Startseite)
+  // ---- Suche (Startseite): Freitext + Status + Bereich
   const feld = $("#suchfeld");
   const indexEl = $("#suchindex");
+  const STATUS_NAME = { aktiv: "Aktiv", unfertig: "Unfertig", archiv: "Archiv" };
   if (feld && indexEl) {
     const index = JSON.parse(indexEl.textContent);
-    const liste = $("#treffer");
+    const liste = $("#treffer"), zahlEl = $("#treffer-zahl"), bereichSel = $("#such-bereich");
+    const chips = $$("[data-such-st]");
+    const aktiveStati = () => chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.dataset.suchSt);
     const zeige = () => {
       const woerter = feld.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
-      if (!woerter.length) { liste.hidden = true; liste.innerHTML = ""; return; }
+      const stati = aktiveStati(), bereich = bereichSel.value;
+      const gefiltert = stati.length < chips.length || bereich;
+      if (!woerter.length && !gefiltert) { liste.hidden = true; zahlEl.hidden = true; liste.innerHTML = ""; return; }
+      const rang = (e) => ({ aktiv: 0, unfertig: 1, archiv: 2 }[e.v ? "archiv" : e.s] ?? 3);
       const treffer = index
-        .filter((e) => woerter.every((w) => e.q.includes(w)))
-        .sort((a, b) => (a.s === "archiv") - (b.s === "archiv"))
-        .slice(0, 30);
+        .filter((e) => stati.includes(e.v ? "archiv" : e.s) && (!bereich || e.bid === bereich) && woerter.every((w) => e.q.includes(w)))
+        .sort((a, b) => rang(a) - rang(b) || a.t.localeCompare(b.t, "de"));
+      zahlEl.textContent = `${treffer.length} Treffer`;
+      zahlEl.hidden = false;
       liste.innerHTML = treffer.length
-        ? treffer.map((e) => `<li><a href="${e.u}"><span>${esc(e.t)}</span><small>${esc(e.b)}${e.s === "archiv" ? " · Archiv" : ""}</small></a></li>`).join("")
+        ? treffer.slice(0, 200).map((e) => {
+            const st = e.v ? "archiv" : e.s;
+            const marke = e.v ? "Ältere Version" : (st !== "aktiv" ? STATUS_NAME[st] : "");
+            return `<li class="st-${st}"><a href="${e.u}"><span>${esc(e.t)}</span><small>${esc(e.b)}${marke ? ` <em class="marke-status ${st}">${marke}</em>` : ""}</small></a></li>`;
+          }).join("")
         : '<li class="leise" style="padding:9px 10px">Nichts gefunden.</li>';
       liste.hidden = false;
     };
     feld.addEventListener("input", zeige);
+    bereichSel.addEventListener("change", zeige);
+    chips.forEach((c) => c.addEventListener("click", () => {
+      c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true"); zeige();
+    }));
     feld.addEventListener("keydown", (e) => {
       if (e.key === "Enter") { const a = $("a", liste); if (a) location.href = a.href; }
       if (e.key === "Escape") { feld.value = ""; zeige(); }
     });
   }
+
+  // ---- Filterleiste auf Bereichsseiten
+  $$("[data-filterbar]").forEach((bar) => {
+    const chips = $$("[data-st]", bar), text = $("[data-filter-text]", bar), leer = $(".filter-leer", bar);
+    const items = $$("[data-filter-item]");
+    const anwenden = () => {
+      const stati = chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.dataset.st);
+      const woerter = text.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      let sichtbar = 0;
+      items.forEach((el) => {
+        const st = (el.dataset.status || "").split(" ");
+        const ok = st.some((s) => stati.includes(s)) && woerter.every((w) => (el.dataset.q || "").includes(w));
+        el.hidden = !ok; if (ok) sichtbar++;
+      });
+      $$("[data-filter-gruppe]").forEach((g) => { g.hidden = !$$("[data-filter-item]", g).some((el) => !el.hidden); });
+      leer.hidden = sichtbar > 0;
+    };
+    chips.forEach((c) => c.addEventListener("click", () => {
+      c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true"); anwenden();
+    }));
+    text.addEventListener("input", anwenden);
+  });
   function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 
   // ---- Kopieren (xBloom-App)

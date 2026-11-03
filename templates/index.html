@@ -7,6 +7,16 @@
   <div class="suche" role="search">
     <label for="suchfeld" class="sr-only">Rezepte durchsuchen</label>
     <input id="suchfeld" type="search" placeholder="Rezept, Bohne, Röster, Zutat …" autocomplete="off">
+    <div class="suche-filter">
+      <div class="chips" role="group" aria-label="Status">
+        {% for s, name in STATUS.items() %}<button type="button" class="chip st-{{ s }}" data-such-st="{{ s }}" aria-pressed="true">{{ name }}</button>{% endfor %}
+      </div>
+      <select id="such-bereich" aria-label="Bereich">
+        <option value="">Alle Bereiche</option>
+        {% for g in ctx.cfg.gruppen %}<optgroup label="{{ g.name }}">{% for b in g.bereiche %}<option value="{{ b.id }}">{{ b.name }}</option>{% endfor %}</optgroup>{% endfor %}
+      </select>
+    </div>
+    <p id="treffer-zahl" class="leise treffer-zahl" hidden></p>
     <ul id="treffer" class="treffer" hidden></ul>
   </div>
 </section>
@@ -27,8 +37,8 @@
       <span class="bereich-name">{{ b.name }}</span>
       <span class="bereich-kurz">{{ b.kurz }}</span>
       <span class="bereich-zahl">
-        {% if zaehler[b.id] %}{{ zaehler[b.id] }} Rezept{{ 'e' if zaehler[b.id] != 1 }}{% elif not archiv[b.id] %}noch leer{% endif %}
-        {% if archiv[b.id] %}{% if zaehler[b.id] %} · {% endif %}{{ archiv[b.id] }} im Archiv{% endif %}
+        {% set z = zaehler[b.id] %}
+        {% for s, name in STATUS.items() if z[s] %}<span class="zahl-pille st-{{ s }}">{{ z[s] }} {{ name }}</span>{% else %}<span>noch leer</span>{% endfor %}
       </span>
     </a>
     {% endfor %}
