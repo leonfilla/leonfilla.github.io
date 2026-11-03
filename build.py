@@ -25,7 +25,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "_site"
-SITE_URL = "https://xbloom.leonfilla.de"
+SITE_URL = "https://rezepte.leonfilla.de"
 
 STATUS = {"aktiv": "Aktiv", "entwurf": "Entwurf", "archiv": "Archiv"}
 MUSTER = {"spirale": "Spirale", "kreis": "Kreis", "zentral": "Zentral"}

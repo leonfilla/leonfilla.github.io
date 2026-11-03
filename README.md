@@ -1,6 +1,6 @@
 # Leons Rezepte
 
-Statische Rezeptseite unter **https://xbloom.leonfilla.de**. Jedes Rezept ist eine Markdown-Datei mit YAML-Kopf. Ein kleines Python-Skript baut daraus die Seite und prüft dabei jedes Rezept gegen die Gerätegrenzen in `content/profil/equipment.yaml`.
+Statische Rezeptseite unter **https://rezepte.leonfilla.de**. Jedes Rezept ist eine Markdown-Datei mit YAML-Kopf. Ein kleines Python-Skript baut daraus die Seite und prüft dabei jedes Rezept gegen die Gerätegrenzen in `content/profil/equipment.yaml`.
 
 ## Aufbau
 
