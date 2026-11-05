@@ -25,6 +25,7 @@ xbloom:
   guesse:
   - {phase: Bloom, menge: 50, temp: 95, fluss: 6, pause: 45, muster: spirale}
   - {phase: Guss 2, menge: 100, temp: 94, fluss: 5, pause: 0, muster: spirale}
+bohne: volcan-azul
 ---
 
 ## Warum so

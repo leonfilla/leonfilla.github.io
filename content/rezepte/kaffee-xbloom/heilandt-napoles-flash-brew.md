@@ -29,6 +29,7 @@ xbloom:
   - {phase: Guss 2, menge: 40, temp: 96, fluss: 3.3, pause: 25, muster: spirale, vib_vor: false, vib_nach: false}
   - {phase: Guss 3, menge: 40, temp: 95, fluss: 3.3, pause: 25, muster: spirale, vib_vor: false, vib_nach: false}
   - {phase: Guss 4, menge: 40, temp: 94, fluss: 3.4, pause: 0, muster: kreis, vib_vor: false, vib_nach: false}
+bohne: heilandt-napoles
 ---
 
 ## Warum so

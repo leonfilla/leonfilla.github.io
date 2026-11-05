@@ -25,6 +25,7 @@ xbloom:
   guesse:
   - {phase: Bloom, menge: 55, temp: 94, fluss: 3.5, pause: 50, muster: spirale, vib_vor: true, vib_nach: false}
   - {phase: Guss 2, menge: 185, temp: 91, fluss: 3.0, pause: 0, muster: kreis, vib_vor: false, vib_nach: false}
+bohne: finca-canaque
 ---
 
 ## Warum so

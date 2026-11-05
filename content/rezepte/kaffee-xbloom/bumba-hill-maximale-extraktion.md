@@ -25,6 +25,7 @@ xbloom:
   - {phase: Guss 3, menge: 60, temp: 96, fluss: 3.3, pause: 20, muster: kreis, vib_vor: false, vib_nach: false}
   - {phase: Guss 4, menge: 60, temp: 96, fluss: 3.2, pause: 20, muster: spirale, vib_vor: false, vib_nach: false}
   - {phase: Guss 5, menge: 58, temp: 96, fluss: 3.0, pause: 30, muster: zentral, vib_vor: false, vib_nach: false}
+bohne: bumba-hill
 ---
 
 ## Warum so

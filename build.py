@@ -365,8 +365,12 @@ def verknuepfe(ctx):
                                         "--akzent")])
     farben = ["--serie-1", "--serie-2", "--serie-3", "--serie-4"]
     for b in ctx["bohnen"].values():
-        serien = [(r.get("variante") or r["titel"], [s.get("temp") for s in r["xbloom"].get("guesse") or []],
-                   farben[i % 4]) for i, r in enumerate(b["rezepte"]) if r.get("xbloom")]
+        # Höchstens 4 Kurven, damit jede Farbe eindeutig bleibt: aktive/unfertige zuerst, sonst die neuesten
+        mit_xb = [r for r in b["rezepte"] if r.get("xbloom") and r["xbloom"].get("guesse")]
+        lebend = [r for r in mit_xb if r["status"] != "archiv"]
+        auswahl = (lebend or sorted(mit_xb, key=lambda r: str(r.get("datum") or ""), reverse=True))[:4]
+        serien = [(r.get("variante") or r["titel"].split(" – ", 1)[-1], [s.get("temp") for s in r["xbloom"]["guesse"]],
+                   farben[i % 4]) for i, r in enumerate(auswahl)]
         b["tempkurve"] = temp_svg(serien) if serien else ""
         b["serien"] = [(label, farben[i % 4]) for i, (label, _, _) in enumerate(serien)]
 

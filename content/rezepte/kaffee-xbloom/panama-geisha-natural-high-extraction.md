@@ -22,6 +22,7 @@ xbloom:
   guesse:
   - {phase: Bloom, menge: 60, temp: 96, fluss: 3.5, pause: 50, muster: spirale}
   - {phase: Guss 2, menge: 237, temp: 95, fluss: 3.2, pause: 0, muster: spirale, vib_vor: false, vib_nach: false}
+bohne: panama-geisha
 ---
 
 ## Warum so

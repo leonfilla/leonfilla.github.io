@@ -24,6 +24,7 @@ xbloom:
   - {phase: Bloom, menge: 45, temp: 94, pause: 40}
   - {phase: Guss 2, menge: 95, temp: 94}
   - {phase: Guss 3, menge: 100, temp: 94}
+bohne: field-coffee-ethiopia
 ---
 
 ## Warum so
