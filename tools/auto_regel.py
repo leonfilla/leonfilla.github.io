@@ -69,13 +69,25 @@ def kern_titel(t):
 MENGE_RX = re.compile(r"\b\d+(?:[.,]\d+)?\s?(?:g|kg|ml|l|EL|TL|min|°C)\b")
 
 
+ZUTATZEILE = re.compile(r"^\s*(?:[-*•]|\d+\.)?\s*(?:\*\*)?\d+(?:[.,]\d+)?\s?(?:g|kg|ml|l|EL|TL|Stk\.?|Prise)\b", re.M)
+TABELLENZEILE = re.compile(r"^\|[^|\n]*\|\s*\d+(?:[.,]\d+)?\s*(?:g|ml)?\s*\|", re.M)
+
+
 def rezeptartig(k):
-    """Echtes Rezept statt Analyse/Recherche: genug Mengen, Rezeptkarte/Datei oder xBloom-Güsse."""
+    """Echtes Rezept statt Analyse/Recherche: Rezeptkarte/Datei, xBloom-Gusstabelle oder eine echte Zutatenliste."""
     if k["art"] in ("karte", "datei"):
         return True
-    if k["bereich"] == "kaffee-xbloom" and " g " in (k.get("eckdaten") or "") + " ":
-        return True
-    return len(MENGE_RX.findall(k.get("text") or "")) >= 8
+    text = k.get("text") or ""
+    if k["bereich"] == "kaffee-xbloom":
+        from dubletten import xb_zahlen
+        return len(xb_zahlen(text)[3]) >= 3
+    zutaten = len(ZUTATZEILE.findall(text)) + len(TABELLENZEILE.findall(text))
+    return zutaten >= 5 or (zutaten >= 3 and re.search(r"^#{1,4}.*zutaten|^\*\*zutaten", text, re.I | re.M))
+
+
+ANALYSE_TITEL = re.compile(r"berechnung|analyse|evaluation|strategie|modifikation|korrektur|\bvs\.?\b|oberfläche|"
+                           r"shift|erhöhung|skalierung|definition|optimales rezept|dann erstell|ich möchte|empfehlung|"
+                           r"status quo|update|parameter|säureprofil|vorstufen|^\d+\.\s", re.I)
 
 
 def ohne_nummer(t):
@@ -127,6 +139,18 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
         d = json.load(open(f))
         return d.get("data", d) if isinstance(d, dict) else {}
     E = {Path(f).stem: lies(f) for f in glob.glob(edir + "/*.json")}
+    # Massenaktionen erkennen: ≥ 4 gleiche Status-Schreibvorgänge mit < 1,5 s Abstand
+    folge = sorted(((d.get("t") or 0, i, d.get("status")) for i, d in E.items()))
+    masse, lauf = set(), folge[:1]
+    for a, b in zip(folge, folge[1:]):
+        if b[0] - a[0] < 1500 and b[2] == a[2]:
+            lauf.append(b)
+        else:
+            if len(lauf) >= 4:
+                masse.update(x[1] for x in lauf)
+            lauf = [b]
+    if len(lauf) >= 4:
+        masse.update(x[1] for x in lauf)
     G = {Path(f).stem for f in glob.glob(cdir + "/*.json") if lies(f).get("geprueft")}
     zeit = {}
     for p in (kc, kg):
@@ -136,10 +160,12 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
         k["_zeit"] = zeit.get(k["id"]) or k["datum"]
         if k["id"] in E:
             k["_basis"], k["_eigen"] = E[k["id"]].get("status"), True
+            k["_klick"] = k["id"] not in masse   # Einzelklick = starkes Signal, Massenaktion = schwaches
             k["_bereich"] = E[k["id"]].get("bereich") or k["bereich"]
         else:
             k["_basis"] = k["vorschlag"]
             k["_eigen"] = k["chat_id"] in G      # im geprüften Chat zählt der Vorschlag als deine Entscheidung
+            k["_klick"] = k["_eigen"]            # … und zwar als bewusste, nicht als Massenentscheidung
             k["_bereich"] = k["bereich"]
 
     ids = {k["id"] for k in K}
@@ -197,7 +223,9 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
 
     def rang(k):
         eigen_aktiv = k["_eigen"] and k["_basis"] in ("aktiv", "unfertig")
-        return (eigen_aktiv, sig.get(k["id"]) == "pos", k["id"] in nach_korrektur,
+        # per Einzelklick abgelehnt zählt gegen das Rezept, per Massenaktion kaum
+        abgelehnt = 2 if (k["_klick"] and k["_basis"] == "verwerfen") else (1 if (k["_klick"] and k["_basis"] == "archiv") else 0)
+        return (eigen_aktiv, sig.get(k["id"]) == "pos", k["id"] in nach_korrektur, -abgelehnt,
                 k.get("quelle", "claude") == "claude", k["_zeit"], k["art"] != "text")
 
     stat = collections.Counter()
@@ -206,10 +234,16 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
         if zub:
             name = f"{name} · {zub}"
         lid = f"{gid}-{zub or 'x'}"
-        waehlbar = [k for k in xs if not (k["_eigen"] and k["_basis"] in ("verwerfen", "archiv"))]
+        # Per Einzelklick Archiviertes oder Verworfenes wird nie wieder aktiv
+        waehlbar = [k for k in xs if rezeptartig(k) and not (k["_klick"] and k["_basis"] in ("archiv", "verwerfen"))]
         if not waehlbar:
             for k in xs:
-                in_linie[k["id"]] = (k["_basis"], "alle Fassungen von dir archiviert oder verworfen", lid, name)
+                if k["_klick"]:
+                    in_linie[k["id"]] = (k["_basis"], "deine Entscheidung bleibt (keine bessere Fassung in der Linie)", lid, name)
+                elif not rezeptartig(k):
+                    in_linie[k["id"]] = ("verwerfen", "Analyse/Recherche ohne eigenes Rezept", lid, name)
+                else:
+                    in_linie[k["id"]] = (k["_basis"], "unverändert (Linie von dir abgelehnt)", lid, name)
             continue
         aktiv = max(waehlbar, key=rang)
         st_aktiv = "unfertig" if (aktiv["_eigen"] and aktiv["_basis"] == "unfertig") else "aktiv"
@@ -224,19 +258,17 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
         in_linie[aktiv["id"]] = (st_aktiv, grund, lid, name)
         fa = inhalt_fp(aktiv)
         rest = [k for k in xs if k is not aktiv]
-        # Deine eigenen Archiv-/Verwerfen-Entscheidungen bleiben, wie sie sind
-        fest = [k for k in rest if k["_eigen"] and k["_basis"] in ("archiv", "verwerfen")]
-        for k in fest:
-            in_linie[k["id"]] = (k["_basis"], "deine Entscheidung bleibt", lid, name)
-        rest = [k for k in rest if k not in fest]
         abst = sorted(((1 - jaccard(inhalt_fp(k), fa) if fa and inhalt_fp(k) else 0.0, k) for k in rest),
                       key=lambda t: t[0], reverse=True)
-        schon_archiv = any(k["_basis"] == "archiv" for k in fest)
-        kandidaten_archiv = [(d, k) for d, k in abst if rezeptartig(k) and d >= 0.5]
-        archiv = kandidaten_archiv[0][1] if kandidaten_archiv and not schon_archiv else None
+        # Archiv: deutlichste echte Alternative; bei Gleichstand eine, die du selbst archiviert hast
+        kandidaten_archiv = sorted([(d, k) for d, k in abst if rezeptartig(k) and d >= 0.5],
+                                   key=lambda t: (t[1]["_klick"] and t[1]["_basis"] == "archiv", t[0]), reverse=True)
+        archiv = kandidaten_archiv[0][1] if kandidaten_archiv else None
         for d, k in abst:
             if k is archiv:
                 in_linie[k["id"]] = ("archiv", f"stärkste Alternative ({round(d * 100)} % anders)", lid, name)
+            elif not rezeptartig(k):
+                in_linie[k["id"]] = ("verwerfen", "Analyse/Recherche ohne eigenes Rezept", lid, name)
             else:
                 in_linie[k["id"]] = ("verwerfen", "ältere oder ähnliche Fassung" + (" (fast gleich)" if d < 0.3 else ""), lid, name)
 
@@ -245,8 +277,16 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
             st, grund, lid, name = in_linie[k["id"]]
         elif k["_basis"] == "idee":
             st, grund, lid, name = "idee", "Idee bleibt unberührt", None, None
-        elif k["_eigen"]:
-            st, grund, lid, name = k["_basis"], "deine Entscheidung bleibt", None, None
+        elif k["_eigen"] and (k["_klick"] or k["id"] not in E):
+            st, grund, lid, name = k["_basis"], "deine Entscheidung bleibt (Einzelstück)", None, None
+        elif k["id"] in E and (not rezeptartig(k) or ANALYSE_TITEL.search(k["titel"] or "")):
+            st, grund, lid, name = k["_basis"], "Massenaktion bestätigt (kein eigenes Rezept)", None, None
+        elif k["id"] in E:
+            if sig.get(k["id"]) == "pos":
+                st, grund = "aktiv", "per Massenaktion verworfen, aber im Chat gelobt"
+            else:
+                st, grund = "unfertig", "per Massenaktion verworfen, aber eigenständiges Rezept"
+            lid = name = None
         elif k["_basis"] == "aktiv":
             if sig.get(k["id"]) == "pos":
                 st, grund = "aktiv", "Einzelstück, im Chat gelobt"
@@ -256,11 +296,17 @@ def main(sichtung, edir, cdir, claude_export, gemini_export, kc, kg):
         else:
             st, grund, lid, name = k["_basis"], "Vorschlag übernommen", None, None
         k["auto"] = {"status": st, "grund": grund, "linie": lid, "linie_name": name,
-                     "basis": k["_basis"], "eigen": k["_eigen"]}
+                     "basis": k["_basis"], "eigen": k["_eigen"], "masse": k["id"] in masse}
         stat[(k["_eigen"], k["_basis"] != st)] += 1
-        for f in ("_zeit", "_basis", "_eigen", "_bereich"):
+        for f in ("_zeit", "_basis", "_eigen", "_bereich", "_klick"):
             k.pop(f, None)
 
+    # Lesbare Titel für xBloom-Fassungen, deren erste Überschrift nur ein Analyseschritt ist
+    for k in K:
+        if k["bereich"] == "kaffee-xbloom" and k.get("gruppe_name") and \
+                (ANALYSE_TITEL.search(k["titel"] or "") or re.search(r"recherche|grundlagen|system-check|few-shot", k["titel"] or "", re.I)):
+            q = "Gemini" if k.get("quelle") == "gemini" else "Claude"
+            k["titel"] = f"{k['gruppe_name']} – {q}-Rezept vom {'.'.join(reversed(k['datum'].split('-')))}"
     json.dump(K, open(sichtung, "w", encoding="utf-8"), ensure_ascii=False)
     ae = [k for k in K if k["auto"]["eigen"] and k["auto"]["basis"] != k["auto"]["status"]]
     ao = [k for k in K if not k["auto"]["eigen"] and k["auto"]["basis"] != k["auto"]["status"]]
