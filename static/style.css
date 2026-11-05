@@ -234,9 +234,9 @@ body.kochmodus [data-kochmodus] { background: var(--akzent); color: #fff; border
 }
 
 /* Status: Aktiv normal, Unfertig bernsteinfarben markiert, Archiv und ältere Versionen ausgegraut */
-:root { --st-aktiv: #2f7a50; --st-aktiv-bg: #e2f1e8; --st-unfertig: #9a6a00; --st-unfertig-bg: #fbf0d4; --st-archiv: #6f6862; --st-archiv-bg: #ebe6df; }
+:root { --st-idee: #2f5f9a; --st-idee-bg: #e1ebf8; --st-aktiv: #2f7a50; --st-aktiv-bg: #e2f1e8; --st-unfertig: #9a6a00; --st-unfertig-bg: #fbf0d4; --st-archiv: #6f6862; --st-archiv-bg: #ebe6df; }
 @media (prefers-color-scheme: dark) {
-  :root { --st-aktiv: #7fd0a3; --st-aktiv-bg: #1d3a2b; --st-unfertig: #e8c062; --st-unfertig-bg: #3a2f17; --st-archiv: #a59c94; --st-archiv-bg: #322c28; }
+  :root { --st-idee: #8fb6ec; --st-idee-bg: #1d2c42; --st-aktiv: #7fd0a3; --st-aktiv-bg: #1d3a2b; --st-unfertig: #e8c062; --st-unfertig-bg: #3a2f17; --st-archiv: #a59c94; --st-archiv-bg: #322c28; }
 }
 .st-aktiv { --st: var(--st-aktiv); --st-bg: var(--st-aktiv-bg); }
 .st-unfertig { --st: var(--st-unfertig); --st-bg: var(--st-unfertig-bg); }
@@ -274,3 +274,15 @@ body.kochmodus [data-kochmodus] { background: var(--akzent); color: #fff; border
 .filterleiste { display: grid; gap: 10px; margin: 18px 0 4px; }
 .filterleiste input { width: 100%; max-width: 420px; }
 .filter-leer { margin: 0; }
+
+.st-idee { --st: var(--st-idee); --st-bg: var(--st-idee-bg); }
+.marke-status.idee { background: var(--st-idee-bg); color: var(--st-idee); }
+.fliesstext pre { overflow-x: auto; background: var(--flaeche-2); padding: 10px 12px; border-radius: 8px; font-size: .82rem; }
+.fliesstext table { display: block; overflow-x: auto; border-collapse: collapse; font-size: .9rem; }
+.fliesstext th, .fliesstext td { border: 1px solid var(--linie); padding: 5px 8px; text-align: left; }
+.fliesstext blockquote { margin: 0 0 1em; padding: 8px 12px; border-left: 3px solid var(--linie); color: var(--tinte-2); background: var(--flaeche); }
+.fliesstext details { margin: 1em 0; }
+.fliesstext img { max-width: 100%; }
+
+.logo { white-space: nowrap; }
+@media (max-width: 480px) { .kopf { gap: 8px; } .kopf nav { gap: 0; } .kopf nav a { padding: 6px 7px; font-size: .9rem; } .logo { font-size: 1.02rem; } }

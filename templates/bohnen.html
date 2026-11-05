@@ -13,8 +13,8 @@
     {% for b in bohnen|sort(attribute='name') %}
     <a class="karte" href="{{ b.url }}">
       <span class="karte-titel">{{ b.name }}</span>
-      <span class="karte-meta"><span>{{ b.herkunft }}</span><span>{{ b.aufbereitung }}</span>{% if b.decaf %}<span>Decaf</span>{% endif %}</span>
-      <span class="karte-text">{{ b.geschmack }}</span>
+      <span class="karte-meta">{% if b.herkunft %}<span>{{ b.herkunft }}</span>{% endif %}{% if b.aufbereitung %}<span>{{ b.aufbereitung }}</span>{% endif %}{% if b.decaf %}<span>Decaf</span>{% endif %}</span>
+      {% if b.geschmack %}<span class="karte-text">{{ b.geschmack }}</span>{% endif %}
       <span class="karte-fuss">{{ b.rezepte|length }} Rezept{{ 'e' if b.rezepte|length != 1 }}</span>
     </a>
     {% endfor %}

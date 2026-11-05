@@ -8,6 +8,7 @@ Statische Rezeptseite unter **https://rezepte.leonfilla.de**. Jedes Rezept ist e
 content/
   bereiche.yaml            Bereiche und ihre Reihenfolge auf der Startseite
   rezepte/<bereich>/*.md   ein Rezept pro Datei, Ordnername = Bereich
+  ideen/<bereich>/*.md     noch nicht ausgearbeitete Vorschläge (Ideen-Backlog)
   bohnen/*.yaml            Kaffeebohnen, auf die xBloom-Rezepte verweisen
   profil/                  equipment, vorlieben, prozess, vorrat
   wissen/*.md              Grundlagen und validierte Prinzipien

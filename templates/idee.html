@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block titel %}{{ i.titel }} · {% endblock %}
+{% block akzent %}{{ i.bereich_info.farbe }}{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a> › <a href="/ideen/">Ideen</a> › <a href="/ideen/#{{ i.bereich }}">{{ i.bereich_info.name }}</a></nav>
+<header class="seitenkopf">
+  <h1>{{ i.titel }}</h1>
+  <p class="marken"><span class="marke-status idee">Idee</span>{% if i.datum %}<span class="marke leise">{{ i.datum|datum }}</span>{% endif %}</p>
+</header>
+<article class="fliesstext">{{ i.body_html|safe }}</article>
+<footer class="rezept-fuss leise">
+  {% if i.quelle %}<p>Quelle: {% if i.quelle.url %}<a href="{{ i.quelle.url }}" rel="noopener">{{ 'Gemini' if i.quelle.typ == 'gemini' else 'Claude' }}-Chat</a>{% endif %}{% if i.quelle.hinweis %} · {{ i.quelle.hinweis }}{% endif %}</p>{% endif %}
+  <p><a href="{{ repo_edit }}{{ i.quelle_datei }}" rel="noopener">Auf GitHub bearbeiten</a></p>
+</footer>
+{% endblock %}

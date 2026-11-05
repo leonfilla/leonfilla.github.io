@@ -185,7 +185,7 @@
 
 <footer class="rezept-fuss leise">
   {% if r.geraete %}<p>Geräte: {% for g in r.geraete %}{{ ctx.geraete[g].name if g in ctx.geraete else g }}{{ ', ' if not loop.last }}{% endfor %}</p>{% endif %}
-  {% if r.quelle %}<p>Quelle: {% if r.quelle.url %}<a href="{{ r.quelle.url }}" rel="noopener">{{ r.quelle.hinweis or 'Chat' }}</a>{% else %}{{ r.quelle.hinweis or r.quelle.typ }}{% endif %}</p>{% endif %}
+  {% if r.quelle %}<p>Quelle: {% if r.quelle.url %}<a href="{{ r.quelle.url }}" rel="noopener">{{ {'gemini': 'Gemini-Chat', 'claude': 'Claude-Chat'}.get(r.quelle.typ, 'Chat') }}</a>{% if r.quelle.hinweis %} · {{ r.quelle.hinweis }}{% endif %}{% else %}{{ r.quelle.hinweis or r.quelle.typ }}{% endif %}</p>{% endif %}
   <p><a href="{{ repo_edit }}{{ r.quelle_datei }}" rel="noopener">Auf GitHub bearbeiten</a></p>
 </footer>
 {% endblock %}

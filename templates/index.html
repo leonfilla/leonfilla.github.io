@@ -10,6 +10,7 @@
     <div class="suche-filter">
       <div class="chips" role="group" aria-label="Status">
         {% for s, name in STATUS.items() %}<button type="button" class="chip st-{{ s }}" data-such-st="{{ s }}" aria-pressed="true">{{ name }}</button>{% endfor %}
+        <button type="button" class="chip st-idee" data-such-st="idee" aria-pressed="false">Ideen</button>
       </div>
       <select id="such-bereich" aria-label="Bereich">
         <option value="">Alle Bereiche</option>

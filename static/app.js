@@ -11,7 +11,7 @@
   // ---- Suche (Startseite): Freitext + Status + Bereich
   const feld = $("#suchfeld");
   const indexEl = $("#suchindex");
-  const STATUS_NAME = { aktiv: "Aktiv", unfertig: "Unfertig", archiv: "Archiv" };
+  const STATUS_NAME = { aktiv: "Aktiv", unfertig: "Unfertig", archiv: "Archiv", idee: "Idee" };
   if (feld && indexEl) {
     const index = JSON.parse(indexEl.textContent);
     const liste = $("#treffer"), zahlEl = $("#treffer-zahl"), bereichSel = $("#such-bereich");
@@ -22,7 +22,7 @@
       const stati = aktiveStati(), bereich = bereichSel.value;
       const gefiltert = stati.length < chips.length || bereich;
       if (!woerter.length && !gefiltert) { liste.hidden = true; zahlEl.hidden = true; liste.innerHTML = ""; return; }
-      const rang = (e) => ({ aktiv: 0, unfertig: 1, archiv: 2 }[e.v ? "archiv" : e.s] ?? 3);
+      const rang = (e) => ({ aktiv: 0, unfertig: 1, archiv: 2, idee: 3 }[e.v ? "archiv" : e.s] ?? 4);
       const treffer = index
         .filter((e) => stati.includes(e.v ? "archiv" : e.s) && (!bereich || e.bid === bereich) && woerter.every((w) => e.q.includes(w)))
         .sort((a, b) => rang(a) - rang(b) || a.t.localeCompare(b.t, "de"));

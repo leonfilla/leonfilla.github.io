@@ -18,6 +18,7 @@
 {% if liste %}
 {{ filterleiste(anzahl) }}
 {% endif %}
+{% if ideen_n %}<p class="leise"><a href="/ideen/#{{ bereich.id }}">{{ ideen_n }} Idee{{ 'n' if ideen_n != 1 }} in diesem Bereich</a></p>{% endif %}
 
 {% if gruppen %}
   {% for name, bohnen in gruppen %}
@@ -29,8 +30,8 @@
       <a class="karte{{ '' if lebt else ' st-archiv' }}" href="{{ b.url }}" data-filter-item data-status="{{ b.status|join(' ') }}"
          data-q="{{ (b.name ~ ' ' ~ b.roesterei ~ ' ' ~ b.herkunft ~ ' ' ~ b.geschmack ~ ' ' ~ (b.rezepte|map(attribute='titel')|join(' ')))|lower }}">
         <span class="karte-titel">{{ b.name }}</span>
-        <span class="karte-meta"><span>{{ b.roesterei }}</span><span>{{ b.herkunft }}</span></span>
-        <span class="karte-text">{{ b.geschmack }}</span>
+        <span class="karte-meta"><span>{{ b.roesterei }}</span>{% if b.herkunft %}<span>{{ b.herkunft }}</span>{% endif %}</span>
+        {% if b.geschmack %}<span class="karte-text">{{ b.geschmack }}</span>{% endif %}
         <span class="karte-fuss">
           {% for s, name in STATUS.items() %}{% set n = b.rezepte|selectattr('status', 'equalto', s)|list|length %}{% if n %}<span class="zahl-pille st-{{ s }}">{{ n }} {{ name }}</span>{% endif %}{% endfor %}
         </span>
@@ -39,6 +40,12 @@
     </div>
   </section>
   {% endfor %}
+  {% if ohne_bohne %}
+  <section class="abschnitt" data-filter-gruppe>
+    <h2>Ohne Bohnenzuordnung</h2>
+    <div class="raster">{% for r in ohne_bohne %}{{ karte(r) }}{% endfor %}</div>
+  </section>
+  {% endif %}
 {% elif liste %}
   <section class="abschnitt" data-filter-gruppe>
     <div class="raster">{% for r in liste %}{{ karte(r) }}{% endfor %}</div>

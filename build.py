@@ -51,7 +51,7 @@ def read_md(path: Path):
 
 
 def md(text: str, breaks: bool = False) -> str:
-    exts = ["tables", "sane_lists", "attr_list"] + (["nl2br"] if breaks else [])
+    exts = ["tables", "sane_lists", "attr_list", "fenced_code"] + (["nl2br"] if breaks else [])
     return markdown.markdown(text or "", extensions=exts)
 
 
@@ -116,7 +116,10 @@ def pruefe(r, ctx, report: Report):
 
     xb = r.get("xbloom")
     if typ == "xbloom" and not xb:
-        add("fehler", "xbloom-Block fehlt")
+        if r.get("importiert") or r.get("body_html"):
+            add("warnung", "Parameter stehen nur im Text – noch nicht als xBloom-Block erfasst")
+        else:
+            add("fehler", "xbloom-Block fehlt")
     if xb:
         g = ctx["geraete"]["xbloom-studio"].get("grenzen", {})
         if not in_range(xb.get("dosis"), g.get("dosis")):
@@ -307,6 +310,19 @@ def lade():
         wissen.append(meta)
     wissen.sort(key=lambda w: (w.get("bereich", ""), w.get("reihenfolge", 99)))
 
+    ideen = []
+    for p in sorted((CONTENT / "ideen").glob("*/*.md")):
+        meta, body = read_md(p)
+        bereich = p.parent.name
+        if bereich not in bereiche:
+            continue
+        if isinstance(meta.get("datum"), (dt.date, dt.datetime)):
+            meta["datum"] = meta["datum"].isoformat()[:10]
+        meta.update({"slug": p.stem, "bereich": bereich, "bereich_info": bereiche[bereich],
+                     "url": f"/idee/{bereich}/{p.stem}/", "body_html": md(body), "quelle_datei": str(p.relative_to(ROOT))})
+        ideen.append(meta)
+    ideen.sort(key=lambda i: str(i.get("datum") or ""), reverse=True)
+
     seiten = {}
     for p in sorted((CONTENT / "seiten").glob("*.md")):
         meta, body = read_md(p)
@@ -317,7 +333,7 @@ def lade():
               for name in ("vorlieben", "prozess", "vorrat")}
     profil["equipment"] = equipment
     return {"cfg": cfg, "bereiche": bereiche, "geraete": geraete, "bohnen": bohnen,
-            "rezepte": rezepte, "wissen": wissen, "seiten": seiten, "profil": profil}
+            "rezepte": rezepte, "wissen": wissen, "seiten": seiten, "profil": profil, "ideen": ideen}
 
 
 def verknuepfe(ctx):
@@ -327,7 +343,7 @@ def verknuepfe(ctx):
         if r.get("bohne") in ctx["bohnen"]:
             ctx["bohnen"][r["bohne"]]["rezepte"].append(r)
     for rs in linien.values():
-        rs.sort(key=lambda r: (version_key(r.get("version")), r.get("variante") or ""))
+        rs.sort(key=lambda r: (version_key(r.get("version")), str(r.get("datum") or ""), r.get("variante") or ""))
         for r in rs:
             r["geschwister"] = [x for x in rs if x is not r]
         # Ältere Versionen einer Linie gelten als überholt, sobald es eine neuere nicht archivierte gibt
@@ -364,6 +380,9 @@ def suchindex(ctx):
             " ".join(r.get("tags") or []), " ".join(z.get("name", "") for z in r.get("zutaten") or [])]))
         eintraege.append({"t": r["titel"], "u": r["url"], "b": r["bereich_info"]["name"], "bid": r["bereich"],
                           "s": r["status"], "v": r.get("veraltet", False), "q": text.lower()})
+    for i in ctx["ideen"]:
+        eintraege.append({"t": i["titel"], "u": i["url"], "b": i["bereich_info"]["name"] + " · Idee", "bid": i["bereich"],
+                          "s": "idee", "q": (i["titel"] + " " + i["bereich_info"]["name"]).lower()})
     for b in ctx["bohnen"].values():
         eintraege.append({"t": b["name"] + " (Bohne)", "u": b["url"], "b": b.get("roesterei", ""), "bid": "kaffee-xbloom",
                           "s": (b.get("status") or ["aktiv"])[0], "bohne": True, "q": " ".join(str(b.get(k, "")) for k in
@@ -425,7 +444,7 @@ def schreibe(ctx):
             nach_aufb = {}
             for x in bohnen:
                 bb = ctx["bohnen"][x]
-                key = "Decaf" if bb.get("decaf") else bb.get("aufbereitung", "Sonstige")
+                key = "Decaf" if bb.get("decaf") else (bb.get("aufbereitung") or "Weitere Bohnen")
                 nach_aufb.setdefault(key, []).append(bb)
             ordnung = ["Gewaschen", "Natural", "Anaerob / fermentiert"]
             gruppen = sorted(nach_aufb.items(), key=lambda kv: (kv[0] == "Decaf",
@@ -434,7 +453,10 @@ def schreibe(ctx):
                                           not r.get("favorit"), r["titel"].lower(), version_key(r.get("version"))))
         anzahl = {s: sum(1 for r in rs if r["status"] == s) for s in STATUS}
         wissen = [w for w in ctx["wissen"] if w.get("bereich") == bid]
-        seite(f"/{bid}/", "bereich.html", bereich=b, gruppen=gruppen, wissen=wissen, liste=liste, anzahl=anzahl)
+        ohne_bohne = [r for r in liste if b["typ"] == "xbloom" and not r.get("bohne")]
+        ideen_n = sum(1 for i in ctx["ideen"] if i["bereich"] == bid)
+        seite(f"/{bid}/", "bereich.html", bereich=b, gruppen=gruppen, wissen=wissen, liste=liste, anzahl=anzahl,
+              ohne_bohne=ohne_bohne, ideen_n=ideen_n)
 
     for r in sichtbar:
         seite(r["url"], "rezept.html", r=r, bohne=ctx["bohnen"].get(r.get("bohne")))
@@ -444,6 +466,9 @@ def schreibe(ctx):
         seite(b["url"], "bohne.html", b=b)
 
     seite("/profil/", "profil.html", p=ctx["profil"])
+    seite("/ideen/", "ideen.html")
+    for i in ctx["ideen"]:
+        seite(i["url"], "idee.html", i=i)
     seite("/wissen/", "wissen_liste.html")
     for w in ctx["wissen"]:
         seite(w["url"], "wissen.html", w=w)
