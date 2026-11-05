@@ -8,8 +8,10 @@ quelle:
   url: https://claude.ai/chat/a96c82a8-39eb-4a7e-9b8a-7c5603247a3f
   hinweis: Chat „Jasminreis im Instant Pot zubereiten“
 geraete: [instant-pot-pro-max]
-tags: [Beilage, Reis]
+tags: [Beilage, Reis, Meal Prep]
+ergebnis: 4 Portionen, ca. 660 g gegart
 portionen: 4
+zeit: {aktiv: 5, gesamt: 30}
 fokus: Locker und getrennt, ohne Kleben – über reduziertes Wasser und High statt Max.
 instantpot:
   programm: Pressure Cook
