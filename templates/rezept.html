@@ -24,6 +24,15 @@
 
 {{ hinweise(r.hinweise) }}
 
+{% if r.ergebnis or r.zeit %}
+<section class="abschnitt eck-allgemein">
+  <div class="kacheln">
+    {{ kachel('Ergebnis', r.ergebnis) }}
+    {% if r.zeit %}{{ kachel('Aktiv', r.zeit.aktiv, 'min') }}{% if r.zeit.gesamt and r.zeit.gesamt >= 120 %}{{ kachel('Gesamt', '%d:%02d'|format(r.zeit.gesamt // 60, r.zeit.gesamt % 60), 'h') }}{% else %}{{ kachel('Gesamt', r.zeit.gesamt, 'min') }}{% endif %}{% endif %}
+  </div>
+</section>
+{% endif %}
+
 {# ---------------- xBloom ---------------- #}
 {% if r.xbloom %}{% set xb = r.xbloom %}{% set vib = xb.guesse|selectattr('vib_vor')|list or xb.guesse|selectattr('vib_nach')|list %}
 <section class="abschnitt">
@@ -73,7 +82,38 @@
     {{ kachel('Temperatur', es.temperatur, '°C') }}
     {{ kachel('Mahlgrad', es.mahlgrad) }}
     {{ kachel('Pre-Infusion', es.preinfusion, 's') }}
-    {% if es.milch %}{{ kachel('Milch', es.milch.menge, 'g · ' ~ es.milch.temp ~ ' °C') }}{% endif %}
+    {% if es.milch %}{{ kachel('Milch', es.milch.menge, 'g · ' ~ es.milch.temp ~ ' °C' ~ (' · ' ~ es.milch.textur if es.milch.textur else '')) }}{% endif %}
+    {{ kachel('Sieb', es.sieb) }}
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Unterwegs ---------------- #}
+{% if r.handbrew %}{% set hb = r.handbrew %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Methode', hb.methode) }}
+    {{ kachel('Dosis', hb.dosis, 'g') }}
+    {{ kachel('Wasser', hb.wasser, 'g') }}
+    {% if hb.dosis and hb.wasser %}{{ kachel('Verhältnis', '1:' ~ ((hb.wasser / hb.dosis)|round(1)|fmt)) }}{% endif %}
+    {{ kachel('Mahlgrad', hb.mahlgrad) }}
+    {{ kachel('Wasser­temperatur', hb.temperatur) }}
+    {% if hb.bloom %}{{ kachel('Bloom', hb.bloom.menge, 'g · ' ~ hb.bloom.zeit ~ ' s') }}{% endif %}
+    {{ kachel('Gesamtzeit', hb.gesamtzeit) }}
+  </div>
+</section>
+{% endif %}
+
+{# ---------------- Ofen ---------------- #}
+{% if r.ofen %}{% set of = r.ofen %}
+<section class="abschnitt">
+  <div class="kacheln">
+    {{ kachel('Ofen', of.modus) }}
+    {{ kachel('Temperatur', of.temp, '°C') }}
+    {{ kachel('Dampf', of.dampf) }}
+    {{ kachel('Backzeit', of.zeit, 'min') }}
+    {{ kachel('Kerntemperatur', of.kerntemperatur, '°C') }}
+    {{ kachel('Form', of.form) }}
   </div>
 </section>
 {% endif %}
@@ -99,6 +139,9 @@
 <section class="abschnitt">
   <div class="kacheln">
     {{ kachel('Programm', br.programm) }}
+    {{ kachel('Größe', br.groesse) }}
+    {{ kachel('Bräunung', br.braeunung) }}
+    {{ kachel('Teiggewicht', br.teiggewicht, 'g') }}
     {% if r.berechnet.mehl %}{{ kachel('Mehl', r.berechnet.mehl|round|int, 'g') }}{% endif %}
     {% if r.berechnet.hydration %}{{ kachel('Hydration', r.berechnet.hydration|round(1), '%') }}{% endif %}
     {{ kachel('Kerntemperatur', br.kerntemperatur, '°C') }}
@@ -107,6 +150,25 @@
     {{ kachel('Energie', sm.kcal, 'kcal') }}
     {% for k, v in (r.parameter or {}).items() %}{{ kachel(k, v) }}{% endfor %}
   </div>
+</section>
+{% endif %}
+
+{% if br.gare or br.backprofil %}
+<section class="abschnitt">
+  {% if br.gare %}
+  <h2>Gare</h2>
+  <div class="tabelle-rahmen"><table class="tabelle">
+    <thead><tr><th>Phase</th><th>°C</th><th>Zeit</th><th>pH</th></tr></thead>
+    <tbody>{% for g in br.gare %}<tr><th scope="row">{{ g.phase }}</th><td>{{ g.temp|fmt if g.temp is not none else '–' }}</td><td>{{ g.zeit or '–' }}</td><td>{{ g.ph|fmt if g.ph is not none else '–' }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  {% endif %}
+  {% if br.backprofil %}
+  <h2>Backprofil</h2>
+  <div class="tabelle-rahmen"><table class="tabelle">
+    <thead><tr><th>Phase</th><th>°C</th><th>Dampf</th><th>Zeit</th></tr></thead>
+    <tbody>{% for g in br.backprofil %}<tr><th scope="row">{{ g.phase }}</th><td>{{ g.temp|fmt if g.temp is not none else '–' }}</td><td>{{ g.dampf or '–' }}</td><td>{{ g.zeit or '–' }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  {% endif %}
 </section>
 {% endif %}
 

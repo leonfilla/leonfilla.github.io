@@ -98,7 +98,8 @@ def spec_text(spec) -> str:
 
 def pruefe(r, ctx, report: Report):
     # Nur aktive Rezepte müssen alle Grenzen einhalten; unfertige und archivierte bekommen Hinweise.
-    hart = "fehler" if r["status"] == "aktiv" else "warnung"
+    # Aus Chats übernommene Rezepte: Verstöße als sichtbarer Hinweis, nicht als Build-Abbruch
+    hart = "fehler" if r["status"] == "aktiv" and not r.get("importiert") else "warnung"
     def add(level, text):
         report.add(r, level, text)
 
