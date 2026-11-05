@@ -1,5 +1,5 @@
 ---
-titel: 'Setup: Japanese Flash Brew auf dem xbloom'
+titel: Uganda Natural Decaf – Japanese Flash Brew
 status: archiv
 datum: '2026-05-08'
 quelle:
@@ -7,19 +7,26 @@ quelle:
   url: https://claude.ai/chat/7af144c1-2fb5-4d2d-8169-6eb064eb8035
   hinweis: Espresso auf Eis brühen
 importiert: true
+linie: uganda-natural-decaf-2026-05-08
+fokus: 'Saftiger Eiskaffee aus Natural Decaf (SL28/SL14): konzentriert gebrüht auf etwa 100 g Eis, das sofort quencht – tropisch-frisch statt flach.'
+ergebnis: 1 Glas über Eis
+geraete:
+- xbloom-studio
+zutaten:
+- {name: Eis, menge: 100, einheit: g}
+schritte:
+- {titel: Eis vorlegen, text: 100 g Eis in Karaffe oder Glas unter den Brühkorb geben.}
+- {titel: Programm anpassen, text: 'Normales Filterprogramm auf ca. 155 g Brühwasser bei 93 °C kürzen, Bloom auf 45–50 s verlängern, Mahlgrad eine halbe Stufe feiner als der Filter-Standard.'}
+- {titel: Brühen, text: Direkt auf das Eis brühen.}
+xbloom:
+  dosis: 16
+  wasser: 155
 ---
 
-Schöne Bohne für Eis — Natural Decaf + SL28/SL14 + Uganda ist eine sehr saftige Kombination.
+## Warum so
 
-**Setup: Japanese Flash Brew auf dem xbloom**
+Konzentriert bei etwa 1:10 gebrüht und durch das Eis auf etwa 1:16 verdünnt, wird der Kaffee gequencht, bevor er oxidiert oder bitter wird. Kälte dämpft Bitterkeit und Tannine stärker als Säure und Süße. 93 °C schließen die Passionsfrucht- und Limettenaromatik des Naturals auf; der längere Bloom trägt dem stärkeren Ausgasen Rechnung.
 
-- **Dose:** 16g (wie immer)
-- **Eis ins Gefäß vorab:** ~100g
-- **Brühwasser:** ~155g statt ~250g
-- **Temperatur:** 93 °C — Natural Process braucht etwas Hitze, um die Passionfrucht/Limetten-Aromatik vollständig aufzuschließen; Decaf-Zellstruktur gibt trotzdem schnell nach
-- **Bloom:** verlängert auf ~45–50 Sek. (Natural Coffees ausgasen intensiver)
-- **Mahlgrad:** eine halbe Stufe feiner als dein normaler Filter-Standard, um die reduzierte Wassermenge zu kompensieren
+## Stellschrauben
 
-**Warum das saftig wird:** Du brühst konzentriert (~1:10 Verhältnis) und das Eis verdünnt auf ~1:16 — dabei wird der Shot sofort gequencht, bevor er oxidiert oder bitter wird. Cold dampft Bitterkeit und Tannine stärker als Säure und Süße, was bei diesem Profil (Zuckerrohr + Limette) perfekt funktioniert — es schmeckt dann tropisch-frisch statt flach.
-
-Falls es zu spitz/sauer rauskommt: Temperatur auf 94–95 °C oder Mahlgrad noch einen Tick feiner.
+- Zu spitz oder sauer → 94–95 °C oder Mahlgrad noch etwas feiner

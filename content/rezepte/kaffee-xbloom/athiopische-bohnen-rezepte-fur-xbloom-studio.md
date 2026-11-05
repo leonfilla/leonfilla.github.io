@@ -1,5 +1,5 @@
 ---
-titel: Äthiopische Bohnen Rezepte für xbloom studio
+titel: Äthiopien Anaerob G1 – Klare Tropen
 status: archiv
 datum: '2026-05-20'
 quelle:
@@ -8,46 +8,30 @@ quelle:
   hinweis: Äthiopische Bohnen Rezepte für xbloom studio
 importiert: true
 linie: yirgacheffe-athiopien-heiss-8b8d5
+variante: Klare Tropen
 bohne: yirgacheffe-athiopien
+fokus: 'Mango, Maracuja, Clementine und Jasmin: konstant 94 °C mit 1:16, eher mittlerer Mahlgrad und zwei große Güsse gegen Anaerob-Spitzen.'
+ergebnis: 1 Tasse, 256 g
+geraete:
+- xbloom-studio
+xbloom:
+  dosis: 16
+  verhaeltnis: 16
+  wasser: 256
+  bruehzeit: 2:45–3:00
+  guesse:
+  - {phase: Bloom, menge: 48, temp: 94, pause: 35, muster: zentral}
+  - {phase: Guss 2, menge: 102, temp: 94, fluss: 6, muster: spirale}
+  - {phase: Guss 3, menge: 106, temp: 94, fluss: 6, muster: zentral}
 ---
 
-Die Bohne im Profil: Yirgacheffe Heirloom, 90 h anaerob fermentiert, helle Röstung, Notizen Klementine – Cascara – Jasmin (1.850–2.200 m). Anaerobics dieser Bauart neigen bei zu heißer/zu langer Extraktion zu Aceton-, Lösungsmittel- und Übergär-Noten; Süße und Tropenfrucht liegen im mittleren Extraktionsfenster. Strategie also: Temperatur leicht unterhalb des Light-Roast-Maximums, Mahlgrad eher mittel statt fein, ausreichend Kontaktzeit für Zucker, aber kein langes Nachlaufen am Ende.
+## Warum so
 
-**Rezept 1 – "Klare Tropen" (Mango, Maracuja, Klementine, jasminartig)**
+Hohe Temperatur mobilisiert Fruchtsäuren und Jasmin, der etwas gröbere Mahlgrad kappt das Übergär-Bittere am Schluss. Zwei große Güsse halten das Bett gleichmäßig nass, ohne viel Agitation. Mahlgrad im Chat nur als „medium“, Fluss als ~6 g/s.
 
-- Dosis: 16 g
-- Wasser: 256 g (1:16)
-- Temperatur: **94 °C** konstant
-- Mahlgrad: **medium**, ca. einen halben Schritt gröber als dein typischer V60-Punkt
-- Filter: weißes Origami / Kalita-Wave-artig (xbloom Standard-Dripper geht auch)
-- Pour-Plan:
-  - **Bloom:** 48 g (3× Dosis), 35 s Rast, zentriert
-  - **Pour 1:** auf 150 g, mittlere Flow-Rate (~6 g/s), spiralförmig von innen nach außen
-  - **Pour 2:** auf 256 g, gleiche Flow-Rate, zentrierter
-- Drawdown-Ende anvisiert: **2:45–3:00**
+## Stellschrauben
 
-Logik: Hohe Temperatur plus 1:16 mobilisiert die Fruchtsäuren (Malat, Citrat) und Jasminaromen, während der etwas gröbere Mahlgrad das Übergär-Bittere am Schluss kappt. Zwei große Güsse statt vieler Pulse halten das Bett gleichmäßig benetzt – das verhindert die typischen Anaerob-Spitzen, die bei zu viel Agitation kommen.
-
-**Rezept 2 – "Süße Tiefe" (sirupartig, reife Ananas, Honig, Cascara-Süße)**
-
-- Dosis: 16 g
-- Wasser: 240 g (1:15)
-- Temperatur: **91 °C** konstant (bewusst niedriger als üblich für Light Roast)
-- Mahlgrad: **medium-fine**, ca. einen halben Schritt feiner als Rezept 1
-- Pour-Plan (Pulse-Pour):
-  - **Bloom:** 45 g, 40 s Rast
-  - **Pour 1:** auf 110 g, langsame Flow-Rate (~4 g/s)
-  - **Pour 2:** auf 175 g, ~4 g/s
-  - **Pour 3:** auf 240 g, ~4 g/s
-- Drawdown-Ende anvisiert: **3:15–3:30**
-
-Logik: 91 °C unterdrückt gezielt die volatilen Solvent-/Ethanol-Noten (Siedepunkt-Logik – die fliegen bei 94 °C deutlich aggressiver ins Headspace). Die etwas feinere Mahlung plus drei Pulse erhöht die Extraktionsausbeute (TDS-Ziel ~1.45–1.55 %) trotz der niedrigeren Temperatur, sodass Maillard-Zucker und Cascara-Süße dominieren statt der Säurespitzen. 1:15 macht die Tasse dichter und maskiert eventuell verbliebene Fermentations-Spitzen über Körper.
-
-**Feintuning, falls Fehlnoten durchkommen:**
-
-- Aceton-/Nagellack-Note → 1 °C runter und 0,5 Schritte gröber mahlen
-- Adstringent/trocken am Gaumen → Drawdown verkürzen (gröber) oder Bloom-Wasser auf 2,5× Dosis reduzieren
-- Tasse flach/sauer → Temperatur um 1 °C hoch, Mahlgrad halbe Stufe feiner
-- Zu "boozy"/weinig → längere Bloomzeit (bis 45 s) entgast mehr CO₂ und reduziert die wahrgenommene Schärfe
-
-Starte mit Rezept 1 zum Kennenlernen der Bohne und wechsle auf Rezept 2, wenn du in Richtung Espresso-Konzentration und Süße willst.
+- Aceton- oder Nagellacknote → 1 °C kühler und etwas gröber
+- Adstringent oder trocken → gröber oder Bloom auf 2,5× Dosis
+- Flach oder sauer → 1 °C wärmer, etwas feiner
+- Boozy oder weinig → Bloom bis 45 s verlängern

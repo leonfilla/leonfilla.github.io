@@ -1,5 +1,5 @@
 ---
-titel: Die Rezepte im Anhang sind meine aktuellen Lieblingskaffees, vor allem der …
+titel: La Esperanza – Ruronzi-Ansatz
 status: unfertig
 datum: '2026-01-27'
 quelle:
@@ -7,71 +7,26 @@ quelle:
   url: https://gemini.google.com/app/dc7dc954ebc1e004
   hinweis: Die Rezepte im Anhang sind meine aktuellen Lieblingskaffees, vor allem der Ruron…
 importiert: true
-linie: ruronzi-anaerobic-heiss-2665a
-bohne: elbgold-ruronzi-anaerobic
+linie: la-esperanza-2026-01-27
+variante: Ruronzi-Ansatz
+bohne: la-esperanza
+fokus: 'Natural aus Tolima mit Sauerkirsche und Portwein: Parameter des Ruronzi übertragen, abfallende Temperatur 92→86 °C betont die Frucht ohne Bitterkeit.'
+ergebnis: 1 Tasse, 256 g
+geraete:
+- xbloom-studio
+xbloom:
+  dosis: 16
+  verhaeltnis: 16
+  wasser: 256
+  mahlgrad: 60
+  bruehzeit: 2:45–2:50
+  guesse:
+  - {phase: Bloom, menge: 40, temp: 92, fluss: 3.0, pause: 40, muster: zentral, vib_vor: true, vib_nach: false}
+  - {phase: Guss 2, menge: 70, temp: 90, fluss: 3.4, pause: 30, muster: spirale, vib_vor: false, vib_nach: false}
+  - {phase: Guss 3, menge: 70, temp: 88, fluss: 3.4, pause: 30, muster: spirale, vib_vor: false, vib_nach: false}
+  - {phase: Guss 4, menge: 76, temp: 86, fluss: 3.5, pause: 0, muster: kreis, vib_vor: false, vib_nach: false}
 ---
 
-> **Frage im Chat:** Die Rezepte im Anhang sind meine aktuellen Lieblingskaffees, vor allem der Ruronzi. Schlag mir zwei unterschiedliche Rezepte für die Kaffeebohnen auf den Bildern vor.
+## Warum so
 
-Hier sind zwei funktionale Rezept-Vorschläge für den **La Esperanza (Schamong)** basierend auf deinen Präferenzen für den Ruronzi und die vorliegenden Bohnendaten.
-
-#### Analyse der Bohne (La Esperanza)
-
-- **Herkunft:** Kolumbien, Tolima (1700m).
-
-- **Aufbereitung:** Natural.
-
-- **Profil:** Sauerkirsche, Portwein, Fruchtig.
-
-- **Röstung:** Hell/Mittel (2 von 6).
-
-- **Röster-Empfehlung:** 96°C, Verhältnis 1:15.
-
----
-
-#### Rezept 1: "Der Ruronzi-Ansatz" (Angepasst an deine Referenz)
-
-Dieses Rezept überträgt die Parameter deines Favoriten (Ruronzi) auf die neue Bohne. Es nutzt eine abfallende Temperaturkurve, um die fermentierten "Portwein"-Noten zu betonen, ohne Bitterkeit zu erzeugen.
-
-- **Ziel:** Ausgewogenheit, Betonung der Frucht (Sauerkirsche).
-
-- **Kaffee:** 16 g
-
-- **Wasser:** 256 g (Ratio 1:16)
-
-- **Mahlgrad (xBloom):** 60 (Identisch zum Ruronzi, da beide Naturals sind).
-
-- **Gesamtzeit:** ca. 02:45 - 02:50
-
-|Phase |Wasser (g) |Temp. (°C) |Flussrate (ml/s) |Pause (s) |Gießmuster |Vibration |
-|**Bloom** |40 |92 |3.0 |40 |Zentral |Davor |
-|**Guss 2** |70 |90 |3.4 |30 |Spirale |- |
-|**Guss 3** |70 |88 |3.4 |30 |Spirale |- |
-|**Guss 4** |76 |86 |3.5 |0 |Kreis |- |
-
-**Unterschied zum Ruronzi:** Starttemperatur leicht erhöht (92°C statt 90°C), da der La Esperanza "Portwein"-Noten hat, die oft mehr Hitze vertragen als reine Fruchtbomben, um die Süße zu extrahieren.
-
----
-
-#### Rezept 2: "High Extraction" (Röster-orientiert)
-
-Dieses Rezept orientiert sich an der Empfehlung von Schamong (hohe Temperatur, engeres Verhältnis), ist aber auf deine xBloom-Logik übersetzt. Es wird intensiver und körperreicher.
-
-- **Ziel:** Maximale Süße und Körper (Portwein-Charakter).
-
-- **Kaffee:** 20 g (Röster-Empfehlung 20g/300ml)
-
-- **Wasser:** 300 g (Ratio 1:15)
-
-- **Mahlgrad (xBloom):** 64 (Gröber, da höhere Dosis und heißeres Wasser den Durchfluss bremsen).
-
-- **Gesamtzeit:** ca. 03:10
-
-|Phase |Wasser (g) |Temp. (°C) |Flussrate (ml/s) |Pause (s) |Gießmuster |Vibration |
-|**Bloom** |60 |96 |3.0 |45 |Zentral |Davor |
-|**Guss 2** |120 |96 |3.8 |35 |Spirale |- |
-|**Guss 3** |120 |96 |3.8 |0 |Spirale |Danach |
-
-**Technische Notiz:** Die Flussrate wurde auf 3.8 ml/s erhöht, um die größere Kaffeemenge (20g) zu kompensieren und Channeling bei der hohen Temperatur (96°C) zu vermeiden.
-
-**Nächster Schritt:** Möchtest du, dass ich eines dieser Rezepte als .json oder Textdatei formatiere, damit du es direkt in die xBloom-App importieren oder abspeichern kannst?
+Gleicher Mahlgrad wie beim Ruronzi, weil beide Naturals sind. Der Start liegt 2 °C höher, weil die Portwein-Noten mehr Hitze für die Süße vertragen.
