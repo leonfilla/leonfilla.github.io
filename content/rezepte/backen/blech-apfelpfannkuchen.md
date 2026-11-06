@@ -8,6 +8,15 @@ quelle:
   hinweis: 💬 4 Pfannkuchen-Rezepte mit Apfe…
 importiert: true
 fokus: Ofenversion aus Haferflocken, säuerlichem Apfel und Ahornsirup — einmal backen, vier Tage Frühstück.
+ergebnis: 1 Blech 30 × 20 cm, 8 Stücke
+zeit: {aktiv: 15, gesamt: 55}
+geraete: [bosch-hng978]
+tags: [Frühstück, Meal Prep, vegetarisch]
+ofen:
+  modus: Heißluft
+  temp: 180
+  zeit: 25–30
+  form: Blech 30 × 20 cm
 portionen: 4
 zutaten:
 - name: zarte Haferflocken
@@ -58,10 +67,17 @@ schritte:
   timer: 600
 ---
 
-HNG978: 170 °C Heißluft mit 30 % Feuchte, gleiche Zeit. Die Feuchte hält den Kern saftig, ohne dass die Oberfläche blass bleibt.
+## Warum so
 
-Aufbewahrung: 4 Tage im Kühlschrank, luftdicht. Portionen im Toaster (mittlere Stufe) oder 5 min bei 160 °C aufbacken — Mikrowelle macht die Haferflocken gummiartig.
+Die Haferflocken quellen vorab, sonst ziehen sie die Flüssigkeit erst im Ofen und der Rand trocknet, bevor die Mitte stockt. Backpulver kommt zuletzt, weil es ab Kontakt mit der feuchten Masse reagiert. Warm geschnitten wird es matschig – die Stärke muss erst anziehen.
 
-Protein-Variante: 30 g der Haferflocken durch Vetain Neutral ersetzen und 30 ml Milch zusätzlich. Mehr geht nicht, sonst wird die Krume trocken und spröde.
+## Stellschrauben
 
-Skalierung: Beim Verdoppeln zwei Bleche nehmen, nicht ein hohes — bei über 2 cm Höhe braucht der Kern deutlich länger und die Apfelwürfel oben verbrennen.
+- Kern trocken, Oberfläche blass → im HNG978 170 °C Heißluft mit 30 % Feuchte, gleiche Zeit
+- Aufwärmen → Toaster mittlere Stufe oder 5 Minuten bei 160 °C; Mikrowelle macht die Haferflocken gummiartig
+- Doppelte Menge → zwei Bleche statt eines hohen; über 2 cm Höhe braucht der Kern zu lange und die Äpfel verbrennen
+
+## Varianten
+
+- **Protein:** 30 g der Haferflocken durch neutrales Proteinpulver ersetzen und 30 ml Milch mehr; mehr nicht, sonst wird die Krume spröde.
+- **Aufbewahrung:** 4 Tage luftdicht im Kühlschrank.

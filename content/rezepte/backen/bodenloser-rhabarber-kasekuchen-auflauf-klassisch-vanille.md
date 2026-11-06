@@ -1,5 +1,5 @@
 ---
-titel: Bodenloser Rhabarber-Käsekuchen-Auflauf – Klassisch Vanille
+titel: Bodenloser Rhabarber-Käsekuchen mit Vanille
 status: aktiv
 datum: '2026-06-02'
 quelle:
@@ -7,7 +7,17 @@ quelle:
   url: https://claude.ai/chat/6553ce06-e5d9-4e1d-8df9-6118f13f379d
   hinweis: Rhabarber-Käsekuchen Rezeptideen
 importiert: true
-fokus: 'Variation 1: Gerösteter Rhabarber unten, cremige Quarkmasse darüber, knusprige Streusel obenauf – ganz ohne Boden. Springform 22 cm.'
+fokus: Gerösteter Rhabarber unten, cremige Quark-Schmand-Masse darüber, knusprige Streusel obenauf – ganz ohne Boden, in der 22-cm-Springform.
+variante: Klassisch Vanille
+ergebnis: 1 Springform, 22 cm
+zeit: {aktiv: 30, gesamt: 330}
+geraete: [wilfa-probaker, bosch-hng978]
+tags: [Kuchen, Käsekuchen, vegetarisch]
+ofen:
+  modus: Heißluft
+  temp: 160
+  zeit: 55
+  form: Springform 22 cm
 portionen: 8
 zutaten:
 - name: Rhabarber, in 1,5 cm Stücke
@@ -71,8 +81,15 @@ schritte:
   timer: 14400
 ---
 
-Warum Puddingpulver/Stärke: ohne Boden braucht die Masse Bindung, sonst läuft sie unter den Streuseln aus – das Puddingpulver stabilisiert, ohne gummig zu werden.
+## Warum so
 
-Dampfgarer (Bosch HNG978): alternativ bei 150°C mit niedrigem Dampfanteil ca. 60–65 Min. – ergibt eine besonders cremige, rissfreie Konsistenz. Streusel ggf. die letzten 12 Min. ohne Dampf aufknuspern lassen.
+Ohne Boden braucht die Masse Bindung, sonst läuft sie unter den Streuseln aus – das Puddingpulver stabilisiert, ohne gummig zu werden. Das Vorrösten treibt Wasser aus dem Rhabarber; den ausgetretenen Saft abgießen hält die Masse schnittfest.
 
-Reifer Rhabarber ist säurearmer; bei sehr saurem Rhabarber 10 g Zucker mehr in die Röstung geben.
+## Stellschrauben
+
+- Sehr saurer Rhabarber → 10 g mehr Zucker in die Röstung
+- Streusel bräunen zu schnell → locker mit Alufolie abdecken
+
+## Varianten
+
+- **Mit Dampf (HNG978):** 150 °C mit niedrigem Dampfanteil 60–65 Minuten, die letzten 12 Minuten ohne Dampf aufknuspern – besonders cremig und rissfrei.

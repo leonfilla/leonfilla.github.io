@@ -1,5 +1,5 @@
 ---
-titel: Levantinischer Spinat-Feta-Ofenpfannkuchen (Dutch Baby)
+titel: Levantinischer Spinat-Feta-Dutch-Baby
 status: aktiv
 datum: '2026-05-31'
 quelle:
@@ -8,6 +8,15 @@ quelle:
   hinweis: Herzhafte Pfannkuchen zum Abendessen
 importiert: true
 fokus: Herzhafter, spektakulär aufgehender Ofenpfannkuchen mit Za'atar im Teig, Spinat, Feta und gerösteter Paprika – abgerundet mit Sumach. Würzig-warmes Profil, als Abendessen gedacht.
+ergebnis: 1 Pfanne, 26–28 cm
+zeit: {aktiv: 15, gesamt: 50}
+geraete: [mixer-hr3760, bosch-hng978]
+tags: [Abendessen, vegetarisch]
+ofen:
+  modus: Ober-/Unterhitze, ohne Dampf
+  temp: 220
+  zeit: 20–22
+  form: Ofenfeste Pfanne 26–28 cm, im Ofen vorgeheizt
 portionen: 2
 zutaten:
 - name: große Eier
@@ -71,8 +80,15 @@ schritte:
   text: Mit 1 TL Sumach bestäuben und nach Belieben mit fein geschnittener 1 Frühlingszwiebel (optional, zum Garnieren) sowie einem Spritzer Zitrone abschließen. Sofort servieren – nach ein paar Minuten sackt der Rand etwas ab, das ist normal.
 ---
 
-Grundverhältnis Teig: 3 Eier : 120 g Mehl : 180 ml Milch ergibt einen verlässlich aufgehenden Dutch Baby für 26–28 cm. Für größere Pfannen proportional hochskalieren (Servings-Regler).
+## Warum so
 
-Protein-Boost: Wer den Proteingehalt anheben will, ersetzt 50 ml Milch durch 100 g Magerquark und gleicht mit ~10 g mehr Mehl aus – die Krume wird dann saftiger, der Trieb minimal flacher.
+Das Grundverhältnis 3 Eier : 120 g Mehl : 180 ml Milch geht in der vorgeheizten 26–28-cm-Pfanne verlässlich auf. Trockenhitze ohne Zuschaltdampf gibt die knusprigen, hochgezogenen Ränder; die Tür bleibt zu, weil der Dampfdruck im Teig ihn trägt. Sumach erst nach dem Backen, gebacken verliert er seine fruchtig-säuerliche Spitze.
 
-Sumach erst nach dem Backen aufstreuen; gebacken verliert er seine fruchtig-säuerliche Spitze. Vegetarisch von Haus aus. Reste schmecken lauwarm, gehen aber nicht erneut auf.
+## Stellschrauben
+
+- Größere Pfanne → proportional hochskalieren
+
+## Varianten
+
+- **Protein:** 50 ml Milch durch 100 g Magerquark ersetzen und etwa 10 g mehr Mehl – saftiger, minimal flacher.
+- **Reste:** lauwarm gut, gehen aber nicht erneut auf.

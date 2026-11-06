@@ -1,5 +1,5 @@
 ---
-titel: Rote-Linsen-Pfannkuchen mit Frischkäse & Gurke
+titel: Rote-Linsen-Pfannkuchen mit Frischkäse und Gurke
 status: aktiv
 datum: '2026-06-10'
 quelle:
@@ -8,6 +8,9 @@ quelle:
   hinweis: Schnelle Frühstücksideen zum Ausprobieren
 importiert: true
 fokus: Herzhafte, proteinreiche Pfannkuchen aus Rote-Linsen-Mehl – angelehnt an indische Chilla, mit Frischkäse und Gurke serviert
+ergebnis: ca. 6 kleine Pfannkuchen, 2 Portionen
+zeit: {aktiv: 15, gesamt: 25}
+tags: [Frühstück, High Protein, vegan]
 portionen: 2
 zutaten:
 - name: Rote-Linsen-Mehl
@@ -58,4 +61,17 @@ schritte:
   text: 100 g Frischkäse mit 1 TL Zitronensaft und 1 Prise frisch gemahlener Pfeffer glatt rühren. Pfannkuchen damit bestreichen, 0.5 Salatgurke, in dünnen Scheiben darauf verteilen und gerollt oder geklappt servieren.
 ---
 
-Der Teig hat keine Bindemittel und keine Eier – das funktioniert, weil Linsenmehl beim Erhitzen geliert. Wichtig ist deshalb die Ruhezeit und eine gut eingebrannte oder beschichtete Pfanne. Konsistenz: Der Teig soll wie dünner Pfannkuchenteig fließen; je nach Mehl ggf. 1–2 EL Wasser nachjustieren. Variationen: geriebene Karotte oder Zucchini (ausgedrückt) in den Teig, Ingwer + grüne Chili für die klassische Chilla-Richtung, oder Za'atar ins Frischkäse-Topping. Die Pfannkuchen halten sich 2 Tage im Kühlschrank und lassen sich kalt als Wrap-Ersatz verwenden.
+## Warum so
+
+Ohne Ei und Bindemittel hält der Teig, weil Linsenmehl beim Erhitzen geliert – deshalb Ruhezeit und eine beschichtete oder gut eingebrannte Pfanne.
+
+## Stellschrauben
+
+- Teig zu dick → 1–2 EL Wasser nachgeben, er soll wie dünner Pfannkuchenteig fließen
+
+## Varianten
+
+- Geriebene, ausgedrückte Karotte oder Zucchini in den Teig.
+- Ingwer und grüne Chili für die klassische Chilla-Richtung.
+- Za'atar ins Frischkäse-Topping.
+- Halten 2 Tage im Kühlschrank, kalt als Wrap-Ersatz.

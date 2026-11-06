@@ -12,7 +12,7 @@ fokus: Mirepoix und Tomatenmark angeröstet, mit Sojasauce abgelöscht, dann rot
 ergebnis: 4 Portionen
 portionen: 4
 zeit: {aktiv: 12, gesamt: 25}
-geraete: [instant-pot-pro-max, wilfa-probaker]
+geraete: [instant-pot-pro-max]
 tags: [Abendessen, vegan, Nudelsauce]
 instantpot:
   programm: Pressure Cook

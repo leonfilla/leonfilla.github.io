@@ -7,7 +7,16 @@ quelle:
   url: https://claude.ai/chat/2643a678-37ff-4c19-bd9d-17db05205aea
   hinweis: Kaiserschmarrn mit modernen Küchengeräten zubereiten
 importiert: true
-fokus: Geröstete rote Pflaumen mit Sternanis und Kardamom — läuft parallel zum Kaiserschmarrn im Bosch. Aromakontrast zum Apfelkompott.
+fokus: Halbierte rote Pflaumen, mit Butter, Rohrohrzucker, Sternanis und Kardamom im Ofen geröstet – läuft parallel zum Kaiserschmarrn. Würziger Kontrast zum Zimt-Vanille-Apfelkompott.
+ergebnis: 3 Portionen
+zeit: {aktiv: 10, gesamt: 25}
+geraete: [bosch-hng978]
+tags: [Dessert, Beilage, vegetarisch]
+ofen:
+  modus: Heißluft + Zusatzdampf
+  temp: 200
+  zeit: 11
+  form: Flache ofenfeste Form 22–25 cm, untere Schiene
 portionen: 3
 zutaten:
 - name: Rote Pflaumen (vollreif aber fest)
@@ -52,29 +61,19 @@ schritte:
   text: Auf jeden Teller 2–3 Pflaumenhälften, einen Löffel Apfelkompott, und den Kaiserschmarrn dazu — die rote Sauce farblich beim Anrichten zum Schmarrn hin, das Kompott auf die andere Seite.
 ---
 
-**Aroma-Logik vs. Apfelkompott:**
-- Apfelkompott = Zimt + Vanille (warm, weich, "klassisch")
-- Pflaumen = Sternanis + Kardamom (würzig, frisch-aromatisch, "asiatisch-leuchtend")
-- Diese Trennung gibt dem Teller drei klar unterscheidbare Geschmacksachsen. Wenn du beide Gewürzwelten überlappen lässt, verschmelzen sie auf der Zunge zu Brei.
+## Warum so
 
-**Pflaumen-Sortenwahl:**
-- **Rote Pflaumen / Reneklode rot / Italian Plums**: ideal, weil saftig und sauer-süß balanciert.
-- **Mirabellen**: gehen auch, aber kleiner — dann ~12 Min statt 10.
-- **Zwetschgen** (dunkelviolett-oval): funktionieren, sind aber fester und brauchen +2 Min. Anderer Aromaeindruck (mehr "Pflaumenmus-Richtung").
-- **Wichtig**: nicht überreif kaufen — die zerfallen beim Backen. Sie sollen halbiert ihre Form behalten.
+Sternanis und Kardamom geben eine zweite, klar getrennte Gewürzachse neben Zimt-Vanille im Apfelkompott – überlappen sie, verschwimmt der Teller. Die Gewürze werden nach dem Rösten entfernt, damit sie beim Ziehen nicht bitter dominieren. Pflaumen dicht an dicht und nicht gestapelt, damit sie im eigenen Saft glasieren.
 
-**Gefäßwahl:**
-- Flache ofenfeste Form (~22–25 cm Durchmesser, Keramik oder Glas) — Pflaumenhälften sollen nebeneinander liegen, nicht stapeln.
-- Alternativ: kleines Backblech mit Backpapier, dann die Sauce am Ende vom Papier in eine Schale kratzen.
-- **Nicht** Edelstahl ohne Beschichtung — der Saft brennt fest.
+## Stellschrauben
 
-**Beide gleichzeitig im Bosch:**
-- Pflaumen auf **unterer Schiene** (Schiene 1)
-- Kaiserschmarrn-Universalpfanne auf **mittlerer Schiene** (Schiene 2)
-- Heißluft verteilt die Hitze gleichmäßig — Position spielt aromatisch keine Rolle, aber unten nimmt die Pflaumen nicht den Platz der Universalpfanne weg.
+- Mehr Sauce → 2 EL Portwein oder Rotwein zugeben und weitere 2 Minuten bei 220 °C
+- Ofen zu klein für beide Formen → Pflaumen zuerst 10 Minuten backen, mit Folie abgedeckt warm halten
+- Pflaumen zerfallen → nicht überreif kaufen
+- Saft brennt fest → Keramik oder Glas, kein unbeschichteter Edelstahl
 
-**Falls die beiden Gefäße nicht reinpassen** (Kompaktbackofen hat ~38 cm Innenbreite): Pflaumen ZUERST 10 Min backen, herausnehmen, mit Folie abdecken — sie bleiben gut warm während der Schmarrn 15–17 Min backt. Verlängert die Gesamtzeit um 10 Min.
+## Varianten
 
-**Sauce-Konzentration:** Wenn du nach den 10 Min mehr Sauce möchtest, gieße 2 EL zusätzlichen Portwein/Rotwein dazu und gib ihm nochmal 2 Min bei 220 °C. Reduziert leicht und gibt mehr Glanz.
-
-**Reste:** Halten 3–4 Tage im Kühlschrank, lassen sich gut einfrieren. Aufgewärmt auch zu Joghurt oder Skyr am Morgen passend — die Sternanis-Kardamom-Note funktioniert auch außerhalb des Kaiserschmarrn-Kontexts.
+- **Mirabellen:** etwa 12 statt 10 Minuten.
+- **Zwetschgen:** 2 Minuten länger, mehr Pflaumenmus-Richtung.
+- **Reste:** 3–4 Tage im Kühlschrank oder eingefroren; passen auch zu Joghurt oder Skyr.

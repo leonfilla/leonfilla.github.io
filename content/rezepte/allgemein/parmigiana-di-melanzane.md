@@ -8,6 +8,15 @@ quelle:
   hinweis: Auberginen parmigiana mit Variationsmöglichkeiten
 importiert: true
 fokus: Neapolitanisch-süditalienischer Auberginenauflauf mit Tomatensugo, Parmigiano und Fior di Latte – im Ofen gegart statt frittiert.
+ergebnis: 1 Auflaufform, 6 Portionen
+zeit: {aktiv: 50, gesamt: 150}
+geraete: [bosch-hng978]
+tags: [Abendessen, vegetarisch, Meal Prep]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 180
+  zeit: 40
+  form: Auflaufform
 portionen: 6
 zutaten:
 - name: Auberginen, in 6–8 mm Scheiben
@@ -70,4 +79,14 @@ schritte:
   timer: 1080
 ---
 
-Trockenheit ist der Schlüssel an drei Stellen: entwässerte Auberginen, eingekochtes Sugo, abgetropfter Mozzarella. Wer's noch klarer schneidbar mag, lässt die fertige Parmigiana komplett auskühlen und wärmt portionsweise wieder auf – am nächsten Tag schmeckt sie ohnehin oft besser. Echter Fior di Latte (Kuhmilch) statt Büffelmozzarella ist hier vorteilhaft, weil weniger feucht.
+## Warum so
+
+Trockenheit ist an drei Stellen der Schlüssel: entwässerte Auberginen, eingekochtes Sugo, abgetropfter Mozzarella. Fior di Latte aus Kuhmilch ist trockener als Büffelmozzarella. Geröstet statt frittiert nehmen die Auberginen weniger Öl auf.
+
+## Stellschrauben
+
+- Stücke zerlaufen → mindestens 15–20 Minuten ruhen lassen; für ganz saubere Stücke komplett auskühlen und portionsweise aufwärmen
+
+## Varianten
+
+- Am nächsten Tag aufgewärmt schmeckt sie oft besser.

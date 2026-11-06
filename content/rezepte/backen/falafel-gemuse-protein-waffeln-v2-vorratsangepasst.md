@@ -1,5 +1,5 @@
 ---
-titel: Falafel-Gemüse-Protein-Waffeln v2 (vorratsangepasst)
+titel: Falafel-Gemüse-Protein-Waffeln
 status: archiv
 datum: '2026-06-02'
 quelle:
@@ -8,7 +8,12 @@ quelle:
   hinweis: Vollkorn-Sauerteigbrot aus vier Zutaten
 importiert: true
 linie: falafel-gemuse-protein-waffeln-linsen-kurbiskern-53383
-fokus: 'Vorratsangepasste, hochskalierte Variante: herzhafte Protein-Waffeln aus Linsen-, Kürbiskern- und etwas Emmer-/Einkornmehl. Das Gluten und der Magerquark übernehmen die Bindung, daher reichen 4 ganze Eier für 6 Portionen. Insgesamt fettarm, auf der OptiGrill-Waffelplatte.'
+fokus: Herzhafte, fettarme Protein-Waffeln aus Linsen-, Kürbiskern- und Emmer- oder Einkornmehl mit Zucchini und Karotte, vom OptiGrill. Gluten und Magerquark binden, deshalb reichen 4 Eier für 6 Portionen.
+variante: v2 vorratsangepasst
+ergebnis: 6 Portionen
+zeit: {aktiv: 25, gesamt: 60}
+geraete: [optigrill]
+tags: [Abendessen, High Protein, Meal Prep, vegetarisch]
 portionen: 6
 zutaten:
 - name: Rotes Linsenmehl
@@ -86,4 +91,16 @@ schritte:
   text: Waffeln mit einem Salat aus frischer Paprika und Gurke sowie dem Dip anrichten. Für extra Protein 150 g Thunfisch im eigenen Saft, abgetropft (optional) darüber verteilen.
 ---
 
-Warum nur 4 Eier reichen: Das Gluten aus Emmer/Einkorn plus der bindende Linsenmehl-Anteil und der Magerquark übernehmen die Struktur, die sonst die Eiweiße liefern.\n\nFettarm bleibt es, weil auf 6 Portionen nur 2 EL Öl und 4 Eigelb kommen; Magerquark ist die Basis, normale Vollfett-Milchprodukte höchstens als kleiner Schuss.\n\nSkalieren: Alles außer den Eiern lässt sich proportional vergrößern. Willst du über 6 Portionen hinaus, ersetze zusätzliche Eier durch mehr Magerquark oder Aquafaba (Abtropfwasser einer Kichererbsen-/Bohnendose, ca. 3 EL pro Ei) statt mehr Eier zu nehmen.\n\nGemüse: TK-Spinat (sehr gut ausgedrückt) oder TK-Erbsen lassen sich gut unterheben. Gurke besser als Beilage – zu wässrig für den Teig. Geriebene Rote Beete färbt den Teig kräftig, schmeckt aber gut.\n\nVariante: Abgetropften Thunfisch direkt unter den Teig heben ergibt eine Thunfisch-Gemüse-Waffel mit noch mehr Protein.
+## Warum so
+
+Das Gluten aus Emmer oder Einkorn, das bindende Linsenmehl und der Magerquark übernehmen die Struktur, die sonst Eiweiß liefert – 4 Eier genügen. Fettarm bleibt es mit nur 2 EL Öl und 4 Eigelb auf 6 Portionen.
+
+## Stellschrauben
+
+- Mehr als 6 Portionen → zusätzliche Eier durch mehr Magerquark oder Aquafaba (ca. 3 EL pro Ei) ersetzen
+- Teig zu nass → Gurke nur als Beilage, Zucchini kräftiger ausdrücken
+
+## Varianten
+
+- **Gemüse:** sehr gut ausgedrückter TK-Spinat oder TK-Erbsen unterheben; geriebene Rote Bete färbt kräftig, schmeckt aber gut.
+- **Thunfisch:** 150 g abgetropften Thunfisch direkt unter den Teig heben statt darüber.

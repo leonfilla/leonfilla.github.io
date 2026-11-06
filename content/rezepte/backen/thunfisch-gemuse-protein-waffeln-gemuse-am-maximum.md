@@ -1,5 +1,5 @@
 ---
-titel: Thunfisch-Gemüse-Protein-Waffeln (Gemüse am Maximum)
+titel: Thunfisch-Gemüse-Protein-Waffeln
 status: aktiv
 datum: '2026-06-02'
 quelle:
@@ -7,7 +7,13 @@ quelle:
   url: https://claude.ai/chat/2d0f55bc-912b-4d5f-aa19-feaa848a45da
   hinweis: Vollkorn-Sauerteigbrot aus vier Zutaten
 importiert: true
-fokus: 'Maximal gemüsereiche Protein-Waffeln mit untergehobenem Thunfisch. Die Gemüsemasse liegt am sicheren Maximum (~1,2:1 zu Mehl, zubereitete Gewichte), getragen von drei verstärkten Bindern: mehr Linsenmehl, mehr Emmer/Einkorn und Magerquark. Insgesamt fettarm, auf der OptiGrill-Waffelplatte.'
+fokus: Maximal gemüsereiche, fettarme Protein-Waffeln vom OptiGrill mit untergehobenem Thunfisch. Gemüse zu Mehl etwa 1,2 zu 1, getragen von mehr Linsenmehl, Emmer oder Einkorn und Magerquark.
+linie: falafel-gemuse-protein-waffeln-linsen-kurbiskern-53383
+variante: Thunfisch, Gemüse am Maximum
+ergebnis: 6 Portionen
+zeit: {aktiv: 30, gesamt: 75}
+geraete: [optigrill]
+tags: [Abendessen, High Protein, Meal Prep]
 portionen: 6
 zutaten:
 - name: Rotes Linsenmehl
@@ -88,4 +94,17 @@ schritte:
   text: Mit einem frischen Gurken-Paprika-Salat und dem Magerquark-Tahin-Dip anrichten, dazu ein Spritzer Zitrone.
 ---
 
-Wichtigster Punkt: Alle Gemüsemengen sind ZUBEREITETE Gewichte (aufgetaut bzw. ausgedrückt). Genau diese Vorbehandlung macht den hohen Anteil erst problemlos – ungewogen roh würde es zu nass.\n\nVeg-Entscheidung: Masse über die trockenen, gut bindenden Sorten (Erbsen, Edamame, Karotte, ausgewrungener Spinat), Zucchini gedeckelt als dein Favorit. Erbsen und Edamame sind ganze \u201eKügelchen\u201c, die kaum Wasser abgeben; Edamame grob hacken (und optional einen Teil der Erbsen leicht andrücken) verbessert den Zusammenhalt im Waffelgitter.\n\nRote Beete bewusst weggelassen (Färbung + Geschmacksclash mit Thunfisch). Wer sie will: ~80 g gerieben gegen einen Teil Karotte tauschen, idealerweise in der fleischlosen Variante ohne Thunfisch. Brokkoli/Blumenkohl nur vorgeröstet und fein gehackt, dann z. B. statt der Erbsen.\n\nDip: Der Magerquark-Tahin-Dip aus der vorigen Version passt unverändert dazu.\n\nKein zusätzliches Fett auf der Platte nötig – das Öl im Teig plus Antihaft genügt. Durch den hohen Gemüse- und Thunfischanteil brauchen die Waffeln etwas länger zum Durchstocken.
+## Warum so
+
+Alle Gemüsemengen sind zubereitete Gewichte (aufgetaut oder ausgedrückt) – erst diese Vorbehandlung macht den hohen Anteil möglich. Erbsen und Edamame geben kaum Wasser ab; grob gehackt verbessern sie den Zusammenhalt im Waffelgitter. Durch Gemüse und Thunfisch brauchen die Waffeln länger zum Durchstocken.
+
+## Stellschrauben
+
+- Waffeln zu nass → Zucchini stärker ausdrücken, Spinat gründlicher auswringen
+- Kein Extra-Fett auf der Platte nötig – Öl im Teig plus Antihaft genügt
+
+## Varianten
+
+- **Rote Bete:** etwa 80 g gerieben gegen einen Teil der Karotte tauschen, am besten ohne Thunfisch.
+- **Brokkoli oder Blumenkohl:** nur vorgeröstet und fein gehackt, statt der Erbsen.
+- Dazu der Magerquark-Tahin-Dip der v2.

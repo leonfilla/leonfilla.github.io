@@ -1,5 +1,5 @@
 ---
-titel: Pistazien-Bananenbrot – 408 g Bananen-Skalierung
+titel: Pistazien-Bananenbrot mit Quark und Dinkelvollkorn
 status: aktiv
 datum: '2026-05-07'
 quelle:
@@ -8,7 +8,18 @@ quelle:
   hinweis: Nährwertoptimiertes Bananenbrot mit Pistazien
 importiert: true
 linie: nahrwertoptimiertes-pistazien-bananenbrot-2cdcb
-fokus: Skaliert auf 408 g Bananen – High-Protein-Bananenbrot mit Dinkelvollkorn, Quark und Pistazien
+fokus: High-Protein-Bananenbrot mit Dinkelvollkorn, Hafer, Quark, Proteinpulver und Pistazien, skaliert auf 408 g Bananen. Zweiphasig gebacken – erst mit Dampf, dann trocken.
+variante: 408 g Bananen
+ergebnis: 1 Kastenform 28 cm, 14 Scheiben, ca. 1300 g Teig
+zeit: {aktiv: 15, gesamt: 75}
+geraete: [wilfa-probaker, bosch-hng978]
+tags: [Frühstück, Bananenbrot, High Protein, Meal Prep]
+ofen:
+  modus: Heißluft + Dampf Stufe 1, dann Heißluft
+  temp: 165 → 155
+  dampf: Stufe 1 (~30 %), nur die ersten 20 Minuten
+  zeit: 48–52
+  form: Kastenform 28 cm, 2. Schiene von unten
 portionen: 14
 zutaten:
 - name: sehr reife Bananen, geschält
@@ -83,16 +94,17 @@ schritte:
   timer: 600
 ---
 
-**Pan-Größe:** Gesamt-Teigmasse jetzt ~1.300 g. Eine 25-cm-Kastenform geht knapp, idealerweise **28-cm-Form** verwenden (oder 25 cm + max. 2,5 cm hoch füllen, Rest in 2 Muffinformen → 25 Min backen).
+## Warum so
 
-**Backzeit:** Wegen größerer Teigmasse Phase 2 eher Richtung 30 Min, ab Min 45 mit Holzspieß testen.
+Dampf in der ersten Phase hält die Oberfläche dehnbar – maximaler Ofentrieb und saftige Krume; danach trocknet reine Heißluft die Kruste. Nur so lange rühren, bis kein Mehl mehr sichtbar ist, sonst wird die proteinreiche Krume zäh. Pro Scheibe etwa 215 kcal, 10 g Eiweiß, 26 g KH, 3 g Ballaststoffe, 8 g Fett.
 
-**Nährwerte pro Scheibe (14 Scheiben):** ca. 215 kcal · 10 g Protein · 26 g KH · 3 g Faser · 8 g Fett
+## Stellschrauben
 
-**Frühstücks-Stack für ~30 g Protein:** 2 Scheiben + 150 g Skyr + 1 EL Erdnussmus → über der 2,5 g Leucin-Schwelle.
+- Nur 25-cm-Form → höchstens 2,5 cm hoch füllen, Rest in 2 Muffinförmchen (25 Minuten)
+- Saftiger → 50 g Quark durch 50 g griechischen Joghurt 10 % ersetzen
+- Weniger KH → Ahornsirup auf 35 g halbieren
 
-**Lagerung:** 3 Tage RT, 5–6 Tage gekühlt. Portioniert tiefgefriert ideal – im Bosch auf "Aufwärmen mit Dampf" 30 Sek auftauen.
+## Varianten
 
-**Saftiger:** 50 g Quark durch 50 g griechischen Joghurt 10 % ersetzen.
-
-**KH-reduziert:** Ahornsirup auf 35 g halbieren – die reifen Bananen bringen Süße.
+- **Lagerung:** 3 Tage bei Raumtemperatur, 5–6 Tage gekühlt; portioniert einfrieren und mit „Aufwärmen mit Dampf“ 30 Sekunden auftauen.
+- **Frühstück mit ~30 g Protein:** 2 Scheiben + 150 g Skyr + 1 EL Erdnussmus.

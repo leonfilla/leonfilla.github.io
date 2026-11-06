@@ -8,6 +8,10 @@ quelle:
   hinweis: Schnelle Frühstücksideen zum Ausprobieren
 importiert: true
 fokus: Herzhafte Frühstücks-Wraps mit Rührei, Bohnen und Käse – frisch essen oder einfrieren
+ergebnis: 2 Burritos
+zeit: {aktiv: 15, gesamt: 15}
+geraete: [optigrill]
+tags: [Frühstück, Meal Prep, vegetarisch]
 portionen: 2
 zutaten:
 - name: große Weizen-Tortillas (ca. 25 cm)
@@ -56,4 +60,14 @@ schritte:
   timer: 90
 ---
 
-Meal-Prep: Burritos einzeln fest in Backpapier oder Alufolie wickeln und einfrieren. Aufwärmen: ausgewickelt 1,5–2 Min in der Mikrowelle oder 10 Min bei 160°C im Dampfbackofen (Heißluft + etwas Dampf hält die Tortilla weich). Mehr Protein: 50g Hüttenkäse mit ins Rührei oder Bohnenmenge verdoppeln.
+## Warum so
+
+Das Rührei kommt kurz vor dem Durchstocken vom Herd und gart in der Tortilla nach. Angewärmte Tortillas sind geschmeidig und reißen beim Rollen nicht; das kurze Anrösten mit der Naht nach unten versiegelt den Burrito.
+
+## Stellschrauben
+
+- Mehr Protein → 50 g Hüttenkäse ins Rührei oder die Bohnenmenge verdoppeln
+
+## Varianten
+
+- **Meal Prep:** einzeln fest in Backpapier oder Alufolie wickeln und einfrieren; ausgewickelt 1,5–2 Minuten in der Mikrowelle oder 10 Minuten bei 160 °C Heißluft mit etwas Dampf aufwärmen.
