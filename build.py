@@ -296,6 +296,7 @@ def lade():
             "quelle_datei": str(p.relative_to(ROOT)),
             "status": STATUS_ALIAS.get(r.get("status", "aktiv"), r.get("status", "aktiv")),
             "linie": r.get("linie", p.stem),
+            "linie_explizit": "linie" in r,
             "hinweise": [],
             "body_html": md(body),
         })
@@ -340,7 +341,9 @@ def lade():
 def verknuepfe(ctx):
     linien = {}
     for r in ctx["rezepte"]:
-        linien.setdefault((r["bereich"], r["linie"]), []).append(r)
+        # Explizite Linien gelten bereichsübergreifend (verschobene Geschwister bleiben verknüpft)
+        schluessel = r["linie"] if r.get("linie_explizit") else (r["bereich"], r["linie"])
+        linien.setdefault(schluessel, []).append(r)
         if r.get("bohne") in ctx["bohnen"]:
             ctx["bohnen"][r["bohne"]]["rezepte"].append(r)
     for rs in linien.values():
