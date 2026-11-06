@@ -1,5 +1,5 @@
 ---
-titel: A — Sous-Vide Crème anglaise (Sous Vide, 82 °C)
+titel: Sous-Vide-Crème-anglaise
 status: aktiv
 datum: '2026-07-27'
 quelle:
@@ -7,17 +7,35 @@ quelle:
   url: https://claude.ai/chat/6cfc1b4c-3490-430d-993c-ace1c4e24072
   hinweis: Vanillesauce zum Wackelpudding selbermachen
 importiert: true
+linie: vanillesauce-wackelpudding-2026-07-27
+variante: Sous Vide 82 °C
+fokus: Vanillesauce aus Sahne und Eigelb, im Glas bei 82 °C sous vide gezogen. Weil die Zieltemperatur nie überschritten wird, kann sie nicht gerinnen.
+ergebnis: ca. 300 g Sauce
+zeit: {aktiv: 10, gesamt: 75}
+geraete: [instant-pot-pro-max]
+tags: [Dessert, Sauce]
+instantpot:
+  programm: Sous Vide
+  zeit: 60
+  temperatur: 82
+zutaten:
+  - {name: Sahne, menge: 150, einheit: ml}
+  - {name: Wasser, menge: 100, einheit: ml}
+  - {name: Eigelb, menge: 2, einheit: ""}
+  - {name: Zucker, menge: 40, einheit: g}
+  - {name: Salz, menge: 1, einheit: Prise}
+schritte:
+  - {titel: Anrühren, text: "150 ml Sahne, 100 ml Wasser, 2 Eigelb, 40 g Zucker und 1 Prise Salz kalt glatt rühren."}
+  - {titel: Abfüllen, text: "In ein Weckglas füllen, Deckel nur auflegen, nicht klammern."}
+  - {titel: Einsetzen, text: Glas auf den Trivet stellen und Wasser bis über den Füllstand angießen.}
+  - {titel: Sous Vide, text: "Sous Vide, 82 °C, 60 Minuten.", timer: 3600}
+  - {titel: Mixen und passieren, text: Sauce einmal mit dem Stabmixer durchmixen und durch ein Sieb passieren.}
 ---
 
-Mit Sahne im Haus ändert sich vor allem, dass der Instant Pot jetzt sinnvoll ist — sein Vorteil ist Temperaturhaltung, und die brauchst du nur, wenn Ei im Spiel ist. Ein Hinweis vorab: Der klassische Sous-Vide-Gewinn bei Vanillesauce ist die schonende Schoten-Infusion, und die entfällt bei Extrakt komplett. Es bleibt der Gerinnungsschutz.
+## Warum so
 
-**A — Sous-Vide Crème anglaise (Sous Vide, 82 °C)**
-150 ml Sahne, 100 ml Wasser, 2 Eigelb, 40 g Zucker, Prise Salz. Alles kalt glattrühren, in ein Weckglas (nur Deckel auflegen, nicht klammern), auf den Trivet stellen — nie direkt auf den Topfboden, das ist das Heizelement und dort entstehen lokale Spitzen. Wasser bis über den Füllstand, 82 °C, 60 Minuten. Danach zwingend einmal durch den Stabmixer und passieren: Der Instant Pot hat keinen Umwälzer, du bekommst Schichtung im Wasserbad und eine festere Randzone im Glas. Die Sauce ist dadurch trotzdem gerinnungssicher, weil die Zieltemperatur nie überschritten wird.
+Der Instant Pot lohnt sich hier nur wegen der Temperaturhaltung: Mit Ei bleibt die Sauce unter dem Gerinnungspunkt, solange 82 °C nicht überschritten werden. Er hat keinen Umwälzer, deshalb bildet sich im Wasserbad eine Schichtung und im Glas eine festere Randzone – das Mixen gleicht sie aus. Der Trivet hält das Glas vom Heizelement im Boden fern. Mit Vanilleextrakt statt Schote entfällt der Infusionsvorteil, es bleibt der Gerinnungsschutz.
 
-**B — Druck-Konditorcreme, zur Sauce verdünnt (High Pressure, 4 min)**
-150 ml Sahne, 100 ml Wasser, 1 Ei + 1 Eigelb, 45 g Zucker, 12 g Stärke, Salz. In eine Schale, mit Folie abdecken, Pot-in-Pot auf dem Trivet, 250 ml Wasser drunter, 4 Minuten High Pressure, 10 Minuten Natural Release. Der eigentliche Gewinn hier ist nicht Bequemlichkeit: Eigelb enthält α-Amylase, die Stärke hydrolysiert und Konditorcreme nach ein bis zwei Tagen im Kühlschrank wieder dünn werden lässt. Bei über 100 °C wird sie sicher denaturiert — diese Sauce hält also, während eine sanft gezogene Stärkesauce ausläuft. Nach dem Mixen mit Sahne oder Wasser auf Gießkonsistenz bringen.
+## Varianten
 
-**C — Kalte Quark-Frischkäse-Sauce (Yogurt-Modus nur zum Temperieren)**
-150 g Magerquark, 50 g Frischkäse, 60 ml Sahne, 30 g Zucker. Frischkäse und Sahne 15 Minuten bei ~40 °C temperieren, das löst den Zucker und macht den Frischkäse klumpenfrei mixbar; Quark erst danach kalt unterrühren, weil Säurekasein über etwa 60 °C körnt. Ergebnis ist eine säuerliche, proteinreiche Sauce — als Kontrast zum sehr süßen Gelee wahrscheinlich die interessanteste der drei, und ohne Ei.
-
-Praktisch: Deine 2 Eier lassen dich zwischen A und B wählen, nicht beides. A ist eleganter im Mundgefühl, B haltbarer und fehlerverzeihender. C kannst du parallel machen.
+- Eleganteres Mundgefühl als die Druckvariante, aber weniger lange haltbar

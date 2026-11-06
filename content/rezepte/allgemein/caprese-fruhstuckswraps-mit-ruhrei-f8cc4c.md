@@ -8,62 +8,55 @@ quelle:
   hinweis: Frühstückswraps mit Mozzarella und Tomate
 importiert: true
 linie: caprese-fruhstuckswraps-1c6db
-fokus: Knusprig gepresste Wraps mit Mozzarella, Tomate, Rührei und schnellem Kürbiskern-Basilikum-Pesto – perfekt für den OptiGrill.
+variante: Rührei und Kürbiskern-Pesto
+fokus: Knusprig gepresste Wraps mit Mozzarella, Tomate, Rührei und schnellem Kürbiskern-Basilikum-Pesto aus dem OptiGrill. Das Rührei macht die Caprese-Wraps zum vollwertigen Frühstück.
+ergebnis: 4 Wraps
 portionen: 4
+zeit: {aktiv: 25, gesamt: 30}
+geraete: [optigrill]
+tags: [Frühstück, vegetarisch, High Protein]
 zutaten:
-- name: Weizentortillas (ca. 25 cm)
-  menge: 4
-  einheit: ''
-- name: Eier (Gr. L)
-  menge: 8
-  einheit: ''
-- name: Mozzarella
-  menge: 250
-  einheit: g
-- name: Tomaten (fest, aromatisch)
-  menge: 300
-  einheit: g
-- name: Basilikum (frisch, Blätter)
-  menge: 20
-  einheit: g
-- name: Kürbiskerne
-  menge: 20
-  einheit: g
-- name: Pecorino Romano oder Parmesan, fein gerieben
-  menge: 20
-  einheit: g
-- name: Olivenöl
-  menge: 35
-  einheit: g
-- name: Butter (fürs Rührei)
-  menge: 15
-  einheit: g
-- name: Balsamico-Creme
-  menge: 20
-  einheit: g
-- name: Salz
-  menge: 0.75
-  einheit: TL
-- name: Pfeffer, frisch gemahlen
-  menge: 0.5
-  einheit: TL
+  - {gruppe: Blitz-Pesto, name: Kürbiskerne, menge: 20, einheit: g}
+  - {name: 'Basilikumblätter, frisch', menge: 20, einheit: g}
+  - {name: Pecorino Romano oder Parmesan, menge: 20, einheit: g, hinweis: fein gerieben}
+  - {name: Olivenöl, menge: 35, einheit: g}
+  - {name: Salz, menge: 1, einheit: Prise}
+  - {gruppe: Belag, name: Tomaten, menge: 300, einheit: g, hinweis: 'fest, aromatisch'}
+  - {name: Mozzarella, menge: 250, einheit: g}
+  - {gruppe: Rührei, name: Eier, menge: 8, einheit: '', hinweis: Größe L}
+  - {name: Salz, menge: 0.75, einheit: TL}
+  - {name: 'Pfeffer, frisch gemahlen', menge: 0.5, einheit: TL}
+  - {name: Butter, menge: 15, einheit: g}
+  - {gruppe: Wraps, name: Weizentortillas, menge: 4, einheit: '', hinweis: ca. 25 cm}
+  - {name: Balsamico-Creme, menge: 20, einheit: g}
 schritte:
 - titel: Kürbiskerne rösten
   text: 20 g Kürbiskerne in einer trockenen Pfanne bei mittlerer Hitze rösten, bis sie duften und leicht knacken. Abkühlen lassen.
   timer: 180
-- titel: Blitz-Pesto mixen
-  text: 20 g Basilikum (frisch, Blätter), geröstete Kürbiskerne, 20 g Pecorino Romano oder Parmesan, fein gerieben und 35 g Olivenöl mit einer Prise Salz im Blender (kleiner Behälter) oder mit dem Stabmixer zu einem groben Pesto mixen. Nicht zu fein – etwas Struktur ist gut. Bei Bedarf 1–2 TL Wasser für die Konsistenz.
-- titel: Tomaten & Mozzarella vorbereiten
-  text: 300 g Tomaten (fest, aromatisch) in dünne Scheiben schneiden, leicht salzen und kurz auf Küchenpapier abtropfen lassen (verhindert durchweichte Wraps). 250 g Mozzarella ebenfalls in Scheiben schneiden und gut abtropfen lassen.
+- titel: Pesto mixen
+  text: 20 g Basilikum, die Kürbiskerne, 20 g Käse, 35 g Olivenöl und 1 Prise Salz im kleinen Mixbehälter oder mit dem Stabmixer grob mixen. Bei Bedarf 1–2 TL Wasser zugeben.
+- titel: Tomaten und Mozzarella vorbereiten
+  text: 300 g Tomaten in dünne Scheiben schneiden, leicht salzen und auf Küchenpapier abtropfen lassen. 250 g Mozzarella in Scheiben schneiden und abtropfen lassen.
   timer: 300
-- titel: Rührei zubereiten
-  text: 8 Eier (Gr. L) mit 0.75 TL Salz und 0.5 TL Pfeffer, frisch gemahlen verquirlen. 15 g Butter (fürs Rührei) in einer Pfanne bei mittlerer Hitze schmelzen, Eier zugeben und unter sanftem Rühren cremig stocken lassen – vom Herd nehmen, solange sie noch leicht glänzen.
+- titel: Rührei
+  text: 8 Eier mit 0,75 TL Salz und 0,5 TL Pfeffer verquirlen. 15 g Butter bei mittlerer Hitze schmelzen, Eier unter sanftem Rühren cremig stocken lassen und vom Herd nehmen, solange sie noch glänzen.
   timer: 240
-- titel: Wraps füllen
-  text: 4 Weizentortillas (ca. 25 cm) kurz erwärmen (geschmeidiger zu rollen). Jeweils das Pesto mittig verstreichen, dann Rührei, Tomaten- und Mozzarellascheiben darauf verteilen und mit etwas 20 g Balsamico-Creme beträufeln. Ränder einschlagen und straff rollen.
-- titel: Im OptiGrill anpressen
-  text: Wraps mit der Naht nach unten in den OptiGrill legen (Manueller Modus, ca. 200 °C) und 2–3 Minuten pressen, bis sie goldbraun und knusprig sind und der Mozzarella schmilzt. Alternativ in einer Pfanne mit leichtem Druck von beiden Seiten anbraten.
+- titel: Füllen
+  text: 4 Tortillas kurz erwärmen. Pesto mittig verstreichen, Rührei, Tomaten und Mozzarella darauf verteilen, mit 20 g Balsamico-Creme beträufeln, Ränder einschlagen und straff rollen.
+- titel: Anpressen
+  text: Mit der Naht nach unten im OptiGrill (manuell, ca. 200 °C) pressen, bis sie goldbraun sind und der Mozzarella schmilzt.
   timer: 150
 ---
 
-Das Pesto ergibt bewusst eine kompakte Menge (~95 g) – reicht für 4 Wraps mit je gut 20 g. Wer mag, gibt 1 kleine Knoblauchzehe mit in den Mixer. Die Tomaten unbedingt abtropfen lassen, sonst weicht die Tortilla beim Pressen durch. Reste vom Pesto halten abgedeckt mit einer dünnen Ölschicht 3–4 Tage im Kühlschrank.
+## Warum so
+
+Das Pesto ergibt bewusst nur ~95 g, gut 20 g pro Wrap. Rührei vom Herd nehmen, solange es glänzt – es gart in der Presse nach. Abgetropfte Tomaten verhindern, dass die Tortilla durchweicht.
+
+## Stellschrauben
+
+- Kein OptiGrill → in der Pfanne mit leichtem Druck von beiden Seiten anbraten
+
+## Varianten
+
+- 1 kleine Knoblauchzehe mit ins Pesto
+- Pesto-Reste mit dünner Ölschicht 3–4 Tage im Kühlschrank

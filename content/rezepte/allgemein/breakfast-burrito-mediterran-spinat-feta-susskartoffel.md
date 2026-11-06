@@ -1,5 +1,5 @@
 ---
-titel: 'Breakfast-Burrito Mediterran: Spinat, Feta & Süßkartoffel'
+titel: Breakfast-Burrito mit Spinat, Feta und Süßkartoffel
 status: aktiv
 datum: '2026-06-10'
 quelle:
@@ -7,52 +7,44 @@ quelle:
   url: https://claude.ai/chat/7dda1830-c842-4490-87e4-1a2b4228ef60
   hinweis: Schnelle Frühstücksideen zum Ausprobieren
 importiert: true
-fokus: Mediterran-würzig mit Spinat, Feta und Süßkartoffel
+fokus: Mediterran gewürzter Frühstücks-Burrito mit gebratener Süßkartoffel, Spinat, Rührei und Feta. Die Füllung entsteht in einer Pfanne, die Burritos lassen sich einfrieren.
+ergebnis: 4 Burritos
 portionen: 4
+zeit: {aktiv: 25, gesamt: 25}
+tags: [Frühstück, vegetarisch, Meal Prep]
 zutaten:
-- name: große Weizen- oder Vollkorn-Tortillas (25 cm)
-  menge: 4
-  einheit: ''
-- name: Eier
-  menge: 5
-  einheit: ''
-- name: Süßkartoffel, in 1-cm-Würfeln
-  menge: 300
-  einheit: g
-- name: Babyspinat
-  menge: 100
-  einheit: g
-- name: Feta, zerbröckelt
-  menge: 100
-  einheit: g
-- name: Knoblauchzehe, fein gehackt
-  menge: 1
-  einheit: ''
-- name: getrockneter Oregano
-  menge: 1
-  einheit: TL
-- name: Chiliflocken
-  menge: 0.5
-  einheit: TL
-- name: Salz
-  menge: 0.5
-  einheit: TL
-- name: Olivenöl
-  menge: 1.5
-  einheit: EL
+  - {gruppe: Füllung, name: Olivenöl, menge: 1.5, einheit: EL}
+  - {name: Süßkartoffel, menge: 300, einheit: g, hinweis: in 1-cm-Würfeln}
+  - {name: Knoblauchzehe, menge: 1, einheit: '', hinweis: fein gehackt}
+  - {name: Babyspinat, menge: 100, einheit: g}
+  - {name: Eier, menge: 5, einheit: ''}
+  - {name: Salz, menge: 0.5, einheit: TL}
+  - {name: Getrockneter Oregano, menge: 1, einheit: TL}
+  - {name: Chiliflocken, menge: 0.5, einheit: TL}
+  - {gruppe: Zum Rollen, name: Weizen- oder Vollkorn-Tortillas, menge: 4, einheit: '', hinweis: 'groß, 25 cm'}
+  - {name: Feta, menge: 100, einheit: g, hinweis: zerbröckelt}
 schritte:
 - titel: Süßkartoffel braten
-  text: 300 g Süßkartoffel, in 1-cm-Würfeln mit 1 EL von 1.5 EL Olivenöl in der Pfanne bei mittlerer Hitze 8–10 Minuten goldbraun und weich braten.
+  text: 300 g Süßkartoffelwürfel mit 1 EL Olivenöl in der Pfanne bei mittlerer Hitze goldbraun und weich braten.
   timer: 540
 - titel: Spinat zugeben
-  text: 1 Knoblauchzehe, fein gehackt kurz mitbraten, dann 100 g Babyspinat zugeben und zusammenfallen lassen. Flüssigkeit verdampfen lassen oder Spinat ausdrücken.
+  text: 1 gehackte Knoblauchzehe kurz mitbraten, dann 100 g Babyspinat zusammenfallen lassen und die Flüssigkeit verdampfen lassen.
   timer: 120
 - titel: Eier stocken
-  text: 5 Eier mit 0.5 TL Salz, 1 TL getrockneter Oregano und 0.5 TL Chiliflocken verquirlen, restliches Öl in die Pfanne, Eier cremig stocken lassen und mit dem Gemüse vermengen.
+  text: 5 Eier mit 0,5 TL Salz, 1 TL Oregano und 0,5 TL Chiliflocken verquirlen. Restliches Öl in die Pfanne geben, die Eier cremig stocken lassen und mit dem Gemüse vermengen.
   timer: 240
-- titel: Füllen & rollen
-  text: Füllung auf die warmen Tortillas verteilen, 100 g Feta, zerbröckelt darüberbröckeln, straff rollen und mit der Naht nach unten kurz anrösten.
+- titel: Füllen und rollen
+  text: Füllung auf die 4 warmen Tortillas verteilen, 100 g Feta darüberbröckeln und straff rollen.
+- titel: Anrösten
+  text: Burritos mit der Naht nach unten in der Pfanne kurz anrösten.
   timer: 120
 ---
 
-Die Süßkartoffel kannst du auch im Dampfgarer vorgaren (100°C, 10 Min) und dann nur kurz anrösten – spart morgens Zeit, wenn du sie am Vorabend vorbereitest. Spinat unbedingt gut ausdrücken, sonst weicht die Tortilla beim Einfrieren durch.
+## Warum so
+
+Die Süßkartoffel bekommt zuerst die volle Pfannenhitze, damit sie bräunt statt dünstet; der Spinat gibt beim Zusammenfallen viel Wasser ab, das vor dem Ei verdampft sein muss, sonst wird die Tortilla matschig. Die Naht nach unten anzurösten verschließt den Burrito.
+
+## Stellschrauben
+
+- Tortilla weicht durch, besonders nach dem Einfrieren → Spinat zusätzlich gut ausdrücken
+- Morgens zu wenig Zeit → Süßkartoffel am Vorabend im Dampfgarer vorgaren (100 °C, 10 min) und morgens nur kurz anrösten

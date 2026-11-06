@@ -1,5 +1,5 @@
 ---
-titel: 'PROTOKOLL: Weizen-Vollkorn-Sauerteigbrot (Optimiert V4.0)'
+titel: Weizen-Vollkorn-Sauerteigbrot V4.0
 status: archiv
 datum: '2026-02-02'
 quelle:
@@ -8,192 +8,71 @@ quelle:
   hinweis: Bewerte die reine Knetfunktion von Sauerteigen des Panasonic SD-YR2540
 importiert: true
 linie: protokoll-weizen-vollkorn-sauerteigbrot-high-hydra-4224d
+version: V4.0
+fokus: Weizen-Vollkorn-Sauerteigbrot mit Levain und Kneten im Automaten (Menü 29/31) und Backen frei auf dem Pizzastein. Neu sind die Anstellgut-Rücklage, ein Kochstück und Uhrzeiten von 12 bis 20 Uhr.
+ergebnis: 1 Laib
+zeit: {gesamt: 1560}
+geraete: [panasonic-sd-yr2540, bosch-hng978]
+tags: [Sauerteig, Vollkorn]
+brot:
+  programm: Menü 29 (Levain) · Menü 31 (Kneten)
+  gare:
+    - {phase: Levain im Sauerteigbecher, zeit: 3 h 15 min}
+    - {phase: Autolyse, zeit: 30 min}
+    - {phase: Stockgare mit 3 Coil Folds, zeit: ca. 4 h, bis +50–75 % Volumen}
+    - {phase: Kaltgare im Gärkorb, temp: 5, zeit: 12–20 h}
+  backprofil:
+    - {phase: Vorheizen mit Pizzastein, temp: 275, zeit: mind. 45 min}
+    - {phase: Dampf-Phase, temp: 250, dampf: Dampfstoß an, zeit: 0–10 min}
+    - {phase: Gar-Phase, temp: 210, dampf: "aus, Schwaden ablassen", zeit: 10–40 min}
+    - {phase: Crisp Finish, temp: 210, dampf: Entfeuchtung, zeit: 40–50 min}
+changelog:
+  - {version: V4.0, text: "Levain vergrößert (45 g + 45 g), 80–90 g davon als Anstellgut-Rücklage"}
+  - {version: V4.0, text: "Kochstück aus 30 g Vollkornmehl und 150 g Wasser"}
+  - {version: V4.0, text: Beispiel-Uhrzeiten zwischen 12 und 20 Uhr}
+  - {version: V4.0, text: Coil Folds genauer beschrieben}
+  - {version: V4.0, text: "Dampfstoß als Ein/Aus, Crisp Finish statt Kochlöffeltrick"}
+zutaten:
+  - {gruppe: Levain, name: Anstellgut, menge: 30, einheit: g, hinweis: kalt}
+  - {gruppe: Levain, name: Weizenvollkornmehl, menge: 45, einheit: g, hinweis: davon 80–90 g Levain zurück ins Vorratsglas}
+  - {gruppe: Levain, name: Wasser, menge: 45, einheit: g, hinweis: 35–40 °C}
+  - {gruppe: Kochstück, name: Weizenvollkornmehl, menge: 30, einheit: g, mehl: true}
+  - {gruppe: Kochstück, name: Wasser, menge: 150, einheit: g, wasser: 1}
+  - {gruppe: Hauptteig, name: Wasser, menge: 135, einheit: g, wasser: 1, hinweis: kalt}
+  - {gruppe: Hauptteig, name: Zitronensaft, menge: 15, einheit: g, wasser: 0.9, hinweis: frisch}
+  - {gruppe: Hauptteig, name: Weizenvollkornmehl, menge: 340, einheit: g, mehl: true}
+  - {gruppe: Hauptteig, name: Weizenmehl 550, menge: 80, einheit: g, mehl: true}
+  - {gruppe: Hauptteig, name: Levain, menge: 30, einheit: g, hinweis: Rest aus dem Becher, 30–35 g}
+  - {gruppe: Hauptteig, name: Salz, menge: 12, einheit: g}
+  - {gruppe: Reserve, name: Wasser, menge: 20, einheit: g, hinweis: optional, für Bassinage}
+schritte:
+  - {titel: 12:00 – Levain ansetzen, text: "Knethaken entfernen. 30 g kaltes Anstellgut, 45 g Weizenvollkornmehl und 45 g warmes Wasser im Sauerteigbecher mischen, Becher in den Backbehälter stellen, Menü 29 starten.", timer: 11700}
+  - {titel: Kochstück kochen, text: "30 g Weizenvollkornmehl und 150 g Wasser klumpenfrei verrühren und bis puddingartig (65 °C) aufkochen."}
+  - {titel: Kochstück abkühlen, text: In eine Schale umfüllen und mit Deckel auf Raumtemperatur abkühlen lassen.}
+  - {titel: 15:15 – Anstellgut sichern, text: "Menü 29 stoppen. Vom verdoppelten Levain (ca. 120 g) 80–90 g zurück ins Vorratsglas und in den Kühlschrank; 30–35 g bleiben im Becher."}
+  - {titel: Befüllen, text: "Roggen-Knethaken einsetzen. Kochstück, 135 g kaltes Wasser, 15 g Zitronensaft, 340 g Weizenvollkornmehl und 80 g Weizenmehl 550 in den Behälter geben."}
+  - {titel: Mischen, text: Menü 31 für 2 Minuten laufen lassen., timer: 120}
+  - {titel: Quellen lassen, text: Maschine aus, Deckel zu., timer: 1800}
+  - {titel: 15:45 – Kneten, text: "Ca. 30 g Levain und 12 g Salz zugeben, Menü 31 auf 10 Minuten stellen.", timer: 600}
+  - {titel: Bassinage, text: "Bei Minute 8: Löst sich der Teig gut, die 20 g Reservewasser schluckweise zugeben; ist er noch klebrig, weglassen."}
+  - {titel: Entnehmen, text: "Teig sofort entnehmen (unter 26 °C) und abgedeckt in eine leicht geölte, eckige Wanne geben."}
+  - {titel: 16:45 – Coil Fold 1, text: "Mit nassen Händen mittig unter den Teig greifen, anheben, bis sich das untere Ende löst, und so ablegen, dass es sich unterfaltet. Wanne um 90° drehen, viermal wiederholen.", timer: 2700}
+  - {titel: 17:30 – Coil Fold 2, text: Wie Fold 1., timer: 2700}
+  - {titel: 18:15 – Coil Fold 3, text: "Wie Fold 1, danach ungestört gehen lassen, bis das Volumen um 50–75 % zugenommen hat.", timer: 6300}
+  - {titel: 20:00 – Formen, text: Teig straff rund oder oval wirken und mit dem Schluss nach oben in den bemehlten Gärkorb legen.}
+  - {titel: Kaltgare, text: "Deckel auflegen und bei 5 °C 12–20 Stunden in den Kühlschrank stellen.", timer: 43200}
+  - {titel: Ofen vorheizen, text: "Pizzastein auf Ebene 2, mindestens 45 Minuten auf 275 °C Ober-/Unterhitze vorheizen.", timer: 2700}
+  - {titel: Einschießen, text: Teig auf den Stein stürzen und einschneiden.}
+  - {titel: Dampf-Phase, text: "Temperatur sofort auf 250 °C senken und Dampfstoß aktivieren.", timer: 600}
+  - {titel: Gar-Phase, text: "Dampfstoß deaktivieren, Tür kurz ganz öffnen, auf 210 °C reduzieren.", timer: 1800}
+  - {titel: Crisp Finish, text: "Crisp Finish aktivieren und bis zur gewünschten Bräunung backen (Klopfprobe hohl).", timer: 600}
+  - {titel: Auskühlen, text: Auf dem Rost vollständig auskühlen lassen.}
 ---
 
-> **Frage im Chat:** Überarbeite das Rezept wie folgt: - Vom Sauerteig nehme ich mindestens 50 Gramm ab als Anstellgut fürs nächste Mal. - Bei jeder Erwähnung im Rezept von Zutaten auch die Mengen-Angaben erwähnen. - Beispiels-Uhrzeiten für den Workflow einfügen, wobei die früheste Zeit 9 Uhr morgens und die späteste Zeit 22 Uhr für aktive Prozesse sein darf. - Erkläre die Coil Folds nochmals genauer im Rezept. Warum nicht dehnen & falten? - Dampfstoß kann nur ein/aus sein und dieser müsste aktiv ausgelöst werden. 3
+## Warum so
 
-Hier ist das vollständig überarbeitete Protokoll (V4.0). Es integriert deine neuen Anforderungen an die Vorratshaltung des Sauerteigs, die genaue Benennung der Bosch-Funktionen ("Crisp Finish", "Dampfstoß") und die Nutzung deiner Abdeckungen.
+Das Kochstück bindet über verkleisterte Stärke zusätzliches Wasser und hält die Krume länger frisch. Coil Folds statt Dehnen und Falten: Der Teig faltet sich beim Anheben durch sein Eigengewicht unter sich – das schont das leicht reißende Vollkorn-Glutengerüst und erhält die Gasblasen. Crisp Finish saugt die Feuchte aktiv aus dem Garraum, wirksamer als ein Kochlöffel in der Tür.
 
-Alle Mengenangaben werden bei jedem Schritt explizit wiederholt, um Rückblättern zu vermeiden.
+## Stellschrauben
 
----
-
-## PROTOKOLL: Weizen-Vollkorn-Sauerteigbrot (Optimiert V4.0)
-
-**Geräte:** Panasonic SD-YR2540 (Hack-Modus) & Bosch HNG978NB1
-**Zeitfenster (Beispiel):** Start 12:00 Uhr – Ende der aktiven Arbeit 20:00 Uhr.
-**Besonderheit:** Inklusive Erhaltungszucht des Anstellguts.
-
----
-
-### 1. Die Zutaten-Bilanz
-
-|Komponente |Menge & Zutat |Funktion |
-|**A. Sauerteig** |30 g Anstellgut (kalt)
-45 g Weizenvollkorn
-45 g Wasser (35–40°C) |**Achtung: Größere Menge.**
-Wir benötigen 30 g für den Teig + ca. 80 g Rücklage für den Kühlschrank. |
-|**B. Kochstück** |30 g Weizenvollkorn
-150 g Wasser |Frischhaltung (Pudding-Effekt). |
-|**C. Hauptteig** |340 g Weizenvollkorn
-80 g Weizenmehl 550
-135 g Wasser (kalt)
-15 g Zitronensaft (frisch)
-12 g Salz |Struktur & Geschmack. |
-|**D. Reserve** |20 g Wasser (kalt) |Für "Bassinage" (nur bei Bedarf). |
-
----
-
-### 2. Der Workflow (Schritt-für-Schritt)
-
-#### Phase 1: Start & Inkubation
-
-**Beispielzeit: 12:00 Uhr**
-
-1. **Vorbereitung Panasonic:** Knethaken entfernen.
-
-2. **Sauerteig ansetzen:**
-
-  - Mische **30 g Anstellgut (kalt)** + **45 g Weizenvollkornmehl** + **45 g Wasser (warm)** im Panasonic-Sauerteigbecher.
-
-  - Stelle den Becher in den Backbehälter.
-
-  - Wähle **Menü 29**. Start drücken.
-
-  - **Timer:** Handy auf **3 Std. 15 Min.** stellen.
-
-3. **Kochstück herstellen:**
-
-  - Verrühre **30 g Weizenvollkornmehl** + **150 g Wasser** klumpenfrei in einem kleinen Topf.
-
-  - Aufkochen bis puddingartig (65°C).
-
-  - In kleine Schale umfüllen, **Deckel drauf**, abkühlen lassen auf Raumtemperatur.
-
-#### Phase 2: Autolyse
-
-**Beispielzeit: 15:15 Uhr**
-
-1. **Wechsel:** Timer klingelt -> Panasonic **STOP**.
-
-2. **Sauerteig sichern (WICHTIG):**
-
-  - Nimm den Becher heraus. Der Inhalt sollte verdoppelt sein (ca. 120 g Gesamtmasse).
-
-  - Entnimm **80 g - 90 g** des fertigen Sauerteigs und gib ihn zurück in dein Vorratsglas -> **Ab in den Kühlschrank für das nächste Mal.**
-
-  - Im Becher verbleiben ca. **30–35 g Sauerteig** für das jetzige Brot.
-
-3. **Maschine rüsten:** Setze den **Roggen-Knethaken** ein.
-
-4. **Befüllen:** Gib folgende Zutaten in den Backbehälter:
-
-  - Das gesamte **abgekühlte Kochstück**.
-
-  - **135 g Wasser (kalt)**.
-
-  - **15 g Zitronensaft**.
-
-  - **340 g Weizenvollkornmehl**.
-
-  - **80 g Weizenmehl 550**.
-
-  - (Salz, den verbliebenen Sauerteig und das Reservewasser noch NICHT zugeben).
-
-5. **Mischen:** Wähle **Menü 31**. Laufzeit: **2 Minuten**.
-
-6. **Quellen:** Maschine aus. Deckel zu. **30 Minuten** warten.
-
-#### Phase 3: Hauptkneten
-
-**Beispielzeit: 15:45 Uhr**
-
-1. **Zugabe:** Gib jetzt die **~30 g Sauerteig** (aus dem Becherrest) und **12 g Salz** in den Behälter.
-
-2. **Start:** Wähle **Menü 31**. Zeit einstellen: **10 Minuten**.
-
-3. **Prüfung (bei Minute 8):**
-
-  - Teig löst sich gut? -> Gib schluckweise die **20 g Reservewasser** dazu (Bassinage).
-
-  - Teig noch klebrig? -> Wasser weglassen.
-
-4. **Ende:** Teig sofort entnehmen (Zieltemperatur < 26°C).
-
-#### Phase 4: Stockgare & Struktur (Coil Folds)
-
-**Beispielzeit: 16:00 bis 20:00 Uhr**
-
-1. Teig in eine leicht geölte, eckige Wanne geben. Abdecken.
-
-2. **Die Technik "Coil Fold" (Spiralfaltung):**
-
-  - Warum: Klassisches "Dehnen & Falten" zerrt am Teig. Bei Vollkornteigen, die leicht reißen, ist das riskant. Coil Folds nutzen die Schwerkraft: Du hebst den Teig in der Mitte hoch, und er faltet sich durch sein Eigengewicht sanft unter sich selbst zusammen. Das ist schonender für das Glutengerüst und erhält die Gasblasen besser.
-
-  - Ausführung: Mit nassen Händen mittig unter den Teig greifen, hochheben, bis sich das untere Ende vom Boden löst -> Teig ablegen, sodass sich das Ende unterfaltet. Wanne um 90° drehen, wiederholen (insg. 4 Seiten).
-
-3. **Zeitplan Folds:**
-
-  - 16:45 Uhr (Fold 1)
-
-  - 17:30 Uhr (Fold 2)
-
-  - 18:15 Uhr (Fold 3)
-
-4. **Ruhe:** Nach dem letzten Falten ungestört lassen, bis das Volumen deutlich zugenommen hat (ca. 50–75 % Zuwachs).
-
-#### Phase 5: Formen & Kaltgare
-
-**Beispielzeit: 20:00 Uhr**
-
-1. Teig straff wirken (runde oder ovale Form).
-
-2. Mit dem **Schluss nach oben** in das bemehlte Gärkorbchen.
-
-3. Dein **Deckel** drauf (Kondenswasser ist okay, es verhindert Austrocknen).
-
-4. In den Kühlschrank (**5°C**) für 12 bis 20 Stunden.
-
-  - (Aktive Arbeit beendet. Du hast Feierabend.)
-
----
-
-#### Phase 6: Backen (Bosch HNG978NB1)
-
-**Zeitpunkt: Nächster Morgen/Mittag (flexibel)**
-
-**Vorbereitung:**
-
-- Pizzastein auf Ebene 2.
-
-- Vorheizen: **275 °C Ober-/Unterhitze**. (Mind. 45 Min).
-
-**Backprozess:**
-
-1. **Einschießen:** Teig auf Stein stürzen, einschneiden.
-
-2. **Dampf-Phase (0–10 Min):**
-
-  - Temperatur sofort runter auf **250 °C**.
-
-  - Funktion **Dampfstoß**: Drücke die Taste/Menüpunkt zum **Aktivieren (Starten)**.
-
-  - Hinweis: Wir fluten den Ofen jetzt initial mit Dampf.
-
-3. **Gar-Phase (10–40 Min):**
-
-  - Funktion **Dampfstoß**: Drücke die Taste zum **Deaktivieren (Stoppen)**.
-
-  - Tür kurz ganz öffnen (Schwaden ablassen).
-
-  - Temperatur runter auf **210 °C**.
-
-4. **Crisp Finish (40–50 Min):**
-
-  - Wähle die Heizart/Funktion **"Crisp Finish"** (bzw. aktiviere sie im Menü).
-
-  - Wirkung: Der Lüfter saugt die Feuchtigkeit aktiv aus dem Garraum. Das ist effektiver als der Kochlöffeltrick.
-
-  - Backen bis zur gewünschten Bräunung (Klopfprobe: hohl).
-
-5. **Cool Down:** Auf Rost vollständig auskühlen lassen.
+- Teig nach 8 Minuten Kneten noch klebrig → Reservewasser weglassen

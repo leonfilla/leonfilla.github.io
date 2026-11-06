@@ -1,5 +1,5 @@
 ---
-titel: Quinoa-Porridge mit Edamame, Miso-Tahini & Thunfisch
+titel: Quinoa-Porridge mit Edamame und Thunfisch – Meal Prep
 status: aktiv
 datum: '2026-05-19'
 quelle:
@@ -8,91 +8,56 @@ quelle:
   hinweis: Herzhafte Porridge-Rezepte für Instant Pot
 importiert: true
 linie: quinoa-porridge-mit-edamame-miso-tahini-thunfisch-209d4
-fokus: 'Pflanzliches Komplettprofil mit Thunfisch – Meal-Prep-Version: heute alles vorbereiten, morgen früh nur noch aufwärmen und anrichten'
+variante: Meal Prep
+fokus: Der herzhafte Quinoa-Porridge als Vorabend-Version – abends kochen, Sauce und Zwiebeln vorbereiten. Morgens wärmt ein 0-Minuten-Druckzyklus den kalten Porridge hands-off auf.
+ergebnis: 2 Portionen
 portionen: 2
+zeit: {aktiv: 20, gesamt: 40}
+geraete: [instant-pot-pro-max]
+tags: [Frühstück, Meal Prep, High Protein]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 1
+  ablass: Natural Release
+  ablass_min: 10
 zutaten:
-- name: Quinoa (weiß oder tricolor)
-  menge: 160
-  einheit: g
-- name: Edamame (TK, ohne Schote)
-  menge: 160
-  einheit: g
-- name: Gemüsebrühe
-  menge: 480
-  einheit: g
-- name: helles Miso (Shiro Miso)
-  menge: 12
-  einheit: g
-- name: Tahini
-  menge: 30
-  einheit: g
-- name: geröstetes Sesamöl
-  menge: 4
-  einheit: g
-- name: Chiliflocken
-  menge: 1
-  einheit: g
-- name: Dosenthunfisch (in eigenem Saft, abgetropft)
-  menge: 130
-  einheit: g
-- name: rote Zwiebel, hauchdünn in Ringe geschnitten
-  menge: 40
-  einheit: g
-- name: Sesamsamen (weiß, geröstet)
-  menge: 9
-  einheit: g
-- name: Sojasauce oder Tamari
-  menge: 6
-  einheit: g
-- name: lauwarmes Wasser (für die Sauce)
-  menge: 45
-  einheit: g
-- name: Wasser (zum Einrühren beim Lagern)
-  menge: 65
-  einheit: g
-- name: Reisessig (für den Einlegesud)
-  menge: 40
-  einheit: g
-- name: Wasser (für den Einlegesud)
-  menge: 40
-  einheit: g
-- name: Salz (für den Einlegesud)
-  menge: 2
-  einheit: g
-- name: Zucker (für den Einlegesud)
-  menge: 3
-  einheit: g
+  - {gruppe: Porridge, name: Quinoa, menge: 160, hinweis: weiß oder tricolor}
+  - {gruppe: Porridge, name: Gemüsebrühe, menge: 480}
+  - {gruppe: Porridge, name: Edamame, menge: 160, hinweis: "TK, ohne Schote"}
+  - {gruppe: Porridge, name: Wasser, menge: 65, hinweis: zum Einrühren beim Lagern}
+  - {gruppe: Eingelegte Zwiebel, name: Reisessig, menge: 40}
+  - {gruppe: Eingelegte Zwiebel, name: Wasser, menge: 40}
+  - {gruppe: Eingelegte Zwiebel, name: Salz, menge: 2}
+  - {gruppe: Eingelegte Zwiebel, name: Zucker, menge: 3}
+  - {gruppe: Eingelegte Zwiebel, name: Rote Zwiebel, menge: 40, hinweis: hauchdünne Ringe}
+  - {gruppe: Sauce, name: Helles Miso, menge: 12, hinweis: Shiro Miso}
+  - {gruppe: Sauce, name: Tahini, menge: 30}
+  - {gruppe: Sauce, name: Geröstetes Sesamöl, menge: 4}
+  - {gruppe: Sauce, name: Chiliflocken, menge: 1}
+  - {gruppe: Sauce, name: Wasser, menge: 45, hinweis: lauwarm}
+  - {gruppe: Finish, name: Thunfisch, menge: 130, hinweis: "im eigenen Saft, abgetropft"}
+  - {gruppe: Finish, name: Sojasauce oder Tamari, menge: 6}
+  - {gruppe: Finish, name: Sesam, menge: 9, hinweis: "weiß, geröstet"}
 schritte:
-- titel: ① HEUTE – Quinoa spülen & kochen
-  text: Die 160 g Quinoa (weiß oder tricolor) in einem feinen Sieb 30 Sekunden unter kaltem Wasser abspülen. Mit 480 g Gemüsebrühe in den Instant Pot geben. Deckel schließen, Ventil auf Sealing. Manual High Pressure, 1 Minute. Nicht mehr als 2/3 füllen.
-- titel: ① HEUTE – Natural Release
-  text: 10 Minuten Natural Release abwarten, dann Ventil auf Venting stellen. Deckel öffnen – Quinoa sollte weich sein und die Spiralkeimlinge herausgedreht haben.
-  timer: 600
-- titel: ① HEUTE – Edamame einrühren
-  text: Gefrorene 160 g Edamame (TK, ohne Schote) in den heißen Porridge einrühren, Deckel auflegen (ohne Druck), 3 Minuten ziehen lassen. Die Restwärme taut die Edamame durch.
-  timer: 180
-- titel: ① HEUTE – Zwiebel einlegen
-  text: 'Während die Edamame ziehen: 40 g Reisessig (für den Einlegesud), 40 g Wasser (für den Einlegesud), 2 g Salz (für den Einlegesud) und 3 g Zucker (für den Einlegesud) in einem kleinen Schraubglas verrühren bis sich Salz und Zucker auflösen. 40 g rote Zwiebel, hauchdünn in Ringe geschnitten hauchdünn in Ringe schneiden, in den Sud geben – die Ringe sollten vollständig bedeckt sein. Gut verschließen und kühl stellen.'
-  timer: 180
-- titel: ① HEUTE – Miso-Tahini-Sauce anrühren
-  text: 12 g helles Miso (Shiro Miso), 30 g Tahini, 4 g geröstetes Sesamöl, 1 g Chiliflocken und 45 g lauwarmes Wasser (für die Sauce) in einem kleinen Glas glatt verrühren. Verschließen und kühl stellen. Nicht erhitzen.
-- titel: ① HEUTE – Thunfisch & Porridge lagern
-  text: Den 130 g Dosenthunfisch (in eigenem Saft, abgetropft) abtropfen lassen, auflockern und abgedeckt kühl stellen. Den abgekühlten Porridge direkt im Innentopf des IP lassen, 65 g Wasser (zum Einrühren beim Lagern) unterrühren, Deckel lose auflegen (nicht verriegeln) und kühl stellen.
-- titel: ② MORGEN – 0-Minuten-HP im Instant Pot
-  text: Innentopf mit dem kalten Porridge in den IP einsetzen. Deckel schließen, Ventil auf Sealing. Manual High Pressure – 0 Minuten einstellen. Der Topf baut Druck auf (ca. 5–7 Minuten) und schaltet sofort ab – dieser Druckaufbau allein erwärmt den Porridge komplett. Danach Ventil auf Venting (Quick Release).
-  timer: 420
-- titel: ② MORGEN – Sauce einrühren & abschmecken
-  text: Deckel öffnen, Miso-Tahini-Sauce einrühren – die Resthitze löst sie perfekt auf. Mit 6 g Sojasauce oder Tamari abschmecken. Auf zwei Schüsseln verteilen.
-- titel: ② MORGEN – Anrichten
-  text: 130 g Dosenthunfisch (in eigenem Saft, abgetropft) in der Mitte platzieren, eingelegte 40 g rote Zwiebel, hauchdünn in Ringe geschnitten aus dem Sud heben und darüberstreuen, 9 g Sesamsamen (weiß, geröstet) ebenfalls. Fertig.
+  - {titel: Quinoa spülen, text: 160 g Quinoa 30 Sekunden kalt abspülen.}
+  - {titel: Einfüllen, text: "Quinoa mit 480 g Gemüsebrühe in den Innentopf geben. Deckel schließen, Ventil auf Sealing."}
+  - {titel: Druckgaren, text: "Pressure Cook, High, 1 Minute.", timer: 60}
+  - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
+  - {titel: Edamame einrühren, text: 160 g gefrorene Edamame einrühren und mit aufgelegtem Deckel 3 Minuten ziehen lassen., timer: 180}
+  - {titel: Zwiebel einlegen, text: "40 g Reisessig, 40 g Wasser, 2 g Salz und 3 g Zucker in einem Schraubglas lösen, 40 g Zwiebelringe vollständig bedeckt einlegen, kühl stellen."}
+  - {titel: Sauce anrühren, text: "12 g Miso, 30 g Tahini, 4 g Sesamöl, 1 g Chiliflocken und 45 g lauwarmes Wasser glatt rühren, verschlossen kühl stellen."}
+  - {titel: Lagern, text: Thunfisch auflockern und abgedeckt kühlen. 65 g Wasser unter den Porridge rühren und im Innentopf mit lose aufgelegtem Deckel kühl stellen.}
+  - {titel: Morgens aufwärmen, text: "Innentopf einsetzen, Ventil auf Sealing, Pressure Cook, High, 0 Minuten. Der Druckaufbau dauert etwa 5–7 Minuten.", timer: 420}
+  - {titel: Quick Release, text: Ventil auf Venting stellen und Druck ablassen.}
+  - {titel: Sauce einrühren, text: "Miso-Tahini-Sauce einrühren, mit 6 g Sojasauce abschmecken, auf zwei Schüsseln verteilen."}
+  - {titel: Anrichten, text: "130 g Thunfisch in die Mitte setzen, Zwiebelringe aus dem Sud heben und mit 9 g Sesam darüberstreuen."}
 ---
 
-**Morgen früh: nur 3 Schritte** – IP starten und weggehen (~7 min, hands-off) → Sauce einrühren → Anrichten. Gesamtzeit ca. 10 Minuten, davon ~7 Minuten aktionslos.
+## Warum so
 
-**Warum 0 Minuten HP:** Der Druckaufbau allein erzeugt genug Hitze, um den kalten Porridge komplett durchzuwärmen. Die eigentliche Kochzeit ist null – kein Überkochen, keine Klumpen.
+Der Druckaufbau allein erhitzt den kalten Porridge vollständig; bei 0 Minuten Garzeit kocht nichts nach und nichts klumpt. Die Zwiebeln werden über Nacht im 1:1-Sud mild, leicht süß und rosa. Etwa 540 kcal, 38 g Protein, 56 g KH, 18 g Fett, 11 g Ballaststoffe pro Portion.
 
-**Eingelegte Zwiebeln:** Der 1:1-Sud (Essig + Wasser) bedeckt die Ringe vollständig. Overnight werden sie mild, leicht süßlich und leicht rosa – deutlich besser als nur kurz eingelegt.
+## Stellschrauben
 
-**Miso-Sauce kühl:** Tahini zieht im Kühlschrank an – kurz durchrühren, ggf. etwas Wasser dazu. Die Resthitze des Porridges löst sie beim Einrühren perfekt auf.
-
-**Nährwerte (ca. pro Portion):** ~540 kcal · 38 g Protein · 56 g KH · 18 g Fett · 11 g Ballaststoffe.
+- Sauce im Kühlschrank zu fest → kurz durchrühren, etwas Wasser zugeben

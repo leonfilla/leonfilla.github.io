@@ -1,5 +1,5 @@
 ---
-titel: Optimiertes Bärlauch-Linsen-Püree mit Grillgemüse
+titel: Bärlauch-Linsen-Wraps mit Grillgemüse
 status: aktiv
 datum: '2026-04-09'
 quelle:
@@ -7,40 +7,42 @@ quelle:
   url: https://gemini.google.com/app/9163c01d8a9b9865
   hinweis: 5 Rezepte für kalte Wraps mit frischem Bärlauch
 importiert: true
+linie: baerlauch-linsen-wraps-2026-04-09
+fokus: Kalte Wraps mit einem Püree aus roten Linsen und frischem Bärlauch, dazu Zucchini und Paprika vom OptiGrill. Das Gemüse grillt, während die Linsen im Instant Pot garen.
+ergebnis: 4 Wraps
+portionen: 4
+zeit: {aktiv: 14, gesamt: 26}
+geraete: [instant-pot-pro-max, optigrill, mixer-hr3760]
+tags: [Mittagessen, vegetarisch]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 4
+  ablass: Quick Release
+zutaten:
+  - {gruppe: Püree, name: Rote Linsen, menge: 250, einheit: g, hinweis: trocken}
+  - {gruppe: Püree, name: Wasser, menge: 600, einheit: ml, hinweis: gefiltert}
+  - {gruppe: Püree, name: Bärlauch, menge: 60, einheit: g, hinweis: "frisch, gewaschen"}
+  - {gruppe: Püree, name: Olivenöl, menge: 40, einheit: ml}
+  - {gruppe: Püree, name: Zitronensaft, menge: 25, einheit: ml}
+  - {gruppe: Gemüse, name: Zucchini, menge: 200, einheit: g}
+  - {gruppe: Gemüse, name: Paprika, menge: 200, einheit: g}
+  - {gruppe: Wraps, name: Vollkorn-Wraps, menge: 4, einheit: ""}
+schritte:
+  - {titel: Linsen einfüllen, text: 250 g rote Linsen mit 600 ml Wasser in den Innentopf geben.}
+  - {titel: Druckgaren, text: "Pressure Cook, High, 4 Minuten.", timer: 240}
+  - {titel: Gemüse schneiden, text: Währenddessen 200 g Zucchini und 200 g Paprika in 1-cm-Streifen schneiden.}
+  - {titel: Grillen, text: OptiGrill im Programm Gemüse starten und das Gemüse bis zur gewünschten Garstufe grillen.}
+  - {titel: Quick Release, text: Druck am Instant Pot per Quick Release ablassen.}
+  - {titel: Pürieren, text: "Leicht abgekühlte Linsen, 60 g Bärlauch, 40 ml Olivenöl und 25 ml Zitronensaft auf mittlerer Stufe 40 Sekunden zu einer glatten Paste mixen.", timer: 40}
+  - {titel: Kühlen, text: Püree und Grillgemüse 8 Minuten in den Kühlschrank stellen., timer: 480}
+  - {titel: Rollen, text: "Je 120 g Püree auf einen Wrap streichen, Grillgemüse mittig auflegen, straff rollen und quer halbieren."}
 ---
 
-> **Frage im Chat:** Nun ein optimiertes Rezept 1 mit Linsen
+## Warum so
 
-**Analyse der Q/A-Ratio**
-Aktive Arbeitszeit: 14 Minuten. Passiv: 12 Minuten.
-Verhältnis: Exponentiell. Die Verwendung von roten Linsen anstelle von Kichererbsen erhöht die Proteindichte und verbessert die Bioverfügbarkeit. Die passive Zeit im Instant Pot wird für das simultane Grillen genutzt, was die Gesamteffizienz maximiert.
+Rote Linsen statt Kichererbsen garen in 4 Minuten und erhöhen die Proteindichte; die Wartezeit im Instant Pot wird zum Grillen genutzt. Kurzes Kühlen macht das Püree fester, damit sich der Wrap sauber rollen lässt. Etwa 495 kcal, 19 g Protein, 60 g KH, 14 g Fett pro Portion.
 
-**Makros pro Portion**
-495 Kcal | P: 19g | KH: 60g | F: 14g
+## Varianten
 
-**Zutaten, Wasserwahl & Hardware-Mapping**
-
-|Zutat/Ressource |Menge (4 Port.) |Hardware / Wasserwahl |Begründung Kinetik / Effizienz |
-|Rote Linsen (trocken) |250g |Instant Pot Pro Max Wifi |Schnelle Depolymerisation der Stärke unter Druck. |
-|Wasser (Garen) |600ml |BLANCO Option B (100°C via IP) |**Ziel-Wassertemperatur: 100°C.** Magnesium-Substitution optimiert die Textur. |
-|Vollkorn-Wraps |4 Stück |- |Komplexe Kohlenhydrate. |
-|Frischer Bärlauch |60g |Bosch MMBH6P6BDE |Maximale Zellwandzerstörung zur Freisetzung von Schwefelverbindungen. |
-|Zucchini & Paprika |Je 200g |Tefal OptiGrill Elite GC750D |Automatisierte Maillard-Reaktion via Sensorik. |
-|Olivenöl |40ml |Timemore Basic 2 |Lipophile Trägermatrix für Bärlauch-Aromen. |
-|Zitronensaft |25ml |Apera PH60F |pH-Wert-Optimierung für enzymatische Stabilität. |
-
-**Prozess**
-
-1. **Linsen-Kinetik:** 250g rote Linsen mit 600ml BLANCO Option B Wasser in den Instant Pot Pro Max Wifi geben. Programm "Pressure Cook" (High) auf 4 Minuten einstellen. Nach Ablauf manueller Quick Release.
-
-2. **Thermik (Gemüse):** Während der Instant Pot arbeitet, Zucchini und Paprika in 1 cm Streifen schneiden. Tefal OptiGrill im Programm "Gemüse" starten und Grillgut bis zur Ziel-Garstufe verarbeiten.
-
-3. **Emulsion:** Gekochte Linsen (leicht abgekühlt), gewaschenen Bärlauch, Olivenöl und Zitronensaft in den Bosch MMBH6P6BDE geben. Stufe 6 für 40 Sekunden mixen, bis eine homogene, viskose Paste entsteht.
-
-4. **Kühlung:** Püree und Grillgemüse für 8 Minuten im Bosch KIF86PFE0 Kühlschrank bei 5°C Umgebungstemperatur lagern, um die Viskosität für den Rollvorgang zu erhöhen.
-
-5. **Assembly:** Je 120g Linsen-Bärlauch-Püree auf die Wraps streichen, Grillgemüse mittig platzieren, straff rollen und transversal halbieren.
-
-**Prozess (Low-Effort-Alternative)**
-Bedingung (> 15 Min. aktiv / > 3 Geräte) knapp verfehlt, dennoch optimierbar:
-Alternative: Nutzung von vorgegarten Linsen (Glas/Dose) eliminiert den Instant Pot. Gemüse roh raspeln statt grillen eliminiert den OptiGrill. Aktive Zeit sinkt auf 6 Minuten. Sensorische Qualität sinkt durch fehlende Röstaromen um geschätzt 35%.
+- Weniger Aufwand: Linsen aus Glas oder Dose und rohes geraspeltes Gemüse statt Grillgemüse – etwa 6 Minuten aktiv, aber ohne Röstaromen

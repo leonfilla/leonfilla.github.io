@@ -8,79 +8,66 @@ quelle:
   hinweis: Fünf Rezepte für Schokobananenbrot
 importiert: true
 linie: hafer-dattel-double-chocolate-bananenbrot-02e06
-fokus: Vollkorn, ohne Haushaltszucker, saftig und stark schokoladig – für eine 25-cm-Kastenform, 12 Scheiben
+fokus: Vollkorn-Bananenbrot ohne Haushaltszucker, saftig und stark schokoladig. Datteln süßen, Espresso und gebloomter Kakao tragen das Schokoladenaroma.
+ergebnis: 1 Kastenform 25 cm, 12 Scheiben
 portionen: 12
+zeit: {aktiv: 25, gesamt: 240}
+geraete: [bosch-hng978, kernthermometer]
+tags: [Kuchen, Frühstück, Meal Prep]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 165
+  zeit: 55
+  kerntemperatur: "93–94"
+  form: Kastenform 25 cm
 zutaten:
-- name: entsteinte Datteln
-  menge: 100
-  einheit: g
-- name: Bensdorp Kakaopulver
-  menge: 50
-  einheit: g
-- name: Vollmilch
-  menge: 120
-  einheit: g
-- name: Espresso
-  menge: 45
-  einheit: g
-- name: Zartbitterschokolade 85 %, zum Schmelzen
-  menge: 40
-  einheit: g
-- name: Zartbitterschokolade 85 %, grob gehackt
-  menge: 40
-  einheit: g
-- name: Vanillepaste
-  menge: 1
-  einheit: TL
-- name: sehr reife Bananen (ca. 340 g geschält)
-  menge: 3
-  einheit: ''
-- name: Eier (M), zimmerwarm
-  menge: 3
-  einheit: ''
-- name: Rapsöl
-  menge: 55
-  einheit: g
-- name: Skyr
-  menge: 60
-  einheit: g
-- name: Haferflocken, fein gemahlen
-  menge: 150
-  einheit: g
-- name: gemahlene Haselnüsse
-  menge: 40
-  einheit: g
-- name: Backpulver
-  menge: 8
-  einheit: g
-- name: Natron
-  menge: 1
-  einheit: g
-- name: Salz
-  menge: 4
-  einheit: g
+- {gruppe: Kakaobasis, name: Haferflocken, menge: 150, einheit: g, hinweis: fein gemahlen}
+- {gruppe: Kakaobasis, name: Vollmilch, menge: 120, einheit: g}
+- {gruppe: Kakaobasis, name: Espresso, menge: 45, einheit: g}
+- {gruppe: Kakaobasis, name: Datteln, menge: 100, einheit: g, hinweis: entsteint}
+- {gruppe: Kakaobasis, name: Kakaopulver, menge: 50, einheit: g, hinweis: Bensdorp}
+- {gruppe: Kakaobasis, name: Zartbitterschokolade 85 %, menge: 40, einheit: g, hinweis: zum Schmelzen}
+- {gruppe: Kakaobasis, name: Vanillepaste, menge: 1, einheit: TL}
+- {gruppe: Nasse Masse, name: Bananen, menge: 3, einheit: "", hinweis: "sehr reif, ca. 340 g geschält"}
+- {gruppe: Nasse Masse, name: Eier, menge: 3, einheit: "", hinweis: "Größe M, zimmerwarm"}
+- {gruppe: Nasse Masse, name: Rapsöl, menge: 55, einheit: g}
+- {gruppe: Nasse Masse, name: Skyr, menge: 60, einheit: g}
+- {gruppe: Trockenes, name: Gemahlene Haselnüsse, menge: 40, einheit: g}
+- {gruppe: Trockenes, name: Backpulver, menge: 8, einheit: g}
+- {gruppe: Trockenes, name: Natron, menge: 1, einheit: g}
+- {gruppe: Trockenes, name: Salz, menge: 4, einheit: g}
+- {gruppe: Einlage, name: Zartbitterschokolade 85 %, menge: 40, einheit: g, hinweis: grob gehackt}
 schritte:
 - titel: Vorbereiten
-  text: Ofen auf 165 °C Ober-/Unterhitze vorheizen. Kastenform fetten und mit Backpapier auslegen. 150 g Haferflocken, fein gemahlen im Mixer fein mahlen.
-- titel: Kakao bloomen, Datteln einweichen
-  text: 120 g Vollmilch und 45 g Espresso auf ca. 90 °C erhitzen. Über 100 g entsteinte Datteln und 50 g Bensdorp Kakaopulver gießen, glatt rühren und ziehen lassen.
+  text: Ofen auf 165 °C Ober-/Unterhitze vorheizen. Kastenform fetten und mit Backpapier auslegen. 150 g Haferflocken im Mixer fein mahlen.
+- titel: Kakao bloomen
+  text: 120 g Vollmilch und 45 g Espresso auf ca. 90 °C erhitzen, über 100 g Datteln und 50 g Kakaopulver gießen, glatt rühren und ziehen lassen.
   timer: 600
-- titel: Schokolade schmelzen, pürieren
-  text: 40 g Zartbitterschokolade 85 %, zum Schmelzen in der warmen Mischung schmelzen. Mit 1 TL Vanillepaste fein pürieren und auf Handwärme abkühlen lassen, damit die Eier später nicht stocken.
+- titel: Schokolade schmelzen
+  text: 40 g Zartbitterschokolade in der warmen Mischung schmelzen, mit 1 TL Vanillepaste fein pürieren und auf Handwärme abkühlen lassen.
   timer: 600
 - titel: Nasse Masse
-  text: 3 sehr reife Bananen (ca. 340 g geschält) gründlich zerdrücken. Mit 3 Eier (M), zimmerwarm, 55 g Rapsöl, 60 g Skyr und dem Dattel-Kakao-Püree glatt verrühren.
-- titel: Trockene Zutaten
-  text: Das Hafermehl mit 40 g gemahlene Haselnüsse, 8 g Backpulver, 1 g Natron und 4 g Salz gründlich vermischen, bis das Natron gleichmäßig verteilt ist.
-- titel: Verbinden und quellen lassen
-  text: Trockene Zutaten zur nassen Masse geben und nur verrühren, bis alles benetzt ist. 40 g Zartbitterschokolade 85 %, grob gehackt unterheben. Teig in die Form füllen und ruhen lassen, damit der Hafer Wasser aufnimmt.
+  text: 3 Bananen gründlich zerdrücken, mit 3 Eiern, 55 g Rapsöl, 60 g Skyr und dem Dattel-Kakao-Püree glatt verrühren.
+- titel: Trockenes mischen
+  text: Hafermehl mit 40 g Haselnüssen, 8 g Backpulver, 1 g Natron und 4 g Salz gründlich vermischen.
+- titel: Verbinden
+  text: Trockene Zutaten zur nassen Masse geben und nur verrühren, bis alles benetzt ist. 40 g gehackte Schokolade unterheben, Teig in die Form füllen.
+- titel: Quellen lassen
+  text: Teig in der Form ruhen lassen.
   timer: 600
 - titel: Backen
-  text: Auf mittlerer Schiene backen, bis die Kerntemperatur 93–94 °C erreicht. Ein Stäbchen darf noch leicht feucht-krümelig herauskommen.
+  text: Auf mittlerer Schiene ca. 55 Minuten backen, bis die Kerntemperatur 93–94 °C erreicht. Ein Stäbchen darf leicht feucht-krümelig herauskommen.
   timer: 3300
-- titel: In der Form auskühlen
-  text: 30 Minuten offen abkühlen lassen, dann die Form locker mit Folie abdecken und das Brot vollständig in der Form auskühlen lassen. Ohne Gluten ist die Krume warm noch fragil.
+- titel: Auskühlen
+  text: 30 Minuten offen abkühlen lassen, dann locker mit Folie abdecken und vollständig in der Form auskühlen lassen.
   timer: 7200
 ---
 
-Die Milch ist auf 120 g reduziert, damit die Gesamtflüssigkeit trotz 45 g Espresso gleich bleibt. Die zusätzlichen 20 g Datteln gleichen die stärkere Bitterkeit des Espressos aus. Zucker ca. 6 g pro Scheibe, fast vollständig aus den Datteln. Essbar nach etwa 3,5–4 Stunden.
+## Warum so
+
+Heiße Flüssigkeit löst die Aromastoffe des Kakaos (Bloomen), Espresso verstärkt den Schokoladeneindruck. Die Milch ist auf 120 g reduziert, damit die Gesamtflüssigkeit trotz Espresso gleich bleibt; 20 g mehr Datteln gleichen dessen Bitterkeit aus. Ohne Gluten ist die Krume warm noch fragil, deshalb kühlt das Brot in der Form aus. Zucker ca. 6 g pro Scheibe, fast vollständig aus den Datteln.
+
+## Stellschrauben
+
+- Krume bricht → länger in der Form auskühlen, frühestens nach 3,5–4 Stunden anschneiden
+- Zu trocken → bei 93 °C Kerntemperatur herausnehmen

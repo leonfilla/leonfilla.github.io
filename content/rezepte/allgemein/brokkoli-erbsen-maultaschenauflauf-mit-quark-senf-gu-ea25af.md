@@ -8,76 +8,62 @@ quelle:
   hinweis: Maultaschenauflauf Rezepte für vier Personen
 importiert: true
 linie: brokkoli-erbsen-maultaschenauflauf-mit-quark-senf-b49ab
-fokus: Gemüsebetonter, proteinreicher Auflauf mit beiden Maultaschensorten, TK-Brokkoli und Erbsen unter einem leichten Magerquark-Ei-Guss. Käse nur als dünne Bräunungsschicht.
+fokus: Gemüsebetonter, proteinreicher Auflauf aus zwei Maultaschensorten, TK-Brokkoli und Erbsen unter einem leichten Magerquark-Ei-Guss. Vorgerösteter Brokkoli hält den Auflauf trocken, Käse dient nur als Bräunungsschicht.
+ergebnis: 4 Portionen
 portionen: 4
+zeit: {aktiv: 25, gesamt: 70}
+geraete: [bosch-hng978]
+tags: [Abendessen, Auflauf, High Protein]
+ofen:
+  modus: Heißluft
+  temp: 200
+  zeit: 28
+  form: Auflaufform, 28–30 cm
 zutaten:
-- name: Maultaschen (beide Packungen, gemischt)
-  menge: 1000
-  einheit: g
-- name: TK-Brokkoli
-  menge: 500
-  einheit: g
-- name: TK-Erbsen
-  menge: 150
-  einheit: g
-- name: Magerquark
-  menge: 300
-  einheit: g
-- name: Eier (Größe M)
-  menge: 3
-  einheit: ''
-- name: Vollmilch
-  menge: 100
-  einheit: ml
-- name: mittelscharfer Senf
-  menge: 2
-  einheit: TL
-- name: Bio-Zitrone, Abrieb davon
-  menge: 0.5
-  einheit: ''
-- name: Comté oder Bergkäse, gerieben
-  menge: 70
-  einheit: g
-- name: Zwiebel, gewürfelt
-  menge: 1
-  einheit: ''
-- name: Knoblauchzehen, fein gehackt
-  menge: 2
-  einheit: ''
-- name: Butter (zum Andünsten)
-  menge: 1
-  einheit: EL
-- name: Olivenöl (für den Brokkoli)
-  menge: 1
-  einheit: EL
-- name: Salz
-  menge: 1
-  einheit: TL
-- name: schwarzer Pfeffer
-  menge: 0.5
-  einheit: TL
-- name: frisch geriebene Muskatnuss
-  menge: 1
-  einheit: Prise
-- name: gehobelte Mandeln (optional, für Crunch)
-  menge: 30
-  einheit: g
+  - {gruppe: Gemüse, name: TK-Brokkoli, menge: 500, einheit: g}
+  - {name: Olivenöl, menge: 1, einheit: EL}
+  - {name: Zwiebel, menge: 1, einheit: '', hinweis: gewürfelt}
+  - {name: Knoblauchzehen, menge: 2, einheit: '', hinweis: fein gehackt}
+  - {name: Butter, menge: 1, einheit: EL}
+  - {name: TK-Erbsen, menge: 150, einheit: g}
+  - {gruppe: Auflauf, name: Maultaschen, menge: 1000, einheit: g, hinweis: 'zwei Sorten gemischt, z. B. Gemüse und Fleisch'}
+  - {gruppe: Guss, name: Magerquark, menge: 300, einheit: g}
+  - {name: Eier, menge: 3, einheit: '', hinweis: Größe M}
+  - {name: Vollmilch, menge: 100, einheit: ml}
+  - {name: Mittelscharfer Senf, menge: 2, einheit: TL}
+  - {name: 'Bio-Zitrone, Abrieb', menge: 0.5, einheit: ''}
+  - {name: Salz, menge: 1, einheit: TL}
+  - {name: Schwarzer Pfeffer, menge: 0.5, einheit: TL}
+  - {name: 'Muskatnuss, frisch gerieben', menge: 1, einheit: Prise}
+  - {gruppe: Topping, name: Comté oder Bergkäse, menge: 70, einheit: g, hinweis: gerieben}
+  - {name: Gehobelte Mandeln, menge: 30, einheit: g, hinweis: optional}
 schritte:
 - titel: Brokkoli vorrösten
-  text: 500 g TK-Brokkoli noch gefroren auf ein mit Backpapier belegtes Blech geben, mit 1 EL Olivenöl (für den Brokkoli) und etwas Salz mischen. Bei 200 °C Heißluft rösten, bis das Tauwasser verdampft ist und die Röschen leicht Farbe nehmen. Dieser Schritt ist der Schlüssel gegen einen wässrigen Auflauf.
+  text: 500 g TK-Brokkoli gefroren auf ein Blech mit Backpapier geben, mit 1 EL Olivenöl und etwas Salz mischen und bei 200 °C Heißluft rösten, bis das Tauwasser verdampft ist und die Röschen Farbe nehmen.
   timer: 840
 - titel: Zwiebelbasis andünsten
-  text: 1 Zwiebel, gewürfelt und 2 Knoblauchzehen, fein gehackt in 1 EL Butter (zum Andünsten) bei mittlerer Hitze glasig dünsten, nicht bräunen. Gibt dem milden Guss eine herzhafte Grundwürze.
+  text: Zwiebel und 2 Knoblauchzehen in 1 EL Butter bei mittlerer Hitze glasig dünsten, nicht bräunen.
   timer: 300
 - titel: Maultaschen schneiden
-  text: 1000 g Maultaschen (beide Packungen, gemischt) in ca. 1,5 cm breite Streifen schneiden. Beide Sorten mischen, damit jede Portion sowohl den Gemüse- als auch den herzhaften Fleischgeschmack-Charakter bekommt.
-- titel: Quark-Senf-Guss rühren
-  text: 300 g Magerquark, 3 Eier (Größe M), 100 ml Vollmilch, 2 TL mittelscharfer Senf und 0.5 Bio-Zitrone, Abrieb davon glattrühren, mit 1 TL Salz, 0.5 TL schwarzer Pfeffer und 1 Prise frisch geriebene Muskatnuss abschmecken. Die Milch lockert den Quark, sodass er nicht zu fest stockt; die Eier binden den Guss zu einer cremigen, schnittfesten Schicht.
+  text: 1000 g Maultaschen in 1,5 cm breite Streifen schneiden und beide Sorten mischen.
+- titel: Guss rühren
+  text: 300 g Magerquark, 3 Eier, 100 ml Milch, 2 TL Senf und den Abrieb einer halben Zitrone glattrühren, mit 1 TL Salz, 0,5 TL Pfeffer und 1 Prise Muskat würzen.
 - titel: Schichten
-  text: Eine Auflaufform (ca. 28–30 cm) leicht fetten. Gerösteten Brokkoli, noch gefrorene 150 g TK-Erbsen und die Zwiebelbasis mit den Maultaschen-Streifen locker mischen und einfüllen. Den Guss gleichmäßig darüber verteilen, sodass er in die Zwischenräume läuft. Mit 70 g Comté oder Bergkäse, gerieben und optional 30 g gehobelte Mandeln (optional, für Crunch) bestreuen.
+  text: Form leicht fetten. Brokkoli, gefrorene 150 g Erbsen, Zwiebelbasis und Maultaschen locker mischen und einfüllen. Guss gleichmäßig darübergießen, sodass er in die Zwischenräume läuft. Mit 70 g Käse und nach Wunsch 30 g Mandeln bestreuen.
 - titel: Backen
-  text: Im vorgeheizten Ofen backen, bis der Guss gestockt ist und die Oberfläche goldbraun wird. Quark-Ei-Güsse bei zu hoher Hitze gerinnen und werden grießig – daher moderate Temperatur halten und erst am Ende kurz übergrillen.
+  text: Im vorgeheizten Ofen bei moderater Hitze backen, bis der Guss gestockt und die Oberfläche goldbraun ist; erst am Ende kurz übergrillen.
   timer: 1680
 ---
 
-TK-Brokkoli-Minimum, falls keine Zeit zum Rösten: gründlich auftauen und kräftig ausdrücken – sonst zieht Wasser in den Guss. Erbsen können gefroren in die Form, sie garen im Auflauf durch. Der Käse ist bewusst sparsam dosiert: Er dient nur der Bräunung, das Protein kommt aus Quark, Eiern und den Maultaschen selbst.
+## Warum so
+
+Gefrorener Brokkoli bringt viel Tauwasser mit; Vorrösten verdampft es, statt dass es in den Guss läuft. Die Milch lockert den Quark, die Eier binden ihn zu einer cremigen, schnittfesten Schicht. Quark-Ei-Güsse gerinnen bei zu hoher Hitze und werden grießig, deshalb moderat backen. Das Protein kommt aus Quark, Eiern und Maultaschen, der Käse dient nur der Bräunung.
+
+## Stellschrauben
+
+- Keine Zeit zum Rösten → Brokkoli gründlich auftauen und kräftig ausdrücken
+- Guss grießig → Ofentemperatur senken, erst am Ende übergrillen
+
+## Varianten
+
+- Erbsen können gefroren in die Form, sie garen im Auflauf durch

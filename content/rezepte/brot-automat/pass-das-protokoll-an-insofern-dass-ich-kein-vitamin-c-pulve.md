@@ -1,156 +1,62 @@
 ---
-titel: Pass das Protokoll an, insofern, dass ich kein Vitamin C Pulver habe, aber …
-status: aktiv
+titel: Weizen-Vollkorn-Sauerteigbrot mit Zitronensaft
+status: archiv
 datum: '2026-02-02'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/ff35960758945a73
   hinweis: Bewerte die reine Knetfunktion von Sauerteigen des Panasonic SD-YR2540
 importiert: true
-linie: 1-die-parameter-f2815
+linie: protokoll-weizen-vollkorn-sauerteigbrot-high-hydra-4224d
+variante: Zitronensaft statt Vitamin C
+fokus: Weizenmischbrot mit sehr hohem Vollkornanteil, im Automaten geknetet und frei auf dem Pizzastein gebacken. Zitronensaft ersetzt Vitamin-C-Pulver, 80 g Type 550 sind das Minimum für eine stabile Krume.
+ergebnis: 1 Laib
+geraete: [panasonic-sd-yr2540, bosch-hng978]
+tags: [Sauerteig, Vollkorn]
+brot:
+  programm: Menü 31 (Kneten)
+  gare:
+    - {phase: Vorteig, temp: Raumtemperatur, zeit: 4–6 h, bis verdoppelt}
+    - {phase: Autolyse, zeit: 45–60 min}
+    - {phase: Stockgare mit 3 Coil Folds, zeit: ca. 4 h ab Knetende}
+    - {phase: Kaltgare im Gärkorb, temp: 5, zeit: 12–18 h}
+  backprofil:
+    - {phase: Vorheizen mit Pizzastein, temp: 250, zeit: mind. 45 min}
+    - {phase: Anbacken, temp: 250, dampf: Dampfstoß intensiv, zeit: 0–10 min}
+    - {phase: Ausbacken, temp: 210, dampf: kein, zeit: 10–40 min}
+    - {phase: Rösche, temp: 210, dampf: aktive Entfeuchtung, zeit: 40–50 min}
+zutaten:
+  - {gruppe: Vorteig, name: Anstellgut, menge: 30, einheit: g, hinweis: aus dem Kühlschrank}
+  - {gruppe: Vorteig, name: Weizenvollkornmehl, menge: 35, einheit: g, mehl: true}
+  - {gruppe: Vorteig, name: Wasser, menge: 35, einheit: g, wasser: 1, hinweis: lauwarm}
+  - {gruppe: Hauptteig, name: Weizenvollkornmehl, menge: 370, einheit: g, mehl: true}
+  - {gruppe: Hauptteig, name: Weizenmehl 550, menge: 80, einheit: g, mehl: true}
+  - {gruppe: Hauptteig, name: Wasser, menge: 305, einheit: g, wasser: 1, hinweis: kalt}
+  - {gruppe: Hauptteig, name: Zitronensaft, menge: 15, einheit: g, wasser: 0.9, hinweis: frisch gepresst}
+  - {gruppe: Hauptteig, name: Salz, menge: 10, einheit: g}
+schritte:
+  - {titel: Vorteig ansetzen, text: "30 g Anstellgut, 35 g Weizenvollkornmehl und 35 g lauwarmes Wasser im Glas mischen."}
+  - {titel: Vorteig reifen lassen, text: Bei Raumtemperatur stehen lassen, bis er sich verdoppelt hat., timer: 18000}
+  - {titel: Autolyse mischen, text: "Roggen-Knethaken einsetzen. 370 g Weizenvollkornmehl, 80 g Weizenmehl 550, 305 g kaltes Wasser und 15 g Zitronensaft in den Behälter geben, Menü 31 starten und 2 Minuten mischen.", timer: 120}
+  - {titel: Quellen lassen, text: Maschine stoppen und mit geschlossenem Deckel ruhen lassen., timer: 3000}
+  - {titel: Kneten, text: "Vorteig und 10 g Salz zugeben, Menü 31 auf 8 Minuten stellen. Löst sich der Teig noch nicht vom Rand, max. 2 Minuten verlängern – insgesamt höchstens 12 Minuten.", timer: 480}
+  - {titel: Entnehmen, text: Teig sofort in eine leicht geölte, eckige Wanne geben.}
+  - {titel: Coil Folds, text: "Dreimal im Abstand von 45 Minuten falten: Teig mittig anheben, Enden unterklappen lassen.", timer: 2700}
+  - {titel: Stockgare beenden, text: "Ruhen lassen, bis der Teig luftig ist und deutlich an Volumen zugenommen hat (ca. 4 Stunden ab Knetende)."}
+  - {titel: Formen, text: Teig auf eine bemehlte Fläche kippen und straff zu einem Laib wirken.}
+  - {titel: Kaltgare, text: "Mit dem Schluss nach oben in den Gärkorb legen, luftdicht verpacken und bei 5 °C 12–18 Stunden kühlen.", timer: 43200}
+  - {titel: Ofen vorheizen, text: "Pizzastein auf Ebene 2, Ofen mindestens 45 Minuten auf 250 °C Ober-/Unterhitze vorheizen.", timer: 2700}
+  - {titel: Einschießen, text: "Teig direkt aus dem Kühlschrank auf Backpapier stürzen, tief einschneiden und auf den Stein ziehen."}
+  - {titel: Anbacken, text: "Sofort Dampfstoß (intensiv) auslösen und 10 Minuten bei 250 °C backen.", timer: 600}
+  - {titel: Ausbacken, text: Auf 210 °C reduzieren und ohne weiteren Dampf 30 Minuten backen., timer: 1800}
+  - {titel: Rösche, text: Aktive Entfeuchtung einschalten (oder Holzlöffel in die Tür klemmen) und 10 Minuten fertig backen., timer: 600}
+  - {titel: Auskühlen, text: Klopfprobe (hohl) und auf dem Rost auskühlen lassen.}
 ---
 
-> **Frage im Chat:** Pass das Protokoll an, insofern, dass ich kein Vitamin C Pulver habe, aber genug Bio Zitronen. Und ich möchte so wenig wie möglich Nicht-Vollkorn-Weizenmehl nehmen, aber so viel wie nötig. Dampfstoß oder Dauerdampf ist beides möglich mit dem Bosch-Ofen. Ich kann dem Ofen auch sagen, dass er aktiv den Wasserdampf aus dem inneren ziehen soll, wenn das Ende des Backvorgangs kommt. Gib danach das gesamte Protokoll ausführlich und übersichtlich aus.
+## Warum so
 
-Hier ist das optimierte, funktionale Protokoll.
+Die Ascorbinsäure im Zitronensaft stärkt das Klebereiweiß, der niedrige pH hemmt die eiweißabbauenden Enzyme des Vollkorns. 80 g Type 550 (ca. 18 % des Hauptteigs) sind das funktionale Minimum gegen einen zerfließenden Teig; darunter leidet die Krumenstabilität deutlich. Der Dampfstoß am Anfang hält die Haut dehnbar für den Ofentrieb, die Entfeuchtung am Ende lässt die Kruste rösch werden.
 
-**Anpassungen für deine Anforderungen:**
+## Stellschrauben
 
-- **Struktur:** Wir nutzen **80 g Weizenmehl Type 550** (ca. 18 % des Hauptteigs). Das ist das funktionale Minimum, um ein erneutes "Suppen-Desaster" zu verhindern und die Poren zu öffnen. Darunter leidet die Krumenstabilität signifikant.
-
-- **Vitamin C:** **15 g frischer Zitronensaft** ersetzen das Pulver. Die Ascorbinsäure stärkt das Klebereiweiß, der niedrige pH-Wert hemmt eiweißabbauende Enzyme im Vollkorn.
-
-- **Ofensteuerung:** Nutzung des **Dampfstoßes** zum Trieb und der **aktiven Entfeuchtung** für die Kruste.
-
----
-
-#### 1. Die Parameter (Final)
-
-**Ziel:** Weizenmischbrot (sehr hoher Vollkornanteil), hydratisiert für Knetstabilität (ca. 72 % Hydratation).
-
-#### Zutaten
-
-**Vorteig (Sauerteig):**
-
-- 30 g Anstellgut (aus dem Kühlschrank)
-
-- 35 g Weizenvollkornmehl
-
-- 35 g Wasser (lauwarm)
-
-**Hauptteig:**
-
-- **370 g Weizenvollkornmehl**
-
-- **80 g Weizenmehl Type 550** (Der notwendige "Kleber")
-
-- **305 g Wasser** (kalt)
-
-- **15 g Zitronensaft** (frisch gepresst)
-
-- 10 g Salz
-
----
-
-#### 2. Der Zeitplan (Beispiel für Abend-Backen)
-
-- 08:00 Uhr: Vorteig ansetzen.
-
-- 13:00 Uhr: Autolyse (Mischen).
-
-- 14:00 Uhr: Hauptteig kneten.
-
-- 14:15 – 18:00 Uhr: Stockgare (mit Falten).
-
-- 18:00 Uhr: Formen & in den Kühlschrank (Kaltgare).
-
-- Nächster Morgen/Mittag: Backen (Zeitpunkt flexibel 12–20 Stunden später).
-
----
-
-#### 3. Der Workflow (Schritt-für-Schritt)
-
-#### Phase 1: Reaktivierung
-
-1. Mische Anstellgut, 35 g Mehl und 35 g Wasser im Glas.
-
-2. Lasse es bei Raumtemperatur stehen, bis es sich verdoppelt hat (ca. 4–6 Stunden).
-
-#### Phase 2: Autolyse (Panasonic Menü 31)
-
-Ziel: Passive Wasseraufnahme. Zitronensaft kommt hier schon rein, um Enzyme früh zu bremsen.
-
-1. **Roggen-Knethaken** einsetzen.
-
-2. In den Behälter: **370 g Vollkornmehl**, **80 g Type 550**, **305 g Wasser** und **15 g Zitronensaft**.
-
-3. **Menü 31** starten -> **2 Minuten** laufen lassen (nur mischen).
-
-4. Maschine stoppen. **45–60 Minuten** ruhen lassen (Deckel zu).
-
-#### Phase 3: Hauptkneten (Panasonic Menü 31)
-
-1. Gib den **Vorteig** und **10 g Salz** hinzu.
-
-2. Starte **Menü 31**.
-
-3. Stelle Zeit auf **8 Minuten**.
-
-4. **Prüfung:** Nach 8 Minuten muss sich der Teig vom Rand lösen. Wenn er noch sehr nass wirkt, max. 2 Minuten zugeben. **Keinesfalls länger als 12 Minuten gesamt kneten**, um Überhitzung zu vermeiden.
-
-5. Teig sofort entnehmen.
-
-#### Phase 4: Stockgare & Coil Folds (Manuell)
-
-1. Teig in eine leicht geölte, eckige Wanne oder Schüssel geben.
-
-2. **3x Falten:** Führe alle 45 Minuten ein "Coil Fold" durch (Teig in der Mitte anheben, Enden unterklappen lassen). Dies baut die Spannung für die Lockerheit auf.
-
-3. Lasse den Teig nach dem letzten Falten ruhen, bis er sich luftig anfühlt und Volumen deutlich zugenommen hat (ca. 4 Std. Gesamtzeit ab Knetende).
-
-#### Phase 5: Formen & Kaltgare
-
-1. Teig auf bemehlte Fläche kippen.
-
-2. Straff zu einem Laib wirken (Oberflächenspannung ist kritisch für den Ofentrieb!).
-
-3. Mit Schluss nach oben in den Gärkorb.
-
-4. Luftdicht verpacken -> **Kühlschrank (5°C) für 12–18 Stunden**.
-
-#### Phase 6: Backen (Bosch HNG978NB1 + Pizzastein)
-
-**Vorbereitung:**
-
-- Pizzastein auf Ebene 2.
-
-- Vorheizen: **250 °C Ober-/Unterhitze**. (Mind. 45 Min vorheizen).
-
-**Der Backprozess:**
-
-1. **Einschießen:** Teig direkt aus dem Kühlschrank auf Backpapier stürzen, tief einschneiden (Längsschnitt oder Kreuz) und auf den Stein ziehen.
-
-2. **Anbacken (Trieb-Phase) – 0 bis 10 Min:**
-
-  - Temperatur: **250 °C**.
-
-  - Dampf: Aktiviere sofort den **Dampfstoß (Intensiv/Hoch)**.
-
-  - Funktion: Der Dampf kondensiert am kalten Teig, hält die Haut weich -> Teig kann maximal aufgehen.
-
-3. **Ausbacken (Stabilisierung) – 10 bis 40 Min:**
-
-  - Temperatur: Reduzieren auf **210 °C**.
-
-  - Dampf: **Kein weiterer Dampfstoß**.
-
-4. **Rösche-Phase (Kruste) – 40 bis 50 Min:**
-
-  - Aktiviere die Funktion zur **aktiven Entfeuchtung** am Ofen (sofern als Taster/Menüpunkt verfügbar) ODER klemme einen Holzlöffel in die Tür.
-
-  - Ziel: Die feuchte Luft muss raus. Nur in trockener Hitze karamellisiert die Kruste und wird kross ("rösch").
-
-5. **Ende:** Klopfprobe (hohl). Auf Rost auskühlen lassen.
-
-**Zusammenfassung:**
-Durch die 80 g Type 550 und den Zitronensaft sichern wir das Gerüst gegen den Abbau. Der Dampfstoß am Anfang sorgt für Volumen, der Entzug der Feuchtigkeit am Ende für die Kruste.
+- Teig nach 8 Minuten noch nass → max. 2 Minuten nachkneten, nie über 12 Minuten (Überhitzung)

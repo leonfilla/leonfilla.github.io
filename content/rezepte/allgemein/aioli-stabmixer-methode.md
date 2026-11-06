@@ -1,5 +1,5 @@
 ---
-titel: Aioli (Stabmixer-Methode)
+titel: Aioli (Stabmixer)
 status: aktiv
 datum: '2026-08-01'
 quelle:
@@ -8,50 +8,46 @@ quelle:
   hinweis: Selbstgemachte aioli mit stabmixer
 importiert: true
 linie: aioli-stabmixer-methode-010c2
-fokus: Cremige Knoblauch-Emulsion mit ganzem Ei — in unter 2 Minuten, ohne Tröpfeln und ohne Gerinnungsrisiko.
+fokus: Cremige Knoblauch-Emulsion mit ganzem Ei in unter zwei Minuten. Schmaler Becher und ruhig gehaltener Stabmixer emulgieren ohne Tröpfeln und ohne Gerinnungsrisiko.
+ergebnis: 4 Portionen
 portionen: 4
+zeit: {aktiv: 5, gesamt: 35}
+tags: [Sauce, Dip, vegetarisch]
 zutaten:
-- name: Ei (Größe M, zimmerwarm)
-  menge: 1
-  einheit: ''
-- name: Rapsöl, neutral
-  menge: 200
-  einheit: g
-- name: mildes Olivenöl
-  menge: 50
-  einheit: g
-- name: Knoblauchzehen, Keim entfernt
-  menge: 3
-  einheit: ''
-- name: Zitronensaft, frisch
-  menge: 15
-  einheit: g
-- name: Dijonsenf
-  menge: 5
-  einheit: g
-- name: Salz
-  menge: 3
-  einheit: g
+  - {name: Ei, menge: 1, einheit: '', hinweis: 'Größe M, zimmerwarm'}
+  - {name: 'Zitronensaft, frisch', menge: 15, einheit: g}
+  - {name: Dijonsenf, menge: 5, einheit: g}
+  - {name: Salz, menge: 3, einheit: g}
+  - {name: Knoblauchzehen, menge: 3, einheit: '', hinweis: Keim entfernt}
+  - {name: 'Rapsöl, neutral', menge: 200, einheit: g}
+  - {name: Mildes Olivenöl, menge: 50, einheit: g}
 schritte:
 - titel: Knoblauch vorbereiten
-  text: 3 Knoblauchzehen, Keim entfernt längs halbieren und den grünen Keim entfernen — er trägt überproportional zur bitter-scharfen Note bei. Anschließend fein reiben oder pressen. Je stärker die Zellzerstörung, desto mehr Allicin entsteht und desto schärfer wird das Ergebnis.
+  text: 3 Knoblauchzehen längs halbieren, den grünen Keim entfernen und die Zehen fein reiben oder pressen.
 - titel: Becher schichten
-  text: 1 Ei (Größe M, zimmerwarm), 15 g Zitronensaft, frisch, 5 g Dijonsenf, 3 g Salz und den Knoblauch in einen hohen, schmalen Becher geben, dessen Durchmesser nur wenig größer ist als der Mixfuß. 200 g Rapsöl, neutral und 50 g mildes Olivenöl darübergießen und kurz absetzen lassen, bis sich eine klare Ölschicht über der wässrigen Phase gebildet hat.
+  text: Ei, 15 g Zitronensaft, 5 g Dijonsenf, 3 g Salz und den Knoblauch in einen hohen, schmalen Becher geben, der kaum breiter als der Mixfuß ist. 200 g Rapsöl und 50 g Olivenöl darübergießen und absetzen lassen, bis eine klare Ölschicht obenauf liegt.
   timer: 30
 - titel: Emulgieren
-  text: Stabmixer bis auf den Becherboden absenken, einschalten und zunächst völlig ruhig halten. Am Boden bildet sich innerhalb weniger Sekunden eine dicke weiße Emulsion. Erst wenn diese stabil steht, den Mixer sehr langsam nach oben ziehen, bis das gesamte Öl aufgenommen ist.
+  text: Stabmixer bis auf den Becherboden absenken, einschalten und ruhig halten, bis am Boden eine dicke weiße Emulsion steht. Dann sehr langsam hochziehen, bis das ganze Öl aufgenommen ist.
   timer: 45
-- titel: Abschmecken und reifen lassen
-  text: Mit Salz und Zitronensaft final justieren, dann abgedeckt kalt stellen. Die Knoblaucharomatik nimmt in dieser Zeit deutlich zu — nach 4 Stunden schmeckt dieselbe Aioli spürbar schärfer als direkt nach der Zubereitung.
+- titel: Abschmecken
+  text: Mit Salz und Zitronensaft final abschmecken.
+- titel: Durchziehen lassen
+  text: Abgedeckt kalt stellen.
   timer: 1800
 ---
 
-**Warum kein reines Olivenöl:** Die hohen Scherkräfte des Stabmixers setzen Phenole (u. a. Oleocanthal, Oleuropein-Derivate) aus der Öl-Matrix frei und verteilen sie fein in der Emulsion — das Ergebnis wird bitter und kratzig. Deshalb neutrales Öl als Basis; das Olivenöl kann alternativ am Ende mit dem Spatel untergehoben statt mitgemixt werden.
+## Warum so
 
-**Ölanteil:** Bei diesen Mengen liegt die dispergierte Phase bei rund 78 %. Das ist die stabile, feste Zone. Über ~80 % wird die Emulsion kippanfällig, unter ~70 % deutlich dünner.
+Am Boden des engen Bechers trifft der Mixfuß zuerst nur auf die wässrige Phase mit dem Lecithin des Eis; das Öl wird von oben nach und nach eingezogen – das ersetzt das Tröpfeln. Der Ölanteil liegt bei rund 78 %, in der stabilen, festen Zone (über ~80 % kippanfällig, unter ~70 % deutlich dünner). Die hohen Scherkräfte setzen Phenole aus Olivenöl frei und machen es bitter-kratzig, deshalb neutrales Öl als Basis. Je stärker der Knoblauch zerkleinert wird, desto mehr Allicin entsteht; der Keim trägt überproportional zur bitter-scharfen Note bei. Zitronensaft senkt den pH und reduziert zusammen mit Kühlung das Risiko des rohen Eis, eliminiert es aber nicht – 2–3 Tage im Kühlschrank.
 
-**Falls sie doch bricht:** Frisches Eigelb in einen sauberen Becher, die gebrochene Masse tropfenweise unterrühren. Funktioniert zuverlässig.
+## Stellschrauben
 
-**Schärfe steuern:** Knoblauchzehen 30 Sekunden blanchieren oder Knoblauchconfit verwenden — beides inaktiviert die Alliinase, die Schärfe fällt deutlich milder aus.
+- Bitter oder kratzig → Olivenöl nicht mitmixen, sondern am Ende mit dem Spatel unterheben
+- Emulsion gebrochen → frisches Eigelb in einen sauberen Becher, die gebrochene Masse tropfenweise unterrühren
+- Zu scharf → Knoblauchzehen 30 s blanchieren oder Knoblauchconfit nehmen (inaktiviert die Alliinase)
+- Schärfe nimmt zu → nach 4 h schmeckt dieselbe Aioli deutlich schärfer; für mild bald servieren
 
-**Haltbarkeit:** Der Zitronensaft senkt den pH in den sauren Bereich, was zusammen mit Kühlung das mikrobielle Risiko des rohen Eis reduziert, aber nicht eliminiert. 2–3 Tage im Kühlschrank, bei Bedarf pasteurisierte Eier verwenden.
+## Varianten
+
+- Mit pasteurisierten Eiern für mehr Sicherheit bei längerer Lagerung

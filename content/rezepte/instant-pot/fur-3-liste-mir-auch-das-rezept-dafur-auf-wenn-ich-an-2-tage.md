@@ -1,5 +1,5 @@
 ---
-titel: für 3, liste mir auch das Rezept dafür auf, wenn ich an 2 Tagen in der Woche dieses Rezept sowohl mi
+titel: Kichererbsen-Süßkartoffel-Curry mit Mandelmus
 status: aktiv
 datum: '2026-03-05'
 quelle:
@@ -7,96 +7,41 @@ quelle:
   url: https://gemini.google.com/app/9e12778dc0f875d3
   hinweis: Nenn mir 5 nährstoff- und auf wenige aktive Vorbereitungszeit optimierte Rezepte…
 importiert: true
+linie: kichererbsen-suesskartoffel-curry-mandelmus-2026-03-05
+fokus: Meal-Prep-Curry für zwei Tage mit je zwei Mahlzeiten. Mandelmus bindet die Tomatensauce nach dem Druckgaren cremig.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 10, gesamt: 30}
+geraete: [instant-pot-pro-max]
+tags: [Mittagessen, Abendessen, vegetarisch, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 10
+  ablass: Quick Release
+zutaten:
+  - {gruppe: Basis, name: Olivenöl, menge: 30, einheit: ml}
+  - {gruppe: Basis, name: Zwiebeln, menge: 150, einheit: g, hinweis: gewürfelt}
+  - {gruppe: Topf, name: Süßkartoffeln, menge: 800, einheit: g, hinweis: "netto, geschält, in 2-cm-Würfeln"}
+  - {gruppe: Topf, name: Kichererbsen, menge: 800, einheit: g, hinweis: "Abtropfgewicht, ca. 3 Dosen, abgespült"}
+  - {gruppe: Topf, name: Passierte Tomaten, menge: 800, einheit: g}
+  - {gruppe: Topf, name: Gemüsebrühe, menge: 200, einheit: ml}
+  - {gruppe: Topf, name: Currypulver, menge: 20, einheit: g}
+  - {gruppe: Topf, name: Salz, hinweis: nach Bedarf}
+  - {gruppe: Finish, name: Mandelmus, menge: 60, einheit: g, hinweis: 100 % Mandeln}
+schritte:
+  - {titel: Zwiebeln anbraten, text: "Sauté, 150 g Zwiebeln in 30 ml Olivenöl glasig anbraten."}
+  - {titel: Befüllen, text: "800 g Süßkartoffeln, 800 g Kichererbsen, 800 g passierte Tomaten, 200 ml Brühe, 20 g Curry und Salz zugeben."}
+  - {titel: Druckgaren, text: "Deckel verriegeln. Pressure Cook, High, 10 Minuten.", timer: 600}
+  - {titel: Quick Release, text: Druck per Quick Release ablassen.}
+  - {titel: Binden, text: "60 g Mandelmus einrühren, bis die Sauce homogen und cremig ist."}
 ---
 
-> **Frage im Chat:** für 3, liste mir auch das Rezept dafür auf, wenn ich an 2 Tagen in der Woche dieses Rezept sowohl mittags, als auch abends esse. Und zeige mir dann, welche Nährstoffe ich dann morgens zu mir nehmen muss, damit ich den Tagesbedarf gedeckt habe (180 cm groß, 65 kg schwer)
+## Warum so
 
-**Zutaten (4 Portionen - Meal Prep für 2 Tage, je Mittags & Abends)**
+Mandelmus emulgiert zum Schluss in die heiße Tomatensauce und ersetzt Sahne oder Kokosmilch als Bindung. Etwa 625 kcal, 19 g Protein, 80 g KH, 23 g Fett pro Portion.
 
-- 800 g Kichererbsen (Abtropfgewicht, entspricht ca. 3 Standard-Dosen)
+## Varianten
 
-- 800 g Süßkartoffeln (netto, geschält, in 2x2 cm Würfeln)
-
-- 800 g Passierte Tomaten
-
-- 150 g Zwiebeln (gewürfelt)
-
-- 200 ml Gemüsebrühe
-
-- 60 g Mandelmus (100 % Mandeln)
-
-- 30 ml Olivenöl (zum Anbraten)
-
-- 20 g Currypulver, Salz nach Bedarf
-
-**Zubereitungsschritte (Instant Pot Pro Max Wifi)**
-
-1. "Sauté"-Modus aktivieren. Zwiebeln in Olivenöl glasig anbraten (entfällt bei Low-Effort-Variante).
-
-2. Süßkartoffeln, unter fließendem Wasser abgespülte Kichererbsen, passierte Tomaten, Gemüsebrühe und Gewürze hinzufügen.
-
-3. Deckel verriegeln, "Pressure Cook" (High) für 10 Minuten einstellen.
-
-4. Nach Ablauf der Zeit "Quick Release" (schneller Druckablass) durchführen.
-
-5. Mandelmus einrühren, bis eine homogene, cremige Bindung entsteht.
-
-**Ernährungsphysiologische Parameter (pro Tag, bestehend aus 2 Portionen)**
-
-- Kilokalorien: 1250 kcal
-
-- Protein: 38 g
-
-- Kohlenhydrate: 160 g
-
-- Fett: 46 g
-
-**Tagesbedarf-Kalkulation**
-Ausgangsdaten: 180 cm, 65 kg, Alter 32 Jahre.
-Grundumsatz (nach Mifflin-St. Jeor): ca. 1620 kcal.
-Gesamtenergieumsatz bei vorwiegend sitzender Tätigkeit (PAL 1.5): ca. 2430 kcal.
-Ziel-Makronährstoffe (1,5 g Protein/kg Körpergewicht, 30 % Fettanteil):
-
-- Protein: 100 g
-
-- Fett: 80 g
-
-- Kohlenhydrate: 320 g
-
-**Nährstoff-Gap für das Frühstück**
-Subtraktion der zwei Curry-Mahlzeiten vom Tagesbedarf ergibt folgende erforderliche Zufuhr am Morgen:
-
-- Kalorien: 1180 kcal
-
-- Protein: 62 g
-
-- Fett: 34 g
-
-- Kohlenhydrate: 160 g
-
-**Lebensmittelmatrix zur Deckung des Gaps (Frühstück)**
-Um die exakten Makronährwerte am Morgen zu erreichen, müssen hochkalorische und proteinreiche Komponenten kombiniert werden:
-
-- 150 g Haferflocken (feinblatt)
-
-- 300 g Magerquark oder Kuhmilch-basierte Alternative (High Protein)
-
-- 30 g Erbsenprotein-Isolat oder Whey (Vanille/Neutral)
-
-- 30 g Walnüsse
-
-- 150 g Banane (1 große)
-
-- 15 g Leinsamen (geschrotet)
-
-**Nährwerte dieser Frühstücks-Matrix:**
-
-- Kalorien: 1170 kcal
-
-- Protein: 65 g
-
-- Fett: 32 g
-
-- Kohlenhydrate: 155 g
-
-Das physiologische Tagesziel für Energie, Struktur- und Betriebsstoffe ist durch diese Kombination vollständig quantifiziert und gedeckt.
+- Low Effort: Anbraten weglassen, Zwiebeln direkt mit in den Topf
+- Passendes Frühstück zu zwei Curry-Mahlzeiten am Tag: 150 g Haferflocken, 300 g Magerquark, 30 g Erbsenprotein oder Whey, 30 g Walnüsse, 150 g Banane, 15 g geschroteter Leinsamen

@@ -8,89 +8,91 @@ quelle:
   hinweis: Vollkorn-Zimtschnecken Rezepte
 importiert: true
 linie: vollkorn-zimtschnecken-mit-bruhstuck-f540f
-fokus: 100 % Vollkornweizen, kräftig zimtig, zurückhaltend kardamomig — in gut drei Stunden fertig.
+fokus: Zimtschnecken aus 100 % Vollkornweizen, kräftig zimtig und zurückhaltend kardamomig, in gut drei Stunden fertig. Brühstück, Autolyse und Dampf zu Beginn holen aus dem kleiegeschwächten Teig das Maximum an Fluffigkeit.
+ergebnis: 12 Schnecken, Form ca. 24 × 34 cm
 portionen: 12
+zeit: {aktiv: 50, gesamt: 200}
+geraete: [wilfa-probaker, bosch-hng978, kernthermometer]
+tags: [Hefeteig, süß, Vollkorn]
+ofen:
+  modus: Ober-/Unterhitze + Dampf hoch, dann ohne Dampf
+  temp: 180
+  dampf: erste 10 Minuten, hohe Stufe
+  zeit: "20–22"
+  kerntemperatur: 93
+  form: Form ca. 24 × 34 cm, gefettet
 zutaten:
-- name: Vollkornweizenmehl fürs Brühstück
-  menge: 100
-  einheit: g
-- name: Vollmilch fürs Brühstück
-  menge: 250
-  einheit: g
-- name: Vollkornweizenmehl für den Hauptteig
-  menge: 400
-  einheit: g
-- name: Vitalgluten (optional, aber empfohlen)
-  menge: 12
-  einheit: g
-- name: Vollmilch, kalt
-  menge: 65
-  einheit: g
-- name: Ei (Größe L), verquirlt
-  menge: 60
-  einheit: g
-- name: Zucker
-  menge: 55
-  einheit: g
-- name: Frischhefe
-  menge: 20
-  einheit: g
-- name: Salz
-  menge: 9
-  einheit: g
-- name: Kardamomkapseln, grün
-  menge: 10
-  einheit: ''
-- name: Butter, weich (Hauptteig)
-  menge: 80
-  einheit: g
-- name: Butter, weich (Füllung)
-  menge: 110
-  einheit: g
-- name: brauner Zucker, idealerweise Muscovado
-  menge: 110
-  einheit: g
-- name: Ceylon-Zimt, gemahlen
-  menge: 16
-  einheit: g
-- name: Vollkornweizenmehl für die Füllung
-  menge: 10
-  einheit: g
-- name: Salz für die Füllung
-  menge: 1
-  einheit: g
-- name: Zucker für den Sirup
-  menge: 40
-  einheit: g
-- name: Wasser für den Sirup
-  menge: 40
-  einheit: g
+- {gruppe: Brühstück, name: Vollmilch, menge: 250, einheit: g, wasser: 0.87}
+- {gruppe: Brühstück, name: Vollkornweizenmehl, menge: 100, einheit: g, mehl: true}
+- {gruppe: Hauptteig, name: Vollkornweizenmehl, menge: 400, einheit: g, mehl: true}
+- {gruppe: Hauptteig, name: Vitalgluten, menge: 12, einheit: g, hinweis: "optional, empfohlen"}
+- {gruppe: Hauptteig, name: Vollmilch, menge: 65, einheit: g, hinweis: kalt, wasser: 0.87}
+- {gruppe: Hauptteig, name: Ei, menge: 60, einheit: g, hinweis: "Größe L, verquirlt", wasser: 0.75}
+- {gruppe: Hauptteig, name: Zucker, menge: 55, einheit: g}
+- {gruppe: Hauptteig, name: Frischhefe, menge: 20, einheit: g}
+- {gruppe: Hauptteig, name: Salz, menge: 9, einheit: g}
+- {gruppe: Hauptteig, name: Grüne Kardamomkapseln, menge: 10, einheit: "", hinweis: frisch gemörsert}
+- {gruppe: Hauptteig, name: Butter, menge: 80, einheit: g, hinweis: weich}
+- {gruppe: Füllung, name: Butter, menge: 110, einheit: g, hinweis: weich}
+- {gruppe: Füllung, name: Brauner Zucker, menge: 110, einheit: g, hinweis: idealerweise Muscovado}
+- {gruppe: Füllung, name: Ceylon-Zimt, menge: 16, einheit: g, hinweis: gemahlen}
+- {gruppe: Füllung, name: Vollkornweizenmehl, menge: 10, einheit: g}
+- {gruppe: Füllung, name: Salz, menge: 1, einheit: g}
+- {gruppe: Sirup, name: Zucker, menge: 40, einheit: g}
+- {gruppe: Sirup, name: Wasser, menge: 40, einheit: g}
 schritte:
 - titel: Brühstück ansetzen
-  text: 250 g Vollmilch fürs Brühstück sprudelnd aufkochen — nicht auf 65 °C temperieren wie beim klassischen Tangzhong. Sofort über 100 g Vollkornweizenmehl fürs Brühstück gießen und mit dem Spatel zu einer klumpenfreien, zähen Paste rühren. Dünn auf einem Teller ausstreichen, Folie direkt auf die Oberfläche legen, auf unter 30 °C abkühlen. Im Gefrierfach dauert das etwa 12 Minuten.
+  text: 250 g Vollmilch sprudelnd aufkochen und sofort über 100 g Vollkornweizenmehl gießen, mit dem Spatel zu einer klumpenfreien, zähen Paste rühren.
+- titel: Brühstück abkühlen
+  text: Paste dünn auf einem Teller ausstreichen, Folie direkt auflegen und auf unter 30 °C abkühlen lassen – im Gefrierfach ca. 12 Minuten.
   timer: 1800
-- titel: Mehl quellen lassen
-  text: 400 g Vollkornweizenmehl für den Hauptteig, 12 g Vitalgluten (optional, aber empfohlen), das abgekühlte Brühstück, 65 g Vollmilch, kalt und 60 g Ei (Größe L), verquirlt im Spiralkneter 3 Minuten auf niedriger Stufe grob mischen — es soll lediglich kein trockenes Mehl mehr sichtbar sein. Abgedeckt 20 Minuten stehen lassen. In dieser Zeit zieht die Kleie den Großteil ihres Wassers und entzieht es später nicht mehr dem Gluten.
+- titel: Grob mischen
+  text: 400 g Vollkornweizenmehl, 12 g Vitalgluten, Brühstück, 65 g kalte Vollmilch und 60 g Ei mit dem Spiralhaken 3 Minuten auf niedriger Stufe mischen, bis kein trockenes Mehl mehr sichtbar ist.
+- titel: Quellen lassen
+  text: Abgedeckt stehen lassen.
   timer: 1200
 - titel: Auskneten
-  text: '55 g Zucker, 20 g Frischhefe, 9 g Salz sowie den frisch aus 10 Kardamomkapseln, grün gemörserten Kardamom zugeben, 2 Minuten langsam einarbeiten, dann 8 Minuten auf zweiter Stufe. Anschließend 80 g Butter, weich (Hauptteig) in vier Portionen über etwa 5 Minuten einkneten. Endpunkt: Der Teig löst sich vom Kesselrand und lässt sich zu einer durchscheinenden, von Kleiepünktchen durchsetzten Membran ziehen. Ein makelloses Fenster ist bei 100 % Vollkorn nicht erreichbar und auch kein Ziel. Teigtemperatur 26–27 °C.'
-  timer: 900
+  text: 55 g Zucker, 20 g Frischhefe, 9 g Salz und den Kardamom aus 10 Kapseln zugeben, 2 Minuten auf niedriger Stufe einarbeiten, dann 8 Minuten auf zweiter Stufe kneten.
+  timer: 600
+- titel: Butter einkneten
+  text: 80 g Butter in vier Portionen über ca. 5 Minuten einkneten, bis sich der Teig vom Kesselrand löst und eine durchscheinende, kleiegepunktete Membran zieht. Teigtemperatur 26–27 °C.
+  timer: 300
 - titel: Stockgare
-  text: 'Abgedeckt bei 27–28 °C etwa 45 Minuten gehen lassen, bis das Volumen um 60–70 % zugenommen hat. Nicht auf Verdoppelung warten: Das kleiegeschwächte Netz verliert jenseits dieses Punktes abrupt Gashaltefähigkeit, und die Schnecken fallen im Ofen zusammen.'
+  text: Abgedeckt bei 27–28 °C ca. 45 Minuten gehen lassen, bis das Volumen um 60–70 % zugenommen hat – nicht bis zur Verdoppelung.
   timer: 2700
 - titel: Füllung aufschlagen
-  text: '110 g Butter, weich (Füllung) mit 110 g brauner Zucker, idealerweise Muscovado, 16 g Ceylon-Zimt, gemahlen, 10 g Vollkornweizenmehl für die Füllung und 1 g Salz für die Füllung zu einer streichfähigen, aber nicht fließenden Paste aufschlagen. Das Mehl bindet die schmelzende Butter, sonst läuft die Füllung beim Backen aus. Dass der Zimt hier in der Fettphase emulgiert wird, ist der zweite Zweck: Zimtaldehyd ist lipophil und hemmt die Hefe deutlich weniger, solange er in der Butter gebunden bleibt, statt frei in die wässrige Teigphase zu diffundieren.'
-- titel: Ausrollen, füllen, schneiden
-  text: Den Teig auf leicht bemehlter Fläche zu einem Rechteck von etwa 30 × 45 cm ausrollen. Füllung gleichmäßig aufstreichen, an der gegenüberliegenden Längsseite 2 cm frei lassen. Von der Längsseite stramm aufrollen und mit Zahnseide oder einem Faden in 12 gleich breite Stücke teilen — ein Messer quetscht den weichen Vollkornteig und verklebt die Schichten. In eine gefettete Form von etwa 24 × 34 cm setzen, so dicht, dass sich die Schnecken beim Gehen berühren; das hält die Seiten weich.
+  text: 110 g Butter, 110 g braunen Zucker, 16 g Zimt, 10 g Vollkornmehl und 1 g Salz zu einer streichfähigen, nicht fließenden Paste aufschlagen.
+- titel: Ausrollen und füllen
+  text: Teig auf leicht bemehlter Fläche zu ca. 30 × 45 cm ausrollen, Füllung aufstreichen, an einer Längsseite 2 cm frei lassen. Von der gegenüberliegenden Längsseite stramm aufrollen.
+- titel: Schneiden
+  text: Rolle mit Zahnseide oder Faden in 12 gleich breite Stücke teilen und so dicht in die gefettete Form setzen, dass sich die Schnecken beim Gehen berühren.
 - titel: Stückgare
-  text: 'Abgedeckt bei 28–30 °C 45–55 Minuten gehen lassen. Gar ist der Teig, wenn eine eingedrückte Delle langsam und nur teilweise zurückfedert. Plane eher großzügig: Der Zimt bremst die Hefe trotz Fettbindung messbar.'
+  text: Abgedeckt bei 28–30 °C 45–55 Minuten gehen lassen, bis eine Delle langsam und nur teilweise zurückfedert. Ofen auf 180 °C Ober-/Unterhitze vorheizen.
   timer: 3000
-- titel: Backen
-  text: Ofen auf 180 °C Ober-/Unterhitze vorheizen. Die ersten 10 Minuten mit hoher Dampfstufe backen, dann Dampf ablassen und weitere 10–12 Minuten fertig backen. Zielkerntemperatur 93 °C. Der Dampf zu Beginn hält die Oberfläche dehnbar und verschafft dem schwachen Vollkornnetz die entscheidenden Minuten Ofentrieb.
-  timer: 1320
+- titel: Mit Dampf backen
+  text: 10 Minuten bei 180 °C mit hoher Dampfstufe backen.
+  timer: 600
+- titel: Ohne Dampf fertigbacken
+  text: Dampf ablassen und 10–12 Minuten fertigbacken, Zielkerntemperatur 93 °C.
+  timer: 720
 - titel: Sirup aufstreichen
-  text: 40 g Zucker für den Sirup und 40 g Wasser für den Sirup kurz aufkochen und die Schnecken direkt aus dem Ofen satt damit bestreichen. Der hygroskopische Zuckerfilm bremst die Feuchtigkeitsabgabe der Krume — bei Vollkorn der wirksamste Einzelhebel gegen schnelles Austrocknen.
+  text: 40 g Zucker und 40 g Wasser kurz aufkochen und die Schnecken direkt aus dem Ofen satt damit bestreichen.
   timer: 60
 ---
 
-Trockenhefe statt Frischhefe: durch drei teilen, also rund 7 g. — Der Kardamom ist bewusst zurückhaltend dosiert; schwedische Kanelbullar fahren oft das Fünf- bis Siebenfache. — Vitalgluten ist optional, aber der ehrlichste Weg zu „fluffig" bei 100 % Vollkorn: Es ersetzt exakt das glutenbildende Protein, das die Kleie mechanisch zerschneidet, ohne den Vollkornanteil zu verdünnen. Ohne wird die Krume spürbar dichter. — Ungebacken lassen sich die geschnittenen Schnecken gut einfrieren: über Nacht im Kühlschrank auftauen, dann 60–70 Minuten bei 30 °C Stückgare.
+## Warum so
+
+Kochende Milch verkleistert die Stärke im Brühstück vollständig und bindet mehr Wasser als ein 65-°C-Tangzhong – die Krume bleibt saftig. In der 20-minütigen Quellphase zieht die Kleie ihr Wasser, statt es später dem Gluten zu entziehen; Vitalgluten ersetzt das Protein, das die Kleie mechanisch zerschneidet. Das kleiegeschwächte Netz verliert jenseits von +60–70 % abrupt Gashaltefähigkeit, deshalb nicht bis zur Verdoppelung gehen lassen. Zimtaldehyd ist lipophil: In der Butter gebunden hemmt er die Hefe weniger, das Mehl in der Füllung bindet die schmelzende Butter. Der Dampf hält die Oberfläche dehnbar für den Ofentrieb, der Sirupfilm bremst als hygroskopische Schicht das Austrocknen.
+
+## Stellschrauben
+
+- Schnecken fallen im Ofen zusammen → Stockgare früher beenden (+60–70 %)
+- Krume zu dicht → Vitalgluten nicht weglassen
+- Stückgare zieht sich → großzügig planen, der Zimt bremst die Hefe trotz Fettbindung
+- Schichten verkleben → Zahnseide statt Messer
+
+## Varianten
+
+- **Trockenhefe:** Frischhefe durch drei teilen, also ca. 7 g.
+- **Mehr Kardamom:** Schwedische Kanelbullar nehmen oft das Fünf- bis Siebenfache.
+- **Einfrieren:** Geschnittene Schnecken ungebacken einfrieren, über Nacht im Kühlschrank auftauen, dann 60–70 Minuten Stückgare bei 30 °C.

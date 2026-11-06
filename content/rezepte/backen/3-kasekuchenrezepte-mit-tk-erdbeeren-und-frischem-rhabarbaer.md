@@ -1,5 +1,5 @@
 ---
-titel: 3 Käsekuchenrezepte mit TK Erdbeeren und frischem Rhabarbaer
+titel: Quark-Käsekuchen mit Rhabarber-Erdbeer-Kompott
 status: aktiv
 datum: '2026-04-23'
 quelle:
@@ -7,96 +7,52 @@ quelle:
   url: https://gemini.google.com/app/439b6672be8638b4
   hinweis: 3 Käsekuchenrezepte mit TK Erdbeeren und frischem Rhabarbaer
 importiert: true
+linie: quark-kasekuchen-rhabarber-erdbeer-kompott-20260423
+fokus: Klassischer Quark-Käsekuchen auf Keksboden. Das Kompott aus Rhabarber und TK-Erdbeeren wird separat gekocht und erst auf den kalten Kuchen gegeben.
+ergebnis: 1 Springform 26 cm, ca. 12 Stücke
+portionen: 12
+zeit: {aktiv: 30, gesamt: 240}
+geraete: [bosch-hng978]
+tags: [Kuchen, Käsekuchen]
+ofen:
+  modus: Umluft
+  temp: 160
+  zeit: 60
+  form: Springform 26 cm
+zutaten:
+- {gruppe: Boden, name: Butterkekse, menge: 200, einheit: g}
+- {gruppe: Boden, name: Butter, menge: 100, einheit: g, hinweis: geschmolzen}
+- {gruppe: Füllung, name: Magerquark, menge: 500, einheit: g}
+- {gruppe: Füllung, name: Schmand, menge: 200, einheit: g}
+- {gruppe: Füllung, name: Zucker, menge: 150, einheit: g}
+- {gruppe: Füllung, name: Eier, menge: 3, einheit: "", hinweis: Größe M}
+- {gruppe: Füllung, name: Vanillepuddingpulver, menge: 37, einheit: g, hinweis: "1 Päckchen, zum Kochen"}
+- {gruppe: Kompott, name: Rhabarber, menge: 300, einheit: g, hinweis: frisch}
+- {gruppe: Kompott, name: TK-Erdbeeren, menge: 200, einheit: g}
+- {gruppe: Kompott, name: Zucker, menge: 50, einheit: g}
+- {gruppe: Kompott, name: Speisestärke, menge: 15, einheit: g, hinweis: ca. 1 EL}
+schritte:
+- titel: Boden andrücken
+  text: 200 g Butterkekse fein zerbröseln, mit 100 g geschmolzener Butter vermengen und auf den Boden der mit Backpapier ausgelegten Springform drücken. Kalt stellen.
+- titel: Füllung rühren
+  text: Ofen auf 160 °C Umluft vorheizen. 500 g Magerquark, 200 g Schmand, 150 g Zucker, 3 Eier und 37 g Puddingpulver mit dem Schneebesen homogen verrühren.
+- titel: Backen
+  text: Füllung auf den Keksboden gießen und 60 Minuten backen.
+  timer: 3600
+- titel: Auskühlen
+  text: Bei leicht geöffneter Ofentür vollständig auskühlen lassen.
+  timer: 3600
+- titel: Kompott kochen
+  text: 300 g Rhabarber putzen und in 1 cm breite Stücke schneiden. Mit 200 g gefrorenen Erdbeeren und 50 g Zucker aufkochen und ca. 5 Minuten köcheln, bis die Früchte weich sind.
+  timer: 300
+- titel: Andicken
+  text: 15 g Speisestärke mit 2 EL kaltem Wasser glatt rühren, ins kochende Kompott rühren und 1 Minute unter Rühren aufkochen.
+  timer: 60
+- titel: Fertigstellen
+  text: Leicht abgekühltes Kompott auf dem kalten Käsekuchen verteilen und mindestens 2 Stunden kühlen.
+  timer: 7200
 ---
 
-> **Frage im Chat:** 3 Käsekuchenrezepte mit TK Erdbeeren und frischem Rhabarbaer
+## Warum so
 
-Ein klassischer Quark-Käsekuchen. Das Kompott wird separat gekocht und nach dem Backen aufgetragen. Dies verhindert ein Aufweichen der Käsemasse durch die austretende Flüssigkeit der TK-Erdbeeren.
-
-**Ausrüstung:** Springform (26 cm Durchmesser)
-
-**Zutaten:**
-
-- **Boden:** 200 g Butterkekse, 100 g geschmolzene Butter
-
-- **Füllung:** 500 g Magerquark, 200 g Schmand, 150 g Zucker, 3 Eier (Größe M), 1 Pck. Vanillepuddingpulver (zum Kochen)
-
-- **Kompott:** 300 g frischer Rhabarber, 200 g TK-Erdbeeren, 50 g Zucker, 15 g (ca. 1 EL) Speisestärke
-
-**Zubereitung:**
-
-1. **Boden:** Butterkekse fein zerbröseln. Mit der geschmolzenen Butter vermengen. Die Masse auf den Boden der mit Backpapier ausgelegten Springform drücken. Kaltstellen.
-
-2. **Füllung:** Backofen auf 160°C Umluft vorheizen. Magerquark, Schmand, Zucker, Eier und Vanillepuddingpulver mit einem Schneebesen zu einer homogenen Masse verrühren.
-
-3. **Backen:** Die Füllung auf den Keksboden gießen. Im vorgeheizten Ofen 60 Minuten backen. Bei leicht geöffneter Ofentür vollständig auskühlen lassen (verhindert Risse).
-
-4. **Kompott:** Rhabarber putzen und in 1 cm breite Stücke schneiden. Zusammen mit den unaufgetauten TK-Erdbeeren und dem Zucker in einem Topf aufkochen. Etwa 5 Minuten köcheln lassen, bis die Früchte weich sind.
-
-5. **Andicken:** Speisestärke mit 2 EL kaltem Wasser glattrühren. Unter Rühren in das kochende Kompott geben. 1 Minute unter Rühren aufkochen, bis die Masse andickt.
-
-6. **Fertigstellung:** Das leicht abgekühlte Kompott auf dem kalten Käsekuchen verteilen. Vor dem Anschnitt mindestens 2 Stunden kühlen.
-
----
-
-#### 2. No-Bake Frischkäse-Torte mit Fruchtspiegel
-
-Ein Käsekuchen ohne Backen. Die Stabilisierung erfolgt durch Gelatine. Die TK-Erdbeeren und der Rhabarber werden püriert und als homogene Schicht auf die Oberfläche gegossen.
-
-**Ausrüstung:** Springform (24 cm Durchmesser)
-
-**Zutaten:**
-
-- **Boden:** 150 g Löffelbiskuits, 80 g geschmolzene Butter
-
-- **Füllung:** 400 g Doppelrahmfrischkäse, 200 g Schlagsahne, 80 g Puderzucker, 6 Blatt weiße Gelatine
-
-- **Fruchtspiegel:** 200 g frischer Rhabarber, 200 g TK-Erdbeeren, 40 g Zucker, 3 Blatt weiße Gelatine
-
-**Zubereitung:**
-
-1. **Boden:** Löffelbiskuits fein mahlen, mit Butter mischen und auf den Boden der Springform drücken. 30 Minuten kühlen.
-
-2. **Vorbereitung Füllung:** 6 Blatt Gelatine in kaltem Wasser 5 Minuten einweichen. Sahne steif schlagen. Frischkäse und Puderzucker glattrühren.
-
-3. **Gelatine verarbeiten:** Gelatine ausdrücken und in einem kleinen Topf bei schwacher Hitze auflösen (nicht kochen). 2 EL der Frischkäsemasse zur Gelatine geben und verrühren (Temperaturausgleich). Diese Mischung zügig unter die restliche Frischkäsemasse rühren.
-
-4. **Füllung fertigstellen:** Die steifgeschlagene Sahne unterheben. Die Masse auf den Keksboden streichen. Mindestens 4 Stunden im Kühlschrank fest werden lassen.
-
-5. **Fruchtpüree:** Rhabarber in Stücke schneiden. Mit TK-Erdbeeren und Zucker in einem Topf aufkochen und weichkochen (ca. 10 Minuten). Die Masse fein pürieren und optional durch ein Sieb streichen, um Fasern und Kerne zu entfernen.
-
-6. **Spiegel:** 3 Blatt Gelatine einweichen. Das Püree vom Herd nehmen. Ausgedrückte Gelatine im heißen (nicht mehr kochenden) Püree auflösen.
-
-7. **Fertigstellung:** Das Püree auf Zimmertemperatur abkühlen lassen (es darf noch nicht gelieren). Auf die feste Frischkäsemasse gießen. Weitere 2 Stunden kühlen, bis der Spiegel fest ist.
-
----
-
-#### 3. Käsekuchen vom Blech mit Streuseln
-
-Ein großformatiger Kuchen für höhere Ausbeute. Die Früchte werden direkt in den Kuchen eingebacken. Zwingend erforderlich: Die TK-Erdbeeren müssen vorher aufgetaut und abgetropft werden, um die Viskosität der Quarkmasse nicht zu zerstören.
-
-**Ausrüstung:** Standard-Backblech (ca. 30 x 40 cm) mit hohem Rand
-
-**Zutaten:**
-
-- **Früchte:** 400 g frischer Rhabarber, 300 g TK-Erdbeeren
-
-- **Mürbeteig (Boden & Streusel):** 400 g Weizenmehl, 200 g Zucker, 200 g kalte Butter in Flöckchen, 1 Ei (Größe M), 1 TL Backpulver
-
-- **Füllung:** 750 g Magerquark, 200 g Zucker, 4 Eier (Größe M), 1 Pck. Vanillepuddingpulver, 100 g zerlassene, abgekühlte Butter
-
-**Zubereitung:**
-
-1. **Vorbereitung:** TK-Erdbeeren in einem Sieb vollständig auftauen lassen und die überschüssige Flüssigkeit abgießen. Rhabarber putzen und in 2 cm lange Stücke schneiden. Backofen auf 180°C Ober-/Unterhitze vorheizen.
-
-2. **Teig:** Mehl, Backpulver, Zucker, kalte Butter und das Ei zügig zu einem krümeligen Teig verkneten.
-
-3. **Boden:** Etwa zwei Drittel der Streuselmasse auf das gefettete oder mit Backpapier ausgelegte Blech geben und zu einem flachen Boden andrücken.
-
-4. **Füllung:** Quark, Zucker, Eier, Vanillepuddingpulver und zerlassene Butter zu einer glatten Masse verrühren. Auf dem Teigboden gleichmäßig verstreichen.
-
-5. **Schichtung:** Rhabarberstücke und die abgetropften Erdbeeren gleichmäßig auf der Quarkmasse verteilen. Leicht andrücken.
-
-6. **Streusel:** Das restliche Drittel des Teigs als Streusel über die Früchte krümeln.
-
-7. **Backen:** Auf mittlerer Schiene ca. 45 Minuten backen, bis die Streusel goldbraun sind und die Quarkmasse gestockt ist. Auf dem Blech vollständig auskühlen lassen, bevor er in Stücke geschnitten wird.
+Die TK-Erdbeeren geben beim Backen viel Flüssigkeit ab; separat gekocht und mit Stärke gebunden, weichen sie die Käsemasse nicht auf. Das langsame Auskühlen bei offener Tür verhindert Risse.

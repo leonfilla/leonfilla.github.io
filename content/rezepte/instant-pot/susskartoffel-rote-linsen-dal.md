@@ -8,62 +8,50 @@ quelle:
   hinweis: Schnelle Süßkartoffel-Hülsenfrüchte-Rezepte für den Instant Pot
 importiert: true
 linie: susskartoffel-rote-linsen-dal-0e332
-fokus: Indisch inspiriertes Comfort-Dal – cremig, hochproteinreich, fertig in 20 Minuten.
+fokus: Cremiges, indisch gewürztes Dal aus roten Linsen, Süßkartoffel und Kokosmilch. Die Linsen zerfallen beim Natural Release und binden die Sauce ohne Pürieren.
+ergebnis: 4 Portionen
 portionen: 4
+zeit: {aktiv: 10, gesamt: 30}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegetarisch, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 5
+  ablass: Natural Release
+  ablass_min: 10
 zutaten:
-- name: Süßkartoffeln, gewürfelt (~2 cm)
-  menge: 500
-  einheit: g
-- name: Rote Linsen, gespült
-  menge: 200
-  einheit: g
-- name: Gemüsebrühe
-  menge: 600
-  einheit: ml
-- name: Kokosmilch (Vollfett)
-  menge: 400
-  einheit: ml
-- name: Zwiebel, fein gewürfelt
-  menge: 1
-  einheit: ''
-- name: Knoblauchzehen, gepresst
-  menge: 4
-  einheit: ''
-- name: Frischer Ingwer, gerieben
-  menge: 20
-  einheit: g
-- name: Garam Masala
-  menge: 2
-  einheit: TL
-- name: Kurkuma
-  menge: 1.5
-  einheit: TL
-- name: Kreuzkümmel, gemahlen
-  menge: 1
-  einheit: TL
-- name: Cayennepfeffer
-  menge: 0.5
-  einheit: TL
-- name: Kokosöl oder Ghee
-  menge: 2
-  einheit: EL
-- name: Zitrone, Saft
-  menge: 1
-  einheit: ''
-- name: Salz
-  menge: 1
-  einheit: Prise
+  - {gruppe: Gewürzbasis, name: Kokosöl oder Ghee, menge: 2, einheit: EL}
+  - {gruppe: Gewürzbasis, name: Zwiebel, menge: 1, einheit: "", hinweis: fein gewürfelt}
+  - {gruppe: Gewürzbasis, name: Knoblauchzehen, menge: 4, einheit: "", hinweis: gepresst}
+  - {gruppe: Gewürzbasis, name: Ingwer, menge: 20, einheit: g, hinweis: frisch gerieben}
+  - {gruppe: Gewürzbasis, name: Garam Masala, menge: 2, einheit: TL}
+  - {gruppe: Gewürzbasis, name: Kurkuma, menge: 1.5, einheit: TL}
+  - {gruppe: Gewürzbasis, name: Kreuzkümmel, menge: 1, einheit: TL, hinweis: gemahlen}
+  - {gruppe: Gewürzbasis, name: Cayennepfeffer, menge: 0.5, einheit: TL}
+  - {gruppe: Topf, name: Gemüsebrühe, menge: 600, einheit: ml}
+  - {gruppe: Topf, name: Rote Linsen, menge: 200, einheit: g, hinweis: gespült}
+  - {gruppe: Topf, name: Süßkartoffeln, menge: 500, einheit: g, hinweis: in 2-cm-Würfeln}
+  - {gruppe: Topf, name: Kokosmilch, menge: 400, einheit: ml, hinweis: vollfett}
+  - {gruppe: Topf, name: Salz, menge: 1, einheit: Prise}
+  - {gruppe: Finish, name: Zitronensaft, menge: 1, einheit: "", hinweis: Saft von 1 Zitrone}
 schritte:
-- titel: Gewürzbasis anrösten
-  text: Instant Pot auf Sauté (High) stellen. 2 EL Kokosöl oder Ghee erhitzen, 1 Zwiebel, fein gewürfelt darin 3 Min. goldgelb anbraten. 4 Knoblauchzehen, gepresst und 20 g Frischer Ingwer, gerieben hinzufügen, 1 Min. weiteranbraten. 2 TL Garam Masala, 1.5 TL Kurkuma, 1 TL Kreuzkümmel, gemahlen und 0.5 TL Cayennepfeffer einrühren und 30 Sekunden aktivieren.
-- titel: Ablöschen & Befüllen
-  text: Sauté ausschalten. 600 ml Gemüsebrühe hineingeben und Boden abkratzen. 200 g Rote Linsen, gespült, 500 g Süßkartoffeln, gewürfelt (~2 cm) und 400 ml Kokosmilch (Vollfett) einrühren. 1 Prise Salz hinzufügen.
-- titel: Druckgaren
-  text: Deckel schließen, Ventil auf Dichten. Auf High Pressure für 5 Minuten stellen. Rote Linsen brauchen kaum Zeit – nicht überziehen.
-  timer: 300
-- titel: Natural Release & Fertigstellen
-  text: 10 Minuten Natural Release, dann restlichen Druck ablassen. Dal gut umrühren – die Linsen zerkochen und binden die Sauce. Mit 1 Zitrone, Saft abschmecken, servieren.
-  timer: 600
+  - {titel: Zwiebel anbraten, text: "Sauté (High), 2 EL Kokosöl erhitzen, Zwiebel 3 Minuten goldgelb anbraten.", timer: 180}
+  - {titel: Knoblauch und Ingwer, text: 4 Knoblauchzehen und 20 g Ingwer zugeben und 1 Minute weiterbraten., timer: 60}
+  - {titel: Gewürze aktivieren, text: "2 TL Garam Masala, 1,5 TL Kurkuma, 1 TL Kreuzkümmel und 0,5 TL Cayenne 30 Sekunden mitrösten.", timer: 30}
+  - {titel: Ablöschen, text: Sauté ausschalten. 600 ml Gemüsebrühe angießen und den Boden abkratzen.}
+  - {titel: Befüllen, text: "200 g Linsen, 500 g Süßkartoffeln, 400 ml Kokosmilch und 1 Prise Salz einrühren."}
+  - {titel: Druckgaren, text: "Deckel schließen, Ventil auf Dichten. Pressure Cook, High, 5 Minuten.", timer: 300}
+  - {titel: Natural Release, text: "10 Minuten Natural Release, dann den Restdruck ablassen.", timer: 600}
+  - {titel: Fertigstellen, text: Kräftig umrühren und mit dem Saft von 1 Zitrone abschmecken.}
 ---
 
-Servieren mit Basmati-Reis oder Vollkorn-Fladenbrot. Frischer Spinat lässt sich nach dem Garen direkt einrühren (restwärme reicht). Sehr gut einfrierbar – ideal für Meal Prep.
+## Warum so
+
+Rote Linsen haben keine Schale und zerfallen schon nach 5 Minuten unter Druck; der Natural Release gart nach und lässt sie die Sauce binden. Längere Zeiten bringen nichts außer Brei.
+
+## Varianten
+
+- Mit frischem Spinat: nach dem Garen einrühren, die Restwärme reicht
+- Dazu Basmati oder Vollkorn-Fladenbrot
+- Meal Prep: sehr gut einfrierbar

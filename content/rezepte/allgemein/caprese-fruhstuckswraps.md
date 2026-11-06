@@ -7,48 +7,51 @@ quelle:
   url: https://claude.ai/chat/c45f1396-bf27-4ee6-b3e8-0085a244ddde
   hinweis: Frühstückswraps mit Mozzarella und Tomate
 importiert: true
-fokus: Klassische Caprese-Wraps mit Mozzarella, Tomate, Basilikum und Pesto – im OptiGrill knusprig angepresst
+linie: caprese-fruhstuckswraps-1c6db
+variante: Klassisch
+fokus: Caprese-Wraps mit Mozzarella, Tomate, Basilikum und Pesto, im OptiGrill knusprig angepresst. Gesalzene und abgetupfte Tomaten verhindern durchweichte Wraps.
+ergebnis: 4 Wraps
 portionen: 4
+zeit: {aktiv: 15, gesamt: 25}
+geraete: [optigrill]
+tags: [Frühstück, vegetarisch]
 zutaten:
-- name: große Weizen-Tortillas (ca. 25 cm)
-  menge: 4
-  einheit: ''
-- name: Mozzarella (1 große Kugel oder 2 kleine), abgetropft
-  menge: 250
-  einheit: g
-- name: mittelgroße Tomaten, reif
-  menge: 3
-  einheit: ''
-- name: grünes Pesto
-  menge: 4
-  einheit: TL
-- name: Basilikumblätter, frisch
-  menge: 16
-  einheit: ''
-- name: Balsamico-Creme
-  menge: 4
-  einheit: TL
-- name: Salz
-  menge: 0.5
-  einheit: TL
-- name: schwarzer Pfeffer, frisch gemahlen
-  menge: 0.25
-  einheit: TL
+  - {name: Mozzarella, menge: 250, einheit: g, hinweis: abgetropft}
+  - {name: 'Tomaten, reif', menge: 3, einheit: '', hinweis: mittelgroß}
+  - {name: Salz, menge: 0.5, einheit: TL}
+  - {name: 'Schwarzer Pfeffer, frisch gemahlen', menge: 0.25, einheit: TL}
+  - {name: Weizen-Tortillas, menge: 4, einheit: '', hinweis: 'groß, ca. 25 cm'}
+  - {name: Grünes Pesto, menge: 4, einheit: TL}
+  - {name: 'Basilikumblätter, frisch', menge: 16, einheit: ''}
+  - {name: Balsamico-Creme, menge: 4, einheit: TL}
 schritte:
-- titel: Vorbereiten
-  text: Mozzarella (250 g Mozzarella (1 große Kugel oder 2 kleine), abgetropft) in dünne Scheiben schneiden und auf Küchenpapier kurz abtropfen lassen – das verhindert durchweichte Wraps. Tomaten (3 mittelgroße Tomaten, reif) in dünne Scheiben schneiden, Kerngehäuse bei sehr saftigen Tomaten leicht ausstreichen, mit 0.5 TL Salz und 0.25 TL schwarzer Pfeffer, frisch gemahlen würzen.
+- titel: Schneiden
+  text: 250 g Mozzarella in dünne Scheiben schneiden und auf Küchenpapier abtropfen lassen. 3 Tomaten in dünne Scheiben schneiden, bei sehr saftigen Tomaten das Kerngehäuse leicht ausstreichen, mit 0,5 TL Salz und 0,25 TL Pfeffer würzen.
 - titel: Tomaten entwässern
-  text: Gesalzene Tomatenscheiben 5 Minuten auf Küchenpapier ziehen lassen, dann abtupfen.
+  text: Gesalzene Tomatenscheiben auf Küchenpapier ziehen lassen, dann abtupfen.
   timer: 300
-- titel: Wraps belegen
-  text: Jede Tortilla (4 große Weizen-Tortillas (ca. 25 cm)) mit 4 TL grünes Pesto bestreichen (mittleres Drittel, Ränder frei lassen). Mozzarella- und Tomatenscheiben überlappend darauf verteilen, je 4 Basilikumblätter (16 Basilikumblätter, frisch) auflegen und mit 4 TL Balsamico-Creme beträufeln.
+- titel: Belegen
+  text: Jede Tortilla im mittleren Drittel mit 1 TL Pesto bestreichen, Ränder frei lassen. Mozzarella und Tomaten überlappend darauflegen, je 4 Basilikumblätter auflegen und mit je 1 TL Balsamico-Creme beträufeln.
 - titel: Rollen
-  text: Untere Kante über die Füllung klappen, Seiten einschlagen und straff aufrollen. Mit der Naht nach unten kurz liegen lassen, damit der Wrap die Form hält.
-- titel: Anpressen im OptiGrill
-  text: OptiGrill im manuellen Modus auf ca. 200 °C vorheizen. Wraps mit der Naht nach unten einlegen, Deckel schließen und goldbraun anpressen, bis der Mozzarella schmilzt. Bei Bedarf in zwei Durchgängen arbeiten.
+  text: Untere Kante über die Füllung klappen, Seiten einschlagen, straff aufrollen und mit der Naht nach unten kurz liegen lassen.
+- titel: Anpressen
+  text: OptiGrill manuell auf ca. 200 °C vorheizen. Wraps mit der Naht nach unten einlegen, Deckel schließen und goldbraun pressen, bis der Mozzarella schmilzt; bei Bedarf in zwei Durchgängen.
   timer: 180
 - titel: Servieren
-  text: Wraps diagonal halbieren und sofort servieren, solange der Käse zieht.
+  text: Diagonal halbieren und sofort servieren.
 ---
 
-Protein-Upgrade: Pro Wrap 1–2 verquirlte Eier als Rührei vorbereiten und vor dem Mozzarella einfüllen. Alternativ Hüttenkäse statt Pesto als Basis. Wer es würziger mag: Burrata statt Mozzarella (dann nicht pressen, sondern kalt servieren) oder ein paar getrocknete Tomaten zusätzlich. Die Wraps lassen sich auch in der Pfanne mit etwas Druck (Pfannenwender oder zweite Pfanne) anrösten.
+## Warum so
+
+Salz zieht über Osmose Wasser aus den Tomaten; abgetupft und mit abgetropftem Mozzarella bleibt die Tortilla beim Pressen knusprig. Die Naht nach unten hält den Wrap unter dem Deckel geschlossen.
+
+## Stellschrauben
+
+- Kein OptiGrill → in der Pfanne mit Druck (Pfannenwender oder zweite Pfanne) anrösten
+
+## Varianten
+
+- Protein: pro Wrap 1–2 Eier als Rührei vor dem Mozzarella einfüllen – siehe Variante mit Rührei
+- Hüttenkäse statt Pesto als Basis
+- Burrata statt Mozzarella, dann nicht pressen, sondern kalt servieren
+- Ein paar getrocknete Tomaten zusätzlich

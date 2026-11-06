@@ -1,5 +1,5 @@
 ---
-titel: Quinoa-Porridge mit Edamame, Miso-Tahini & Thunfisch
+titel: Quinoa-Porridge mit Edamame, Miso-Tahini und Thunfisch
 status: archiv
 datum: '2026-05-19'
 quelle:
@@ -8,71 +8,53 @@ quelle:
   hinweis: Herzhafte Porridge-Rezepte für Instant Pot
 importiert: true
 linie: quinoa-porridge-mit-edamame-miso-tahini-thunfisch-209d4
-fokus: Pflanzliches Komplettprofil mit Thunfisch als Umami-Finish – alle essentiellen Aminosäuren, hoher Ballaststoffanteil, Instant Pot Pro Max
+variante: Direkt
+fokus: Herzhafter Quinoa-Porridge mit Edamame, frisch gerührter Miso-Tahini-Sauce und Thunfisch als Umami-Finish. Direkt am Morgen gekocht – Miso kommt erst nach dem Druckablass dazu.
+ergebnis: 2 Portionen
 portionen: 2
+zeit: {aktiv: 10, gesamt: 30}
+geraete: [instant-pot-pro-max]
+tags: [Frühstück, High Protein]
+instantpot:
+  programm: Porridge
+  druck: High
+  zeit: 1
+  ablass: Natural Release
+  ablass_min: 10
 zutaten:
-- name: Quinoa (weiß oder tricolor, gespült)
-  menge: 160
-  einheit: g
-- name: Edamame (TK, ohne Schote)
-  menge: 160
-  einheit: g
-- name: Gemüsebrühe
-  menge: 480
-  einheit: ml
-- name: helles Miso (Shiro Miso)
-  menge: 2
-  einheit: TL
-- name: Tahini
-  menge: 2
-  einheit: EL
-- name: Reisessig
-  menge: 1
-  einheit: TL
-- name: geröstetes Sesamöl
-  menge: 1
-  einheit: TL
-- name: Chiliflocken (Gochugaru o. Ä.)
-  menge: 0.5
-  einheit: TL
-- name: Dosenthunfisch (in eigenem Saft, abgetropft)
-  menge: 130
-  einheit: g
-- name: Frühlingszwiebeln, fein geschnitten
-  menge: 2
-  einheit: ''
-- name: Sesamsamen (weiß, geröstet)
-  menge: 1
-  einheit: EL
-- name: Sojasauce oder Tamari (zum Abschmecken)
-  menge: 1
-  einheit: TL
+  - {gruppe: Porridge, name: Quinoa, menge: 160, einheit: g, hinweis: weiß oder tricolor}
+  - {gruppe: Porridge, name: Gemüsebrühe, menge: 480, einheit: ml}
+  - {gruppe: Porridge, name: Edamame, menge: 160, einheit: g, hinweis: "TK, ohne Schote"}
+  - {gruppe: Sauce, name: Helles Miso, menge: 2, einheit: TL, hinweis: Shiro Miso}
+  - {gruppe: Sauce, name: Tahini, menge: 2, einheit: EL}
+  - {gruppe: Sauce, name: Reisessig, menge: 1, einheit: TL}
+  - {gruppe: Sauce, name: Geröstetes Sesamöl, menge: 1, einheit: TL}
+  - {gruppe: Sauce, name: Sojasauce oder Tamari, menge: 1, einheit: TL}
+  - {gruppe: Sauce, name: Chiliflocken, menge: 0.5, einheit: TL, hinweis: Gochugaru o. Ä.}
+  - {gruppe: Topping, name: Thunfisch, menge: 130, einheit: g, hinweis: "im eigenen Saft, abgetropft"}
+  - {gruppe: Topping, name: Frühlingszwiebeln, menge: 2, einheit: "", hinweis: fein geschnitten}
+  - {gruppe: Topping, name: Sesam, menge: 1, einheit: EL, hinweis: "weiß, geröstet"}
 schritte:
-- titel: Quinoa spülen
-  text: Die 160 g Quinoa (weiß oder tricolor, gespült) in einem feinen Sieb unter kaltem Wasser 30 Sekunden gut abspülen, um die leicht bitter schmeckende Saponin-Schicht zu entfernen. Kurz abtropfen lassen.
-- titel: Einschütten & kochen
-  text: 'Gespülte 160 g Quinoa (weiß oder tricolor, gespült) und 480 ml Gemüsebrühe in den Instant Pot geben. Deckel schließen, Ventil auf Sealing stellen. Programm: Porridge (oder Manual/Pressure Cook) – High Pressure, 480 ml Gemüsebrühe nicht mehr als 2/3 des Topfes füllen. Quinoa kocht stark auf.'
-  timer: 60
-- titel: Natural Release
-  text: Nach Ende des Druckaufbaus 10 Minuten Natural Release abwarten. Danach Ventil manuell auf Venting stellen und restlichen Druck ablassen. Deckel öffnen – die Quinoa sollte weich sein und die Spiralkeimlinge sichtbar herausgedreht haben.
-  timer: 600
-- titel: Edamame erwärmen
-  text: Gefrorene 160 g Edamame (TK, ohne Schote) direkt in den heißen Quinoa-Porridge einrühren. Mit Deckel (ohne Druck) 3 Minuten ziehen lassen – die Restwärme taut die Edamame komplett durch, ohne sie zu verkochen.
-  timer: 180
-- titel: Miso-Tahini-Sauce anrühren
-  text: In einer kleinen Schüssel 2 TL helles Miso (Shiro Miso), 2 EL Tahini, 1 TL Reisessig und 2–3 EL heißes Wasser (oder etwas Kochflüssigkeit aus dem Topf) glatt verrühren. Das Miso löst sich bei etwas Wärme besser auf. Nicht kochen – probiotische Kulturen bleiben so erhalten.
-- titel: Würzen & abschmecken
-  text: Miso-Tahini-Sauce und 1 TL geröstetes Sesamöl in den Porridge einrühren. Mit 1 TL Sojasauce oder Tamari (zum Abschmecken) abschmecken – das Miso ist bereits salzig, also sparsam. 0.5 TL Chiliflocken (Gochugaru o. Ä.) nach Schärfevorliebe dazugeben. Konsistenz mit einem Schuss heißem Wasser anpassen falls nötig.
-- titel: Thunfisch vorbereiten & anrichten
-  text: Den 130 g Dosenthunfisch (in eigenem Saft, abgetropft) gut abtropfen lassen und mit einer Gabel grob auflockern. Porridge auf zwei Schüsseln verteilen. Thunfisch in der Mitte platzieren, 2 Frühlingszwiebeln, fein geschnitten und 1 EL Sesamsamen (weiß, geröstet) darüberstreuen. Nach Wunsch einen Spritzer Zitronensaft oder Reisessig über den Thunfisch.
+  - {titel: Quinoa spülen, text: 160 g Quinoa in einem feinen Sieb 30 Sekunden kalt abspülen und abtropfen lassen.}
+  - {titel: Einfüllen, text: "Quinoa und 480 ml Gemüsebrühe in den Innentopf geben. Deckel schließen, Ventil auf Sealing."}
+  - {titel: Druckgaren, text: "Porridge oder Pressure Cook, High, 1 Minute.", timer: 60}
+  - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
+  - {titel: Edamame ziehen lassen, text: 160 g gefrorene Edamame einrühren und mit aufgelegtem Deckel ohne Druck 3 Minuten ziehen lassen., timer: 180}
+  - {titel: Sauce anrühren, text: "2 TL Miso, 2 EL Tahini, 1 TL Reisessig und 2–3 EL heißes Wasser oder Kochflüssigkeit glatt rühren."}
+  - {titel: Würzen, text: "Sauce und 1 TL Sesamöl unter den Porridge rühren, mit 1 TL Sojasauce und 0,5 TL Chiliflocken abschmecken."}
+  - {titel: Anrichten, text: "Auf zwei Schüsseln verteilen, 130 g Thunfisch aufgelockert in die Mitte geben, Frühlingszwiebeln und 1 EL Sesam darüberstreuen."}
 ---
 
-**Thunfisch-Auswahl:** Thunfisch in eigenem Saft ist magerer und intensiver als in Öl – passt besser zu Miso-Tahini. Qualitativ gute Marken (MSC-zertifiziert) machen hier einen spürbaren Unterschied.
+## Warum so
 
-**Konsistenz:** Quinoa wird im Instant Pot sehr weich und cremig. Wer mehr Biss will: Kochzeit auf 0 min HP reduzieren (nur Druckaufbau + 10 min NR reicht oft).
+Quinoa braucht unter Druck praktisch keine Garzeit; der Natural Release gart sie fertig, bis die Keimlinge sich herausdrehen. Miso kommt erst nach dem Druckablass hinein, weil Temperaturen über 60 °C seine Kulturen abtöten und das Aroma dämpfen. Etwa 540 kcal, 38 g Protein, 56 g KH, 18 g Fett, 11 g Ballaststoffe pro Portion.
 
-**Miso nicht kochen:** Immer nach dem Druckablassen einrühren. Temperaturen über 60 °C zerstören die aktiven Kulturen und dämpfen das Aroma.
+## Stellschrauben
 
-**Delay Start:** Alle Zutaten außer Miso-Sauce, Thunfisch und Frühlingszwiebeln abends einschütten → Timer setzen → morgens nur noch Sauce anrühren und Topping drauf.
+- Zu weich → 0 Minuten High Pressure, nur Druckaufbau plus 10 Minuten Natural Release
+- Zu fest → einen Schuss heißes Wasser einrühren
 
-**Nährwerte (ca. pro Portion):** ~540 kcal · 38 g Protein · 56 g KH · 18 g Fett · 11 g Ballaststoffe. Der Thunfisch erhöht den Proteingehalt gegenüber der reinen Pflanzenversion deutlich und liefert zusätzlich Selen und B12.
+## Varianten
+
+- Delay Start: alles außer Sauce, Thunfisch und Frühlingszwiebeln abends einfüllen
+- Spritzer Zitronensaft oder Reisessig über den Thunfisch

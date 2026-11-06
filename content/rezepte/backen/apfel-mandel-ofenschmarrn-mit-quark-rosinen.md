@@ -1,5 +1,5 @@
 ---
-titel: Apfel-Mandel-Ofenschmarrn mit Quark & Rosinen
+titel: Apfel-Mandel-Ofenschmarrn mit Quark und Rosinen
 status: aktiv
 datum: '2026-06-12'
 quelle:
@@ -8,70 +8,62 @@ quelle:
   hinweis: Leichte süße Mahlzeiten ohne technische Ansprüche
 importiert: true
 linie: apfel-mandel-ofenschmarrn-mit-quark-rosinen-c7746
-fokus: 'Kombination aus Klassik (V1) und Apfel-Zimt-Mandel (V3): luftiger Blech-Kaiserschmarrn aus dem Dampfbackofen, ohne Wenden und ohne Eischnee. ~820 kcal und ~57 g Protein gesamt.'
+fokus: Luftiger Blech-Kaiserschmarrn mit Apfel, Zimt und Mandeln aus dem Dampfbackofen – ohne Wenden und ohne Eischnee. Magerquark trägt das Protein.
+ergebnis: 2 Portionen, Form ca. 20 × 30 cm
 portionen: 2
+zeit: {aktiv: 15, gesamt: 45}
+geraete: [bosch-hng978]
+tags: [Frühstück, süß, vegetarisch, High Protein]
+ofen:
+  modus: Heißluft + Dampf Stufe 2
+  temp: 180
+  zeit: "22–28"
+  form: Auflaufform ca. 20 × 30 cm
 zutaten:
-- name: Eier (Größe M)
-  menge: 3
-  einheit: ''
-- name: Magerquark
-  menge: 250
-  einheit: g
-- name: Mehl (Weizen 550 oder Dinkel 630)
-  menge: 50
-  einheit: g
-- name: gemahlene Mandeln
-  menge: 20
-  einheit: g
-- name: Vollmilch
-  menge: 60
-  einheit: ml
-- name: Zucker
-  menge: 20
-  einheit: g
-- name: Vanilleextrakt
-  menge: 1
-  einheit: TL
-- name: Bio-Zitrone (nur Abrieb)
-  menge: 0.5
-  einheit: ''
-- name: Zimt
-  menge: 1
-  einheit: TL
-- name: Salz
-  menge: 1
-  einheit: Prise
-- name: Backpulver
-  menge: 0.5
-  einheit: TL
-- name: Rosinen
-  menge: 40
-  einheit: g
-- name: Apfel (à ~150 g), grob gerieben
-  menge: 1
-  einheit: ''
-- name: Mandelblättchen
-  menge: 15
-  einheit: g
-- name: Butter für die Form
-  menge: 10
-  einheit: g
+- {gruppe: Einweichen, name: Rosinen, menge: 40, einheit: g}
+- {gruppe: Teig, name: Eier, menge: 3, einheit: "", hinweis: Größe M}
+- {gruppe: Teig, name: Magerquark, menge: 250, einheit: g}
+- {gruppe: Teig, name: Vollmilch, menge: 60, einheit: ml}
+- {gruppe: Teig, name: Zucker, menge: 20, einheit: g}
+- {gruppe: Teig, name: Vanilleextrakt, menge: 1, einheit: TL}
+- {gruppe: Teig, name: Bio-Zitrone, menge: 0.5, einheit: "", hinweis: nur Abrieb}
+- {gruppe: Teig, name: Zimt, menge: 1, einheit: TL}
+- {gruppe: Teig, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Teig, name: Mehl, menge: 50, einheit: g, hinweis: Weizen 550 oder Dinkel 630}
+- {gruppe: Teig, name: Gemahlene Mandeln, menge: 20, einheit: g}
+- {gruppe: Teig, name: Backpulver, menge: 0.5, einheit: TL}
+- {gruppe: Teig, name: Apfel, menge: 1, einheit: "", hinweis: "ca. 150 g, grob gerieben"}
+- {gruppe: Finish, name: Mandelblättchen, menge: 15, einheit: g}
+- {gruppe: Finish, name: Butter, menge: 10, einheit: g, hinweis: für die Form}
 schritte:
 - titel: Rosinen einweichen
-  text: 40 g Rosinen in heißem Wasser (oder Rum) einweichen, damit sie im Ofen nicht austrocknen.
+  text: 40 g Rosinen in heißem Wasser oder Rum einweichen.
   timer: 600
-- titel: Vorbereiten
-  text: Bosch auf 180 °C Heißluft + Dampfzugabe Stufe 2 vorheizen. Form (~20×30 cm) mit 10 g Butter für die Form fetten. 1 Apfel (à ~150 g), grob gerieben grob reiben und kurz ausdrücken, damit der Teig nicht zu nass wird.
+- titel: Vorheizen
+  text: Ofen auf 180 °C Heißluft + Dampfzugabe Stufe 2 vorheizen. Form (ca. 20 × 30 cm) mit 10 g Butter fetten.
+- titel: Apfel reiben
+  text: 1 Apfel (ca. 150 g) grob reiben und kurz ausdrücken.
 - titel: Teig anrühren
-  text: 3 Eier (Größe M), 250 g Magerquark, 60 ml Vollmilch, 20 g Zucker, 1 TL Vanilleextrakt, Abrieb von 0.5 Bio-Zitrone (nur Abrieb), 1 TL Zimt und 1 Prise Salz glatt verrühren. 50 g Mehl (Weizen 550 oder Dinkel 630), 20 g gemahlene Mandeln und 0.5 TL Backpulver unterrühren. Abgetropfte Rosinen und den geriebenen Apfel unterheben.
+  text: 3 Eier, 250 g Magerquark, 60 ml Vollmilch, 20 g Zucker, 1 TL Vanilleextrakt, Abrieb von ½ Bio-Zitrone, 1 TL Zimt und 1 Prise Salz glatt verrühren. 50 g Mehl, 20 g gemahlene Mandeln und ½ TL Backpulver unterrühren. Abgetropfte Rosinen und geriebenen Apfel unterheben.
 - titel: Backen
-  text: Teig in die Form geben, glatt streichen und 15 g Mandelblättchen aufstreuen. 22–28 Minuten backen, bis der Schmarrn goldbraun und in der Mitte gestockt ist.
+  text: Teig in die Form geben, glatt streichen, 15 g Mandelblättchen aufstreuen. 22–28 Minuten backen, bis der Schmarrn goldbraun und in der Mitte gestockt ist.
   timer: 1500
-- titel: Zerrupfen & karamellisieren (optional)
-  text: 'Mit zwei Gabeln in grobe Stücke zerrupfen. Optional: 1 TL Zucker und ein paar Butterflöckchen darüber und 5 Minuten unter den Grill für karamellisierte Kanten.'
+- titel: Zerrupfen und karamellisieren
+  text: Mit zwei Gabeln in grobe Stücke zerrupfen. Optional 1 TL Zucker und ein paar Butterflöckchen darübergeben und 5 Minuten unter den Grill stellen.
   timer: 300
 - titel: Servieren
-  text: Mit Puderzucker bestäuben. Dazu passt Apfelmus oder ein Klecks Skyr.
+  text: Mit Puderzucker bestäuben. Dazu Apfelmus oder ein Klecks Skyr.
 ---
 
-Makros gesamt: ~820 kcal, ~57 g Protein, ~75 g KH, ~30 g Fett. Die Milch ist gegenüber V1 auf 60 ml reduziert, weil der geriebene Apfel Flüssigkeit einbringt. Für eine Vollkorn-Version: Mehl durch feines Dinkelvollkornmehl ersetzen, Milch auf 80 ml erhöhen und den Teig 10 min quellen lassen.
+## Warum so
+
+Der geriebene Apfel bringt Flüssigkeit ein, deshalb ist die Milch auf 60 ml reduziert; Ausdrücken verhindert einen nassen Teig. Eingeweichte Rosinen trocknen im Ofen nicht aus. Makros gesamt: ca. 820 kcal, 57 g Protein, 75 g KH, 30 g Fett.
+
+## Stellschrauben
+
+- Kanten zu blass → Zucker und Butterflöckchen, 5 Minuten Grill
+- Mitte noch flüssig → 3–5 Minuten länger, bis sie gestockt ist
+
+## Varianten
+
+- **Vollkorn:** Mehl durch feines Dinkelvollkornmehl ersetzen, Milch auf 80 ml erhöhen und den Teig 10 Minuten quellen lassen.
