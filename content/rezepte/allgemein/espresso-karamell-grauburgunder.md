@@ -35,7 +35,3 @@ schritte:
 ## Warum so
 
 Der heiße Espresso löst den Sirup sofort; das schockartige Abkühlen auf Eis stoppt die Bildung nachbitterer Noten.
-
-## Stellschrauben
-
-- Die Oracle Jet braucht mindestens 22 g Dosis – mit 18 g aus dem Original dosiert sie nicht; bei 22 g die Ausbeute auf etwa 44 g anheben.

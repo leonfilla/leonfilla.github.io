@@ -1,5 +1,5 @@
 ---
-titel: Sehr fruchtiger Erdbeer-Käsekuchen mit Zitronen-Mandel-Streuseln
+titel: Fruchtiger Erdbeer-Käsekuchen mit Mandelstreuseln
 status: archiv
 datum: '2026-06-26'
 quelle:

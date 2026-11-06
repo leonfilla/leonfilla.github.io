@@ -1,5 +1,5 @@
 ---
-titel: Schlag mir 3 verschiedene Rezepte für ein Bananenbrot vor mit 3 Bananen und …
+titel: Vollkorn-Bananenbrot mit Walnuss und Zimt
 status: aktiv
 datum: '2025-12-09'
 quelle:
@@ -7,144 +7,44 @@ quelle:
   url: https://gemini.google.com/app/793a9aa6c03a0cd5
   hinweis: schlag mir 3 verschiedene Rezepte für ein Bananenbrot vor mit 3 Bananen und mind…
 importiert: true
+linie: bananenbrot-vollkorn-3-bananen-20251209
+variante: Walnuss-Zimt
+fokus: Bananenbrot aus 3 Bananen mit 64 % Weizenvollkornmehl, Walnüssen und Zimt. Wenig zugesetzter Zucker, lange sättigend.
+ergebnis: 1 Kastenform 25 cm
+zeit: {aktiv: 10, gesamt: 70}
+geraete: [bosch-hng978]
+tags: [Kuchen, Frühstück, Vollkorn]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 180
+  zeit: "50–60"
+  form: Kastenform 25 cm
+zutaten:
+- {gruppe: Feucht, name: Bananen, menge: 3, einheit: "", hinweis: "reif, zerdrückt"}
+- {gruppe: Feucht, name: Rapsöl oder geschmolzene Butter, menge: 80, einheit: ml}
+- {gruppe: Feucht, name: Eier, menge: 2, einheit: "", hinweis: Größe M}
+- {gruppe: Feucht, name: Brauner Zucker oder Honig, menge: 60, einheit: g}
+- {gruppe: Trocken, name: Weizenvollkornmehl, menge: 160, einheit: g}
+- {gruppe: Trocken, name: Weizenmehl Type 405 oder 550, menge: 90, einheit: g}
+- {gruppe: Trocken, name: Natron, menge: 1, einheit: TL}
+- {gruppe: Trocken, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Trocken, name: Zimt, menge: 2, einheit: TL}
+- {gruppe: Trocken, name: Walnüsse, menge: 80, einheit: g, hinweis: gehackt}
+schritte:
+- titel: Feuchtes verquirlen
+  text: Ofen auf 180 °C Ober-/Unterhitze vorheizen. 3 Bananen, 80 ml Öl, 2 Eier und 60 g Zucker homogen verquirlen.
+- titel: Trockenes unterheben
+  text: 160 g Vollkornmehl, 90 g Weizenmehl, 1 TL Natron, Salz, 2 TL Zimt und 80 g Walnüsse mischen und nur so lange unterheben, bis das Mehl feucht ist.
+- titel: Backen
+  text: In die Form füllen und 50–60 Minuten backen, Stäbchenprobe.
+  timer: 3300
 ---
 
-> **Frage im Chat:** schlag mir 3 verschiedene Rezepte für ein Bananenbrot vor mit 3 Bananen und mind. 60% Weizenvollkornmehl
+## Warum so
 
-Hier sind drei strukturierte Rezepte, die deine Kriterien (3 Bananen, >60% Weizenvollkornmehl) erfüllen. Ich habe sie nach **Funktionalität** und **Nährwertprofil** unterteilt, damit du je nach Tagesform oder Lernphase wählen kannst.
+Kurzes Unterheben verhindert Glutenbildung und eine gummiartige Krume. Vollkornmehl bindet mehr Flüssigkeit als Weißmehl; je brauner die Bananen, desto weniger Zucker ist nötig.
 
-Alle Rezepte sind für eine **Kastenform (ca. 25 cm)** ausgelegt.
+## Stellschrauben
 
----
-
-#### 1. Der Stabilisator (Nuss & Zimt)
-
-**Logik:** Fokus auf langanhaltende Sättigung und Omega-3-Fettsäuren (Walnüsse) für kognitive Leistung. Der hohe Vollkornanteil verhindert starke Blutzuckerschwankungen.
-
-- **Trockene Zutaten:**
-
-  - 160 g Weizenvollkornmehl (ca. 64% des Gesamtmehls)
-
-  - 90 g Weizenmehl (Type 405 oder 550) – für die Bindung
-
-  - 1 TL Natron + 1 Prise Salz
-
-  - 2 TL Zimt
-
-  - 80 g gehackte Walnüsse
-
-- **Feuchte Zutaten:**
-
-  - 3 reife Bananen (zerdrückt)
-
-  - 80 ml Rapsöl oder geschmolzene Butter
-
-  - 2 Eier (Größe M)
-
-  - 60 g brauner Zucker oder Honig (reduziert, da Bananen süßen)
-
-**Zubereitung:**
-
-1. Ofen auf **180°C Ober-/Unterhitze** vorheizen.
-
-2. Feuchte Zutaten in einer Schüssel homogen verquirlen.
-
-3. Trockene Zutaten mischen und kurz unter die feuchte Masse heben (nur so lange, bis das Mehl feucht ist – verhindert Gummi-Textur).
-
-4. 50–60 Minuten backen. Stäbchenprobe machen.
-
----
-
-#### 2. Der "Study Fuel" (Protein & Quark)
-
-**Logik:** Erhöhter Proteinanteil durch Magerquark und Eier. Weniger Fett als das klassische Rezept. Ideal als Mahlzeitersatz in stressigen Lernphasen (M2 Vorbereitung).
-
-- **Trockene Zutaten:**
-
-  - 250 g Weizenvollkornmehl (100% Vollkornanteil)
-
-  - 1 Pck. Backpulver
-
-  - 1 Prise Salz
-
-- **Feuchte Zutaten:**
-
-  - 3 reife Bananen (sehr fein zerdrückt)
-
-  - 250 g Magerquark
-
-  - 2 Eier
-
-  - 1 TL Vanilleextrakt
-
-  - Optional: 50 ml Milch/Hafermilch (nur falls der Teig zu fest wirkt, Vollkorn saugt mehr Flüssigkeit)
-
-  - Süßungsmittel nach Wahl (z.B. Flüssigsüßstoff oder 50g Xylit/Zucker), falls die Bananen nicht braun genug sind.
-
-**Zubereitung:**
-
-1. Ofen auf **175°C Umluft** (besser für Quarkteige) vorheizen.
-
-2. Eier und Quark glatt rühren, Bananenmus unterheben.
-
-3. Mehl und Backpulver mischen und einrühren.
-
-4. In die gefettete Form geben. Backzeit ca. 45–55 Minuten.
-
-5. **Wichtig:** Vollständig auskühlen lassen, da Quarkteige warm noch sehr feucht wirken.
-
----
-
-#### 3. Der sensorische Stimulus (Kakao & Espresso)
-
-**Logik:** Dopamin-Trigger durch Schokolade und leichte Koffein-Note. Dient als Belohnung oder Stimmungsaufheller. Trotzdem >60% Vollkorn, um das Energieniveau stabil zu halten.
-
-- **Trockene Zutaten:**
-
-  - 150 g Weizenvollkornmehl
-
-  - 50 g Backkakao (ungesüßt) – zählt hier zur Trockenmasse
-
-  - 50 g Weizenmehl
-
-  - 1 TL Natron
-
-- **Feuchte Zutaten:**
-
-  - 3 reife Bananen
-
-  - 100 g weiche Butter
-
-  - 80 g Zucker
-
-  - 1 Ei
-
-  - 1 starker Espresso (ca. 30ml, abgekühlt) – verstärkt den Schokogeschmack
-
-- **Add-in:**
-
-  - 50 g Zartbitterschokolade (gehackt)
-
-**Zubereitung:**
-
-1. Ofen auf **180°C Ober-/Unterhitze** vorheizen.
-
-2. Butter und Zucker cremig schlagen, Ei und Espresso hinzufügen.
-
-3. Bananen untermischen.
-
-4. Mehl und Kakao sieben (gegen Klümpchen) und unterheben. Schokostücke zuletzt einrühren.
-
-5. Ca. 50–55 Minuten backen.
-
----
-
-#### Technische Hinweise für Vollkorn & Bananen
-
-- **Vollkorn-Faktor:** Vollkornmehl benötigt etwas mehr Flüssigkeit als Weißmehl. Wenn der Teig bei Rezept 1 oder 3 extrem zäh wirkt (wie Knete), gib 1-2 EL Milch/Wasser hinzu.
-
-- **Reifegrad:** Je brauner die Schale der Banane, desto süßer das Brot und desto weniger zugesetzten Zucker benötigst du.
-
-- **Lagerung:** Durch die Feuchtigkeit der Bananen schimmelt Bananenbrot schneller. Im Kühlschrank hält es 4-5 Tage, geschnitten lässt es sich exzellent einfrieren (Meal Prep).
-
-Soll ich dir für eines der Rezepte eine **Einkaufsliste** zusammenstellen, die du direkt im Supermarkt abhaken kannst?
+- Teig zäh wie Knete → 1–2 EL Milch oder Wasser
+- Haltbarkeit → im Kühlschrank 4–5 Tage, geschnitten gut einfrierbar
