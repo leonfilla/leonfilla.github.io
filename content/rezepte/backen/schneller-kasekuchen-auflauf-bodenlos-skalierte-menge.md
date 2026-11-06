@@ -1,5 +1,5 @@
 ---
-titel: Schneller Käsekuchen-Auflauf (Bodenlos, skalierte Menge)
+titel: Schneller bodenloser Käsekuchen-Auflauf mit Rhabarber
 status: aktiv
 datum: '2026-04-23'
 quelle:
@@ -7,76 +7,53 @@ quelle:
   url: https://gemini.google.com/app/439b6672be8638b4
   hinweis: 3 Käsekuchenrezepte mit TK Erdbeeren und frischem Rhabarbaer
 importiert: true
+linie: gerate-konfiguration-siemens-hng978nb1-c5-04e85
+variante: Klein und schnell, 20 cm
+fokus: Leichte, kleine Abwandlung mit je 110 g Rhabarber und TK-Erdbeeren auf Frischkäse-Skyr-Ricotta-Basis. Flach und mit mehr Stärke gebunden – schon 25 Minuten nach dem Backen lauwarm schnittfest.
+ergebnis: 1 Springform 20 cm oder kleine Auflaufform
+zeit: {aktiv: 15, gesamt: 70}
+geraete: [bosch-hng978]
+tags: [Kuchen, Käsekuchen, Dessert]
+ofen:
+  modus: 4D-Heißluft
+  temp: 160
+  dampf: aus
+  zeit: "35–40"
+  form: Springform 20 cm, Ebene 2
+zutaten:
+- {gruppe: Füllung, name: Frischkäse, menge: 150, einheit: g}
+- {gruppe: Füllung, name: Skyr, menge: 100, einheit: g}
+- {gruppe: Füllung, name: Ricotta, menge: 100, einheit: g, hinweis: gut abgetropft}
+- {gruppe: Füllung, name: Ei, menge: 1, einheit: "", hinweis: Größe L}
+- {gruppe: Füllung, name: Brauner Zucker, menge: 60, einheit: g}
+- {gruppe: Füllung, name: Speisestärke, menge: 25, einheit: g}
+- {gruppe: Füllung, name: Vanilleextrakt, menge: 1, einheit: TL}
+- {gruppe: Fruchtschicht, name: Rhabarber, menge: 110, einheit: g, hinweis: "frisch, in 1-cm-Stücken"}
+- {gruppe: Fruchtschicht, name: TK-Erdbeeren, menge: 110, einheit: g, hinweis: "halbiert oder geviertelt, unaufgetaut"}
+- {gruppe: Fruchtschicht, name: Speisestärke, menge: 1, einheit: EL}
+- {gruppe: Streusel, name: Weizenmehl, menge: 45, einheit: g}
+- {gruppe: Streusel, name: Gemahlene Mandeln, menge: 20, einheit: g}
+- {gruppe: Streusel, name: Zucker, menge: 25, einheit: g}
+- {gruppe: Streusel, name: Bio-Zitrone, menge: 0.5, einheit: "", hinweis: nur Abrieb}
+- {gruppe: Streusel, name: Butter, menge: 35, einheit: g, hinweis: kalt}
+schritte:
+- titel: Masse rühren
+  text: Ofen auf 160 °C 4D-Heißluft ohne Dampf vorheizen. 150 g Frischkäse, 100 g Skyr, 100 g Ricotta, 1 Ei, 60 g braunen Zucker, 1 TL Vanille und 25 g Stärke glatt rühren und höchstens 3 cm hoch in die Form füllen.
+- titel: Obst
+  text: 110 g Rhabarber und 110 g gefrorene Erdbeeren mit 1 EL Stärke mischen und auf die Masse geben.
+- titel: Streusel
+  text: 45 g Mehl, 20 g Mandeln, 25 g Zucker, Zitronenabrieb und 35 g Butter zügig verreiben und über die Früchte streuen.
+- titel: Backen
+  text: 35–40 Minuten backen, bis die Streusel goldbraun sind.
+  timer: 2250
+- titel: Ruhen
+  text: Ofen kurz ganz öffnen, um Dampf abzulassen, wieder schließen und den Kuchen 10 Minuten im ausgeschalteten Ofen ruhen lassen.
+  timer: 600
+- titel: Anschneiden
+  text: Weitere 15 Minuten bei Raumtemperatur stehen lassen, dann lauwarm anschneiden.
+  timer: 900
 ---
 
-> **Frage im Chat:** Davon nun eine schnell gemachte und leichte Abwandlung, die kurz nach dem backen schon gegessen werden kann. der gesamt-Fruchtanteil im Vergleich zu den nicht-Frucht-Zutaten soll gleich bleiben, wenn nur 110 Gramm Rhabarber vorhanden sind und dementsprechend 110 Gramm Erdbeeren zu verwenden sind. Ebenfalls ist keine Creme Fraiche und keine Sahne da, aber neben an Milchprodukten Frischkäse Magerquark, skyr, Ricotta, Milch. Es
+## Warum so
 
-Dieses Rezept ist auf eine **20-cm-Springform** oder eine kleine Auflaufform ausgelegt. Durch den erhöhten Stärkeanteil und die geringere Masse ist der Kuchen bereits 20–30 Minuten nach dem Backen (lauwarm) strukturstabil und verzehrfertig.
-
-#### Zutaten
-
-**Füllung (220 g Frucht-Äquivalent):**
-
-- 150 g Frischkäse
-
-- 100 g Skyr
-
-- 100 g Ricotta (gut abgetropft)
-
-- 1 Ei (Größe L)
-
-- 60 g Brauner Zucker
-
-- 25 g Speisestärke (erhöht für schnellere Bindung)
-
-- 1 TL Vanilleextrakt
-
-**Fruchtschicht:**
-
-- 110 g frischer Rhabarber (in 1 cm kleine Stücke geschnitten)
-
-- 110 g TK-Erdbeeren (halbiert/geviertelt, unaufgetaut)
-
-- 1 EL Speisestärke
-
-**Zitronen-Mandel-Streusel:**
-
-- 45 g Weizenmehl
-
-- 20 g gemahlene Mandeln
-
-- 35 g kalte Butter
-
-- 25 g Zucker
-
-- Abrieb von ½ Bio-Zitrone
-
----
-
-#### Geräte-Konfiguration (Siemens HNG978NB1/C5)
-
-Da die Masse flacher ist und schnell fest werden soll, wird auf Dampf verzichtet, um die Oberflächenfeuchtigkeit gering zu halten.
-
-- **Heizart:** 4D Heißluft
-
-- **Temperatur:** 160 °C
-
-- **Ebene:** 2
-
-- **Dauer:** 35–40 Minuten
-
----
-
-#### Zubereitung
-
-1. **Masse:** Frischkäse, Skyr, Ricotta, Ei, braunen Zucker, Vanille und 25 g Speisestärke glatt rühren. In die vorbereitete Form füllen. Die Schicht sollte nicht höher als ca. 3 cm sein, um die Backzeit kurzzuhalten.
-
-2. **Obst:** Rhabarber und gefrorene Erdbeeren mit 1 EL Stärke mischen. Direkt auf die Masse geben. Durch die kleineren Rhabarberstücke gart dieser in der verkürzten Zeit vollständig durch.
-
-3. **Streusel:** Mehl, Mandeln, Zucker, Zitronenabrieb und Butter zügig verreiben. Über die Früchte streuen.
-
-4. **Backen:** Im vorgeheizten Ofen ca. 35–40 Minuten backen, bis die Streusel goldbraun sind.
-
-5. **Servieren:** Den Ofen kurz ganz öffnen, um Dampf abzulassen, dann wieder schließen und den Kuchen 10 Minuten im ausgeschalteten Gerät ruhen lassen. Nach weiteren 15 Minuten bei Raumtemperatur ist die Bindung ausreichend für den Anschnitt.
-
-**Funktionaler Hinweis zur Konsistenz:** Der Verzicht auf Sahne und der Einsatz von Skyr/Ricotta reduziert das Risiko eines "Auseinanderlaufens" im warmen Zustand, da diese Proteinstrukturen beim Erhitzen schneller fest werden als fettreiche Emulsionen.
+Die flache Schicht und mehr Stärke verkürzen Backzeit und Bindung. Skyr- und Ricottaproteine werden beim Erhitzen schneller fest als fettreiche Sahne-Emulsionen, deshalb läuft der Kuchen auch warm nicht auseinander. Kleine Rhabarberstücke garen in der kurzen Zeit vollständig.
