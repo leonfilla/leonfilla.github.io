@@ -8,6 +8,7 @@ quelle:
   hinweis: Zeige mir 5 verschiedene süße Backrezepte, die einen geringen Anteil an zugesetz…
 importiert: true
 linie: zucchini-nuss-kuchen-2026-02-13
+variante: Klassisch
 fokus: Saftiger Kastenkuchen aus Zucchini, Nüssen und Dinkelvollkorn, gesüßt nur mit Dattelpaste oder Banane. Zucchini bringt Feuchte bei neutralem Geschmack.
 ergebnis: 1 Kastenform
 zeit: {aktiv: 15, gesamt: 65}

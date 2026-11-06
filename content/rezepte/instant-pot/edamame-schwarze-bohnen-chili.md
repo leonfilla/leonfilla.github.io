@@ -8,6 +8,7 @@ quelle:
   hinweis: 5 schnelle Gerichte im Instant Pot mit je 400 g schwarzen Bohnen aus der Dose
 importiert: true
 linie: edamame-schwarze-bohnen-chili
+variante: Grundrezept
 fokus: One-Pot-Chili aus Dosenbohnen, TK-Edamame, passierten Tomaten und Räucherpaprika – zwei Minuten aktive Arbeit.
 ergebnis: ca. 800 g
 zeit: {aktiv: 2, gesamt: 15}
