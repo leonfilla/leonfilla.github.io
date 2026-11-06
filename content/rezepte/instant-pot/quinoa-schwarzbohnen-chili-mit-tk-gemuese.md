@@ -8,7 +8,7 @@ quelle:
   hinweis: 5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen
 importiert: true
 linie: quinoa-schwarzbohnen-chili
-variante: Klassisch
+variante: Mit TK-Gemüse
 fokus: Veganes One-Pot-Chili aus schwarzen Bohnen und Quinoa, ergänzt um 300 g TK-Mais-Paprika-Erbsen-Mix.
 ergebnis: 4 Portionen
 portionen: 4
