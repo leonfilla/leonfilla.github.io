@@ -1,5 +1,5 @@
 ---
-titel: 5 Rezepte für einen Brotaufstrich mit 220g schwarzen Bohnen aus der Konserve
+titel: Schwarze-Bohnen-Aufstrich mit Kreuzkümmel und Limette
 status: aktiv
 datum: '2026-04-18'
 quelle:
@@ -7,34 +7,24 @@ quelle:
   url: https://gemini.google.com/app/6fea5cfdcacc36d8
   hinweis: 5 Rezepte für einen Brotaufstrich mit 220g schwarzen Bohnen aus der Konserve
 importiert: true
+linie: schwarze-bohnen-aufstrich-2026-04-18
+variante: Kreuzkümmel-Limette
+fokus: Herzhafter Brotaufstrich aus einer Dose schwarzer Bohnen mit Kreuzkümmel, Rauchpaprika und Limette.
+ergebnis: 1 Schale, ca. 260 g
+zeit: {aktiv: 5, gesamt: 5}
+tags: [Aufstrich, vegan]
+zutaten:
+  - {name: schwarze Bohnen, menge: 220, einheit: g, hinweis: abgespült}
+  - {name: Knoblauchzehe, menge: 1, einheit: ""}
+  - {name: Olivenöl, menge: 1, einheit: EL}
+  - {name: Limettensaft, menge: 1, einheit: EL}
+  - {name: Kreuzkümmel, menge: 1, einheit: TL, hinweis: gemahlen}
+  - {name: geräuchertes Paprikapulver, menge: 0.5, einheit: TL}
+  - {name: Salz, hinweis: nach Geschmack}
+  - {name: Pfeffer, hinweis: nach Geschmack}
+schritte:
+  - titel: Pürieren
+    text: Alle Zutaten im Mixer oder mit dem Pürierstab zu einer glatten Masse verarbeiten.
+  - titel: Konsistenz anpassen
+    text: Bei Bedarf teelöffelweise Wasser zugeben, bis der Aufstrich streichfähig ist.
 ---
-
-> **Frage im Chat:** 5 Rezepte für einen Brotaufstrich mit 220g schwarzen Bohnen aus der Konserve
-
-- **Zutaten:** 220g schwarze Bohnen (abgewaschen), 1 Knoblauchzehe, 1 EL Olivenöl, 1 EL Limettensaft, 1 TL Kreuzkümmel (gemahlen), ½ TL geräuchertes Paprikapulver, Salz, Pfeffer.
-
-- **Zubereitung:** Alle Zutaten im Mixer oder mit dem Pürierstab zu einer homogenen Masse verarbeiten. Bei Bedarf teelöffelweise Wasser hinzufügen, um die Viskosität anzupassen.
-
-#### 2. Umami-Sesam-Aufstrich
-
-- **Zutaten:** 220g schwarze Bohnen (abgewaschen), 1 EL dunkle Sojasauce, 1 TL geröstetes Sesamöl, 1 TL Reisessig, 1 Knoblauchzehe, 1 TL frisch geriebener Ingwer.
-
-- **Zubereitung:** Sämtliche Zutaten fein pürieren.
-
-#### 3. Mediterraner Tomaten-Aufstrich
-
-- **Zutaten:** 220g schwarze Bohnen (abgewaschen), 40g getrocknete Tomaten (in Öl eingelegt, abgetropft), 1 EL Tomatenmark, 1 EL Olivenöl, 1 TL getrockneter Oregano, Salz, Pfeffer.
-
-- **Zubereitung:** Getrocknete Tomaten grob zerkleinern. Anschließend alle Komponenten zusammen zu einer streichfähigen Masse pürieren.
-
-#### 4. Süßer Kakao-Aufstrich
-
-- **Zutaten:** 220g schwarze Bohnen (sehr gründlich abgewaschen), 2 EL Kakaopulver (ungesüßt), 2 EL Ahornsirup, 1 EL Mandelmus, 1 TL Vanilleextrakt, 1 Prise Salz.
-
-- **Zubereitung:** Bohnen separat vorpürieren, um Reststücke zu minimieren. Restliche Zutaten hinzufügen und mixen, bis eine glatte Konsistenz erreicht ist.
-
-#### 5. Smoky BBQ-Aufstrich
-
-- **Zutaten:** 220g schwarze Bohnen (abgewaschen), 2 EL BBQ-Sauce, 1 EL Olivenöl, 1 TL Zwiebelpulver, ½ TL geräuchertes Paprikapulver, Chiliflocken nach Toleranz.
-
-- **Zubereitung:** Zutaten in ein hohes Gefäß geben und vollständig glatt pürieren.

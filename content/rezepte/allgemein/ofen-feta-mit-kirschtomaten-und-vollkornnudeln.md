@@ -7,7 +7,16 @@ quelle:
   url: https://claude.ai/chat/fed20293-34fd-47fd-8f15-90d68374af0e
   hinweis: Gebackener Feta mit Tomaten
 importiert: true
-fokus: Feta und Tomaten im Ofen schmoren, zerdrücken und mit stärkehaltigem Nudelwasser zu einer cremigen Sauce binden.
+fokus: Feta und Kirschtomaten im Ofen schmoren, zerdrücken und mit stärkehaltigem Nudelwasser zu einer cremigen Sauce binden.
+ergebnis: 2 Portionen
+zeit: {aktiv: 15, gesamt: 45}
+geraete: [bosch-hng978]
+tags: [Abendessen, Pasta, vegetarisch]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 200
+  zeit: 32
+  form: Auflaufform
 portionen: 2
 zutaten:
 - name: Feta (am Stück)
@@ -63,4 +72,15 @@ schritte:
   text: Nudeln direkt in die Form geben, gründlich schwenken, ggf. noch einen Schuss Nudelwasser nachlegen. Mit 0.5 Bio-Zitrone, Schale abgerieben und zerzupftem 10 g Basilikum, frisch abschließen und abschmecken – Salz meist kaum nötig, der Feta bringt genug mit.
 ---
 
-Vollkornnudeln binden mehr Flüssigkeit als Weizengrieß-Pasta – lieber großzügig Nudelwasser zurückbehalten. Feta schmilzt als säuregefällter Lakekäse nicht fadenziehend, sondern zerfällt; die Stärke im Kochwasser und das Öl emulgieren ihn erst zur cremigen Sauce. Für mehr Protein: 1 Dose abgetropfte Kichererbsen (ca. 240 g) mit in die Form geben.
+## Warum so
+
+Feta ist ein säuregefällter Lakekäse und schmilzt nicht fadenziehend, sondern zerfällt. Erst die Stärke im Kochwasser und das Öl emulgieren ihn zu einer cremigen Sauce. Vollkornnudeln binden mehr Flüssigkeit als Hartweizennudeln.
+
+## Stellschrauben
+
+- Sauce zu dick → mehr Nudelwasser zurückbehalten und nachgießen
+
+## Varianten
+
+- Umluft: 180 °C statt 200 °C Ober-/Unterhitze.
+- Mehr Protein: 240 g abgetropfte Kichererbsen mit in die Form geben.

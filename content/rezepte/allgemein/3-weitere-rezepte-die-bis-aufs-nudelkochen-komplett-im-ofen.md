@@ -1,5 +1,5 @@
 ---
-titel: 3 weitere Rezepte, die bis aufs Nudelkochen komplett im Ofen gegart werden
+titel: Thunfisch-Nudelauflauf mit Feta, Tomate und Chili
 status: aktiv
 datum: '2026-04-23'
 quelle:
@@ -10,116 +10,46 @@ quelle:
 
     An…'
 importiert: true
+linie: thunfisch-nudelauflauf-2026-04-23
+variante: Feta-Tomate-Chili
+fokus: 'Thunfisch-Nudelauflauf, bei dem außer den Nudeln alles roh in die Form kommt: stückige Tomaten, Zucchini, Oliven und Feta. Kein Vorbraten, kein zweiter Topf.'
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 40}
+geraete: [bosch-hng978]
+tags: [Abendessen, Auflauf, High Protein, Meal Prep]
+ofen:
+  modus: 4D-Heißluft
+  temp: 180
+  zeit: 25
+  form: Auflaufform
+zutaten:
+  - {gruppe: Basis, name: Vollkorn-Fusilli, menge: 250, einheit: g}
+  - {name: Thunfisch, menge: 300, einheit: g, hinweis: 'im eigenen Saft, Abtropfgewicht'}
+  - {name: Zucchini, menge: 200, einheit: g, hinweis: gewürfelt}
+  - {name: Frühlingszwiebeln, menge: 50, einheit: g, hinweis: in Ringen}
+  - {name: Schwarze Oliven, menge: 50, einheit: g, hinweis: in Ringen}
+  - {gruppe: Sauce, name: Stückige Tomaten, menge: 400, einheit: g, hinweis: Dose}
+  - {name: Olivenöl, menge: 15, einheit: g}
+  - {name: Chiliflocken, menge: 5, einheit: g}
+  - {name: Getrockneter Oregano, menge: 3, einheit: g}
+  - {name: Salz, menge: 3, einheit: g}
+  - {name: Schwarzer Pfeffer, menge: 2, einheit: g}
+  - {gruppe: Topping, name: Feta, menge: 150, einheit: g}
+schritte:
+- titel: Nudeln kochen
+  text: 250 g Fusilli bissfest kochen und abgießen.
+- titel: In der Form mischen
+  text: Nudeln, 300 g Thunfisch, 200 g Zucchini, 50 g Frühlingszwiebeln und 50 g Oliven direkt in der Auflaufform vermengen.
+- titel: Sauce unterheben
+  text: 400 g stückige Tomaten kalt mit 15 g Olivenöl, 5 g Chiliflocken, 3 g Oregano, 3 g Salz und 2 g Pfeffer verrühren, über die Nudeln geben und gründlich mischen.
+- titel: Feta verteilen
+  text: 150 g Feta grob darüberbröseln.
+- titel: Backen
+  text: Bei 180 °C 4D-Heißluft backen.
+  timer: 1500
 ---
 
-> **Frage im Chat:** 3 weitere Rezepte, die bis aufs Nudelkochen komplett im Ofen gegart werden
+## Warum so
 
-**Zutaten**
-
-- 250 g Vollkorn Fusilli
-
-- 300 g Thunfisch (im eigenen Saft, Abtropfgewicht)
-
-- 200 g Zucchini (gewürfelt)
-
-- 50 g Frühlingszwiebeln (in Ringen)
-
-- 400 g stückige Tomaten (Dose)
-
-- 50 g schwarze Oliven (in Ringen)
-
-- 150 g Feta
-
-- 15 g Olivenöl
-
-- 5 g Chiliflocken, 3 g getrockneter Oregano, 3 g Salz, 2 g schwarzer Pfeffer
-
-**Zubereitung**
-
-1. Vollkorn Fusilli bissfest kochen und abgießen.
-
-2. Nudeln, Thunfisch, Zucchini, Frühlingszwiebeln und Oliven direkt in der Auflaufform vermengen.
-
-3. Stückige Tomaten (kalt aus der Dose) mit Olivenöl, Chiliflocken, Oregano, Salz und Pfeffer verrühren und über die Nudelmischung geben. Alles gründlich durchmischen.
-
-4. Feta in groben Stücken über der Masse zerbröseln.
-
-5. Im Bosch HNG978NB1/C5 auf **4D Heißluft** bei **180°C** für **25 Minuten** backen.
-
----
-
-#### Rezept 5: Brokkoli-Cheddar-Senf-Auflauf (Kalt angerührte Sauce)
-
-**Zutaten**
-
-- 250 g Vollkorn Fusilli
-
-- 300 g Thunfisch (im eigenen Saft, Abtropfgewicht)
-
-- 200 g Zucchini (in feinen Stiften)
-
-- 50 g Frühlingszwiebeln (in Ringen)
-
-- 150 g Brokkoli (in sehr kleinen Röschen, max. 2 cm, für schnelle Garung)
-
-- 150 g Cheddar (gerieben)
-
-- 200 g Sahne
-
-- 100 g kaltes Wasser
-
-- 30 g scharfer Senf
-
-- 5 g Salz, 2 g schwarzer Pfeffer, 2 g Cayennepfeffer
-
-**Zubereitung**
-
-1. Vollkorn Fusilli bissfest kochen und abgießen.
-
-2. Sahne, kaltes Wasser, Senf, Salz, Pfeffer und Cayennepfeffer in einem Gefäß verquirlen.
-
-3. Nudeln, Thunfisch, Zucchini, Frühlingszwiebeln, rohe Brokkoliröschen und 75 g Cheddar in der Auflaufform mischen.
-
-4. Die kalte Sahne-Senf-Mischung darüber gießen und unterheben.
-
-5. Mit den restlichen 75 g Cheddar bestreuen.
-
-6. Im Bosch HNG978NB1/C5 auf **Ober-/Unterhitze** bei **200°C** für **30 Minuten** backen.
-
----
-
-#### Rezept 6: Rotes-Pesto-Sambal-Mozzarella-Auflauf
-
-**Zutaten**
-
-- 250 g Vollkorn Fusilli
-
-- 300 g Thunfisch (im eigenen Saft, Abtropfgewicht)
-
-- 200 g Zucchini (in halben Scheiben)
-
-- 50 g Frühlingszwiebeln (in Ringen)
-
-- 100 g frischer Babyspinat (grob gehackt)
-
-- 200 g Mozzarella (gerieben)
-
-- 130 g Pesto Rosso (Glas)
-
-- 150 g kaltes Wasser
-
-- 10 g Sambal Oelek (oder mehr nach gewünschtem Schärfegrad)
-
-**Zubereitung**
-
-1. Vollkorn Fusilli bissfest kochen und abgießen.
-
-2. Kaltes Wasser, Pesto Rosso und Sambal Oelek glatt rühren.
-
-3. Nudeln, Thunfisch, Zucchini, Frühlingszwiebeln und den rohen Babyspinat in der Auflaufform mischen.
-
-4. Die Pesto-Mischung darüber gießen und gut vermengen, bis alle Zutaten benetzt sind.
-
-5. Die Oberfläche flach drücken und mit Mozzarella bestreuen.
-
-6. Im Bosch HNG978NB1/C5 auf **4D Heißluft** bei **180°C** für **25 Minuten** backen.
+Die Sauce wird kalt angerührt und gart erst im Ofen; die bissfest vorgekochten Nudeln ziehen dabei Flüssigkeit und werden fertig.

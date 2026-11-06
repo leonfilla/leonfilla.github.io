@@ -1,33 +1,40 @@
 ---
-titel: Methode mit der Dampflanze (Sage Oracle Jet)
+titel: Matcha mit der Dampflanze aufschäumen
+linie: matcha-oracle-jet
+variante: Dampflanze
 status: aktiv
-datum: '2026-03-08'
+datum: "2026-03-08"
 quelle:
   typ: gemini
-  url: https://gemini.google.com/app/7d3ef0cc000e8d46
-  hinweis: Nenn mir 3 Methoden, wie ich am besten Matcha mit der Sage Oracle Jet zubereiten…
+  url: "https://gemini.google.com/app/7d3ef0cc000e8d46"
+  hinweis: "Nenn mir 3 Methoden, wie ich am besten Matcha mit der Sage Oracle Jet zubereiten…"
 importiert: true
+fokus: "Matcha ohne Bambusbesen: Die Dampflanze der Oracle Jet zerschlägt Pulverklumpen und schäumt in wenigen Sekunden auf – gestartet wird mit kaltem Wasser."
+ergebnis: "1 Schale, ca. 50 ml"
+portionen: 1
+zeit: {aktiv: 1, gesamt: 1}
+geraete: [oracle-jet]
+tags: [Matcha, Tee]
+espresso:
+  getraenk: Matcha (manueller Dampf)
+zutaten:
+  - {name: Matcha-Pulver, menge: 2, einheit: g}
+  - {name: "Wasser, kalt", menge: 45, einheit: ml, hinweis: "40–50 ml, alternativ kalte Milch oder Hafermilch"}
+schritte:
+  - titel: Vorlegen
+    text: "2 g Matcha und 40–50 ml kaltes Wasser ins Edelstahlkännchen geben."
+  - titel: Dampf manuell
+    text: "Manuellen Dampfmodus wählen, Düse knapp unter die Oberfläche halten und 3–5 Sekunden dampfen, bis ein Whirlpool entsteht."
+    timer: 5
+  - titel: Stoppen
+    text: "Sofort stoppen, sobald das Kännchen außen warm wird (ca. 60–70 °C)."
 ---
 
-> **Frage im Chat:** Und wenn man keinen Bambusbesen hat? Kann die Düse der Kaffeemaschine das übernehmen?
+## Warum so
 
-Ja, die Dampflanze der Oracle Jet kann den Bambusbesen ersetzen. Der hohe Dampfdruck bricht Pulverklumpen effizient auf und erzeugt feinen Schaum.
+Dampf ist über 100 °C heiß, Matcha wird über 80 °C bitter – kaltes Wasser vergrößert das Zeitfenster. Auto MilQ funktioniert nicht, weil die kleine Menge den Bodensensor nicht bedeckt.
 
-**Methode mit der Dampflanze (Sage Oracle Jet):**
-Risiko: Der austretende Dampf ist über 100°C heiß. Matcha verbrennt und wird extrem bitter, wenn die Zieltemperatur von 80°C überschritten wird.
+## Varianten
 
-1. 2g Matcha-Pulver in das Edelstahl-Milchkännchen geben.
-
-2. 40-50ml **kaltes** Wasser (oder kalte Milch/Hafermilch) hinzufügen. Die niedrige Ausgangstemperatur vergrößert das Zeitfenster, bevor das Pulver verbrennt.
-
-3. Manuellen Dampfmodus aktivieren. Das Auto MilQ-Programm funktioniert hier nicht, da das geringe Volumen den Temperatursensor am Boden des Kännchens nicht ausreichend bedeckt.
-
-4. Dampf für maximal 3 bis 5 Sekunden aktivieren. Die Düse knapp unter die Oberfläche halten, um eine schnelle Rotation (Whirlpool-Effekt) zu erzeugen.
-
-5. Sofort stoppen, sobald das Kännchen von außen warm wird (ca. 60-70°C).
-
-**Zwei alternative mechanische Methoden (ohne Maschine):**
-
-1. **Schraubglas / Shaker:** 2g Matcha und 50ml 80°C Wasser aus dem Heißwasserauslass der Maschine in ein kleines, dichtes Gefäß geben. 10 bis 15 Sekunden stark schütteln. Erzeugt eine vollständige Emulsion, resultiert jedoch in einem grobporigeren Schaum.
-
-2. **Elektrischer Hand-Milchaufschäumer:** 2g Matcha und 50ml 80°C Wasser in ein hohes, schmales Glas geben. Den Rotorkopf tief eintauchen, um Spritzer zu vermeiden, und 5 bis 10 Sekunden mixen.
+- Schraubglas: 2 g Matcha und 50 ml Wasser (80 °C) 10–15 Sekunden kräftig schütteln – grobporigerer Schaum
+- Handaufschäumer: 2 g Matcha und 50 ml Wasser (80 °C) im hohen Glas 5–10 Sekunden aufschlagen

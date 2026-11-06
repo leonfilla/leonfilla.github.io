@@ -1,141 +1,53 @@
 ---
-titel: 3 weitere Rezepte. Gib immer konkrete Mengen in Gramm an
+titel: Kokos-Curry-Thunfischauflauf
 status: aktiv
 datum: '2026-04-23'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/9bbf64f029994477
-  hinweis: '3 Rezepte für würzigen Thunfisch-Nudel-Auflauf mit Gemüse
-
-
-    An Käse ist folgendes…'
+  hinweis: 3 weitere Rezepte für würzigen Thunfisch-Nudel-Auflauf
 importiert: true
+linie: thunfisch-nudel-auflauf-2026-04-23
+variante: Kokos-Curry
+fokus: Thunfisch-Nudel-Auflauf mit angebratener Zucchini und Karotte in roter Kokos-Curry-Sauce, mit Mozzarella überbacken.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 20, gesamt: 45}
+geraete: [bosch-hng978]
+tags: [Abendessen, Auflauf, High Protein]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 200
+  zeit: 20
+  form: Auflaufform
+zutaten:
+  - {gruppe: Auflauf, name: Nudeln, menge: 250, einheit: g, hinweis: z. B. Makkaroni}
+  - {gruppe: Auflauf, name: Thunfisch, menge: 300, einheit: g, hinweis: Abtropfgewicht}
+  - {gruppe: Gemüse, name: Sesamöl, menge: 10, einheit: g}
+  - {gruppe: Gemüse, name: Zucchini, menge: 250, einheit: g, hinweis: in Stiften}
+  - {gruppe: Gemüse, name: Karotten, menge: 150, einheit: g, hinweis: in feinen Streifen}
+  - {gruppe: Gemüse, name: Frühlingszwiebeln, menge: 100, einheit: g, hinweis: in Ringen}
+  - {gruppe: Sauce, name: Kokosmilch, menge: 200, einheit: g}
+  - {gruppe: Sauce, name: rote Currypaste, menge: 50, einheit: g}
+  - {gruppe: Sauce, name: Sojasauce, menge: 20, einheit: g}
+  - {gruppe: Topping, name: Mozzarella, menge: 100, einheit: g, hinweis: gerieben}
+schritte:
+  - titel: Nudeln vorkochen
+    text: 250 g Nudeln bissfest kochen und abgießen.
+    timer: 600
+  - titel: Gemüse anbraten
+    text: 10 g Sesamöl in einer Pfanne erhitzen, 250 g Zucchini und 150 g Karotten darin anbraten.
+    timer: 240
+  - titel: Frühlingszwiebeln zugeben
+    text: 100 g Frühlingszwiebeln zugeben und mitbraten.
+    timer: 60
+  - titel: Sauce aufkochen
+    text: 200 g Kokosmilch, 50 g Currypaste und 20 g Sojasauce verrühren, zum Gemüse geben und aufkochen.
+  - titel: Mischen
+    text: Nudeln, 300 g Thunfisch und die Gemüse-Sauce in einer Auflaufform mischen.
+  - titel: Bestreuen
+    text: Mit 100 g Mozzarella bestreuen.
+  - titel: Backen
+    text: Bei 200 °C Ober-/Unterhitze 20 Minuten backen.
+    timer: 1200
 ---
-
-> **Frage im Chat:** 3 weitere Rezepte. Gib immer konkrete Mengen in Gramm an
-
-**Zutaten:**
-
-- 250g Nudeln (z. B. Makkaroni)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (in Stiften)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 150g Karotten (in feinen Streifen)
-
-- 100g Mozzarella (gerieben)
-
-- 200g Kokosmilch
-
-- 50g rote Currypaste
-
-- 20g Sojasauce
-
-- 10g Sesamöl
-
-**Zubereitung:**
-
-1. 250g Nudeln bissfest kochen und abgießen.
-
-2. 10g Sesamöl in einer Pfanne erhitzen. 250g Zucchini und 150g Karotten darin 4 Minuten anbraten.
-
-3. 100g Frühlingszwiebeln hinzugeben und 1 Minute mitbraten.
-
-4. 200g Kokosmilch, 50g Currypaste und 20g Sojasauce verrühren. Zu dem Gemüse in die Pfanne geben und aufkochen lassen.
-
-5. Nudeln, 300g Thunfisch und die Gemüse-Sauce in einer Auflaufform mischen.
-
-6. Mit 100g Mozzarella bestreuen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 20 Minuten backen.
-
----
-
-#### 5. Harissa-Tomaten-Auflauf mit Feta
-
-**Zutaten:**
-
-- 250g Nudeln (z. B. Penne)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (gewürfelt)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 200g Aubergine (gewürfelt)
-
-- 150g Feta (zerbröselt)
-
-- 400g passierte Tomaten
-
-- 30g Harissapaste
-
-- 10g Olivenöl
-
-- 5g Salz
-
-- 2g schwarzer Pfeffer
-
-**Zubereitung:**
-
-1. 250g Nudeln kochen und abgießen.
-
-2. 10g Olivenöl in einer Pfanne erhitzen. 200g Aubergine darin 5 Minuten anbraten.
-
-3. 250g Zucchini und 100g Frühlingszwiebeln zugeben und weitere 3 Minuten braten.
-
-4. 400g passierte Tomaten und 30g Harissapaste einrühren. Mit 5g Salz und 2g Pfeffer würzen. 5 Minuten köcheln lassen.
-
-5. Nudeln, 300g Thunfisch und die Tomaten-Gemüse-Mischung in der Auflaufform vermengen.
-
-6. 150g Feta über der Masse verteilen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 25 Minuten backen.
-
----
-
-#### 6. Senf-Sahne-Auflauf mit Cheddar
-
-**Zutaten:**
-
-- 250g Nudeln (z. B. Fusilli)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (in halben Scheiben)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 150g Champignons (in Scheiben)
-
-- 150g Cheddar (gerieben)
-
-- 250g Sahne (30% Fett)
-
-- 40g scharfer Senf (z. B. Dijon)
-
-- 10g Chiliflocken
-
-- 5g Salz
-
-- 2g schwarzer Pfeffer
-
-**Zubereitung:**
-
-1. 250g Nudeln kochen und abgießen.
-
-2. 150g Champignons und 250g Zucchini in einer beschichteten Pfanne ohne Fett anbraten, bis das Wasser verdampft ist.
-
-3. 100g Frühlingszwiebeln unterheben.
-
-4. 250g Sahne, 40g scharfen Senf und 10g Chiliflocken glattrühren. Mit 5g Salz und 2g Pfeffer abschmecken.
-
-5. Nudeln, Gemüse, 300g Thunfisch und die Senf-Sahne-Sauce in einer Auflaufform mischen.
-
-6. Mit 150g Cheddar bestreuen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 20 Minuten backen.

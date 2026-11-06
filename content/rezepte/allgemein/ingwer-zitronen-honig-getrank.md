@@ -8,7 +8,10 @@ quelle:
   hinweis: Ingwer-Zitrone gegen Erkältungen
 importiert: true
 linie: ingwer-zitronen-honig-getrank-700-ml-571c5
-fokus: Heißgetränk bei Erkältung, ergibt ca. 700 ml
+fokus: Heißes Ingwer-Zitronen-Getränk, ergibt etwa 700 ml. Honig und Zitronensaft kommen erst bei Trinktemperatur dazu.
+ergebnis: ca. 700 ml
+zeit: {aktiv: 10, gesamt: 25}
+tags: [Getränk, vegetarisch]
 portionen: 1
 zutaten:
 - name: Wasser
@@ -23,6 +26,7 @@ zutaten:
 - name: Honig
   menge: 2
   einheit: EL
+  hinweis: ca. 40 g
 schritte:
 - titel: Vorbereiten
   text: 40 g frischer Ingwer gründlich abbürsten (Schälen nicht nötig) und fein reiben. Von einer der 1.5 Bio-Zitronen mit dem Sparschäler 3–4 Schalenstreifen abziehen, nur das Gelbe, ohne die weiße Haut. Dann alle Zitronen auspressen; das ergibt etwa 60 ml Saft.
@@ -39,4 +43,10 @@ schritte:
   text: Zitronensaft und 2 EL Honig einrühren und abschmecken.
 ---
 
-Weil die Zitronen Bio sind, kann die Schale mitverwendet werden. Sie trägt aromatische Öle und Flavonoide bei; klinische Daten dazu gibt es nicht, der Effekt ist vor allem geschmacklich. Honig und Saft kommen erst bei Trinktemperatur dazu: Das schont Aroma und Vitamin C, die Honig-Evidenz hängt aber nicht davon ab. Den Rest der 700 ml am besten in einer Thermoskanne warmhalten statt erneut aufkochen.
+## Warum so
+
+Die Bio-Zitronenschale bringt aromatische Öle mit; zieht sie zu lange, wird das Getränk bitter. Honig und Saft kommen erst bei Trinktemperatur dazu, das schont Aroma und Vitamin C.
+
+## Varianten
+
+- Den Rest in einer Thermoskanne warm halten statt erneut aufkochen.

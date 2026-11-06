@@ -1,5 +1,5 @@
 ---
-titel: Schnelle Edamame-Beilage mit Miso
+titel: Edamame mit Miso-Sesam-Glasur
 status: archiv
 datum: '2026-03-05'
 quelle:
@@ -7,60 +7,34 @@ quelle:
   url: https://gemini.google.com/app/79fdda22e7e4387e
   hinweis: Schnelle Edamame-Beilage mit Miso
 importiert: true
+linie: edamame-miso-beilage-2026-03-05
+fokus: Edamame in der Schale über Dampf mit der 0-Minuten-Methode gegart und heiß in einer Miso-Sesam-Emulsion geschwenkt. Miso kommt erst nach dem Garen dazu.
+ergebnis: 1 Schüssel, 400 g Edamame
+zeit: {aktiv: 3, gesamt: 11}
+geraete: [instant-pot-pro-max]
+tags: [Beilage, vegetarisch]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 0
+  ablass: Quick Release
+zutaten:
+  - {gruppe: Topf, name: Wasser, menge: 250, einheit: ml}
+  - {gruppe: Topf, name: Edamame, menge: 400, einheit: g, hinweis: "TK, in der Schale"}
+  - {gruppe: Glasur, name: Knoblauchzehe, menge: 4, einheit: g, hinweis: 1 Zehe}
+  - {gruppe: Glasur, name: Shiro Miso, menge: 20, einheit: g}
+  - {gruppe: Glasur, name: Geröstetes Sesamöl, menge: 10, einheit: g}
+  - {gruppe: Glasur, name: Reisessig, menge: 5, einheit: g, hinweis: naturtrüb}
+  - {gruppe: Glasur, name: Wasser, menge: 10, einheit: ml, hinweis: kalt}
+schritte:
+  - {titel: Einsetzen, text: 250 ml Leitungswasser in den Innentopf gießen und den Trivet einsetzen.}
+  - {titel: Edamame verteilen, text: 400 g gefrorene Edamame auf dem Trivet verteilen und den Deckel verriegeln.}
+  - {titel: Druckgaren, text: "Pressure Cook, High, 0 Minuten – das Gerät baut Druck auf und schaltet sofort ab.", timer: 420}
+  - {titel: Glasur rühren, text: "Währenddessen Knoblauch fein zerkleinern und mit 20 g Miso, 10 g Sesamöl, 5 g Reisessig und 10 ml Wasser in einer großen Schüssel glatt rühren."}
+  - {titel: Quick Release, text: Nach dem Signalton sofort Quick Release.}
+  - {titel: Schwenken, text: "Edamame abtropfen lassen, heiß in die Schüssel geben und schwenken, bis alle Schoten benetzt sind. Sofort servieren."}
 ---
 
-> **Frage im Chat:** Schnelle Edamame-Beilage mit Miso
+## Warum so
 
-**1. Gewichtungs-Check**
-
-- **Geschmack:** Maximierung der Umami-Rezeptor-Aktivierung durch Kombination von Soja, Miso und geröstetem Sesamöl. Präziser Garpunkt verhindert Texturverlust.
-
-- **Gesundheit:** Dampfdruckgaren bewahrt wasserlösliche Mikronährstoffe. Post-thermische Applikation der Miso-Paste erhält hitzeempfindliche probiotische Kulturen.
-
-- **Aufwand:** Minimierung der aktiven Arbeitszeit durch Nutzung automatisierter Druckgar-Technik (0-Minuten-Methode).
-
-**2. Zutaten, Wasserwahl & Hardware-Mapping**
-
-Wasserwahl: Option A (Ungefiltertes Leitungswasser).
-Begründung: Das Wasser dient ausschließlich als Trägermedium zur Dampferzeugung im Druckgarer. Karbonathärte und Mineralisierung haben im gasförmigen Zustand keine negativen Auswirkungen auf das Garprodukt. Eine Filterung ist physikalisch obsolet und Ressourcenverschwendung.
-
-|Zutat/Komponente |Menge/Spezifikation |Hardware-Mapping |
-|Edamame (Tiefkühl, in Schale) |400 g |Instant Pot Pro Max Wifi (Druckgaren) |
-|Wasser (Option A) |250 ml |BLANCO drink.soda EVOL-S Pro |
-|Shiro Miso (helle Miso-Paste) |20 g |Manuelle Verarbeitung (Schüssel) |
-|Geröstetes Sesamöl |10 g |Manuelle Verarbeitung |
-|Reisessig (naturtrüb) |5 g |Manuelle Verarbeitung |
-|Knoblauchzehe |1 Stück (ca. 4 g) |Bosch Stabmixer MaxoMixx (Universalzerkleinerer) |
-|Wasser (Option A, kalt) |10 ml |BLANCO drink.soda EVOL-S Pro |
-
-**3. Q/A-Analyse**
-
-- **Aktivzeit:** 3 Minuten (Hardware-Setup, Glasur-Emulsion).
-
-- **Passivzeit:** 6–8 Minuten (Druckaufbau, Garen, Druckablass).
-
-- **Ratio-Ergebnis:** Extrem hohe Effizienz. Der Aufwand ist nahezu vollständig auf den Rüstprozess reduziert. Qualitätssteigerung durch Druckgaren ist exponentiell im Vergleich zum Kochen in Wasser (Vermeidung von Auslaugung).
-
-- Fazit Alternativszenario: Da die Aktivzeit bei ≤ 3 Minuten liegt und das absolute Aufwandsminimum bereits erreicht ist, entfällt die Notwendigkeit einer gesonderten Low-Effort-Methode.
-
-**4. Prozess (Maximal-Qualität)**
-
-1. **Hardware-Setup (Instant Pot):** 250 ml ungefiltertes Leitungswasser (Option A) aus der BLANCO-Armatur in den Edelstahl-Innentopf des Instant Pot geben. Den zugehörigen Dampfgareinsatz (Trivet) platzieren.
-
-2. **Laden:** 400 g tiefgekühlte Edamame auf dem Dampfgareinsatz verteilen. Deckel aufsetzen und verriegeln.
-
-3. **Garen:** * Programm: Pressure Cook
-
-  - Druckstufe: High
-
-  - Zeit: 0 Minuten (Das Gerät heizt auf, erreicht den Betriebsdruck und terminiert den Heizvorgang unmittelbar. Dies liefert die exakte thermische Dosis für tiefgekühlte Edamame).
-
-  - Release-Methode: Quick Release (Sofortiger automatischer oder manueller Druckablass nach Signalton, um Nachgaren und Texturverlust zu stoppen).
-
-4. **Emulsion (während Passivzeit):** Knoblauchzehe im Bosch MaxoMixx Universalzerkleinerer pulversieren. In einer ausreichend großen Schüssel den zerkleinerten Knoblauch mit 20 g Shiro Miso, 10 g Sesamöl, 5 g Reisessig und 10 ml kaltem Wasser (Option A) zu einer homogenen Viskosität verrühren.
-
-5. **Vereinigung:** Edamame sofort nach dem Druckablass entnehmen und abtropfen lassen. Heiß in die Schüssel geben und mechanisch schwenken (Tossing), bis die Schoten gleichmäßig mit der Miso-Emulsion benetzt sind.
-
-6. **Ausgabe:** Unverzüglich servieren.
-
-Möchtest du eine Anpassung der Viskosität der Miso-Glasur oder eine Erweiterung um eine Schärfe-Komponente evaluieren?
+Bei 0 Minuten reicht der Druckaufbau als Wärmedosis für gefrorene Edamame; der sofortige Druckablass stoppt das Nachgaren. Über Dampf statt im Wasser laugt nichts aus, deshalb genügt ungefiltertes Leitungswasser. Miso kommt erst danach dazu, damit seine Kulturen erhalten bleiben.

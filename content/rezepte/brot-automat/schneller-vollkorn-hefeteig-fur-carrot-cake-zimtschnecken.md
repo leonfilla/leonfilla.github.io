@@ -1,113 +1,59 @@
 ---
-titel: Schneller Vollkorn-Hefeteig für Carrot-Cake-Zimtschnecken
+titel: Carrot-Cake-Zimtschnecken mit Dinkel-Vollkornteig
 status: aktiv
 datum: '2025-11-27'
-quelle:
-  typ: gemini
-  url: https://gemini.google.com/app/88116ab49ecbdcc8
-  hinweis: zeig mir rezepte für einen schnellen Hefeteig für Carrot-Cake-Zimtschnecken, am …
+quelle: {typ: gemini, url: 'https://gemini.google.com/app/88116ab49ecbdcc8', hinweis: 'zeig mir rezepte für einen schnellen Hefeteig für Carrot-Cake-Zimtschnecken, am …'}
 importiert: true
+linie: carrot-cake-zimtschnecken-2025-11-27
+variante: Dinkel, 60 % Vollkorn
+fokus: Saftiger Hefeteig mit 60 % Dinkelvollkorn und geraspelten Karotten aus dem Panasonic-Teigprogramm, gefüllt mit Zimt-Zucker-Butter und Frischkäse-Frosting.
+ergebnis: 1 Auflaufform Schnecken
+zeit: {aktiv: 30, gesamt: 220}
+geraete: [panasonic-sd-yr2540, bosch-hng978]
+tags: [süß, Hefeteig, Vollkorn]
+brot: {programm: 'Brot-Teig (empfohlen, ca. 2 h 20 min) oder Pizza-Teig (ca. 45 min) – Menü-Nr. laut Deckeltabelle'}
+ofen: {modus: Umluft, temp: 180, zeit: 20–25, form: Auflaufform}
+zutaten:
+- {gruppe: Teig (Backform), name: Dinkelvollkornmehl (oder Weizenvollkorn), menge: 300, einheit: g, mehl: true}
+- {gruppe: Teig (Backform), name: Dinkelmehl Type 630, menge: 200, einheit: g, mehl: true}
+- {gruppe: Teig (Backform), name: Salz, menge: 1, einheit: TL}
+- {gruppe: Teig (Backform), name: Rohrzucker oder Honig, menge: 40, einheit: g}
+- {gruppe: Teig (Backform), name: Zimt, menge: 1, einheit: TL}
+- {gruppe: Teig (Backform), name: Muskatnuss, menge: 0.5, einheit: TL, hinweis: optional}
+- {gruppe: Teig (Backform), name: 'Butter, weich, in Flocken', menge: 50, einheit: g}
+- {gruppe: Teig (Backform), name: 'Karotten, fein geraspelt und gut ausgedrückt', menge: 150, einheit: g}
+- {gruppe: Teig (Backform), name: 'Milch oder Hafermilch, lauwarm', menge: 180, einheit: ml, wasser: 0.87}
+- {gruppe: Teig (Backform), name: 'Ei, Größe M', menge: 1, einheit: '', hinweis: verquirlt}
+- {gruppe: Hefespender, name: Trockenhefe, menge: 7, einheit: g, hinweis: 1 Päckchen}
+- {gruppe: Füllung, name: 'Butter, sehr weich', menge: 80, einheit: g}
+- {gruppe: Füllung, name: Brauner Zucker, menge: 100, einheit: g}
+- {gruppe: Füllung, name: Zimt, menge: 2, einheit: TL}
+- {gruppe: Füllung, name: 'Walnüsse oder Pekannüsse, gehackt', menge: 50, einheit: g, hinweis: optional}
+- {gruppe: Füllung, name: Orangenabrieb oder -saft, hinweis: optional}
+- {gruppe: Frosting, name: 'Frischkäse, Doppelrahmstufe', menge: 100, einheit: g}
+- {gruppe: Frosting, name: Puderzucker, menge: 30, einheit: g}
+- {gruppe: Frosting, name: Zitronensaft, hinweis: ein Spritzer}
+schritte:
+- {titel: Knethaken einsetzen, text: Den normalen Knethaken einsetzen.}
+- {titel: Backform füllen, text: 'Mehle, Salz, Zucker, Gewürze und Butter in die Form geben, die ausgedrückten Karotten darauf, Milch und verquirltes Ei außen herum gießen.'}
+- {titel: Hefe einfüllen, text: 7 g Trockenhefe in den Hefespender geben.}
+- {titel: Teigprogramm starten, text: Brot-Teig-Programm starten (ca. 2 h 20 min). Beim Pizza-Teig-Programm den Teig danach noch 20 Minuten im ausgeschalteten Gerät ruhen lassen., timer: 8400}
+- {titel: Ausrollen und füllen, text: 'Teig auf bemehlter Fläche zu einem Rechteck ausrollen, mit Butter, Zucker und Zimt bestreichen, Nüsse und Orangenabrieb darauf.'}
+- {titel: Schneiden, text: 'Aufrollen, in 3–4 cm dicke Scheiben schneiden und in eine Auflaufform setzen.'}
+- {titel: Gehen lassen, text: Abgedeckt ca. 30 Minuten gehen lassen., timer: 1800}
+- {titel: Backen, text: Bei 180 °C Umluft 20–25 Minuten backen., timer: 1350}
+- {titel: Frosting, text: '100 g Frischkäse, 30 g Puderzucker und einen Spritzer Zitrone verrühren und auf die warmen, nicht heißen Schnecken streichen.'}
 ---
 
-> **Frage im Chat:** zeig mir rezepte für einen schnellen Hefeteig für Carrot-Cake-Zimtschnecken, am besten mit einem hohen Anteil an Vollkornmehl für Panasonic SD-YR2540
+## Warum so
 
-Da Vollkornmehl mehr Flüssigkeit absorbiert und schwerer aufgeht als Weißmehl, müssen wir den Teig so anpassen, dass er trotzdem fluffig wird. Der Panasonic hat ausgezeichnete "Dough"-Programme (Teig-Programme), die wir hier nutzen.
+Dinkel-630er liefert das Klebergerüst, damit der Vollkornteig nicht zu kompakt wird. Die Karotten bringen Feuchtigkeit mit und geben sie erst beim Backen ab, deshalb ist die Milchmenge etwas reduziert. Die Anwärmphase des Brot-Teig-Programms hilft der Hefe gegen die schweren Ballaststoffe.
 
-#### Schneller Vollkorn-Hefeteig für Carrot-Cake-Zimtschnecken
+## Stellschrauben
 
-(Optimiert für das Programm "Pizza Teig" oder "Brot Teig" im Panasonic)
+- Teig zu nass → Karotten noch gründlicher ausdrücken
+- Teig zu kompakt → Brot-Teig- statt Pizza-Teig-Programm
 
-Dieses Rezept verwendet Dinkelvollkornmehl, da es etwas feinere Backeigenschaften hat als Weizenvollkorn, aber du kannst es 1:1 austauschen. Der Karottenanteil macht den Teig extrem saftig.
+## Varianten
 
-**Zubereitungszeit im Automat:** ca. 45 Min (Pizza-Modus) oder 2:20 Std (Brot-Teig-Modus – empfohlen für mehr Vollkorn).
-
-#### Zutaten für den Teig (in den Backbehälter)
-
-- **Hefe:** 1 Päckchen Trockenhefe (ca. 7g) – in den Hefeverteiler geben
-
-- **Mehl 1:** 300 g Dinkelvollkornmehl (oder Weizenvollkorn)
-
-- **Mehl 2:** 200 g Dinkelmehl Type 630 (für die Kleberstruktur wichtig, damit es nicht zu kompakt wird)
-
-- **Karotten:** 150 g fein geraspelt (gut ausdrücken, damit der Teig nicht zu nass wird!)
-
-- **Zucker:** 40 g Rohrzucker oder Honig
-
-- **Salz:** 1 TL
-
-- **Gewürze:** 1 TL Zimt, ½ TL Muskatnuss (optional für den Carrot-Cake-Geschmack im Teig)
-
-- **Fett:** 50 g weiche Butter (in kleinen Flocken)
-
-- **Flüssigkeit:** 180 ml lauwarme Milch (oder Hafermilch) + 1 Ei (Größe M)
-
----
-
-#### Anleitung für den Panasonic SD-YR2540
-
-1. **Vorbereitung:** Den Knethaken für "Normal" (nicht den für Roggen, falls vorhanden) einsetzen.
-
-2. **Reihenfolge:**
-
-  - Gib zuerst das Mehl, Salz, Zucker, Gewürze und die Butter in den Behälter.
-
-  - Gib die geraspelten Karotten dazu.
-
-  - Gieße die Flüssigkeit (Milch + verquirltes Ei) außen herum.
-
-  - Gib die Trockenhefe oben in den **Hefeverteiler**.
-
-3. **Programmwahl:**
-
-  - Option A (Schnell): Wähle das Menü für **Pizza Teig** (oft Menü 30 oder 31, checke deine Tabelle im Deckel). Das dauert nur ca. 45 Minuten. Da Vollkorn aber länger quellen muss, lass den Teig nach dem Programm noch 20 Min im ausgeschalteten Gerät ruhen.
-
-  - Option B (Besser für Vollkorn): Wähle das Menü für **Brot Teig** (oft Menü 18 oder 19). Das dauert länger (ca. 2 Std. 20 Min), liefert aber bei hohem Vollkornanteil das fluffigere Ergebnis.
-
-4. **Weiterverarbeitung:**
-
-  - Teig auf einer bemehlten Fläche ausrollen (Rechteck).
-
-  - Mit der Füllung (siehe unten) bestreichen.
-
-  - Aufrollen, in ca. 3-4 cm dicke Scheiben schneiden.
-
-  - In eine Auflaufform setzen und abgedeckt nochmals ca. 30 Minuten gehen lassen (wichtig bei schwerem Teig!).
-
-  - Bei **180°C Umluft ca. 20–25 Minuten** backen.
-
----
-
-#### Die "Carrot Cake"-Füllung & Frosting
-
-Damit es wirklich nach Karottenkuchen schmeckt und nicht nur nach Zimt, hier der Twist für die Füllung:
-
-**Füllung:**
-
-- 80 g sehr weiche Butter
-
-- 100 g brauner Zucker
-
-- 2 TL Zimt
-
-- 50 g gehackte Walnüsse oder Pekannüsse (optional)
-
-- Tipp: Ein Schuss Orangensaft oder Abrieb in die Füllung gibt Frische.
-
-**Frosting (Der "Mediziner-Boost" für die Nervennahrung):**
-Klassisches Frischkäse-Frosting gehört einfach dazu.
-
-- 100 g Frischkäse (Doppelrahmstufe)
-
-- 30 g Puderzucker
-
-- Ein Spritzer Zitrone
-
-- Verrühren und auf die noch warmen (nicht heißen!) Schnecken streichen.
-
-#### Warum dieses Rezept funktioniert
-
-- **Hydratation:** Vollkornmehl bindet mehr Wasser. Die Karotten bringen Feuchtigkeit mit, geben sie aber erst beim Backen so richtig frei. Daher ist die Flüssigkeitsmenge oben etwas reduziert im Vergleich zu reinen Brotteigen, damit der Teig im Automaten nicht matschig wird.
-
-- **Teigführung:** Der Panasonic SD-YR2540 hat eine sehr sanfte Anwärmphase ("Rest"), die der Hefe hilft, auch gegen die schweren Ballaststoffe des Vollkorns anzukommen.
-
-Soll ich dir noch eine Variante berechnen, die komplett (100%) aus Vollkornmehl besteht, oder ist die 60/40 Mischung für dich okay?
+- Weizenvollkorn statt Dinkelvollkorn 1:1

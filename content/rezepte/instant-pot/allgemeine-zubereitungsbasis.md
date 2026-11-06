@@ -1,5 +1,5 @@
 ---
-titel: Allgemeine Zubereitungsbasis
+titel: Beluga-Linsen mit Edamame, Brokkoli und Olivenöl
 status: aktiv
 datum: '2026-04-28'
 quelle:
@@ -7,90 +7,39 @@ quelle:
   url: https://gemini.google.com/app/3f6bdc31c0b0525a
   hinweis: 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK Gem…
 importiert: true
+linie: beluga-linsen-basis-tk-gemuese-2026-04-28
+variante: Edamame-Brokkoli
+fokus: Bissfeste Beluga-Linsen als Grundtopf, Brokkoli und Edamame garen nur in der Restwärme. Olivenöl und Kräuter zum Schluss.
+ergebnis: 4–6 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 30}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegetarisch, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 9
+  ablass: Natural Release
+  ablass_min: 5
+zutaten:
+  - {gruppe: Basis, name: Beluga-Linsen, menge: 400, einheit: g, hinweis: gewaschen}
+  - {gruppe: Basis, name: Wasser oder Gemüsebrühe, menge: 1000, einheit: ml}
+  - {gruppe: Basis, name: TK-Zwiebeln, menge: 150, einheit: g}
+  - {gruppe: Basis, name: TK-Knoblauch, menge: 2.5, einheit: TL, hinweis: 2–3 TL}
+  - {gruppe: Nach dem Garen, name: TK-Brokkoli, menge: 300, einheit: g}
+  - {gruppe: Nach dem Garen, name: TK-Edamame, menge: 200, einheit: g}
+  - {gruppe: Finish, name: Natives Olivenöl extra, menge: 4, einheit: EL}
+  - {gruppe: Finish, name: TK-Kräuter, menge: 3, einheit: EL}
+  - {gruppe: Finish, name: Salz und Pfeffer, hinweis: zum Abschmecken}
+schritte:
+  - {titel: Einfüllen, text: "400 g Linsen, 1000 ml Wasser, 150 g Zwiebeln und den Knoblauch in den Innentopf geben."}
+  - {titel: Druckgaren, text: "Deckel verriegeln. Pressure Cook, High, 9 Minuten.", timer: 540}
+  - {titel: Natural Release, text: "5 Minuten Natural Release, dann Quick Release.", timer: 300}
+  - {titel: Gemüse einrühren, text: 300 g Brokkoli und 200 g Edamame einrühren.}
+  - {titel: Warmhalten, text: Deckel auflegen und 5 Minuten auf Keep Warm garen., timer: 300}
+  - {titel: Fertigstellen, text: "4 EL Olivenöl und 3 EL Kräuter unterheben, mit Salz und Pfeffer abschmecken."}
 ---
 
-> **Frage im Chat:** 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK Gemüse (Spinat, Brokkoli, Edamame, grüne Bohnen, Erbsen, Zwiebeln, Kräuter, Knoblauch sind vorhanden) ohne anbraten, mit Beluga-Linsen. Insgesamt 4-6 Portionen.
+## Warum so
 
-Diese Parameter gelten für alle fünf Rezepte, um eine konsistente Textur der Beluga-Linsen (Bissfestigkeit) zu gewährleisten und das Zerkochen des TK-Gemüses zu verhindern.
-
-- **Portionen:** 4–6
-
-- **Gerät:** Instant Pot Pro Max Wifi
-
-- **Grundzutaten (vor dem Druckkochen in den Topf geben):** * 400 g Beluga-Linsen (gewaschen)
-
-  - 1000 ml Wasser oder Gemüsebrühe
-
-  - 150 g TK-Zwiebeln
-
-  - 2–3 TL TK-Knoblauch
-
-- **Druckkochen:** Deckel verriegeln. Programm **Pressure Cook** wählen. Druckstufe **High Pressure**. Zeit: **9 Minuten**.
-
-- **Druckabbau:** Nach Ablauf der Zeit **5 Minuten Natural Release (NR)** abwarten. Danach den restlichen Druck über das Ventil ablassen (**Quick Release**, auch via App steuerbar).
-
-- **Gemüse & Öl:** Das restliche TK-Gemüse wird erst nach dem Druckkochen in die heiße Masse eingerührt. Die Restwärme (Funktion: **Keep Warm**) taut das Gemüse in 3–5 Minuten auf und gart es bissfest. Gesunde Öle werden am Schluss untergehoben, um hitzeempfindliche Fettsäuren zu erhalten.
-
----
-
-#### 1. Edamame-Brokkoli-Linsen mit Olivenöl
-
-1. Grundzutaten nach Anleitung druckkochen.
-
-2. Nach dem Druckabbau **300 g TK-Brokkoli** und **200 g TK-Edamame** einrühren.
-
-3. Deckel für 5 Minuten auflegen (Keep Warm).
-
-4. **4 EL natives Olivenöl extra** und 3 EL TK-Kräuter unterheben.
-
-5. Mit Salz und Pfeffer abschmecken.
-
-#### 2. Spinat-Knoblauch-Linsen mit Walnussöl
-
-1. Grundzutaten (mit doppelter Menge TK-Knoblauch) nach Anleitung druckkochen.
-
-2. Nach dem Druckabbau **400 g TK-Spinat** einrühren.
-
-3. Deckel für 3 Minuten auflegen (Keep Warm), bis der Spinat zerfallen und erhitzt ist.
-
-4. **4 EL Walnussöl** unterheben.
-
-5. Mit Salz, Pfeffer und optional Muskatnuss abschmecken.
-
-#### 3. Grüne-Bohnen-Linsen-Topf mit Avocadoöl
-
-1. Grundzutaten nach Anleitung druckkochen.
-
-2. Nach dem Druckabbau **400 g TK-grüne Bohnen** einrühren.
-
-3. Deckel für 5 Minuten auflegen (Keep Warm).
-
-4. **4 EL Avocadoöl** und 3 EL TK-Kräuter unterheben. Avocadoöl ist hitzestabil, profitiert hier aber geschmacklich von der späten Zugabe.
-
-5. Mit Salz und kräftig Pfeffer abschmecken.
-
-#### 4. Erbsen-Edamame-Linsen mit Leinöl
-
-1. Grundzutaten nach Anleitung druckkochen.
-
-2. Nach dem Druckabbau **200 g TK-Erbsen** und **200 g TK-Edamame** einrühren.
-
-3. Deckel für 3 Minuten auflegen (Keep Warm).
-
-4. Funktion "Keep Warm" deaktivieren, Linsen kurz ausdampfen lassen.
-
-5. **4 EL kaltgepresstes Leinöl** (darf nicht erhitzt werden) und 2 EL hellen Essig (z. B. Apfelessig) unterheben.
-
-6. Mit 2 EL TK-Kräutern, Salz und Pfeffer abschmecken.
-
-#### 5. Mediterraner Grüner-Mix mit Olivenöl
-
-1. Grundzutaten nach Anleitung druckkochen.
-
-2. Nach dem Druckabbau eine Mischung aus **je 100 g TK-Spinat, TK-Brokkoli, TK-Erbsen, TK-grüne Bohnen und TK-Edamame** einrühren.
-
-3. Deckel für 5 Minuten auflegen (Keep Warm).
-
-4. **5 EL natives Olivenöl extra** und 4 EL TK-Kräuter unterheben.
-
-5. Mit Salz und Pfeffer abschmecken.
+Die Linsen garen mit 9 Minuten High und 5 Minuten Natural Release bissfest. Das TK-Gemüse kommt erst danach in die heiße Masse und gart auf Keep Warm in 3–5 Minuten, ohne zu zerkochen; die Öle kommen zuletzt, damit hitzeempfindliche Fettsäuren erhalten bleiben.

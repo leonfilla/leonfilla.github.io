@@ -1,5 +1,5 @@
 ---
-titel: Genovese-Pesto (optimiert)
+titel: Genovese-Pesto, optimiert
 status: aktiv
 datum: '2026-05-05'
 quelle:
@@ -8,7 +8,11 @@ quelle:
   hinweis: Basilikumpesto-Varianten für Vollkornnudeln
 importiert: true
 linie: klassisches-basilikumpesto-alla-genovese-166e9
-fokus: Wissenschaftlich optimiert – Chlorophyll-Fixierung durch Blanchieren, Emulgierung durch Nudelwasser, alles in Gramm
+fokus: Klassisches Pesto alla Genovese, alles in Gramm. Blanchiertes Basilikum und kaltes Öl halten es leuchtend grün, Nudelwasser emulgiert die Sauce.
+variante: Optimiert
+ergebnis: 4 Portionen
+zeit: {aktiv: 25, gesamt: 45}
+tags: [Abendessen, Pasta, vegetarisch]
 portionen: 4
 zutaten:
 - name: Basilikumblätter, jung (kleine Blätter bevorzugt)
@@ -56,7 +60,10 @@ schritte:
   text: Abgegossene heiße Nudeln in eine vorgetärmte Schüssel geben. Pesto zugeben, sofort 40–60 g Nudelwasser einarbeiten und zügig schwenken. Das heiße Stärkewasser emulgiert das Olivenöl und erzeugt eine seidig-bindende Sauce. Pesto selbst nie erhitzen.
 ---
 
-Warum blanchieres Basilikum? Die kurze Hitze deaktiviert Polyphenoloxidasen – die Enzyme, die Basilikum beim Mixen schwarz werden lassen. Das Pesto bleibt leuchtend grün, auch noch am nächsten Tag.
-Warum kaltes Öl? Reibungshitze im Mixer ist der Feind von Basilikum-Chlorophyll. Kaltes Öl und kurze Mixzeiten halten die Temperatur unter 10 °C.
-Warum Eiswasser? Stoppt den Garprozess sofort und fixiert die grüne Farbe dauerhaft.
-Lagerung: Mit Olivenöl abgedeckt, 5–6 Tage im Kühlschrank – kaum Farbverlust dank Blanchier-Schritt.
+## Warum so
+
+Zehn Sekunden kochendes Wasser deaktivieren die Polyphenoloxidasen, die Basilikum beim Mixen schwarz werden lassen; das Eiswasser stoppt den Garprozess sofort. Reibungswärme im Mixer schadet dem Chlorophyll, deshalb kaltes Öl und nur kurze Pulse. Das grobe Salz wirkt im Mörser als Schleifmittel für den Knoblauch. Heißes Stärkewasser emulgiert das Öl zu einer seidigen Sauce; das Pesto selbst wird nie erhitzt.
+
+## Varianten
+
+- Lagerung: mit Olivenöl abgedeckt 5–6 Tage im Kühlschrank, kaum Farbverlust dank Blanchieren.

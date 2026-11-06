@@ -1,5 +1,5 @@
 ---
-titel: 'Funktionales Rezept: Haselnuss-Hanf-Zucchini'
+titel: Haselnuss-Hanf-Zucchini-Kuchen
 status: aktiv
 datum: '2026-02-13'
 quelle:
@@ -7,81 +7,50 @@ quelle:
   url: https://gemini.google.com/app/088e079a2bd27a33
   hinweis: Zeige mir 5 verschiedene süße Backrezepte, die einen geringen Anteil an zugesetz…
 importiert: true
+linie: haselnuss-hanf-zucchini-kuchen-20260213
+fokus: Saftiger Zucchini-Apfel-Kuchen ohne zugesetzten Zucker auf Basis gemahlener Haselnüsse, mit geschälten Hanfsamen und Walnüssen. Buchweizenmehl bindet nur minimal.
+ergebnis: 1 Kastenform 25 cm
+zeit: {aktiv: 20, gesamt: 75}
+geraete: [bosch-hng978]
+tags: [Kuchen, ohne Zucker, Vollkorn]
+ofen:
+  modus: Umluft
+  temp: 175
+  zeit: "50–55"
+  form: Kastenform 25 cm, gefettet
+zutaten:
+- {gruppe: Feuchte Masse, name: Zucchini, menge: 400, einheit: g, hinweis: "geraspelt, sehr stark ausgedrückt"}
+- {gruppe: Feuchte Masse, name: Eier, menge: 4, einheit: "", hinweis: Größe M}
+- {gruppe: Feuchte Masse, name: Äpfel, menge: 2, einheit: "", hinweis: "klein, mit Schale geraspelt, Saft behalten"}
+- {gruppe: Trockene Masse, name: Gemahlene Haselnüsse, menge: 200, einheit: g}
+- {gruppe: Trockene Masse, name: Geschälte Hanfsamen, menge: 50, einheit: g}
+- {gruppe: Trockene Masse, name: Buchweizenvollkornmehl, menge: 30, einheit: g}
+- {gruppe: Trockene Masse, name: Backpulver, menge: 15, einheit: g, hinweis: 1 Päckchen}
+- {gruppe: Trockene Masse, name: Zimt, menge: 2, einheit: TL}
+- {gruppe: Trockene Masse, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Finish, name: Walnüsse, menge: 50, einheit: g, hinweis: grob gehackt}
+schritte:
+- titel: Zucchini salzen
+  text: 400 g Zucchini grob raspeln, leicht salzen und stehen lassen.
+  timer: 600
+- titel: Ausdrücken
+  text: In einem sauberen Tuch maximal ausdrücken, bis das Volumen deutlich geschrumpft ist. Ofen auf 175 °C Umluft vorheizen.
+- titel: Eier aufschlagen
+  text: 4 Eier schaumig schlagen, Zucchini und geraspelte Äpfel samt Saft unterrühren.
+- titel: Trockenes unterheben
+  text: 200 g Haselnüsse, 50 g Hanfsamen, 30 g Buchweizenmehl, Backpulver, 2 TL Zimt und 1 Prise Salz mischen und zügig unter die Eimasse heben.
+- titel: Walnüsse unterheben
+  text: 50 g gehackte Walnüsse zum Schluss unterheben und den Teig in die gefettete Kastenform füllen.
+- titel: Backen
+  text: Bei 175 °C Umluft 50–55 Minuten backen. Stäbchenprobe – feucht, aber nicht flüssig.
+  timer: 3000
 ---
 
-> **Frage im Chat:** Maximal 50 Gramm Walnüsse bitte, ich habe nun 200 Gramm gemahlene haselnüsse. Wären geschälte Hanfsamen als Zusatz sinnvoll?
+## Warum so
 
-**Analyse: Geschälte Hanfsamen**
-Ja, absolut sinnvoll.
+Gemahlene Haselnüsse saugen weniger Flüssigkeit als Walnüsse, deshalb muss die Zucchini maximal entwässert werden, sonst wird der Kuchen nass. Hanfsamen binden kaum Wasser, verdichten aber Protein und Fett (günstiges Omega-3/6-Verhältnis) und geben nussige Textur. Walnüsse zuletzt, damit sie knackig bleiben.
 
-2. **Fettsäuren:** Perfektes Verhältnis von Omega-3 zu Omega-6.
+## Stellschrauben
 
-3. **Struktur:** Sie binden kaum Flüssigkeit (anders als Mehl), geben aber eine nussige Textur, ohne den Kuchen trocken zu machen.
-
-Hier ist das auf deine Bestände (200 g Haselnuss, max. 50 g Walnuss) und die Hanfsamen optimierte Rezept.
-
-#### Funktionales Rezept: Haselnuss-Hanf-Zucchini
-
-Ersetzt die Walnuss-Basis durch Haselnuss und nutzt Hanfsamen zur Nährwertverdichtung.
-
-- **Vorbereitung:** 20 Min.
-
-- **Backzeit:** ca. 50 Min.
-
-- **Temperatur:** 175°C (Umluft)
-
-#### Zutaten
-
-**Feuchte Masse:**
-
-- 4 Eier (Größe M)
-
-- 400 g Zucchini (geraspelt, **sehr stark ausgedrückt**)
-
-- 2 kleine Äpfel (geraspelt, mit Schale, Saft behalten)
-
-**Trockene Masse:**
-
-- 200 g gemahlene Haselnüsse (deine Hauptbasis)
-
-- 50 g Walnüsse (grob gehackt – für den "Crunch")
-
-- 50 g geschälte Hanfsamen
-
-- 30 g Buchweizenvollkornmehl (als Binder)
-
-- 1 Pck. Backpulver
-
-- 2 TL Zimt
-
-- 1 Prise Salz
-
-#### Zubereitung
-
-1. 
-
-**Zucchini entwässern:**
-Zucchini grob raspeln, leicht salzen, 10 Min. stehen lassen. In ein sauberes Tuch geben und **maximal ausdrücken**. Das Volumen muss deutlich schrumpfen, sonst wird der Kuchen bei 200 g Haselnüssen (die weniger saugen als Walnüsse) zu nass.
-
-2. 
-
-**Mischen:**
-Eier schaumig schlagen. Die Zucchini-Trockenmasse und die geraspelten Äpfel unterrühren.
-
-3. 
-
-**Trockene Zutaten:**
-Gemahlene Haselnüsse, Hanfsamen, Buchweizenmehl, Backpulver und Gewürze mischen. Zügig unter die Eimasse heben.
-
-4. 
-
-**Finish:**
-Die 50 g gehackten Walnüsse ganz zum Schluss unterheben (damit sie knackig bleiben).
-
-5. 
-
-**Backen:**
-In eine gefettete Kastenform (25 cm) füllen. Bei 175°C Umluft ca. 50–55 Minuten backen.
-Stäbchenprobe: Der Teig darf feucht sein, aber nicht flüssig.
-
-**Lagerung:** Im Kühlschrank (hält 3–4 Tage). Kalt schmeckt er fester und weniger "eiig".
+- Kuchen zu nass → Zucchini stärker ausdrücken
+- Schmeckt warm eiig → im Kühlschrank lagern (3–4 Tage), kalt ist er fester

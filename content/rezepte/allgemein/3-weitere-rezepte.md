@@ -1,5 +1,5 @@
 ---
-titel: 3 weitere Rezepte
+titel: Smoky-Chipotle-Thunfisch-Nudelauflauf mit Cheddar
 status: aktiv
 datum: '2026-04-23'
 quelle:
@@ -10,146 +10,51 @@ quelle:
 
     An Käse ist folgendes…'
 importiert: true
+linie: thunfisch-nudelauflauf-2026-04-23
+variante: Smoky Chipotle
+fokus: Rauchig-scharfer Thunfisch-Nudelauflauf mit angebratener Zucchini und Paprika in Tomaten-Schmand-Sauce unter Cheddar.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 15, gesamt: 40}
+geraete: [bosch-hng978]
+tags: [Abendessen, Auflauf, High Protein, Meal Prep]
+ofen:
+  modus: Ober-/Unterhitze
+  temp: 200
+  zeit: 20
+  form: Auflaufform
+zutaten:
+  - {gruppe: Basis, name: 'Nudeln, z. B. Makkaroni', menge: 250, einheit: g}
+  - {name: Thunfisch, menge: 300, einheit: g, hinweis: 'im eigenen Saft, Abtropfgewicht'}
+  - {gruppe: Gemüse, name: Rapsöl, menge: 10, einheit: g}
+  - {name: Zucchini, menge: 250, einheit: g, hinweis: gewürfelt}
+  - {name: Rote Paprika, menge: 150, einheit: g, hinweis: gewürfelt}
+  - {name: Frühlingszwiebeln, menge: 100, einheit: g, hinweis: in Ringen}
+  - {gruppe: Sauce, name: Passierte Tomaten, menge: 300, einheit: g}
+  - {name: 'Schmand, 24 % Fett', menge: 100, einheit: g}
+  - {name: Geräuchertes Paprikapulver, menge: 15, einheit: g}
+  - {name: Chilipulver, menge: 5, einheit: g}
+  - {name: Salz, menge: 5, einheit: g}
+  - {name: Schwarzer Pfeffer, menge: 2, einheit: g}
+  - {gruppe: Topping, name: Cheddar, menge: 150, einheit: g, hinweis: gerieben}
+schritte:
+- titel: Nudeln kochen
+  text: 250 g Nudeln bissfest kochen und abgießen.
+- titel: Gemüse anbraten
+  text: 10 g Rapsöl erhitzen, 250 g Zucchini und 150 g Paprika darin anbraten.
+  timer: 240
+- titel: Frühlingszwiebeln mitbraten
+  text: 100 g Frühlingszwiebeln zugeben und mitbraten.
+  timer: 60
+- titel: Sauce aufkochen
+  text: 300 g passierte Tomaten, 100 g Schmand, 15 g Paprikapulver, 5 g Chilipulver, 5 g Salz und 2 g Pfeffer einrühren und kurz aufkochen.
+- titel: In der Form mischen
+  text: Nudeln, 300 g Thunfisch und die Sauce in einer Auflaufform mischen und mit 150 g Cheddar bestreuen.
+- titel: Backen
+  text: Bei 200 °C Ober-/Unterhitze backen.
+  timer: 1200
 ---
 
-> **Frage im Chat:** 3 weitere Rezepte
+## Warum so
 
-**Zutaten:**
-
-- 250g Nudeln (z. B. Makkaroni)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (gewürfelt)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 150g rote Paprika (gewürfelt)
-
-- 150g Cheddar (gerieben)
-
-- 300g passierte Tomaten
-
-- 100g Schmand (24 % Fett)
-
-- 10g Rapsöl
-
-- 15g geräuchertes Paprikapulver
-
-- 5g Chilipulver
-
-- 5g Salz
-
-- 2g schwarzer Pfeffer
-
-**Zubereitung:**
-
-1. 250g Nudeln bissfest kochen und abgießen.
-
-2. 10g Rapsöl in einer Pfanne erhitzen. 250g Zucchini und 150g Paprika darin 4 Minuten anbraten.
-
-3. 100g Frühlingszwiebeln hinzufügen und 1 Minute mitbraten.
-
-4. 300g passierte Tomaten, 100g Schmand, 15g geräuchertes Paprikapulver, 5g Chilipulver, 5g Salz und 2g Pfeffer einrühren. Kurz aufkochen.
-
-5. Nudeln, 300g Thunfisch und die Tomatensauce in einer Auflaufform mischen.
-
-6. Mit 150g Cheddar bestreuen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 20 Minuten backen.
-
----
-
-#### 8. Pesto-Rosso-Spinat-Auflauf mit Mozzarella
-
-**Zutaten:**
-
-- 250g Nudeln (z. B. Fusilli)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (in halben Scheiben)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 150g Blattspinat (Tiefkühlware, aufgetaut und ausgedrückt)
-
-- 150g Mozzarella (gerieben)
-
-- 200g Sahne (30 % Fett)
-
-- 80g Pesto Rosso
-
-- 20g Zitronensaft
-
-- 5g Chiliflocken
-
-- 5g Salz
-
-- 2g schwarzer Pfeffer
-
-**Zubereitung:**
-
-1. 250g Nudeln kochen und abgießen.
-
-2. 250g Zucchini in einer Pfanne ohne Fett anbraten, bis das Wasser verdampft ist.
-
-3. 100g Frühlingszwiebeln und 150g ausgedrückten Spinat unterheben.
-
-4. 200g Sahne, 80g Pesto Rosso, 20g Zitronensaft, 5g Chiliflocken, 5g Salz und 2g Pfeffer verrühren.
-
-5. Nudeln, Gemüse, 300g Thunfisch und die Pesto-Sahne-Sauce in einer Auflaufform vermengen.
-
-6. Mit 150g Mozzarella bestreuen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 20 Minuten backen.
-
----
-
-#### 9. Pikanter Oliven-Kapern-Auflauf mit Feta
-
-**Zutaten:**
-
-- 250g Nudeln (z. B. Penne)
-
-- 300g Thunfisch (Abtropfgewicht)
-
-- 250g Zucchini (gewürfelt)
-
-- 100g Frühlingszwiebeln (in Ringen)
-
-- 80g schwarze Oliven (entsteint, in Ringen)
-
-- 20g Kapern (abgetropft)
-
-- 150g Feta (zerbröselt)
-
-- 400g stückige Tomaten (Dose)
-
-- 10g Olivenöl
-
-- 10g Knoblauch (fein gehackt)
-
-- 5g getrockneter Oregano
-
-- 3g Cayennepfeffer
-
-- 4g Salz
-
-- 2g schwarzer Pfeffer
-
-**Zubereitung:**
-
-1. 250g Nudeln kochen und abgießen.
-
-2. 10g Olivenöl in einer Pfanne erhitzen. 250g Zucchini darin 3 Minuten anbraten.
-
-3. 10g Knoblauch und 100g Frühlingszwiebeln zugeben und 1 Minute mitbraten.
-
-4. 400g stückige Tomaten, 80g Oliven, 20g Kapern, 5g Oregano, 3g Cayennepfeffer, 4g Salz und 2g Pfeffer unterrühren. 5 Minuten köcheln lassen.
-
-5. Nudeln, 300g Thunfisch und die Tomatensauce in der Auflaufform mischen.
-
-6. 150g Feta gleichmäßig über der Masse verteilen.
-
-7. Bei 200°C (Ober-/Unterhitze) für 25 Minuten backen.
+Das Gemüse wird vorgebraten, damit es sein Wasser in der Pfanne statt in der Form abgibt; die Sauce kommt schon heiß in den Ofen, deshalb reichen 20–25 Minuten.

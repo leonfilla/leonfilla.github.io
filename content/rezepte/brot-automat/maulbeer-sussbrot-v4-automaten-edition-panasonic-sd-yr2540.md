@@ -1,135 +1,58 @@
 ---
-titel: Maulbeer‑Süßbrot v4 — Automaten‑Edition (Panasonic SD‑YR2540)
+titel: Maulbeer-Süßbrot v4 – Automaten-Edition
 status: archiv
 datum: '2026-07-02'
-quelle:
-  typ: claude
-  url: https://claude.ai/chat/da210ab5-ad2b-4e6a-a612-d0e7e68e43b6
-  hinweis: Maulbeerbrot mit Sauerteig und gesunden Fetten
+quelle: {typ: claude, url: 'https://claude.ai/chat/da210ab5-ad2b-4e6a-a612-d0e7e68e43b6', hinweis: Maulbeerbrot mit Sauerteig und gesunden Fetten}
 importiert: true
-linie: maulbeer-sussbrot-v5-vollkorn-edition-panasonic-sd-4237a
+linie: maulbeer-suessbrot
+variante: Automaten-Edition
+version: v4
+fokus: Weiches, süßes Brot mit 50 % Vollkorn, Mandelmus und Rapsöl, Zitrone, Kardamom und schwarzen Maulbeeren – komplett im Panasonic geknetet und gebacken. Zutaten einfüllen, drei Tasten, fertig.
+ergebnis: 1 Laib XL, ca. 1 kg
+zeit: {aktiv: 10, gesamt: 240}
+geraete: [panasonic-sd-yr2540]
+tags: [Frühstück, süß, Meal Prep]
+brot: {programm: Menü 3 – Basic Rosinen, groesse: XL, braeunung: hell, spender_g: 130}
+zutaten:
+- {gruppe: Backform, name: 'Weizenvollkornmehl, fein', menge: 250, einheit: g, mehl: true}
+- {gruppe: Backform, name: Weizenmehl Type 550, menge: 250, einheit: g, mehl: true, hinweis: 1 EL davon zum Bestäuben der Beeren}
+- {gruppe: Backform, name: Vollrohrzucker, menge: 50, einheit: g}
+- {gruppe: Backform, name: Salz, menge: 8, einheit: g}
+- {gruppe: Backform, name: 'Kardamom, gemahlen', menge: 3, einheit: g}
+- {gruppe: Backform, name: Abrieb von 1 Bio-Zitrone, menge: 4, einheit: g}
+- {gruppe: Backform, name: 'Mandelmus (braun, 100 %)', menge: 40, einheit: g}
+- {gruppe: Backform, name: Rapsöl, menge: 20, einheit: g}
+- {gruppe: Backform, name: 'Vollmilch, kühlschrankkalt', menge: 360, einheit: g, wasser: 0.87}
+- {gruppe: Hefespender, name: Trockenhefe, menge: 4, einheit: g, hinweis: 1¼ TL}
+- {gruppe: Rosinen-Nuss-Spender, name: 'Schwarze Maulbeeren, getrocknet, große halbiert', menge: 130, einheit: g, hinweis: trocken und rieselfähig}
+schritte:
+- {titel: Knethaken einsetzen, text: 'Den Standard-Knethaken einsetzen, nicht den Roggen-Knetkamm.'}
+- {titel: Backform füllen, text: 'Mehle, darauf Zucker, Salz, Kardamom und Zitronenabrieb, dann Mandelmus und Öl als Kleckse, zuletzt 360 g Milch angießen.'}
+- {titel: Hefe einfüllen, text: 4 g Trockenhefe in den Hefespender geben.}
+- {titel: Beeren einfüllen, text: 130 g Maulbeeren mit 1 EL Mehl vermischen und in den Rosinen-Nuss-Spender geben.}
+- {titel: Programm starten, text: 'Menü 3, Größe XL, Bräunung hell wählen und starten.', timer: 14400}
+- {titel: Stürzen, text: Nach den Signaltönen sofort aus der Form schütteln und auf dem Rost mindestens 2 Stunden auskühlen lassen., timer: 7200}
+changelog:
+- {version: v4, text: Komplett auf den Panasonic portiert (Kneten und Backen)}
+- {version: v4, text: 'Vollkorn 65 → 50 %, Dattelpaste → Vollrohrzucker'}
+- {version: v4, text: Reine Trockenhefe im Spender statt Levain-Hybrid}
+- {version: v4, text: Maulbeeren trocken in den Spender statt vorgequollen; Tangzhong entfällt}
 ---
 
-*Enriched · reiner Hefetrieb · 50 % Vollkorn · Vollrohrzucker · Zitrone & Kardamom · komplett geknetet & gebacken im SD‑YR2540 · grab‑and‑go für die M2‑Lernphase.*
+## Warum so
 
-**Änderung ggü. v3:** Komplett auf den **Panasonic SD‑YR2540** portiert (Kneten + Backen im Gerät) · Vollkornanteil **65 % → 50 %** (Obergrenze lt. Vorgabe, Reduktionsleiter bis 20 % s. Stellschrauben) · Süße **Dattelpaste → Vollrohrzucker** (Ahornsirup‑Variante s. Stellschrauben) · **Hybrid‑Trieb → reine Trockenhefe** im Hefespender (fixe Programmzeiten vertragen keinen variablen Levain) · **Maulbeeren trocken in den Spender** statt vorgequollen (feuchte Früchte verkleben die Verteilerklappe) · **Tangzhong entfällt im Basisrezept** (Aufwandsreduktion; als Upgrade in den Stellschrauben). — Fett bleibt wie in v3: **Mandelmus + Rapsöl**, keine Butter. Zitrone + Kardamom bleiben fix.
+10 % Zucker, Milchzucker und Fruchtzucker bräunen stark – „hell“ ergibt goldbraun, „mittel“ fast schwarz. Menü 3 statt Menü 9, weil die Vollkorn-Programme auf ≥ 60–70 % Vollkorn kalibriert sind und den süßen Teig übergären würden. Der Automat kann nicht auf Teigreife warten, daher reine Hefe statt Levain. Feuchte Früchte kleben in der Spenderklappe; die Milch ist um 10 g erhöht, damit die trockenen Beeren nachziehen können. Ca. 175 kcal pro 60-g-Scheibe.
 
-Weiterhin **Gegenstück zu V16, nicht Ersatz**: V16 ist mineralstoffoptimiert (100 % Vollkorn, Phytase‑Soak, pH‑kontrolliert). Dieses Brot ist auf **Energiedichte, Weichheit und minimale Aktivierungsenergie** getrimmt — Zutaten einfüllen, drei Tasten, fertig. Genau das richtige Reibungsniveau für eine Lernpausen‑Belohnung.
+## Stellschrauben
 
----
+- Krume zu kompakt → Vollkorn/550 stufenweise 200/300 g (350 g Milch), 150/350 g (340 g), 100/400 g (330 g)
+- Beeren verklumpen → beim Knet-Piepton von Hand zugeben
+- Süße anpassen → Zucker 40–60 g; über 12 % Hefe auf 5 g erhöhen
+- Timer gewünscht → 320 g Wasser + 25 g Magermilchpulver statt Vollmilch
 
-## 1. Zutaten (1 Laib, Größe XL, ~1,1 kg)
+## Varianten
 
-### 1.1 Backform (Reihenfolge wie gelistet einfüllen)
-
-| Zutat | Menge | Bäcker‑% |
-|---|---|---|
-| Weizenvollkornmehl, fein | 250 g | 50 % |
-| Weizenmehl Type 550 | 250 g | 50 % |
-| Vollrohrzucker | 50 g | 10 % |
-| Salz | 8 g | 1,6 % |
-| Gemahlener Kardamom | 3 g | 0,6 % |
-| Abrieb 1 Bio‑Zitrone | ~4 g | — |
-| Mandelmus (braun, 100 %) | 40 g | 8 % |
-| Rapsöl | 20 g | 4 % |
-| Vollmilch, kühlschrankkalt | 360 g | 72 % |
-
-### 1.2 Hefespender
-
-| Zutat | Menge |
-|---|---|
-| Trockenhefe | 4 g (1¼ TL) |
-
-### 1.3 Rosinen‑Nuss‑Spender
-
-| Zutat | Menge |
-|---|---|
-| Getrocknete schwarze Maulbeeren (Türkei), große Exemplare halbiert | 130 g |
-| Weizenmehl 550 zum Bestäuben (von den 250 g abzweigen) | 1 EL |
-
-→ Spendermaximum sind 150 g; 130 g lassen Luft, damit die Klappe sauber auslöst. Die Maulbeeren **müssen trocken und rieselfähig** sein — kurz durchmischen mit dem EL Mehl, damit nichts verklumpt. Sollten deine Maulbeeren einer klebrigen Charge entstammen (kommt je nach Ernte vor): s. Stellschraube S4.
-
----
-
-## 2. Ablauf am Gerät
-
-1. **Knethaken** (Standard, nicht der Roggen‑Knetkamm) einsetzen.
-2. Zutaten **in Reihenfolge 1.1** in die Backform: Mehle zuerst, Zucker/Salz/Gewürze/Abrieb darauf, Mandelmus + Öl als Kleckse verteilen, Milch zuletzt angießen. (Dank separatem Hefespender ist keine Hefe‑Salz‑Trennung in der Form nötig.)
-3. Trockenhefe in den **Hefespender**, Maulbeeren in den **Rosinen‑Nuss‑Spender**.
-4. **Menü 3 (Basic Rosinen) · Größe XL · Bräunung hell** wählen, Start.
-5. Nach Programmende (8 Signaltöne) Brot **sofort** aus der Form schütteln und auf einem Rost vollständig auskühlen lassen — in der heißen Form kondensiert die Krumenfeuchte und die Kruste wird ledrig.
-
-**Warum Bräunung „hell":** 10 % Zucker + Milchzucker + reduzierende Zucker aus den Maulbeeren beschleunigen Maillard und Karamellisierung massiv. „Mittel" liefert bei dieser Rezeptur eine fast schwarze Kruste; „hell" ergibt goldbraun.
-
-**Warum Menü 3 statt Menü 9 (Vollkorn Rosinen):** Die Vollkorn‑Programme sind auf ≥ 60–70 % Schalenanteil kalibriert (längere Quell‑ und Gehphasen gegen die Kleie‑Scherwirkung). Bei 50 % Vollkorn mit angereichertem, zuckerhaltigem Teig führt das längere Gärfenster eher zur Übergare. Erst wenn du die Vollkornleiter *nach oben* verlassen willst, wird Menü 9 relevant.
-
-**Timer‑Hinweis:** Mit Frischmilch keine Zeitvorwahl (Verkeimung über Stunden bei Raumtemperatur). Timer‑taugliche Variante: 320 g Wasser + 25 g Magermilchpulver statt 360 g Vollmilch — kostet ~2 g Fett, funktional identisch.
-
----
-
-## 3. Designentscheidungen (Kurzbegründung)
-
-**Fettmatrix Mandelmus + Rapsöl (statt Butter).** Zusammen ~42 g Reinfett bei günstigem Fettsäureprofil (überwiegend einfach ungesättigt, Rapsöl liefert α‑Linolensäure). Das Mandelmus bringt zusätzlich ~10 g Protein und Ballaststoffe mit — es verhält sich im Teig halb wie Fett (Kleber‑Shortening → zartere Krume), halb wie Feststoff (bindet etwas Wasser). Die 72 % Milchhydration sind darauf bereits abgestimmt.
-
-**50 % Vollkorn als Startpunkt.** Deine Obergrenze, und im Automaten realistisch die beste Balance: Das intensive maschinelle Kneten entwickelt das 550er‑Kleber­gerüst voll aus, das die Kleiepartikel des Vollkornanteils tragen muss. Die Fluffigkeits‑Reserve liegt in der Reduktionsleiter (Stellschraube S1), nicht in mehr Hefe oder mehr Zucker.
-
-**Reine Hefe statt Levain.** Der Automat kann nicht auf Teigreife warten — seine Gehzeiten sind Konstanten, keine Variablen. Ein Levain mit tagesformabhängiger Triebkraft erzeugt in diesem System Streuung ohne Nutzen. Das Säure‑Aroma lässt sich risikofrei nachrüsten (Stellschraube S3).
-
-**Vollrohrzucker statt Sirup als Standard.** Trockene Süße hält die Hydrationsrechnung stabil — im Automaten gibt es keinen Eingriffspunkt, an dem du Konsistenz nachkorrigieren könntest. Melasse‑Noten (Vollrohrzucker ist nicht raffiniert, Restmelasse ~5–10 %) harmonieren mit dem dunklen Karamellprofil der Maulbeeren.
-
-**Maulbeeren trocken statt vorgequollen.** Der Spender ist eine Fallklappe — feuchte, klebrige Früchte bleiben hängen oder fallen als Klumpen. Kompensation: +10 g Milch im Hauptteig gegenüber der rechnerischen Basis, damit die Früchte während Gare und Backen aus dem Teig nachziehen können, ohne die Krume zu entwässern. Turkische Maulbeeren sind zudem porös und rehydrieren im Teig schneller als z. B. Rosinen.
-
----
-
-## 4. Stellschrauben
-
-**S1 — Krume zu kompakt → Vollkornleiter abwärts.** Stufenweise je Mitbackung, nicht in einem Sprung:
-| Stufe | VK / 550 | Vollmilch |
-|---|---|---|
-| Basis | 250 / 250 g (50 %) | 360 g |
-| −1 | 200 / 300 g (40 %) | 350 g |
-| −2 | 150 / 350 g (30 %) | 340 g |
-| Minimum | 100 / 400 g (20 %) | 330 g |
-
-Pro 50 g Verschiebung VK → 550 sinkt die Wasserbindung um ~10 g (Kleie und beschädigte Stärke des Vollkornmehls binden deutlich mehr). Erfahrungsgemäß liefert bereits Stufe −1 einen sichtbaren Fluffigkeitssprung, weil die Kleber‑Verdünnung durch Kleie nichtlinear wirkt.
-
-**S2 — Ahornsirup statt Vollrohrzucker.** 65 g Ahornsirup (Grad A dark), Vollmilch auf **340 g** reduzieren (Sirup bringt ~22 g Wasser mit). Sirup direkt zur Milch in die Form. Geschmacklich heller, weniger Melasse — Geschmackssache.
-
-**S3 — Levain‑Aroma nachrüsten (V16‑Charakter).** 60 g reifen V16‑Levain (TA 200) zusätzlich in die Form, dafür Mehl −30 g (je zur Hälfte VK/550) und Milch −30 g. Trockenhefe **unverändert** — der Levain ist hier reiner Aromageber, kein Triebmittel; die Programmzeiten bleiben dadurch sicher.
-
-**S4 — Klebrige Maulbeer‑Charge.** Falls die Früchte trotz Bemehlen verklumpen: nicht in den Spender. Stattdessen beim ersten Knet‑Piepton (Menü 3 piept für manuelle Eingriffe) Deckel kurz öffnen und Früchte direkt zugeben, Deckel sofort schließen. Alternative ohne Eingriff: Maulbeeren von Anfang an in die Form — sie werden dann teilzerknetet und färben die Krume violett‑marmoriert; schmeckt, sieht anders aus, diskrete Fruchtnester gehen verloren.
-
-**S5 — Tangzhong‑Upgrade (maximale Weichheit + Frischhaltung).** 25 g der 550er mit 125 g der Vollmilch unter Rühren auf ~65 °C abbinden (puddingartig), abgedeckt auf Raumtemperatur abkühlen, mit den restlichen Zutaten in die Form (Mehl in der Form entsprechend −25 g 550er, Milch −125 g). Bringt merklich saftigere, länger frische Krume — kostet 10 Minuten Vorbereitung plus Abkühlzeit. Empfehlung: erst Basis mitbacken, dann entscheiden, ob der Aufwand den Delta rechtfertigt.
-
-**S6 — Süßer / weniger süß.** Zucker­korridor 40–60 g (8–12 %). Oberhalb von ~12 % beginnt osmotischer Stress auf die Hefe zu wirken (verlängerte Gare, die das Programm nicht hergibt) — dann Hefe auf 5 g erhöhen. Bedenke: Die Maulbeeren liefern selbst ~65 g Zucker in den Laib; die empfundene Süße liegt deutlich über dem, was der Teigzucker allein vermuten lässt.
-
----
-
-## 5. Nährwert‑Überschlag
-
-Gesamtlaib ~1.130 g roh → ~1.020 g gebacken:
-
-| | pro Laib | pro 100 g | pro Scheibe (~60 g) |
-|---|---|---|---|
-| Energie | ~2.950 kcal | ~290 kcal | ~175 kcal |
-| Protein | ~85 g | ~8,3 g | ~5 g |
-| Fett | ~55 g | ~5,4 g | ~3,2 g |
-| KH | ~500 g | ~49 g | ~29 g |
-
-Zwei Scheiben als Lernpausen‑Snack ≈ **350 kcal** — mit Mandelmus bestrichen ≈ 450–500 kcal. Drei solcher Pausen über den Tag schließen die Kalorienlücke, ohne dass eine einzelne Portion Appetit‑Überwindung erfordert.
-
----
-
-## 6. Lagerung & Mitback‑Protokoll
-
-**Lagerung:** Vollständig auskühlen lassen (≥ 2 h), dann komplett in Scheiben schneiden, portionsweise einfrieren. Scheibe direkt aus dem Gefrierfach in den Toaster — der Zucker‑ und Fettanteil hält die Krume auch nach Frost‑Toast‑Zyklus weich. Bei Raumtemperatur max. 3 Tage (Milch + Fruchtfeuchte).
-
-**Mitback‑Protokoll v4:**
-
-| # | Datum | VK‑Anteil | Süße | Milch (g) | Programm/Bräunung | Krume (1–5) | Süße (1–5) | Fruchtverteilung | Notizen |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | | 50 % | VRZ 50 g | 360 | M3 / hell | | | | |
-| 2 | | | | | | | | | |
-| 3 | | | | | | | | | |
-
-Bewertungsanker Krume: 1 = kompakt/V16‑artig · 3 = weiches Mischbrot · 5 = briocheartig fluffig. Ziel für diesen Brottyp: ≥ 4.
+- Ahornsirup: 65 g statt Vollrohrzucker, Milch 340 g
+- Levain-Aroma: 60 g reifer Levain zusätzlich, Mehl −30 g, Milch −30 g, Hefe unverändert
+- Tangzhong: 25 g Type 550 mit 125 g der Milch auf 65 °C abbinden, abgekühlt mit in die Form
+- Lagerung: in Scheiben einfrieren und direkt toasten

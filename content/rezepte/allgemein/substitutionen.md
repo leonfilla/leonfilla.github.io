@@ -1,5 +1,5 @@
 ---
-titel: Substitutionen
+titel: Kürbiskernöl-Dressing mit scharfem Senf und Apfeldicksaft
 status: aktiv
 datum: '2026-05-27'
 quelle:
@@ -7,24 +7,41 @@ quelle:
   url: https://claude.ai/chat/e040b4c3-75e7-4f5c-9df7-980d8fb51a49
   hinweis: Dressing mit Kürbiskernöl
 importiert: true
+linie: kurbiskernol-dressing-2026-05-27
+fokus: Fruchtig-nussiges Salatdressing mit Apfelessig und Kürbiskernöl. Scharfer Senf und Apfeldicksaft ersetzen süßen Senf und Agavendicksaft.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 5}
+tags: [Dressing, Salat, vegetarisch]
+zutaten:
+  - {gruppe: Basis, name: Apfeldicksaft, menge: 5, einheit: TL, hinweis: 5–6 TL}
+  - {name: Apfelessig, menge: 4, einheit: EL}
+  - {name: Scharfer Senf, menge: 3, einheit: TL}
+  - {gruppe: Öle, name: Kürbiskernöl, menge: 2, einheit: EL}
+  - {name: Mildes Olivenöl oder Rapsöl, menge: 2, einheit: EL}
+  - {name: Salz, menge: 1, einheit: Prise}
+  - {name: Pfeffer, menge: 1, einheit: Prise}
+schritte:
+- titel: Dicksaft lösen
+  text: 5 TL Apfeldicksaft mit 4 EL Apfelessig verquirlen.
+- titel: Senf emulgieren
+  text: 3 TL scharfen Senf einrühren, bis die Basis glatt ist.
+- titel: Öle einrühren
+  text: 2 EL Kürbiskernöl und 2 EL Olivenöl langsam einrühren, mit Salz und Pfeffer würzen.
+- titel: Abschmecken
+  text: Kurz warten, dann probieren und bei Bedarf noch 1 TL Apfeldicksaft nachgeben.
+  timer: 30
 ---
 
-Kein Problem — scharfer Senf + Apfeldicksaft ist sogar die spannendere Kombi für dieses Dressing.
+## Warum so
 
-**Substitutionen:**
+Süßer Senf bringt selbst ~20–30 g Zucker pro 100 g mit; mit scharfem Senf fehlt diese Süße, daher etwas weniger Senf und mehr Dicksaft. Apfeldicksaft passt aromatisch auf die Achse Apfelessig–Kürbiskernöl. Er ist zähflüssiger als Agavendicksaft und löst sich im Essig vorverquirlt gleichmäßiger. Senf ist der Emulgator und kommt vor den Ölen.
 
-**Süßer Senf → scharfer Senf:** 1:1 tauschen, aber etwas mehr Süße ins Dressing, um die Schärfe abzufedern. Süßer Senf enthält selbst schon viel Zucker (~20–30 g/100 g), den der scharfe nicht mitbringt.
+## Stellschrauben
 
-**Agavendicksaft → Apfeldicksaft:** Beste Wahl von deinen Optionen. Apfeldicksaft passt geschmacklich perfekt zu Apfelessig und Kürbiskernöl (fruchtig-nussig-säuerlich-Achse). Ahornsirup würde funktionieren, aber eine konkurrierende Aromanote einbringen. Honig wäre dominanter und passt aromatisch nicht so gut zum kalten Salatdressing mit Kürbiskernöl.
+- Zu beißend → Senf reduzieren oder mehr Dicksaft; die Schärfe entwickelt sich verzögert, der Eindruck nach 30 s zählt
 
-**Angepasstes Dressing (4 Portionen):**
-- 3 TL scharfer Senf (statt 4 — sonst zu beißend)
-- 5–6 TL Apfeldicksaft (statt 4 TL Agavendicksaft — kompensiert fehlende Senf-Süße)
-- 4 EL Apfelessig
-- 2 EL Kürbiskernöl
-- 2 EL mildes Olivenöl/Rapsöl
-- Salz, Pfeffer
+## Varianten
 
-**Reihenfolge beim Anrühren:** Senf + Apfeldicksaft + Essig zuerst gut emulgieren (Senf ist der Emulgator), dann Öle langsam einrühren. Apfeldicksaft ist zähflüssiger als Agavendicksaft — am besten kurz mit dem Essig verquirlen, bevor der Senf dazukommt, dann löst er sich gleichmäßiger.
-
-**Abschmecken am Ende:** Erst probieren, bevor du noch Apfeldicksaft nachgibst. Scharfer Senf entwickelt seine Schärfe etwas verzögert, der Eindruck nach 30 Sekunden ist der relevante.
+- Original: 4 TL süßer Senf und 4 TL Agavendicksaft
+- Ahornsirup statt Dicksaft geht, bringt aber eine konkurrierende Note; Honig wäre dominanter

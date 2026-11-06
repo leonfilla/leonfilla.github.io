@@ -8,7 +8,10 @@ quelle:
   hinweis: Schnelles Bohnen-Nudel-Gericht mit Thunfisch
 importiert: true
 linie: vollkornpasta-al-tonno-mit-schwarzen-bohnen-afe0b
-fokus: 'Proteinreiche 20-Minuten-Vorratsküche: Tomatensauce mit Dosen-Thunfisch und schwarzen Bohnen zu Vollkornnudeln'
+fokus: "Proteinreiche 20-Minuten-Vorratsküche: Tomatensauce mit Dosenthunfisch und schwarzen Bohnen zu Vollkornnudeln."
+ergebnis: 2 Portionen
+zeit: {aktiv: 20, gesamt: 20}
+tags: [Abendessen, Pasta, High Protein]
 portionen: 2
 zutaten:
 - name: Vollkornnudeln (Penne oder Spaghetti)
@@ -77,4 +80,15 @@ schritte:
   text: Nudeln mit einem Schuss Nudelwasser (ca. 100 ml) in die Sauce geben und 1 Minute kräftig schwenken — die gelöste Stärke emulgiert Öl und Tomatenwasser zu einer glänzenden, anhaftenden Sauce. Mit 0.5 Zitrone (Saft, plus etwas Abrieb) und 2 EL Glatte Petersilie, gehackt finishen, abschmecken, sofort servieren.
 ---
 
-Pro Portion grob ~680 kcal, ~38 g Protein, ~18 g Ballaststoffe — solide Post-Training-Bilanz. Für mehr Protein: zweite Dose Thunfisch (+~18 g/Portion), dann erst ganz am Ende unterheben. Passata statt gehackter Tomaten verkürzt die Reduktion auf ~5 Minuten. Kapern lassen sich durch gehackte schwarze Oliven ersetzen; statt Zitrone funktioniert auch 1 TL Rotweinessig für die Säurebalance.
+## Warum so
+
+Angeröstetes Tomatenmark karamellisiert und löst fettlösliche Carotinoide, das gibt mehr Tiefe. Der Thunfisch ist durch die Sterilisation schon gar und wird nur durchgewärmt, sonst wird er mehlig. Nudelwasser emulgiert Öl und Tomatenwasser zu einer anhaftenden Sauce. Pro Portion etwa 680 kcal, 38 g Protein, 18 g Ballaststoffe.
+
+## Stellschrauben
+
+- Reduktion dauert zu lange → Passata statt gehackter Tomaten, dann reichen etwa 5 Minuten
+
+## Varianten
+
+- Mehr Protein: zweite Dose Thunfisch, ganz am Ende unterheben.
+- Gehackte schwarze Oliven statt Kapern; 1 TL Rotweinessig statt Zitrone.

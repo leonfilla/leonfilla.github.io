@@ -7,7 +7,12 @@ quelle:
   url: https://claude.ai/chat/94a5b566-279d-4f9c-9f08-139f3cdf6622
   hinweis: Belugalinsensalat mit Tomaten und Mozzarella
 importiert: true
-fokus: Belugalinsen, Kirschtomaten, Mozzarella und Basilikum in einem Balsamico-Senf-Dressing
+fokus: Belugalinsen, Kirschtomaten, Mozzarella und Basilikum in einem Balsamico-Senf-Dressing. Die Linsen werden warm angemacht.
+linie: belugalinsensalat-2026-09-29
+variante: Caprese
+ergebnis: 2 Portionen
+zeit: {aktiv: 15, gesamt: 45}
+tags: [Salat, vegetarisch, Meal Prep]
 portionen: 2
 zutaten:
 - name: Belugalinsen, trocken
@@ -62,4 +67,6 @@ schritte:
   text: Tomaten unterheben, den 125 g Mozzarella darüberzupfen und das 10 g Basilikum grob zerreißen und zugeben. Mit restlichem Salz abschmecken.
 ---
 
-Die Linsen warm anzumachen lohnt sich: Beim Abkühlen ziehen sie das Dressing kapillar nach innen, statt dass es nur an der Oberfläche haftet. Den Mozzarella erst ganz am Ende dazugeben, sonst wird er vom Essig gummiartig.
+## Warum so
+
+Warme Linsen ziehen das Dressing beim Abkühlen kapillar nach innen, statt dass es nur an der Oberfläche haftet. Die Säure des Balsamicos nimmt der Schalotte die scharfe Schwefelnote. Der Mozzarella kommt erst ganz am Ende dazu, sonst wird er vom Essig gummiartig.

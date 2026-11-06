@@ -1,5 +1,5 @@
 ---
-titel: Protein-Pesto mit weißen Bohnen & Cashews (optimiert)
+titel: Protein-Pesto mit weißen Bohnen und Cashews
 status: aktiv
 datum: '2026-05-05'
 quelle:
@@ -8,7 +8,11 @@ quelle:
   hinweis: Basilikumpesto-Varianten für Vollkornnudeln
 importiert: true
 linie: protein-pesto-mit-weissen-bohnen-cashews-55502
-fokus: Optimierte Version – vollständig in Gramm, verfeinerte Proportionen, mehr Tiefe durch Miso und optionalen Spinat-Boost
+fokus: Cremiges Pesto auf Bohnenbasis, vollständig in Gramm. Miso gibt Tiefe, Spinat verstärkt die Farbe.
+ergebnis: 4 Portionen
+zeit: {aktiv: 20, gesamt: 25}
+geraete: [mixer-hr3760]
+tags: [Abendessen, Pasta, vegetarisch, High Protein]
 portionen: 4
 zutaten:
 - name: frische Basilikumblätter
@@ -67,7 +71,17 @@ schritte:
   text: Abgegossene Nudeln sofort mit dem Pesto vermengen. Nudelwasser esslöffelweise einarbeiten bis die Sauce seidig-cremig an den Nudeln haftet. Vollkornnudeln brauchen meist 40–60 g mehr Nudelwasser als Weißmehlnudeln. Sofort servieren.
 ---
 
-Makros pro Portion (ca.): ~610 kcal · ~27 g Protein · ~82 g Kohlenhydrate · ~22 g Fett. 
-Protein-Boost: +15 g Protein pro Portion durch 100 g Hüttenkäse oder Skyr als Topping.
-Lagerung: Pesto hält sich im Glas, mit Olivenöl bedeckt, 4–5 Tage im Kühlschrank. Oberfläche oxidiert leicht – einfach unterrühren.
-Blender-Tipp: Mit dem Philips HR3760 kurz auf niedrig starten, dann 45 Sek. auf höchster Stufe – ergibt eine perfekt glatte Textur.
+## Warum so
+
+Bohnen, Cashews und Brühe werden zuerst glatt gemixt; Basilikum kommt nur kurz dazu, weil Reibungswärme das Chlorophyll oxidiert und das Pesto braun macht. Heiße Cashews machen das Pesto bitter. Pro Portion etwa 610 kcal, 27 g Protein, 82 g Kohlenhydrate, 22 g Fett.
+
+## Stellschrauben
+
+- Sauce haftet nicht → Nudelwasser esslöffelweise nachgeben, Vollkorn braucht 40–60 g mehr
+- Oberfläche im Glas oxidiert → einfach unterrühren
+
+## Varianten
+
+- Mehr Protein: 100 g Hüttenkäse oder Skyr als Topping (etwa 15 g Protein mehr).
+- Vegan: Nährhefe statt Parmesan.
+- Lagerung: mit Olivenöl bedeckt 4–5 Tage im Kühlschrank.

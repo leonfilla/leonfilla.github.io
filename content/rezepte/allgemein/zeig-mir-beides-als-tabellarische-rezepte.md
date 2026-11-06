@@ -20,24 +20,24 @@ ofen:
   temp: 160
   zeit: 12–15
 zutaten:
-  - {gruppe: Frucht-Sauce, name: TK-Früchte, menge: 80, einheit: g, hinweis: z. B. Beeren}
-  - {gruppe: Frucht-Sauce, name: Zucker, menge: 12, einheit: g, hinweis: 10–15 g}
-  - {gruppe: Frucht-Sauce, name: Wasser, menge: 1, einheit: EL}
-  - {gruppe: Käsemasse, name: Frischkäse, menge: 50, einheit: g}
-  - {gruppe: Käsemasse, name: Joghurt, menge: 15, einheit: g, hinweis: oder Schmand}
-  - {gruppe: Käsemasse, name: Zucker, menge: 15, einheit: g}
-  - {gruppe: Käsemasse, name: Eigelb, menge: 1, einheit: "", hinweis: Größe M}
-  - {gruppe: Basis, name: Brioche, menge: 1, einheit: "", hinweis: Scheibe, 3–4 cm dick}
+  - {gruppe: "Frucht-Sauce", name: "TK-Früchte", menge: 80, einheit: "g", hinweis: "z. B. Beeren"}
+  - {gruppe: "Frucht-Sauce", name: "Zucker", menge: 12, einheit: "g", hinweis: "10–15 g"}
+  - {gruppe: "Frucht-Sauce", name: "Wasser", menge: 1, einheit: "EL"}
+  - {gruppe: "Käsemasse", name: "Frischkäse", menge: 50, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Joghurt", menge: 15, einheit: "g", hinweis: "oder Schmand"}
+  - {gruppe: "Käsemasse", name: "Zucker", menge: 15, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Eigelb", menge: 1, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Basis", name: "Brioche", menge: 1, einheit: "", hinweis: "Scheibe, 3–4 cm dick"}
 schritte:
-  - {titel: Sauce einkochen, text: "80 g TK-Früchte, 10–15 g Zucker und 1 EL Wasser bei mittlerer Hitze aufkochen und etwa 5 Minuten sirupartig einkochen.", timer: 300}
-  - {titel: Abkühlen lassen, text: Sauce vom Herd nehmen und abkühlen lassen.}
-  - {titel: Ofen vorheizen, text: Ofen auf 160 °C Heißluft vorheizen.}
-  - {titel: Käsemasse rühren, text: "50 g Frischkäse, 15 g Joghurt, 15 g Zucker und 1 Eigelb mit Gabel oder Schneebesen klumpenfrei verrühren."}
-  - {titel: Mulde drücken, text: In die Brioche-Scheibe eine tiefe Mulde drücken; einen 1 cm breiten Rand intakt lassen.}
-  - {titel: Füllen, text: Käsemasse vollständig in die Mulde gießen.}
-  - {titel: Backen, text: "Auf mittlerer Schiene 12–15 Minuten backen, bis der Rand gestockt und das Zentrum noch leicht viskos ist.", timer: 780}
-  - {titel: Ruhen lassen, text: 5 Minuten bei Raumtemperatur ruhen lassen., timer: 300}
-  - {titel: Anrichten, text: Abgekühlte Fruchtsauce mittig auf den Cheesecake geben.}
+  - {titel: "Sauce einkochen", text: "80 g TK-Früchte, 10–15 g Zucker und 1 EL Wasser bei mittlerer Hitze aufkochen und etwa 5 Minuten sirupartig einkochen.", timer: 300}
+  - {titel: "Abkühlen lassen", text: "Sauce vom Herd nehmen und abkühlen lassen."}
+  - {titel: "Ofen vorheizen", text: "Ofen auf 160 °C Heißluft vorheizen."}
+  - {titel: "Käsemasse rühren", text: "50 g Frischkäse, 15 g Joghurt, 15 g Zucker und 1 Eigelb mit Gabel oder Schneebesen klumpenfrei verrühren."}
+  - {titel: "Mulde drücken", text: "In die Brioche-Scheibe eine tiefe Mulde drücken; einen 1 cm breiten Rand intakt lassen."}
+  - {titel: "Füllen", text: "Käsemasse vollständig in die Mulde gießen."}
+  - {titel: "Backen", text: "Auf mittlerer Schiene 12–15 Minuten backen, bis der Rand gestockt und das Zentrum noch leicht viskos ist.", timer: 780}
+  - {titel: "Ruhen lassen", text: "5 Minuten bei Raumtemperatur ruhen lassen.", timer: 300}
+  - {titel: "Anrichten", text: "Abgekühlte Fruchtsauce mittig auf den Cheesecake geben."}
 ---
 
 ## Warum so

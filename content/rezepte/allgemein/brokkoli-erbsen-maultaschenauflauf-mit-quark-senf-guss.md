@@ -8,7 +8,17 @@ quelle:
   hinweis: Maultaschenauflauf Rezepte für vier Personen
 importiert: true
 linie: brokkoli-erbsen-maultaschenauflauf-mit-quark-senf-b49ab
-fokus: Veg-lastiger, proteinstarker Auflauf — Magerquark statt Sahne, viel grünes Gemüse, sanft gratiniert.
+fokus: "Gemüselastiger, proteinreicher Auflauf: Magerquark statt Sahne, viel grünes Gemüse, sanft gratiniert."
+ergebnis: 4 Portionen, Form ca. 25 × 20 cm
+zeit: {aktiv: 25, gesamt: 60}
+geraete: [bosch-hng978]
+tags: [Abendessen, vegetarisch, High Protein]
+ofen:
+  modus: Heißluft
+  temp: 170
+  dampf: niedrige Stufe, letzte 5 min ohne
+  zeit: 28
+  form: Auflaufform ca. 25 × 20 cm
 portionen: 4
 zutaten:
 - name: Brokkoliröschen
@@ -73,4 +83,13 @@ schritte:
   timer: 300
 ---
 
-Mehr Protein: 300 g Quark + 1 zusätzliches Eiweiß in den Guss (+~10 g Protein, kaum mehr Fett). • Beide Packungen aufbrauchen: zweite Packung Maultaschen ergänzen und Guss um die Hälfte erhöhen (375 g Quark, 3 Eier, 120 ml Milch). • Extra Biss & Mineralstoffe: 30 g geröstete Kürbiskerne oder Mandelblättchen übers Topping. • Dazu passt ein Klecks Senf-Kräuter-Joghurt oder ein Blattsalat.
+## Warum so
+
+Bei mehr als 170 °C flockt der Quark-Ei-Guss aus. Die Milch macht den Quark streichfähig, damit er beim Backen nicht zu fest stockt. Kurzes Blanchieren und Abschrecken halten Brokkoli und Erbsen grün und knackig.
+
+## Varianten
+
+- Mehr Protein: 300 g Quark und 1 zusätzliches Eiweiß in den Guss (etwa 10 g Protein mehr).
+- Zwei Packungen Maultaschen: Guss um die Hälfte erhöhen (375 g Quark, 3 Eier, 120 ml Milch).
+- Mehr Biss: 30 g geröstete Kürbiskerne oder Mandelblättchen auf das Topping.
+- Dazu passen Senf-Kräuter-Joghurt oder ein Blattsalat.

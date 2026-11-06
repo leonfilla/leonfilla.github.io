@@ -1,5 +1,5 @@
 ---
-titel: Protein-Pesto mit weißen Bohnen & Cashews
+titel: Protein-Pesto mit weißen Bohnen und Cashews
 status: archiv
 datum: '2026-05-05'
 quelle:
@@ -8,51 +8,43 @@ quelle:
   hinweis: Basilikumpesto-Varianten für Vollkornnudeln
 importiert: true
 linie: protein-pesto-mit-weissen-bohnen-cashews-55502
-fokus: Proteinreich & cremig – weiße Bohnen ersetzen einen Teil des Öls, Cashews sorgen für Fülle. Deutlich mehr Protein und Sättigung, ideal nach dem Training
+variante: Original
+fokus: Cremige Basilikumsauce, in der weiße Bohnen einen Teil des Öls ersetzen und Cashews für Fülle sorgen. Deutlich mehr Protein und Sättigung als klassisches Pesto.
+ergebnis: 4 Portionen
 portionen: 4
+zeit: {aktiv: 15, gesamt: 20}
+geraete: [mixer-hr3760]
+tags: [Abendessen, Pasta, High Protein, vegetarisch]
 zutaten:
-- name: frische Basilikumblätter
-  menge: 60
-  einheit: g
-- name: weiße Bohnen (Dose, abgespült)
-  menge: 240
-  einheit: g
-- name: Cashewkerne, geröstet
-  menge: 40
-  einheit: g
-- name: Parmesan oder Nährhefe (vegan)
-  menge: 40
-  einheit: g
-- name: Knoblauchzehen
-  menge: 2
-  einheit: ''
-- name: natives Olivenöl extra
-  menge: 60
-  einheit: ml
-- name: Wasser oder Gemüsebrühe
-  menge: 60
-  einheit: ml
-- name: Bio-Zitrone, Saft
-  menge: 1
-  einheit: ''
-- name: Meersalz
-  menge: 0.75
-  einheit: TL
-- name: Vollkornnudeln (z. B. Fusilli)
-  menge: 400
-  einheit: g
+  - {gruppe: Sauce, name: Cashewkerne, menge: 40, einheit: g}
+  - {name: Frische Basilikumblätter, menge: 60, einheit: g}
+  - {name: Weiße Bohnen, menge: 240, einheit: g, hinweis: 'Dose, abgespült'}
+  - {name: Parmesan, menge: 40, einheit: g, hinweis: oder Nährhefe}
+  - {name: Knoblauchzehen, menge: 2, einheit: ''}
+  - {name: Natives Olivenöl extra, menge: 60, einheit: ml}
+  - {name: Wasser oder Gemüsebrühe, menge: 60, einheit: ml}
+  - {name: 'Bio-Zitrone, Saft', menge: 1, einheit: ''}
+  - {name: Meersalz, menge: 0.75, einheit: TL}
+  - {gruppe: Pasta, name: Vollkornnudeln, menge: 400, einheit: g, hinweis: z. B. Fusilli}
 schritte:
 - titel: Cashews rösten
-  text: Die 40 g Cashewkerne, geröstet in einer trockenen Pfanne 2–3 Minuten rösten bis sie leicht goldbraun duften. Abkühlen lassen.
+  text: 40 g Cashews in einer trockenen Pfanne leicht goldbraun rösten und abkühlen lassen.
   timer: 150
 - titel: Nudeln kochen
-  text: Salzwasser zum Kochen bringen. 400 g Vollkornnudeln (z. B. Fusilli) al dente kochen. 100 ml Nudelwasser aufbewahren.
+  text: 400 g Vollkornnudeln in Salzwasser al dente kochen, 100 ml Nudelwasser aufbewahren.
   timer: 660
-- titel: Alles mixen
-  text: Basilikum, weiße Bohnen, Cashews, Parmesan/Nährhefe, Knoblauch, Olivenöl, Wasser/Brühe und Zitronensaft in den Mixer geben. Auf höchster Stufe 45–60 Sekunden mixen, bis eine vollkommen glatte, cremige Sauce entsteht. Mit 0.75 TL Meersalz abschmecken.
+- titel: Sauce mixen
+  text: Basilikum, 240 g Bohnen, Cashews, 40 g Parmesan, Knoblauch, 60 ml Olivenöl, 60 ml Wasser und den Zitronensaft auf höchster Stufe glatt mixen. Mit 0,75 TL Meersalz abschmecken.
   timer: 60
 - titel: Fertigstellen
-  text: Nudeln abgießen und sofort mit der Sauce vermengen. Bei Bedarf Nudelwasser einarbeiten. Sofort servieren – die Sauce zieht schnell ein.
+  text: Nudeln abgießen, sofort mit der Sauce vermengen, bei Bedarf Nudelwasser einarbeiten und sofort servieren.
 ---
 
-Makros pro Portion (ca.): ~620 kcal, ~28 g Protein, ~85 g Kohlenhydrate. Weiße Bohnen sind geschmacksneutral und lassen das Basilikum voll durchkommen – die Sauce wird deutlich cremiger als klassisches Pesto. Für noch mehr Protein: Mit Hüttenkäse oder Skyr servieren.
+## Warum so
+
+Weiße Bohnen sind geschmacksneutral, binden über ihre Stärke und lassen das Basilikum durchkommen; die Sauce wird cremiger als klassisches Pesto. Sie zieht schnell in die Nudeln ein. Pro Portion ca. 620 kcal, 28 g Protein, 85 g Kohlenhydrate.
+
+## Varianten
+
+- Vegan mit Nährhefe statt Parmesan
+- Mehr Protein: mit Hüttenkäse oder Skyr servieren

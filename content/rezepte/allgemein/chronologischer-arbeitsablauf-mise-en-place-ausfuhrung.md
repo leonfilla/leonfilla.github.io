@@ -20,24 +20,24 @@ ofen:
   temp: 160
   zeit: 12–15
 zutaten:
-  - {gruppe: Basis, name: Brioche, menge: 2, einheit: "", hinweis: Scheiben, 3–4 cm dick}
-  - {gruppe: Käsemasse, name: Frischkäse, menge: 100, einheit: g}
-  - {gruppe: Käsemasse, name: Joghurt, menge: 30, einheit: g, hinweis: oder Schmand}
-  - {gruppe: Käsemasse, name: Zucker, menge: 30, einheit: g}
-  - {gruppe: Käsemasse, name: Ei, menge: 1, einheit: "", hinweis: Größe M}
-  - {gruppe: Beerensauce, name: TK-Beeren, menge: 160, einheit: g}
-  - {gruppe: Beerensauce, name: Zucker, menge: 20, einheit: g}
-  - {gruppe: Beerensauce, name: Wasser, menge: 1, einheit: EL}
+  - {gruppe: "Basis", name: "Brioche", menge: 2, einheit: "", hinweis: "Scheiben, 3–4 cm dick"}
+  - {gruppe: "Käsemasse", name: "Frischkäse", menge: 100, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Joghurt", menge: 30, einheit: "g", hinweis: "oder Schmand"}
+  - {gruppe: "Käsemasse", name: "Zucker", menge: 30, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Ei", menge: 1, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Beerensauce", name: "TK-Beeren", menge: 160, einheit: "g"}
+  - {gruppe: "Beerensauce", name: "Zucker", menge: 20, einheit: "g"}
+  - {gruppe: "Beerensauce", name: "Wasser", menge: 1, einheit: "EL"}
 schritte:
-  - {titel: Ofen vorheizen, text: Ofen auf 160 °C Heißluft vorheizen.}
-  - {titel: Käsemasse rühren, text: "100 g Frischkäse, 30 g Joghurt, 30 g Zucker und 1 Ei auf niedriger Stufe klumpenfrei glatt rühren."}
-  - {titel: Mulden drücken, text: In die Mitte beider Brioche-Scheiben eine tiefe Mulde drücken; rundum einen 1 cm breiten Rand stehen lassen.}
-  - {titel: Füllen, text: Käsemasse gleichmäßig in die Mulden gießen.}
-  - {titel: Backen, text: "Scheiben auf dem Blech auf mittlerer Schiene 12–15 Minuten backen, bis der Rand der Masse gestockt ist.", timer: 780}
-  - {titel: Ruhen lassen, text: Brioche aus dem Ofen nehmen und 5 Minuten abkühlen lassen., timer: 300}
-  - {titel: Sauce erhitzen, text: "160 g TK-Beeren, 20 g Zucker und 1 EL Wasser in einem mikrowellengeeigneten Gefäß bei 600 W etwa 3 Minuten erhitzen.", timer: 180}
-  - {titel: Pürieren, text: Heiße Beeren optional kurz pürieren.}
-  - {titel: Anrichten, text: Brioches auf zwei Teller setzen und die heiße Beerensauce mittig auf die Käsemasse geben.}
+  - {titel: "Ofen vorheizen", text: "Ofen auf 160 °C Heißluft vorheizen."}
+  - {titel: "Käsemasse rühren", text: "100 g Frischkäse, 30 g Joghurt, 30 g Zucker und 1 Ei auf niedriger Stufe klumpenfrei glatt rühren."}
+  - {titel: "Mulden drücken", text: "In die Mitte beider Brioche-Scheiben eine tiefe Mulde drücken; rundum einen 1 cm breiten Rand stehen lassen."}
+  - {titel: "Füllen", text: "Käsemasse gleichmäßig in die Mulden gießen."}
+  - {titel: "Backen", text: "Scheiben auf dem Blech auf mittlerer Schiene 12–15 Minuten backen, bis der Rand der Masse gestockt ist.", timer: 780}
+  - {titel: "Ruhen lassen", text: "Brioche aus dem Ofen nehmen und 5 Minuten abkühlen lassen.", timer: 300}
+  - {titel: "Sauce erhitzen", text: "160 g TK-Beeren, 20 g Zucker und 1 EL Wasser in einem mikrowellengeeigneten Gefäß bei 600 W etwa 3 Minuten erhitzen.", timer: 180}
+  - {titel: "Pürieren", text: "Heiße Beeren optional kurz pürieren."}
+  - {titel: "Anrichten", text: "Brioches auf zwei Teller setzen und die heiße Beerensauce mittig auf die Käsemasse geben."}
 ---
 
 ## Warum so

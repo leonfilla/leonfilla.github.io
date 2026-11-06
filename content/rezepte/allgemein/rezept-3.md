@@ -1,5 +1,5 @@
 ---
-titel: Rezept 3
+titel: Gebackener Quinoa-Apfel-Auflauf
 status: aktiv
 datum: '2026-04-08'
 quelle:
@@ -7,55 +7,46 @@ quelle:
   url: https://gemini.google.com/app/eda0144a7da8c633
   hinweis: 5 süße und 5 herzhafte Frühstücksrezepte, eins davon möchte ich zubereiten
 importiert: true
+linie: quinoa-apfel-auflauf-2026-04-08
+fokus: Roher Quinoa, Äpfel und Walnüsse garen mit Ei und Wasser im Dampfofen zu einem schnittfesten Frühstücksauflauf. Kein Vorkochen, kein Rühren.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 8, gesamt: 45}
+geraete: [bosch-hng978]
+tags: [Frühstück, Meal Prep, vegetarisch]
+ofen:
+  modus: Heißluft + Dampfstoß
+  temp: 170
+  dampf: Stufe Mittel
+  zeit: 35
+  kerntemperatur: 85
+  form: ofenfeste Form aus Glas oder Keramik
+zutaten:
+  - {gruppe: Feststoffe, name: Quinoa, menge: 200, einheit: g, hinweis: roh}
+  - {gruppe: Feststoffe, name: säuerliche Äpfel, menge: 400, einheit: g}
+  - {gruppe: Feststoffe, name: Walnüsse, menge: 30, einheit: g}
+  - {gruppe: Feststoffe, name: Zimt, menge: 3, einheit: g}
+  - {gruppe: Feststoffe, name: Salz, menge: 2, einheit: g}
+  - {gruppe: Guss, name: Eier, menge: 200, einheit: g, hinweis: ca. 4 Stück Größe M}
+  - {gruppe: Guss, name: Wasser, menge: 400, einheit: g, hinweis: "gefiltert, 20 °C"}
+  - {gruppe: Oberfläche, name: Rübenzucker, menge: 15, einheit: g}
+schritte:
+  - titel: Quinoa spülen
+    text: 200 g Quinoa im Sieb 30 Sekunden unter kaltem Wasser spülen.
+    timer: 30
+  - titel: Schneiden
+    text: 400 g Äpfel entkernen und in 1,5-cm-Würfel schneiden, 30 g Walnüsse grob hacken.
+  - titel: Trocken mischen
+    text: Quinoa, Äpfel, Walnüsse, 3 g Zimt und 2 g Salz in der Form vermengen.
+  - titel: Guss angießen
+    text: 200 g Eier mit 400 g Wasser verquirlen und gleichmäßig darübergießen.
+  - titel: Zuckern
+    text: 15 g Zucker nur auf der Oberfläche verteilen.
+  - titel: Backen
+    text: Bei 170 °C Heißluft mit Dampfstoß Stufe Mittel 35 Minuten backen.
+    timer: 2100
 ---
 
-> **Frage im Chat:** Rezept 3
+## Warum so
 
-1. **Metrik:** Aktive Arbeitszeit (Rüsten, Schneiden, Mischen) vs. passive Thermik (Dampfgaren im geschlossenen System).
-
-2. **Berechnung:** Die aktive Zeit beträgt 8 Minuten. Die passive Zeit beträgt 35 Minuten. Der Zeitinvest ist minimal; der Ertrag steigt exponentiell durch die sensor-gestützte Dampfinjektion, die eine homogene Stärkeverkleisterung und Proteinkoagulation ohne manuelle Intervention oder Rührvorgänge garantiert.
-
----
-
-#### 1. Makros pro Portion (Kalkulationsbasis: 4 Portionen)
-
-380 Kcal | P: 14g | KH: 60g | F: 8g
-
----
-
-#### 2. Zutaten, Wasserwahl & Hardware-Mapping
-
-|Komponente |Menge |Hardware / System |Begründung Kinetik & Extraktion |
-|Quinoa (roh) |200g |Timemore Basic 2 |Exakte Grammatur zur Steuerung der Hydrations-Ratio (1:2). |
-|Hydrationswasser |400g (20°C) |BLANCO Option B (Gefiltert) |Magnesium-substituiertes Wasser verhindert Calcium-Blockaden an der Kornoberfläche. Sichert maximale Stärkelöslichkeit und Zellwand-Permeabilität. |
-|Äpfel (säuerlich) |400g |Manuell (Messer) |Effizienz-Klausel: Rüst- und Reinigungszeit Wilfa Foodprocessor übersteigt manuelle Schnittzeit für 400g Rohmasse. |
-|Eier (Größe M) |200g (ca. 4 Stück) |- |Strukturgeber durch Hitze-induzierte Proteinkoagulation. Ergänzung zum vollständigen Aminosäureprofil für Neurotransmitter-Synthese. |
-|Walnüsse |30g |- |Zufuhr von ungesättigten Fettsäuren zur Verlängerung der Magenverweildauer (Kontrolle der glykämischen Last). |
-|Rübenzucker |15g |- |Limitierte Zugabe, ausschließlich auf der Oberfläche dispergiert, zur Initiierung einer präzisen Maillard-Reaktion. |
-|Zimt / Salz |3g / 2g |Timemore Basic 2 |Antimikrobielle Eigenschaften (Zimt) und Steuerung des osmotischen Drucks (Salz). |
-
----
-
-#### 3. Prozesssteuerung
-
-1. **Saponin-Extraktion:** 200g Quinoa unter BLANCO Option A (kalt, ungefiltert) für 30 Sekunden in einem Sieb spülen, um Bitterstoffe (Saponine) mechanisch von der Außenhülle zu entfernen.
-
-2. **Substrat-Präparation:** 400g Äpfel entkernen und in 1,5 cm Kuben schneiden. 30g Walnüsse mechanisch (Messer) grob zerkleinern.
-
-3. **Matrix-Konstruktion:** Quinoa, Apfelkuben, Walnüsse, 3g Zimt und 2g Salz in einem ofenfesten Gefäß (Glas/Keramik, hohe thermische Masse) trocken vermengen.
-
-4. **Hydration & Bindung:** 200g Eier mit 400g BLANCO Option B Wasser (Zieltemperatur: 20°C) homogenisieren. Die Flüssigphase gleichmäßig über die Feststoff-Matrix gießen. 15g Zucker ausschließlich auf der Oberfläche verteilen.
-
-5. **Thermodynamik (Bosch HNG978NB1):** Das Gefäß in den Garraum einführen.
-
-  - Programmierung: 170°C Heißluft + Dampfstoß (Stufe Mittel).
-
-  - Dauer: 35 Minuten.
-
-  - Funktion: Die Dampfinjektion beschleunigt den anfänglichen Wärmetransfer auf die Flüssigphase, sichert die vollständige Quinoa-Hydration (Stärkeverkleisterung) und verhindert das Austrocknen der Eiproteine vor Erreichen der Zielkerntemperatur (>85°C für garantierte Denaturierung).
-
----
-
-#### 4. Low-Effort-Alternative
-
-Nicht erforderlich. Die aktive Arbeitszeit liegt bei < 15 Minuten (8 Minuten). In Schritt 4 werden keine elektrischen Zusatzgeräte zur Homogenisierung genutzt. Die Thermik operiert nach Systemeinstellung vollständig autonom.
+Das Spülen entfernt die bitteren Saponine von der Quinoa. Der Dampf überträgt anfangs schneller Wärme in die Flüssigkeit, sodass der Quinoa vollständig verkleistert, bevor die Eioberfläche austrocknet. Der Zucker liegt nur oben und karamellisiert dort. Pro Portion etwa 380 kcal, 14 g Protein, 60 g Kohlenhydrate, 8 g Fett.

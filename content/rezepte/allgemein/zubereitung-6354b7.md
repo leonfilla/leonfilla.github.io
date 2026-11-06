@@ -1,5 +1,5 @@
 ---
-titel: Zubereitung
+titel: Balsamico-Dressing für Feldsalat
 status: aktiv
 datum: '2026-02-21'
 quelle:
@@ -8,36 +8,33 @@ quelle:
   hinweis: rezept für balsamico dressing für 70 gramm feldsalat
 importiert: true
 linie: zubereitung-e0002
+fokus: Exakt portioniertes Balsamico-Dressing für 70 g Feldsalat. Senf bindet Essig und Öl zu einer stabilen Emulsion.
+ergebnis: 1 Portion für 70 g Feldsalat
+portionen: 1
+zeit: {aktiv: 3, gesamt: 3}
+tags: [Dressing, Salat, vegetarisch]
+zutaten:
+  - {name: Olivenöl, menge: 30, einheit: ml, hinweis: 2 EL}
+  - {name: Aceto Balsamico, menge: 15, einheit: ml, hinweis: "dunkel, 1 EL"}
+  - {name: mittelscharfer Senf, menge: 2.5, einheit: g, hinweis: ½ TL}
+  - {name: Honig oder Agavendicksaft, menge: 3.5, einheit: g, hinweis: ½ TL}
+  - {name: feines Salz, menge: 1, einheit: g}
+  - {name: schwarzer Pfeffer, menge: 0.5, einheit: g}
+schritte:
+  - titel: Ins Glas geben
+    text: Alle Zutaten in ein kleines Schraubglas geben und fest verschließen.
+  - titel: Schütteln
+    text: 15 Sekunden kräftig schütteln, bis eine gleichmäßige Emulsion entsteht.
+    timer: 15
+  - titel: Anmachen
+    text: Unmittelbar vor dem Essen über 70 g Feldsalat geben und mischen.
 ---
 
-> **Frage im Chat:** rezept für balsamico dressing für 70 gramm feldsalat
+## Warum so
 
-Hier ist ein funktionales und exakt portioniertes Rezept für ein Balsamico-Dressing, das für 70 g Feldsalat berechnet ist. Diese Menge stellt sicher, dass die Blätter gleichmäßig benetzt, aber nicht ertränkt werden.
+Der Senf wirkt als Emulgator und bindet Essig und Öl. Erst kurz vor dem Essen anmachen, sonst fallen die Blätter zusammen.
 
-#### Zutaten
+## Varianten
 
-- **30 ml** (2 Esslöffel) Olivenöl
-
-- **15 ml** (1 Esslöffel) Aceto Balsamico (dunkel)
-
-- **2,5 g** (1/2 Teelöffel) mittelscharfer Senf (dient als Emulgator zur Bindung von Essig und Öl)
-
-- **3,5 g** (1/2 Teelöffel) Honig oder Agavendicksaft
-
-- **1 g** (1/4 Teelöffel) feines Salz
-
-- **0,5 g** (1/8 Teelöffel) schwarzer Pfeffer
-
-#### Zubereitung
-
-1. Alle Zutaten in ein kleines Schraubglas geben.
-
-2. Das Glas fest verschließen.
-
-3. Für 15 Sekunden kräftig schütteln, bis eine homogene Emulsion entsteht. Alternativ die Zutaten in einer Schüssel mit einem Schneebesen zügig verrühren.
-
-4. Das Dressing unmittelbar vor dem Verzehr über die 70 g Feldsalat geben und durchmischen, da die Blätter sonst zusammenfallen.
-
----
-
-Möchtest du dazu noch Vorschläge für Toppings, die die Nährstoffzusammensetzung ergänzen (wie Walnüsse oder Sonnenblumenkerne)?
+- Statt Schraubglas mit dem Schneebesen in einer Schüssel zügig verrühren.
+- Walnüsse oder Sonnenblumenkerne als Topping.

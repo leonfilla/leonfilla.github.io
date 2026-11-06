@@ -17,17 +17,17 @@ tags: [Hefeteig, süß, Zimtschnecken]
 brot:
   programm: Dinkel Teig (Menü 25)
 zutaten:
-  - {gruppe: Backform, name: Dinkelmehl Type 630, menge: 500, einheit: g, mehl: true}
-  - {gruppe: Backform, name: Rohrzucker, menge: 70, einheit: g}
-  - {gruppe: Backform, name: Salz, menge: 0.5, einheit: TL}
-  - {gruppe: Backform, name: Butter, menge: 80, einheit: g}
-  - {gruppe: Backform, name: Milch, menge: 280, einheit: ml, wasser: 0.87}
-  - {gruppe: Hefespender, name: Trockenhefe, menge: 2, einheit: TL}
+  - {gruppe: "Backform", name: "Dinkelmehl Type 630", menge: 500, einheit: "g", mehl: true}
+  - {gruppe: "Backform", name: "Rohrzucker", menge: 70, einheit: "g"}
+  - {gruppe: "Backform", name: "Salz", menge: 0.5, einheit: "TL"}
+  - {gruppe: "Backform", name: "Butter", menge: 80, einheit: "g"}
+  - {gruppe: "Backform", name: "Milch", menge: 280, einheit: "ml", wasser: 0.87}
+  - {gruppe: "Hefespender", name: "Trockenhefe", menge: 2, einheit: "TL"}
 schritte:
-  - {titel: Hefe einfüllen, text: "2 TL Trockenhefe in den Hefespender im Deckel geben."}
-  - {titel: Form befüllen, text: "Erst 500 g Dinkelmehl 630, 70 g Rohrzucker und ½ TL Salz, dann 80 g Butter und 280 ml Milch in die Backform geben."}
-  - {titel: Programm starten, text: "Programm Dinkel Teig (Menü 25) starten.", timer: 8400}
-  - {titel: Sofort entnehmen, text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
+  - {titel: "Hefe einfüllen", text: "2 TL Trockenhefe in den Hefespender im Deckel geben."}
+  - {titel: "Form befüllen", text: "Erst 500 g Dinkelmehl 630, 70 g Rohrzucker und ½ TL Salz, dann 80 g Butter und 280 ml Milch in die Backform geben."}
+  - {titel: "Programm starten", text: "Programm Dinkel Teig (Menü 25) starten.", timer: 8400}
+  - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
 ---
 
 ## Warum so

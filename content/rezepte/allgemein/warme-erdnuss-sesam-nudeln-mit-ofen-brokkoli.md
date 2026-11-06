@@ -8,15 +8,25 @@ quelle:
   hinweis: Schnelle Vollkornnudel-Gerichte
 importiert: true
 linie: warme-erdnuss-sesam-nudeln-mit-ofen-brokkoli-3c924
-fokus: Vollkornnudeln in cremiger Erdnusssauce mit geröstetem TK-Brokkoli, Paprika und Edamame – Brokkoli aus dem Bosch-Ofen.
+fokus: Vollkornnudeln in cremiger Erdnusssauce mit geröstetem TK-Brokkoli, Paprika und Edamame. Der Brokkoli röstet gefroren auf dem vorgeheizten Blech.
+ergebnis: 2 Portionen
+zeit: {aktiv: 20, gesamt: 40}
+geraete: [bosch-hng978]
+tags: [Abendessen, Pasta, vegetarisch]
+ofen:
+  modus: Heißluft
+  temp: 230
+  dampf: ohne
+  zeit: 22
+  form: Backblech, mit vorgeheizt
 portionen: 2
 zutaten:
 - name: Vollkornnudeln
   menge: 250
   einheit: g
 - name: Wasser fürs Nudelwasser
-  menge: 2.5
-  einheit: l
+  menge: 2500
+  einheit: g
 - name: Salz fürs Nudelwasser
   menge: 25
   einheit: g
@@ -76,7 +86,7 @@ zutaten:
   einheit: ''
 schritte:
 - titel: Ofen vorheizen
-  text: Das Backblech in den Ofen schieben und auf 230 °C Heißluft ohne Dampfzugabe vorheizen. Parallel 2.5 l Wasser fürs Nudelwasser mit 25 g Salz fürs Nudelwasser in einem großen Topf zum Kochen bringen.
+  text: Das Backblech in den Ofen schieben und auf 230 °C Heißluft ohne Dampfzugabe vorheizen. Parallel 2500 g Wasser fürs Nudelwasser mit 25 g Salz fürs Nudelwasser in einem großen Topf zum Kochen bringen.
   timer: 600
 - titel: Sauce anrühren
   text: Während der Ofen heizt, 50 g Erdnussmus, 30 g Sojasauce für die Sauce, 15 g Reisessig, 10 g geröstetes Sesamöl, 10 g Honig, 1 TL frischer Ingwer, gerieben, 1 Knoblauchzehe, gerieben und 1 TL Chiliöl in einer großen Schüssel glatt verrühren. Noch nicht verdünnen, das passiert später mit Nudelwasser.
@@ -97,4 +107,10 @@ schritte:
   text: Mit 2 Frühlingszwiebeln, in Ringen, 1 EL Sesam, geröstet und 30 g geröstete Erdnüsse, gehackt bestreuen und mit 1 Limette, in Spalten servieren.
 ---
 
-Mehr Protein: 200 g Räuchertofu in Würfeln mit 10 g Öl ab Schritt 3 mit aufs Blech geben (eigene Blechhälfte oder zweites Blech) und zusammen mit dem Brokkoli rösten. Die Sauce nie in der heißen Pfanne oder bei laufender Platte einrühren, sonst flockt das Erdnussmus aus.
+## Warum so
+
+Gefroren auf das heiße Blech gegeben, bräunt der Brokkoli an den Kanten, bevor er Wasser zieht. Die Sauce wird mit Nudelwasser im Topf bei ausgeschaltetem Herd emulgiert; in einer heißen Pfanne flockt das Erdnussmus aus. Das Gemüse kommt erst zum Schluss dazu, damit die Röstkanten knusprig bleiben.
+
+## Varianten
+
+- Mehr Protein: 200 g Räuchertofu in Würfeln mit 10 g Öl ab dem Brokkoli-Schritt mit aufs Blech geben.

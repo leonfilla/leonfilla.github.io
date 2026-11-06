@@ -8,47 +8,42 @@ quelle:
   hinweis: Thunfischsalat Rezeptideen
 importiert: true
 linie: limetten-skyr-dip-8f343
-fokus: Frischer, säuerlicher Gegenpol zur cremig-würzigen Wrap-Füllung.
+fokus: Frischer, säuerlicher Skyr-Dip mit Limettenabrieb als Gegenpol zu cremig-würzigen Wrap-Füllungen. Salz und Honig werden zuerst im Saft gelöst.
+ergebnis: ca. 180 g, 8 Portionen
 portionen: 8
+zeit: {aktiv: 5, gesamt: 20}
+tags: [Dip, vegetarisch]
 zutaten:
-- name: Skyr natur
-  menge: 150
-  einheit: g
-- name: Bio-Limette, Abrieb
-  menge: 1
-  einheit: ''
-- name: Limettensaft
-  menge: 1.5
-  einheit: EL
-- name: Knoblauchzehe, fein gerieben
-  menge: 0.5
-  einheit: ''
-- name: Honig
-  menge: 1
-  einheit: TL
-- name: Salz
-  menge: 0.25
-  einheit: TL
-- name: Kreuzkümmel, gemahlen
-  menge: 1
-  einheit: Prise
-- name: Olivenöl
-  menge: 1
-  einheit: TL
-- name: Schnittlauch oder Petersilie, fein geschnitten
-  menge: 1
-  einheit: EL
-- name: Wasser oder Milch zum Verdünnen
-  menge: 1
-  einheit: EL
+  - {gruppe: Würzbasis, name: Limettensaft, menge: 1.5, einheit: EL}
+  - {name: Knoblauchzehe, menge: 0.5, einheit: '', hinweis: fein gerieben}
+  - {name: Honig, menge: 1, einheit: TL}
+  - {name: Salz, menge: 0.25, einheit: TL}
+  - {name: 'Kreuzkümmel, gemahlen', menge: 1, einheit: Prise}
+  - {gruppe: Dip, name: Skyr natur, menge: 150, einheit: g}
+  - {name: Olivenöl, menge: 1, einheit: TL}
+  - {name: 'Bio-Limette, Abrieb', menge: 1, einheit: ''}
+  - {name: Wasser oder Milch, menge: 1, einheit: EL}
+  - {name: Schnittlauch oder Petersilie, menge: 1, einheit: EL, hinweis: fein geschnitten}
 schritte:
 - titel: Würzbasis anrühren
-  text: 1.5 EL Limettensaft, 0.5 Knoblauchzehe, fein gerieben, 1 TL Honig, 0.25 TL Salz und 1 Prise Kreuzkümmel, gemahlen in einer Schüssel verrühren, bis sich Salz und Honig gelöst haben. So verteilen sie sich später gleichmäßig im dicken Skyr.
+  text: 1,5 EL Limettensaft, ½ Knoblauchzehe, 1 TL Honig, 0,25 TL Salz und 1 Prise Kreuzkümmel verrühren, bis Salz und Honig gelöst sind.
 - titel: Skyr einrühren
-  text: 150 g Skyr natur, 1 TL Olivenöl und den Abrieb von 1 Bio-Limette, Abrieb unterrühren. Mit 1 EL Wasser oder Milch zum Verdünnen auf Dip-Konsistenz bringen, denn Skyr ist pur zu fest zum Dippen.
+  text: 150 g Skyr, 1 TL Olivenöl und den Abrieb einer Limette unterrühren, mit 1 EL Wasser oder Milch auf Dip-Konsistenz bringen.
 - titel: Ziehen lassen
-  text: 1 EL Schnittlauch oder Petersilie, fein geschnitten unterheben und den Dip abgedeckt kühl ziehen lassen, damit Knoblauch und Limettenöle durchziehen. Danach abschmecken; eventuell noch etwas Limettensaft oder Salz nachgeben.
+  text: 1 EL Kräuter unterheben und abgedeckt kühl ziehen lassen, dann abschmecken.
   timer: 900
 ---
 
-Der Limettenabrieb trägt mehr Aroma als der Saft, denn die ätherischen Öle sitzen in der Schale. Für eine Brücke zur Füllung einen Klecks Sriracha-Mayo als Swirl obenauf geben. Der Dip hält sich 2 Tage im Kühlschrank, der Knoblauch wird mit der Zeit aber kräftiger.
+## Warum so
+
+Im dicken Skyr lösen sich Salz und Honig kaum; im Saft vorgelöst verteilen sie sich gleichmäßig. Der Abrieb trägt mehr Aroma als der Saft, weil die ätherischen Öle in der Schale sitzen. Skyr ist pur zu fest zum Dippen.
+
+## Stellschrauben
+
+- Zu fest → mehr Wasser oder Milch
+- Zu flach → etwas Limettensaft oder Salz nachgeben
+
+## Varianten
+
+- Brücke zur Füllung: einen Klecks Sriracha-Mayo als Swirl obenauf
+- Hält 2 Tage im Kühlschrank, der Knoblauch wird kräftiger

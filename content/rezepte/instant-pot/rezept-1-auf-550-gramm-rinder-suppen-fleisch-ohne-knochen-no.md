@@ -1,5 +1,5 @@
 ---
-titel: Rezept 1 auf 550 Gramm Rinder Suppen-Fleisch ohne Knochen normieren
+titel: Rindfleisch-Gulasch mit Kichererbsen
 status: aktiv
 datum: '2026-03-13'
 quelle:
@@ -7,59 +7,48 @@ quelle:
   url: https://gemini.google.com/app/6d7110d057af64e3
   hinweis: "5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen.  \nJedes Rezept mit a…"
 importiert: true
+linie: rezept-1-rindergulasch-mit-kichererbsen-ff7a0
+variante: 550 g Fleisch
+fokus: Gulasch aus kollagenreichem Suppenfleisch ohne Knochen und eingeweichten Kichererbsen, auf 550 g Fleisch skaliert (Faktor 0,6875). 45 Minuten auf Max lösen das Bindegewebe.
+ergebnis: ca. 2,75 Portionen
+zeit: {aktiv: 15, gesamt: 80}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, High Protein]
+instantpot:
+  programm: Pressure Cook
+  druck: Max
+  zeit: 45
+  ablass: Natural Release
+  ablass_min: 15
+zutaten:
+  - {gruppe: Vorbereitung, name: Getrocknete Kichererbsen, menge: 140, einheit: g, hinweis: über Nacht eingeweicht}
+  - {gruppe: Anbraten, name: Olivenöl, menge: 10, einheit: g}
+  - {gruppe: Anbraten, name: Rinder-Suppenfleisch, menge: 550, einheit: g, hinweis: "ohne Knochen, z. B. Brust oder Spannrippe, 3-cm-Würfel"}
+  - {gruppe: Gemüse, name: Zwiebeln, menge: 140, einheit: g, hinweis: grob gehackt}
+  - {gruppe: Gemüse, name: Karotten, menge: 140, einheit: g, hinweis: "1,5-cm-Würfel"}
+  - {gruppe: Gemüse, name: Knollensellerie, menge: 70, einheit: g, hinweis: "1,5-cm-Würfel"}
+  - {gruppe: Gemüse, name: Lauch, menge: 70, einheit: g, hinweis: in Ringen}
+  - {gruppe: Gemüse, name: Tomatenmark, menge: 35, einheit: g}
+  - {gruppe: Gemüse, name: Paprikapulver edelsüß, menge: 7, einheit: g}
+  - {gruppe: Topf, name: Wasser, menge: 70, einheit: ml, hinweis: zum Ablöschen}
+  - {gruppe: Topf, name: Rinderbrühe, menge: 275, einheit: ml}
+  - {gruppe: Topf, name: Salz, menge: 8, einheit: g}
+  - {gruppe: Topf, name: Pfeffer, menge: 2, einheit: g}
+schritte:
+  - {titel: Gemüse schneiden, text: "Karotten, Sellerie und Lauch in 1,5-cm-Stücke schneiden."}
+  - {titel: Fleisch anbraten, text: "Sauté (High), 10 g Olivenöl erhitzen, 550 g Fleisch in einer Charge rundum karamellbraun anbraten, herausnehmen.", timer: 300}
+  - {titel: Gemüse anbraten, text: "Zwiebeln, Karotten und Sellerie im Bratfett 3 Minuten anbraten.", timer: 180}
+  - {titel: Rösten, text: "Lauch, 35 g Tomatenmark und 7 g Paprika zugeben und 1 Minute rösten.", timer: 60}
+  - {titel: Ablöschen, text: Mit 70 ml Wasser ablöschen und den Bratensatz vollständig vom Boden lösen.}
+  - {titel: Befüllen, text: "Fleisch, abgetropfte Kichererbsen, 275 ml Brühe, 8 g Salz und 2 g Pfeffer zugeben und umrühren."}
+  - {titel: Druckgaren, text: "Deckel verriegeln. Pressure Cook, Max, 45 Minuten.", timer: 2700}
+  - {titel: Natural Release, text: "15 Minuten Natural Release, dann Restdruck ablassen.", timer: 900}
 ---
 
-> **Frage im Chat:** Rezept 1 auf 550 Gramm Rinder Suppen-Fleisch ohne Knochen normieren
+## Warum so
 
-**Skalierungs-Analyse**
-Der limitierende Faktor ist das Rinder-Suppenfleisch (550 g). Um das biochemische und sensorische Gleichgewicht (Salzgehalt, Maillard-Flüssigkeits-Verhältnis, Viskosität) exakt beizubehalten, wird der globale Skalierungsfaktor **0,6875** (550 g / 800 g) auf alle Zutaten angewendet. Der resultierende Output entspricht 2,75 Standard-Portionen.
+Suppenfleisch hat viel Bindegewebe; erst lange Zeit unter hohem Druck wandelt das Kollagen in Gelatine um, die das Gulasch bindet. Garzeit und Druckabbau bleiben beim Verkleinern gleich, weil die Kantenlänge der Würfel und der Kichererbsen die Wärmedurchdringung bestimmt, nicht die Gesamtmenge.
 
-#### Rezept 1 (Normiert): Rindersuppenfleisch-Gulasch mit Kichererbsen
+## Varianten
 
-**1. Gewichtungs-Check**
-
-1. **Geschmack:** Erhalt der Viskosität und Röst-Aromatik durch strikte proportionale Skalierung.
-
-2. **Gesundheit:** Hoher Kollagenanteil durch Suppenfleisch (Bindegewebe). Komplettes Aminosäureprofil intakt.
-
-3. **Aufwand:** Geringfügig reduzierte Aktivzeit (kleinere Röst-Charge).
-
-**2. Zutaten, Wasserwahl & Hardware-Mapping**
-
-|Zutat (für 2,75 Portionen) |Menge |Begründung / Hardware |
-|Rinder-Suppenfleisch (ohne Knochen, z. B. Brust/Spannrippe), 3x3 cm Würfel |550 g |Komplettes Aminosäureprofil. Hoher Kollagenanteil erfordert Druckgaren. |
-|Getrocknete Kichererbsen |140 g |Über Nacht in Wasser (Bosch KIF86PFE0) eingeweicht. |
-|Karotten, Knollensellerie, Lauch |140 g, 70 g, 70 g |Frische Aromenbasis. Manuell in 1,5 cm Würfel/Ringe geschnitten. |
-|Zwiebeln, grob gehackt |140 g |Geschmacksbasis. |
-|Tomatenmark |35 g |Umami-Verstärker. |
-|Rinderbrühe |275 ml |Flüssigkeitsbasis. |
-|**Wasser (Ungefiltert - BLANCO)** |70 ml |Erhalt der strukturellen Integrität von Kichererbsen und Gemüse (17,43 °dH). |
-|Olivenöl |10 g |Hitzeträger. Reduzierte Menge reicht für kleinere Fleisch-Charge. |
-|Salz, Pfeffer, Paprika edelsüß |8 g, 2 g, 7 g |Gewogen mit Timemore Basic 2. |
-|**Instant Pot Pro Max Wifi** |1 |Thermik: Saute, Pressure Cook (Max). |
-
-**3. Q/A-Analyse**
-
-- **Aktivzeit:** 15 Minuten (Schneiden, Anbraten in nunmehr nur einer Charge möglich).
-
-- **Passivzeit:** 45 Minuten (Druckgaren) + 15 Minuten (Druckabbau). Die Thermik-Zeiten bleiben trotz Mengenreduktion identisch, da die Kantenlänge des Fleisches (3x3 cm) und der Kichererbsen den limitierenden Faktor für die Hitze-Penetration darstellen.
-
-- **Ratio-Ergebnis:** Optimal.
-
-**4. Prozess (Maximal-Qualität)**
-
-1. Gemüse waschen, schälen und in 1,5 cm gleichmäßige Stücke schneiden.
-
-2. Instant Pot auf "Saute" (High) stellen. 10 g Olivenöl erhitzen.
-
-3. 550 g Suppenfleisch anbraten, bis eine karamellbraune Kruste entsteht (ca. 5 Minuten). Fleisch entnehmen.
-
-4. Zwiebeln, Karotten und Sellerie im Bratfett 3 Minuten anbraten. Lauch, 35 g Tomatenmark und 7 g Paprikapulver hinzufügen, 1 Minute rösten.
-
-5. Mit 70 ml ungefiltertem Wasser ablöschen, Bratensatz vollständig vom Boden lösen (Deglasieren).
-
-6. Fleisch, eingeweichte Kichererbsen, 275 ml Rinderbrühe, 8 g Salz und 2 g Pfeffer hinzufügen und umrühren.
-
-7. Deckel verriegeln. Modus "Pressure Cook", Druck "Max" (15 psi), 45 Minuten.
-
-8. 15 Minuten "Natural Release". Restdruck ablassen.
+- Originalrezept mit 800 g Fleisch: alle Zutaten durch 0,6875 teilen

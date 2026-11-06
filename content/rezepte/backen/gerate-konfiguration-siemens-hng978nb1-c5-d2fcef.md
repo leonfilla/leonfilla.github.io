@@ -1,5 +1,5 @@
 ---
-titel: Geräte-Konfiguration (Siemens HNG978NB1/C5)
+titel: Express-Käsekuchen mit Erdbeer-Rhabarber
 status: archiv
 datum: '2026-04-23'
 quelle:
@@ -7,89 +7,49 @@ quelle:
   url: https://gemini.google.com/app/439b6672be8638b4
   hinweis: 3 Käsekuchenrezepte mit TK Erdbeeren und frischem Rhabarbaer
 importiert: true
-linie: gerate-konfiguration-siemens-hng978nb1-c5-04e85
----
-
-> **Frage im Chat:** Davon nun eine schnell gemachte Abwandlung, die kurz nach dem backen schon gegessen werden kann, wenn der gesamt-Fruchtanteil am Rezept gleich bleibt, aber nur 110 Gramm Rhabarber vorhanden ist und dementsprechend 110 Gramm Erdbeeren zu verwenden sind. Ebenfalls ist keine Creme Fraiche und keine Sahne da, aber neben an Milchprodukten Frischkäse Magerquark, skyr, Ricotta, Milch,
-
-**Rezept: Express-Käsekuchen (Bodenlos) – Stabilisierte Version**
-
-Diese Abwandlung nutzt einen erhöhten Anteil an Trockenstoffen (Stärke und Grieß), um die Bindung der Masse zu beschleunigen. Durch die Reduktion der Fruchtmenge auf insgesamt 220 g (110 g Rhabarber, 110 g Erdbeeren) wird der Wassereintrag halbiert, was die strukturelle Integrität unmittelbar nach dem Backen erhöht.
-
-#### Zutaten
-
-**Stabile Füllung:**
-
-- 350 g Frischkäse (Doppelrahmstufe)
-
-- 250 g Ricotta (gut abgetropft)
-
-- 200 g Skyr
-
-- 130 g Brauner Zucker
-
-- 3 Eier (Größe M)
-
-- **50 g Speisestärke**
-
-- **40 g Weichweizengrieß** (bindet überschüssige Feuchtigkeit aktiv)
-
-- 1 TL Vanilleextrakt
-
-**Reduzierte Fruchtschicht:**
-
-- 110 g TK-Erdbeeren (klein geschnitten)
-
-- 110 g frischer Rhabarber (in 1 cm kleine Würfel geschnitten)
-
-- 1 EL Speisestärke
-
-**Streusel (wie gehabt):**
-
-- 100 g Weizenmehl
-
-- 50 g gemahlene Mandeln
-
-- 80 g kalte Butter
-
-- 60 g weißer Zucker
-
-- Abrieb von 1 Bio-Zitrone
-
-- 1 Prise Salz
+linie: kasekuchen-erdbeer-rhabarber-2026-04-23
+variante: Express
+fokus: Schnelle, bodenlose Abwandlung der Frischkäse-Variante mit Ricotta und Skyr statt Schmand, die schon 30–45 Minuten nach dem Backen schnittfest ist. Stärke und Grieß binden, Mikrowelle verkürzt die Backzeit.
+ergebnis: 1 Springform, 24 cm
+zeit: {aktiv: 20, gesamt: 100}
+geraete: [bosch-hng978]
+tags: [Kuchen, Käsekuchen, schnell, vegetarisch]
+ofen:
+  modus: 4D-Heißluft + Mikrowelle 90 W + Dampf Stufe 1
+  temp: 160
+  dampf: Stufe 1
+  zeit: 35–40
+  form: Springform 24 cm, Ebene 2
+zutaten:
+  - {gruppe: "Füllung", name: "Doppelrahmfrischkäse", menge: 350, einheit: "g"}
+  - {gruppe: "Füllung", name: "Ricotta", menge: 250, einheit: "g", hinweis: "gut abgetropft"}
+  - {gruppe: "Füllung", name: "Skyr", menge: 200, einheit: "g"}
+  - {gruppe: "Füllung", name: "Brauner Zucker", menge: 130, einheit: "g"}
+  - {gruppe: "Füllung", name: "Eier", menge: 3, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Füllung", name: "Speisestärke", menge: 50, einheit: "g"}
+  - {gruppe: "Füllung", name: "Weichweizengrieß", menge: 40, einheit: "g"}
+  - {gruppe: "Füllung", name: "Vanilleextrakt", menge: 1, einheit: "TL"}
+  - {gruppe: "Frucht", name: "TK-Erdbeeren", menge: 110, einheit: "g", hinweis: "klein geschnitten"}
+  - {gruppe: "Frucht", name: "Rhabarber", menge: 110, einheit: "g", hinweis: "in 1-cm-Würfeln"}
+  - {gruppe: "Frucht", name: "Speisestärke", menge: 1, einheit: "EL"}
+  - {gruppe: "Streusel", name: "Bio-Zitrone", menge: 1, einheit: "", hinweis: "nur Abrieb"}
+  - {gruppe: "Streusel", name: "Weißer Zucker", menge: 60, einheit: "g"}
+  - {gruppe: "Streusel", name: "Weizenmehl", menge: 100, einheit: "g"}
+  - {gruppe: "Streusel", name: "Gemahlene Mandeln", menge: 50, einheit: "g"}
+  - {gruppe: "Streusel", name: "Salz", menge: 1, einheit: "Prise"}
+  - {gruppe: "Streusel", name: "Butter", menge: 80, einheit: "g", hinweis: "kalt"}
+schritte:
+  - {titel: "Ofen einstellen", text: "4D-Heißluft 160 °C mit 90 W Mikrowelle und Dampf Stufe 1 auf Ebene 2 einstellen. 24-cm-Springform vorbereiten."}
+  - {titel: "Masse rühren", text: "350 g Frischkäse, 250 g Ricotta und 200 g Skyr mit 130 g braunem Zucker glattrühren, 3 Eier einzeln unterrühren."}
+  - {titel: "Binder zugeben", text: "50 g Stärke, 40 g Grieß und 1 TL Vanilleextrakt kurz, aber gründlich einarbeiten."}
+  - {titel: "Quellen lassen", text: "5 Minuten ruhen lassen, dann in die Form füllen.", timer: 300}
+  - {titel: "Früchte binden", text: "110 g Erdbeeren und 110 g Rhabarber sehr klein schneiden, mit 1 EL Stärke mischen und auf der Masse verteilen."}
+  - {titel: "Streusel kneten", text: "Zitronenabrieb mit 60 g Zucker verreiben, mit 100 g Mehl, 50 g Mandeln, 1 Prise Salz und 80 g kalter Butter zu Streuseln verkneten und auf die Früchte geben."}
+  - {titel: "Backen", text: "35–40 Minuten backen, bis die Streusel goldbraun sind.", timer: 2250}
+  - {titel: "Schnell abkühlen", text: "Form 15 Minuten in den Tiefkühler stellen – alternativ 30 Minuten in ein kaltes Wasserbad, ohne dass Wasser in die Form läuft.", timer: 900}
 
 ---
 
-#### Geräte-Konfiguration (Siemens HNG978NB1/C5)
+## Warum so
 
-Um die Garzeit zu verkürzen und die Kerntemperatur schneller zu erreichen, wird die **VarioSpeed-Funktion** (Mikrowellen-Kombination) genutzt.
-
-- **Heizart:** 4D Heißluft + Mikrowelle
-
-- **Temperatur:** 160 °C
-
-- **Mikrowellen-Leistung:** 90 Watt (unterstützt die Eiweißstockung im Kern)
-
-- **Dampfzugabe:** Stufe 1
-
-- **Ebene:** 2
-
-- **Dauer:** 35–40 Minuten
-
----
-
-#### Zubereitung
-
-1. **Form:** Eine Springform (Ø 24 cm) vorbereiten. Eine kleinere Form sorgt für mehr Höhe und schnellere Stabilität durch den Grieß.
-
-2. **Masse:** Frischkäse, Ricotta und Skyr mit dem braunen Zucker glattrühren. Eier einzeln unterrühren. Speisestärke, Grieß und Vanilleextrakt hinzufügen und kurz, aber gründlich vermengen. 5 Minuten ruhen lassen, damit der Grieß vorquellen kann. In die Form füllen.
-
-3. **Früchte:** Rhabarber und Erdbeeren sehr klein schneiden (vergrößert die Oberfläche für die Bindung), mit der Stärke mischen und auf der Masse verteilen.
-
-4. **Streusel:** Zitronenabrieb mit Zucker verreiben, Mehl, Mandeln, Salz und Butter zu Streuseln verkneten und auf die Früchte geben.
-
-5. **Backen:** Mit den oben genannten Einstellungen (inkl. 90W Mikrowelle) ca. 35–40 Minuten backen, bis die Streusel goldbraun sind.
-
-6. **Express-Abkühlung:** Den Kuchen aus dem Ofen nehmen. Um ihn schnellstmöglich essen zu können, muss die Form für 15 Minuten in den Tiefkühler oder für 30 Minuten in ein kaltes Wasserbad (darauf achten, dass kein Wasser in die Form gelangt) gestellt werden.
-
-Durch den Grieß- und Stärkeanteil ist der Kuchen bereits bei Zimmertemperatur (ca. 30–45 Minuten nach dem Backen) schnittfest, auch wenn er im Kern noch leicht warm ist. Die Textur ist bei dieser Variante kompakter als bei der Standard-Version.
+Mit nur 220 g Frucht halbiert sich der Wassereintrag, Stärke und vorgequollener Grieß binden den Rest. Die Mikrowelle bringt den Kern schneller auf Stocktemperatur. Dadurch ist der Kuchen bei Zimmertemperatur schon 30–45 Minuten nach dem Backen schnittfest, aber kompakter als die Standardversion.

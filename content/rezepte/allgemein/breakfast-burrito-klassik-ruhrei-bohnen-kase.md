@@ -1,5 +1,5 @@
 ---
-titel: 'Breakfast-Burrito Klassik: Rührei, Bohnen & Käse'
+titel: Breakfast-Burrito Klassik mit Rührei, Bohnen und Käse
 status: aktiv
 datum: '2026-06-10'
 quelle:
@@ -7,7 +7,13 @@ quelle:
   url: https://claude.ai/chat/7dda1830-c842-4490-87e4-1a2b4228ef60
   hinweis: Schnelle Frühstücksideen zum Ausprobieren
 importiert: true
-fokus: Der Standard – herzhaft, proteinreich, perfekt zum Einfrieren
+fokus: Herzhafter Frühstücks-Burrito mit Rührei, Bohnen und Cheddar. Trockene Füllung, damit er sich einfrieren lässt.
+linie: breakfast-burrito-2026-06-10
+variante: Klassik
+ergebnis: 4 Burritos
+zeit: {aktiv: 20, gesamt: 25}
+geraete: [optigrill]
+tags: [Frühstück, Meal Prep, vegetarisch, High Protein]
 portionen: 4
 zutaten:
 - name: große Weizen-Tortillas (25 cm)
@@ -56,4 +62,11 @@ schritte:
   text: 'Vollständig abkühlen lassen, einzeln in Backpapier wickeln, in Gefrierbeutel geben. Hält 2–3 Monate. Aufwärmen: 2 Min. Mikrowelle + 2 Min. OptiGrill für knusprige Hülle.'
 ---
 
-Wichtig fürs Einfrieren: Füllung muss trocken sein – Bohnen gut abtropfen, kein wässriges Gemüse (Tomaten erst beim Servieren).
+## Warum so
+
+Fürs Einfrieren muss die Füllung trocken sein: Bohnen gut abtropfen, kein wässriges Gemüse. Das Anrösten mit der Naht nach unten versiegelt den Burrito.
+
+## Stellschrauben
+
+- Hülle nach dem Auftauen weich → nach der Mikrowelle 2 Minuten in den OptiGrill
+- Füllung wässrig → Tomaten erst beim Servieren dazugeben

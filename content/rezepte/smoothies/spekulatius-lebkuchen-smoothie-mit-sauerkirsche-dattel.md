@@ -1,47 +1,46 @@
 ---
-titel: Spekulatius-Lebkuchen-Smoothie mit Sauerkirsche & Dattel
-status: aktiv
-datum: '2026-06-24'
+titel: "Spekulatius-Lebkuchen-Smoothie mit Sauerkirsche"
+status: "aktiv"
+datum: "2026-06-24"
 quelle:
-  typ: claude
-  url: https://claude.ai/chat/4bdd5908-f4b5-475d-bf2f-29cb0994540e
-  hinweis: Spekulatius-Smoothie-Rezepte mit Vetain
+  typ: "claude"
+  url: "https://claude.ai/chat/4bdd5908-f4b5-475d-bf2f-29cb0994540e"
+  hinweis: "Spekulatius-Smoothie-Rezepte mit Vetain"
 importiert: true
-fokus: 'Proteinreicher Smoothie: Spekulatius-Gewürz trifft auf Kakao, Sauerkirsche und Karamell-Dattel – cremig, leicht säuerlich, weihnachtlich.'
+fokus: "Weihnachtlicher Protein-Smoothie: Spekulatius-Proteinpulver, Kakao und Zimt treffen auf säuerliche Sauerkirsche und eine Karamell-Dattel – milchshake-artig cremig."
+ergebnis: "1 Glas"
 portionen: 1
+zeit: {aktiv: 5, gesamt: 5}
+geraete: ["mixer-hr3760"]
+tags: ["Frühstück", "High Protein"]
 zutaten:
-- name: Vetain Spekulatius Proteinpulver
-  menge: 35
-  einheit: g
-- name: Vollmilch
-  menge: 300
-  einheit: ml
-- name: Kreatin
-  menge: 5
-  einheit: g
-- name: gefrorene Sauerkirschen
-  menge: 90
-  einheit: g
-- name: Medjool-Dattel, entsteint
-  menge: 1
-  einheit: ''
-- name: Kakaopulver, ungesüßt
-  menge: 1
-  einheit: EL
-- name: Zimt, gemahlen
-  menge: 0.25
-  einheit: TL
+  - {name: "Vollmilch", menge: 300, einheit: "ml", gruppe: "Flüssigkeit"}
+  - {name: "Vetain Spekulatius Proteinpulver", menge: 35, einheit: "g", gruppe: "Pulver"}
+  - {name: "Kreatin", menge: 5, einheit: "g"}
+  - {name: "Kakaopulver, ungesüßt", menge: 1, einheit: "EL"}
+  - {name: "Zimt, gemahlen", menge: 0.25, einheit: "TL"}
+  - {name: "Medjool-Dattel, entsteint", menge: 1, einheit: "", gruppe: "Feststoffe"}
+  - {name: "Sauerkirschen, gefroren", menge: 90, einheit: "g"}
 schritte:
-- titel: Dattel einweichen
-  text: Die 1 Medjool-Dattel, entsteint entsteinen und kurz in etwas warmer 300 ml Vollmilch einweichen, falls sie nicht ganz weich ist – das verhindert Stückchen und verbessert die Mixbarkeit.
-  timer: 300
-- titel: Alles in den Mixer
-  text: 300 ml Vollmilch, 35 g Vetain Spekulatius Proteinpulver, 5 g Kreatin, 90 g gefrorene Sauerkirschen, 1 Medjool-Dattel, entsteint, 1 EL Kakaopulver, ungesüßt und 0.25 TL Zimt, gemahlen in den Mixbecher geben. Die gefrorenen Kirschen zuletzt obenauf, damit die Klingen erst die Flüssigkeit erfassen.
-- titel: Mixen
-  text: 30–45 Sekunden auf hoher Stufe mixen, bis die Sauerkirschen vollständig zerkleinert und die Textur milchshake-artig cremig ist.
-  timer: 40
-- titel: Konsistenz prüfen
-  text: Zu dick? Einen Schuss 300 ml Vollmilch nachgeben. Zu dünn? Ein paar Eiswürfel oder mehr gefrorene 90 g gefrorene Sauerkirschen dazu und kurz weitermixen.
+  - {titel: "Dattel einweichen", text: "Ist die Dattel nicht ganz weich, kurz in etwas warmer Milch einweichen.", timer: 300}
+  - {titel: "Flüssigkeit einfüllen", text: "300 ml Vollmilch in den Mixbecher geben."}
+  - {titel: "Pulver dazugeben", text: "35 g Vetain Spekulatius Proteinpulver, 5 g Kreatin, 1 EL Kakaopulver, ungesüßt und ¼ TL Zimt, gemahlen auf die Flüssigkeit geben."}
+  - {titel: "Feststoffe dazugeben", text: "1 Medjool-Dattel, entsteint und 90 g Sauerkirschen, gefroren einfüllen."}
+  - {titel: "Mixen", text: "30–45 Sekunden auf hoher Stufe mixen, bis die Kirschen vollständig zerkleinert sind und die Textur milchshake-artig ist.", timer: 40}
 ---
 
-Protein ca. 33–37 g pro Portion (je nach Milchmenge). Die Sauerkirsche bringt Säure und Farbe – wenn dir das zu herb ist, eine zweite Dattel statt mehr Zucker. Für eine Pre-Workout-Variante in deinen appetitarmen Hochphasen funktioniert das gut, weil flüssig; dann ggf. 20 g Haferflocken für mehr Kohlenhydrate ergänzen.
+## Warum so
+
+Die Sauerkirsche bringt Säure und Farbe, die Dattel rundet sie mit Karamellsüße ab. Die gefrorenen Kirschen kommen zuletzt obenauf, damit die Klingen zuerst die Flüssigkeit erfassen.
+
+Pro Glas: ca. 33–37 g Protein (je nach Milchmenge).
+
+## Stellschrauben
+
+- Zu dick → einen Schuss Milch nachgeben
+- Zu dünn → ein paar Eiswürfel oder mehr gefrorene Sauerkirschen
+- Zu herb → eine zweite Dattel statt Zucker
+
+## Varianten
+
+- Vor dem Training: 20 g Haferflocken für mehr Kohlenhydrate ergänzen

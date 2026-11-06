@@ -1,5 +1,5 @@
 ---
-titel: Mayo-Basis
+titel: Mayo-Basis für Thunfischsalat
 status: aktiv
 datum: '2026-07-30'
 quelle:
@@ -8,25 +8,31 @@ quelle:
   hinweis: Thunfischsalat-Rezepte zum Abendessen
 importiert: true
 linie: mayo-basis-b31c5
+fokus: Selbstgemachte Mayonnaise als Basis für fünf Thunfischsalat-Richtungen, wahlweise als Sriracha-Mayo.
+ergebnis: ca. 180 g
+zeit: {aktiv: 10, gesamt: 10}
+tags: [Sauce, Abendessen, vegetarisch]
+zutaten:
+  - {name: Eigelb, menge: 1, einheit: "", hinweis: zimmerwarm}
+  - {name: Dijonsenf, menge: 1, einheit: TL}
+  - {name: Zitronensaft, menge: 1, einheit: TL}
+  - {name: neutrales Öl, menge: 150, einheit: ml}
+  - {name: Salz, hinweis: nach Geschmack}
+schritte:
+  - titel: Basis verrühren
+    text: 1 Eigelb mit 1 TL Dijonsenf und 1 TL Zitronensaft verrühren.
+  - titel: Öl einarbeiten
+    text: 150 ml neutrales Öl unter ständigem Rühren erst tropfenweise, dann im dünnen Strahl einarbeiten, bis die Mayo fest ist. Mit Salz abschmecken.
 ---
 
-**Mayo-Basis** (für alle Varianten, ergibt ca. 180 g): 1 Eigelb (zimmerwarm), 1 TL Dijon, 1 TL Zitronensaft, 150 ml neutrales Öl, Salz. Für Sriracha-Mayo 1,5–2 TL Sriracha auf 100 g Mayo einrühren — Sriracha bringt Zucker und Essig mit, deshalb die Säure in der Basis etwas zurücknehmen und später gezielt nachjustieren.
+## Warum so
 
-**1 — Mediterran, Zitrone & Kaper** (Mayo, Kichererbsen)
-Kapern, rote Zwiebel (10 min in Zitronensaft vorgezogen), glatte Petersilie, Zitronenabrieb. Ein Drittel der Kichererbsen mit der Gabel zerdrücken: die freigesetzte Stärke bindet die Restfeuchte aus Thunfisch und Zwiebel, der Salat rutscht nicht vom Brötchen.
+Für Sriracha-Mayo 1,5–2 TL Sriracha auf 100 g Mayo einrühren. Sriracha bringt selbst Zucker und Essig mit, deshalb die Säure in der Basis etwas zurücknehmen und später nachjustieren. Thunfisch gut abtropfen, aber 1 EL vom Saft aufheben – er verdünnt die Mayo aromatischer als Wasser.
 
-**2 — Tex-Mex** (Sriracha-Mayo, schwarze Bohnen)
-Kreuzkümmel kurz trocken anrösten und mahlen, dazu Limettensaft und -abrieb, rote Zwiebel, Koriander, optional Mais. Braucht spürbar mehr Säure als erwartet, weil die Sriracha-Süße sonst dominiert.
+## Varianten
 
-**3 — Ostasiatisch** (Sriracha-Mayo, Kichererbsen)
-Mayo mit 1 TL geröstetem Sesamöl und Reisessig strecken, Sojasauce statt Salz, Frühlingszwiebel, geröstete Sesamsaat. Dazu Schnellgurke: Gurkenscheiben 10 min in Reisessig mit einer Prise Zucker. Kichererbsen hier bewusst statt Bohnen — neutraler im Eigengeschmack.
-
-**4 — Coronation/Curry** (Mayo, Kichererbsen)
-Currypulver 30 s in wenig Öl anschwitzen, abkühlen lassen, dann unterrühren — die Hauptaromen sind fettlöslich und bleiben roh stumpf. Dazu Mango-Chutney oder feine Apfelwürfel, Staudensellerie für Biss, optional Rosinen.
-
-**5 — Rauchig-geröstet** (Sriracha-Mayo, Kichererbsen)
-Kichererbsen sehr trocken tupfen, mit geräuchertem Paprikapulver in Pfanne oder Airfryer knusprig rösten und erst unmittelbar vor dem Servieren unterheben. Dazu Dill, Cornichons, rote Zwiebel. Texturkontrast, der aber nur ca. 15 Minuten hält.
-
-Bei allen: Thunfisch gut abtropfen, aber 1 EL vom Saft aufheben — als Aromaträger zum Verdünnen der Mayo besser als Wasser.
-
-Sag mir, welche es wird, dann bekommst du Mengen und Ablauf für zwei Portionen.
+- **Mediterran:** Mayo, Kichererbsen, Kapern, rote Zwiebel (10 min in Zitronensaft), Petersilie, Zitronenabrieb. Ein Drittel der Kichererbsen zerdrücken, die Stärke bindet die Restfeuchte.
+- **Tex-Mex:** Sriracha-Mayo, schwarze Bohnen, angerösteter Kreuzkümmel, Limettensaft und -abrieb, rote Zwiebel, Koriander, optional Mais. Braucht mehr Säure als erwartet.
+- **Ostasiatisch:** Sriracha-Mayo mit 1 TL Sesamöl und Reisessig gestreckt, Kichererbsen, Sojasauce statt Salz, Frühlingszwiebel, Sesam, dazu Schnellgurke (10 min in Reisessig mit etwas Zucker).
+- **Coronation/Curry:** Mayo, Kichererbsen, Currypulver 30 s in Öl angeschwitzt und abgekühlt, Mango-Chutney oder Apfelwürfel, Staudensellerie, optional Rosinen.
+- **Rauchig-geröstet:** Sriracha-Mayo, trockene Kichererbsen mit Rauchpaprika knusprig geröstet und erst direkt vor dem Servieren untergehoben, Dill, Cornichons, rote Zwiebel. Bleibt etwa 15 Minuten knusprig.

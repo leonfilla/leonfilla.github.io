@@ -20,15 +20,15 @@ ofen:
   temp: 200
   zeit: 4–5
 zutaten:
-  - {gruppe: Creme, name: Schmand, menge: 2, einheit: EL}
-  - {gruppe: Creme, name: Frischkäse, menge: 1, einheit: EL}
-  - {gruppe: Creme, name: Zucker, menge: 1, einheit: TL}
-  - {gruppe: Creme, name: Zitronensaft, menge: 1, einheit: TL, hinweis: optional}
-  - {gruppe: Basis, name: Brioche, menge: 1, einheit: "", hinweis: Scheibe}
+  - {gruppe: "Creme", name: "Schmand", menge: 2, einheit: "EL"}
+  - {gruppe: "Creme", name: "Frischkäse", menge: 1, einheit: "EL"}
+  - {gruppe: "Creme", name: "Zucker", menge: 1, einheit: "TL"}
+  - {gruppe: "Creme", name: "Zitronensaft", menge: 1, einheit: "TL", hinweis: "optional"}
+  - {gruppe: "Basis", name: "Brioche", menge: 1, einheit: "", hinweis: "Scheibe"}
 schritte:
-  - {titel: Creme rühren, text: "2 EL Schmand, 1 EL Frischkäse, 1 TL Zucker und 1 TL Zitronensaft homogen verrühren."}
-  - {titel: Aufstreichen, text: Creme etwa 1 cm dick auf die Brioche-Scheibe streichen.}
-  - {titel: Grillen, text: "Auf Einschubhöhe 3 mit Heißluftgrillen bei 200 °C 4–5 Minuten backen, bis die Creme leicht stockt.", timer: 240}
+  - {titel: "Creme rühren", text: "2 EL Schmand, 1 EL Frischkäse, 1 TL Zucker und 1 TL Zitronensaft homogen verrühren."}
+  - {titel: "Aufstreichen", text: "Creme etwa 1 cm dick auf die Brioche-Scheibe streichen."}
+  - {titel: "Grillen", text: "Auf Einschubhöhe 3 mit Heißluftgrillen bei 200 °C 4–5 Minuten backen, bis die Creme leicht stockt.", timer: 240}
 ---
 
 ## Warum so

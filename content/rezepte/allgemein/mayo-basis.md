@@ -1,5 +1,5 @@
 ---
-titel: Mayo-Basis
+titel: Mayo-Basis mit ganzem Ei (Stabmixer)
 status: aktiv
 datum: '2026-07-30'
 quelle:
@@ -8,23 +8,28 @@ quelle:
   hinweis: Thunfischsalat-Rezepte zum Abendessen
 importiert: true
 linie: mayo-basis-b31c5
+fokus: Schnelle Mayonnaise mit ganzem Ei aus dem hohen Becher. Ergibt ~250 g, genug für alle drei Thunfischsalate plus Rest.
+ergebnis: ca. 250 g
+zeit: {aktiv: 3, gesamt: 3}
+tags: [Sauce, Basis, vegetarisch]
+zutaten:
+  - {name: Ei, menge: 1, einheit: '', hinweis: zimmerwarm}
+  - {name: Dijonsenf, menge: 1, einheit: TL}
+  - {name: Zitronensaft, menge: 1, einheit: EL}
+  - {name: Salz, menge: 0.5, einheit: TL}
+  - {name: Neutrales Öl, menge: 200, einheit: ml}
+schritte:
+- titel: Einfüllen
+  text: Ei, 1 TL Dijonsenf, 1 EL Zitronensaft, 0,5 TL Salz und 200 ml Öl in einen hohen Becher geben.
+- titel: Mixen
+  text: Stabmixer auf den Boden setzen, laufen lassen, dann langsam hochziehen.
+  timer: 10
 ---
 
-**Mayo-Basis** (Stabmixer, hoher Becher): 1 ganzes Ei (zimmerwarm), 1 TL Dijon, 1 EL Zitronensaft, ½ TL Salz, 200 ml neutrales Öl. Alles einfüllen, Mixer auf den Boden, 10 s laufen lassen, dann langsam hochziehen. Ergibt ~250 g — reicht für alle drei Varianten plus Rest.
+## Warum so
 
-Für Sriracha-Mayo: 100 g Basis + 1½ EL Sriracha + 1 TL Limettensaft + ¼ TL Honig.
+Am Boden emulgiert zuerst die wässrige Phase mit dem Eigelb, das Öl wird beim Hochziehen schrittweise eingezogen.
 
----
+## Varianten
 
-**1. Mediterran — Mayo + Kichererbsen**
-1 Dose Thunfisch (150 g abgetropft), 150 g Kichererbsen, ½ rote Zwiebel fein, 1 EL Kapern, Petersilie, 3 EL Mayo, Zitronenabrieb, schwarzer Pfeffer. Ein Drittel der Kichererbsen mit der Gabel zerdrücken — bindet und macht's streichfähig.
-
-**2. Tex-Mex — Sriracha-Mayo + schwarze Bohnen**
-Thunfisch, 150 g schwarze Bohnen, 2 Frühlingszwiebeln, 3 EL Mais (angeröstet), Koriander, 3 EL Sriracha-Mayo, ½ TL geräuchertes Paprikapulver, Limette. Dazu Avocadoscheiben aufs Brötchen.
-
-**3. Asiatisch — Sriracha-Mayo + Kichererbsen**
-Thunfisch, 150 g Kichererbsen, ½ Salatgurke entkernt und gewürfelt, 2 Frühlingszwiebeln, 3 EL Sriracha-Mayo, 1 TL Reisessig, 1 TL geröstetes Sesamöl, Sesam. Gurke vorher 10 min salzen und abtupfen.
-
----
-
-Zwei Dinge, die den Unterschied machen: Thunfisch wirklich auspressen (Restlake verdünnt die Emulsion und macht den Salat nach 20 min wässrig), und Hülsenfrüchte nach dem Abspülen trocken tupfen — das Aquafaba bricht die Mayo sonst schleichend auf.
+- Sriracha-Mayo: 100 g Basis + 1½ EL Sriracha + 1 TL Limettensaft + ¼ TL Honig

@@ -7,74 +7,59 @@ quelle:
   url: https://claude.ai/chat/036eef8c-0fd3-4683-9cd5-8668eea57652
   hinweis: Gebratener Halloumi Rezept
 importiert: true
-fokus: Angebratene Zucchini und Kirschtomaten statt Gurke, schnell eingelegte Zwiebeln und Zitronen-Joghurt
+fokus: Bulgur-Bowl mit scharf angebratener Zucchini, Kirschtomaten, schnell eingelegten Zwiebeln, Zitronen-Joghurt und knusprigem Halloumi. Spätes Salzen sorgt für Röstaromen statt gedünsteter Zucchini.
+ergebnis: 2 Portionen
 portionen: 2
+zeit: {aktiv: 30, gesamt: 35}
+tags: [Abendessen, vegetarisch, Bowl]
 zutaten:
-- name: Halloumi
-  menge: 225
-  einheit: g
-- name: Bulgur (oder Couscous)
-  menge: 120
-  einheit: g
-- name: Gemüsebrühe
-  menge: 240
-  einheit: ml
-- name: Zucchini (ca. 400 g)
-  menge: 2
-  einheit: ''
-- name: Kirschtomaten, halbiert
-  menge: 10
-  einheit: ''
-- name: Zwiebel, in feinen Ringen
-  menge: 1
-  einheit: ''
-- name: Bio-Zitrone, ausgepresst
-  menge: 1
-  einheit: ''
-- name: Olivenöl
-  menge: 2
-  einheit: EL
-- name: Kreuzkümmel, gemahlen
-  menge: 1
-  einheit: TL
-- name: Griechischer Joghurt
-  menge: 150
-  einheit: g
-- name: Knoblauchzehe, fein gerieben
-  menge: 1
-  einheit: ''
-- name: Getrocknete Minze (oder frische Kräuter)
-  menge: 1
-  einheit: TL
-- name: Salz
-  menge: 1
-  einheit: TL
-- name: Schwarzer Pfeffer
-  menge: 0.5
-  einheit: TL
-- name: Honig (optional)
-  menge: 1
-  einheit: TL
-- name: Chiliflocken (optional)
-  menge: 0.5
-  einheit: TL
+  - {gruppe: Eingelegte Zwiebeln, name: Zwiebel, menge: 1, einheit: '', hinweis: in feinen Ringen}
+  - {name: 'Bio-Zitrone, ausgepresst', menge: 0.5, einheit: '', hinweis: Hälfte des Safts}
+  - {name: Salz, menge: 1, einheit: Prise}
+  - {gruppe: Bulgur, name: Gemüsebrühe, menge: 240, einheit: ml}
+  - {name: Bulgur, menge: 120, einheit: g, hinweis: oder Couscous}
+  - {gruppe: Gemüse, name: Zucchini, menge: 400, einheit: g, hinweis: ca. 2 Stück}
+  - {name: Olivenöl, menge: 2, einheit: EL}
+  - {name: 'Kreuzkümmel, gemahlen', menge: 1, einheit: TL}
+  - {name: Salz, menge: 0.5, einheit: TL}
+  - {name: Schwarzer Pfeffer, menge: 0.5, einheit: TL}
+  - {name: Kirschtomaten, menge: 10, einheit: '', hinweis: halbiert}
+  - {gruppe: Dressing, name: Griechischer Joghurt, menge: 150, einheit: g}
+  - {name: Knoblauchzehe, menge: 1, einheit: '', hinweis: fein gerieben}
+  - {name: Zitronensaft, menge: 0.5, einheit: '', hinweis: restliche Zitronenhälfte}
+  - {name: Getrocknete Minze, menge: 1, einheit: TL, hinweis: oder frische Kräuter}
+  - {gruppe: Topping, name: Halloumi, menge: 225, einheit: g}
+  - {name: Honig, menge: 1, einheit: TL, hinweis: optional}
+  - {name: Chiliflocken, menge: 0.5, einheit: TL, hinweis: optional}
 schritte:
 - titel: Zwiebeln einlegen
-  text: 1 Zwiebel, in feinen Ringen mit der Hälfte von 1 Bio-Zitrone, ausgepresst und einer Prise von 1 TL Salz mischen und kurz durchkneten. Stehen lassen, während du den Rest vorbereitest. Durch die Säure werden die Zwiebeln milder und knackig.
+  text: Zwiebelringe mit dem Saft einer halben Zitrone und 1 Prise Salz mischen und kurz durchkneten. Stehen lassen.
   timer: 600
 - titel: Bulgur garen
-  text: 240 ml Gemüsebrühe aufkochen, 120 g Bulgur (oder Couscous) einrühren, Deckel drauf und bei kleinster Hitze garen. Danach vom Herd nehmen und zugedeckt nachquellen lassen. Couscous braucht nur übergossen und 5 Minuten zugedeckt zu ziehen.
+  text: 240 ml Gemüsebrühe aufkochen, 120 g Bulgur einrühren, Deckel auflegen und bei kleinster Hitze garen, dann zugedeckt nachquellen lassen.
   timer: 720
 - titel: Zucchini anbraten
-  text: 2 Zucchini (ca. 400 g) in 1 cm dicke Halbmonde schneiden. 2 EL Olivenöl in einer großen Pfanne stark erhitzen und die Zucchini in einer Lage hineingeben. 3–4 Minuten nicht rühren, bis die Unterseite gebräunt ist, dann wenden. Erst jetzt 1 TL Kreuzkümmel, gemahlen, etwas Salz und 0.5 TL Schwarzer Pfeffer zugeben. In der letzten Minute 10 Kirschtomaten, halbiert kurz mitschwenken, sie sollen nur warm werden und nicht zerfallen. Herausnehmen.
+  text: 400 g Zucchini in 1 cm dicke Halbmonde schneiden. 2 EL Olivenöl stark erhitzen, Zucchini in einer Lage einlegen und 3–4 Minuten nicht rühren, dann wenden. Erst jetzt 1 TL Kreuzkümmel, Salz und 0,5 TL Pfeffer zugeben. In der letzten Minute die Kirschtomaten mitschwenken. Herausnehmen.
   timer: 360
 - titel: Dressing rühren
-  text: 150 g Griechischer Joghurt mit 1 Knoblauchzehe, fein gerieben, dem restlichen Zitronensaft, 1 TL Getrocknete Minze (oder frische Kräuter) und einer Prise Salz glatt rühren. Ist es zu dick, mit 1–2 EL Wasser verdünnen.
+  text: 150 g Joghurt mit der Knoblauchzehe, dem restlichen Zitronensaft, 1 TL Minze und 1 Prise Salz glatt rühren; bei Bedarf mit 1–2 EL Wasser verdünnen.
 - titel: Halloumi braten
-  text: 225 g Halloumi in etwa 8 Scheiben schneiden und gut trocken tupfen. In der leeren, heißen Pfanne ohne zusätzliches Fett pro Seite braten, bis eine goldene Kruste entsteht. Optional mit 1 TL Honig (optional) beträufeln.
+  text: 225 g Halloumi in 8 Scheiben schneiden, trocken tupfen und in der leeren, heißen Pfanne ohne Fett beidseitig goldbraun braten. Nach Wunsch mit 1 TL Honig beträufeln.
   timer: 240
 - titel: Anrichten
-  text: Bulgur mit einer Gabel auflockern und auf zwei Schalen verteilen. Zucchini-Tomaten-Mischung, abgetropfte Zwiebeln und Halloumi darauf geben. Mit Dressing beträufeln, mit 0.5 TL Chiliflocken (optional) bestreuen und sofort essen.
+  text: Bulgur auflockern und auf zwei Schalen verteilen. Gemüse, abgetropfte Zwiebeln und Halloumi daraufgeben, mit Dressing beträufeln und mit Chiliflocken bestreuen.
 ---
 
-Die Zucchini erst salzen, wenn sie schon gebräunt sind. Gibst du das Salz früher dazu, zieht es Wasser, sodass die Zucchini im eigenen Saft dünstet statt Maillard-Röstaromen zu entwickeln. Aus demselben Grund die Pfanne nicht überfüllen und lieber in zwei Durchgängen braten. Die Zwiebel-Einlegeflüssigkeit kannst du zusätzlich über die Bowl geben.
+## Warum so
+
+Salz zieht über Osmose Wasser aus der Zucchini; kommt es zu früh, dünstet sie im eigenen Saft statt Maillard-Röstaromen zu bilden. Aus demselben Grund die Pfanne nicht überfüllen. Die Säure macht die Zwiebeln milder und hält sie knackig.
+
+## Stellschrauben
+
+- Zucchini wird wässrig → in zwei Durchgängen braten
+- Dressing zu dick → 1–2 EL Wasser
+
+## Varianten
+
+- Couscous statt Bulgur: nur mit heißer Brühe übergießen und 5 Minuten zugedeckt ziehen lassen
+- Die Zwiebel-Einlegeflüssigkeit zusätzlich über die Bowl geben

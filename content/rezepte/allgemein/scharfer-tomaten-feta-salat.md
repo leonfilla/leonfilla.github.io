@@ -15,17 +15,17 @@ portionen: 2
 zeit: {aktiv: 5, gesamt: 10}
 tags: [Brunch, Beilage, vegetarisch]
 zutaten:
-  - {name: Cherry-Tomaten, menge: 250, einheit: g}
-  - {name: Feta, menge: 80, einheit: g}
-  - {gruppe: Dressing, name: Olivenöl, menge: 2, einheit: EL}
-  - {gruppe: Dressing, name: Heller Essig, menge: 1, einheit: EL, hinweis: oder Zitronensaft}
-  - {gruppe: Dressing, name: Salz, menge: 1, einheit: Prise}
-  - {gruppe: Dressing, name: Schwarzer Pfeffer, menge: null, einheit: "", hinweis: grob gemahlen, reichlich}
+  - {name: "Cherry-Tomaten", menge: 250, einheit: "g"}
+  - {name: "Feta", menge: 80, einheit: "g"}
+  - {gruppe: "Dressing", name: "Olivenöl", menge: 2, einheit: "EL"}
+  - {gruppe: "Dressing", name: "Heller Essig", menge: 1, einheit: "EL", hinweis: "oder Zitronensaft"}
+  - {gruppe: "Dressing", name: "Salz", menge: 1, einheit: "Prise"}
+  - {gruppe: "Dressing", name: "Schwarzer Pfeffer", menge: null, einheit: "", hinweis: "grob gemahlen, reichlich"}
 schritte:
-  - {titel: Tomaten schneiden, text: 250 g Cherry-Tomaten vierteln und in eine Schüssel geben.}
-  - {titel: Feta zerbröseln, text: 80 g Feta darüber zerbröseln.}
-  - {titel: Anmachen, text: "2 EL Olivenöl, 1 EL Essig, 1 Prise Salz und reichlich groben Pfeffer zugeben und vermengen."}
-  - {titel: Durchziehen lassen, text: Bis zum Servieren kühl beiseitestellen., timer: 300}
+  - {titel: "Tomaten schneiden", text: "250 g Cherry-Tomaten vierteln und in eine Schüssel geben."}
+  - {titel: "Feta zerbröseln", text: "80 g Feta darüber zerbröseln."}
+  - {titel: "Anmachen", text: "2 EL Olivenöl, 1 EL Essig, 1 Prise Salz und reichlich groben Pfeffer zugeben und vermengen."}
+  - {titel: "Durchziehen lassen", text: "Bis zum Servieren kühl beiseitestellen.", timer: 300}
 ---
 
 ## Warum so

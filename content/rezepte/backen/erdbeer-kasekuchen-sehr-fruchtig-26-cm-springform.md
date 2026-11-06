@@ -1,5 +1,5 @@
 ---
-titel: Erdbeer-Käsekuchen, sehr fruchtig (26 cm Springform)
+titel: Sehr fruchtiger Erdbeer-Käsekuchen mit Zitronen-Mandel-Streuseln
 status: archiv
 datum: '2026-06-26'
 quelle:
@@ -8,62 +8,71 @@ quelle:
   hinweis: 'Sommerliche Kuchen: Erdbeer-Käse und Zitronen-Mohn'
 importiert: true
 linie: 1-erdbeer-kasekuchen-mit-murbeteigboden-26-cm-spri-c4065
----
-
-Mit einer voll fruchtigen Erdbeermasse dreht sich die Logik um: Die Frucht steckt jetzt *im* Kuchen, also muss das Topping nicht mehr für Frucht sorgen, sondern für **Kontrast**. Deshalb meine klare Empfehlung:
-
-**Streusel.** Eine Erdbeermasse mit frischen Erdbeeren obendrauf ist „Erdbeere auf Erdbeere" – eindimensional. Deine Zitronen-Mandel-Streusel setzen Butter-Knusprigkeit, geröstete Mandel und Zitrone dagegen (Erdbeere–Mandel–Zitrone ist ein klassisch starkes Trio) und lassen die Frucht erst richtig hervortreten. Außerdem backen sie in einem Schritt mit – kein separates Belegen und Gelieren nach dem Kühlen. Kalt serviert bleibt der Kuchen trotzdem erfrischend. *(Frische Erdbeeren gehen natürlich auch – dann ohne Streusel backen und nach dem Kühlen belegen. Wer beides will, setzt nach dem Backen ein paar frische Beeren zwischen die Streusel.)*
-
-Die eigentliche Herausforderung: die Masse **intensiv** erdbeerig bekommen, ohne dass sie wässrig, grau oder rissig wird. Frische Erdbeeren einfach unterrühren leistet das nicht – sie sind ~90 % Wasser und verlieren Aroma beim Backen. Zwei Hebel lösen es:
-
-1. **Erdbeer-Reduktion statt frischer Frucht:** ~450 g auf ~150 g dickes Püree einkochen. Entzieht ~⅔ Wasser, konzentriert Aroma und Süße 2–3-fach und hält die Masse schnittfest.
-2. **Gefriergetrocknete Erdbeeren, gemahlen (~20 g):** reines Aroma + Farbe, null Wasser. Das ist der Unterschied zwischen „dezent rosa" und „deutlich Erdbeere". Gut online oder im gut sortierten Supermarkt zu bekommen.
-
-Dazu nehme ich Schmand und Zitronensaft etwas zurück, um das Plus an Püree auszugleichen, und erhöhe das Puddingpulver leicht für die Bindung.
-
-**Zur Farbe, ehrlich:** Eine *gebackene* Erdbeer-Quarkmasse wird nie knallrot, sondern ein warmes Rosé/Mauve. Pulver + sanftes Backen (niedrige Temperatur, wenig Bräunung) holen das Maximum raus – Anthocyane bauen unter Hitze ab, und etwas Säure hält den Ton eher rötlich als bläulich-grau. Knallrot ginge nur ungebacken.
-
----
-
-## Erdbeer-Käsekuchen, sehr fruchtig (26 cm Springform)
-
-### Erdbeer-Reduktion (zuerst, muss auskühlen)
-- 450 g Erdbeeren (TK ist ideal und günstig – wird ohnehin eingekocht)
-- 35 g Zucker
-- 1 TL Zitronensaft
-
-Bei mittlerer Hitze ~12–15 Min. einkochen, bis ein dickes, jammiges Püree von ~150–170 g entsteht, das auf dem Löffel steht (Spatel zieht eine klare Spur). **Vollständig abkühlen** – heiß würde es die Masse verflüssigen und die Eier angaren. Optional 2–3 EL für eine Marmorierung beiseitestellen.
-
-### Mürbeteigboden (unverändert)
-- 200 g Mehl Type 405 · 100 g kalte Butter · 75 g Zucker · 1 Ei (M) · 1 Prise Salz
-
-Verkneten, 30 Min. kühlen, in die gefettete Form drücken (~2–3 cm Rand hochziehen), Boden einstechen, **180 °C O/U ~15 Min.** hellgolden vorbacken.
-
-### Sehr fruchtige Erdbeermasse
-- 750 g Magerquark
-- 150 g Schmand *(zurückgenommen wegen des Pürees; für mehr Cremigkeit bis 200 g, dann minimal weicher)*
-- 4 Eier (M)
-- 150 g Zucker *(die Reduktion bringt schon Süße – so bleibt's frisch-fruchtig statt süß)*
-- 55 g Vanillepuddingpulver *(≈ 1½ Päckchen, hält die fruchtige Masse schnittfest)*
-- ~150 g abgekühlte Erdbeer-Reduktion
-- 20 g gefriergetrocknete Erdbeeren, fein gemahlen
-- Abrieb 1 Bio-Zitrone + 1 EL Saft
-- 1 TL Vanilleextrakt · 1 Prise Salz
-
-Alles glatt und cremig verrühren (Wilfa ProBaker, niedrige Stufe – nicht zu lange schlagen). Auf den vorgebackenen Boden gießen, glattstreichen. Optional die beiseitegestellte Reduktion in Tupfen aufsetzen und mit einem Spieß marmorieren.
-
-### Zitronen-Mandel-Streusel (×1,3 für 26 cm)
-- 140 g Mehl Type 405 · 75 g gemahlene Mandeln · 100 g Zucker · 115 g kalte Butter · Abrieb 1 Bio-Zitrone · Prise Salz
-
-Zu groben Streuseln verkneten, kalt stellen, vor dem Backen über die Masse verteilen (optional 20 g Mandelblättchen obenauf).
-
-### Backen
-- **Umluft 160 °C, ca. 60–70 Min.**, bis die Streusel goldgelb sind und die Mitte nur noch leicht wackelt. Bräunen die Streusel zu schnell → locker mit Alufolie abdecken.
-- **Bosch HNG978: 150 °C, niedriger Dampfanteil, ca. 65–75 Min.** – bestes Ergebnis für Farbe (weniger Bräunung) und rissfrei. Streusel die letzten ~12 Min. ohne Dampf aufknuspern.
-- Danach Ofen aus, Tür einen Spalt offen, 10–15 Min. stehen lassen (gegen Risse). Vollständig auskühlen, **mind. 4 Std., besser über Nacht kalt stellen** – erst dann schneidet er sauber.
-
-Die etwas höhere Feuchte und Säure machen die Masse minimal rissanfälliger; nicht zu lange rühren, sanft backen und der Restwärme-Trick fangen das zuverlässig ab.
+fokus: Quarkkuchen auf Mürbeteig, dessen Masse durch eingekochte Erdbeer-Reduktion und gemahlene gefriergetrocknete Erdbeeren intensiv fruchtig wird. Zitronen-Mandel-Streusel setzen Kontrast statt „Erdbeere auf Erdbeere“.
+ergebnis: 1 Springform, 26 cm
+zeit: {aktiv: 50, gesamt: 400}
+geraete: [wilfa-probaker, bosch-hng978]
+tags: [Kuchen, Käsekuchen, vegetarisch]
+ofen:
+  modus: Heißluft + Dampf niedrig
+  temp: 150
+  dampf: niedrig, letzte 12 Minuten ohne
+  zeit: 65–75
+  form: Springform 26 cm
+zutaten:
+  - {gruppe: "Erdbeer-Reduktion", name: "Erdbeeren", menge: 450, einheit: "g", hinweis: "TK ideal"}
+  - {gruppe: "Erdbeer-Reduktion", name: "Zucker", menge: 35, einheit: "g"}
+  - {gruppe: "Erdbeer-Reduktion", name: "Zitronensaft", menge: 1, einheit: "TL"}
+  - {gruppe: "Mürbeteig", name: "Mehl Type 405", menge: 200, einheit: "g"}
+  - {gruppe: "Mürbeteig", name: "Butter", menge: 100, einheit: "g", hinweis: "kalt"}
+  - {gruppe: "Mürbeteig", name: "Zucker", menge: 75, einheit: "g"}
+  - {gruppe: "Mürbeteig", name: "Ei", menge: 1, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Mürbeteig", name: "Salz", menge: 1, einheit: "Prise"}
+  - {gruppe: "Streusel", name: "Mehl Type 405", menge: 140, einheit: "g"}
+  - {gruppe: "Streusel", name: "Gemahlene Mandeln", menge: 75, einheit: "g"}
+  - {gruppe: "Streusel", name: "Zucker", menge: 100, einheit: "g"}
+  - {gruppe: "Streusel", name: "Butter", menge: 115, einheit: "g", hinweis: "kalt"}
+  - {gruppe: "Streusel", name: "Bio-Zitrone", menge: 1, einheit: "", hinweis: "nur Abrieb"}
+  - {gruppe: "Streusel", name: "Salz", menge: 1, einheit: "Prise"}
+  - {gruppe: "Streusel", name: "Mandelblättchen", menge: 20, einheit: "g", hinweis: "optional"}
+  - {gruppe: "Erdbeermasse", name: "Magerquark", menge: 750, einheit: "g"}
+  - {gruppe: "Erdbeermasse", name: "Schmand", menge: 150, einheit: "g", hinweis: "bis 200 g für mehr Cremigkeit"}
+  - {gruppe: "Erdbeermasse", name: "Eier", menge: 4, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Erdbeermasse", name: "Zucker", menge: 150, einheit: "g"}
+  - {gruppe: "Erdbeermasse", name: "Vanillepuddingpulver", menge: 55, einheit: "g", hinweis: "ca. 1½ Päckchen"}
+  - {gruppe: "Erdbeermasse", name: "Erdbeer-Reduktion", menge: 150, einheit: "g", hinweis: "abgekühlt, von oben"}
+  - {gruppe: "Erdbeermasse", name: "Gefriergetrocknete Erdbeeren", menge: 20, einheit: "g", hinweis: "fein gemahlen"}
+  - {gruppe: "Erdbeermasse", name: "Bio-Zitrone", menge: 1, einheit: "", hinweis: "Abrieb und 1 EL Saft"}
+  - {gruppe: "Erdbeermasse", name: "Vanilleextrakt", menge: 1, einheit: "TL"}
+  - {gruppe: "Erdbeermasse", name: "Salz", menge: 1, einheit: "Prise"}
+schritte:
+  - {titel: "Reduktion einkochen", text: "450 g Erdbeeren mit 35 g Zucker und 1 TL Zitronensaft bei mittlerer Hitze 12–15 Minuten zu 150–170 g dickem Püree einkochen, bis der Spatel eine klare Spur zieht.", timer: 840}
+  - {titel: "Reduktion abkühlen", text: "Vollständig abkühlen lassen. Optional 2–3 EL zum Marmorieren beiseitestellen."}
+  - {titel: "Mürbeteig kneten", text: "200 g Mehl, 100 g kalte Butter, 75 g Zucker, 1 Ei und 1 Prise Salz verkneten."}
+  - {titel: "Teig kühlen", text: "30 Minuten kühlen.", timer: 1800}
+  - {titel: "Streusel kneten", text: "140 g Mehl, 75 g Mandeln, 100 g Zucker, 115 g kalte Butter, Zitronenabrieb und 1 Prise Salz zu groben Streuseln verkneten und kalt stellen."}
+  - {titel: "Boden formen", text: "Teig in die gefettete 26-cm-Form drücken, 2–3 cm Rand hochziehen und den Boden einstechen."}
+  - {titel: "Vorbacken", text: "Bei 180 °C Ober-/Unterhitze etwa 15 Minuten hellgolden vorbacken.", timer: 900}
+  - {titel: "Masse rühren", text: "750 g Quark, 150 g Schmand, 4 Eier, 150 g Zucker, 55 g Puddingpulver, 150 g Reduktion, 20 g Erdbeerpulver, Zitronenabrieb und 1 EL Saft, 1 TL Vanilleextrakt und 1 Prise Salz in der Wilfa auf niedriger Stufe nur kurz glatt rühren."}
+  - {titel: "Einfüllen", text: "Masse auf den vorgebackenen Boden gießen und glattstreichen. Optional Reduktionstupfen aufsetzen und mit einem Spieß marmorieren."}
+  - {titel: "Streusel verteilen", text: "Streusel und optional 20 g Mandelblättchen über die Masse geben."}
+  - {titel: "Backen mit Dampf", text: "Bei 150 °C mit niedrigem Dampfanteil backen, bis die Mitte nur noch leicht wackelt – insgesamt 65–75 Minuten.", timer: 3600}
+  - {titel: "Ohne Dampf aufknuspern", text: "Die letzten etwa 12 Minuten ohne Dampf backen, damit die Streusel knusprig werden.", timer: 720}
+  - {titel: "Im Ofen ruhen", text: "Ofen aus, Tür einen Spalt öffnen und 10–15 Minuten stehen lassen.", timer: 750}
+  - {titel: "Kalt stellen", text: "Vollständig auskühlen und mindestens 4 Stunden, besser über Nacht, kalt stellen.", timer: 14400}
 
 ---
 
-Der Zitronen-Mohn-Kuchen aus der letzten Nachricht bleibt unverändert. Sobald beide für dich passen, gieße ich dir sie gern als PDF-Rezeptkarten im Format deines Rhabarber-Rezepts.
+## Warum so
+
+Frische Erdbeeren sind zu 90 % Wasser und verlieren beim Backen Aroma; die Reduktion entzieht etwa zwei Drittel des Wassers und konzentriert Aroma und Süße, das Pulver bringt Farbe ohne Wasser. Mehr Puddingpulver bindet das Plus an Püree. Gebacken wird die Masse nie knallrot, sondern rosé: Anthocyane bauen unter Hitze ab, niedrige Temperatur, wenig Bräunung und etwas Säure holen das Maximum heraus.
+
+## Stellschrauben
+
+- Masse reißt → kürzer rühren, sanfter backen, Restwärme-Pause einhalten
+- Streusel bräunen zu schnell → locker mit Alufolie abdecken
+
+## Varianten
+
+- **Ohne Dampf:** Heißluft 160 °C, 60–70 Minuten.
+- **Mit frischen Erdbeeren statt Streuseln:** ohne Streusel backen und nach dem Kühlen belegen; oder nach dem Backen einige frische Beeren zwischen die Streusel setzen.

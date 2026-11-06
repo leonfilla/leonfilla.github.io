@@ -1,5 +1,5 @@
 ---
-titel: Erdbeer-Himbeer-Käsekuchen, sehr fruchtig (26 cm Springform)
+titel: Sehr fruchtiger Erdbeer-Himbeer-Käsekuchen
 status: aktiv
 datum: '2026-06-26'
 quelle:
@@ -8,128 +8,95 @@ quelle:
   hinweis: 'Sommerliche Kuchen: Erdbeer-Käse und Zitronen-Mohn'
 importiert: true
 linie: 1-erdbeer-kasekuchen-mit-murbeteigboden-26-cm-spri-c4065
+variante: Erdbeer-Himbeer-Reduktion
+fokus: Käsekuchen auf Mürbeteig mit einer Masse aus Quark und eingekochter Erdbeer-Himbeer-Reduktion, einer Schicht frischer Erdbeerstücke und Zitronen-Mandel-Streuseln. Alles, was roh gegessen wird, ist frische Erdbeere.
+ergebnis: 1 Springform 26 cm, ca. 12–14 Stücke
+portionen: 12
+zeit: {aktiv: 60, gesamt: 420}
+geraete: [wilfa-probaker, bosch-hng978]
+tags: [Kuchen, Käsekuchen]
+ofen:
+  modus: Umluft
+  temp: 160
+  zeit: "15 + 60–70"
+  form: Springform 26 cm
+zutaten:
+- {gruppe: Reduktion, name: TK-Erdbeeren, menge: 300, einheit: g}
+- {gruppe: Reduktion, name: TK-Himbeeren, menge: 150, einheit: g}
+- {gruppe: Reduktion, name: Zucker, menge: 45, einheit: g}
+- {gruppe: Reduktion, name: Zitronensaft, menge: 1, einheit: TL}
+- {gruppe: Erdbeerstücke, name: Erdbeeren, menge: 200, einheit: g, hinweis: "fest, reif, in 1–1,5-cm-Stücken"}
+- {gruppe: Erdbeerstücke, name: Zucker, menge: 1, einheit: TL}
+- {gruppe: Erdbeerstücke, name: Speisestärke, menge: 1, einheit: TL, hinweis: gestrichen}
+- {gruppe: Mürbeteig, name: Mehl Type 405, menge: 200, einheit: g}
+- {gruppe: Mürbeteig, name: Zucker, menge: 75, einheit: g}
+- {gruppe: Mürbeteig, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Mürbeteig, name: Butter, menge: 100, einheit: g, hinweis: kalt}
+- {gruppe: Mürbeteig, name: Ei, menge: 1, einheit: "", hinweis: Größe M}
+- {gruppe: Streusel, name: Mehl Type 405, menge: 140, einheit: g}
+- {gruppe: Streusel, name: Gemahlene Mandeln, menge: 75, einheit: g}
+- {gruppe: Streusel, name: Zucker, menge: 100, einheit: g}
+- {gruppe: Streusel, name: Butter, menge: 115, einheit: g, hinweis: kalt}
+- {gruppe: Streusel, name: Bio-Zitrone, menge: 1, einheit: "", hinweis: nur Abrieb}
+- {gruppe: Streusel, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Streusel, name: Mandelblättchen, menge: 20, einheit: g, hinweis: optional}
+- {gruppe: Masse, name: Magerquark, menge: 750, einheit: g}
+- {gruppe: Masse, name: Schmand, menge: 150, einheit: g, hinweis: bis 200 g für mehr Cremigkeit}
+- {gruppe: Masse, name: Eier, menge: 4, einheit: "", hinweis: Größe M}
+- {gruppe: Masse, name: Zucker, menge: 150, einheit: g}
+- {gruppe: Masse, name: Vanillepuddingpulver, menge: 60, einheit: g}
+- {gruppe: Masse, name: Reduktion, menge: 150, einheit: g, hinweis: abgekühlt}
+- {gruppe: Masse, name: Bio-Zitrone, menge: 1, einheit: "", hinweis: Abrieb und 1 EL Saft}
+- {gruppe: Masse, name: Vanilleextrakt, menge: 1, einheit: TL}
+- {gruppe: Masse, name: Salz, menge: 1, einheit: Prise}
+- {gruppe: Topping, name: Erdbeeren, menge: 150, einheit: g, hinweis: "frisch, halbiert"}
+- {gruppe: Topping, name: Himbeeren, hinweis: "optional, einige frische"}
+schritte:
+- titel: Reduktion einkochen
+  text: 300 g TK-Erdbeeren und 150 g TK-Himbeeren gefroren mit 45 g Zucker und 1 TL Zitronensaft bei mittlerer Hitze zu einem dicken, jammigen Püree (ca. 160 g) einkochen.
+  timer: 1020
+- titel: Passieren und abkühlen
+  text: Durch ein Sieb passieren (ca. 150 g) und vollständig abkühlen lassen.
+- titel: Erdbeeren mazerieren
+  text: 200 g Erdbeerstücke mit 1 TL Zucker mischen und ziehen lassen.
+  timer: 1080
+- titel: Erdbeeren bemänteln
+  text: Gut abtropfen, Saft abgießen, trocken tupfen und in 1 TL Speisestärke wenden.
+- titel: Mürbeteig
+  text: 200 g Mehl, 75 g Zucker und 1 Prise Salz mischen, 100 g kalte Butter mit den Fingerspitzen einarbeiten, 1 Ei zugeben und kurz zusammenfügen. Kalt stellen.
+  timer: 1800
+- titel: Blindbacken
+  text: Teig in die gefettete Form drücken, 2–3 cm Rand hochziehen, Boden einstechen und bei 180 °C Ober-/Unterhitze ca. 15 Minuten hellgolden vorbacken. Etwas abkühlen lassen.
+  timer: 900
+- titel: Streusel kneten
+  text: 140 g Mehl, 75 g Mandeln, 100 g Zucker, 115 g kalte Butter, Zitronenabrieb und 1 Prise Salz zu groben Streuseln verkneten und kalt stellen.
+- titel: Masse rühren
+  text: 750 g Quark, 150 g Schmand, 4 Eier, 150 g Zucker, 60 g Puddingpulver, 150 g Reduktion, Zitronenabrieb und -saft, 1 TL Vanille und 1 Prise Salz im Wilfa ProBaker auf niedriger Stufe kurz glatt rühren.
+- titel: Schichten
+  text: Die Hälfte der Masse auf den Boden streichen, Erdbeerstücke aufstreuen, restliche Masse darüber, glattstreichen. Streusel und optional Mandelblättchen verteilen.
+- titel: Backen
+  text: Bei 160 °C Umluft ca. 60–70 Minuten backen, bis die Streusel goldgelb sind und die Mitte nur noch leicht wackelt. Bräunen sie zu schnell, locker mit Alufolie abdecken.
+  timer: 3900
+- titel: Im Ofen ruhen
+  text: Ofen aus, Tür einen Spalt öffnen und 10–15 Minuten stehen lassen.
+  timer: 720
+- titel: Kühlen
+  text: In der Form vollständig auskühlen lassen, dann mindestens 4 Stunden, besser über Nacht, kalt stellen.
+  timer: 14400
+- titel: Topping
+  text: 150 g halbierte Erdbeeren (optional einige Himbeeren) zwischen die Streusel setzen.
 ---
 
-Damit sind beide final. Geändert gegenüber der letzten Version: Die Reduktion ist jetzt ⅓ Himbeere / ⅔ Erdbeere und läuft über TK (an dieser Stelle besser und günstiger); alle roh gegessenen Teile – Mittelschicht und Topping – bleiben reine, frische Erdbeere.
+## Warum so
 
----
+Die eingekochte Reduktion bringt Fruchtaroma in die Masse, ohne sie zu verwässern; heiß würde sie die Masse verflüssigen und die Eier angaren, daher vollständig abkühlen. Himbeeren liefern Pigment und Säure – die Masse wird rot statt rosé, Zitronensaft hält den pH niedrig und die Farbe stabil. Mazerierte, abgetupfte und bemäntelte Erdbeerstücke geben kaum noch Saft ab und bleiben als definierte Schicht stehen.
 
-# Erdbeer-Himbeer-Käsekuchen, sehr fruchtig (26 cm Springform)
+## Stellschrauben
 
-### Reduktion (Schritt 1, muss vollständig auskühlen)
-- 300 g TK-Erdbeeren
-- 150 g TK-Himbeeren
-- 45 g Zucker *(10 g mehr als zuvor – fängt die höhere Himbeersäure ab)*
-- 1 TL Zitronensaft *(hält den pH niedrig → rötere Farbe)*
+- Masse reißt oder fällt → kürzer und langsamer rühren
+- Cremiger → bis 200 g Schmand, dann minimal weicher
+- Streusel zu dunkel → Alufolie
 
-### Frische Erdbeerstücke (Mittelschicht)
-- 200 g feste, reife Erdbeeren, in 1–1,5 cm Stücke
-- 1 TL Zucker
-- 1 gestr. TL Speisestärke
+## Varianten
 
-### Mürbeteigboden
-- 200 g Mehl Type 405
-- 100 g Butter, kalt
-- 75 g Zucker
-- 1 Ei (M)
-- 1 Prise Salz
-
-### Masse
-- 750 g Magerquark
-- 150 g Schmand *(für mehr Cremigkeit bis 200 g, dann minimal weicher)*
-- 4 Eier (M)
-- 150 g Zucker
-- 60 g Vanillepuddingpulver
-- ~150 g abgekühlte Reduktion
-- Abrieb 1 Bio-Zitrone + 1 EL Saft
-- 1 TL Vanilleextrakt
-- 1 Prise Salz
-
-### Zitronen-Mandel-Streusel
-- 140 g Mehl Type 405
-- 75 g gemahlene Mandeln
-- 100 g Zucker
-- 115 g Butter, kalt
-- Abrieb 1 Bio-Zitrone
-- 1 Prise Salz
-- optional: 20 g Mandelblättchen
-
-### Frischer Topping-Boost (nach dem Kühlen)
-- ~150 g frische Erdbeeren, halbiert
-- optional für den Farb-Pop: einige frische Himbeeren *(zerfallen leichter als Erdbeerhälften)*
-
-### Zubereitung
-1. **Reduktion einkochen:** TK-Früchte direkt gefroren (nicht auftauen) mit Zucker und Zitronensaft bei mittlerer Hitze ~15–18 Min. zu einem dicken, jammigen Püree (~160 g) einkochen, das auf dem Löffel steht. **Durch ein Sieb passieren** (Himbeerkerne) → ~150 g glatte Reduktion. **Vollständig abkühlen** – heiß würde sie die Masse verflüssigen und die Eier angaren.
-2. **Erdbeerstücke vorbereiten:** Stücke mit 1 TL Zucker mischen, 15–20 Min. mazerieren. Gut abtropfen, Saft abgießen, trocken tupfen, dann in der Speisestärke wenden, bis sie dünn bemäntelt sind. Beiseitestellen.
-3. **Boden blindbacken:** Mehl, Zucker, Salz mischen, kalte Butter mit den Fingerspitzen einarbeiten, Ei zugeben, kurz zum Teig fügen (nicht kneten). 30 Min. kalt stellen. In die gefettete Form drücken, ~2–3 cm Rand hochziehen, Boden einstechen, **180 °C O/U ~15 Min.** hellgolden vorbacken. Etwas abkühlen.
-4. **Streusel kneten:** Alle Zutaten zu groben Streuseln verkneten, kalt stellen.
-5. **Masse rühren:** Quark, Schmand, Eier, Zucker, Puddingpulver, abgekühlte Reduktion, Zitrone, Vanille und Salz glatt und cremig verrühren (Wilfa ProBaker, niedrige Stufe – nicht zu lange schlagen, sonst reißt/fällt die Masse).
-6. **Schichten:** Die Hälfte der Masse auf den Boden geben, glattstreichen. Die abgetropften Erdbeerstücke gleichmäßig aufstreuen (nicht einrühren). Restliche Masse darüber, glattstreichen. Streusel (+ optional Mandelblättchen) verteilen.
-7. **Backen – konventionell:** **160 °C Umluft, ca. 60–70 Min.**, bis die Streusel goldgelb sind und die Mitte nur noch leicht wackelt. Bräunen die Streusel zu schnell → locker mit Alufolie abdecken.
-   **Backen – Bosch HNG978:** **150 °C, niedriger Dampfanteil, ca. 65–75 Min.** – beste Farbe (wenig Bräunung) und rissfrei; Streusel die letzten ~12 Min. ohne Dampf aufknuspern.
-8. **Risse vermeiden:** Ofen aus, Tür einen Spalt offen, 10–15 Min. stehen lassen. Dann in der Form vollständig auskühlen, **mind. 4 Std. (besser über Nacht) kalt stellen** – erst dann schneidet er sauber.
-9. **Frischeboost:** Auf den gekühlten Kuchen die halbierten frischen Erdbeeren (optional ein paar Himbeeren) zwischen die Streusel setzen.
-
-*Im Querschnitt: knuspriger Boden, fruchtig-rosé Creme mit Himbeer-Rückgrat, eine Schicht definierter Erdbeerstücke, Streusel – obenauf der rohe, frische Kontrast.*
-
----
-
-# Zitronen-Mohn-Kuchen mit Drizzle (25–26 cm Kastenform)
-
-### Teig
-- 225 g Butter, weich
-- 225 g Zucker
-- 4 Eier (M)
-- 250 g Mehl Type 405
-- 2 TL Backpulver
-- 50 g Mohn, ganz *(für mehr Aroma kurz in 30 ml heißer Milch quellen lassen und mitverarbeiten)*
-- Abrieb von 2 Bio-Zitronen
-- 1 Prise Salz
-- 2–3 EL Milch oder Joghurt nach Bedarf
-
-### Drizzle
-- Saft der 2 Zitronen (~80 ml)
-- 100 g Zucker *(Kristallzucker, nicht auflösen – das gibt die Knusperkruste)*
-
-### Zubereitung
-1. **Teig:** Butter und Zucker hell-cremig aufschlagen (Wilfa, ~3–4 Min.). Eier einzeln einrühren. Mehl + Backpulver + Salz mit Zitronenabrieb und Mohn unterheben, mit etwas Milch auf geschmeidige Konsistenz bringen (soll schwer vom Löffel fallen). In die gefettete, bemehlte Kastenform füllen, glattstreichen.
-2. **Backen – konventionell:** **175 °C O/U (160 °C Umluft), ca. 50–60 Min.**, Stäbchenprobe. Nach ~25 Min. die Oberfläche längs einritzen → kontrollierter Riss in der Mitte.
-   **Backen – Bosch HNG978:** **165 °C mit wenig Dampf, ca. 55 Min.**
-3. **Drizzle:** Zitronensaft und Zucker nur verrühren (**nicht auflösen**). Den noch warmen Kuchen in der Form mehrfach tief mit einem Holzspieß einstechen, den Zucker-Saft löffelweise gleichmäßig darüber verteilen. Vollständig einziehen lassen, dann stürzen und auskühlen.
-
-*Zitronen-Reihenfolge: erst beide Zitronen abreiben (Teig), dann dieselben auspressen (Drizzle).*
-
----
-
-# Einkaufsliste (beide Kuchen)
-
-**Frisch (roh verwendet)**
-- Frische Erdbeeren: **350 g netto** (200 g Stücke + 150 g Topping) → plane ~400 g brutto wegen Putzverlust
-- optional: einige frische Himbeeren (Farb-Pop im Topping)
-- 4 Bio-Zitronen *(2 Käsekuchen, 2 Mohnkuchen; heiß abwaschen, Schale wird verwendet)*
-
-**Tiefkühl**
-- TK-Erdbeeren: 300 g
-- TK-Himbeeren: 150 g
-
-**Kühlregal**
-- 750 g Magerquark
-- 1 Becher Schmand (200 g; benötigt 150 g)
-- 9 Eier Größe M *(4 Masse + 1 Boden + 4 Mohnkuchen → 1× 10er-Packung)*
-- Butter: **440 g** *(100 g Boden + 115 g Streusel + 225 g Mohnteig → 2 Päckchen; Käsekuchen-Anteil kalt, Mohnteig weich)*
-- Milch *(~50 ml für den Mohnteig – vermutlich vorhanden)*
-
-**Trockenvorrat**
-- Mehl Type 405: **590 g** (200 Boden + 140 Streusel + 250 Mohnkuchen)
-- Zucker: **~625 g** (45 Reduktion + 150 Masse + 100 Streusel + 225 Mohnteig + 100 Drizzle + Mazerieren)
-- 75 g gemahlene Mandeln
-- Mohn, ganz: 50 g
-- Vanillepuddingpulver: 60 g *(≈ 1½ Päckchen → 2 Päckchen kaufen)*
-- optional: 20 g Mandelblättchen
-
-**Vermutlich im Vorrat** *(zur Kontrolle)*
-- Speisestärke (1 gestr. TL) · Backpulver (2 TL) · Vanilleextrakt (1 TL) · Salz
-
----
-
-Beide sind damit final ausgereizt – sag Bescheid, wenn ich sie dir als PDF-Rezeptkarten im Format deines Rhabarber-Rezepts ausgeben soll.
+- **Dampfbackofen:** 150 °C mit niedrigem Dampfanteil, ca. 65–75 Minuten – beste Farbe, rissfrei; Streusel die letzten ca. 12 Minuten ohne Dampf aufknuspern.

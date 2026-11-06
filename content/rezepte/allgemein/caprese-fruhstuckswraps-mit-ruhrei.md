@@ -8,7 +8,11 @@ quelle:
   hinweis: Frühstückswraps mit Mozzarella und Tomate
 importiert: true
 linie: caprese-fruhstuckswraps-1c6db
-fokus: Cremiges Rührei mit Mozzarella, Tomate, Basilikum und Pesto – im OptiGrill knusprig angepresst
+fokus: Cremiges Rührei mit Mozzarella, Tomate, Basilikum und Pesto, im OptiGrill knusprig angepresst.
+ergebnis: 4 Wraps
+zeit: {aktiv: 20, gesamt: 25}
+geraete: [optigrill]
+tags: [Frühstück, vegetarisch, High Protein]
 portionen: 4
 zutaten:
 - name: große Weizentortillas (ca. 25 cm)
@@ -60,4 +64,16 @@ schritte:
   timer: 180
 ---
 
-Pro Wrap: 2 Eier, ca. 60 g Mozzarella, 60 g Tomate. Burrata statt Mozzarella funktioniert nicht zum Anpressen (zu flüssig). Für mehr Protein: 50 g Hüttenkäse pro Wrap unter das Pesto streichen. Die Wraps lassen sich gut vorbereiten und morgens nur noch anpressen – dann Tomaten erst frisch dazugeben.
+## Warum so
+
+Abgetupfter Mozzarella und entkernte Tomaten halten die Wraps trocken. Das Rührei kommt vor dem vollständigen Stocken vom Herd und gart im Wrap nach, deshalb bleibt es cremig. Pro Wrap: 2 Eier, etwa 60 g Mozzarella und 60 g Tomate.
+
+## Stellschrauben
+
+- Wraps weichen durch → Mozzarella länger auf Küchenpapier legen, Tomatenflüssigkeit abtupfen
+- Burrata statt Mozzarella → nicht zum Anpressen geeignet, zu flüssig
+
+## Varianten
+
+- Mehr Protein: 50 g Hüttenkäse pro Wrap unter das Pesto streichen.
+- Vorbereiten: Wraps am Vorabend rollen und morgens nur anpressen, Tomaten dann erst frisch dazugeben.

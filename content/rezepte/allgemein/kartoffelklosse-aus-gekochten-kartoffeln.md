@@ -7,7 +7,10 @@ quelle:
   url: https://claude.ai/chat/30b34df4-cf1a-4b7f-b599-81927c7b9d56
   hinweis: Rinder-Suppenfleisch Rezept
 importiert: true
-fokus: Kalt gepresste Kartoffeln mit retrogradierter Stärke ergeben einen formstabilen, nicht klebrigen Teig.
+fokus: Klöße aus kalt gepressten Kartoffeln. Die retrogradierte Stärke ergibt einen formstabilen, nicht klebrigen Teig.
+ergebnis: 8 Klöße à ca. 130 g
+zeit: {aktiv: 30, gesamt: 75}
+tags: [Beilage, vegetarisch]
 portionen: 4
 zutaten:
 - name: mehligkochende Kartoffeln
@@ -32,8 +35,8 @@ zutaten:
   menge: 10
   einheit: g
 - name: Wasser zum Garen
-  menge: 3
-  einheit: l
+  menge: 3000
+  einheit: g
 - name: Salz für das Kochwasser
   menge: 30
   einheit: g
@@ -49,11 +52,22 @@ schritte:
 - titel: Klöße formen
   text: Mit feuchten Händen 8 Klöße zu je ca. 130 g formen und in jeden 2–3 Croutons einschließen. Die Oberfläche muss rissfrei sein, sonst dringt beim Garen Wasser ein.
 - titel: Probekloß garen
-  text: '3 l Wasser zum Garen mit 30 g Salz für das Kochwasser aufkochen und die Hitze reduzieren, bis das Wasser nur noch siedet. Zuerst einen Kloß garen: Zerfällt er, 10–20 g mehr Stärke unter den Teig arbeiten.'
+  text: '3000 g Wasser zum Garen mit 30 g Salz für das Kochwasser aufkochen und die Hitze reduzieren, bis das Wasser nur noch siedet. Zuerst einen Kloß garen: Zerfällt er, 10–20 g mehr Stärke unter den Teig arbeiten.'
   timer: 1200
 - titel: Klöße ziehen lassen
   text: Die übrigen Klöße ins siedende, nicht kochende Wasser geben und ca. 20 Min ziehen lassen. Sie sind fertig, wenn sie einige Minuten an der Oberfläche schwimmen. Mit einer Schaumkelle herausheben.
   timer: 1200
 ---
 
-Wenn das Wasser sprudelnd kocht, wird der Kloßmantel durch die Konvektion abgetragen und die Klöße zerfallen. Das Wasser darf daher nur sieden. Die Kartoffeln für die Klöße kannst du heute Abend schon kochen.
+## Warum so
+
+Kartoffeln, die über Nacht auskühlen, bilden retrogradierte Stärke; der Teig klebt dadurch weniger. Sprudelnd kochendes Wasser trägt den Kloßmantel durch Konvektion ab, deshalb dürfen die Klöße nur sieden. Eine rissige Oberfläche lässt beim Garen Wasser eindringen.
+
+## Stellschrauben
+
+- Probekloß zerfällt → 10–20 g mehr Stärke unter den Teig arbeiten
+- Teig kleistrig → kürzer kneten
+
+## Varianten
+
+- Die Kartoffeln am Vorabend kochen.

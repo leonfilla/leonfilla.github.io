@@ -1,5 +1,5 @@
 ---
-titel: Adas Polo mit Belugalinsen, geröstete Austernpilze & Minz-Joghurt (Vollkorn, 4 Portionen)
+titel: Adas Polo mit Austernpilzen und Minz-Joghurt (Vollkorn)
 status: aktiv
 datum: '2026-05-18'
 quelle:
@@ -7,134 +7,102 @@ quelle:
   url: https://claude.ai/chat/48e69f2e-1461-4a75-93e5-a73efd8f1847
   hinweis: Vegetarische Instant-Pot-Gerichte mit Belugalinsen
 importiert: true
-fokus: Persisch-inspirierter Vollkorn-Linsenreis aus dem Instant Pot Pro Max, cremig-klebrig durch Rundkorn-Vollkornreis. Dazu im Ofen ger\u00f6stete Austernpilze mit Sumach und ein k\u00fchler Knoblauch-Minz-Joghurt.
+linie: adas-polo-mit-belugalinsen-sumach-rundkornreis-var-a670e
+variante: Vollkorn, 4 Portionen
+fokus: Persisch inspirierter Linsenreis aus Vollkorn-Rundkornreis mit Datteln und Rosinen, cremig-klebrig aus dem Instant Pot. Dazu im Ofen geröstete Austernpilze mit Sumach und ein Knoblauch-Minz-Joghurt.
+ergebnis: 4 Portionen
 portionen: 4
+zeit: {aktiv: 35, gesamt: 90}
+geraete: [instant-pot-pro-max, bosch-hng978]
+tags: [Abendessen, vegetarisch]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 22
+  ablass: Natural Release
+  ablass_min: 12
+ofen:
+  modus: Umluft
+  temp: 220
+  zeit: 22
+  form: 1–2 Bleche
 zutaten:
-- name: Olivenöl (Sauté-Basis)
-  menge: 2
-  einheit: EL
-- name: Butter (Sauté-Basis)
-  menge: 1
-  einheit: EL
-- name: Zwiebel, mittelgroß, fein gewürfelt
-  menge: 2
-  einheit: ''
-- name: Knoblauchzehe, fein gehackt (Reisbasis)
-  menge: 4
-  einheit: ''
-- name: Kreuzkümmel, gemahlen
-  menge: 2
-  einheit: TL
-- name: Kurkuma, gemahlen
-  menge: 2
-  einheit: TL
-- name: Zimt, gemahlen
-  menge: 1
-  einheit: TL
-- name: Schwarzer Pfeffer, gemahlen
-  menge: 1
-  einheit: TL
-- name: Vollkorn-Rundkornreis, gewaschen & idealerweise 30 min eingeweicht
-  menge: 400
-  einheit: g
-- name: Datteln, entsteint, gewürfelt
-  menge: 120
-  einheit: g
-- name: Rosinen
-  menge: 60
-  einheit: g
-- name: Salz
-  menge: 1.5
-  einheit: TL
-- name: Kirschtomaten aus der Dose (mit Saft)
-  menge: 800
-  einheit: g
-- name: Gemüsebrühe
-  menge: 400
-  einheit: ml
-- name: Belugalinsen, gespült (separat am Herd)
-  menge: 240
-  einheit: g
-- name: Austernpilze (Ofen)
-  menge: 500
-  einheit: g
-- name: Olivenöl (Pilze)
-  menge: 3
-  einheit: EL
-- name: Salz (Pilze)
-  menge: 0.75
-  einheit: TL
-- name: Schwarzer Pfeffer (Pilze)
-  menge: 0.5
-  einheit: TL
-- name: Knoblauchzehe, fein gerieben (Pilze, Finish)
-  menge: 2
-  einheit: ''
-- name: Sumach (Pilze, Finish)
-  menge: 0.5
-  einheit: TL
-- name: Zitronensaft (Pilze, Finish)
-  menge: 2
-  einheit: TL
-- name: Joghurt, griechisch ~10% (Dip)
-  menge: 300
-  einheit: g
-- name: Knoblauchzehe, fein gerieben (Dip)
-  menge: 1
-  einheit: ''
-- name: Getrocknete Minze (aus Nanaminze-Tee ausgekrümelt)
-  menge: 1.5
-  einheit: TL
-- name: Salz (Dip)
-  menge: 0.5
-  einheit: TL
-- name: Olivenöl (Dip)
-  menge: 1
-  einheit: EL
-- name: Zitronensaft (Dip)
-  menge: 2
-  einheit: TL
-- name: Sumach, zum Servieren
-  menge: 1
-  einheit: TL
-- name: TK-Petersilie, zum Servieren
-  menge: 3
-  einheit: EL
+  - {gruppe: Reis, name: Olivenöl, menge: 2, einheit: EL}
+  - {gruppe: Reis, name: Butter, menge: 1, einheit: EL}
+  - {gruppe: Reis, name: Zwiebeln, menge: 2, einheit: "", hinweis: "mittelgroß, fein gewürfelt"}
+  - {gruppe: Reis, name: Knoblauchzehen, menge: 4, einheit: "", hinweis: fein gehackt}
+  - {gruppe: Reis, name: Kreuzkümmel gemahlen, menge: 2, einheit: TL}
+  - {gruppe: Reis, name: Kurkuma gemahlen, menge: 2, einheit: TL}
+  - {gruppe: Reis, name: Zimt gemahlen, menge: 1, einheit: TL}
+  - {gruppe: Reis, name: Schwarzer Pfeffer, menge: 1, einheit: TL}
+  - {gruppe: Reis, name: Gemüsebrühe, menge: 400, einheit: ml}
+  - {gruppe: Reis, name: Vollkorn-Rundkornreis, menge: 400, einheit: g, hinweis: "gewaschen, 30 min eingeweicht"}
+  - {gruppe: Reis, name: Datteln, menge: 120, einheit: g, hinweis: "entsteint, gewürfelt"}
+  - {gruppe: Reis, name: Rosinen, menge: 60, einheit: g}
+  - {gruppe: Reis, name: Salz, menge: 1.5, einheit: TL}
+  - {gruppe: Reis, name: Kirschtomaten aus der Dose, menge: 800, einheit: g, hinweis: mit Saft}
+  - {gruppe: Linsen, name: Belugalinsen, menge: 240, einheit: g, hinweis: gespült}
+  - {gruppe: Linsen, name: Wasser, menge: 1000, einheit: g, hinweis: mit einer Prise Salz}
+  - {gruppe: Pilze, name: Austernpilze, menge: 500, einheit: g}
+  - {gruppe: Pilze, name: Olivenöl, menge: 3, einheit: EL}
+  - {gruppe: Pilze, name: Salz, menge: 0.75, einheit: TL}
+  - {gruppe: Pilze, name: Schwarzer Pfeffer, menge: 0.5, einheit: TL}
+  - {gruppe: Pilze, name: Knoblauchzehen, menge: 2, einheit: "", hinweis: fein gerieben}
+  - {gruppe: Pilze, name: Zitronensaft, menge: 2, einheit: TL}
+  - {gruppe: Pilze, name: Sumach, menge: 0.5, einheit: TL}
+  - {gruppe: Dip, name: Griechischer Joghurt, menge: 300, einheit: g, hinweis: ca. 10 % Fett}
+  - {gruppe: Dip, name: Knoblauchzehe, menge: 1, einheit: "", hinweis: fein gerieben}
+  - {gruppe: Dip, name: Getrocknete Minze, menge: 1.5, einheit: TL, hinweis: aus Nanaminze-Tee}
+  - {gruppe: Dip, name: Salz, menge: 0.5, einheit: TL}
+  - {gruppe: Dip, name: Olivenöl, menge: 1, einheit: EL}
+  - {gruppe: Dip, name: Zitronensaft, menge: 2, einheit: TL}
+  - {gruppe: Servieren, name: Sumach, menge: 1, einheit: TL}
+  - {gruppe: Servieren, name: TK-Petersilie, menge: 3, einheit: EL}
 schritte:
-- titel: Reis einweichen & Ofen vorheizen
-  text: 400 g Vollkorn-Rundkornreis, gewaschen & idealerweise 30 min eingeweicht waschen, bis das Wasser klar läuft, dann 30 min in warmem Wasser einweichen (bessere, gleichmäßigere Garung + Phytat-Bonus). Backofen auf **220°C Umluft** vorheizen. Die Einweichzeit nutzt du für Zwiebeln, Pilze und Dip.
-  timer: 1800
-- titel: Belugalinsen separat garen (Herd)
-  text: 'Parallel am Herd: 240 g Belugalinsen, gespült (separat am Herd) mit ~1 L Wasser + Prise Salz aufkochen, dann 18–22 min sanft köcheln, bis sie weich, aber noch formstabil sind. Abgießen und beiseitestellen. Läuft entspannt parallel zum IP-Zyklus.'
-  timer: 1320
-- titel: Aromaten anrösten (IP)
-  text: Instant Pot auf **Sauté Medium-High**. 2 EL Olivenöl (Sauté-Basis) und 1 EL Butter (Sauté-Basis) schmelzen, dann 2 Zwiebel, mittelgroß, fein gewürfelt 8–10 min goldbraun rösten – darf wirklich Farbe nehmen. Dann 4 Knoblauchzehe, fein gehackt (Reisbasis), 2 TL Kreuzkümmel, gemahlen, 2 TL Kurkuma, gemahlen, 1 TL Zimt, gemahlen, 1 TL Schwarzer Pfeffer, gemahlen dazu und ~1 min mitrösten. **Sauté ausschalten.**
-  timer: 480
-- titel: Ablöschen & schichten
-  text: Mit einem Schluck der 400 ml Gemüsebrühe den Bodensatz ablöschen und **gründlich freikratzen** (wichtig gegen Burn-Warnung). Eingeweichten, abgetropften 400 g Vollkorn-Rundkornreis, gewaschen & idealerweise 30 min eingeweicht samt 120 g Datteln, entsteint, gewürfelt, 60 g Rosinen und 1.5 TL Salz einrühren, restliche 400 ml Gemüsebrühe angießen, glatt streichen. Jetzt 800 g Kirschtomaten aus der Dose (mit Saft) als Schicht **obenauf** verteilen – **nicht mehr umrühren** (Tomaten als Deckschicht, freie Brühe unten leitet die Hitze).
-- titel: Druckkochen
-  text: Deckel zu, Ventil auf **Sealing**. **Pressure Cook High 22 min.** Druckaufbau dauert ~7–9 min, dann läuft die Garzeit.
-  timer: 1320
-- titel: Natural Release
-  text: 12 min natürlichen Druckabbau abwarten (Pot in Ruhe lassen), danach Restdruck per **Quick Release** ablassen.
-  timer: 720
-- titel: Austernpilze rösten (Ofen, parallel)
-  text: 'Während der Reis kocht: 500 g Austernpilze (Ofen) in mundgerechte Streifen zupfen (nicht zu klein – schrumpfen stark). Mit 3 EL Olivenöl (Pilze), 0.75 TL Salz (Pilze), 0.5 TL Schwarzer Pfeffer (Pilze) mischen, **einlagig** auf Blech(e), nicht überladen. **220°C Umluft, 20–25 min**, nach ~12 min wenden, bis die Ränder knusprig-goldbraun sind. Heiß mit 2 Knoblauchzehe, fein gerieben (Pilze, Finish), 2 TL Zitronensaft (Pilze, Finish) und 0.5 TL Sumach (Pilze, Finish) durchschwenken.'
-  timer: 1320
-- titel: Joghurt-Dip anrühren
-  text: 300 g Joghurt, griechisch ~10% (Dip), 1 Knoblauchzehe, fein gerieben (Dip), 1.5 TL Getrocknete Minze (aus Nanaminze-Tee ausgekrümelt), 0.5 TL Salz (Dip), 1 EL Olivenöl (Dip) und 2 TL Zitronensaft (Dip) glatt verrühren, abschmecken, kalt stellen. Vorm Servieren mit etwas Sumach und einem Spritzer Olivenöl toppen.
-- titel: Finish & anrichten
-  text: Reis mit einer **Gabel** auflockern, die abgetropften Linsen vorsichtig unterheben. Für extra cremig 1–2 min auf **Sauté Low** durchrühren (ggf. Schluck Brühe). Anrichten, die gerösteten Pilze obenauf, 1 TL Sumach, zum Servieren und 3 EL TK-Petersilie, zum Servieren darüber, Joghurt-Dip dazu.
+  - titel: Reis einweichen
+    text: 400 g Reis waschen, bis das Wasser klar läuft, dann 30 Minuten in warmem Wasser einweichen. Ofen auf 220 °C Umluft vorheizen.
+    timer: 1800
+  - titel: Linsen garen
+    text: Parallel 240 g Belugalinsen mit 1000 g Wasser und einer Prise Salz aufkochen und 18–22 Minuten sanft köcheln, bis sie weich, aber formstabil sind. Abgießen.
+    timer: 1320
+  - titel: Zwiebeln rösten
+    text: Sauté Medium-High, 2 EL Olivenöl und 1 EL Butter schmelzen, Zwiebeln 8–10 Minuten goldbraun rösten.
+    timer: 480
+  - titel: Gewürze rösten
+    text: 4 Knoblauchzehen, 2 TL Kreuzkümmel, 2 TL Kurkuma, 1 TL Zimt und 1 TL Pfeffer etwa 1 Minute mitrösten. Sauté ausschalten.
+    timer: 60
+  - titel: Ablöschen
+    text: Mit einem Schluck der 400 ml Brühe ablöschen und den Boden gründlich freikratzen.
+  - titel: Schichten
+    text: Abgetropften Reis, 120 g Datteln, 60 g Rosinen und 1,5 TL Salz einrühren, restliche Brühe angießen, glatt streichen. 800 g Tomaten obenauf verteilen, nicht mehr umrühren.
+  - titel: Druckgaren
+    text: Ventil auf Sealing, Pressure Cook, High, 22 Minuten.
+    timer: 1320
+  - titel: Natürlicher Druckabbau
+    text: 12 Minuten Natural Release, dann Quick Release.
+    timer: 720
+  - titel: Pilze rösten
+    text: Während der Reis gart, 500 g Austernpilze in Streifen zupfen, mit 3 EL Öl, 0,75 TL Salz und 0,5 TL Pfeffer mischen und einlagig bei 220 °C Umluft 20–25 Minuten rösten, nach 12 Minuten wenden.
+    timer: 1320
+  - titel: Pilze abschmecken
+    text: Heiß mit 2 geriebenen Knoblauchzehen, 2 TL Zitronensaft und 0,5 TL Sumach durchschwenken.
+  - titel: Dip anrühren
+    text: 300 g Joghurt, 1 Knoblauchzehe, 1,5 TL Minze, 0,5 TL Salz, 1 EL Olivenöl und 2 TL Zitronensaft verrühren und kalt stellen.
+  - titel: Anrichten
+    text: Reis mit einer Gabel auflockern, Linsen unterheben, optional 1–2 Minuten auf Sauté Low cremig rühren. Pilze obenauf, mit 1 TL Sumach und 3 EL Petersilie bestreuen, Dip dazu.
 ---
 
-**Reissorte:** Vollkorn-Rundkorn ist hier goldrichtig — kurz-/rundkörnig = maximale Amylopektin-Freisetzung = am nächsten an der cremig-klebrigen Textur, die dir mit weißem Rundkorn gefiel. Nur eben nussiger, mit etwas mehr Biss und längerer Garzeit.
+## Warum so
 
-**Flüssigkeit & Konsistenz:** 400 ml Brühe + 1 Dose passt für eingeweichten Reis und cremiges Ergebnis. Ohne Einweichen +50–75 ml Brühe und +2–3 min HP. Am Ende zu suppig → 2–3 min auf Sauté Low reduzieren; zu fest → Schluck heiße Brühe + kurz Sauté Low durchrühren (setzt zusätzlich Stärke frei = noch cremiger).
+Rundkorn-Vollkornreis setzt viel Amylopektin frei und wird cremig-klebrig, bleibt aber nussiger mit mehr Biss als weißer. Belugalinsen brauchen kürzer als Vollkornreis und garen deshalb getrennt. Die Tomaten liegen als Deckschicht, damit ihre Säure nicht auf dem heißen Boden die Burn-Meldung auslöst. Die Pilze brauchen trockene Hitze ohne Dampf und viel Platz, sonst dämpfen sie statt zu rösten.
 
-**Burn-Warnung:** Nach dem Zwiebelrösten Bodensatz mit Brühe ablöschen und gründlich freikratzen, Tomaten als unvermischte Deckschicht oben — sonst löst die Tomatensäure auf dem heißen Boden die Burn-Meldung aus.
+## Stellschrauben
 
-**Linsen-Alternative (komplett im IP):** Statt Herd erst Linsen-Cycle im IP — 240 g + 1 L Wasser, 8 min HP + Quick Release, abgießen, beiseite. Dann Pot trockenwischen und mit Schritt 3 weiter. Kostet ~15 min mehr seriell.
+- Reis nicht eingeweicht → 50–75 ml mehr Brühe, 2–3 Minuten länger
+- Zu suppig → 2–3 Minuten auf Sauté Low reduzieren
+- Zu fest → Schluck heiße Brühe zugeben, kurz auf Sauté Low durchrühren
 
-**Dip-Variante Mast-o-Khiar:** ½ Salatgurke fein reiben, salzen, 5 min ziehen lassen, kräftig ausdrücken und unterheben — macht den Dip frischer und voluminöser.
+## Varianten
 
-**Pilze:** Bloß nicht überladen, sonst dämpfen sie statt zu rösten. Lieber 2 Bleche. Am Steam-Ofen Heißluft/Umluft ohne Dampfzusatz — wir wollen trockene Hitze für knusprige Ränder.
+- **Linsen im Instant Pot:** 240 g Linsen mit 1000 g Wasser 8 Minuten High, Quick Release, abgießen; dann Topf trocknen und mit dem Reis weitermachen. Etwa 15 Minuten länger.
+- **Mast-o-Khiar:** Eine halbe Gurke fein reiben, salzen, 5 Minuten ziehen lassen, ausdrücken und unter den Dip heben.

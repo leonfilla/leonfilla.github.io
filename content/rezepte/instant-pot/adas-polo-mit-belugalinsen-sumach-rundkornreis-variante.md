@@ -1,5 +1,5 @@
 ---
-titel: Adas Polo mit Belugalinsen & Sumach (Rundkornreis-Variante)
+titel: Adas Polo mit Belugalinsen und Sumach (Rundkornreis)
 status: aktiv
 datum: '2026-05-18'
 quelle:
@@ -8,100 +8,75 @@ quelle:
   hinweis: Vegetarische Instant-Pot-Gerichte mit Belugalinsen
 importiert: true
 linie: adas-polo-mit-belugalinsen-sumach-rundkornreis-var-a670e
-fokus: Persisch-inspirierter Linsenreis aus dem Instant Pot Pro Max – mit Datteln, Rosinen, karamellisierter Zwiebel und Nane Dagh (geröstete Minzbutter aus deinem Nanaminze-Tee).
+variante: Weißer Rundkornreis, 2 Portionen
+fokus: Persisch inspirierter Linsenreis mit weißem Rundkornreis, Datteln, Rosinen und karamellisierter Zwiebel – alles in einem Druckgang. Dazu Nane Dagh, in Butter geröstete Minze.
+ergebnis: 2 Portionen
 portionen: 2
+zeit: {aktiv: 20, gesamt: 45}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegetarisch]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 6
+  ablass: Natural Release
+  ablass_min: 10
 zutaten:
-- name: Olivenöl (für Sauté-Basis)
-  menge: 1
-  einheit: EL
-- name: Butter (für Sauté-Basis)
-  menge: 1
-  einheit: EL
-- name: Zwiebel, mittelgroß, fein gewürfelt
-  menge: 1
-  einheit: ''
-- name: Knoblauchzehe, fein gehackt
-  menge: 3
-  einheit: ''
-- name: Kreuzkümmel, gemahlen
-  menge: 1
-  einheit: TL
-- name: Kurkuma, gemahlen
-  menge: 1
-  einheit: TL
-- name: Zimt, gemahlen
-  menge: 0.5
-  einheit: TL
-- name: Schwarzer Pfeffer, gemahlen
-  menge: 0.5
-  einheit: TL
-- name: Belugalinsen, gespült
-  menge: 120
-  einheit: g
-- name: Rundkornreis (weiß), gewaschen bis Wasser klar
-  menge: 200
-  einheit: g
-- name: Kirschtomaten aus der Dose (mit Saft)
-  menge: 400
-  einheit: g
-- name: Gemüsebrühe
-  menge: 350
-  einheit: ml
-- name: Datteln, entsteint, gewürfelt
-  menge: 60
-  einheit: g
-- name: Rosinen
-  menge: 30
-  einheit: g
-- name: Salz
-  menge: 1
-  einheit: TL
-- name: Getrocknete Minze (aus Nanaminze-Teebeuteln ausgekrümelt)
-  menge: 1
-  einheit: TL
-- name: Olivenöl (für Nane Dagh)
-  menge: 1
-  einheit: EL
-- name: Butter (für Nane Dagh)
-  menge: 1
-  einheit: TL
-- name: Sumach, zum Servieren
-  menge: 1
-  einheit: TL
-- name: TK-Petersilie, zum Servieren
-  menge: 2
-  einheit: EL
+  - {gruppe: Reis, name: Olivenöl, menge: 1, einheit: EL}
+  - {gruppe: Reis, name: Butter, menge: 1, einheit: EL}
+  - {gruppe: Reis, name: Zwiebel, menge: 1, einheit: "", hinweis: "mittelgroß, fein gewürfelt"}
+  - {gruppe: Reis, name: Knoblauchzehen, menge: 3, einheit: "", hinweis: fein gehackt}
+  - {gruppe: Reis, name: Kreuzkümmel gemahlen, menge: 1, einheit: TL}
+  - {gruppe: Reis, name: Kurkuma gemahlen, menge: 1, einheit: TL}
+  - {gruppe: Reis, name: Zimt gemahlen, menge: 0.5, einheit: TL}
+  - {gruppe: Reis, name: Schwarzer Pfeffer, menge: 0.5, einheit: TL}
+  - {gruppe: Reis, name: Belugalinsen, menge: 120, einheit: g, hinweis: gespült}
+  - {gruppe: Reis, name: Rundkornreis weiß, menge: 200, einheit: g, hinweis: "gewaschen, bis das Wasser klar ist"}
+  - {gruppe: Reis, name: Datteln, menge: 60, einheit: g, hinweis: "entsteint, gewürfelt"}
+  - {gruppe: Reis, name: Rosinen, menge: 30, einheit: g}
+  - {gruppe: Reis, name: Salz, menge: 1, einheit: TL}
+  - {gruppe: Reis, name: Kirschtomaten aus der Dose, menge: 400, einheit: g, hinweis: mit Saft}
+  - {gruppe: Reis, name: Gemüsebrühe, menge: 350, einheit: ml}
+  - {gruppe: Nane Dagh, name: Olivenöl, menge: 1, einheit: EL}
+  - {gruppe: Nane Dagh, name: Butter, menge: 1, einheit: TL}
+  - {gruppe: Nane Dagh, name: Getrocknete Minze, menge: 1, einheit: TL, hinweis: aus Nanaminze-Teebeuteln}
+  - {gruppe: Servieren, name: Sumach, menge: 1, einheit: TL}
+  - {gruppe: Servieren, name: TK-Petersilie, menge: 2, einheit: EL}
 schritte:
-- titel: Zwiebel goldbraun rösten
-  text: Instant Pot auf **Sauté Medium-High** stellen. 1 EL Olivenöl (für Sauté-Basis) und 1 EL Butter (für Sauté-Basis) im Innentopf schmelzen lassen, dann 1 Zwiebel, mittelgroß, fein gewürfelt 8–10 min unter gelegentlichem Rühren goldbraun rösten – darf wirklich Farbe nehmen, das ist die Geschmacksgrundlage.
-  timer: 480
-- titel: Knoblauch & Gewürze anrösten
-  text: 3 Knoblauchzehe, fein gehackt, 1 TL Kreuzkümmel, gemahlen, 1 TL Kurkuma, gemahlen, 0.5 TL Zimt, gemahlen und 0.5 TL Schwarzer Pfeffer, gemahlen dazugeben und ~1 min unter Rühren mitrösten, bis es aromatisch wird (nicht verbrennen).
-  timer: 60
-- titel: Linsen kurz mitrösten
-  text: 120 g Belugalinsen, gespült dazu, kurz durchrühren, bis sie mit Öl überzogen sind. **Sauté ausschalten.**
-  timer: 30
-- titel: Reis, Tomaten, Trockenfrüchte, Brühe einschichten
-  text: 200 g Rundkornreis (weiß), gewaschen bis Wasser klar, 60 g Datteln, entsteint, gewürfelt, 30 g Rosinen und 1 TL Salz in den Pot. Dann 400 g Kirschtomaten aus der Dose (mit Saft) und 350 ml Gemüsebrühe darüber gießen. Mit dem Löffel einmal kurz glatt streichen, sodass alles unter Flüssigkeit liegt – danach **nicht mehr umrühren**. Reis darf nicht in den Boden geraten, sonst Burn-Warnung.
-- titel: Druckkochen
-  text: Deckel zu, Ventil auf **Sealing**. **Pressure Cook High 6 min.** Pot braucht ~5–7 min für den Druckaufbau, dann läuft die eigentliche Garzeit.
-  timer: 360
-- titel: Natural Release
-  text: Nach dem Piepen 10 min natürlichen Druckabbau abwarten (Pot in Ruhe lassen, nicht anfassen). Danach Restdruck per **Quick Release** ablassen.
-  timer: 600
-- titel: Nane Dagh anbraten
-  text: '**Parallel am Herd:** Kleine Pfanne auf mittlere Hitze. 1 EL Olivenöl (für Nane Dagh) und 1 TL Butter (für Nane Dagh) schmelzen, dann 1 TL Getrocknete Minze (aus Nanaminze-Teebeuteln ausgekrümelt) 20–40 sek anbraten, bis es duftet. Teebeutel-Minze ist fein gemahlen → geht schnell, darf nicht schwarz werden. Pfanne sofort vom Herd.'
-  timer: 40
-- titel: Auflockern & anrichten
-  text: 'Deckel auf, mit einer **Gabel** (nicht Löffel) vorsichtig auflockern. Auf Teller portionieren, die heiße Minzbutter aus der Pfanne drüberträufeln, dann 1 TL Sumach, zum Servieren und 2 EL TK-Petersilie, zum Servieren darüberstreuen. Optional: Joghurt mit Knoblauch + Salz daneben.'
+  - titel: Zwiebel rösten
+    text: Sauté Medium-High, 1 EL Olivenöl und 1 EL Butter schmelzen, Zwiebel 8–10 Minuten goldbraun rösten.
+    timer: 480
+  - titel: Gewürze rösten
+    text: 3 Knoblauchzehen, 1 TL Kreuzkümmel, 1 TL Kurkuma, 0,5 TL Zimt und 0,5 TL Pfeffer etwa 1 Minute mitrösten.
+    timer: 60
+  - titel: Linsen überziehen
+    text: 120 g Linsen zugeben und durchrühren, bis sie mit Öl überzogen sind. Sauté ausschalten.
+    timer: 30
+  - titel: Schichten
+    text: 200 g Reis, 60 g Datteln, 30 g Rosinen und 1 TL Salz in den Topf, 400 g Tomaten und 350 ml Brühe darübergießen, einmal glatt streichen, danach nicht mehr umrühren.
+  - titel: Druckgaren
+    text: Ventil auf Sealing, Pressure Cook, High, 6 Minuten.
+    timer: 360
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release, dann Quick Release.
+    timer: 600
+  - titel: Nane Dagh
+    text: Parallel in einer kleinen Pfanne 1 EL Olivenöl und 1 TL Butter schmelzen, 1 TL Minze 20–40 Sekunden anbraten, bis sie duftet, sofort vom Herd nehmen.
+    timer: 40
+  - titel: Anrichten
+    text: Mit einer Gabel auflockern, portionieren, Minzbutter darüberträufeln, mit 1 TL Sumach und 2 EL Petersilie bestreuen.
 ---
 
-**Textur:** Mit Rundkornreis wird's cremiger/klebriger als klassisches Adas Polo (das wäre fluffiger Basmati). Schmeckt super, konzeptionell näher an Persisch-Risotto als an Pilaw.
+## Warum so
 
-**Falls du doch Vollkorn-Rundkornreis nutzen willst:** Linsen vorher separat – 8 min HP + Quick Release – beiseite. Dann Reis (gewaschen, 30 min vorgequollen) + Aromaten + Tomaten + 450 ml Brühe → 22 min HP + 10 min NR. Linsen am Ende unterheben.
+Weißer Rundkornreis gart in derselben Zeit wie die Belugalinsen, deshalb geht hier alles in einem Druckgang; das Ergebnis ist cremiger als klassisches Adas Polo mit Basmati, eher persisches Risotto. Der Reis darf nicht auf den Boden gedrückt werden, sonst setzt er an. Sumach erst kurz vor dem Servieren – er verliert sonst seine fruchtige Säure.
 
-**Salz:** Wenn deine Brühe kräftig gesalzen ist, mit ½ TL anfangen und am Ende abschmecken.
+## Stellschrauben
 
-**Tadig-Andeutung:** Boden des Innentopfs vor Schritt 4 mit etwas zusätzlichem Olivenöl pinseln – gibt eine leichte goldene Schicht am Boden. Kein echter Tadig (dafür bräuchtest du den Sauté-Modus nach dem Druckkochen), aber Andeutung.
+- Brühe kräftig gesalzen → mit 0,5 TL Salz beginnen und am Ende abschmecken
 
-**Sumach:** Erst kurz vorm Servieren drüber – wenn er zu früh dazukommt, verliert er die fruchtige Säure.
+## Varianten
+
+- **Vollkorn-Rundkornreis:** Linsen vorher 8 Minuten High mit Quick Release garen, dann eingeweichten Reis mit Aromaten, Tomaten und 450 ml Brühe 22 Minuten High plus 10 Minuten Natural Release, Linsen unterheben.
+- **Tadig-Andeutung:** Den Topfboden vor dem Schichten mit etwas Olivenöl bepinseln – gibt eine leicht goldene Schicht.
+- Joghurt mit Knoblauch und Salz dazu.

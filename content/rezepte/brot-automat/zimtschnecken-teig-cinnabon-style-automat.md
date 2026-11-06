@@ -17,19 +17,19 @@ tags: [Hefeteig, süß, Zimtschnecken]
 brot:
   programm: Brotteig (Menü 30 oder 31)
 zutaten:
-  - {gruppe: Backform, name: Weizenmehl Type 405, menge: 450, einheit: g, mehl: true}
-  - {gruppe: Backform, name: Speisestärke, menge: 50, einheit: g}
-  - {gruppe: Backform, name: Zucker, menge: 90, einheit: g}
-  - {gruppe: Backform, name: Salz, menge: 1, einheit: TL}
-  - {gruppe: Backform, name: Ei, menge: 1, einheit: "", hinweis: Größe M}
-  - {gruppe: Backform, name: Butter, menge: 80, einheit: g, hinweis: weich}
-  - {gruppe: Backform, name: Milch, menge: 220, einheit: ml, wasser: 0.87}
-  - {gruppe: Hefespender, name: Trockenhefe, menge: 2.5, einheit: TL}
+  - {gruppe: "Backform", name: "Weizenmehl Type 405", menge: 450, einheit: "g", mehl: true}
+  - {gruppe: "Backform", name: "Speisestärke", menge: 50, einheit: "g"}
+  - {gruppe: "Backform", name: "Zucker", menge: 90, einheit: "g"}
+  - {gruppe: "Backform", name: "Salz", menge: 1, einheit: "TL"}
+  - {gruppe: "Backform", name: "Ei", menge: 1, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Backform", name: "Butter", menge: 80, einheit: "g", hinweis: "weich"}
+  - {gruppe: "Backform", name: "Milch", menge: 220, einheit: "ml", wasser: 0.87}
+  - {gruppe: "Hefespender", name: "Trockenhefe", menge: 2.5, einheit: "TL"}
 schritte:
-  - {titel: Hefe einfüllen, text: "2,5 TL Trockenhefe in den Hefespender im Deckel geben."}
-  - {titel: Form befüllen, text: "Erst 450 g Weizenmehl 405, 50 g Speisestärke, 90 g Zucker und 1 TL Salz, dann 1 Ei, 80 g weiche Butter und 220 ml Milch in die Backform geben."}
-  - {titel: Programm starten, text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
-  - {titel: Sofort entnehmen, text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
+  - {titel: "Hefe einfüllen", text: "2,5 TL Trockenhefe in den Hefespender im Deckel geben."}
+  - {titel: "Form befüllen", text: "Erst 450 g Weizenmehl 405, 50 g Speisestärke, 90 g Zucker und 1 TL Salz, dann 1 Ei, 80 g weiche Butter und 220 ml Milch in die Backform geben."}
+  - {titel: "Programm starten", text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
+  - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
 ---
 
 ## Warum so

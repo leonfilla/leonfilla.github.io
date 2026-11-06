@@ -1,5 +1,5 @@
 ---
-titel: Dressing für 4 Portionen
+titel: Kürbiskernöl-Senf-Dressing
 status: aktiv
 datum: '2026-05-27'
 quelle:
@@ -7,25 +7,35 @@ quelle:
   url: https://claude.ai/chat/e040b4c3-75e7-4f5c-9df7-980d8fb51a49
   hinweis: Dressing mit Kürbiskernöl
 importiert: true
+fokus: Süß-saures Senf-Dressing für Feldsalat, bei dem steirisches Kürbiskernöl mit neutralem Öl gesplittet wird, damit es nicht alles dominiert.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 5}
+tags: [Dressing, Salat, vegan]
+zutaten:
+  - {name: süßer Senf, menge: 4, einheit: TL}
+  - {name: Agavendicksaft, menge: 4, einheit: TL}
+  - {name: Apfelessig, menge: 4, einheit: EL}
+  - {name: Kürbiskernöl, menge: 2, einheit: EL, hinweis: steirisch g.g.A.}
+  - {name: mildes Olivenöl oder Rapsöl, menge: 2, einheit: EL}
+  - {name: Salz, hinweis: nach Geschmack}
+  - {name: Pfeffer, hinweis: nach Geschmack}
+schritte:
+  - titel: Anrühren
+    text: 4 TL Senf, 4 TL Agavendicksaft und 4 EL Apfelessig verrühren.
+  - titel: Öle einrühren
+    text: 2 EL Kürbiskernöl und 2 EL Olivenöl oder Rapsöl unterrühren, mit Salz und Pfeffer abschmecken.
 ---
 
-Kürbiskernöl ist intensiv-nussig und würde 4 EL pur das Dressing dominieren — besser splitten:
+## Warum so
 
-**Dressing für 4 Portionen:**
-- 4 TL süßer Senf
-- 4 TL Agavendicksaft
-- 4 EL Apfelessig
-- 2 EL Kürbiskernöl (steirisch g.g.A.)
-- 2 EL mildes Olivenöl oder Rapsöl
-- Salz, Pfeffer
+Steirisches Kürbiskernöl hat eine dichte, fast schokoladig-nussige Aromatik. Halb und halb mit neutralem Öl behält das Dressing den Charakter, Senf und Apfelessig kommen aber noch durch. Kürbiskernöl hat einen niedrigen Rauchpunkt und ist nur fürs Dressing, nicht zum Rösten.
 
-**Warum der Split:**
-Steirisches Kürbiskernöl hat eine sehr dichte, fast schokoladig-nussige Aromatik. 50/50 mit einem neutralen Öl behält den Charakter, lässt aber Senf und Apfelessig noch durchkommen. Das 1:1 Öl-Essig-Verhältnis im Original ist ohnehin säurelastig — die Tiefe vom Kürbiskernöl balanciert das gut aus.
+## Stellschrauben
 
-**Wichtig:** Nur fürs Dressing — nicht zum Rösten. Kürbiskernöl hat einen niedrigen Rauchpunkt und verliert beim Erhitzen sein Aroma. Die 6 EL Olivenöl fürs Ofengemüse bleiben also wie gehabt.
+- Kürbiskernöl soll dominanter sein → 3 EL Kürbiskernöl und 1 EL neutrales Öl, wird deutlich erdiger
 
-**Optional zum Aufpeppen:**
-- 2–3 EL geröstete Kürbiskerne kurz vor dem Servieren über den Feldsalat streuen — verstärkt die nussige Linie und gibt Textur
-- Eine Prise grob gemahlener schwarzer Pfeffer am Schluss hebt das Kürbiskernöl zusätzlich
+## Varianten
 
-Falls du den Kürbiskernöl-Charakter dominanter haben willst, kannst du auch 3 EL Kürbiskernöl + 1 EL neutrales Öl probieren — wird aber deutlich erdiger.
+- 2–3 EL geröstete Kürbiskerne kurz vor dem Servieren über den Feldsalat streuen.
+- Zum Schluss grob gemahlenen schwarzen Pfeffer.

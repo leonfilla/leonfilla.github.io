@@ -15,16 +15,16 @@ portionen: 1
 zeit: {aktiv: 5, gesamt: 10}
 tags: [Brunch, Beilage, vegetarisch]
 zutaten:
-  - {name: Cherry-Tomaten, menge: 100, einheit: g}
-  - {name: Feta, menge: 40, einheit: g}
-  - {gruppe: Dressing, name: Olivenöl, menge: 1, einheit: EL}
-  - {gruppe: Dressing, name: Heller Essig, menge: 1, einheit: EL, hinweis: oder Zitronensaft}
-  - {gruppe: Dressing, name: Schwarzer Pfeffer, einheit: "", hinweis: grob gemahlen}
+  - {name: "Cherry-Tomaten", menge: 100, einheit: "g"}
+  - {name: "Feta", menge: 40, einheit: "g"}
+  - {gruppe: "Dressing", name: "Olivenöl", menge: 1, einheit: "EL"}
+  - {gruppe: "Dressing", name: "Heller Essig", menge: 1, einheit: "EL", hinweis: "oder Zitronensaft"}
+  - {gruppe: "Dressing", name: "Schwarzer Pfeffer", einheit: "", hinweis: "grob gemahlen"}
 schritte:
-  - {titel: Tomaten schneiden, text: 100 g Tomaten waschen und vierteln.}
-  - {titel: Feta zerbröseln, text: 40 g Feta grob mit den Händen in eine Schüssel zerbröseln.}
-  - {titel: Anmachen, text: "Tomaten, 1 EL Olivenöl und 1 EL Essig zugeben und vermengen."}
-  - {titel: Abschmecken, text: Mit grobem Pfeffer abschmecken und bis zum Servieren kühl stellen.}
+  - {titel: "Tomaten schneiden", text: "100 g Tomaten waschen und vierteln."}
+  - {titel: "Feta zerbröseln", text: "40 g Feta grob mit den Händen in eine Schüssel zerbröseln."}
+  - {titel: "Anmachen", text: "Tomaten, 1 EL Olivenöl und 1 EL Essig zugeben und vermengen."}
+  - {titel: "Abschmecken", text: "Mit grobem Pfeffer abschmecken und bis zum Servieren kühl stellen."}
 ---
 
 ## Warum so

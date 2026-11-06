@@ -7,7 +7,12 @@ quelle:
   url: https://claude.ai/chat/94a5b566-279d-4f9c-9f08-139f3cdf6622
   hinweis: Belugalinsensalat mit Tomaten und Mozzarella
 importiert: true
-fokus: Belugalinsen, Tomaten und Mozzarella mit Zitronen-Sumach-Dressing, Minze und Granatapfel
+fokus: Belugalinsen, Tomaten und Mozzarella mit Zitronen-Sumach-Dressing, Minze und Granatapfel. Kreuzkümmel wird im warmen Öl angeröstet.
+linie: belugalinsensalat-2026-09-29
+variante: Levantinisch
+ergebnis: 2 Portionen
+zeit: {aktiv: 15, gesamt: 45}
+tags: [Salat, vegetarisch, Meal Prep]
 portionen: 2
 zutaten:
 - name: Belugalinsen, trocken
@@ -66,4 +71,10 @@ schritte:
   text: Die 250 g Strauchtomaten, gewürfelt leicht salzen und unterheben. Die 15 g glatte Petersilie und die 5 g Minze grob hacken und zugeben. Den 125 g Mozzarella in Stücke zupfen, darauf verteilen und mit den 60 g Granatapfelkerne bestreuen.
 ---
 
-Wer mag, ersetzt die Hälfte des Mozzarellas durch Feta, damit der Salat salziger wird. Sumach und Granatapfel liefern zwei verschiedene Säuren, Zitronensäure und Äpfelsäure, das macht den Salat vielschichtiger als eine reine Essigsäure.
+## Warum so
+
+Sumach und Granatapfel bringen zwei verschiedene Säuren mit, Zitronensäure und Äpfelsäure. Das macht den Salat vielschichtiger als eine reine Essigsäure. Kreuzkümmel gibt seine fettlöslichen Aromen im warmen Öl ab.
+
+## Varianten
+
+- Salziger: die Hälfte des Mozzarellas durch Feta ersetzen.

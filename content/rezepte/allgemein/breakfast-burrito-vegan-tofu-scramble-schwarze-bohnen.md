@@ -1,5 +1,5 @@
 ---
-titel: 'Breakfast-Burrito Vegan: Tofu-Scramble & schwarze Bohnen'
+titel: Breakfast-Burrito Vegan mit Tofu-Scramble
 status: aktiv
 datum: '2026-06-10'
 quelle:
@@ -7,7 +7,12 @@ quelle:
   url: https://claude.ai/chat/7dda1830-c842-4490-87e4-1a2b4228ef60
   hinweis: Schnelle Frühstücksideen zum Ausprobieren
 importiert: true
-fokus: Vegane Variante mit Tofu-Scramble und schwarzen Bohnen – nutzt Kala Namak für den Ei-Geschmack
+fokus: Vegane Variante mit Tofu-Scramble und schwarzen Bohnen. Kala Namak bringt den Ei-Geschmack.
+linie: breakfast-burrito-2026-06-10
+variante: Vegan
+ergebnis: 4 Burritos
+zeit: {aktiv: 20, gesamt: 25}
+tags: [Frühstück, vegan, Meal Prep]
 portionen: 4
 zutaten:
 - name: große Weizen-Tortillas (25 cm)
@@ -57,4 +62,10 @@ schritte:
   timer: 120
 ---
 
-Kala Namak erst am Ende zugeben – der schweflige Ei-Geschmack verfliegt beim Erhitzen. Fürs Einfrieren die Avocado weglassen und erst beim Servieren frisch dazugeben, sonst wird sie braun und matschig.
+## Warum so
+
+Kala Namak kommt erst am Ende dazu, weil der schweflige Ei-Geschmack beim Erhitzen verfliegt. Der Tofu wird grob zerbröckelt und so lange gebraten, bis seine Flüssigkeit verdampft ist – erst dann hat er Rührei-Textur.
+
+## Varianten
+
+- Zum Einfrieren: Avocado weglassen und erst beim Servieren frisch dazugeben, sonst wird sie braun.

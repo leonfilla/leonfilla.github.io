@@ -20,15 +20,15 @@ ofen:
   temp: 190
   zeit: 7–8
 zutaten:
-  - {gruppe: Creme, name: Frischkäse, menge: 2, einheit: EL}
-  - {gruppe: Creme, name: Joghurt, menge: 1, einheit: EL, hinweis: Flüssigkeit vorher abgießen}
-  - {gruppe: Creme, name: Vanilleextrakt, menge: 1, einheit: TL}
-  - {gruppe: Creme, name: Zucker, menge: 1, einheit: TL}
-  - {gruppe: Basis, name: Brioche, menge: 1, einheit: "", hinweis: Scheibe}
+  - {gruppe: "Creme", name: "Frischkäse", menge: 2, einheit: "EL"}
+  - {gruppe: "Creme", name: "Joghurt", menge: 1, einheit: "EL", hinweis: "Flüssigkeit vorher abgießen"}
+  - {gruppe: "Creme", name: "Vanilleextrakt", menge: 1, einheit: "TL"}
+  - {gruppe: "Creme", name: "Zucker", menge: 1, einheit: "TL"}
+  - {gruppe: "Basis", name: "Brioche", menge: 1, einheit: "", hinweis: "Scheibe"}
 schritte:
-  - {titel: Creme rühren, text: "2 EL Frischkäse, 1 EL abgetropften Joghurt, 1 TL Vanilleextrakt und 1 TL Zucker verrühren."}
-  - {titel: Aufstreichen, text: Creme auf die Brioche-Scheibe streichen.}
-  - {titel: Backen, text: "Auf Einschubhöhe 2 bei 190 °C Ober-/Unterhitze 7–8 Minuten backen.", timer: 420}
+  - {titel: "Creme rühren", text: "2 EL Frischkäse, 1 EL abgetropften Joghurt, 1 TL Vanilleextrakt und 1 TL Zucker verrühren."}
+  - {titel: "Aufstreichen", text: "Creme auf die Brioche-Scheibe streichen."}
+  - {titel: "Backen", text: "Auf Einschubhöhe 2 bei 190 °C Ober-/Unterhitze 7–8 Minuten backen.", timer: 420}
 ---
 
 ## Warum so

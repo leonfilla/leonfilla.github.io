@@ -1,5 +1,5 @@
 ---
-titel: Ingwer-Zitronen-Honig-Getränk (700 ml)
+titel: Ingwer-Zitronen-Honig-Getränk
 status: aktiv
 datum: '2026-10-20'
 quelle:
@@ -8,32 +8,37 @@ quelle:
   hinweis: Ingwer-Zitrone gegen Erkältungen
 importiert: true
 linie: ingwer-zitronen-honig-getrank-700-ml-571c5
-fokus: Heißgetränk mit frischem Ingwer, Zitrone und Honig – ergibt ca. 700 ml (3 Becher à ~230 ml)
+fokus: Heißgetränk aus frisch geriebenem Ingwer, Zitrone und Honig. Reiben statt Schneiden und abgedecktes Ziehen holen mehr Schärfe und Aroma heraus.
+ergebnis: ca. 700 ml, 3 Becher
 portionen: 3
+zeit: {aktiv: 5, gesamt: 20}
+tags: [Getränk, warm, vegetarisch]
 zutaten:
-- name: frischer Ingwer, ungeschält, fein gerieben
-  menge: 40
-  einheit: g
-- name: Wasser
-  menge: 650
-  einheit: ml
-- name: Zitrone, ausgepresst (ca. 40–50 ml Saft)
-  menge: 1
-  einheit: ''
-- name: Honig
-  menge: 2
-  einheit: EL
+  - {name: Frischer Ingwer, menge: 40, einheit: g, hinweis: ungeschält}
+  - {name: Wasser, menge: 650, einheit: ml}
+  - {name: Zitrone, menge: 1, einheit: '', hinweis: 'ausgepresst, ca. 40–50 ml Saft'}
+  - {name: Honig, menge: 2, einheit: EL}
 schritte:
 - titel: Ingwer reiben
-  text: 40 g frischer Ingwer, ungeschält, fein gerieben gründlich waschen und ungeschält fein reiben. Durch das Reiben wird mehr Oberfläche frei und es werden mehr Gingerole extrahiert als bei Scheiben.
-- titel: Aufgießen und ziehen lassen
-  text: 650 ml Wasser aufkochen, über den Ingwer gießen und abgedeckt ziehen lassen. So bleiben die flüchtigen Aromen im Gefäß.
+  text: 40 g Ingwer gründlich waschen und ungeschält fein reiben.
+- titel: Aufgießen
+  text: 650 ml Wasser aufkochen, über den Ingwer gießen und abgedeckt ziehen lassen.
   timer: 600
-- titel: Abseihen und abkühlen
-  text: Durch ein feines Sieb abgießen und den Ingwer dabei ausdrücken. Auf Trinktemperatur abkühlen lassen (ca. 60 °C).
+- titel: Abseihen
+  text: Durch ein feines Sieb abgießen, den Ingwer dabei ausdrücken und auf Trinktemperatur (ca. 60 °C) abkühlen lassen.
   timer: 300
 - titel: Zitrone und Honig einrühren
-  text: Den Saft von 1 Zitrone, ausgepresst (ca. 40–50 ml Saft) und 2 EL Honig einrühren. Nach Geschmack nachdosieren und am besten warm trinken.
+  text: Saft von 1 Zitrone und 2 EL Honig einrühren und nach Geschmack nachdosieren.
 ---
 
-Für mehr Schärfe 50–60 g Ingwer nehmen oder 15 statt 10 Minuten ziehen lassen. Der Rest lässt sich in einer Thermoskanne warm halten. Zitrone und Honig erst kurz vor dem Trinken hinzufügen.
+## Warum so
+
+Reiben legt mehr Oberfläche frei und extrahiert mehr Gingerole als Scheiben. Der Deckel hält die flüchtigen Aromen im Gefäß. Zitrone und Honig kommen erst bei Trinktemperatur dazu.
+
+## Stellschrauben
+
+- Zu mild → 50–60 g Ingwer oder 15 statt 10 Minuten ziehen lassen
+
+## Varianten
+
+- Vorrat: Ingweraufguss in der Thermoskanne warm halten, Zitrone und Honig erst kurz vor dem Trinken zugeben

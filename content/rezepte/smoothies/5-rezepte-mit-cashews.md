@@ -1,84 +1,33 @@
 ---
-titel: 5 Rezepte mit cashews
-status: aktiv
-datum: '2026-04-10'
+titel: "Cashew-Dattel-Karamell-Smoothie"
+linie: "cashew-smoothies-2026-04-10"
+variante: "Dattel-Salz"
+status: "aktiv"
+datum: "2026-04-10"
 quelle:
-  typ: gemini
-  url: https://gemini.google.com/app/da914203ce53f33c
-  hinweis: 8 Varianten von Smoothies mit diesem genannten veganen Proteinpulver bitte, alle…
+  typ: "gemini"
+  url: "https://gemini.google.com/app/da914203ce53f33c"
+  hinweis: "8 Varianten von Smoothies mit diesem genannten veganen Proteinpulver bitte, alle…"
 importiert: true
+fokus: "Cashewmus und Medjool-Datteln ergeben ein Karamellprofil, eine Prise Meersalz verstärkt es."
+ergebnis: "1 Glas"
+portionen: 1
+zeit: {aktiv: 5, gesamt: 5}
+geraete: ["mixer-hr3760"]
+tags: ["Frühstück", "High Protein"]
+zutaten:
+  - {name: "Vollmilch", menge: 250, einheit: "ml", gruppe: "Flüssigkeit"}
+  - {name: "Pflanzliches Proteinpulver", menge: 30, einheit: "g", gruppe: "Pulver"}
+  - {name: "Meersalz", menge: 1, einheit: "Prise"}
+  - {name: "Cashewmus", menge: 30, einheit: "g", gruppe: "Feststoffe"}
+  - {name: "Medjool-Datteln, entsteint", menge: 30, einheit: "g"}
+schritte:
+  - {titel: "Flüssigkeit einfüllen", text: "250 ml Vollmilch in den Mixbecher geben."}
+  - {titel: "Pulver dazugeben", text: "30 g Pflanzliches Proteinpulver und 1 Prise Meersalz auf die Flüssigkeit geben."}
+  - {titel: "Feststoffe dazugeben", text: "30 g Cashewmus und 30 g Medjool-Datteln, entsteint einfüllen."}
+  - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
 ---
 
-> **Frage im Chat:** 5 Rezepte mit cashews
+## Warum so
 
-Cashewmus und Datteln erzeugen ein Karamell-Profil. Das Salz verstärkt diesen Effekt und liefert Natrium für den Elektrolythaushalt.
-
-- 250 ml Vollmilch
-
-- 30 g pflanzliches Proteinpulver
-
-- 30 g Cashewmus
-
-- 30 g Medjool-Datteln (entsteint)
-
-- 1 Prise Meersalz
-
-#### 22. Cashew-Mango-Kurkuma
-
-Cashewmus neutralisiert die Säure der Mango und liefert Fette. Kurkuma und schwarzer Pfeffer (für erhöhte Bioverfügbarkeit von Curcumin) dienen der Reduktion von trainingsinduzierten Entzündungen.
-
-- 250 ml Vollmilch
-
-- 30 g pflanzliches Proteinpulver
-
-- 100 g TK-Mango
-
-- 25 g Cashewmus
-
-- 1 Prise Kurkuma
-
-- 1 Prise schwarzer Pfeffer
-
-#### 23. Cashew-Vanille-Espresso (Pre-Workout)
-
-Flüssige Kalorien mit leichter ZNS-Stimulation durch Koffein. Vanille und Cashew überlagern den Eigengeschmack des Erbsen-Reis-Proteins vollständig.
-
-- 200 ml Vollmilch
-
-- 1 kalter Espresso-Shot (~30 ml)
-
-- 30 g pflanzliches Proteinpulver
-
-- 25 g Cashewmus
-
-- 15 g Ahornsirup
-
-- 1 Tropfen Vanilleextrakt
-
-#### 24. Cashew-Blaubeer-Kokos
-
-Maximierung der Kaloriendichte bei minimalem Volumen. Kokosöl liefert mittelkettige Triglyceride (MCT) ohne Viskositätserhöhung.
-
-- 250 ml Vollmilch
-
-- 30 g pflanzliches Proteinpulver
-
-- 80 g TK-Blaubeeren
-
-- 20 g Cashewmus
-
-- 10 g Kokosöl (flüssig)
-
-#### 25. Cashew-Pfirsich-Hafer
-
-Eine fruchtige Variation mit komplexen Kohlenhydraten durch Haferflocken. Die Fette aus dem Cashewmus verlangsamen die Magenentleerung und senken die glykämische Last.
-
-- 250 ml Vollmilch
-
-- 30 g pflanzliches Proteinpulver
-
-- 100 g TK-Pfirsich
-
-- 20 g Cashewmus
-
-- 30 g Haferflocken (fein)
+Salz verstärkt die Karamellwahrnehmung und liefert Natrium für den Elektrolythaushalt.

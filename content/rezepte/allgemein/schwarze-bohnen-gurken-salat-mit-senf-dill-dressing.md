@@ -7,7 +7,10 @@ quelle:
   url: https://claude.ai/chat/2678441f-2e44-404c-ba5b-d031cfc20997
   hinweis: Schnelle Beilagen zu Räucherfisch mit schwarzen Bohnen
 importiert: true
-fokus: Kalte, nordisch inspirierte Beilage zu heißgeräucherter Makrele – Senf, Dill und Kapern liefern das klassische Räucherfisch-Umfeld, die Gurke Frische gegen den fettigen Fisch. Kein Herd nötig.
+fokus: Kalte, nordisch inspirierte Beilage zu heißgeräucherter Makrele. Senf, Dill und Kapern liefern das Räucherfisch-Umfeld, die Gurke Frische gegen das Fett.
+ergebnis: 2 Portionen als Beilage
+zeit: {aktiv: 15, gesamt: 25}
+tags: [Salat, Beilage, Abendessen]
 portionen: 2
 zutaten:
 - name: schwarze Bohnen (Konserve, Abtropfgewicht)
@@ -60,4 +63,12 @@ schritte:
   timer: 600
 ---
 
-Zur Makrele: Fisch mit den Fingern von der Haut in groben Stücken abheben und einfach auf oder neben den Salat legen – nicht untermischen, sonst zerfällt er und das Fett verteilt sich zu stark. Die 379-g-Packung ergibt für zwei Personen eine solide Portion. Upgrade-Option: 1 TL Meerrettich ins Dressing verstärkt die nordische Richtung, ohne den Dill zu übertönen. Der Salat hält abgedeckt einen Tag im Kühlschrank, der Dill sollte dann aber erst vor dem Servieren dazu.
+## Warum so
+
+Gründliches Spülen entfernt Natrium und die metallische Konservennote der Bohnen. Das Kerngehäuse der Gurke und das Vorsalzen verhindern, dass das Dressing verwässert. Das Dressing ist deutlich säurebetont, weil es gegen das Fett der Makrele arbeiten muss. Kühlschrankkalt serviert dämpft es Senf und Dill.
+
+## Varianten
+
+- Makrele in groben Stücken von der Haut heben und auf oder neben den Salat legen, nicht untermischen.
+- 1 TL Meerrettich im Dressing verstärkt die nordische Richtung.
+- Hält abgedeckt einen Tag im Kühlschrank, den Dill dann erst vor dem Servieren dazugeben.

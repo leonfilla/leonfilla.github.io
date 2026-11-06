@@ -22,20 +22,20 @@ ofen:
   kerntemperatur: 90–92
   form: 30-cm-Kastenform
 zutaten:
-  - {gruppe: Trocken, name: Weizenmehl Type 550, menge: 500, einheit: g, mehl: true}
-  - {gruppe: Trocken, name: Trockenhefe, menge: 5, einheit: g, hinweis: oder 10 g frische Hefe}
-  - {gruppe: Trocken, name: Kardamom, frisch gemörsert, menge: 5, einheit: g, hinweis: aus grünen Kapseln}
-  - {gruppe: Trocken, name: Bio-Zitronenabrieb, menge: 1, einheit: "", hinweis: von 1 Zitrone}
-  - {gruppe: Nass, name: Vollei, menge: 250, einheit: g, wasser: 0.75, hinweis: ca. 5 mittlere Eier}
-  - {gruppe: Nass, name: Skyr natur, menge: 150, einheit: g, hinweis: 0,2 % Fett}
-  - {gruppe: Nass, name: Vollmilch, kalt, menge: 30, einheit: g, wasser: 0.87}
-  - {gruppe: Nass, name: Zucker, menge: 40, einheit: g}
-  - {gruppe: Nass, name: Vanilleextrakt, menge: 1, einheit: TL, hinweis: oder Mark von ½ Schote}
-  - {gruppe: Nass, name: Salz, menge: 10, einheit: g}
-  - {gruppe: Butter, name: Butter, weich, menge: 80, einheit: g, hinweis: ca. 18 °C}
-  - {gruppe: Eistreiche, name: Ei, menge: 1, einheit: ""}
-  - {gruppe: Eistreiche, name: Vollmilch, menge: 15, einheit: g}
-  - {gruppe: Eistreiche, name: Hagelzucker oder gehackte Mandeln, menge: 2, einheit: EL, hinweis: optional}
+  - {gruppe: "Trocken", name: "Weizenmehl Type 550", menge: 500, einheit: "g", mehl: true}
+  - {gruppe: "Trocken", name: "Trockenhefe", menge: 5, einheit: "g", hinweis: "oder 10 g frische Hefe"}
+  - {gruppe: "Trocken", name: "Kardamom, frisch gemörsert", menge: 5, einheit: "g", hinweis: "aus grünen Kapseln"}
+  - {gruppe: "Trocken", name: "Bio-Zitronenabrieb", menge: 1, einheit: "", hinweis: "von 1 Zitrone"}
+  - {gruppe: "Nass", name: "Vollei", menge: 250, einheit: "g", wasser: 0.75, hinweis: "ca. 5 mittlere Eier"}
+  - {gruppe: "Nass", name: "Skyr natur", menge: 150, einheit: "g", hinweis: "0,2 % Fett"}
+  - {gruppe: "Nass", name: "Vollmilch, kalt", menge: 30, einheit: "g", wasser: 0.87}
+  - {gruppe: "Nass", name: "Zucker", menge: 40, einheit: "g"}
+  - {gruppe: "Nass", name: "Vanilleextrakt", menge: 1, einheit: "TL", hinweis: "oder Mark von ½ Schote"}
+  - {gruppe: "Nass", name: "Salz", menge: 10, einheit: "g"}
+  - {gruppe: "Butter", name: "Butter, weich", menge: 80, einheit: "g", hinweis: "ca. 18 °C"}
+  - {gruppe: "Eistreiche", name: "Ei", menge: 1, einheit: ""}
+  - {gruppe: "Eistreiche", name: "Vollmilch", menge: 15, einheit: "g"}
+  - {gruppe: "Eistreiche", name: "Hagelzucker oder gehackte Mandeln", menge: 2, einheit: "EL", hinweis: "optional"}
 schritte:
   - titel: Trockenes mischen
     text: 500 g Weizenmehl, 5 g Trockenhefe, 5 g Kardamom und den Zitronenabrieb in den Wilfa-Knetkessel geben und mit dem Knethaken auf Stufe 1 ca. 30 Sekunden trocken vermengen. Salz noch nicht zugeben.

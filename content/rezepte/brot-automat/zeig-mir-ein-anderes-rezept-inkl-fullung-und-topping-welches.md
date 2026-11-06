@@ -1,136 +1,59 @@
 ---
-titel: Zeig mir ein anderes Rezept inkl Füllung und Topping, welches mind. 65% …
+titel: Carrot-Cake-Zimtschnecken in unter 3 Stunden
 status: aktiv
 datum: '2025-11-27'
-quelle:
-  typ: gemini
-  url: https://gemini.google.com/app/88116ab49ecbdcc8
-  hinweis: zeig mir rezepte für einen schnellen Hefeteig für Carrot-Cake-Zimtschnecken, am …
+quelle: {typ: gemini, url: 'https://gemini.google.com/app/88116ab49ecbdcc8', hinweis: 'zeig mir rezepte für einen schnellen Hefeteig für Carrot-Cake-Zimtschnecken, am …'}
 importiert: true
+linie: carrot-cake-zimtschnecken-2025-11-27
+variante: Weizen, 65 % Vollkorn
+fokus: 'Zimtschnecken mit 65 % Weizenvollkorn und 200 g Karotten in gut 2 Stunden: kurzes Pizza-Teig-Programm, doppelte Hefe und warme Gare im ausgeschalteten Ofen. Mit Kardamom, Orange und Zitronen-Frischkäse-Topping.'
+ergebnis: 9–12 Schnecken
+zeit: {aktiv: 30, gesamt: 135}
+geraete: [panasonic-sd-yr2540, bosch-hng978]
+tags: [süß, Hefeteig, Vollkorn]
+brot: {programm: Pizza-Teig (ca. 45 min; kürzestes Teigprogramm mit Kneten und Gehen)}
+ofen: {modus: Umluft, temp: 175, zeit: 20–25, form: 'Auflaufform, gefettet'}
+zutaten:
+- {gruppe: Teig (Backform), name: 'Milch, lauwarm', menge: 150, einheit: ml, wasser: 0.87, hinweis: mit 130 ml beginnen}
+- {gruppe: Teig (Backform), name: 'Ei, Größe M', menge: 1, einheit: ''}
+- {gruppe: Teig (Backform), name: Weizenvollkornmehl, menge: 325, einheit: g, mehl: true}
+- {gruppe: Teig (Backform), name: Weizenmehl Type 550, menge: 175, einheit: g, mehl: true}
+- {gruppe: Teig (Backform), name: 'Butter, weich', menge: 60, einheit: g}
+- {gruppe: Teig (Backform), name: 'Karotten, fein geraspelt, extrem gut ausgedrückt', menge: 200, einheit: g, hinweis: vor dem Ausdrücken gewogen}
+- {gruppe: Teig (Backform), name: Rohrzucker, menge: 60, einheit: g}
+- {gruppe: Teig (Backform), name: Salz, menge: 1, einheit: TL}
+- {gruppe: Teig (Backform), name: Kardamom, menge: 1, einheit: TL}
+- {gruppe: Hefespender, name: Trockenhefe, menge: 14, einheit: g, hinweis: 2 Päckchen}
+- {gruppe: Füllung, name: 'Butter, sehr weich', menge: 80, einheit: g}
+- {gruppe: Füllung, name: Brauner Zucker, menge: 100, einheit: g}
+- {gruppe: Füllung, name: Zimt, menge: 2, einheit: EL}
+- {gruppe: Füllung, name: 'Walnüsse, gehackt', menge: 50, einheit: g}
+- {gruppe: Füllung, name: Abrieb einer halben Bio-Orange}
+- {gruppe: Topping, name: Frischkäse, menge: 150, einheit: g}
+- {gruppe: Topping, name: 'Butter, weich', menge: 50, einheit: g}
+- {gruppe: Topping, name: Puderzucker, menge: 60, einheit: g}
+- {gruppe: Topping, name: Zitronensaft, menge: 1, einheit: EL}
+schritte:
+- {titel: Backform füllen, text: 'Normalen Knethaken einsetzen. Flüssigkeit an den Rand, Mehle darüber, Butter, Karotten, Zucker, Salz und Kardamom darauf.'}
+- {titel: Hefe einfüllen, text: 14 g Trockenhefe in den Hefespender geben.}
+- {titel: Teigprogramm, text: Pizza-Teig-Programm starten., timer: 2700}
+- {titel: Ausrollen, text: Teig sofort herausnehmen und auf bemehlter Fläche zu ca. 30 × 40 cm ausrollen.}
+- {titel: Füllen und schneiden, text: 'Füllung verstreichen, Walnüsse darauf, aufrollen, in 9–12 Schnecken schneiden und mit Abstand in die gefettete Form setzen.'}
+- {titel: Ofen anwärmen, text: Backofen 2 Minuten auf 50 °C heizen und wieder ausschalten.}
+- {titel: Gehen lassen, text: Form mit feuchtem Tuch abgedeckt 40–45 Minuten in den warmen Ofen stellen., timer: 2700}
+- {titel: Backen, text: 'Schnecken herausnehmen, Ofen auf 175 °C Umluft vorheizen und 20–25 Minuten backen, bei Bedarf mit Alufolie abdecken.', timer: 1350}
+- {titel: Topping, text: '150 g Frischkäse, 50 g Butter, 60 g Puderzucker und 1 EL Zitronensaft mit dem Handmixer glatt rühren und auf die warmen Schnecken streichen.'}
 ---
 
-> **Frage im Chat:** zeig mir ein anderes Rezept inkl Füllung und Topping, welches mind. 65% Weizenvollkornanteil hat und mind. 200 g Karotten, aber in 3h fertig gebacken ist
+## Warum so
 
-Herausforderung angenommen! **200 g Karotten + 65 % Vollkorn in unter 3 Stunden** fertig auf dem Teller.
+Das Pizza-Teig-Programm knetet schneller und geht kürzer; die Hauptgare wird in den warmen Ofen verlagert. Die doppelte Hefemenge treibt den schweren Vollkorn-Karotten-Teig trotzdem in der kurzen Zeit. Die Karotten geben im Teig weiter Feuchtigkeit ab, deshalb mit weniger Milch beginnen.
 
-Das geht mit dem Panasonic nur, wenn wir das **Programm "Pizza Teig" (ca. 45 Min.)** zweckentfremden und den Prozess manuell optimieren. Der Pizza-Modus knetet schneller und geht im Gerät kürzer – wir verlagern die Haupt-Gehzeit also nach draußen in die Wärme.
+## Stellschrauben
 
-Hier ist dein **"High-Speed High-Fiber" Protokoll**:
+- Teig zu trocken → Milch bis 150 ml nachgeben
+- Schnecken zu dunkel → mit Alufolie abdecken
 
-#### Der Zeitplan (Total: ca. 2 Std. 15 Min.)
+## Varianten
 
-1. **00:00 – 00:45:** Teigzubereitung im Panasonic (Programm "Pizza").
-
-2. **00:45 – 01:00:** Ausrollen, Füllen, Schneiden.
-
-3. **01:00 – 01:45:** Gehen lassen (im warmen Ofen/an der Heizung).
-
-4. **01:45 – 02:10:** Backen.
-
----
-
-#### Zutaten (für den Behälter)
-
-**Die trockene Basis (65% Vollkorn):**
-
-- **325 g Weizenvollkornmehl**
-
-- **175 g Weizenmehl Type 550** (Wichtig für das Klebergerüst, damit es schnell geht)
-
-- **2 Päckchen Trockenhefe** (ca. 14g) – Wichtig: Wir nehmen die doppelte Menge Hefe für den "Turbo-Effekt" bei schwerem Teig! -> In den Verteiler.
-
-**Die "Feucht-Masse":**
-
-- **200 g Karotten:** Fein geraspelt und **extrem gut ausgedrückt**. (Wiege die 200g nach dem Raspeln, drücke sie dann in einem Tuch aus, bis kaum noch Saft kommt. Der Trester kommt in den Teig).
-
-- **60 g weiche Butter**
-
-- **60 g Rohrzucker** (Hefe-Futter)
-
-- **1 TL Salz**
-
-- **1 TL Kardamom** (gibt dem Vollkorn eine tolle Note)
-
-**Die Flüssigkeit:**
-
-- **150 ml lauwarme Milch** (Achtung: Fang mit 130ml an, da die Karotten immer noch Feuchtigkeit abgeben. Nur nachgießen, wenn es zu trocken wirkt).
-
-- **1 Ei (M)**
-
----
-
-#### Zutaten für Füllung & Topping
-
-**Die "Carrot Cake" Füllung:**
-
-- 80 g sehr weiche Butter
-
-- 100 g brauner Zucker
-
-- 2 EL Zimt
-
-- 50 g gehackte Walnüsse (Gut fürs Gehirn!)
-
-- Abrieb einer halben Bio-Orange (Der Gamechanger für den Geschmack).
-
-**Das "Lemon-Cream-Cheese" Topping:**
-
-- 150 g Frischkäse
-
-- 50 g weiche Butter
-
-- 60 g Puderzucker
-
-- 1 EL Zitronensaft
-
----
-
-#### Anleitung: Schritt-für-Schritt
-
-#### 1. Der Maschinen-Teil (45 Min)
-
-- Setz den **normalen Knethaken** ein.
-
-- Gib alle Zutaten (außer Hefe) in den Behälter. Flüssigkeit zuerst oder am Rand, Mehl drüber, Butter und Karotten drauf.
-
-- Hefe in den Verteiler.
-
-- Wähle **Menü "Pizza Teig"** (Müsste Menü 30, 31 oder 32 sein, je nach genauem Ländercode deines SD-YR2540. Suche nach dem kürzesten Teigprogramm, das knetet und aufgeht).
-
-- **Start drücken.**
-
-#### 2. Der Manuelle Teil (Formen & Gehen lassen)
-
-- Sobald der Automat piept (nach 45 Min): Teig sofort rausnehmen. Er wird kompakter sein als ein reiner Weißmehlteig – das ist normal.
-
-- Auf bemehlter Fläche zu einem Rechteck ausrollen (ca. 30x40 cm).
-
-- Füllung verstreichen, Walnüsse drauf, aufrollen.
-
-- In 9–12 Schnecken schneiden und in eine gefettete Auflaufform setzen (lass etwas Platz dazwischen).
-
-**Der Turbo-Trick für das Gehenlassen (Proofing):**
-
-- Heize deinen Backofen für **2 Minuten auf 50°C** auf, dann **schalte ihn wieder AUS**. (Oder schalte nur das Ofenlicht an).
-
-- Stell die Form mit den Schnecken (abgedeckt mit einem feuchten Tuch) in den warmen (nicht heißen!) Ofen.
-
-- Lass sie dort **40–45 Minuten** stehen. Sie müssen sich sichtbar vergrößern.
-
-#### 3. Backen & Topping
-
-- Nimm die Schnecken kurz aus dem Ofen.
-
-- Heize den Ofen auf **175°C Umluft** vor.
-
-- Backe die Schnecken für **ca. 20–25 Minuten**. (Wenn sie zu dunkel werden, Alufolie drauflegen).
-
-- Währenddessen: Alle Zutaten für das Topping mit dem Handmixer glattrühren.
-
-- Das Topping auf die noch warmen Schnecken streichen – so schmilzt es leicht in die Rillen.
-
-#### Ein Tipp für deine Lernphase:
-
-Da du doppelte Hefe verwendest, ist der Teig etwas "wilder". Falls du Reste hast: Frier die fertig gebackenen Schnecken (ohne Topping) ein. 30 Sek. Mikrowelle und du hast sofortigen Lern-Snack.
-
-Würdest du gerne wissen, wie du die Karotten im Tuch am schnellsten trocken bekommst, ohne Sauerei in der Küche zu machen?
+- Reste ohne Topping einfrieren, 30 Sekunden in der Mikrowelle aufwärmen

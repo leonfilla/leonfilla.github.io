@@ -1,5 +1,5 @@
 ---
-titel: 5 Varianten für Apfelkäsekuchen im Glas
+titel: Apfel-Käsekuchen im Glas mit Zimt
 status: aktiv
 datum: '2026-03-04'
 quelle:
@@ -8,88 +8,61 @@ quelle:
   hinweis: 5 Varianten für Apfelkäsekuchen im Glas
 importiert: true
 linie: 5-varianten-fur-apfelkasekuchen-im-glas-32982
+variante: Klassisch Zimt
+fokus: Klassische Variante mit Hafer-Mandel-Boden, Vanille in der Käsemasse und Ceylon-Zimt im Apfelkompott. Die Käsemasse gart bei 120 °C mit Dampf zu einer cremigen New-York-Textur.
+ergebnis: 4 Gläser
+portionen: 4
+zeit: {aktiv: 25, gesamt: 180}
+geraete: [bosch-hng978, instant-pot-pro-max, kernthermometer]
+tags: [Dessert, Käsekuchen, Meal Prep, vegetarisch]
+ofen:
+  modus: Heißluft + Dampf Stufe 1
+  temp: 120
+  dampf: Stufe 1
+  zeit: 35
+  kerntemperatur: 75–80
+  form: 4 hitzefeste Gläser
+instantpot:
+  programm: Pressure Cook
+  druck: Low
+  zeit: 1
+  ablass: Quick Release
+zutaten:
+  - {gruppe: "Boden", name: "Haferflocken", menge: 80, einheit: "g"}
+  - {gruppe: "Boden", name: "Mandeln", menge: 40, einheit: "g"}
+  - {gruppe: "Boden", name: "Butter", menge: 30, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Doppelrahmfrischkäse", menge: 200, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Magerquark oder Skyr", menge: 200, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Eier", menge: 2, einheit: "", hinweis: "Größe M"}
+  - {gruppe: "Käsemasse", name: "Ahornsirup", menge: 40, einheit: "g"}
+  - {gruppe: "Käsemasse", name: "Vanillepaste", menge: 1, einheit: "TL"}
+  - {gruppe: "Kompott", name: "Äpfel", menge: 300, einheit: "g", hinweis: "Boskoop, in 1-cm-Würfeln"}
+  - {gruppe: "Kompott", name: "Wasser", menge: 20, einheit: "g", hinweis: "gefiltert"}
+  - {gruppe: "Kompott", name: "Ahornsirup", menge: 15, einheit: "g"}
+  - {gruppe: "Kompott", name: "Ceylon-Zimt", menge: 2, einheit: "g"}
+schritte:
+  - {titel: "Boden pulsen", text: "80 g Haferflocken, 40 g Mandeln und 30 g Butter im Zerkleinerer 5–8-mal pulsen, bis die Masse wie grober Sand ist."}
+  - {titel: "Boden einfüllen", text: "Auf 4 hitzefeste Gläser verteilen und mit einem Stößel leicht andrücken."}
+  - {titel: "Masse rühren", text: "200 g Frischkäse, 200 g Quark oder Skyr, 2 Eier, 40 g Ahornsirup und 1 TL Vanillepaste auf niedrigster Stufe ohne Lufteinschlag glatt rühren."}
+  - {titel: "Einfüllen", text: "Masse bis etwa zwei Drittel Höhe auf die Böden gießen."}
+  - {titel: "Backen", text: "Bei 120 °C Heißluft mit Dampf Stufe 1 30–35 Minuten backen, bis der Kern 75–80 °C hat und die Mitte leicht wackelt.", timer: 2100}
+  - {titel: "Abkühlen", text: "Herausnehmen und auf Raumtemperatur abkühlen lassen."}
+  - {titel: "Kompott einfüllen", text: "300 g Apfelwürfel, 20 g Wasser, 15 g Ahornsirup und 2 g Ceylon-Zimt in den Instant Pot geben."}
+  - {titel: "Druckgaren", text: "Pressure Cook, Low, 1 Minute, dann sofort Quick Release.", timer: 60}
+  - {titel: "Schichten", text: "Kompott auf die abgekühlte Käsemasse schichten und die Gläser verschließen."}
+  - {titel: "Kühlen", text: "Mindestens 2 Stunden kühlen.", timer: 7200}
+
 ---
 
-> **Frage im Chat:** 5 Varianten für Apfelkäsekuchen im Glas
+## Warum so
 
-**1. Gewichtungs-Check**
+Niedrige Temperatur und Dampf lassen die Eiproteine langsam und gleichmäßig koagulieren – cremig statt krümelig, ohne Risse. Kein Lufteinschlag beim Rühren verhindert, dass die Masse aufgeht und wieder einfällt. Eine Minute Low mit sofortigem Quick Release gart die Würfel, ohne dass sie zu Mus zerfallen.
 
-- **1. Geschmack:** Maximiert durch separierte Texturkomponenten (Crunch-Boden, koagulierte Proteinmasse, fruchtiges Topping) und präzise Temperaturführung (niedrige Ofentemperatur mit Dampf).
+## Stellschrauben
 
-- **2. Gesundheit:** Nährstoffschonend. Vollwertige Fett- und Proteinquellen (Skyr/Quark-Substitution). Modulierte Glukoselast durch Verzicht auf isolierten Haushaltszucker und Einsatz ballaststoffreicher Nüsse/Getreide.
+- Masse reißt → langsamer und kürzer rühren, Temperatur nicht erhöhen
+- Äpfel zu weich → Quick Release sofort nach Programmende
 
-- **3. Aufwand:** Hardware-Automatisierung senkt die Fehleranfälligkeit. Erheblicher passiver Zeitanteil (Ofen, Kühlung).
+## Varianten
 
-**2. Zutaten, Wasserwahl & Hardware-Mapping**
-
-**Wasserwahl: Option B (Gefiltert).**
-Begründung: Das reduzierte Karbonat puffert die fruchteigenen Säuren der Äpfel (pH 3,0–3,5) beim Kochen nicht ab, was die aromatische Frische erhält. Die Magnesiumionen des Filters katalysieren zudem die Extraktion der Gewürz-Aromastoffe (Zimt, Vanille) signifikant besser als Option A.
-
-**Hardware-Zuordnung:**
-
-- **Bosch Universalzerkleinerer (Stabmixer-Zubehör):** Zerkleinern der Böden (Puls-Funktion).
-
-- **Philips HR3781/20:** Homogenisieren der Käsemasse.
-
-- **Bosch HNG978NB1:** Thermik Käsemasse (Heißluft + Dampf) / Thermik Kompott (Mikrowelle in Low-Effort-Alternative).
-
-- **Instant Pot Pro Max Wifi:** Thermik Apfelkompott (Pressure Cook).
-
-- **CIRYCASE Thermometer:** Qualitätskontrolle Masse.
-
-- **Bosch KIF86PFE0:** Texturstabilisierung (Kühlung).
-
-**Zutaten (Skaliert für 4 Gläser)**
-
-|Komponente |Variante 1 (Klassisch Zimt) |Variante 2 (Protein/Pekan) |Variante 3 (Sous-Vide/Rosmarin) |Variante 4 (Beere/Vollkorn) |Variante 5 (Ingwer/Zitrus) |
-|**Boden** |80g Haferflocken, 40g Mandeln, 30g Butter |100g Pekannüsse, 20g Kokosöl |100g Macadamia, 20g Butter |80g Dinkelzwieback, 40g Walnuss, 30g Butter |100g Cashews, 20g Butter |
-|**Käsemasse Basis** |\multicolumn{5}{l |}{200g Frischkäse (Doppelrahm), 200g Magerquark oder Skyr, 2 Eier (M), 40g Ahornsirup} | | | |
-|**Käsemasse Aroma** |1 TL Vanillepaste |1 Msp. Tonkabohne |1 TL Zitronenabrieb |1 Prise Kardamom |10g Ingwer (fein gerieben) |
-|**Apfel Basis** |\multicolumn{5}{l |}{300g Apfel (Boskoop, 1cm Würfel), 20ml Wasser (Option B), 15g Ahornsirup} | | | |
-|**Apfel Aroma/Additiv** |2g Ceylon-Zimt |10g Pekanbruch, 1g Muskat |1 Zweig Rosmarin |50g Brombeeren |10ml Zitronensaft, 5g Kurkuma |
-
-**3. Q/A-Analyse**
-
-- **Metrik & Matrix:**
-
-  - Aktivzeit: 25 Minuten (Abwiegen, Mixen, Schichten).
-
-  - Passivzeit: 35 Minuten (Backen) + 120 Minuten (Kühlung).
-
-- **Berechnung:** Der Aufwand verhält sich exponentiell zur Qualitätssteigerung. Die thermische Denaturierung der Eiproteine unter Dampfeinfluss generiert eine spezifische Viskosität (NY-Cheesecake-Textur), die durch simples Kaltmischen unerreichbar ist.
-
-- **Fazit:** Die Aktivzeit von 25 Minuten überschreitet die Schwelle für rein pragmatische Zubereitungen. Bedingung für Alternativszenario ist erfüllt (siehe Abschnitt 5).
-
-**4. Prozess (Maximal-Qualität)**
-
-1. **Boden präparieren:** Zutaten des gewählten Bodens im Bosch Universalzerkleinerer 5–8 Mal pulsen. Zieltextur: Grober Sand, nicht gemust. In 4 hitzebeständige Gläser verteilen und mit einem Stößel leicht komprimieren.
-
-2. **Masse emulgieren:** Frischkäse, Quark/Skyr, Eier, Ahornsirup und das variantenspezifische Aroma in einem Gefäß vereinen. Mit dem Philips HR3781/20 auf niedrigster Stufe homogenisieren. Lufteinschlag strikt vermeiden, um Risse beim Backen zu verhindern. Masse auf die Böden gießen (ca. 2/3 Füllhöhe).
-
-3. **Thermik (Cheesecake):** Gläser in den Bosch HNG978NB1 stellen. Parameter: 120 °C Heißluft, Dampfzugabe Stufe 1. Dauer: 30–35 Minuten.
-
-  - Qualitätskontrolle: Das Zentrum der Masse muss mit dem CIRYCASE Thermometer 75–80 °C messen. Die Ränder sind fest, die Mitte zeigt beim Bewegen einen leichten "Jiggle". Entnehmen und Raumtemperatur annehmen lassen.
-
-4. **Thermik (Kompott):** Apfel-Basis, Option-B-Wasser und variantenspezifisches Additiv in den Instant Pot Pro Max Wifi geben.
-
-  - Einstellung: Pressure Cook, Low Pressure, 1 Minute.
-
-  - Release: Quick Release betätigen, um ein Übergaren der Äpfel zu Mus zu verhindern.
-
-  - Ausnahme Variante 3: Äpfel mit Rosmarin vakuumieren. Instant Pot auf Sous-Vide (82 °C) stellen. 30 Minuten garen.
-
-5. **Assemblierung & Stabilisierung:** Kompott auf die abgekühlte Käsemasse schichten. Gläser verschließen. Minimum 120 Minuten im Bosch KIF86PFE0 kühlen, um die Fettkristallisation und die Diffusionsprozesse der Aromen im Apfelkompott abzuschließen.
-
-**5. Prozess (Low-Effort-Alternative)**
-
-Diese Methode eliminiert Eier, Backzeit und Vorheizen. Fokus liegt auf einer No-Bake-Textur und Mikrowellen-Schnellextraktion.
-
-1. **Boden:** Wie in Schritt 1 (Abschnitt 4), aber ungebacken belassen.
-
-2. **Masse (No-Bake):** 300g Skyr, 100g Frischkäse, 40g Ahornsirup und Aromen mit dem Philips Handmixer aufschlagen. Direkt auf den Boden schichten. (Aktivzeit: 3 Minuten).
-
-3. **Kompott (Mikrowelle):** Apfel-Basis, Wasser (Option B) und Aromen in ein mikrowellengeeignetes Gefäß geben. Im Bosch HNG978NB1 die Mikrowellen-Funktion (600W) wählen. Dauer: 4–5 Minuten. Einmal umrühren. (Aktivzeit: 2 Minuten).
-
-4. **Assemblierung:** Warmes Kompott auf die kalte Masse geben. Sofort verzehrbereit, optimal nach 30 Minuten Kühlung im Bosch KIF86PFE0.
-
-Möchten Sie eine detaillierte Analyse der Makronährstoffverteilung für eine spezifische Variante generieren lassen?
+- **No-Bake (5 Minuten aktiv):** Boden ungebacken lassen, 300 g Skyr, 100 g Frischkäse, 40 g Ahornsirup und Aromen aufschlagen und einschichten; Kompott in der Mikrowelle bei 600 W 4–5 Minuten garen, einmal umrühren, warm auf die kalte Masse geben. Nach 30 Minuten Kühlung optimal.

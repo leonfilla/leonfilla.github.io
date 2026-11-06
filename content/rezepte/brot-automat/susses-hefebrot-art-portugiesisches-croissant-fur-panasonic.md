@@ -1,58 +1,39 @@
 ---
-titel: Süßes Hefebrot (Art "Portugiesisches Croissant") für Panasonic SD-YR2540
+titel: Süßes Hefebrot nach Art portugiesischer Croissants
 status: aktiv
 datum: '2026-02-21'
-quelle:
-  typ: gemini
-  url: https://gemini.google.com/app/18b6c67f94c861f0
-  hinweis: Rezept für ein süßes Hefebrot im Panasonic SD-YR2540, ähnelt einem portugiesisch…
+quelle: {typ: gemini, url: 'https://gemini.google.com/app/18b6c67f94c861f0', hinweis: 'Rezept für ein süßes Hefebrot im Panasonic SD-YR2540, ähnelt einem portugiesisch…'}
 importiert: true
+linie: suesses-hefebrot-portugiesisch-2026-02-21
+fokus: Weiches, leicht dichtes, süß-buttriges Brioche-Brot wie ein portugiesisches Croissant – vollautomatisch im Panasonic, ohne Soja.
+ergebnis: 1 Laib, Größe M
+zeit: {aktiv: 5, gesamt: 240}
+geraete: [panasonic-sd-yr2540]
+tags: [Frühstück, süß, Hefeteig]
+brot: {programm: Süßes Brot (alternativ Brioche), groesse: M, braeunung: hell}
+zutaten:
+- {gruppe: Backform, name: Weizenmehl Type 550, menge: 400, einheit: g, mehl: true}
+- {gruppe: Backform, name: Zucker, menge: 60, einheit: g}
+- {gruppe: Backform, name: Salz, menge: 5, einheit: g, hinweis: ca. 1 TL}
+- {gruppe: Backform, name: 'Butter, kalt, in kleinen Würfeln', menge: 70, einheit: g}
+- {gruppe: Backform, name: 'Kuhmilch oder Hafermilch, kalt', menge: 180, einheit: ml, wasser: 0.87}
+- {gruppe: Backform, name: Eier, menge: 100, einheit: g, wasser: 0.75, hinweis: '2 Stück, Größe M'}
+- {gruppe: Backform, name: Vanilleextrakt, menge: 1, einheit: TL}
+- {gruppe: Hefespender, name: Trockenhefe, menge: 1.5, einheit: TL}
+schritte:
+- {titel: Mehl einfüllen, text: '400 g Mehl, darauf 60 g Zucker und 5 g Salz in die Backform geben.'}
+- {titel: Butter verteilen, text: 70 g kalte Butterwürfel auf dem Mehl verteilen.}
+- {titel: Flüssiges zugeben, text: '180 ml Milch, 2 Eier und 1 TL Vanilleextrakt am Rand zugeben.'}
+- {titel: Form einsetzen, text: Backform einsetzen und verriegeln.}
+- {titel: Hefe einfüllen, text: '1,5 TL Trockenhefe in den Hefespender geben.'}
+- {titel: Programm starten, text: 'Süßes Brot, Größe M, Bräunung hell wählen und starten.'}
+- {titel: Stürzen, text: Nach dem Signalton sofort stürzen und auf einem Gitter vollständig auskühlen lassen.}
 ---
 
-> **Frage im Chat:** Rezept für ein süßes Hefebrot im Panasonic SD-YR2540, ähnelt einem portugiesischen Croissant
+## Warum so
 
-Dieses Rezept zielt auf die weiche, leicht dichte und süß-buttrige Textur eines portugiesischen Croissants (Brioche-Art) ab. Es enthält keine Sojaprodukte.
+„Hell“ imitiert die weiche Kruste eines portugiesischen Croissants. Das Programm „Süßes Brot“ läuft vollautomatisch; beim Brioche-Programm muss die Butter je nach Menü nach einem Signalton von Hand nachgegeben werden. Sofort stürzen verhindert Kondenswasser in der Kruste.
 
-**Zutaten**
+## Varianten
 
-- **Mehl:** 400 g Weizenmehl (Type 550 für optimale Elastizität)
-
-- **Zucker:** 60 g
-
-- **Salz:** 1 TL (ca. 5 g)
-
-- **Butter:** 70 g (kalt, in kleinen Würfeln)
-
-- **Flüssigkeit:** 180 ml kalte Kuhmilch oder Hafermilch
-
-- **Eier:** 2 Stück (Größe M)
-
-- **Aroma:** 1 TL Vanilleextrakt
-
-- **Hefe:** 1,5 TL Trockenhefe
-
-**Geräteeinstellungen**
-
-- **Programm:** "Süßes Brot" (für einen vollautomatischen Ablauf) oder "Brioche" (erfordert je nach Menü-Nummer manuelles Hinzufügen der Butter nach einem Signalton). Für höchste Effizienz wird "Süßes Brot" empfohlen.
-
-- **Bräunung:** Hell (um die weiche Croissant-Kruste zu imitieren)
-
-- **Größe:** M
-
-**Ablauf**
-
-1. Die Zutaten in der folgenden Reihenfolge in die Backform geben: Zuerst das Mehl, dann Zucker und Salz.
-
-2. Die kalten Butterwürfel auf dem Mehl verteilen.
-
-3. Die Milch, die Eier und den Vanilleextrakt am Rand hinzugeben.
-
-4. Die Backform in den Automaten einsetzen und verriegeln.
-
-5. Die Trockenhefe in den Hefeverteiler im Deckel füllen.
-
-6. Das Programm starten.
-
-7. Das Brot sofort nach dem finalen Signalton aus der Form stürzen und auf einem Gitterroste vollständig auskühlen lassen, um Kondenswasserbildung zu vermeiden.
-
-Möchtest du die exakten Zutatenmengen für die Brotgröße L oder XL berechnet haben?
+- Brioche-Programm mit Butterzugabe nach Signalton

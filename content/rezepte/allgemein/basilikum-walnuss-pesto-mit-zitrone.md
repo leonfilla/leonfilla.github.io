@@ -7,7 +7,10 @@ quelle:
   url: https://claude.ai/chat/97490c4e-e788-4eb5-ae79-13a8ec0960f7
   hinweis: Basilikumpesto-Varianten für Vollkornnudeln
 importiert: true
-fokus: Würziger, leicht bitterer Charakter durch Walnüsse und Zitrone – passt ideal zu kräftigem Vollkorngeschmack
+fokus: Pesto mit rohen Walnüssen und Zitrone statt Pinienkernen – würzig, leicht bitter und kräftig genug für Vollkornnudeln.
+ergebnis: 4 Portionen
+zeit: {aktiv: 15, gesamt: 20}
+tags: [Abendessen, Pasta, vegetarisch]
 portionen: 4
 zutaten:
 - name: frische Basilikumblätter
@@ -31,9 +34,9 @@ zutaten:
 - name: Meersalz
   menge: 0.5
   einheit: TL
-- name: Prise schwarzer Pfeffer
+- name: schwarzer Pfeffer
   menge: 1
-  einheit: ''
+  einheit: Prise
 - name: Vollkornnudeln (z. B. Penne)
   menge: 400
   einheit: g
@@ -47,4 +50,10 @@ schritte:
   text: Abgetropfte Nudeln mit dem Pesto mischen. Etwas Nudelwasser einrühren bis die Sauce cremig und glatt bindet.
 ---
 
-Walnüsse nicht rösten – sie sind roh feiner im Aroma und werden nicht bitter. Der Zitronensaft hellt das Pesto farblich auf und hebt den Basilikumgeschmack. Gut mit Kirschtomaten als Beilage.
+## Warum so
+
+Rohe Walnüsse sind feiner im Aroma; geröstet werden sie schnell bitter. Der Zitronensaft hellt das Pesto farblich auf und hebt den Basilikumgeschmack. Nudelwasser bindet Öl und Käse zu einer cremigen Sauce.
+
+## Varianten
+
+- Mit Kirschtomaten als Beilage servieren.

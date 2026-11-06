@@ -8,12 +8,16 @@ quelle:
   hinweis: Schwarze-Bohnen-Salat für Grillabend
 importiert: true
 linie: mediterraner-schwarze-bohnen-salat-mit-feta-20e7b
-fokus: Mediterraner Bohnensalat mit geröstetem Paprika, Kapern und Feta – transportfest, schmeckt nach zwei Stunden Ziehzeit besser als frisch.
+fokus: Mediterraner Bohnensalat mit gerösteter Paprika, Kapern und Feta. Transportfest und nach zwei Stunden Ziehzeit besser als frisch.
+ergebnis: 8 Portionen als Beilage
+zeit: {aktiv: 25, gesamt: 120}
+tags: [Salat, Beilage, Grillen, vegetarisch]
 portionen: 8
 zutaten:
-- name: Dosen schwarze Bohnen (je 200 g Abtropfgewicht)
-  menge: 2
-  einheit: ''
+- name: schwarze Bohnen, Abtropfgewicht
+  menge: 400
+  einheit: g
+  hinweis: 2 Dosen à 200 g
 - name: Feta (Bio), am Stück
   menge: 200
   einheit: g
@@ -68,8 +72,15 @@ schritte:
   text: Die Tomaten unterheben, den restlichen 200 g Feta (Bio), am Stück in etwa 1,5 cm große Würfel schneiden und obenauf verteilen. Jetzt erst final abschmecken – meist braucht es kein zusätzliches Salz, oft aber noch einen Spritzer Essig.
 ---
 
-Salzhaltigkeit: Feta, Kapern und die eingelegten Paprika bringen bereits viel Natrium mit. Deshalb erst ganz am Ende abschmecken, nie vorher.
+## Warum so
 
-Wenn zwischen Zubereitung und Grillabend mehr als 4 Stunden liegen: Tomaten und Feta-Würfel separat mitnehmen und vor Ort unterheben – die Bohnen-Paprika-Basis darf gern ziehen, die Tomaten werden sonst wässrig.
+Die Säure denaturiert die scharfen Schwefelverbindungen der Zwiebel und färbt sie pink. Im warmen Öl gehen die fettlöslichen Aromen von Oregano und Knoblauch über, statt trocken auf den Bohnen zu liegen. Die Bohnen nehmen in der Ziehzeit Säure und Öl auf. Feta, Kapern und Paprika bringen schon viel Salz mit, deshalb erst am Ende abschmecken.
 
-Optionale Ergänzungen, die zur Achse passen: schwarze Oliven, ein Löffel geröstete Pinienkerne, oder ein Hauch geräuchertes Paprikapulver im Dressing als Brücke zum Grill.
+## Stellschrauben
+
+- Dressing trüb und grau → Bohnen gründlicher spülen und trockentupfen
+- Mehr als 4 Stunden bis zum Servieren → Tomaten und Feta-Würfel separat mitnehmen und vor Ort unterheben
+
+## Varianten
+
+- Schwarze Oliven, geröstete Pinienkerne oder etwas geräuchertes Paprikapulver im Dressing.
