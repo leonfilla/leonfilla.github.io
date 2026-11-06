@@ -1,74 +1,74 @@
 ---
-titel: Überarbeite den weißen Bohnen Eintopf so, dass die doppelte Portion gekocht …
+titel: Weiße-Bohnen-Süßkartoffel-Eintopf mit Edamame (8 Portionen)
 status: aktiv
 datum: '2026-03-13'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/6d7110d057af64e3
-  hinweis: "5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen.  \nJedes Rezept mit a…"
+  hinweis: 5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen
 importiert: true
+linie: weisse-bohnen-suesskartoffel-eintopf-hanfsamen-2026-03-13
+variante: 8 Portionen, Ofen-Süßkartoffel
+fokus: Doppelte Menge des Bohneneintopfs mit je halb Brechbohnen und Edamame; die Süßkartoffel röstet parallel im Ofen und kommt erst nach dem Druckgaren dazu.
+ergebnis: 8 Portionen
+portionen: 8
+zeit: {aktiv: 18, gesamt: 50}
+geraete: [instant-pot-pro-max, bosch-hng978]
+tags: [Abendessen, vegan, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 12
+  ablass: Natural Release
+  ablass_min: 15
+ofen:
+  modus: 4D Heißluft
+  temp: 200
+  zeit: 25
+  form: Blech
+zutaten:
+  - {gruppe: Vorbereitung, name: Weiße Bohnen, menge: 500, einheit: g, hinweis: "getrocknet, über Nacht eingeweicht"}
+  - {gruppe: Ofen, name: Süßkartoffel, menge: 800, einheit: g, hinweis: "geschält, 2-cm-Würfel"}
+  - {gruppe: Ofen, name: Olivenöl, menge: 15, einheit: g}
+  - {gruppe: Ofen, name: Salz, menge: 5, einheit: g}
+  - {gruppe: Topf, name: Olivenöl, menge: 15, einheit: g}
+  - {gruppe: Topf, name: Geräuchertes Paprikapulver, menge: 10, einheit: g}
+  - {gruppe: Topf, name: Thymian getrocknet, menge: 6, einheit: g}
+  - {gruppe: Topf, name: Gemüsebrühe, menge: 1200, einheit: ml, hinweis: mit gefiltertem Wasser angesetzt}
+  - {gruppe: Topf, name: Salz, menge: 15, einheit: g}
+  - {gruppe: Finish, name: TK-Brechbohnen, menge: 300, einheit: g}
+  - {gruppe: Finish, name: TK-Edamame geschält, menge: 300, einheit: g}
+  - {gruppe: Finish, name: Geschälte Hanfsamen, menge: 100, einheit: g, hinweis: "12,5 g pro Teller"}
+schritte:
+  - titel: Ofen vorheizen
+    text: Ofen auf 200 °C 4D Heißluft vorheizen.
+  - titel: Süßkartoffel rösten
+    text: 800 g Süßkartoffelwürfel mit 15 g Olivenöl und 5 g Salz mischen und auf dem Blech rösten, bis die Kanten karamellisieren.
+    timer: 1500
+  - titel: Gewürze rösten
+    text: Parallel Sauté, 15 g Olivenöl erhitzen, 10 g Paprikapulver und 6 g Thymian 30 Sekunden rösten.
+    timer: 30
+  - titel: Einfüllen
+    text: Abgetropfte Bohnen, 1200 ml Brühe und 15 g Salz zugeben.
+  - titel: Druckgaren
+    text: Deckel verriegeln, Pressure Cook, High, 12 Minuten.
+    timer: 720
+  - titel: Natürlicher Druckabbau
+    text: 15 Minuten Natural Release, dann Restdruck ablassen.
+    timer: 900
+  - titel: TK-Gemüse ziehen lassen
+    text: Sauté Low, 300 g Brechbohnen und 300 g Edamame einrühren und 5 Minuten ziehen lassen.
+    timer: 300
+  - titel: Süßkartoffel unterheben
+    text: Geröstete Süßkartoffel vorsichtig unterheben, nicht zerdrücken.
+  - titel: Servieren
+    text: Portionieren und je Teller mit 12,5 g Hanfsamen bestreuen.
 ---
 
-> **Frage im Chat:** überarbeite den weißen Bohnen Eintopf so, dass die doppelte Portion gekocht werden soll. Grüne Bohnen und Edamame sollen jeweils zu 50% verwendet werden. Können die Süßkartoffelstücke auch im Ofen vorgeröstet werden?
+## Warum so
 
-**Analytische Bewertung: Vorrösten der Süßkartoffeln im Bosch HNG978NB1**
-Das Vorrösten ist sensorisch hochgradig vorteilhaft. Es induziert eine intensive Maillard-Reaktion und karamellisiert die komplexe Stärke der Süßkartoffel. Da geröstete Süßkartoffeln bei einer anschließenden 12-minütigen Druckgarung im Instant Pot strukturell vollständig zu Brei zerfallen würden, wird der Prozess zwingend entkoppelt. Die gerösteten Süßkartoffeln und das TK-Gemüse (Brechbohnen/Edamame) werden erst nach dem Druckabbau in die heiße Bohnenbasis integriert.
+Geröstete Süßkartoffel würde 12 Minuten Druck nicht überstehen und zerfallen, deshalb getrennte Garung. Edamame ergänzen die Brechbohnen mit vollwertigem Protein; mit den Hanfsamen ergibt sich ein vollständiges Aminosäureprofil. Weiches Wasser lässt die weißen Bohnen schneller weich werden.
 
-#### Rezept 4 (Skaliert auf 8 Portionen): Weiße Bohnen-Süßkartoffel-Eintopf mit Edamame
+## Varianten
 
-**1. Gewichtungs-Check**
-
-1. **Geschmack:** Maximale Röst-Aromatik durch Entkopplung der Süßkartoffelgarung in den Backofen. Perfekter Texturkontrast.
-
-2. **Gesundheit:** Massiv erhöhtes Proteinprofil durch die 50/50-Mischung von Brechbohnen und Edamame. Komplettes Aminosäureprofil (Weiße Bohnen + Hanfsamen).
-
-3. **Aufwand:** Kritisch. Parallelnutzung von Backofen und Instant Pot erhöht die Aktivzeit und den Reinigungsaufwand (Miele Spülmaschine). Low-Effort-Alternative (One-Pot) wird generiert.
-
-**2. Zutaten, Wasserwahl & Hardware-Mapping**
-
-|Zutat (für 8 Portionen) |Menge |Begründung / Hardware |
-|Weiße Bohnen (getrocknet) |500 g |Über Nacht eingeweicht. |
-|Süßkartoffel (geschält, 2 cm Würfel) |800 g |Komplexe Kohlenhydrate. Vorgeröstet im Bosch HNG978NB1. |
-|TK-Brechbohnen, TK-Edamame (geschält) |300 g, 300 g |50/50-Split. Edamame (ganze Sojabohne) liefert hochwertiges Protein. |
-|Geschälte Hanfsamen |100 g |Aminosäure-Komplementierung. |
-|Gemüsebrühe |1200 ml |Flüssigkeitsbasis. |
-|**Wasser (Gefiltert - BLANCO)** |- |Wird für den Ansatz der Gemüsebrühe verwendet. Reduzierte Karbonathärte optimiert die Extraktion und das Weichwerden der weißen Bohnen. |
-|Olivenöl |30 g |Aufteilung: 15 g für Süßkartoffeln (Ofen), 15 g für Instant Pot. |
-|Geräuchertes Paprikapulver, getr. Thymian |10 g, 6 g |Gewogen mit Timemore Basic 2. |
-|Salz |20 g |Aufteilung: 5 g für Süßkartoffeln, 15 g für Bohnen. |
-|**Instant Pot Pro Max Wifi & Bosch HNG978NB1** |Je 1 |Thermik: 4D Heißluft (Ofen) parallel zu Pressure Cook High (IP). |
-
-**3. Q/A-Analyse**
-
-- **Aktivzeit (Hauptprozess):** 18 Minuten (Zusätzlicher Hardware-Einsatz, paralleles Würzen).
-
-- **Passivzeit (Hauptprozess):** 25 Minuten (Ofen) / 12 Min Druck + 15 Min Release (IP). Prozesse laufen simultan.
-
-- **Ratio-Ergebnis:** Akzeptabel. Der aktive Mehraufwand für das Backblech skaliert linear mit der deutlichen Textur- und Geschmacksverbesserung.
-
-**4. Prozess (Maximal-Qualität - Entkoppelte Thermik)**
-
-1. Bosch HNG978NB1 auf 200 °C (4D Heißluft) vorheizen.
-
-2. Süßkartoffelwürfel mit 15 g Olivenöl und 5 g Salz vermengen. Auf einem Backblech verteilen und 25 Minuten rösten, bis die Kanten karamellisieren.
-
-3. Simultan Instant Pot auf "Saute" stellen. Restliche 15 g Olivenöl erhitzen. 10 g Paprikapulver und 6 g Thymian 30 Sekunden anrösten.
-
-4. Abgetropfte weiße Bohnen, 1200 ml gefilterte Gemüsebrühe und 15 g Salz hinzufügen.
-
-5. Deckel verriegeln. Modus "Pressure Cook" (High) für 12 Minuten. Danach 15 Minuten "Natural Release" und Restdruck ablassen.
-
-6. Instant Pot auf "Saute" (Low) stellen. Die TK-Brechbohnen und TK-Edamame in die heiße Bohnenbasis einrühren. 5 Minuten ziehen lassen, bis das TK-Gemüse aufgetaut und erhitzt ist.
-
-7. Geröstete Süßkartoffeln aus dem Ofen holen und vorsichtig unterheben (nicht zerdrücken).
-
-8. Portionieren und mit 12,5 g Hanfsamen pro Teller bestreuen.
-
-**5. Prozess (Low-Effort-Alternative - One-Pot, ohne Ofen)**
-Verzicht auf Röst-Aromen der Süßkartoffel zugunsten minimaler Aktivzeit (10 Min) und Nutzung nur eines Geräts.
-
-1. Instant Pot auf "Saute" stellen. 30 g Olivenöl erhitzen, Süßkartoffelwürfel 3 Minuten anrösten. Paprika und Thymian 30 Sekunden mitrösten.
-
-2. Weiße Bohnen, 1200 ml Gemüsebrühe und 20 g Salz zugeben. Modus "Pressure Cook" (High) für 12 Minuten. 15 Minuten "Natural Release".
-
-3. TK-Brechbohnen und TK-Edamame in die heiße Masse einrühren. Deckel auflegen (Gerät aus) und in der Restwärme 5 Minuten garziehen lassen. Mit Hanfsamen servieren.
+- **Nur Instant Pot:** Süßkartoffel in 30 g Öl 3 Minuten auf Sauté anrösten, Gewürze 30 Sekunden mitrösten, Bohnen, Brühe und 20 g Salz zugeben, 12 Minuten High, 15 Minuten Natural Release; TK-Gemüse 5 Minuten in der Restwärme ziehen lassen.
