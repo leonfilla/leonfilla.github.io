@@ -1,109 +1,61 @@
 ---
-titel: Ja
+titel: Rotbarsch-Fenchel-Eintopf mit Kichererbsen
 status: aktiv
 datum: '2026-03-13'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/6d7110d057af64e3
-  hinweis: "5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen.  \nJedes Rezept mit a…"
+  hinweis: 5 verschiedene Rezepte, nur im Instant Pot, für 4 Personen
 importiert: true
+linie: rotbarsch-fenchel-eintopf-kichererbsen
+fokus: Tomaten-Fenchel-Eintopf mit Kichererbsen und Erbsen, kurz auf Low gegart; der scharf angebratene Rotbarsch zieht danach in der Restwärme gar.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 20, gesamt: 35}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, High Protein, Fisch]
+instantpot:
+  programm: Pressure Cook
+  druck: Low
+  zeit: 3
+  ablass: Quick Release
+zutaten:
+  - {gruppe: Fisch, name: TK-Rotbarschfilet, menge: 600, einheit: g, hinweis: "über Nacht aufgetaut, 5-cm-Stücke"}
+  - {gruppe: Fisch, name: Salz, menge: 4, einheit: g}
+  - {gruppe: Fisch, name: Olivenöl, menge: 10, einheit: g}
+  - {gruppe: Sauce, name: Olivenöl, menge: 10, einheit: g}
+  - {gruppe: Sauce, name: Fenchelknolle, menge: 300, einheit: g, hinweis: in feinen Streifen}
+  - {gruppe: Sauce, name: Gestückelte Tomaten, menge: 400, einheit: g, hinweis: Dose}
+  - {gruppe: Sauce, name: Kichererbsen, menge: 240, einheit: g, hinweis: "Dose, abgetropft"}
+  - {gruppe: Sauce, name: TK-Erbsen, menge: 200, einheit: g}
+  - {gruppe: Sauce, name: Wasser, menge: 200, einheit: g, hinweis: ungefiltert}
+  - {gruppe: Sauce, name: Salz, menge: 8, einheit: g}
+  - {gruppe: Sauce, name: Schwarzer Pfeffer, menge: 2, einheit: g}
+schritte:
+  - titel: Auftauen
+    text: Rotbarsch über Nacht im Kühlschrank auftauen und trocken tupfen.
+  - titel: Fisch anbraten
+    text: Mit 4 g Salz würzen. Sauté High, 10 g Olivenöl erhitzen, Fisch je Seite 1 Minute scharf anbraten und herausnehmen.
+    timer: 120
+  - titel: Fenchel anbraten
+    text: Restliche 10 g Öl zugeben und den Fenchel 3 Minuten anbraten.
+    timer: 180
+  - titel: Sauce ansetzen
+    text: Tomaten, Kichererbsen, 200 g Erbsen, 200 g Wasser, 8 g Salz und 2 g Pfeffer zugeben und den Bratensatz lösen.
+  - titel: Druckgaren
+    text: Deckel verriegeln, Pressure Cook, Low, 3 Minuten.
+    timer: 180
+  - titel: Schnell ablassen
+    text: Quick Release.
+  - titel: Fisch garziehen
+    text: Fisch in die heiße Sauce legen, Deckel locker auflegen und bei ausgeschaltetem Gerät 5 Minuten garziehen lassen.
+    timer: 300
 ---
 
-> **Frage im Chat:** ja
+## Warum so
 
-**1. Gewichtungs-Check**
+Rotbarsch hat eine festere Lamellenstruktur als Kabeljau und hält das Anbraten aus; gar zieht er schonend in der Restwärme. Low Pressure reicht für den Fenchel, hartes Leitungswasser hält ihn und die Kichererbsen in Form.
 
-1. **Geschmack:** Maritimes, leicht nussiges Aromenprofil. Feste Lamellenstruktur des Rotbarschs widersteht dem Zerfallen besser als Kabeljau.
+## Varianten
 
-2. **Gesundheit:** Komplettes Aminosäureprofil (Rotbarsch, Kichererbsen); hoher Omega-3- und Selengehalt; hoher Gemüseanteil.
-
-3. **Aufwand:** Kritisch. Zweistufiger Prozess für Röst-Aromen erfordert erhöhte Aktivzeit. Eine hocheffiziente Low-Effort-Alternative für die direkte Verarbeitung von TK-Ware wird generiert.
-
-**2. Zutaten, Wasserwahl & Hardware-Mapping**
-
-|Zutat (für 4 Personen) |Menge |Begründung / Hardware |
-|Rotbarschfilet (Alt.: Goldbarsch), TK-Ware, in 5 cm Stücken |600 g |Komplettes Aminosäureprofil, Omega-3. Feste Gewebestruktur. |
-|Kichererbsen (aus der Dose, abgetropft) |240 g |Textur, Sättigung. |
-|Fenchelknolle, in feinen Streifen |300 g |Gemüseanteil, ätherische Öle. |
-|TK-Erbsen |200 g |Gemüseanteil, Farbtupfer. |
-|Dosentomaten (gestückelt) |400 g |Basis. |
-|Olivenöl |20 g |Hitzeträger. |
-|**Wasser (Ungefiltert - BLANCO)** |200 ml |Erhalt der Fenchelstruktur und Festigkeit der Kichererbsen durch Kalkgehalt (17,43 °dH). |
-|Salz |12 g |Gewogen mit Timemore. Aufteilung: 8 g für Sauce (Schritt 3), 4 g für Fisch (Schritt 1). |
-|Schwarzer Pfeffer |2 g |Zugabe in Schritt 3. |
-|**Instant Pot Pro Max Wifi** |1 |Thermik: Saute, Pressure Cook (Low). |
-
-**3. Q/A-Analyse**
-
-- **Aktivzeit (Hauptprozess):** 20 Minuten (Separates Anbraten des aufgetauten Fisches, Herausnehmen, Sauce kochen).
-
-- **Passivzeit (Hauptprozess):** 8 Minuten.
-
-- **Ratio-Ergebnis:** Grenzwertig. Skaliert linear für Texturperfektion und Maillard-Reaktion, erfordert aber das vorherige Auftauen (Passivzeit Kühlschrank).
-
-**4. Prozess (Maximal-Qualität - Zweistufig, aufgetaut)**
-
-1. TK-Rotbarschfilets über Nacht im Bosch KIF86PFE0 auftauen. Trockentupfen.
-
-2. Fischstücke mit 4 g Salz würzen. Instant Pot auf "Saute" (High) stellen. 10 g Olivenöl erhitzen.
-
-3. Rotbarsch von jeder Seite 1 Minute scharf anbraten. Sofort herausnehmen und beiseitelegen.
-
-4. Restliches Olivenöl (10 g) in den Topf geben. Fenchel 3 Minuten anbraten. Dosentomaten, Kichererbsen, TK-Erbsen, 200 ml ungefiltertes Wasser, 8 g Salz und 2 g Pfeffer zugeben. Bratensatz vom Boden lösen.
-
-5. Deckel verriegeln. Modus "Pressure Cook" (Low) für 3 Minuten.
-
-6. "Quick Release" ausführen. Deckel öffnen. Den angebratenen Fisch in die heiße Sauce legen, Deckel locker auflegen und in der Restwärme (Gerät aus) 5 Minuten garziehen lassen.
-
-**5. Prozess (Low-Effort-Alternative - Direkte TK-Verarbeitung)**
-Verzicht auf Röst-Aromen beim Fisch zugunsten minimaler Aktivzeit (5 Min) und Eliminierung der Auftauzeit.
-
-1. Fenchel, Kichererbsen, TK-Erbsen, Dosentomaten, 200 ml ungefiltertes Wasser, 20 g Olivenöl, 12 g Salz und 2 g Pfeffer in den Instant Pot geben und verrühren.
-
-2. Gefrorene Rotbarsch-Stücke (direkt aus dem Tiefkühler) auf die Gemüsemischung legen. Nicht unterrühren.
-
-3. Deckel verriegeln. Modus "Pressure Cook" (Low) für exakt 5 Minuten (Zeitzuschlag wegen TK-Ware).
-
-4. "Quick Release" ausführen. Fisch im Topf belassen und 3 Minuten in der Sauce ruhen lassen, um Temperaturgradienten auszugleichen. Vorsichtig schöpfen.
-
----
-
-#### Aktualisierte Einkaufsliste (Tabellarisch, aggregiert für alle 5 Rezepte)
-
-|Kategorie |Artikel |Menge (Gesamt) |
-|**Frisches Fleisch** |Rinderwade (Wadschinken/Hesse) |800 g |
-| |Hähnchenschenkel mit Knochen/Haut |600 g |
-|**Gemüse & Frische Zutaten** |Zwiebeln |350 g |
-| |Knoblauch |15 g |
-| |Ingwer |45 g |
-| |Fenchelknolle |300 g |
-| |Süßkartoffel |400 g |
-|**Tiefkühlware (TK)** |TK-Rotbarschfilet (Goldbarsch) |600 g |
-| |TK-Suppengemüse |400 g |
-| |TK-Brokkoliröschen |400 g |
-| |TK-Blattspinat |400 g |
-| |TK-Grüne Bohnen |300 g |
-| |TK-Erbsen |200 g |
-|**Hülsenfrüchte & Getreide** |Kichererbsen (getrocknet) |200 g |
-| |Kichererbsen (Dose) |240 g (Abtropfgewicht) |
-| |Weiße Bohnen (getrocknet) |250 g |
-| |Rote Linsen (getrocknet) |250 g |
-| |Vollkornreis (Kurzkorn) |200 g |
-| |Quinoa |100 g |
-|**Konserven & Vorrat** |Dosentomaten (passiert) |400 g |
-| |Dosentomaten (gestückelt) |400 g |
-| |Tomatenmark |50 g |
-| |Rinderbrühe |400 ml |
-| |Gemüsebrühe (oder Pulver für 600 ml) |600 ml |
-| |Sojasauce (Tamari) |40 g |
-| |Olivenöl |50 g |
-| |Kokosöl |15 g |
-| |Geschälte Hanfsamen |50 g |
-|**Gewürze** |Salz |54 g |
-| |Schwarzer Pfeffer |5 g |
-| |Paprikapulver edelsüß |10 g |
-| |Geräuchertes Paprikapulver |5 g |
-| |Kurkuma |5 g |
-| |Kreuzkümmel (Cumin) |5 g |
-| |Garam Masala |5 g |
-| |Getrockneter Thymian |3 g |
+- **Direkt aus dem Tiefkühler:** Alle Sauce-Zutaten mit 20 g Öl und 12 g Salz verrühren, gefrorenen Fisch obenauf legen, Pressure Cook Low 5 Minuten, Quick Release, 3 Minuten ruhen lassen. Ohne Röstaromen, 5 Minuten Arbeit.

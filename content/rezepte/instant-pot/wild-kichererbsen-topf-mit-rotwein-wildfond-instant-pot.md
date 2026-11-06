@@ -1,5 +1,5 @@
 ---
-titel: Wild-Kichererbsen-Topf mit Rotwein & Wildfond (Instant Pot)
+titel: Wild-Kichererbsen-Topf mit Rotwein und Wildfond
 status: aktiv
 datum: '2026-10-27'
 quelle:
@@ -8,89 +8,75 @@ quelle:
   hinweis: Rinder-Suppenfleisch Rezept
 importiert: true
 linie: geschmorter-rindfleisch-kichererbsen-topf-instant-41b5a
-fokus: Die bewährte Rinderversion, umgestellt auf Hirsch oder Wildschwein. Angepasst sind Fettzufuhr, Garzeit und Würzung, weil Wild deutlich magerer ist.
+variante: Wild
+fokus: Die bewährte Rinderversion mit Hirsch oder Wildschwein. Mehr Fett über Speck, 5 Minuten kürzere Garzeit und Wildgewürze, weil Wild deutlich magerer ist.
+ergebnis: 4 Portionen, ca. 2,3 l
 portionen: 4
+zeit: {aktiv: 30, gesamt: 95}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, High Protein, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: Max
+  zeit: 40
+  ablass: Natural Release
+  ablass_min: 15
 zutaten:
-- name: Hirsch- oder Wildschweinschulter (alternativ Hals/Nacken), 3×3 cm Würfel
-  menge: 800
-  einheit: g
-- name: durchwachsener Speck, gewürfelt (bei Hirsch empfohlen, bei Wildschwein optional)
-  menge: 60
-  einheit: g
-- name: getrocknete Kichererbsen, eingeweicht
-  menge: 205
-  einheit: g
-- name: Zwiebeln
-  menge: 205
-  einheit: g
-- name: Karotten
-  menge: 205
-  einheit: g
-- name: Knollensellerie
-  menge: 105
-  einheit: g
-- name: Lauch
-  menge: 105
-  einheit: g
-- name: Knoblauchzehen, fein gehackt
-  menge: 4
-  einheit: ''
-- name: Butterschmalz (oder Olivenöl), auf zwei Pfannen verteilt
-  menge: 16
-  einheit: g
-- name: Tomatenmark
-  menge: 50
-  einheit: g
-- name: Paprika edelsüß
-  menge: 5
-  einheit: g
-- name: trockener Rotwein
-  menge: 200
-  einheit: ml
-- name: Wildfond
-  menge: 400
-  einheit: ml
-- name: Lorbeerblätter
-  menge: 2
-  einheit: ''
-- name: Wacholderbeeren, angedrückt (entfallen, wenn im Fond enthalten)
-  menge: 5
-  einheit: ''
-- name: Pimentkörner
-  menge: 3
-  einheit: ''
-- name: Salz (Startmenge, mit Speck 8 g)
-  menge: 10
-  einheit: g
-- name: schwarzer Pfeffer
-  menge: 3
-  einheit: g
-- name: Johannisbeer- oder Preiselbeergelee (optional)
-  menge: 20
-  einheit: g
+  - {gruppe: Fleisch, name: Hirsch- oder Wildschweinschulter, menge: 800, einheit: g, hinweis: "alternativ Hals oder Nacken, 3-cm-Würfel"}
+  - {gruppe: Fleisch, name: Durchwachsener Speck, menge: 60, einheit: g, hinweis: "gewürfelt, bei Wildschwein optional"}
+  - {gruppe: Gemüse, name: Zwiebeln, menge: 205, einheit: g}
+  - {gruppe: Gemüse, name: Karotten, menge: 205, einheit: g}
+  - {gruppe: Gemüse, name: Knollensellerie, menge: 105, einheit: g}
+  - {gruppe: Gemüse, name: Lauch, menge: 105, einheit: g}
+  - {gruppe: Gemüse, name: Knoblauchzehen, menge: 4, einheit: "", hinweis: fein gehackt}
+  - {gruppe: Anrösten, name: Butterschmalz oder Olivenöl, menge: 16, einheit: g, hinweis: auf zwei Pfannen verteilt}
+  - {gruppe: Anrösten, name: Tomatenmark, menge: 50, einheit: g}
+  - {gruppe: Anrösten, name: Paprika edelsüß, menge: 5, einheit: g}
+  - {gruppe: Anrösten, name: Trockener Rotwein, menge: 200, einheit: ml}
+  - {gruppe: Topf, name: Getrocknete Kichererbsen, menge: 205, einheit: g, hinweis: eingeweicht}
+  - {gruppe: Topf, name: Wildfond, menge: 400, einheit: ml}
+  - {gruppe: Topf, name: Lorbeerblätter, menge: 2, einheit: ""}
+  - {gruppe: Topf, name: Wacholderbeeren, menge: 5, einheit: "", hinweis: "angedrückt, entfallen wenn im Fond"}
+  - {gruppe: Topf, name: Pimentkörner, menge: 3, einheit: ""}
+  - {gruppe: Topf, name: Salz, menge: 10, einheit: g, hinweis: mit Speck 8 g}
+  - {gruppe: Topf, name: Schwarzer Pfeffer, menge: 3, einheit: g}
+  - {gruppe: Finish, name: Johannisbeer- oder Preiselbeergelee, menge: 20, einheit: g, hinweis: optional}
 schritte:
-- titel: Vorbereiten
-  text: 205 g Zwiebeln, 205 g Karotten und 105 g Knollensellerie im Wilfa-Häcksler zerkleinern. 105 g Lauch separat häckseln, 4 Knoblauchzehen, fein gehackt von Hand fein hacken. Fleisch von Sehnen und Silberhaut befreien und sehr gründlich trocken tupfen. Wild gibt beim Anbraten mehr Wasser ab als Rind.
-- titel: Speck auslassen & Fleisch anbraten (Pfanne A)
-  text: 60 g durchwachsener Speck, gewürfelt (bei Hirsch empfohlen, bei Wildschwein optional) in Pfanne A bei mittlerer Hitze 3–4 Min auslassen, bis er knusprig ist. Mit einer Schaumkelle herausnehmen. Die Hälfte von 16 g Butterschmalz (oder Olivenöl), auf zwei Pfannen verteilt zum Speckfett geben, stark erhitzen und das Fleisch in 2 Chargen rundum kräftig bräunen, je ca. 4–5 Min. Mageres Wild klebt leichter an, deshalb erst wenden, wenn es sich von selbst löst.
-  timer: 600
-- titel: Gemüse rösten (Pfanne B)
-  text: Parallel das restliche Fett in Pfanne B erhitzen. Gehäckselte Zwiebeln, Karotten und Sellerie anbraten, bis die Feuchtigkeit verdampft ist und das Gemüse leicht bräunt, ca. 5 Min.
-  timer: 300
-- titel: Knoblauch, Tomatenmark & Paprika
-  text: Lauch, 4 Knoblauchzehen, fein gehackt und 50 g Tomatenmark zugeben und 1–2 Min rösten, bis das Tomatenmark rostrot ist und der Knoblauch duftet. 5 g Paprika edelsüß erst für die letzten 30 Sekunden einrühren.
-  timer: 120
-- titel: Mit Rotwein ablöschen
-  text: Fleisch aus Pfanne A nehmen. Pfanne A mit 200 ml trockener Rotwein ablöschen und den Bratensatz lösen. Den Wein zu Pfanne B gießen und auch dort den Boden abkratzen. Alles auf etwa die Hälfte einkochen.
-  timer: 240
-- titel: Instant Pot befüllen
-  text: Gemüse-Wein-Mischung, Fleisch samt Saft, Speck, abgetropfte 205 g getrocknete Kichererbsen, eingeweicht, 400 ml Wildfond, 2 Lorbeerblätter, 5 Wacholderbeeren, angedrückt (entfallen, wenn im Fond enthalten), 3 Pimentkörner, 10 g Salz (Startmenge, mit Speck 8 g) und 3 g schwarzer Pfeffer in den Instant Pot geben. Umrühren, am Boden darf nichts festkleben.
-- titel: Druckgaren
-  text: Pressure Cook (High/Max) 40 Min für Schulter, Hals oder Nacken. Für Hirschwade oder -haxe 45 Min.
-  timer: 2400
-- titel: Druck ablassen & abschmecken
-  text: 15 Min Natural Release, dann den Restdruck ablassen. Lorbeer, Wacholder und Piment herausfischen. 20 g Johannisbeer- oder Preiselbeergelee (optional) einrühren, das rundet die herben Wildnoten ab. Mit Salz und Pfeffer abschmecken. Wirkt die Sauce zu süß oder schwer, 1 TL Rotweinessig einrühren.
-  timer: 900
+  - titel: Vorbereiten
+    text: Zwiebeln, Karotten und Sellerie im Zerkleinerer häckseln, Lauch separat, Knoblauch von Hand hacken. Fleisch von Sehnen und Silberhaut befreien und sehr gründlich trocken tupfen.
+  - titel: Speck auslassen
+    text: 60 g Speck in Pfanne A bei mittlerer Hitze 3–4 Minuten knusprig auslassen und herausnehmen.
+    timer: 240
+  - titel: Fleisch anbraten
+    text: Die Hälfte des Butterschmalzes zum Speckfett geben, stark erhitzen und das Fleisch in 2 Chargen je 4–5 Minuten rundum bräunen; erst wenden, wenn es sich von selbst löst.
+    timer: 600
+  - titel: Gemüse rösten
+    text: Parallel in Pfanne B mit dem restlichen Fett Zwiebeln, Karotten und Sellerie etwa 5 Minuten braten, bis sie leicht bräunen.
+    timer: 300
+  - titel: Tomatenmark rösten
+    text: Lauch, Knoblauch und 50 g Tomatenmark 1–2 Minuten rösten, 5 g Paprika für die letzten 30 Sekunden.
+    timer: 120
+  - titel: Ablöschen
+    text: Fleisch herausnehmen, Pfanne A mit 200 ml Rotwein ablöschen, zu Pfanne B gießen, beide Böden lösen und auf die Hälfte einkochen.
+    timer: 240
+  - titel: Einfüllen
+    text: Gemüse-Wein-Mischung, Fleisch samt Saft, Speck, Kichererbsen, 400 ml Wildfond, Lorbeer, Wacholder, Piment, Salz und Pfeffer in den Instant Pot geben und umrühren.
+  - titel: Druckgaren
+    text: Pressure Cook, High oder Max, 40 Minuten für Schulter, Hals oder Nacken; 45 Minuten für Hirschwade oder -haxe.
+    timer: 2400
+  - titel: Natürlicher Druckabbau
+    text: 15 Minuten Natural Release, dann Restdruck ablassen.
+    timer: 900
+  - titel: Abschmecken
+    text: Lorbeer, Wacholder und Piment entfernen, 20 g Gelee einrühren, mit Salz und Pfeffer abschmecken; zu süß oder schwer → 1 TL Rotweinessig.
 ---
 
-Warum die Änderungen? Wild hat kaum intramuskuläres Fett. Ohne Speck oder Butterschmalz wirkt es nach dem Schmoren trocken und strohig, auch wenn das Kollagen gelöst ist. Wildschweinnacken ist von Natur aus fetter, dort kann der Speck entfallen. Schulter und Hals haben genug Bindegewebe für 40 Min. Keule ist zu mager und wird unter Druck faserig, daher ungeeignet. Die Garzeit liegt 5 Min unter der Rindervariante, weil die Muskelfasern feiner sind. Durch die 15 Min Natural Release gart es noch nach. Paprika ist halbiert, weil Wildfond, Wacholder und Piment das Profil tragen. Das Gelee ist der klassische süß-säuerliche Gegenpol zu Wild und ersetzt die Funktion des Essigs. Salz: Speck bringt eigenes Salz mit, dann mit 8 g starten. Füllmenge: rund 2,3 l, im 5,7-l-Topf okay.
+## Warum so
+
+Wild hat kaum intramuskuläres Fett und wird ohne Speck oder Butterschmalz strohig, auch wenn das Kollagen gelöst ist. Die feineren Muskelfasern brauchen 5 Minuten weniger als Rind; der Natural Release gart nach. Wildfond, Wacholder und Piment tragen das Profil, deshalb nur halb so viel Paprika; das Gelee ist der klassische süß-säuerliche Gegenpol.
+
+## Stellschrauben
+
+- Wildschweinnacken → Speck kann entfallen, er ist von Natur aus fetter
+- Keule → ungeeignet, zu mager, wird unter Druck faserig
+- Mit Speck → Salz auf 8 g senken
