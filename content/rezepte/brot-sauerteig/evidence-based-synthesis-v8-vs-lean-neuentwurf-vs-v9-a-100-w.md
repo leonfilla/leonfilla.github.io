@@ -9,6 +9,7 @@ quelle:
 importiert: true
 linie: vollkorn-sauerteig
 version: V9
+variante: Synthese mit 45-°C-Soak
 fokus: "100 % Vollkorn (85 % Weizen, 15 % Roggen) mit 4 % Vitalkleber, frei geschoben – das Gerüst des schlanken Neuentwurfs plus ein salzfreies Phytase-Soak bei 45 °C vor der Levain-Zugabe. Ziel: über 80 % Phytatabbau bei mildem, milchsaurem Geschmack und offener Krume."
 ergebnis: 1 Laib
 zeit: {aktiv: 25, gesamt: 1680}
