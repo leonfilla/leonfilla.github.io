@@ -21,7 +21,7 @@ ofen:
   zeit: "55–60"
   form: Springform 22 cm
 zutaten:
-- {gruppe: Fruchtschicht, name: Rhabarber, menge: 500, einheit: g, hinweis: in 1,5-cm-Stücken}
+- {gruppe: "Fruchtschicht", name: "Rhabarber", menge: 500, einheit: "g", hinweis: "in 1,5-cm-Stücken"}
 - {gruppe: Fruchtschicht, name: Zucker, menge: 40, einheit: g}
 - {gruppe: Fruchtschicht, name: Speisestärke, menge: 1, einheit: TL}
 - {gruppe: Fruchtschicht, name: TK-Heidelbeeren, menge: 120, einheit: g, hinweis: optional}

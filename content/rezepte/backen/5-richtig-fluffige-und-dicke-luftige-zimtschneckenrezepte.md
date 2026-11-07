@@ -25,7 +25,7 @@ zutaten:
 - {gruppe: Tangzhong, name: Weizenmehl Type 550, menge: 30, einheit: g, mehl: true}
 - {gruppe: Tangzhong, name: Wasser, menge: 150, einheit: g, hinweis: gefiltert, wasser: 1}
 - {gruppe: Hauptteig, name: Weizenmehl Type 550, menge: 470, einheit: g, mehl: true}
-- {gruppe: Hauptteig, name: Vollmilch 3,5 %, menge: 120, einheit: ml}
+- {gruppe: "Hauptteig", name: "Vollmilch 3,5 %", menge: 120, einheit: "ml"}
 - {gruppe: Hauptteig, name: Trockenhefe, menge: 10, einheit: g}
 - {gruppe: Hauptteig, name: Rohrohrzucker, menge: 50, einheit: g}
 - {gruppe: Hauptteig, name: Ei, menge: 1, einheit: "", hinweis: Größe M}

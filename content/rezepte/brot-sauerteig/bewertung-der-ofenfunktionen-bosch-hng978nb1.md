@@ -18,7 +18,7 @@ brot:
   kerntemperatur: "97–98"
   gare:
     - {phase: Levain, temp: 28, zeit: 4–5 h, ph: "4,10"}
-    - {phase: Stockgare, temp: 28, zeit: 3,5–4 h, ph: "4,50"}
+    - {phase: "Stockgare", temp: 28, zeit: "3,5–4 h", ph: "4,50"}
     - {phase: Stückgare (Kühlschrank), temp: 4–5, zeit: 12–16 h}
   backprofil:
     - {phase: Ofentrieb, temp: 275, dampf: Stoß + Automatik Stufe 3, zeit: 15 min}

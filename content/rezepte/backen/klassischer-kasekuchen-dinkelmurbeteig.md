@@ -30,7 +30,7 @@ zutaten:
 - {gruppe: Füllung, name: Eier, menge: 3, einheit: "", hinweis: getrennt}
 - {gruppe: Füllung, name: Magerquark, menge: 750, einheit: g}
 - {gruppe: Füllung, name: Rohrohrzucker, menge: 100, einheit: g}
-- {gruppe: Füllung, name: Milch 1,5 %, menge: 100, einheit: ml}
+- {gruppe: "Füllung", name: "Milch 1,5 %", menge: 100, einheit: "ml"}
 schritte:
 - titel: Teig kneten
   text: 200 g Mehl, 100 g kalte Butter, 40 g Zucker, 1 Ei und 20 g Eiswasser im Wilfa ProBaker max. 2 Minuten kneten, bis der Teig bindet.

@@ -1,5 +1,5 @@
 ---
-titel: Vollkorn-Rundkornreis im Instant Pot zubereiten
+titel: Vollkorn-Rundkornreis
 status: aktiv
 datum: '2026-09-19'
 quelle:
@@ -7,17 +7,53 @@ quelle:
   url: https://claude.ai/chat/9b98ff3a-74d6-4749-8b1d-e3aa9e052935
   hinweis: Vollkorn-Rundkornreis im Instant Pot zubereiten
 importiert: true
+linie: vollkorn-rundkornreis
+fokus: Bissfest durchgegarter Vollkorn-Rundkornreis mit einer Wassermenge aus der Feuchtebilanz statt aus Tassenmaßen – 1,5 zu 1 nach Gewicht, 22 Minuten High.
+ergebnis: ca. 900 g gegart, 4–5 Beilagenportionen
+portionen: 4
+zeit: {aktiv: 3, gesamt: 45}
+geraete: [instant-pot-pro-max]
+tags: [Beilage, Reis, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 22
+  ablass: Natural Release
+  ablass_min: 10
+zutaten:
+  - {name: Vollkorn-Rundkornreis, menge: 360, einheit: g}
+  - {name: Wasser, menge: 540, einheit: g}
+  - {name: Salz, menge: 3, einheit: g, hinweis: optional}
+  - {name: Neutrales Öl, menge: 5, einheit: g, hinweis: gegen Schaum}
+schritte:
+  - titel: Spülen
+    text: 360 g Reis kurz spülen und abtropfen lassen.
+  - titel: Einfüllen
+    text: Reis, 540 g Wasser, 3 g Salz und 5 g Öl in den Topf geben, glatt verteilen, nicht rühren.
+  - titel: Druckgaren
+    text: Pressure Cook, High, 22 Minuten, NutriBoost aus.
+    timer: 1320
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release, dann Restdruck ablassen.
+    timer: 600
+  - titel: Ausdampfen
+    text: Keep Warm aus, Deckel ab, ein Tuch über den Topf legen und 5 Minuten stehen lassen.
+    timer: 300
+  - titel: Auflockern
+    text: Mit einem Paddel von unten nach oben falten.
 ---
 
-**Basis (ungeweicht), 5,7-l-Pro-Max:**
-360 g Reis + 540 g Wasser + 3 g Salz + 5 g neutrales Öl → *Pressure Cook*, **High**, **22 min**, dann **10 min Natural Release**, Rest ablassen.
+## Warum so
 
-Die Wassermenge folgt aus einer Bilanz, nicht aus Tassenmaßen: Vollkornreis bringt ca. 12 % Eigenfeuchte mit, also rund 317 g Trockensubstanz. Für eine fertige Kornfeuchte von ~65 % (bissfest, aber durchgegart) brauchst du eine Endmasse von ~905 g, also 545 g Zugabewasser — Verhältnis 1,5 : 1 nach Gewicht. Im geschlossenen Topf gibt es praktisch keine Verdampfungsverluste, deshalb liegt das Verhältnis deutlich unter dem, was du am Herd bräuchtest. Willst du es klebriger und weicher (für Stäbchen und eine saucige Beilage oft angenehmer), geh auf 575–590 g; für klar getrennte, nussig-bissfeste Körner auf 505–515 g.
+Vollkornreis bringt etwa 12 % Eigenfeuchte mit; für eine Kornfeuchte von rund 65 % ergeben sich ~545 g Zugabewasser, und im geschlossenen Topf verdampft praktisch nichts. Das Rice-Programm (Low, 12 min) reicht für die Kleie nicht; NutriBoost schert nur Oberflächenstärke ab und macht den Reis schmierig. Das Öl wirkt als Antischaummittel, und der Natural Release gehört zur Garzeit – er verhindert, dass überhitztes Wasser im Korn schlagartig ausflasht und die Körner aufplatzen.
 
-**Geweichte Variante** (mein Favorit für Rundkorn): 8–12 h kalt einweichen, gut abtropfen lassen, dann nur noch **440 g Wasser**, **13 min High**, 10 min NR. Der Reis nimmt beim Weichen ~25–30 % seines Gewichts auf, die ziehst du vom Zugabewasser ab. Der eigentliche Gewinn ist kinetisch: Die intakte Kleieschicht ist die Diffusionsbarriere, und wenn das Korn vorhydratisiert in den Druck geht, verläuft die Stärkeverkleisterung über den Querschnitt gleichmäßiger — weniger „außen matschig, Kern mehlig". Die Phytatreduktion ist dabei nebensächlich, anders als bei deinen Roggen-/Weizenansätzen: Reis hat eine sehr niedrige endogene Phytaseaktivität, ein Kaltweichen bringt hier bestenfalls 15–25 %.
+## Stellschrauben
 
-**Max-Druck-Variante:** Die Pro-Serie fährt drei Stufen, Low ≈ 110 °C, High ≈ 116 °C, Max ≈ 121 °C. Textur-Garzeiten skalieren mit einem z-Wert von grob 25–30 °C, +5 °C kürzen die Zeit also etwa auf zwei Drittel: ungeweicht ~15 min auf Max, geweicht ~8–9 min. Der Nachteil ist die geringere Fehlertoleranz — bei 121 °C kostet eine Minute Überzeit spürbar mehr Struktur.
+- Klebriger, weicher → 575–590 g Wasser
+- Klar getrennt, nussig-bissfest → 505–515 g Wasser
 
-Das *Rice*-Programm würde ich ignorieren: es läuft per Default auf Low Pressure und 12 min, ausgelegt auf poliertes Korn, und 110 °C reichen für die Kleie in dieser Zeit nicht. NutriBoost ebenfalls aus — beim Absorptionsgaren gibt es kein freies Wasser zu zirkulieren, die mechanische Pulsation schert nur Oberflächenstärke ab und macht den Reis schmierig. Der Löffel Öl ist kein Geschmacksträger, sondern Antischaummittel: Vollkornreis schäumt stärkeführend und verlegt sonst gern das Ventil.
+## Varianten
 
-Praktisch: kurz spülen (Kleiestaub und oxidierte Lipidnoten, nicht Stärke), glatt verteilen, nicht rühren. Die 10 min Natural Release sind Teil der Garzeit — der Topf bleibt über 100 °C, und das langsame Abfallen verhindert, dass das im Korn überhitzte Wasser schlagartig ausflasht und die Körner aufplatzen. Danach Keep Warm ausschalten, Deckel ab, 5 Minuten mit einem Tuch über dem Topf stehen lassen, dann mit einem Paddel von unten nach oben falten. 360 g trocken ergeben ~900 g gegart, also vier bis fünf Beilagenportionen. Salz nur, wenn das Hauptgericht nicht ohnehin sojalastig ist; ein Streifen Kombu im Garwasser ist die elegantere Variante.
+- **Geweicht:** 8–12 h kalt einweichen, abtropfen, nur 440 g Wasser, 13 Minuten High, 10 Minuten Natural Release – gleichmäßigere Verkleisterung, weniger „außen matschig, Kern mehlig“.
+- **Max-Druck:** Ungeweicht etwa 15 Minuten, geweicht 8–9 Minuten auf Max; geringere Fehlertoleranz.
+- **Kombu:** Ein Streifen Kombu im Garwasser statt Salz.

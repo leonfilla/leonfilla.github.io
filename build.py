@@ -96,6 +96,9 @@ def spec_text(spec) -> str:
     return f"≥ {fmt(lo)}" if lo is not None else f"≤ {fmt(hi)}"
 
 
+PHANTOM_OK = {"hinweis", "einheit", "gruppe", "timer", "menge", "text", "ph", "dampf", "temp", "zeit", "phase"}
+
+
 def pruefe(r, ctx, report: Report):
     # Nur aktive Rezepte müssen alle Grenzen einhalten; unfertige und archivierte bekommen Hinweise.
     # Aus Chats übernommene Rezepte: Verstöße als sichtbarer Hinweis, nicht als Build-Abbruch
@@ -105,6 +108,15 @@ def pruefe(r, ctx, report: Report):
 
     if not r.get("titel"):
         add("fehler", "Titel fehlt")
+    # Ungequotete Kommas in einzeiligen {…}-Einträgen erzeugen leere Phantom-Schlüssel
+    brot = r.get("brot") if isinstance(r.get("brot"), dict) else {}
+    for feld, liste in (("zutaten", r.get("zutaten")), ("schritte", r.get("schritte")),
+                        ("gare", brot.get("gare")), ("backprofil", brot.get("backprofil"))):
+        for e in liste or []:
+            if isinstance(e, dict):
+                kaputt = [str(k) for k, v in e.items() if v is None and str(k) not in PHANTOM_OK]
+                if kaputt:
+                    add("fehler", f"{feld}: Komma ohne Anführungszeichen – „{', '.join(kaputt)}“ abgetrennt")
     if r["status"] not in STATUS:
         add("fehler", f"Unbekannter Status „{r['status']}“")
     for g in r.get("geraete") or []:

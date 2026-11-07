@@ -19,7 +19,7 @@ zutaten:
 - {gruppe: Teig, name: Bourbon-Vanillezucker, menge: 8, einheit: g}
 - {gruppe: Teig, name: Salz, menge: 1, einheit: Prise}
 - {gruppe: Teig, name: Bio-Zitrone, menge: 1, einheit: "", hinweis: "Schale für Teig und Creme, Saft fürs Kompott"}
-- {gruppe: Teig, name: Fettarme Milch 1,5 %, menge: 420, einheit: ml}
+- {gruppe: "Teig", name: "Fettarme Milch 1,5 %", menge: 420, einheit: "ml"}
 - {gruppe: Teig, name: Dinkelvollkornmehl, menge: 200, einheit: g, hinweis: oder Weizenvollkorn}
 - {gruppe: Teig, name: Mohn, menge: 15, einheit: g, hinweis: etwas zum Bestreuen zurückhalten}
 - {gruppe: Kompott, name: Kirschen, menge: 500, einheit: g, hinweis: "entsteint, frisch oder TK"}

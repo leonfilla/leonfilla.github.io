@@ -21,7 +21,7 @@ ofen:
   form: Form 15 cm, mit Backpapier ausgekleidet, im tiefen Blech
 zutaten:
 - {gruppe: Basis, name: Frischkäse, menge: 200, einheit: g}
-- {gruppe: Basis, name: Milch 1,5 %, menge: 50, einheit: g}
+- {gruppe: "Basis", name: "Milch 1,5 %", menge: 50, einheit: "g"}
 - {gruppe: Basis, name: Butter, menge: 30, einheit: g}
 - {gruppe: Basis, name: Eigelb, menge: 4, einheit: ""}
 - {gruppe: Basis, name: Speisestärke, menge: 30, einheit: g}

@@ -23,7 +23,7 @@ zutaten:
   - {name: Jasminreis, menge: 300}
   - {name: Wasser, menge: 360}
   - {name: Salz, menge: 4, hinweis: optional}
-  - {name: Neutrales Öl oder Butter, menge: 5, hinweis: optional, gegen Schaum}
+  - {name: "Neutrales Öl oder Butter", menge: 5, hinweis: "optional, gegen Schaum"}
 schritte:
   - titel: Waschen
     text: Reis in einem Sieb spülen, bis das Wasser klar abläuft, gut abtropfen lassen.
