@@ -7,7 +7,7 @@ quelle:
   url: https://gemini.google.com/app/48330abf2bb29858
   hinweis: 3 Rezepte für würzigen Thunfisch-Nudel-Auflauf mit Gemüse
 importiert: true
-linie: thunfisch-nudel-auflauf-2026-04-23
+linie: thunfisch-nudelauflauf-2026-04-23
 variante: Sriracha-Kokos
 fokus: Thunfisch-Nudel-Auflauf mit Zucchini und Karotte in einer warmen Sauce aus Kokosmilch, Erdnussmus, Soja und Sriracha.
 ergebnis: 4 Portionen

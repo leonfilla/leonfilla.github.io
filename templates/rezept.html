@@ -157,14 +157,14 @@
 <section class="abschnitt">
   {% if br.gare %}
   <h2>Gare</h2>
-  <div class="tabelle-rahmen"><table class="tabelle">
+  <div class="tabelle-rahmen"><table class="tabelle phasen">
     <thead><tr><th>Phase</th><th>°C</th><th>Zeit</th><th>pH</th></tr></thead>
     <tbody>{% for g in br.gare %}<tr><th scope="row">{{ g.phase }}</th><td>{{ g.temp|fmt if g.temp is not none else '–' }}</td><td>{{ g.zeit or '–' }}</td><td>{{ g.ph|fmt if g.ph is not none else '–' }}</td></tr>{% endfor %}</tbody>
   </table></div>
   {% endif %}
   {% if br.backprofil %}
   <h2>Backprofil</h2>
-  <div class="tabelle-rahmen"><table class="tabelle">
+  <div class="tabelle-rahmen"><table class="tabelle phasen">
     <thead><tr><th>Phase</th><th>°C</th><th>Dampf</th><th>Zeit</th></tr></thead>
     <tbody>{% for g in br.backprofil %}<tr><th scope="row">{{ g.phase }}</th><td>{{ g.temp|fmt if g.temp is not none else '–' }}</td><td>{{ g.dampf or '–' }}</td><td>{{ g.zeit or '–' }}</td></tr>{% endfor %}</tbody>
   </table></div>
@@ -241,7 +241,15 @@
 {% if r.geschwister %}
 <section class="abschnitt">
   <h2>{{ 'Weitere Rezepte für diese Bohne' if r.bohne else 'Andere Versionen' }}</h2>
-  <div class="raster">{% for x in r.geschwister %}{{ karte(x) }}{% endfor %}</div>
+  {% set lebend = r.geschwister|rejectattr('status', 'equalto', 'archiv')|rejectattr('veraltet')|list %}
+  {% set rest = r.geschwister|reject('in', lebend[:6])|list %}
+  {% if lebend %}<div class="raster">{% for x in lebend[:6] %}{{ karte(x, x.bereich != r.bereich) }}{% endfor %}</div>{% endif %}
+  {% if rest %}
+  <details class="weitere-versionen"{% if not lebend %} open{% endif %}>
+    <summary>{{ rest|length }} weitere {{ 'Fassung' if rest|length == 1 else 'Fassungen' }}{% if rest|selectattr('status', 'equalto', 'archiv')|list %}, meist archiviert{% endif %}</summary>
+    <ul class="versionsliste">{% for x in rest %}<li><a href="{{ x.url }}">{{ x.titel }}</a>{% if x.version %} <span class="leise">{{ x.version }}</span>{% endif %}{% if x.variante and x.variante not in x.titel %} <span class="leise">· {{ x.variante }}</span>{% endif %} {{ status(x) }}</li>{% endfor %}</ul>
+  </details>
+  {% endif %}
 </section>
 {% endif %}
 

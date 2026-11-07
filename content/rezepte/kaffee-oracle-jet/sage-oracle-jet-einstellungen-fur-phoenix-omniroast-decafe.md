@@ -29,6 +29,7 @@ zutaten:
 schritte:
   - {titel: "Wasser vorlegen", text: "Etwa 150 g heißes Wasser in die Tasse geben."}
   - {titel: "Bezug", text: "20,5 g, Pre-Infusion 6–8 s, bei 93 °C auf 43 g in 28–31 Sekunden ab Pumpenstart direkt auf das Wasser beziehen.", timer: 30}
+bohne: phoenix-omniroast-decaf
 ---
 
 ## Warum so

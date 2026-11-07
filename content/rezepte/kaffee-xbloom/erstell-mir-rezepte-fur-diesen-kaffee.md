@@ -22,6 +22,7 @@ xbloom:
     - {phase: "Bloom", menge: 48, temp: 88, fluss: 3.0, pause: 40, vib_vor: false, vib_nach: false}
     - {phase: "Guss 2", menge: 100, temp: 88, fluss: 3.2, pause: 35, vib_vor: false, vib_nach: false}
     - {phase: "Guss 3", menge: 100, temp: 87, fluss: 3.2, pause: 0, vib_vor: false, vib_nach: false}
+bohne: el-carmen-decaf
 ---
 
 ## Warum so

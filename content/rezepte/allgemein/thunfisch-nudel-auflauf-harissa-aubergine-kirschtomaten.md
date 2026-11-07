@@ -7,7 +7,7 @@ quelle:
   url: https://gemini.google.com/app/48330abf2bb29858
   hinweis: 3 Rezepte für würzigen Thunfisch-Nudel-Auflauf mit Gemüse, Ofen HNG978NB1/C5
 importiert: true
-linie: thunfisch-nudel-auflauf-2026-04-23
+linie: thunfisch-nudelauflauf-2026-04-23
 variante: Harissa-Aubergine-Kirschtomate
 fokus: Thunfisch-Nudelauflauf mit scharf angebratener Aubergine, Kirschtomaten und Harissa-Tomatensauce, mit Feta überbacken.
 ergebnis: 4 Portionen

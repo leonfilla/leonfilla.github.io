@@ -1,5 +1,5 @@
 ---
-titel: High-Protein Kürbis-Quark-Auflauf aus der OptiGrill-Backschale
+titel: "Kürbis-Quark-Auflauf aus dem OptiGrill"
 status: unfertig
 datum: '2026-04-13'
 quelle:

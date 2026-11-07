@@ -7,7 +7,7 @@ quelle:
   url: https://gemini.google.com/app/9bbf64f029994477
   hinweis: 3 weitere Rezepte für würzigen Thunfisch-Nudel-Auflauf
 importiert: true
-linie: thunfisch-nudel-auflauf-2026-04-23
+linie: thunfisch-nudelauflauf-2026-04-23
 variante: Harissa-Aubergine
 fokus: Thunfisch-Nudel-Auflauf mit angebratener Aubergine und Zucchini in Harissa-Tomatensauce, mit Feta überbacken.
 ergebnis: 4 Portionen

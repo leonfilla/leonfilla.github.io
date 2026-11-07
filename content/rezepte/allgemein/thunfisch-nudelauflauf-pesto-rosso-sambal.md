@@ -1,5 +1,5 @@
 ---
-titel: Thunfisch-Nudelauflauf mit Pesto Rosso, Sambal und Mozzarella
+titel: "Thunfisch-Nudelauflauf: Pesto Rosso und Sambal"
 status: aktiv
 datum: '2026-04-23'
 quelle:

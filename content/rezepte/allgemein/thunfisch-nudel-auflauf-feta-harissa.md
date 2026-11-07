@@ -7,7 +7,7 @@ quelle:
   url: https://gemini.google.com/app/48330abf2bb29858
   hinweis: 3 Rezepte für würzigen Thunfisch-Nudel-Auflauf mit Gemüse
 importiert: true
-linie: thunfisch-nudel-auflauf-2026-04-23
+linie: thunfisch-nudelauflauf-2026-04-23
 variante: Feta-Harissa
 fokus: Thunfisch-Nudel-Auflauf mit Zucchini, Kirschtomaten und Feta in einer Brühe mit Harissa und Tomatenmark.
 ergebnis: 4 Portionen

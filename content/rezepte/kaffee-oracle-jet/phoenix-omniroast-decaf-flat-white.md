@@ -31,6 +31,7 @@ schritte:
   - {titel: "Bezug", text: "20,5 g, Pre-Infusion 6–8 s, bei 92 °C auf 36 g in 25–28 Sekunden ab Pumpenstart beziehen.", timer: 27}
   - {titel: "Milch", text: "Auto MilQ, Milchtyp Vollmilch, 58 °C, niedrige Textur (Flat-White-Stufe), etwa 130 g im 360-ml-Kännchen."}
   - {titel: "Eingießen", text: "Milch auf den Shot gießen."}
+bohne: phoenix-omniroast-decaf
 ---
 
 ## Warum so

@@ -1,5 +1,5 @@
 ---
-titel: Skyr-Grieß-Käsekuchen mit Erdbeer-Rhabarber und Haferstreuseln
+titel: "Skyr-Grieß-Käsekuchen mit Erdbeer-Rhabarber"
 status: aktiv
 datum: '2026-04-23'
 quelle:

@@ -32,6 +32,7 @@ schritte:
     text: Ca. 160 g heißes Wasser in die Tasse geben.
   - titel: Espresso beziehen
     text: "22 g auf 48 g in 28–31 Sekunden ab Pumpenstart, Pre-Infusion 6–8 Sekunden, direkt auf das Wasser."
+bohne: phoenix-omniroast-decaf
 ---
 
 ## Warum so

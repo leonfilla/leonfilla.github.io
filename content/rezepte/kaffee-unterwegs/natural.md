@@ -31,6 +31,7 @@ schritte:
   - {titel: "1:00 – Erster Aufguss", text: "Zentral und ruhig auf 190 g aufgießen, Säule 1–3 cm, minimale Agitation."}
   - {titel: "1:45 – Zweiter Aufguss", text: "Auf 320 g aufgießen."}
   - {titel: "4:00 – Fertig", text: "Durchlaufen lassen, Gesamtzeit 4:00–4:30."}
+bohne: schamong-tolima-natural
 ---
 
 ## Warum so

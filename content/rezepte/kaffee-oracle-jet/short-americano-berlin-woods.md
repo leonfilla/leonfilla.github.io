@@ -31,6 +31,7 @@ schritte:
     text: "Doppelten Espresso, 38 g in 27–30 Sekunden, in die Tasse beziehen."
   - titel: Aufgießen
     text: "80 ml gefiltertes Wasser mit 85 °C auf den Espresso geben."
+bohne: 19grams-berlin-woods
 ---
 
 ## Warum so

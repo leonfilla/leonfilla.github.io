@@ -25,6 +25,7 @@ xbloom:
   - {phase: Guss 2, menge: 82, temp: 95, fluss: 3.4, pause: 30, vib_vor: false, vib_nach: false}
   - {phase: Guss 3, menge: 84, temp: 94, fluss: 3.4, pause: 30, vib_vor: false, vib_nach: false}
   - {phase: Guss 4, menge: 50, temp: 92, fluss: 3.3, pause: 0, vib_vor: false, vib_nach: false}
+bohne: ernst-rwanda-kageyo
 ---
 
 ## Warum so

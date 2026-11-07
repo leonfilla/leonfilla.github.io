@@ -10,6 +10,7 @@ importiert: true
 linie: la-cristalina-2026-09-26
 variante: Analyse, korrigiert
 fokus: 'Keine eigene Rezeptur: Vergleich der beiden Castillo-Naturals und die daraus korrigierten Programme (Mahlgrad 64 jetzt, 65 ab Anfang Oktober).'
+bohne: schamong-la-cristalina-decaf
 ---
 
 ## Notizen

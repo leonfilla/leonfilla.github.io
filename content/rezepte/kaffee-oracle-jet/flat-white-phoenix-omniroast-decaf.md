@@ -33,6 +33,7 @@ schritte:
     text: "22 g auf 39 g in 25–28 Sekunden ab Pumpenstart, Pre-Infusion 6–8 Sekunden."
   - titel: Milch
     text: "Ca. 140 g Vollmilch mit Auto MilQ auf 58 °C, niedrige Textur, eingießen."
+bohne: phoenix-omniroast-decaf
 ---
 
 ## Warum so

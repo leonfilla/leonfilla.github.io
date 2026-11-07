@@ -40,6 +40,7 @@ schritte:
     text: "Ruhig auf 190 g gießen, Wassersäule 1–3 cm."
   - titel: "1:45 – Guss 3"
     text: Auf 310 g gießen und ablaufen lassen.
+bohne: schamong-extra-mild
 ---
 
 ## Warum so

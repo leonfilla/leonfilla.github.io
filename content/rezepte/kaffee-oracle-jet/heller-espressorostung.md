@@ -29,6 +29,7 @@ schritte:
   - {titel: "Bezug", text: "Bei 94–95 °C auf 42 g Out in 30–32 Sekunden ab Pumpenstart beziehen.", timer: 31}
   - {titel: "Milch", text: "Auto MilQ: 105 g Milch, 51 °C, Schaumregler Minimum."}
   - {titel: "Eingießen", text: "Milch auf den Shot gießen – ergibt etwa 150 ml."}
+bohne: holm-popayan-decaf
 ---
 
 ## Warum so

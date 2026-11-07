@@ -29,6 +29,7 @@ schritte:
   - {titel: "Bezug", text: "D × 2,3 Out in 30 Sekunden ab Pumpenstart bei 93 °C beziehen (bei 20 g → 46 g). Erster Tropfen bei etwa 8–11 Sekunden.", timer: 30}
   - {titel: "Milch", text: "Auto MilQ: 115 g Milch, 55 °C, Schaumregler im unteren Fünftel."}
   - {titel: "Eingießen", text: "Milch auf den Shot gießen."}
+bohne: schamong-la-cristalina-decaf
 ---
 
 ## Warum so

@@ -23,6 +23,7 @@ xbloom:
   - {phase: Guss 2, menge: 36, temp: 91, fluss: 3.0, pause: 30, muster: spirale}
   - {phase: Guss 3, menge: 36, temp: 89, fluss: 3.0, pause: 30, muster: spirale}
   - {phase: Guss 4, menge: 32, temp: 86, fluss: 3.0, pause: 0, muster: kreis}
+bohne: schamong-la-cristalina-decaf
 ---
 
 ## Warum so

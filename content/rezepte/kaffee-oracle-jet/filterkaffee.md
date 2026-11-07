@@ -31,6 +31,7 @@ schritte:
     text: "18 g Bohnen mahlen und tampen lassen."
   - titel: Espresso daraufziehen
     text: "Doppelten Espresso, 36 g in 25–28 Sekunden, direkt auf das Wasser beziehen."
+bohne: 19grams-berlin-woods
 ---
 
 ## Warum so

@@ -24,6 +24,7 @@ xbloom:
   - {phase: Guss 2, menge: 70, temp: 94, fluss: 3.5, pause: 15, muster: spirale}
   - {phase: Guss 3, menge: 70, temp: 92, fluss: 3.2, pause: 15, muster: spirale}
   - {phase: Guss 4, menge: 66, temp: 90, fluss: 3.0, pause: 0, muster: zentral}
+bohne: elbgold-la-dalia
 ---
 
 ## Warum so

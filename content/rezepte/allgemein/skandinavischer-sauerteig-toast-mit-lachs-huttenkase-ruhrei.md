@@ -1,5 +1,5 @@
 ---
-titel: Skandinavischer Sauerteig-Toast mit Lachs und Hüttenkäse-Rührei
+titel: "Sauerteig-Toast mit Lachs und Hüttenkäse-Rührei"
 status: aktiv
 datum: '2026-08-16'
 quelle:

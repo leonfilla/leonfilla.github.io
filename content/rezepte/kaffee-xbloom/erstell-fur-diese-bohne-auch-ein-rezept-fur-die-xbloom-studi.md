@@ -21,6 +21,7 @@ xbloom:
   - {phase: Bloom, menge: 50, temp: 93, pause: 45, muster: kreis}
   - {phase: Guss 2, menge: 100, temp: 93, muster: spirale}
   - {phase: Guss 3, menge: 100, temp: 93, fluss: 5, muster: zentral}
+bohne: schamong-tarrazu
 ---
 
 ## Warum so

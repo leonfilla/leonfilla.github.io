@@ -30,6 +30,7 @@ schritte:
   - {titel: "1:30 – Ventil auf", text: "Ventil vollständig öffnen."}
   - {titel: "1:45 – Nachgießen", text: "Sobald das Wasser etwa 1 cm über dem Bett steht, die restlichen 100 g in Etappen nachgießen; Säule 1–2 cm halten."}
   - {titel: "3:00 – Fertig", text: "Vollständig durchlaufen lassen, bis das Bett trocken aussieht; Ziel 3:00–3:30."}
+bohne: elbgold-la-dalia
 ---
 
 ## Warum so

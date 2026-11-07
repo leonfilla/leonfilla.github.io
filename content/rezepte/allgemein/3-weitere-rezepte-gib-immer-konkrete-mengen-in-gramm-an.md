@@ -7,7 +7,7 @@ quelle:
   url: https://gemini.google.com/app/9bbf64f029994477
   hinweis: 3 weitere Rezepte für würzigen Thunfisch-Nudel-Auflauf
 importiert: true
-linie: thunfisch-nudel-auflauf-2026-04-23
+linie: thunfisch-nudelauflauf-2026-04-23
 variante: Kokos-Curry
 fokus: Thunfisch-Nudel-Auflauf mit angebratener Zucchini und Karotte in roter Kokos-Curry-Sauce, mit Mozzarella überbacken.
 ergebnis: 4 Portionen

@@ -10,6 +10,7 @@ importiert: true
 fokus: "Bewertung des CO₂-entkoffeinierten Holm Popayán als Decaf-Alternative zum Phoenix Omniroast für die Oracle Jet."
 geraete: ["oracle-jet"]
 tags: ["Kaufberatung", "Decaf"]
+bohne: holm-popayan-decaf
 ---
 
 ## Notizen

@@ -25,6 +25,7 @@ xbloom:
   - {phase: Guss 2, menge: 70, temp: 90, fluss: 3.2, pause: 30, vib_vor: false, vib_nach: false}
   - {phase: Guss 3, menge: 70, temp: 89, fluss: 3.2, pause: 30, vib_vor: false, vib_nach: false}
   - {phase: Guss 4, menge: 68, temp: 88, fluss: 3.0, pause: 0, vib_vor: false, vib_nach: false}
+bohne: heilandt-benancio
 ---
 
 ## Warum so

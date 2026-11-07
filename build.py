@@ -204,18 +204,36 @@ def fmt(x) -> str:
     return str(x)
 
 
+WASSERANTEILE = [
+    (re.compile(r"(?i)^(kaltes |warmes |lauwarmes )?wasser\b"), 1.0),
+    (re.compile(r"(?i)^buttermilch\b"), 0.9),
+    (re.compile(r"(?i)^(voll|fettarme |frische |h-)?milch\b(?!pulver)"), 0.87),
+    (re.compile(r"(?i)^(ei|eier|vollei)\b"), 0.75),
+    (re.compile(r"(?i)^eiweiß|^eiklar"), 0.88),
+]
+
+
 def berechne(r):
     calc = {}
     zut = r.get("zutaten") or []
     mehl = sum(z.get("menge", 0) for z in zut if z.get("mehl") and isinstance(z.get("menge"), (int, float)))
     if mehl:
+        # Unmarkierte Flüssigkeiten mit Standard-Wasseranteil mitzählen (Milch 0,87, Ei 0,75 …)
+        for z in zut:
+            if "wasser" in z or z.get("einheit", "g") not in ("g", "ml") or "optional" in str(z.get("hinweis", "")).lower():
+                continue
+            for muster, anteil in WASSERANTEILE:
+                if muster.match(str(z.get("name", ""))):
+                    z["wasser"] = anteil
+                    z["wasser_geschaetzt"] = True
+                    break
         wasser = sum(z.get("menge", 0) * float(z.get("wasser", 0)) for z in zut
                      if isinstance(z.get("menge"), (int, float)) and z.get("wasser"))
         calc["mehl"] = mehl
         calc["wasser"] = wasser
         calc["hydration"] = wasser / mehl * 100 if wasser else None
         for z in zut:
-            if isinstance(z.get("menge"), (int, float)) and z.get("einheit", "g") == "g":
+            if isinstance(z.get("menge"), (int, float)) and z.get("einheit", "g") in ("g", "ml"):
                 z["bp"] = z["menge"] / mehl * 100
     xb = r.get("xbloom")
     if xb and xb.get("guesse"):
