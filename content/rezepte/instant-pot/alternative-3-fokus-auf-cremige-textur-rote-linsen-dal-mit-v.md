@@ -1,52 +1,55 @@
 ---
-titel: 'Alternative 3: Fokus auf cremige Textur (Rote-Linsen-Dal mit Vollgemüse)'
+titel: Rote-Linsen-Hafencurry mit Vollgemüse
 status: aktiv
 datum: '2026-04-28'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/3f6bdc31c0b0525a
-  hinweis: 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK Gem…
+  hinweis: 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK-Gemüse
 importiert: true
+linie: beluga-hafencurry-2026-04-28
+variante: Rote Linsen, cremig
+fokus: Die Vollgemüse-Fassung des Hafencurrys mit roten Linsen statt Beluga – nur 3 Minuten Druck, die Linsen zerfallen zu einer sämigen Basis.
+ergebnis: 4–6 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 30}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegan, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 3
+  ablass: Natural Release
+  ablass_min: 10
+zutaten:
+  - {gruppe: Topf, name: Rote Linsen, menge: 300, einheit: g}
+  - {gruppe: Topf, name: TK-Zwiebeln, menge: 120, einheit: g}
+  - {gruppe: Topf, name: TK-Knoblauch, menge: 20, einheit: g}
+  - {gruppe: Topf, name: Ankerkraut Hamburger Hafencurry, menge: 22, einheit: g}
+  - {gruppe: Topf, name: Salz, menge: 14, einheit: g}
+  - {gruppe: Topf, name: Wasser, menge: 750, einheit: g}
+  - {gruppe: Finish, name: TK-Edamame geschält, menge: 100, einheit: g}
+  - {gruppe: Finish, name: TK-Spinat, menge: 100, einheit: g}
+  - {gruppe: Finish, name: TK-Erbsen, menge: 100, einheit: g}
+  - {gruppe: Finish, name: Rapsöl, menge: 35, einheit: g, hinweis: kaltgepresst}
+schritte:
+  - titel: Einfüllen
+    text: 300 g Linsen, 120 g TK-Zwiebeln, 20 g TK-Knoblauch, 22 g Hafencurry, 14 g Salz und 750 g Wasser in den Innentopf geben.
+  - titel: Druckgaren
+    text: Deckel schließen, Pressure Cook, High, 3 Minuten.
+    timer: 180
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release ohne Ventil oder Topf zu berühren, dann Restdruck ablassen.
+    timer: 600
+  - titel: Gemüse einrühren
+    text: 100 g Edamame, 100 g Spinat und 100 g Erbsen zügig unterrühren.
+  - titel: Ziehen lassen
+    text: Deckel auflegen und 5 Minuten in der Restwärme ziehen lassen.
+    timer: 300
+  - titel: Öl
+    text: 35 g Rapsöl unterrühren.
 ---
 
-> **Frage im Chat:** ersetz Alternative 3 durch rote Linsen, Berglinsen oder Tellerlinsen
+## Warum so
 
-Diese Variante nutzt Rote Linsen, die unter Druck zerfallen und eine sämige Konsistenz erzeugen. Druckgarzeit und Druckabbau sind spezifisch an Rote Linsen angepasst, um Aufschäumen zu verhindern.
-
-**Zutaten (4–6 Portionen):**
-
-- 300 g Rote Linsen
-
-- 100 g TK Edamame (geschält)
-
-- 100 g TK Spinat
-
-- 100 g TK Erbsen
-
-- 120 g TK Zwiebeln
-
-- 20 g TK Knoblauch
-
-- 750 ml Wasser
-
-- 35 g hochwertiges Rapsöl (Kaltzugabe)
-
-**Gewürze:**
-
-- 22 g Hamburger Hafencurry (Ankerkraut)
-
-- 14 g Speisesalz
-
-**Zubereitung:**
-
-1. Rote Linsen, TK Zwiebeln, TK Knoblauch, Hafencurry, Salz und Wasser in den Innentopf geben.
-
-2. Deckel schließen. Modus: Pressure Cook (High Pressure) für 3 Minuten einstellen.
-
-3. Natural Release für 10 Minuten durchführen (Ventil und Topf in dieser Zeit nicht berühren), danach den restlichen Druck manuell ablassen (Quick Release).
-
-4. Deckel öffnen. TK Edamame, TK Spinat und TK Erbsen zügig in die heiße Linsenmasse unterrühren.
-
-5. Deckel wieder auflegen und das Gemüse 5 Minuten durch die Restwärme im geschlossenen Topf garziehen lassen.
-
-6. Rapsöl homogen unterrühren.
+Rote Linsen schäumen stark; der Natural Release verhindert, dass Schaum beim Ablassen ins Ventil schießt. Das Öl kommt kalt dazu, damit die empfindlichen Fettsäuren nicht erhitzt werden.

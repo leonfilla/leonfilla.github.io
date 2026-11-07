@@ -1,5 +1,5 @@
 ---
-titel: Jasminreis im Instant Pot Pro Max
+titel: Jasminreis, ausführlich
 status: aktiv
 datum: '2026-07-29'
 quelle:
@@ -7,43 +7,54 @@ quelle:
   url: https://claude.ai/chat/a96c82a8-39eb-4a7e-9b8a-7c5603247a3f
   hinweis: Jasminreis im Instant Pot zubereiten
 importiert: true
-fokus: Druckgegarter Jasminreis, körnig-locker. Gewichtsbasiert dosiert, skaliert linear über die Portionszahl.
+linie: jasminreis
+variante: Ausführlich
+fokus: Körnig-lockerer Jasminreis, gewichtsbasiert dosiert (1 zu 1,2) und 4 Minuten auf High – mit Abtropf- und Ausdampfphase.
+ergebnis: 4 Portionen, ca. 660 g
 portionen: 4
+zeit: {aktiv: 8, gesamt: 35}
+geraete: [instant-pot-pro-max]
+tags: [Beilage, Reis, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 4
+  ablass: Natural Release
+  ablass_min: 10
 zutaten:
-- name: Jasminreis
-  menge: 300
-  einheit: g
-- name: Wasser
-  menge: 360
-  einheit: g
-- name: Salz
-  menge: 4
-  einheit: g
-- name: neutrales Öl oder Butter (optional)
-  menge: 5
-  einheit: g
+  - {name: Jasminreis, menge: 300, einheit: g}
+  - {name: Wasser, menge: 360, einheit: g}
+  - {name: Salz, menge: 4, einheit: g}
+  - {name: Neutrales Öl oder Butter, menge: 5, einheit: g, hinweis: optional}
 schritte:
-- titel: Reis spülen und abtropfen
-  text: 300 g Jasminreis abwiegen, in einer Schüssel mit kaltem Wasser 3–4× durchbewegen und abgießen, bis das Wasser nur noch leicht trüb ist. Anschließend im Sieb 2–3 Minuten abtropfen lassen und kräftig aufschütteln – restliches Oberflächenwasser verschiebt sonst das Verhältnis.
-  timer: 180
-- titel: Ansetzen
-  text: Reis in den Innentopf geben, 360 g Wasser, 4 g Salz und 5 g neutrales Öl oder Butter (optional) zufügen. Den Reis nur flach streichen, nicht umrühren – alle Körner müssen bedeckt sein, mehr braucht es nicht.
-- titel: Druckgaren
-  text: Deckel schließen (der Pro Max dichtet beim Verriegeln selbst ab, kein Ventil umstellen). Pressure Cook, Druckstufe High – nicht Max – für 4 Minuten. NutriBoost ausgeschaltet lassen. Die Aufheizphase dauert je nach Menge 8–12 Minuten und zählt nicht zur Garzeit.
-- titel: Natural Release
-  text: Nach Programmende 10 Minuten natürlich abdampfen lassen, ohne den Deckel oder das Ventil zu berühren. Danach den Restdruck ablassen.
-  timer: 600
-- titel: Auflockern
-  text: Deckel öffnen, den Reis mit Gabel oder Reislöffel vom Rand her anheben und auflockern, nicht rühren. 2–3 Minuten offen stehen lassen, damit die Oberflächenfeuchte abzieht.
-  timer: 180
+  - titel: Spülen
+    text: 300 g Reis in einer Schüssel mit kaltem Wasser 3–4-mal durchbewegen und abgießen, bis das Wasser nur noch leicht trüb ist.
+  - titel: Abtropfen
+    text: Im Sieb 2–3 Minuten abtropfen lassen und kräftig aufschütteln.
+    timer: 180
+  - titel: Ansetzen
+    text: Reis, 360 g Wasser, 4 g Salz und 5 g Öl in den Innentopf geben, flach streichen, nicht umrühren.
+  - titel: Druckgaren
+    text: Deckel schließen, Pressure Cook, High (nicht Max), 4 Minuten, NutriBoost aus. Die Aufheizphase von 8–12 Minuten zählt nicht zur Garzeit.
+    timer: 240
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release, dann Restdruck ablassen.
+    timer: 600
+  - titel: Auflockern
+    text: Mit Gabel oder Reislöffel vom Rand her anheben und auflockern, 2–3 Minuten offen stehen lassen.
+    timer: 180
 ---
 
-**Warum so wenig Wasser:** Im geschlossenen Topf verdampft praktisch nichts, das gesamte Wasser landet im Korn. Deshalb liegt das Verhältnis bei ~1:1,2–1,3 nach Gewicht statt bei 1:1,5+ wie auf dem Herd. Aus demselben Grund skaliert es linear – die Druckgarzeit bleibt bei jeder Menge identisch, nur die Aufheizzeit wächst.
+## Warum so
 
-**Präzisionsvariante:** Innentopf auf die Waage, tarieren, abgetropften Reis einfüllen, dann Wasser zugeben bis das Gesamtgewicht 2,25 × Trockengewicht erreicht (bei 300 g also 675 g). Damit fällt das Restwasser vom Spülen als Störgröße komplett raus. Endfeuchte landet bei ca. 61 %, Ausbeute ~2,2 × Trockengewicht.
+Im geschlossenen Topf verdampft praktisch nichts, deshalb 1 zu 1,2–1,3 nach Gewicht statt 1 zu 1,5 wie am Herd; die Druckgarzeit bleibt bei jeder Menge gleich. Max (~120 °C) lässt die weichen Körner aufplatzen, NutriBoost sprudelt Stärke aus und macht den Reis klebrig. Im Natural Release gleicht das Korn die Feuchte zum Kern aus – sofortiges Abblasen gibt außen nass, innen fest.
 
-**High statt Max:** Max (~15 psi, ~120 °C) übergart die weichen Jasminkörner und lässt sie aufplatzen. NutriBoost erzeugt gezielt sprudelndes Kochen – bei Hülsenfrüchten sinnvoll, bei Reis führt es zu Stärkeaustrag und klebriger Textur.
+## Stellschrauben
 
-**Der Natural Release ist Teil des Garens,** kein Sicherheitsritual: In dieser Phase gleicht das Korn die Feuchte vom Rand zum Kern aus. Sofortiges Abblasen gibt außen nass, innen fest, und das schlagartige Sieden reißt Körner auf.
+- Keep Warm nach spätestens 20–30 Minuten aus, sonst trocknet die untere Schicht an
+- Reis als Hauptträger → auf 5–6 Portionen hochstellen
 
-**Portionierung:** 75 g Trockenreis pro Person als Beilage. Wenn der Reis Hauptträger des Gerichts ist, auf 5–6 Portionen hochstellen. Keep Warm nach spätestens 20–30 Minuten deaktivieren, sonst trocknet die untere Schicht an.
+## Varianten
+
+- **Präzise:** Innentopf tarieren, abgetropften Reis einfüllen, Wasser bis zum Gesamtgewicht 2,25 × Trockengewicht (bei 300 g also 675 g) – das Spülwasser fällt als Störgröße weg; Ausbeute etwa 2,2 × Trockengewicht.
+- **Menge:** 75 g Trockenreis pro Person als Beilage.

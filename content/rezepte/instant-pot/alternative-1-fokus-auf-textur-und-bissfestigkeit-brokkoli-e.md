@@ -1,134 +1,50 @@
 ---
-titel: 'Alternative 1: Fokus auf Textur und Bissfestigkeit (Brokkoli-Edamame-Curry)'
+titel: Beluga-Hafencurry mit Brokkoli und Edamame
 status: aktiv
 datum: '2026-04-28'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/3f6bdc31c0b0525a
-  hinweis: 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK Gem…
+  hinweis: 5 schnelle Rezepte für den Instant Pot Pro Max Wifi mit gesunden Ölen und TK-Gemüse
 importiert: true
+linie: beluga-hafencurry-2026-04-28
+variante: Brokkoli-Edamame, bissfest
+fokus: Abwandlung des Beluga-Hafencurrys mit etwas weniger Wasser; Edamame und Brokkoli ziehen nach dem Druckgaren nur in der Restwärme und bleiben bissfest.
+ergebnis: 4–6 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 35}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegan, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 12
+  ablass: Quick Release
+zutaten:
+  - {gruppe: Topf, name: Belugalinsen, menge: 300, einheit: g}
+  - {gruppe: Topf, name: TK-Zwiebeln, menge: 100, einheit: g}
+  - {gruppe: Topf, name: TK-Knoblauch, menge: 15, einheit: g}
+  - {gruppe: Topf, name: Ankerkraut Hamburger Hafencurry, menge: 18, einheit: g}
+  - {gruppe: Topf, name: Salz, menge: 12, einheit: g}
+  - {gruppe: Topf, name: Wasser, menge: 750, einheit: g}
+  - {gruppe: Finish, name: TK-Edamame geschält, menge: 150, einheit: g}
+  - {gruppe: Finish, name: TK-Brokkoliröschen, menge: 150, einheit: g}
+  - {gruppe: Finish, name: Walnuss- oder Leinöl, menge: 30, einheit: g}
+schritte:
+  - titel: Einfüllen
+    text: 300 g Linsen, 100 g TK-Zwiebeln, 15 g TK-Knoblauch, 18 g Hafencurry, 12 g Salz und 750 g Wasser in den Innentopf geben.
+  - titel: Druckgaren
+    text: Deckel schließen, Pressure Cook, High, 12 Minuten.
+    timer: 720
+  - titel: Schnell ablassen
+    text: Quick Release.
+  - titel: Gemüse ziehen lassen
+    text: 150 g Edamame und 150 g Brokkoli unterrühren, Deckel auflegen und 6 Minuten in der Restwärme ziehen lassen.
+    timer: 360
+  - titel: Öl
+    text: 30 g Öl unterrühren.
 ---
 
-> **Frage im Chat:** optimier Rezept 1 weiter und stell mir 3 Alternativen vor
+## Warum so
 
-Diese Variante reduziert den Wasseranteil leicht für eine dichtere Konsistenz und integriert Brokkoli für mehr Struktur.
-
-**Zutaten (4–6 Portionen):**
-
-- 300 g Beluga-Linsen
-
-- 150 g TK Edamame (geschält)
-
-- 150 g TK Brokkoli (Röschen)
-
-- 100 g TK Zwiebeln
-
-- 15 g TK Knoblauch
-
-- 750 ml Wasser
-
-- 30 g Walnussöl oder Leinöl (Kaltzugabe)
-
-**Gewürze:**
-
-- 18 g Hamburger Hafencurry (Ankerkraut)
-
-- 12 g Speisesalz
-
-**Zubereitung:**
-
-1. Beluga-Linsen, TK Zwiebeln, TK Knoblauch, Hafencurry, Salz und Wasser in den Innentopf geben.
-
-2. Deckel schließen. Modus: Pressure Cook (High Pressure) für 12 Minuten.
-
-3. Quick Release durchführen.
-
-4. TK Edamame und TK Brokkoli unterrühren. Deckel auflegen. Das Gemüse im geschlossenen Topf (Restwärme) 6 Minuten ziehen lassen, bis der Brokkoli aufgetaut und bissfest gegart ist.
-
-5. Öl unterrühren.
-
----
-
-#### Alternative 2: Fokus auf Volumen und Bindung (Doppel-Spinat-Bohnen-Curry)
-
-Durch den erhöhten Spinatanteil wird die verbleibende Flüssigkeit gebunden, was zu einer sämigeren, eintopfartigen Konsistenz führt.
-
-**Zutaten (4–6 Portionen):**
-
-- 300 g Beluga-Linsen
-
-- 300 g TK Spinat
-
-- 150 g TK grüne Bohnen
-
-- 100 g TK Zwiebeln
-
-- 15 g TK Knoblauch
-
-- 750 ml Wasser
-
-- 40 g Olivenöl extra vergine (Kaltzugabe)
-
-**Gewürze:**
-
-- 15 g Hamburger Hafencurry (Ankerkraut)
-
-- 14 g Speisesalz
-
-- 5 g TK Kräuter
-
-**Zubereitung:**
-
-1. Beluga-Linsen, TK Bohnen, TK Zwiebeln, TK Knoblauch, Hafencurry, Salz und Wasser in den Innentopf geben.
-
-2. Deckel schließen. Modus: Pressure Cook (High Pressure) für 12 Minuten.
-
-3. Quick Release durchführen.
-
-4. TK Spinat und TK Kräuter in die heiße Masse einrühren, bis der Spinat vollständig aufgetaut ist und die Flüssigkeit bindet (ca. 3–4 Minuten rühren bei aktiviertem Modus Keep Warm).
-
-5. Olivenöl unterrühren.
-
----
-
-#### Alternative 3: Fokus auf maximale Nährstoffbreite (Vollgemüse-Curry)
-
-Kombiniert alle passenden Gemüsesorten für ein maximales Aminosäurenprofil und Mikronährstoffdichte, erfordert eine Anpassung der Gewürzmenge aufgrund des höheren Volumens.
-
-**Zutaten (4–6 Portionen):**
-
-- 300 g Beluga-Linsen
-
-- 100 g TK Edamame (geschält)
-
-- 100 g TK Spinat
-
-- 100 g TK Erbsen
-
-- 120 g TK Zwiebeln
-
-- 20 g TK Knoblauch
-
-- 800 ml Wasser
-
-- 35 g hochwertiges Rapsöl (Kaltzugabe)
-
-**Gewürze:**
-
-- 22 g Hamburger Hafencurry (Ankerkraut)
-
-- 15 g Speisesalz
-
-**Zubereitung:**
-
-1. Beluga-Linsen, TK Zwiebeln, TK Knoblauch, Hafencurry, Salz und Wasser in den Innentopf geben.
-
-2. Deckel schließen. Modus: Pressure Cook (High Pressure) für 12 Minuten.
-
-3. Quick Release durchführen.
-
-4. TK Edamame, TK Spinat und TK Erbsen zügig unterrühren.
-
-5. Deckel wieder auflegen und 5 Minuten bei Restwärme ziehen lassen.
-
-6. Rapsöl homogen unterrühren.
+Weniger Wasser macht das Curry dichter; das TK-Gemüse gart nur in der Restwärme und behält Biss. Das kaltgepresste Öl kommt erst ganz zum Schluss dazu, damit seine empfindlichen Fettsäuren und Aromen nicht erhitzt werden.

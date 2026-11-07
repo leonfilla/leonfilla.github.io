@@ -1,116 +1,45 @@
 ---
-titel: 3 Variationen von Rezept 12
+titel: Berglinsen-Süßkartoffel-Curry mit Garam Masala
 status: aktiv
 datum: '2026-04-21'
 quelle:
   typ: gemini
   url: https://gemini.google.com/app/b41deaa570ff0eac
-  hinweis: 3 unterschiedliche Rezepte im Instant Pot Pro Max Wifi mit Hülsenfrüchten, die n…
+  hinweis: Rezepte im Instant Pot Pro Max Wifi mit Hülsenfrüchten ohne Anbraten
 importiert: true
+linie: berglinsen-eintopf-suesskartoffeln-2026-04-21
+variante: Garam Masala
+fokus: Dump-and-Go-Curry aus Berglinsen, Süßkartoffel und passierten Tomaten mit Garam Masala und Kurkuma.
+ergebnis: 4 Portionen
+portionen: 4
+zeit: {aktiv: 5, gesamt: 45}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegan, Meal Prep]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 12
+  ablass: Natural Release
+  ablass_min: 10
+zutaten:
+  - {gruppe: Topf, name: Berglinsen, menge: 200, einheit: g, hinweis: gespült}
+  - {gruppe: Topf, name: Wasser, menge: 400, einheit: g}
+  - {gruppe: Topf, name: Passierte Tomaten, menge: 400, einheit: g}
+  - {gruppe: Topf, name: Süßkartoffel, menge: 300, einheit: g, hinweis: "geschält, 2-cm-Würfel"}
+  - {gruppe: Topf, name: Garam Masala, menge: 1, einheit: EL}
+  - {gruppe: Topf, name: Kurkuma, menge: 1, einheit: TL}
+  - {gruppe: Topf, name: Salz, menge: 7.5, einheit: g, hinweis: "1,5 TL"}
+schritte:
+  - titel: Einfüllen
+    text: Linsen, 400 g Wasser, Tomaten, Süßkartoffel, Garam Masala, Kurkuma und Salz in den Topf geben und gründlich umrühren, bis sich die Tomaten mit dem Wasser vermischen.
+  - titel: Druckgaren
+    text: Ventil auf Sealing, Pressure Cook, High, 12 Minuten.
+    timer: 720
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release, dann Ventil auf Venting und umrühren.
+    timer: 600
 ---
 
-> **Frage im Chat:** 3 Variationen von Rezept 12
+## Warum so
 
-**Zutaten**
-
-- 200 g Berglinsen (unter fließendem Wasser gespült)
-
-- 400 ml Wasser
-
-- 400 g passierte Tomaten
-
-- 300 g Süßkartoffel (geschält, in 2 cm Würfel geschnitten)
-
-- 1 EL Garam Masala
-
-- 1 TL Kurkuma
-
-- 1,5 TL Salz (ca. 7,5 g)
-
-**Zubereitung**
-
-1. Linsen, Wasser, passierte Tomaten, Süßkartoffelwürfel, Garam Masala, Kurkuma und Salz in den Instant Pot geben.
-
-2. Gründlich umrühren, damit sich die passierten Tomaten mit dem Wasser vermischen.
-
-3. Deckel schließen, Ventil auf **Sealing** stellen.
-
-4. Modus **Pressure Cook** (High Pressure) auf **12 Minuten** einstellen.
-
-5. Nach Ablauf der Zeit **10 Minuten Natural Release** abwarten.
-
-6. Ventil auf **Venting** stellen, um den restlichen Druck abzulassen. Umrühren.
-
----
-
-#### Rezept 12.2: Rauchiger Berglinsen-Süßkartoffel-Eintopf (Tex-Mex)
-
-**Zutaten**
-
-- 200 g Berglinsen (unter fließendem Wasser gespült)
-
-- 400 ml Wasser
-
-- 400 g passierte Tomaten
-
-- 300 g Süßkartoffel (geschält, in 2 cm Würfel geschnitten)
-
-- 1 Dose Mais (Abtropfgewicht ca. 140 g, abgespült)
-
-- 1 TL geräuchertes Paprikapulver
-
-- 0,5 TL Chiliflocken (optional)
-
-- 1 EL Sojasauce
-
-- 1,5 TL Salz (ca. 7,5 g)
-
-**Zubereitung**
-
-1. Linsen, Wasser, passierte Tomaten, Süßkartoffelwürfel, Mais, Gewürze, Sojasauce und Salz in den Instant Pot geben.
-
-2. Gründlich umrühren.
-
-3. Deckel schließen, Ventil auf **Sealing** stellen.
-
-4. Modus **Pressure Cook** (High Pressure) auf **12 Minuten** einstellen.
-
-5. Nach Ablauf der Zeit **10 Minuten Natural Release** abwarten.
-
-6. Ventil auf **Venting** stellen, um den restlichen Druck abzulassen. Umrühren.
-
----
-
-#### Rezept 12.3: Westafrikanisch inspirierter Berglinsen-Eintopf mit Erdnuss
-
-**Zutaten**
-
-- 200 g Berglinsen (unter fließendem Wasser gespült)
-
-- 400 ml Wasser
-
-- 400 g passierte Tomaten
-
-- 300 g Süßkartoffel (geschält, in 2 cm Würfel geschnitten)
-
-- 3 EL ungesüßte Erdnussbutter (cremig)
-
-- 1 TL Kreuzkümmel (gemahlen)
-
-- 1 TL Korianderpulver
-
-- 1,5 TL Salz (ca. 7,5 g)
-
-**Zubereitung**
-
-1. Linsen, Wasser, passierte Tomaten, Süßkartoffelwürfel, Erdnussbutter, Kreuzkümmel, Korianderpulver und Salz in den Instant Pot geben.
-
-2. Gründlich umrühren. Die Erdnussbutter löst sich während des Kochens vollständig in der heißen Flüssigkeit auf.
-
-3. Deckel schließen, Ventil auf **Sealing** stellen.
-
-4. Modus **Pressure Cook** (High Pressure) auf **12 Minuten** einstellen.
-
-5. Nach Ablauf der Zeit **10 Minuten Natural Release** abwarten.
-
-6. Ventil auf **Venting** stellen, um den restlichen Druck abzulassen. Gründlich umrühren, um die Erdnussbutter gleichmäßig zu verteilen.
+Gründliches Verrühren verdünnt die Tomaten, damit sie nicht am Boden ansetzen – ohne Anbraten gibt es keinen Bratensatz, der das verhindern müsste.

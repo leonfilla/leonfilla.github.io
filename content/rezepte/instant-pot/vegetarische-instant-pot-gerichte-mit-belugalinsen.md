@@ -1,5 +1,5 @@
 ---
-titel: Vegetarische Instant-Pot-Gerichte mit Belugalinsen
+titel: Indisches Beluga-Dal mit Kokosmilch
 status: aktiv
 datum: '2026-05-18'
 quelle:
@@ -8,30 +8,53 @@ quelle:
   hinweis: Vegetarische Instant-Pot-Gerichte mit Belugalinsen
 importiert: true
 linie: 1-indisches-dal-mit-kokosmilch-af094
+fokus: Cremiges Dal aus Belugalinsen und Kirschtomaten mit gerösteten Senfsamen, Garam Masala und Kokosmilch, mit Limette abgeschlossen.
+ergebnis: 2 Portionen
+portionen: 2
+zeit: {aktiv: 12, gesamt: 45}
+geraete: [instant-pot-pro-max]
+tags: [Abendessen, vegetarisch, Curry]
+instantpot:
+  programm: Pressure Cook
+  druck: High
+  zeit: 12
+  ablass: Natural Release
+  ablass_min: 10
+zutaten:
+  - {gruppe: Tadka, name: Senfsamen, menge: 1, einheit: TL}
+  - {gruppe: Tadka, name: Kreuzkümmel ganz, menge: 1, einheit: TL}
+  - {gruppe: Tadka, name: Zwiebel, menge: 1, einheit: ""}
+  - {gruppe: Tadka, name: Knoblauchzehen, menge: 3, einheit: ""}
+  - {gruppe: Tadka, name: Ingwer, menge: 20, einheit: g}
+  - {gruppe: Tadka, name: Garam Masala, menge: 2, einheit: TL}
+  - {gruppe: Tadka, name: Kurkuma, menge: 1, einheit: TL}
+  - {gruppe: Topf, name: Belugalinsen, menge: 200, einheit: g}
+  - {gruppe: Topf, name: Kirschtomaten aus der Dose, menge: 400, einheit: g}
+  - {gruppe: Topf, name: Brühe, menge: 400, einheit: ml}
+  - {gruppe: Finish, name: Kokosmilch, menge: 200, einheit: ml}
+  - {gruppe: Finish, name: Limette, menge: 1, einheit: ""}
+  - {gruppe: Finish, name: Koriandergrün, hinweis: optional}
+schritte:
+  - titel: Samen rösten
+    text: Sauté, Senfsamen und Kreuzkümmel rösten, bis sie springen.
+  - titel: Aromaten
+    text: Gewürfelte Zwiebel, Ingwer und Knoblauch 5 Minuten anbraten.
+    timer: 300
+  - titel: Gewürze
+    text: 2 TL Garam Masala und 1 TL Kurkuma 30 Sekunden mitrösten.
+    timer: 30
+  - titel: Einfüllen
+    text: 200 g Linsen, Tomaten und 400 ml Brühe zugeben, Boden lösen.
+  - titel: Druckgaren
+    text: Pressure Cook, High, 12 Minuten.
+    timer: 720
+  - titel: Natürlicher Druckabbau
+    text: 10 Minuten Natural Release, dann Restdruck ablassen.
+    timer: 600
+  - titel: Abschließen
+    text: 200 ml Kokosmilch einrühren, mit Limettensaft und nach Wunsch Koriander abschmecken.
 ---
 
-Hier drei klar unterschiedliche Profile, alle vollständig im IP machbar:
+## Warum so
 
-**1. Indisches Dal mit Kokosmilch**
-Cremig, würzig, abgerundet durch Tadka.
-- Zutaten (2 P): 200 g Belugalinsen, 1 Dose Kirschtomaten (400 g), 1 Zwiebel, 3 Knoblauchzehen, 20 g Ingwer, 200 ml Kokosmilch, 400 ml Brühe, 2 TL Garam Masala, 1 TL Kurkuma, 1 TL Kreuzkümmel ganz, 1 TL Senfsamen, Limette, Koriander
-- Sauté: Senfsamen + Kreuzkümmel rösten, Zwiebel/Ingwer/Knoblauch 5 min, Garam Masala + Kurkuma 30 s mit
-- Linsen, Tomaten (Dose), Brühe rein → 12 min High Pressure, 10 min NPR
-- Kokosmilch einrühren, mit Limette + Koriander finishen
-
-**2. Griechische Linsen mit Spinat & Feta**
-Hell, säuerlich, Zitrone-Oregano-Achse.
-- Zutaten (2 P): 200 g Belugalinsen, 1 Dose Kirschtomaten, 1 Zwiebel, 3 Knoblauchzehen, 600 ml Gemüsebrühe, 150 g Babyspinat, 100 g Feta, 1 Bio-Zitrone, 1 EL Oregano getrocknet, 2 Lorbeerblätter, Kalamata-Oliven, Olivenöl
-- Sauté: Zwiebel + Knoblauch in Olivenöl, Oregano + Lorbeer kurz mit
-- Linsen, Tomaten, Brühe → 10 min HP, 10 min NPR
-- Spinat einrühren bis kollabiert, Zitronensaft + Abrieb dazu
-- Anrichten mit Feta, Oliven, gutem Olivenöl
-
-**3. Marokkanische Linsen-Tajine mit Aprikosen**
-Warm-würzig, leicht süß, Ras-el-Hanout-getrieben.
-- Zutaten (2 P): 200 g Belugalinsen, 1 Dose Kirschtomaten, 1 Zwiebel, 3 Knoblauchzehen, 15 g Ingwer, 2 Karotten (gewürfelt), 60 g getrocknete Aprikosen (halbiert), 500 ml Brühe, 2 TL Ras el Hanout, ½ TL Zimt, 1 TL Kreuzkümmel, Harissa, Petersilie, Minze, gehobelte Mandeln, Zitrone
-- Sauté: Zwiebel + Karotte 5 min, dann Knoblauch/Ingwer + Gewürze 30 s
-- Linsen, Tomaten, Aprikosen, Brühe → 12 min HP, 10 min NPR
-- Mit Harissa, Zitronensaft, Kräutern und gerösteten Mandeln finishen
-
-Sag Bescheid, wenn ich eines davon ausarbeiten soll – mit präzisen Mengen, Timing-Sequenz und ggf. einer interaktiven Rezeptkarte.
+Die Tadka – Samen und Gewürze in Fett geröstet – trägt das Aroma; die Kokosmilch kommt erst nach dem Druck dazu, damit sie nicht ansetzt.
