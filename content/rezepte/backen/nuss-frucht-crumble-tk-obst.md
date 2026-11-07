@@ -30,4 +30,5 @@ schritte:
   - {titel: "Streusel kneten", text: "100 g gemahlene und 50 g gehackte Nüsse, 50 g kalte Butter und 40 g Zucker mit den Händen zügig zu Streuseln verkneten und darüber verteilen."}
   - {titel: "Backen", text: "20 Minuten backen, bis die Streusel goldbraun sind und die Frucht kocht.", timer: 1200}
 
+gesichtet: false
 ---

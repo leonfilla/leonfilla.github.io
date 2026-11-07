@@ -30,6 +30,7 @@ schritte:
     text: "80 g TK-Beeren zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

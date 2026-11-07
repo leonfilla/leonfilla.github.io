@@ -38,6 +38,7 @@ schritte:
 - titel: Backen
   text: Backen; der Dampfstoß läuft in den ersten 10 Minuten automatisch.
   timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

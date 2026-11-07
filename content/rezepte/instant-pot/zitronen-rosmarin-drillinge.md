@@ -37,4 +37,5 @@ schritte:
     text: Quick Release, Rosmarinzweige entfernen.
   - titel: Zitrone
     text: Saft einer halben Zitrone darübergeben und umrühren.
+gesichtet: false
 ---

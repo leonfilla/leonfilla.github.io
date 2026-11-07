@@ -26,6 +26,7 @@ schritte:
   - {titel: "Espresso", text: "Einen doppelten Espresso (ca. 40 ml) in ein dünnwandiges Metallkännchen beziehen."}
   - {titel: "Schockkühlen", text: "Kännchen im Eiswasserbad schwenken, bis der Espresso unter 20 °C ist.", timer: 60}
   - {titel: "Mixen", text: "Espresso und 150 ml eiskaltes Wasser zu den Kirschen geben, 45 Sekunden auf höchster Stufe mixen und sofort ausschenken.", timer: 45}
+gesichtet: false
 ---
 
 ## Warum so

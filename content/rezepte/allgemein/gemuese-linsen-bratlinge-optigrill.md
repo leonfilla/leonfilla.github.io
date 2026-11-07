@@ -39,6 +39,7 @@ schritte:
 - {titel: Grillen, text: 'OptiGrill manuell auf mittel-hoch vorheizen, Platten mit 1 TL Öl einsprühen, Taler auflegen und bei geschlossenem Deckel ca. 5 Minuten grillen, ohne zu wenden.', timer: 300}
 - {titel: Dip rühren, text: '150 g Skyr, 1 TL Zitronensaft, ½ Knoblauchzehe und 1 EL Kräuter verrühren, salzen, pfeffern und mit etwas Wasser dippfähig machen.'}
 - {titel: Anrichten, text: Taler mit Dip und einem einfachen Blattsalat servieren.}
+gesichtet: false
 ---
 
 ## Warum so

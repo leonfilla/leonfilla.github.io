@@ -8,6 +8,7 @@ quelle:
   hinweis: Mobiles Setup
 importiert: true
 fokus: 'Keine Rezeptur: Bewertung, ob sich der Rapid Brewer für einen hellen Anaeroben (El Eucalipto) auf Reisen lohnt – Ergebnis: nein, die AeroPress ist überlegen.'
+gesichtet: false
 ---
 
 ## Notizen

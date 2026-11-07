@@ -35,6 +35,7 @@ schritte:
   timer: 30
 - titel: Abkühlen
   text: Im Eisbad oder Kühlschrank zügig herunterkühlen.
+gesichtet: false
 ---
 
 ## Warum so

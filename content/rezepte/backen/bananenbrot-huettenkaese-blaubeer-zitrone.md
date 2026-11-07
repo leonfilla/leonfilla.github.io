@@ -37,6 +37,7 @@ schritte:
   - {titel: "Backen", text: "55–60 Minuten backen; wird es oben zu dunkel, nach 40 Minuten mit Alufolie abdecken.", timer: 3450}
   - {titel: "Auskühlen", text: "Vor dem Schneiden vollständig auskühlen lassen."}
 
+gesichtet: false
 ---
 
 ## Warum so

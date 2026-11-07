@@ -33,6 +33,7 @@ schritte:
 - titel: Backen
   text: Teig auf die Förmchen verteilen und 20–25 Minuten backen, Stäbchenprobe.
   timer: 1350
+gesichtet: false
 ---
 
 ## Warum so

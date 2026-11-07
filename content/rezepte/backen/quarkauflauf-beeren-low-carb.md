@@ -29,4 +29,5 @@ schritte:
   - {titel: "Einfüllen", text: "Masse in die Auflaufform geben und die restlichen Beeren darauf verteilen."}
   - {titel: "Backen", text: "Bei 180 °C 35–40 Minuten backen, bis er leicht goldgelb ist.", timer: 2250}
 
+gesichtet: false
 ---

@@ -34,6 +34,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Haferflocken, fein und 10 g Leinsamen, gemahlen einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Brombeeren, 90 g TK-Karotte, gegart und 100 g TK-Mango zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -30,6 +30,7 @@ schritte:
   - {titel: "Programm starten", text: "Pizza Dough starten und den Teig glatt rühren lassen.", timer: 2700}
   - {titel: "Einlage unterheben", text: "1 Tasse gehacktes Kimchi und 2 Frühlingszwiebeln unterheben."}
   - {titel: "Ausbacken", text: "Reichlich Öl erhitzen und den Teig portionsweise zu dünnen Pfannkuchen goldbraun und knusprig backen.", timer: 1200}
+gesichtet: false
 ---
 
 ## Warum so

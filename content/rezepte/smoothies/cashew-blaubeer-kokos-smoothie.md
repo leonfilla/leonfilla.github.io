@@ -27,6 +27,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Cashewmus einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "80 g TK-Blaubeeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

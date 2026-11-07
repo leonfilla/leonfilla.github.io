@@ -27,6 +27,7 @@ schritte:
     text: "Rosmarin entfernen, Aufguss zu 30 ml Basis-Sirup geben."
   - titel: Shaken
     text: "50 ml Gin, 40 ml Grapefruitsaft und 20 ml Rosmarinsirup mit Eis shaken und auf frisches Eis abseihen."
+gesichtet: false
 ---
 
 ## Warum so

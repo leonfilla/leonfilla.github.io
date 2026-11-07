@@ -27,6 +27,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "15 g Cashewmus und 10 g Kokosraspeln einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "100 g TK-Ananas zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

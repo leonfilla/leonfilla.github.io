@@ -48,4 +48,5 @@ schritte:
     timer: 600
   - titel: Binden
     text: Kräftig umrühren, bis die Linsen zerfallen.
+gesichtet: false
 ---

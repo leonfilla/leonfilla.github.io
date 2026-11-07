@@ -37,6 +37,7 @@ schritte:
   - {titel: Spinat einrühren, text: 400 g Spinat einrühren.}
   - {titel: Warmhalten, text: "Deckel auflegen, 3 Minuten Keep Warm, bis der Spinat zerfallen und heiß ist.", timer: 180}
   - {titel: Fertigstellen, text: "4 EL Walnussöl unterheben, mit Salz, Pfeffer und Muskat abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

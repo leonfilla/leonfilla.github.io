@@ -30,6 +30,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 8 Minuten.", timer: 480}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Miso einrühren, text: 45 g Miso mit 3 EL heißer Brühe glatt rühren und einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

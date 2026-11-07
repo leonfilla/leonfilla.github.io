@@ -43,6 +43,7 @@ schritte:
   - titel: Fisch rösten
     text: Fisch aus dem Beutel nehmen, trocken tupfen und 60 Sekunden grillen.
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

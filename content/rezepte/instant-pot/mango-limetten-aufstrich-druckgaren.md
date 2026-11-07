@@ -33,6 +33,7 @@ schritte:
   text: Quick Release.
 - titel: pH prüfen
   text: pH messen; über 3,5 mit Limettensaft nachsäuern.
+gesichtet: false
 ---
 
 ## Warum so

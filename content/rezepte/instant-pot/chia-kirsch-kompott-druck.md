@@ -27,4 +27,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Andicken, text: "Offen 5 Minuten stehen lassen, bis die Chiasamen gequollen sind.", timer: 300}
+gesichtet: false
 ---

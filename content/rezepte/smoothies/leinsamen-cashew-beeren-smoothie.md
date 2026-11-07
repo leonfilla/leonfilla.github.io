@@ -29,6 +29,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "25 g Cashewmus einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Beerenmischung zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

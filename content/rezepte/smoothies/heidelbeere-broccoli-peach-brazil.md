@@ -36,6 +36,7 @@ schritte:
     text: "120 g TK-Heidelbeeren, 75 g TK-Brokkoli und 110 g TK-Pfirsich zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -26,4 +26,5 @@ schritte:
   - {titel: Vermengen, text: Edamame mit 20 g Miso und 15 g Ahornsirup vermengen und auf einem beschichteten Blech ausbreiten.}
   - {titel: Backen, text: "4D Heißluft 200 °C mit Mikrowelle 360 W, 6 Minuten.", timer: 360}
   - {titel: Bestreuen, text: Mit Sesam bestreuen.}
+gesichtet: false
 ---

@@ -24,6 +24,7 @@ xbloom:
   - {phase: Guss 2, menge: 65, temp: 91, fluss: 4}
   - {phase: Guss 3, menge: 65, temp: 91, fluss: 4}
   - {phase: Guss 4, menge: 65, temp: 91, fluss: 4}
+gesichtet: false
 ---
 
 ## Warum so

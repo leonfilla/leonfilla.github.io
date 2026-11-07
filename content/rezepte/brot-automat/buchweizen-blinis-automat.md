@@ -33,6 +33,7 @@ schritte:
   - {titel: "Eiweiß unterheben", text: "Teig in eine Schüssel umfüllen. Eiweiß steif schlagen und unterheben."}
   - {titel: "Gehen lassen", text: "Abgedeckt an einem warmen Ort gehen lassen.", timer: 3600}
   - {titel: "Ausbacken", text: "In einer heißen, gebutterten Pfanne kleine Blinis von beiden Seiten ausbacken.", timer: 900}
+gesichtet: false
 ---
 
 ## Warum so

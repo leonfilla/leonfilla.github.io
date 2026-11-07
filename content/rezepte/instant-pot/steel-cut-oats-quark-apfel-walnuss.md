@@ -36,6 +36,7 @@ schritte:
     timer: 600
   - titel: Unterheben
     text: "Etwas abkühlen lassen, dann 400 g Magerquark, 200 g Apfelwürfel und 60 g gehackte Walnüsse unterheben."
+gesichtet: false
 ---
 
 ## Warum so

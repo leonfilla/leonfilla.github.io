@@ -47,6 +47,7 @@ schritte:
 - titel: Backen
   text: 20 Minuten backen, bis der Käse geschmolzen ist.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

@@ -27,6 +27,7 @@ schritte:
   - {titel: "Creme mischen", text: "Bärlauch von Hand unter den Frischkäse heben, mit 2 g Salz und 1 g Pfeffer abschmecken."}
   - {titel: "Gurke", text: "Gurke in 1 mm dünne Scheiben schneiden."}
   - {titel: "Rollen", text: "Wraps mit der Käsemasse bestreichen, mit Lachs und Gurke belegen, rollen."}
+gesichtet: false
 ---
 
 ## Warum so

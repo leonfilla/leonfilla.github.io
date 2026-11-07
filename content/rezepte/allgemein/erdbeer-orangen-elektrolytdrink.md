@@ -20,6 +20,7 @@ schritte:
   - {titel: "Pressen", text: "Orangen halbieren und auspressen."}
   - {titel: "Einwiegen", text: "Erdbeeren, Orangensaft, 1,5 g Salz und 150 ml kaltes Wasser in den Zerkleinerer wiegen."}
   - {titel: "Pulsen", text: "In Intervallen mixen, bis die Textur homogen und flüssig ist, sofort servieren."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -30,6 +30,7 @@ schritte:
     text: "3 g Matcha mit 40 ml Wasser (75–80 °C) klumpenfrei aufschlagen."
   - titel: Abschließen
     text: Matcha als oberste Schicht aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

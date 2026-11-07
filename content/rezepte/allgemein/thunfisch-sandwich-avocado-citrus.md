@@ -27,6 +27,7 @@ schritte:
   - {titel: "Avocado-Masse", text: "Avocado zerdrücken und mit dem Zwiebel-Jalapeño-Mix und 10 ml Limettensaft vermengen."}
   - {titel: "Thunfisch unterheben", text: "100 g Thunfisch unterheben und mit 1 g Meersalz abschmecken."}
   - {titel: "Bestreichen", text: "Auf das Brot streichen."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -39,6 +39,7 @@ schritte:
     timer: 720
   - titel: Zerteilen
     text: Fisch in der Sauce mit einem Löffel zerteilen.
+gesichtet: false
 ---
 
 ## Warum so

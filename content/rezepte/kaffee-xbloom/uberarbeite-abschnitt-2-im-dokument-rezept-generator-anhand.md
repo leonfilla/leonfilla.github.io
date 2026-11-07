@@ -10,6 +10,7 @@ importiert: true
 fokus: Kein Rezept – Formeltabelle, die einen Extraktions-Score (EAS, −1 bis +1) auf Temperatur, Mahlgrad, RPM, Vibration und Pausen der xBloom abbildet.
 geraete: [xbloom-studio]
 tags: [Rezept-Generator, Formeln]
+gesichtet: false
 ---
 
 ## Notizen

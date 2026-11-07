@@ -31,6 +31,7 @@ schritte:
     text: Je 80 g Rotkohl und Karotte in feine Julienne schneiden.
   - titel: Rollen
     text: Wraps mit Thunfisch und Gemüse belegen und fest rollen.
+gesichtet: false
 ---
 
 ## Warum so

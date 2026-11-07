@@ -31,6 +31,7 @@ schritte:
     timer: 60
   - titel: Ablöschen
     text: Mit 30 g Wasser ablöschen, Bodensatz lösen und das Gerät abschalten.
+gesichtet: false
 ---
 
 ## Warum so

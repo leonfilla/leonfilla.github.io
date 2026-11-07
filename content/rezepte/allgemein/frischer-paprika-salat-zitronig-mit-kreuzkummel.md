@@ -28,6 +28,7 @@ schritte:
   - {titel: "Gemüse schneiden", text: "3 Paprika in feine Streifen schneiden, ½ Gurke würfeln, 20 g Petersilie und 1 EL Minze oder Dill hacken; alles in eine Schüssel geben."}
   - {titel: "Dressing anrühren", text: "2 EL Zitronensaft, 1 EL Olivenöl, 1 geriebene Knoblauchzehe, ½ TL Kreuzkümmel, ½ TL Sumach, ½ TL Salz und ¼ TL Pfeffer verrühren."}
   - {titel: "Mischen", text: "Dressing untermengen und sofort servieren oder ziehen lassen.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

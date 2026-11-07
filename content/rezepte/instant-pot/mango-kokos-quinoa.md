@@ -31,4 +31,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Mischen, text: Vorsichtig durchmischen.}
+gesichtet: false
 ---

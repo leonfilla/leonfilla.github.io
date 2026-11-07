@@ -36,6 +36,7 @@ schritte:
   - {titel: "Dämpfen", text: "Steam, Low, 12 Minuten.", timer: 720}
   - {titel: "Druck ablassen", text: "5 Minuten Natural Release, dann öffnen.", timer: 300}
 
+gesichtet: false
 ---
 
 ## Warum so

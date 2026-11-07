@@ -28,6 +28,7 @@ schritte:
     text: "15 g Mandelmus und 20 g Medjool-Dattel zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

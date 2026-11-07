@@ -31,4 +31,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 20 Minuten.", timer: 1200}
   - {titel: Natural Release, text: "15 Minuten Natural Release, dann Quick Release.", timer: 900}
   - {titel: Fertigstellen, text: 100 ml Milch und 1 EL Honig in die heißen Graupen rühren.}
+gesichtet: false
 ---

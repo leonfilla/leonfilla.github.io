@@ -51,6 +51,7 @@ schritte:
 - titel: Backen
   text: Bei 200 °C Ober-/Unterhitze backen.
   timer: 1800
+gesichtet: false
 ---
 
 ## Warum so

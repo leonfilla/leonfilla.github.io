@@ -29,4 +29,5 @@ schritte:
     text: 10 g helles Miso, 10 ml Yuzusaft und 5 g Sesamöl mit dem Schneebesen oder im Zerkleinerer emulgieren.
   - titel: Anmachen
     text: Vinaigrette über die Edamame geben und kalt servieren.
+gesichtet: false
 ---

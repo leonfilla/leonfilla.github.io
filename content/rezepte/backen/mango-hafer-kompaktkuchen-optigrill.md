@@ -35,6 +35,7 @@ schritte:
 - titel: Nachziehen
   text: Gerät abschalten und den Kuchen 10 Minuten in der Schale nachziehen lassen.
   timer: 600
+gesichtet: false
 ---
 
 ## Warum so

@@ -33,6 +33,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 30 Minuten.", timer: 1800}
   - {titel: Natural Release, text: 15 Minuten Natural Release., timer: 900}
   - {titel: Abschmecken, text: "Kräuterzweige entfernen, mit Salz und Pfeffer abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

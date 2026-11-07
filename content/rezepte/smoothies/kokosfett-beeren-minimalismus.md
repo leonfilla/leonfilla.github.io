@@ -26,6 +26,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "30 g Pflanzliches Proteinpulver auf die Flüssigkeit geben."}
   - {titel: "TK-Zutaten obenauf", text: "40 g TK-Beeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

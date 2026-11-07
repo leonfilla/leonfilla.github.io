@@ -34,4 +34,5 @@ schritte:
   - {titel: Druckgaren, text: "Deckel schließen, Ventil auf Sealing. Pressure Cook, High, 5 Minuten.", timer: 300}
   - {titel: Natural Release, text: 10 Minuten Natural Release., timer: 600}
   - {titel: Unterrühren, text: "Ventil auf Venting, dann umrühren, bis der Spinat vollständig eingearbeitet ist."}
+gesichtet: false
 ---

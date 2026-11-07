@@ -43,6 +43,7 @@ schritte:
     text: In sterilisierte Flaschen füllen und kühl lagern.
   - titel: Servieren
     text: 30 ml Shrub mit 150 g eiskaltem Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

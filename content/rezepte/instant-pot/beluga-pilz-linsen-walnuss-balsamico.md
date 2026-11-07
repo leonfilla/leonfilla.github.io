@@ -41,6 +41,7 @@ schritte:
     text: 150 g Walnüsse und 50 ml Balsamico einrühren.
   - titel: Miso einrühren
     text: Bei unter 80 °C 120 g Misopaste in der Restflüssigkeit auflösen und einrühren.
+gesichtet: false
 ---
 
 ## Warum so

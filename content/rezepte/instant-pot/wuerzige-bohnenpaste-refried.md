@@ -33,6 +33,7 @@ schritte:
     text: 10 ml Apfelessig unterrühren.
   - titel: pH prüfen
     text: Unter 25 °C abkühlen lassen und den pH messen. Liegt er über 4,5, Essig in 2-ml-Schritten nachdosieren.
+gesichtet: false
 ---
 
 ## Warum so

@@ -31,6 +31,7 @@ schritte:
   - titel: Sous Vide
     text: Beutel 45 Minuten garen.
     timer: 2700
+gesichtet: false
 ---
 
 ## Warum so

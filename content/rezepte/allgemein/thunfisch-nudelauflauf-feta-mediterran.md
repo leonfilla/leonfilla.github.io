@@ -36,4 +36,5 @@ schritte:
   - {titel: "Feta verteilen", text: "150 g Feta mit den Händen darüberkrümeln."}
   - {titel: "Backen", text: "25 Minuten backen.", timer: 1500}
 
+gesichtet: false
 ---

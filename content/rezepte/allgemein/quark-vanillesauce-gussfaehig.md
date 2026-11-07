@@ -24,6 +24,7 @@ schritte:
     text: 150 g Quark, 50 g Frischkäse, 100 ml Sahne, Zucker und Salz glatt rühren.
   - titel: Vanille
     text: Vanilleextrakt einrühren und abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

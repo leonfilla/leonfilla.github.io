@@ -36,6 +36,7 @@ schritte:
   - {titel: "Guss 2", text: "70 g bei 90 °C."}
   - {titel: "Guss 3", text: "70 g bei 87 °C."}
   - {titel: "Guss 4", text: "68 g bei 86 °C."}
+gesichtet: false
 ---
 
 ## Warum so

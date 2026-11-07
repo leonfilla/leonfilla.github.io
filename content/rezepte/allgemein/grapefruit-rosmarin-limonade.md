@@ -27,6 +27,7 @@ schritte:
   text: 80 g Grapefruitsaft und 15 g Ahornsirup zugeben und verrühren.
 - titel: Aufgießen
   text: Mit 150 g Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

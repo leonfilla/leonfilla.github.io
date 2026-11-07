@@ -23,6 +23,7 @@ schritte:
   - {titel: "Chia einrühren", text: "1 EL Chiasamen und optional 1 EL Kokosraspeln unterrühren."}
   - {titel: "Quellen lassen", text: "Mindestens 20 Minuten quellen lassen, bis der Curd streichfest ist.", timer: 1200}
 
+gesichtet: false
 ---
 
 ## Warum so

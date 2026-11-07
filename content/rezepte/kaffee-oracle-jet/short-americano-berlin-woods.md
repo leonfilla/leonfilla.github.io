@@ -32,6 +32,7 @@ schritte:
   - titel: Aufgießen
     text: "80 ml gefiltertes Wasser mit 85 °C auf den Espresso geben."
 bohne: 19grams-berlin-woods
+gesichtet: false
 ---
 
 ## Warum so

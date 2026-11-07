@@ -43,6 +43,7 @@ schritte:
     timer: 600
   - titel: Durchrühren
     text: Kräftig umrühren, bis die Linsen zerfallen und das Dal binden.
+gesichtet: false
 ---
 
 ## Warum so

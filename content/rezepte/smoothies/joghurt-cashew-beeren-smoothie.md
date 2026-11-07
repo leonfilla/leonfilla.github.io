@@ -29,6 +29,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "100 g Griechischer Joghurt, 10 % Fett und 25 g Cashewmus einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "100 g TK-Beerenmischung zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

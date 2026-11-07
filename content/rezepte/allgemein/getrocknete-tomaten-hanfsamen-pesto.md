@@ -24,4 +24,5 @@ zutaten:
 schritte:
   - {titel: Pürieren, text: Alle Zutaten auf höchster Stufe 1 Minute sämig mixen., timer: 60}
   - {titel: Mit Nudeln mischen, text: Unter die frisch gekochten Nudeln heben; deren Restwärme erhitzt die Sauce.}
+gesichtet: false
 ---

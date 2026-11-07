@@ -25,6 +25,7 @@ schritte:
   - {titel: "Vorheizen", text: "OptiGrill manuell auf 220 °C vorheizen, Platten mit Butter einfetten."}
   - {titel: "Garen", text: "Toastscheiben auflegen und 4 Minuten garen, bis sie gebräunt sind.", timer: 240}
   - {titel: "Servieren", text: "Mit den Beeren servieren."}
+gesichtet: false
 ---
 
 ## Warum so

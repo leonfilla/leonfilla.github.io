@@ -28,4 +28,5 @@ schritte:
   - titel: Aufschäumen
     text: Auf maximale Leistung schalten und weitere 30 Sekunden mixen, bis feiner Schaum entsteht.
     timer: 30
+gesichtet: false
 ---

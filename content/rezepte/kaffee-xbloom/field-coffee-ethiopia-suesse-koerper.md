@@ -25,6 +25,7 @@ xbloom:
   - {phase: Guss 2, menge: 95, temp: 94}
   - {phase: Guss 3, menge: 100, temp: 94}
 bohne: field-coffee-ethiopia
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,4 +28,5 @@ schritte:
   - {titel: Einkochen, text: Mit 500 g Passata ablöschen und offen auf niedriger Stufe 25 Minuten einkochen., timer: 1500}
   - {titel: Pasta kochen, text: Parallel 2 l Wasser mit 20 g Salz aufkochen und die Spaghetti al dente kochen.}
   - {titel: Binden, text: Spaghetti tropfnass in die Sauce geben und 1 Minute durchschwenken.}
+gesichtet: false
 ---

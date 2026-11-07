@@ -26,6 +26,7 @@ schritte:
   - {titel: Quellen, text: "Herd aus, Deckel auf und 10 Minuten in der Restwärme quellen lassen.", timer: 600}
   - {titel: Reduktion kochen, text: Parallel 400 g Erdbeeren mit 20 g Zucker in einer Pfanne etwa 6 Minuten einkochen., timer: 360}
   - {titel: Schichten, text: Grießbrei glatt rühren und mit der Reduktion schichten.}
+gesichtet: false
 ---
 
 ## Warum so

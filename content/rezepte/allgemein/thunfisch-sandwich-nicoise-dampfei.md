@@ -28,6 +28,7 @@ schritte:
 - {titel: Füllung mischen, text: 'Thunfisch mit den Eiern, 30 g gehackten Oliven, 10 g Kapern und 15 ml Olivenöl vermengen.'}
 - {titel: Brot rösten, text: 'OptiGrill im manuellen Modus auf 220 °C stellen und die 4 Brotscheiben 3 Minuten rösten, bis sie kräftig gebräunt sind.', timer: 180}
 - {titel: Belegen, text: Füllung gleichmäßig auf die gerösteten Scheiben geben.}
+gesichtet: false
 ---
 
 ## Warum so

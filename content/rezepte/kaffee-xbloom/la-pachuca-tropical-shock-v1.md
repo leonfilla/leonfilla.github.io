@@ -28,6 +28,7 @@ xbloom:
     - {phase: "Guss 2", menge: 60, temp: 94, fluss: 3.3, pause: 30, muster: "spirale", vib_vor: false, vib_nach: false}
     - {phase: "Guss 3", menge: 60, temp: 92, fluss: 3.5, pause: 0, muster: "kreis", vib_vor: false, vib_nach: true}
 bohne: elbgold-la-pachuca
+gesichtet: false
 ---
 
 ## Warum so

@@ -32,6 +32,7 @@ schritte:
   - {titel: Aufschlagen, text: 3 Eier und 80 g Zitronensaft mit dem Stabmixer schaumig schlagen.}
   - {titel: Temperieren, text: Unter ständigem Mixen zwei Schöpfkellen Brühe in die Eimischung gießen.}
   - {titel: Binden, text: "Langsam zurück in den Topf gießen und rühren, bis die Suppe bindet; nicht mehr kochen."}
+gesichtet: false
 ---
 
 ## Warum so

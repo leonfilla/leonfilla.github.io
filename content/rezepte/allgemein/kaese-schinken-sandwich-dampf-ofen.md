@@ -19,6 +19,7 @@ zutaten:
 schritte:
 - {titel: Belegen, text: Brot mit Butter bestreichen und mit Gouda und Schinken belegen.}
 - {titel: Überbacken, text: Bei 180 °C 4D-Heißluft mit Dampfstufe 1 5–7 Minuten backen., timer: 360}
+gesichtet: false
 ---
 
 ## Warum so

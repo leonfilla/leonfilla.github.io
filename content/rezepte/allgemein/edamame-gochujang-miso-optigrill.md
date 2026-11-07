@@ -22,4 +22,5 @@ schritte:
   - {titel: Paste rühren, text: "15 g Miso, 10 g Gochujang und 10 g Sesamöl verrühren, gefrorene Edamame darin wenden."}
   - {titel: Vorheizen, text: OptiGrill manuell auf 220 °C vorheizen.}
   - {titel: Grillen, text: Edamame auflegen und bei geschlossenem Gerät 4 Minuten grillen., timer: 240}
+gesichtet: false
 ---

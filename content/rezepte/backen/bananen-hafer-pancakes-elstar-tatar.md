@@ -29,6 +29,7 @@ schritte:
   - {titel: "Tatar pulsen", text: "2 Äpfel achteln, entkernen und mit 30 g Walnüssen im Zerkleinerer 3–4-mal kurz pulsen, bis 3–4 mm große Stücke entstehen."}
   - {titel: "Servieren", text: "Heiße Pancakes sofort mit dem kalten Tatar servieren."}
 
+gesichtet: false
 ---
 
 ## Warum so

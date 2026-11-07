@@ -37,6 +37,7 @@ schritte:
   - {titel: "Espresso beziehen", text: "2 × 18 g Espressobohnen mahlen und tampen, zwei doppelte Espressi à 36 g bei 93 °C beziehen."}
   - {titel: "Milch texturieren", text: "Die warme Milch nur aufschäumen, ohne weiter zu erhitzen, und auf zwei Gläser verteilen."}
   - {titel: "Schichten", text: "Espresso eingießen."}
+gesichtet: false
 ---
 
 ## Warum so

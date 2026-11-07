@@ -39,6 +39,7 @@ schritte:
 - titel: Backen
   text: 50 Minuten backen.
   timer: 3000
+gesichtet: false
 ---
 
 ## Warum so

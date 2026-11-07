@@ -34,6 +34,7 @@ schritte:
   - {titel: "Rösten", text: "Hähnchen auf dem OptiGrill (manuell, 270 °C) 45 Sekunden rösten.", timer: 45}
   - {titel: "Kühlen", text: "Fleisch im Kühlschrank auf etwa 10 °C abkühlen.", timer: 900}
   - {titel: "Rollen", text: "Fleisch in 5 mm Streifen schneiden. Wraps mit der Creme bestreichen, Fleisch auflegen, rollen."}
+gesichtet: false
 ---
 
 ## Warum so

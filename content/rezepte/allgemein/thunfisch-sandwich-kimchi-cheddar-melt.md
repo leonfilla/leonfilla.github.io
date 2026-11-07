@@ -23,6 +23,7 @@ schritte:
 - {titel: Füllung mischen, text: 50 g gehacktes Kimchi mit 10 g Gochujang und dem Thunfisch vermengen.}
 - {titel: Schichten, text: Füllung und 60 g geriebenen Cheddar zwischen je zwei Brotscheiben legen.}
 - {titel: Grillen, text: 'Im OptiGrill-Sandwich-Programm grillen, bis die Farbanzeige das Ende des Zyklus zeigt.'}
+gesichtet: false
 ---
 
 ## Warum so

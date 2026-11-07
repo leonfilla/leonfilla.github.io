@@ -33,6 +33,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Mandeln, ganz, 30 g Haferflocken, fein und 18 g Medjool-Dattel, entkernt einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Blaubeeren, 120 g TK-Sauerkirschen und 100 g TK-Zucchini, roh gewürfelt zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

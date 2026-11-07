@@ -36,6 +36,7 @@ schritte:
   - titel: Mixen
     text: Paprika, Knoblauch, Thunfisch, 100 g Bohnen, Gewürze und 100 ml heiße Brühe 1–2 Minuten auf höchster Stufe glatt mixen.
     timer: 90
+gesichtet: false
 ---
 
 ## Warum so

@@ -26,6 +26,7 @@ schritte:
   - {titel: Anrösten, text: "Backschale einsetzen, manuell 220 °C, 10 ml Öl erhitzen und Zwiebel-Knoblauch 3 Minuten anrösten, Gewürze zugeben.", timer: 180}
   - {titel: Einkochen, text: "Tomaten zugeben, Deckel schließen und 8 Minuten reduzieren.", timer: 480}
   - {titel: Eier stocken, text: "Zwei Mulden drücken, Eier hineinschlagen und bei geschlossenem Deckel 4 Minuten stocken lassen.", timer: 240}
+gesichtet: false
 ---
 
 ## Varianten

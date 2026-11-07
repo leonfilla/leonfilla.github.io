@@ -32,6 +32,7 @@ schritte:
 - titel: Backen
   text: OptiGrill im manuellen Modus auf Orange (200 °C) stellen und 35 Minuten backen.
   timer: 2100
+gesichtet: false
 ---
 
 ## Warum so

@@ -39,6 +39,7 @@ schritte:
 - {titel: Brot toasten, text: 'Scheiben beidseitig dünn mit 15 g Rapsöl bestreichen und 2–3 Minuten grillen, Deckel nur mit Eigengewicht; danach aufs Gitter.', timer: 150}
 - {titel: Rührei garen, text: '18 g Butter bei schwacher Hitze schmelzen, Eimasse angießen und ständig schieben. Bei zwei Dritteln Stockung vom Herd ziehen und den kalten Hüttenkäse unterheben.', timer: 240}
 - {titel: Schichten, text: 'Dill-Frischkäse aufstreichen, Avocadospalten auffächern, Rührei, Lachs, Zwiebeln, ein paar Fäden Sauce, restlichen Dill, Zeste und Pfeffer darauf. Kein Salz mehr.'}
+gesichtet: false
 ---
 
 ## Warum so

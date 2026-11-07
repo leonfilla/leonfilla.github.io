@@ -39,6 +39,7 @@ schritte:
     timer: 600
   - titel: Umrühren
     text: Deckel öffnen und umrühren.
+gesichtet: false
 ---
 
 ## Warum so

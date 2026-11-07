@@ -32,6 +32,7 @@ schritte:
     text: Erbsen, 10 g Basilikum, 15 ml Olivenöl und das Kochwasser mit dem Stabmixer pürieren.
   - titel: Anrichten
     text: Püree als Bett anrichten, Hähnchen tranchieren und daraufsetzen.
+gesichtet: false
 ---
 
 ## Warum so

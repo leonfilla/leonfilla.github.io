@@ -29,6 +29,7 @@ schritte:
   - titel: Kühlen
     text: Mit Eis 10 Sekunden shaken und in eine Coupette abseihen.
     timer: 10
+gesichtet: false
 ---
 
 ## Warum so

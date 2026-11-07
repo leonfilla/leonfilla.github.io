@@ -30,4 +30,5 @@ schritte:
   - titel: Backen
     text: Teig in Kreisen von etwa 8 cm auf die untere Platte geben, Deckel schließen und 4 Minuten backen.
     timer: 240
+gesichtet: false
 ---

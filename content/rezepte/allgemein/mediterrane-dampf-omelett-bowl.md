@@ -28,6 +28,7 @@ schritte:
   - {titel: "Mischen", text: "Eier verquirlen, Zucchiniwürfel und Feta untermischen."}
   - {titel: "Einfüllen", text: "In eine flache Auflaufform geben."}
   - {titel: "Dampfgaren", text: "Dampfgaren bei 95 °C, 12 Minuten.", timer: 720}
+gesichtet: false
 ---
 
 ## Warum so

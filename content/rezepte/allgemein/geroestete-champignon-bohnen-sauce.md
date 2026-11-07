@@ -32,4 +32,5 @@ schritte:
   - {titel: Pilze marinieren, text: 400 g Champignons mit 2 EL Olivenöl und 1 EL Tomatenmark mischen und auf einem Blech verteilen.}
   - {titel: Rösten, text: "20 Minuten rösten, bis sie dunkel sind.", timer: 1200}
   - {titel: Pürieren, text: "Pilze, Bohnen, 2 EL Sojasauce, Knoblauch, Thymian, Pfeffer und 150 ml heiße Brühe auf höchster Stufe 1–2 Minuten glatt mixen.", timer: 90}
+gesichtet: false
 ---

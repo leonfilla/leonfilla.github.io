@@ -33,6 +33,7 @@ schritte:
   - {titel: "Ei dämpfen", text: "Ei in eine gefettete kleine Form schlagen und 6 Minuten dämpfen.", timer: 360}
   - {titel: "Miso", text: "Instant Pot manuell abdampfen, Miso unterrühren (nicht mitkochen)."}
   - {titel: "Anrichten", text: "Congee mit dem Dampf-Ei toppen."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -32,6 +32,7 @@ schritte:
     timer: 10
   - titel: Aufgießen
     text: 150 g Wein, den Saft und 15 g Agavendicksaft verrühren, über die Scheibe gießen und mit 50 g Sprudelwasser auffüllen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -32,6 +32,7 @@ schritte:
 - titel: Wenden
   text: Wenden und fertig braten.
   timer: 90
+gesichtet: false
 ---
 
 ## Warum so

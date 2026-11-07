@@ -32,6 +32,7 @@ schritte:
   - {titel: Quick Release, text: Sofort Quick Release.}
   - {titel: Kokosmilch einrühren, text: 150 ml Kokosmilch einrühren.}
   - {titel: Miso einrühren, text: 50 g Miso einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

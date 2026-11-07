@@ -27,4 +27,5 @@ schritte:
   - {titel: "Vorheizen", text: "OptiGrill mit Backschale im manuellen Modus auf 200 °C vorheizen."}
   - {titel: "Backen", text: "Teig in die Backschale gießen, glattstreichen, Grill schließen und 15 Minuten backen.", timer: 900}
 
+gesichtet: false
 ---

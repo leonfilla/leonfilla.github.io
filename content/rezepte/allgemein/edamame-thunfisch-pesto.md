@@ -29,6 +29,7 @@ schritte:
     text: Edamame, Thunfisch, Knoblauch, 40 g Walnüsse, 2 EL Olivenöl und 1 EL Zitronensaft in den Mixer geben.
   - titel: Mixen
     text: Auf hoher Stufe mixen und dabei 150 ml heißes Nudelwasser zugießen, bis die Sauce sämig ist.
+gesichtet: false
 ---
 
 ## Warum so

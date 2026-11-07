@@ -54,6 +54,7 @@ schritte:
 - titel: Backen
   text: Direkt aus dem Kühlschrank in den auf 190 °C vorgeheizten Ofen schieben und 25 Minuten backen.
   timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

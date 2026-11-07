@@ -35,4 +35,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, Low, 5 Minuten.", timer: 300}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Ruhen, text: "3 Minuten im Topf ruhen lassen, dann vorsichtig schöpfen.", timer: 180}
+gesichtet: false
 ---

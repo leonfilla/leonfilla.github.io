@@ -30,6 +30,7 @@ schritte:
     text: 30 g Proteinpulver zügig mit dem Schneebesen glatt einrühren.
   - titel: Mango unterheben
     text: 100 g gefrorene Mango direkt unterheben.
+gesichtet: false
 ---
 
 ## Warum so

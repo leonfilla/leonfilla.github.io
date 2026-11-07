@@ -32,6 +32,7 @@ schritte:
     text: "80 g TK-Banane (in Scheiben) zuletzt obenauf geben."
   - titel: Mixen
     text: Mit dem Smoothie-Programm mixen.
+gesichtet: false
 ---
 
 ## Warum so

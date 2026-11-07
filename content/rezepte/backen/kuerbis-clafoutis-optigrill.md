@@ -27,6 +27,7 @@ schritte:
   - {titel: Teig mixen, text: "3 Eier, 120 ml Milch, 80 g Mehl und 30 g Zucker auf Stufe 3 15 Sekunden mixen.", timer: 15}
   - {titel: Eingießen, text: Teig in die heiße Backschale gießen und die Kürbiswürfel darin verteilen.}
   - {titel: Backen, text: "Grill schließen und 20 Minuten backen, bis die Masse gestockt und gebräunt ist.", timer: 1200}
+gesichtet: false
 ---
 
 ## Warum so

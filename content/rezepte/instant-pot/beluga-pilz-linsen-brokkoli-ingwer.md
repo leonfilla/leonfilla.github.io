@@ -41,6 +41,7 @@ schritte:
     timer: 300
   - titel: Würzen
     text: 120 g Misopaste und 20 ml Sojasauce einrühren.
+gesichtet: false
 ---
 
 ## Warum so

@@ -33,6 +33,7 @@ schritte:
     text: Steam, Low Pressure, 0 Minuten – das Gerät schaltet ab, sobald der Druck erreicht ist.
   - titel: Schnell ablassen
     text: Sofort Quick Release, Gitter herausnehmen und den Brokkoli unter das Curry heben.
+gesichtet: false
 ---
 
 ## Warum so

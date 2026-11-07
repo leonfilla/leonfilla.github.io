@@ -21,6 +21,7 @@ schritte:
 - {titel: Creme schlagen, text: 'Sahne und Mascarpone mit dem Handmixer steif schlagen, Espresso kurz unterrühren.'}
 - {titel: Sticks rösten, text: Brot in 2 cm dicke Streifen schneiden und im OptiGrill (Sandwich-Modus) knusprig rösten.}
 - {titel: Servieren, text: Mit Kakao bestäuben und die Sticks in die Creme dippen.}
+gesichtet: false
 ---
 
 ## Warum so

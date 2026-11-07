@@ -52,6 +52,7 @@ schritte:
 - titel: Auskühlen
   text: Auf dem Blech vollständig auskühlen lassen, dann schneiden.
   timer: 3600
+gesichtet: false
 ---
 
 ## Warum so

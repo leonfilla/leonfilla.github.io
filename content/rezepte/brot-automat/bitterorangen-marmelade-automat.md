@@ -25,6 +25,7 @@ schritte:
   - {titel: "Einfüllen", text: "Knethaken einsetzen. Filets, Saft, Schalenstreifen, Zitronensaft und 250 g Gelierzucker in die Form geben, optional 1 Zimtstange."}
   - {titel: "Programm starten", text: "Programm Marmelade wählen und starten.", timer: 5400}
   - {titel: "Abfüllen", text: "Zimtstange entfernen und die Marmelade in sterilisierte Gläser füllen."}
+gesichtet: false
 ---
 
 ## Warum so

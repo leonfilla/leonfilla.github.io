@@ -26,6 +26,7 @@ schritte:
   - {titel: Einfüllen, text: "Thunfisch, 3 EL Hefeflocken, 1 EL Kapern, 2 EL Sojasauce, 1 EL Olivenöl und Knoblauch in den Mixer geben."}
   - {titel: Nudelwasser zugeben, text: 100 ml heißes Nudelwasser zugießen.}
   - {titel: Mixen, text: "Auf mittlerer bis hoher Stufe zu einer feinen Creme mixen, kräftig pfeffern."}
+gesichtet: false
 ---
 
 ## Warum so

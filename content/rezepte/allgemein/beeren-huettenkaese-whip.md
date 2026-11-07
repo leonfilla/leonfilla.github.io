@@ -22,6 +22,7 @@ schritte:
   - {titel: "Hüttenkäse mixen", text: "200 g Hüttenkäse allein cremig mixen, bis die Körnung komplett verschwunden ist."}
   - {titel: "Beeren zugeben", text: "100 g Beeren, Proteinpulver und Süße zugeben und kurz mixen."}
 
+gesichtet: false
 ---
 
 ## Warum so

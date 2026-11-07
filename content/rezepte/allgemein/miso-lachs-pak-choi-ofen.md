@@ -31,4 +31,5 @@ schritte:
   - {titel: Lachs bestreichen, text: "Filets trocken tupfen, Oberseite mit 80 % der Glasur bestreichen und aufs Backpapier setzen."}
   - {titel: Pak Choi bestreichen, text: Pak Choi danebenlegen und mit der restlichen Glasur bepinseln.}
   - {titel: Garen, text: "Heißluft 180 °C mit Dampfstufe 2, 12 Minuten; Kern des Lachses 48–50 °C.", timer: 720}
+gesichtet: false
 ---

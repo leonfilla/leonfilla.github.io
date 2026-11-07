@@ -43,6 +43,7 @@ schritte:
   - titel: Backen
     text: Etwa 20 Minuten backen, bis der Käse goldbraun ist.
     timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

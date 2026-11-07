@@ -35,6 +35,7 @@ schritte:
   - {titel: "Belegen", text: "300 g Rhabarber längs halbieren, auf dem Teig anordnen und mit 20 g Zucker bestreuen."}
   - {titel: "Backen", text: "Bei 180 °C Intensivhitze 45 Minuten backen.", timer: 2700}
 
+gesichtet: false
 ---
 
 ## Warum so

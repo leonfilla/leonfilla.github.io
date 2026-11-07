@@ -31,6 +31,7 @@ schritte:
 - titel: Aushärten
   text: Masse auf den Boden gießen und mindestens 8 Stunden kühlen.
   timer: 28800
+gesichtet: false
 ---
 
 ## Warum so

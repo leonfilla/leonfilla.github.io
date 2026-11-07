@@ -25,6 +25,7 @@ schritte:
   - {titel: Reduzieren, text: Auf mittlere Stufe schalten und unter Rühren 15 Minuten sirupartig einkochen., timer: 900}
   - {titel: Binden, text: "8 g Pfeilwurz mit 20 ml kaltem Wasser anrühren, einrühren und 1 Minute binden lassen.", timer: 60}
   - {titel: Pfeffern, text: Mit 2 g Pfeffer abschmecken.}
+gesichtet: false
 ---
 
 ## Varianten

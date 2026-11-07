@@ -25,6 +25,7 @@ schritte:
   - {titel: Ausflocken, text: "Säurelösung tropfenweise zugeben, bis pH 5,9–6,0 erreicht ist; sobald Flocken aufsteigen, nicht mehr bewegen."}
   - {titel: Ruhen, text: 20 Minuten ruhen lassen., timer: 1200}
   - {titel: Abschöpfen, text: Flocken mit der Schaumkelle abheben und im feinen Sieb abtropfen lassen.}
+gesichtet: false
 ---
 
 ## Warum so

@@ -31,6 +31,7 @@ schritte:
   - {titel: "Rhabarber unterheben", text: "300 g Rhabarberwürfel unterheben und in die Form füllen."}
   - {titel: "Backen", text: "Bei 170 °C Heißluft mit mittlerem Dampfstoß 35 Minuten backen, bis die Oberfläche stockt und leicht bräunt.", timer: 2100}
 
+gesichtet: false
 ---
 
 ## Warum so

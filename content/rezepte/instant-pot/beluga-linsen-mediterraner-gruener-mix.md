@@ -41,6 +41,7 @@ schritte:
   - {titel: Gemüse einrühren, text: "Je 100 g Spinat, Brokkoli, Erbsen, Bohnen und Edamame einrühren."}
   - {titel: Warmhalten, text: Deckel auflegen und 5 Minuten auf Keep Warm garen., timer: 300}
   - {titel: Fertigstellen, text: "5 EL Olivenöl und 4 EL Kräuter unterheben, mit Salz und Pfeffer abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -33,6 +33,7 @@ schritte:
   - {titel: "Unterheben", text: "Nüsse, 150 g Dinkelmehl und 10 g Backpulver unterheben, dann die Apfelwürfel von Hand einmischen. In die Silikonform füllen."}
   - {titel: "Backen", text: "4D-Heißluft 170 °C mit 90 W Mikrowelle 20 Minuten backen; bei 92 °C Kerntemperatur herausnehmen.", timer: 1200}
 
+gesichtet: false
 ---
 
 ## Warum so

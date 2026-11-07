@@ -36,4 +36,5 @@ schritte:
   - {titel: Äpfel anrösten, text: 10 g Butter in der heißen Pfanne schmelzen und die Apfelspalten 2 Minuten anrösten., timer: 120}
   - {titel: Backen, text: "Teig darübergießen und 15 Minuten backen, bis der Kern über 85 °C hat.", timer: 900}
   - {titel: Zerreißen, text: Mit zwei Gabeln zerreißen und sofort servieren.}
+gesichtet: false
 ---

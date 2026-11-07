@@ -37,4 +37,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 12 Minuten.", timer: 720}
   - {titel: Natural Release, text: 15 Minuten Natural Release., timer: 900}
   - {titel: Anrichten, text: Portionieren und mit 50 g Hanfsamen bestreuen.}
+gesichtet: false
 ---

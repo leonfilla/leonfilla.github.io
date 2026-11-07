@@ -29,6 +29,7 @@ schritte:
   - {titel: Erdbeeren erwärmen, text: Parallel 400 g Erdbeeren mit 20 g Zucker in einer Pfanne erwärmen.}
   - {titel: Glace einkochen, text: "Sobald Saft austritt, 10 ml Balsamico zugeben und 4 Minuten sirupartig einkochen.", timer: 240}
   - {titel: Anrichten, text: Polenta anrichten und mit der Glace überziehen.}
+gesichtet: false
 ---
 
 ## Warum so

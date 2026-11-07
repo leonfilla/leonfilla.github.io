@@ -32,6 +32,7 @@ schritte:
   - titel: Mixen
     text: "60 Sekunden auf maximaler Drehzahl mixen, bis die Haferflocken vollständig pulverisiert sind."
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

@@ -37,4 +37,5 @@ schritte:
   - {titel: "Panko streuen", text: "100 g Panko gleichmäßig darüber verteilen."}
   - {titel: "Backen", text: "20 Minuten backen, bis die Panko-Kruste knusprig ist.", timer: 1200}
 
+gesichtet: false
 ---

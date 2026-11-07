@@ -28,6 +28,7 @@ schritte:
   - {titel: Marinieren, text: "Lachs in 1,5-cm-Würfel schneiden, je 100 g mit 30 g Limettensaft, 1,5 g Salz und Chili mischen."}
   - {titel: Ziehen lassen, text: 5 Minuten ziehen lassen., timer: 300}
   - {titel: Anrichten, text: "Zwiebeln abtropfen und unterheben, Süßkartoffel in 5-mm-Scheiben dazu servieren."}
+gesichtet: false
 ---
 
 ## Warum so

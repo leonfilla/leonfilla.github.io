@@ -27,6 +27,7 @@ schritte:
   - {titel: "Einfüllen", text: "Äpfel, 50 g Rohrohrzucker, 1 EL Zitronensaft, 1 EL Wasser, 1 Zimtstange und ½ TL Zimt in die Form geben."}
   - {titel: "Programm starten", text: "Kompott (Menü 29) wählen, Zeit auf 50–60 Minuten stellen und starten.", timer: 3300}
   - {titel: "Abfüllen", text: "Heißes Kompott umrühren und in Schalen oder Gläser füllen."}
+gesichtet: false
 ---
 
 ## Warum so

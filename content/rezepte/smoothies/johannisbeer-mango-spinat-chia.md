@@ -34,6 +34,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "12 g Chiasamen und 22 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Schwarze Johannisbeeren, 130 g TK-Mango und 55 g TK-Blattspinat zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

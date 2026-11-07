@@ -30,6 +30,7 @@ schritte:
 - {titel: Füllen und backen, text: 'Käsemasse in die Mulden gießen und 12–15 Minuten backen, bis der Rand fest ist und die Mitte leicht nachschwingt.', timer: 810}
 - {titel: Ruhen lassen, text: 5 Minuten auf einem Gitter ruhen lassen., timer: 300}
 - {titel: Anrichten, text: Abgekühlte Fruchtsauce mittig auf die Käsemasse geben.}
+gesichtet: false
 ---
 
 ## Warum so

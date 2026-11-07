@@ -25,6 +25,7 @@ schritte:
 - titel: Brühen
   text: Brühvorgang starten und den Tee danach in ein vorgewärmtes Gefäß umfüllen.
   timer: 210
+gesichtet: false
 ---
 
 ## Warum so

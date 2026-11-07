@@ -27,6 +27,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "1 Vanilleextrakt und 30 g Pflanzliches Proteinpulver auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "25 g Cashewmus einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

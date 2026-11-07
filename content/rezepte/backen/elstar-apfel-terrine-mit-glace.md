@@ -42,6 +42,7 @@ schritte:
     text: Flüssigkeit mit 30 g Butter und 20 g Honig bei hoher Hitze einkochen, bis sie 108 °C erreicht und sirupartig ist.
   - titel: Glasieren
     text: Terrine stürzen, in Portionen schneiden und mit der Glace bestreichen.
+gesichtet: false
 ---
 
 ## Warum so

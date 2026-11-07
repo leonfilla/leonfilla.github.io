@@ -27,6 +27,7 @@ schritte:
   - {titel: "Einfüllen", text: "400 ml Rosentee, 250 ml Himbeersaft, 400 g Gelierzucker und 2 EL Zitronensaft in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Marmelade wählen und starten.", timer: 4800}
   - {titel: "Abfüllen", text: "Heißes Gelee in sterilisierte Gläser füllen und verschließen."}
+gesichtet: false
 ---
 
 ## Warum so

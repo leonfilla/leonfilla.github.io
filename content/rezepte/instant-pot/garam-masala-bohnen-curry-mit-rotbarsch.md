@@ -44,6 +44,7 @@ schritte:
   - titel: Fisch garziehen
     text: Rotbarsch ins Curry drücken, Keep Warm 12 Minuten.
     timer: 720
+gesichtet: false
 ---
 
 ## Warum so

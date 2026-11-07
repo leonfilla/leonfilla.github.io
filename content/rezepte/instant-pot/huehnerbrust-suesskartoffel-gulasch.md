@@ -34,6 +34,7 @@ schritte:
   - {titel: Befüllen, text: "Fleisch, 300 g Süßkartoffel und 6 g Salz zugeben."}
   - {titel: Druckgaren, text: "Pressure Cook, High, 6 Minuten.", timer: 360}
   - {titel: Quick Release, text: Quick Release; Kern des größten Stücks mindestens 74 °C.}
+gesichtet: false
 ---
 
 ## Varianten

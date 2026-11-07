@@ -32,6 +32,7 @@ schritte:
   - {titel: Belegen, text: 400 g gefrorene Erdbeeren gleichmäßig auf der Oberfläche verteilen.}
   - {titel: Backen, text: "Heißluft 180 °C mit Mikrowelle 180 W, 20 Minuten.", timer: 1200}
   - {titel: Ruhen, text: 5 Minuten stabilisieren lassen., timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

@@ -10,6 +10,7 @@ importiert: true
 fokus: Ablaufplan ohne eigenes Rezept – wie ein mildes Brot und ein Rosinenbrot nacheinander durch die Instant-Pot-Gärung laufen, wenn nur ein Teig hineinpasst.
 geraete: [instant-pot-pro-max, apera-ph60f, bosch-hng978]
 tags: [Sauerteig, Planung]
+gesichtet: false
 ---
 
 ## Notizen

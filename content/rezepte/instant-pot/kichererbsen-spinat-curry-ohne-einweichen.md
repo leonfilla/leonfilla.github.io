@@ -32,6 +32,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 45 Minuten.", timer: 2700}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Fertigstellen, text: "Sauté (Low), 300 g Spinat, 200 ml Kokosmilch und 8 g Salz unterrühren und 5 Minuten erhitzen.", timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

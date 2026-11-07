@@ -38,6 +38,7 @@ schritte:
   - {titel: "Backen", text: "Auf mittlerer Schiene 12–15 Minuten backen, bis der Rand gestockt und das Zentrum noch leicht viskos ist.", timer: 780}
   - {titel: "Ruhen lassen", text: "5 Minuten bei Raumtemperatur ruhen lassen.", timer: 300}
   - {titel: "Anrichten", text: "Abgekühlte Fruchtsauce mittig auf den Cheesecake geben."}
+gesichtet: false
 ---
 
 ## Warum so

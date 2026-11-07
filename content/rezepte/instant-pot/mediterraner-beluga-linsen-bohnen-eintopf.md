@@ -37,4 +37,5 @@ schritte:
   - {titel: Natural Release, text: "5 Minuten Natural Release, Topf nicht berühren.", timer: 300}
   - {titel: Restdruck ablassen, text: Restdruck per Quick Release ablassen.}
   - {titel: Öl einrühren, text: 40 g Öl unterrühren.}
+gesichtet: false
 ---

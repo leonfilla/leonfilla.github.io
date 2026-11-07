@@ -31,6 +31,7 @@ schritte:
 - titel: Dämpfen
   text: Teig in Silikonformen füllen und 15 Minuten dämpfen, bis die Kerntemperatur 90 °C erreicht.
   timer: 900
+gesichtet: false
 ---
 
 ## Warum so

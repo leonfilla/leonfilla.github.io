@@ -28,6 +28,7 @@ schritte:
     text: "20 g Cashewmus, 60 g Süßkartoffel (gekocht und kalt) und 15 g Leinsamen (geschrotet) zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

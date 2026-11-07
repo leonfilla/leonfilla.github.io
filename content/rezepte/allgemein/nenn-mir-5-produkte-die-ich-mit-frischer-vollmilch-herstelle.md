@@ -36,6 +36,7 @@ schritte:
     timer: 3600
   - titel: Kühlen
     text: Im Kühlschrank auf 4 °C abkühlen.
+gesichtet: false
 ---
 
 ## Warum so

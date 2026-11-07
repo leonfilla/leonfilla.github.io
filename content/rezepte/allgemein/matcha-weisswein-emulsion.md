@@ -27,6 +27,7 @@ schritte:
     timer: 20
   - titel: Wein einrühren
     text: 200 g kalten Wein langsam unter sanftem Rühren einlaufen lassen, über Eis servieren.
+gesichtet: false
 ---
 
 ## Warum so

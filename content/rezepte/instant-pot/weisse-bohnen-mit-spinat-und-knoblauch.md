@@ -32,4 +32,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Verrühren, text: "Rühren, bis der Spinatblock zerfallen ist, dann 2 EL Olivenöl und Muskat einrühren."}
+gesichtet: false
 ---

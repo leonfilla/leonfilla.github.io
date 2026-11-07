@@ -26,6 +26,7 @@ schritte:
   - {titel: "Setzen lassen", text: "Schaum 1 Minute ruhen lassen.", timer: 60}
   - {titel: "Anrichten", text: "180 g Grauburgunder ins Glas gießen und den Schaum mit einem Löffel abheben und auflegen."}
 
+gesichtet: false
 ---
 
 ## Warum so

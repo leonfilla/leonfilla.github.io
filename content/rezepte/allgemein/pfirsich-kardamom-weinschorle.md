@@ -29,6 +29,7 @@ schritte:
     timer: 45
   - titel: Auffüllen
     text: Gläser zur Hälfte mit der Emulsion füllen, mit Sprudelwasser auffüllen und sanft umrühren.
+gesichtet: false
 ---
 
 ## Warum so

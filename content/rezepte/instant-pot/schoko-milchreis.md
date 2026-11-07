@@ -39,6 +39,7 @@ schritte:
     timer: 600
   - titel: Schokolade schmelzen
     text: Gehackte Schokolade in den heißen Reis geben und rühren, bis sie vollständig geschmolzen ist.
+gesichtet: false
 ---
 
 ## Warum so

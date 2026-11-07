@@ -29,6 +29,7 @@ schritte:
 - titel: Mixen
   text: Beutelinhalt mit Saft in ein hohes Gefäß geben, 250 ml Milch und 40 g Proteinpulver zugeben und mit dem Stabmixer homogenisieren.
   timer: 30
+gesichtet: false
 ---
 
 ## Warum so

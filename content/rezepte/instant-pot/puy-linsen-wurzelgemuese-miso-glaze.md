@@ -33,6 +33,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Essig einrühren, text: 15 ml Apfelessig einrühren.}
   - {titel: Miso einrühren, text: "Unter 80 °C 50 g Miso einrühren, bis ein Glaze entsteht."}
+gesichtet: false
 ---
 
 ## Warum so

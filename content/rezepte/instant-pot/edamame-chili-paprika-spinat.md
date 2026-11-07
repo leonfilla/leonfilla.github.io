@@ -38,6 +38,7 @@ schritte:
   - titel: Spinat ziehen lassen
     text: 200 g TK-Spinat einrühren, Deckel auflegen und 4 Minuten in der Resthitze ziehen lassen.
     timer: 240
+gesichtet: false
 ---
 
 ## Warum so

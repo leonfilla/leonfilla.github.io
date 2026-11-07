@@ -44,6 +44,7 @@ schritte:
 - titel: Öl einmixen
   text: Öl in den letzten Sekunden bei laufendem Motor zugeben.
   timer: 10
+gesichtet: false
 ---
 
 ## Warum so

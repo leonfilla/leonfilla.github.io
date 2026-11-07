@@ -20,6 +20,7 @@ schritte:
 - {titel: Einschichten, text: Brotwürfel und Apfel in die Auflaufform geben.}
 - {titel: Übergießen, text: Ei und 150 ml Milch verquirlen und darübergießen.}
 - {titel: Garen, text: Im Bosch 4D-Heißluft 170 °C mit Mikrowelle 360 W kombinieren und 10–12 Minuten garen., timer: 660}
+gesichtet: false
 ---
 
 ## Warum so

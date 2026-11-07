@@ -26,6 +26,7 @@ schritte:
     text: Tee, 180 g Wein und 20 g Agavendicksaft ins Milchkännchen geben.
   - titel: Erhitzen
     text: Mit der Dampflanze ohne Lufteinzug erhitzen, bis das Thermometer 62 °C zeigt, sofort servieren.
+gesichtet: false
 ---
 
 ## Warum so

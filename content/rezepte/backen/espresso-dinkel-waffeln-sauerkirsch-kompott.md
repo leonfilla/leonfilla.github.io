@@ -25,6 +25,7 @@ schritte:
   - {titel: "Vorheizen", text: "OptiGrill mit Waffelplatten auf 210 °C vorheizen."}
   - {titel: "Kompott", text: "Sauerkirschen in einer Pfanne auf hoher Stufe erhitzen, bis sie zerfallen und der Saft andickt."}
   - {titel: "Backen", text: "Teig portionsweise 4 Minuten backen und mit dem Kompott servieren.", timer: 240}
+gesichtet: false
 ---
 
 ## Warum so

@@ -33,6 +33,7 @@ schritte:
     text: "150 g Eiswürfel ins Glas, 30 g Reduktion zugeben, mit 150 ml Tonic aufgießen."
   - titel: Espresso
     text: Doppelten Espresso (ca. 40 ml) direkt auf das Tonic beziehen.
+gesichtet: false
 ---
 
 ## Warum so

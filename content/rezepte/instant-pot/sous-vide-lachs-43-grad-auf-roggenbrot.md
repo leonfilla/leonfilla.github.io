@@ -40,6 +40,7 @@ schritte:
     timer: 240
   - titel: Belegen
     text: Brot mit 150 g Quark bestreichen und den Lachs direkt aus dem Beutel darauf zerfallen lassen.
+gesichtet: false
 ---
 
 ## Warum so

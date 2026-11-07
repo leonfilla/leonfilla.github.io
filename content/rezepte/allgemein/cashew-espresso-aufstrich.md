@@ -31,6 +31,7 @@ schritte:
     timer: 45
   - titel: Abfüllen
     text: "Abfüllen; die Masse zieht beim Abkühlen an."
+gesichtet: false
 ---
 
 ## Warum so

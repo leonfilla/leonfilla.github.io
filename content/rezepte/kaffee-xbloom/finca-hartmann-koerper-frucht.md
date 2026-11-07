@@ -24,6 +24,7 @@ xbloom:
     - {phase: "Guss 3", menge: 60, temp: 92, fluss: 3.2, pause: 15, muster: "kreis", vib_vor: false, vib_nach: false}
     - {phase: "Guss 4", menge: 54, temp: 90, fluss: 3.0, pause: 0, muster: "zentral", vib_vor: false, vib_nach: false}
 bohne: finca-hartmann
+gesichtet: false
 ---
 
 ## Warum so

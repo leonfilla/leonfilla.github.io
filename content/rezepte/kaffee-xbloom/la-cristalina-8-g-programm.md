@@ -23,6 +23,7 @@ xbloom:
   - {phase: Guss 3, menge: 36, temp: 88, fluss: 3.0, pause: 25, muster: spirale}
   - {phase: Guss 4, menge: 32, temp: 85, fluss: 3.0, pause: 0, muster: kreis}
 bohne: schamong-la-cristalina-decaf
+gesichtet: false
 ---
 
 ## Stellschrauben

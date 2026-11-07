@@ -48,6 +48,7 @@ schritte:
 - titel: Stocken
   text: Eischaum in einer beschichteten Pfanne bei niedriger Hitze unter ständigem Rühren 2 Minuten stocken lassen. Brot toasten und belegen.
   timer: 120
+gesichtet: false
 ---
 
 ## Warum so

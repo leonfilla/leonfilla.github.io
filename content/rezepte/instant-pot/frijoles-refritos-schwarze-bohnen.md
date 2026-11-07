@@ -29,6 +29,7 @@ schritte:
   - {titel: "Zwiebeln", text: "Olivenöl in einer Pfanne erhitzen (Induktion Stufe 7), Zwiebeln 5 Minuten glasig schwitzen.", timer: 300}
   - {titel: "Pürieren", text: "Bohnen, Kochwasser und Gewürze dazugeben und mit dem Stabmixer zu etwa 80 % pürieren."}
   - {titel: "Anbraten", text: "Unter Rühren 10 Minuten braten, bis sich die Masse vom Pfannenboden löst.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

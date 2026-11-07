@@ -25,4 +25,5 @@ schritte:
   - {titel: Bohnen spülen, text: Bohnen im Sieb unter fließendem Wasser gründlich abspülen.}
   - {titel: Pürieren, text: Alle Zutaten auf höchster Stufe 1–2 Minuten glatt mixen., timer: 90}
   - {titel: Servieren, text: Direkt über heiße Nudeln geben oder im Instant Pot kurz auf Keep Warm erwärmen.}
+gesichtet: false
 ---

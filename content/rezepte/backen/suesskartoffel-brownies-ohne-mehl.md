@@ -32,6 +32,7 @@ schritte:
   - {titel: "Backen", text: "25–30 Minuten backen.", timer: 1650}
   - {titel: "Auskühlen", text: "Vollständig auskühlen lassen, erst dann werden sie fest."}
 
+gesichtet: false
 ---
 
 ## Warum so

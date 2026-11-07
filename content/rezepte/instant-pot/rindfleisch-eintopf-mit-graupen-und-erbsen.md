@@ -39,6 +39,7 @@ schritte:
   - {titel: Natural Release, text: "15 Minuten Natural Release, dann Restdruck ablassen.", timer: 900}
   - {titel: Erbsen erhitzen, text: "Sauté (Low), 250 g Erbsen einrühren und 2 Minuten erhitzen.", timer: 120}
   - {titel: Lorbeer entfernen, text: Lorbeerblätter herausnehmen.}
+gesichtet: false
 ---
 
 ## Warum so

@@ -29,6 +29,7 @@ schritte:
   - {titel: "Druckgaren", text: "Pressure Cook, High, 10 Minuten.", timer: 600}
   - {titel: "Druck ablassen", text: "Quick Release."}
   - {titel: "Servieren", text: "Nüsse unterheben und sofort servieren."}
+gesichtet: false
 ---
 
 ## Warum so

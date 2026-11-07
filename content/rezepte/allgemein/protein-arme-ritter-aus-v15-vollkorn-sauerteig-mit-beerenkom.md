@@ -38,6 +38,7 @@ schritte:
     timer: 360
   - titel: Anrichten
     text: Kompott darübergeben und 15 g gehackte Walnüsse aufstreuen.
+gesichtet: false
 ---
 
 ## Warum so

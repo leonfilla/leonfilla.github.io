@@ -31,6 +31,7 @@ schritte:
   - {titel: "Füllen", text: "Mit Kimchi und Cheddar füllen und zu Kugeln verschließen."}
   - {titel: "Ruhen lassen", text: "Auf Backpapierquadrate setzen und abgedeckt ruhen lassen.", timer: 1200}
   - {titel: "Dämpfen", text: "Über kochendem Wasser im Dämpfeinsatz dämpfen.", timer: 900}
+gesichtet: false
 ---
 
 ## Warum so

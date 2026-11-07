@@ -29,6 +29,7 @@ schritte:
     text: Über 3 große Eiswürfel gießen.
   - titel: Aufgießen
     text: 150 g Grauburgunder zugießen und servieren.
+gesichtet: false
 ---
 
 ## Warum so

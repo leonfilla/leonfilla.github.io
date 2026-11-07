@@ -29,6 +29,7 @@ schritte:
   timer: 3
 - titel: Aufgießen
   text: Mit 150 g Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

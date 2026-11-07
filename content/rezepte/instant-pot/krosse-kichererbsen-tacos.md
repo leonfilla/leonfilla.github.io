@@ -39,6 +39,7 @@ schritte:
   - {titel: Rösten, text: Auf einem Blech bei 4D Heißluft 200 °C mit Mikrowelle 90 W 15 Minuten rösten., timer: 900}
   - {titel: Avocadocreme, text: Währenddessen Avocados mit 20 g Limettensaft glatt pürieren.}
   - {titel: Füllen, text: "Shells kurz im Ofen anwärmen, mit Creme bestreichen und mit den heißen Kichererbsen füllen."}
+gesichtet: false
 ---
 
 ## Warum so

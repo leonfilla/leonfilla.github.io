@@ -33,6 +33,7 @@ schritte:
   - {titel: "Rand umklappen", text: "Teigränder rustikal über den Rhabarber klappen."}
   - {titel: "Backen", text: "Bei 190 °C Ober-/Unterhitze 30 Minuten backen.", timer: 1800}
 
+gesichtet: false
 ---
 
 ## Warum so

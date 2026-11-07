@@ -55,6 +55,7 @@ schritte:
   - titel: Zerrupfen
     text: Mit zwei Gabeln in grobe Stücke zerrupfen. Optional mit ein paar Tropfen Rapsöl 5 Minuten unter den Grill.
     timer: 300
+gesichtet: false
 ---
 
 ## Warum so

@@ -24,6 +24,7 @@ xbloom:
   - {phase: Bloom, menge: 48, temp: 87, fluss: 3.0, pause: 40}
   - {phase: Guss 2, menge: 100, temp: 86, fluss: 3.3, pause: 35, vib_vor: false, vib_nach: true}
   - {phase: Guss 3, menge: 100, temp: 86, fluss: 3.3, pause: 0, vib_vor: false, vib_nach: false}
+gesichtet: false
 ---
 
 ## Warum so

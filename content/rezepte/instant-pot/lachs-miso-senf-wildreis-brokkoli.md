@@ -36,6 +36,7 @@ schritte:
   - {titel: Natural Release, text: 10 Minuten Natural Release., timer: 600}
   - {titel: Bestreichen, text: "Lachs mit 40 g Miso und 20 g Senf bestreichen, mit den Brokkoliröschen auf ein mikrowellengeeignetes Blech legen."}
   - {titel: Kombigaren, text: "Heißluft 180 °C mit Dampfstufe 2 und Mikrowelle 360 W, 8 Minuten; Lachs-Kern 52 °C.", timer: 480}
+gesichtet: false
 ---
 
 ## Warum so

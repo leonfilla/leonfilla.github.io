@@ -34,6 +34,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "15 g Hanfsamen, geschält und 25 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "110 g TK-Schwarze Johannisbeeren, 130 g TK-Pfirsich und 70 g TK-Karotte, gegart zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

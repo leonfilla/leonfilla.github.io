@@ -29,6 +29,7 @@ schritte:
   - titel: Emulgieren
     text: "30 g Kakaobutter schmelzen und mit 4 g Matcha und 60 g Puderzucker zugeben, 1 Minute auf höchster Stufe mixen."
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

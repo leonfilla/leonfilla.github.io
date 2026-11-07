@@ -41,6 +41,7 @@ schritte:
     text: Schenkel herausnehmen, Haut und Knochen entfernen, Fleisch mit zwei Gabeln zerzupfen und zurückgeben.
   - titel: Abschmecken
     text: Mit 40 g Sojasauce abschmecken und mit 50 g Frühlingszwiebeln servieren.
+gesichtet: false
 ---
 
 ## Warum so

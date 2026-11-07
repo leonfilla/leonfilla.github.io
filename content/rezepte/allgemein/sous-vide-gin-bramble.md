@@ -38,6 +38,7 @@ schritte:
     text: In einen Tumbler mit Crushed Ice abseihen.
   - titel: Drizzle
     text: "20 ml Brombeer-Essenz langsam über das Eis gießen."
+gesichtet: false
 ---
 
 ## Warum so

@@ -22,6 +22,7 @@ xbloom:
     - {phase: "Guss 3", menge: 70, temp: 94, muster: "spirale"}
     - {phase: "Guss 4", menge: 70, temp: 94, muster: "zentral"}
 bohne: schamong-los-duran
+gesichtet: false
 ---
 
 ## Warum so

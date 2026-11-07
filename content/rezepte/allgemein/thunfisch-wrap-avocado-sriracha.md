@@ -28,6 +28,7 @@ schritte:
     text: 600 g abgetropften Thunfisch unterheben.
   - titel: Rollen
     text: Wraps mit 100 g Spinat auslegen, Thunfischmasse mittig daraufgeben und fest rollen.
+gesichtet: false
 ---
 
 ## Warum so

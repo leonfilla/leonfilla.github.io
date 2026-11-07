@@ -35,6 +35,7 @@ schritte:
   - {titel: "Ausstechen", text: "Teig ausrollen und 8 Kreise ausstechen; Ofen auf 220 °C Ober-/Unterhitze vorheizen."}
   - {titel: "Füllen", text: "Füllung auflegen, Kanten umschlagen und versiegeln."}
   - {titel: "Backen", text: "Mit starkem Dampfstoß 15 Minuten backen.", timer: 900}
+gesichtet: false
 ---
 
 ## Warum so

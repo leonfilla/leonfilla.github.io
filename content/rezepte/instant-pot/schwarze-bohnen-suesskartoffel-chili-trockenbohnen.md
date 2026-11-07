@@ -34,6 +34,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 35 Minuten.", timer: 2100}
   - {titel: Natural Release, text: 10 Minuten Natural Release., timer: 600}
   - {titel: Binden, text: Umrühren – die zerfallende Süßkartoffel bindet die Flüssigkeit.}
+gesichtet: false
 ---
 
 ## Warum so

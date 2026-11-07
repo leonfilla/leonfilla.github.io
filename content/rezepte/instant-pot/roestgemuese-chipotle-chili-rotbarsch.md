@@ -46,6 +46,7 @@ schritte:
   - titel: Fisch garziehen
     text: "475 g TK-Rotbarsch einlegen, Keep Warm."
     timer: 720
+gesichtet: false
 ---
 
 ## Warum so

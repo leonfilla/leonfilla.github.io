@@ -34,6 +34,7 @@ schritte:
 - {titel: Brot toasten, text: 4 Scheiben beidseitig hauchdünn mit 15 g Olivenöl bestreichen und 2–3 Minuten grillen; Deckel nur mit Eigengewicht. Danach auf ein Gitter legen., timer: 150}
 - {titel: Rührei garen, text: '15 g Butter bei schwacher Hitze schmelzen, Eimasse angießen und mit dem Spatel ständig vom Rand zur Mitte schieben. Bei zwei Dritteln Stockung vom Herd ziehen und mit Restwärme fertig rühren (72–75 °C).', timer: 240}
 - {titel: Schichten, text: 'Avocado auf die Scheiben streichen, Rührei darauf, Lachs locker auflegen. Mit Kapern, Kräutern, Zitronenzeste, 1 g Flockensalz und Pfeffer abschließen und sofort essen.'}
+gesichtet: false
 ---
 
 ## Warum so

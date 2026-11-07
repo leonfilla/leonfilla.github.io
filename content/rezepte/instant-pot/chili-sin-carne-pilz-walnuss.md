@@ -49,6 +49,7 @@ schritte:
   - titel: Einköcheln
     text: Bohnen unterheben und bei niedriger Hitze 10 Minuten köcheln.
     timer: 600
+gesichtet: false
 ---
 
 ## Warum so

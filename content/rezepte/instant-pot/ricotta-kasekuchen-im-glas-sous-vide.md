@@ -39,6 +39,7 @@ schritte:
 - titel: Kühlen
   text: Gläser entnehmen, auf Raumtemperatur abkühlen lassen und mindestens 2 Stunden kühlen.
   timer: 7200
+gesichtet: false
 ---
 
 ## Warum so

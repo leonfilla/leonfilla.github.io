@@ -33,4 +33,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, Low, 1 Minute.", timer: 60}
   - {titel: Quick Release, text: Sofort Quick Release.}
   - {titel: Abschmecken, text: "2 EL Öl und 2 EL Kräuter einrühren, mit Salz und Pfeffer abschmecken."}
+gesichtet: false
 ---

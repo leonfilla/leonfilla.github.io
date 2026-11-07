@@ -23,6 +23,7 @@ zutaten:
 schritte:
   - titel: Rühren
     text: "3 g Matcha mit 40 ml Wasser (80 °C) erst langsam, dann schnell mit dem Chasen rühren, bis eine dickflüssige Emulsion entsteht."
+gesichtet: false
 ---
 
 ## Warum so

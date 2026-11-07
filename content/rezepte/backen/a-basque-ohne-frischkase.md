@@ -30,6 +30,7 @@ schritte:
 - titel: Backen
   text: In die Form füllen und bei 230 °C backen, bis die Oberfläche dunkel karamellisiert und die Mitte noch wabbelig ist.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

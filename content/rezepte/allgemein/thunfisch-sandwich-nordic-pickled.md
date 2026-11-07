@@ -30,6 +30,7 @@ schritte:
   - {titel: "Einlegen", text: "Sud über die Gurkenscheiben gießen und auskühlen lassen.", timer: 1200}
   - {titel: "Bestreichen", text: "30 g Skyr auf das Brot streichen und 100 g Thunfisch auflegen."}
   - {titel: "Toppen", text: "Gurken abtropfen lassen und mit frischem Dill obenauf legen."}
+gesichtet: false
 ---
 
 ## Warum so

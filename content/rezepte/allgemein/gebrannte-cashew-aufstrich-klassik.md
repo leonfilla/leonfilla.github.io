@@ -33,6 +33,7 @@ schritte:
   - {titel: "Auskühlen", text: "Sofort auf Backpapier ausbreiten und vollständig auskühlen lassen.", timer: 900}
   - {titel: "Mixen", text: "Im Mixer auf mittlerer Stufe zu grobem Pulver mahlen, dann auf höchster Stufe 2–4 Minuten zu einem cremigen Aufstrich mixen, dabei mit dem Stößel nachschieben.", timer: 180}
   - {titel: "Abfüllen", text: "In sterilisierte Gläser füllen."}
+gesichtet: false
 ---
 
 ## Warum so

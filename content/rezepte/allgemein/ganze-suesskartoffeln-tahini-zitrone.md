@@ -32,6 +32,7 @@ schritte:
   text: 40 g Tahini, 15 g Zitronensaft und 30 g Wasser in einem hohen Gefäß mit dem Handmixer aufschlagen, bis die Masse von pastös zu cremig-hell wechselt.
 - titel: Anrichten
   text: Kartoffeln längs aufschneiden, das Innere mit einer Gabel auflockern und die Creme daraufgeben.
+gesichtet: false
 ---
 
 ## Warum so

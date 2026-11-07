@@ -39,6 +39,7 @@ schritte:
     text: "150 g TK-Mango und 80 g TK-Karotte (gegart) zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -58,6 +58,7 @@ schritte:
     timer: 180
   - titel: Anrichten
     text: Mit 2 EL Puderzucker bestäuben und sofort servieren, etwa mit Apfelkompott oder Pflaumenröster.
+gesichtet: false
 ---
 
 ## Warum so

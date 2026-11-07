@@ -36,6 +36,7 @@ schritte:
     text: "120 g TK-Sauerkirschen, 110 g TK-Blaubeeren und 55 g TK-Blattspinat zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

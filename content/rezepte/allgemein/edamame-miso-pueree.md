@@ -27,4 +27,5 @@ schritte:
   - titel: Mixen
     text: Edamame mit 20 g Miso, 10 ml Olivenöl, 30 ml Wasser und 5 ml Zitronensaft in den Mixer geben und auf höchster Stufe 45 Sekunden mixen, bei Bedarf mit dem Stößel nachschieben.
     timer: 45
+gesichtet: false
 ---

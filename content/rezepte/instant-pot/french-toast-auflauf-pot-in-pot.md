@@ -35,4 +35,5 @@ schritte:
   - {titel: Einsetzen, text: "250 ml Wasser in den Innentopf gießen, Trivet einsetzen und die Form daraufstellen."}
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 20 Minuten.", timer: 1200}
   - {titel: Natural Release, text: "5 Minuten Natural Release, dann Quick Release.", timer: 300}
+gesichtet: false
 ---

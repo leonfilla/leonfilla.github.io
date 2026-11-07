@@ -27,6 +27,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "30 g Pflanzliches Proteinpulver und Zimt auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "50 g Karotte, in groben Stücken, 30 g Walnüsse und 20 g Medjool-Dattel einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

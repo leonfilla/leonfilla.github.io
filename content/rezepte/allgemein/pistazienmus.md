@@ -38,6 +38,7 @@ schritte:
 - titel: Mixen
   text: Pistazien, 15 g Olivenöl und 1,5 g Salz im Standmixer auf hoher Stufe mixen, dabei Pausen einlegen und nachschieben, bis ein flüssiges Mus entsteht.
   timer: 270
+gesichtet: false
 ---
 
 ## Warum so

@@ -37,6 +37,7 @@ schritte:
   timer: 300
 - titel: Druck ablassen
   text: Quick Release, umrühren und sofort servieren.
+gesichtet: false
 ---
 
 ## Warum so

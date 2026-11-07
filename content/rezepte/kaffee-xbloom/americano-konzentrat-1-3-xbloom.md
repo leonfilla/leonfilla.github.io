@@ -25,6 +25,7 @@ xbloom:
 schritte:
   - titel: Verdünnen
     text: Dripper entfernen und das Konzentrat in der Tasse mit 120–150 ml Heißwasser (ca. 90 °C) aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

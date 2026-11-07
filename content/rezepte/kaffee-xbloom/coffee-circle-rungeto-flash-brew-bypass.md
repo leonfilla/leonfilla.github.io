@@ -29,6 +29,7 @@ xbloom:
   - {phase: Guss 2, menge: 50, temp: 96, fluss: 3.5, pause: 30, muster: spirale, vib_vor: false, vib_nach: true}
   - {phase: Guss 3, menge: 50, temp: 96, fluss: 3.5, pause: 0, muster: kreis, vib_vor: false, vib_nach: true}
 bohne: coffee-circle-rungeto
+gesichtet: false
 ---
 
 ## Warum so

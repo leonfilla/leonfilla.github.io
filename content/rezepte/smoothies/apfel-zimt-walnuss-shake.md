@@ -28,6 +28,7 @@ schritte:
     text: "100 g Apfel (ohne Kerngehäuse), 20 g Walnüsse und 30 g Haferflocken zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

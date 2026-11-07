@@ -30,6 +30,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "40 g Erbsen-Reis-Proteinisolat, neutral (70:30) und 3 g Matcha-Pulver auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "150 g Apfel, entkernt, 50 g Grünkohl, ohne Strunk und 100 g Avocado (Fruchtfleisch) einfüllen."}
   - {titel: "Mixen", text: "70 Sekunden auf höchster Stufe mixen, bis keine Grünkohl-Partikel mehr sichtbar sind.", timer: 70}
+gesichtet: false
 ---
 
 ## Warum so

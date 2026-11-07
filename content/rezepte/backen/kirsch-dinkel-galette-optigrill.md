@@ -28,6 +28,7 @@ schritte:
   - {titel: "Formen", text: "Teig auf Backpapier rund ausrollen, Füllung mittig daraufgeben und den Rand umklappen."}
   - {titel: "Backen", text: "In der OptiGrill-Backschale im manuellen Modus (Orange, 210 °C) 25–30 Minuten backen, bis der Teig gebräunt ist.", timer: 1650}
 
+gesichtet: false
 ---
 
 ## Warum so

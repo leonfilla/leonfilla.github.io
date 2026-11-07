@@ -45,6 +45,7 @@ schritte:
   - titel: Spinat und Zitrone
     text: 150 g Spinat und 25 ml Zitronensaft in die heiße Suppe rühren, etwa 1 Minute ziehen lassen, salzen und pfeffern.
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

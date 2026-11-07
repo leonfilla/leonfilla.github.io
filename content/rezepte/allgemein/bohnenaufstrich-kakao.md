@@ -25,6 +25,7 @@ schritte:
     text: 220 g Bohnen allein pürieren, bis keine Stücke mehr übrig sind.
   - titel: Fertig mixen
     text: Restliche Zutaten zugeben und mixen, bis die Masse glatt ist.
+gesichtet: false
 ---
 
 ## Warum so

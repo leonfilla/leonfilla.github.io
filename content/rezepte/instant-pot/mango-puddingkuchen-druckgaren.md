@@ -44,6 +44,7 @@ schritte:
   timer: 900
 - titel: Servieren
   text: Form entnehmen, Folie entfernen. Warm als Pudding servieren oder 2 Stunden kühlen, bis er schnittfest ist.
+gesichtet: false
 ---
 
 ## Warum so

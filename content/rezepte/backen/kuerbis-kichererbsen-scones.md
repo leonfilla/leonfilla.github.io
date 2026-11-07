@@ -31,6 +31,7 @@ schritte:
   - {titel: "Teig mischen", text: "200 g Kichererbsenmehl, 40 g Olivenöl, 10 g Backpulver, 80 ml Wasser und 5 g Salz zugeben und zu einem bindigen Teig verarbeiten."}
   - {titel: "Portionieren", text: "In 8 Scones teilen; Ofen auf 200 °C 4D-Heißluft vorheizen."}
   - {titel: "Backen", text: "18 Minuten backen, bis die Kruste knusprig ist.", timer: 1080}
+gesichtet: false
 ---
 
 ## Warum so

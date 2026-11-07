@@ -40,4 +40,5 @@ schritte:
   - {titel: "Schichten", text: "Nudeln mit der Sauce mischen, in die Auflaufform geben und mit 150 g Mozzarella abdecken."}
   - {titel: "Backen", text: "20 Minuten backen.", timer: 1200}
 
+gesichtet: false
 ---

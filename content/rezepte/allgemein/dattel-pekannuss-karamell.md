@@ -29,6 +29,7 @@ schritte:
     text: "Datteln samt Einweichwasser, Nüsse und 5 g Vanille im Zerkleinerer zu einer zähen Masse pürieren."
   - titel: Salzen
     text: "3 g Salzflocken mit dem Spatel unterheben, nicht mixen."
+gesichtet: false
 ---
 
 ## Warum so

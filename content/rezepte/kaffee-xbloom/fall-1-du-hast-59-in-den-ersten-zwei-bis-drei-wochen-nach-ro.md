@@ -10,6 +10,7 @@ importiert: true
 fokus: Kein Rezept – wie sich der Mahlgrad 59 nach fünf Wochen Lagerung verschiebt, je nachdem, wie alt die Bohnen beim Einstellen waren.
 geraete: [xbloom-studio]
 tags: [Mahlgrad, Entgasung]
+gesichtet: false
 ---
 
 ## Notizen

@@ -44,6 +44,7 @@ schritte:
     timer: 210
   - titel: Öl
     text: 40 g Olivenöl unterrühren.
+gesichtet: false
 ---
 
 ## Warum so

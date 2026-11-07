@@ -11,6 +11,7 @@ linie: la-cristalina-2026-09-26
 variante: Analyse, erste Fassung
 fokus: 'Keine eigene Rezeptur: erste Herleitung des La-Cristalina-Programms aus dem La-Esperanza-Favoriten; später korrigiert (siehe Faktorenvergleich).'
 bohne: schamong-la-cristalina-decaf
+gesichtet: false
 ---
 
 ## Notizen

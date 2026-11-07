@@ -39,6 +39,7 @@ schritte:
   - {titel: "Druck ablassen", text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: "Abkühlen", text: "Vorsichtig entnehmen und vor dem Anschneiden auf Raumtemperatur abkühlen lassen."}
 
+gesichtet: false
 ---
 
 ## Warum so

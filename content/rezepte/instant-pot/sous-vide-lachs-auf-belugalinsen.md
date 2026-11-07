@@ -41,6 +41,7 @@ schritte:
     timer: 2400
   - titel: Servieren
     text: Lachs auf den warmen Linsen anrichten, optional Kern auf 48–50 °C prüfen.
+gesichtet: false
 ---
 
 ## Warum so

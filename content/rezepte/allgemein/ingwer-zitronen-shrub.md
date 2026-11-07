@@ -29,6 +29,7 @@ schritte:
   timer: 43200
 - titel: Abseihen
   text: Durch ein feines Sieb abseihen und die Feststoffe auspressen.
+gesichtet: false
 ---
 
 ## Warum so

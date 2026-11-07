@@ -35,6 +35,7 @@ schritte:
   - titel: Backen
     text: Bei 175 °C Heißluft 30 Minuten backen, bis die Flüssigkeit aufgesogen und die Oberfläche gebräunt ist.
     timer: 1800
+gesichtet: false
 ---
 
 ## Warum so

@@ -37,6 +37,7 @@ schritte:
   - {titel: "Quellen lassen", text: "Masse quellen lassen.", timer: 300}
   - {titel: "Beeren unterheben", text: "240 g TK-Beeren gefroren unterheben und alles in die Form füllen."}
   - {titel: "Backen", text: "Mit 30 % Feuchte backen – Temperatur und Zeit stehen nicht in der Quelle."}
+gesichtet: false
 ---
 
 ## Warum so

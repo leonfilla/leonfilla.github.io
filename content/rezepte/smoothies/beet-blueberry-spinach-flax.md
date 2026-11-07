@@ -39,6 +39,7 @@ schritte:
     text: "70 g Rohe Rote Beete (gerieben) als Letztes einfüllen."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

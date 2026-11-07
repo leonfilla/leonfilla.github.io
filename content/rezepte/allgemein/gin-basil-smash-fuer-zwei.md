@@ -27,6 +27,7 @@ schritte:
   - {titel: "Blenden", text: "Mit dem Stabmixer auf höchster Stufe 12 Sekunden homogenisieren.", timer: 12}
   - {titel: "Shaken", text: "In einen Shaker umfüllen, 240 g Eis dazu, 12 Sekunden kräftig shaken.", timer: 12}
   - {titel: "Abseihen", text: "Zwei Tumbler mit je 150 g frischem Eis füllen und den Drink durch ein feines Sieb (Double Strain) gleichmäßig darauf verteilen."}
+gesichtet: false
 ---
 
 ## Warum so

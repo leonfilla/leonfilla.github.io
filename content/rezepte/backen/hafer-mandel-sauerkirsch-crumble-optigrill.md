@@ -28,6 +28,7 @@ schritte:
   - {titel: "Schichten", text: "400 g gefrorene Kirschen in der Backschale verteilen und die Streusel gleichmäßig darüber geben."}
   - {titel: "Backen", text: "Grill schließen und 25 Minuten backen, bis die Streusel 95 °C erreichen und karamellisiert sind.", timer: 1500}
 
+gesichtet: false
 ---
 
 ## Warum so

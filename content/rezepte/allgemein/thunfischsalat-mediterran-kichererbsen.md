@@ -28,6 +28,7 @@ schritte:
   text: Ein Drittel der 150 g Kichererbsen mit der Gabel zerdrücken.
 - titel: Mischen
   text: Thunfisch, alle Kichererbsen, Zwiebel, 1 EL Kapern, Petersilie und 3 EL Mayo mischen, mit Zitronenabrieb und Pfeffer abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

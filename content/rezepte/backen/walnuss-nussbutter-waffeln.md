@@ -26,6 +26,7 @@ schritte:
     text: Bei 120 °C die Walnüsse zugeben.
   - titel: Abnehmen
     text: Bei 135 °C sofort vom Herd nehmen und über die heißen Waffeln träufeln.
+gesichtet: false
 ---
 
 ## Warum so

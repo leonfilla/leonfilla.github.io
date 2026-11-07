@@ -36,6 +36,7 @@ schritte:
   - {titel: "Creme", text: "Bohnen, Bärlauch, 10 ml Olivenöl und 4 g Salz im Zerkleinerer etwa 20 Sekunden glatt verarbeiten.", timer: 20}
   - {titel: "Schneiden", text: "Eier und Tomaten in Scheiben schneiden."}
   - {titel: "Rollen", text: "Wraps mit Bohnencreme bestreichen, mit Ei und Tomate belegen, rollen."}
+gesichtet: false
 ---
 
 ## Warum so

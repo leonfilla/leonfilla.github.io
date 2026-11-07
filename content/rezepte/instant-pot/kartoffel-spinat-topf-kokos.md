@@ -38,6 +38,7 @@ schritte:
     text: Quick Release.
   - titel: Unterrühren
     text: Den weichen Spinat gründlich unterrühren, bis eine gleichmäßige Sauce entsteht.
+gesichtet: false
 ---
 
 ## Warum so

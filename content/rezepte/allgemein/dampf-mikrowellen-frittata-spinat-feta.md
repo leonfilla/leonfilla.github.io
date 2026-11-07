@@ -28,4 +28,5 @@ schritte:
   - {titel: Aufschlagen, text: "4 Eier mit dem Handmixer 30 Sekunden auf höchster Stufe aufschlagen, salzen und pfeffern.", timer: 30}
   - {titel: Einfüllen, text: Spinat und Feta unterheben und in eine mikrowellen- und hitzefeste Form geben.}
   - {titel: Garen, text: "Heißluft 180 °C mit Mikrowelle 360 W und Dampfstufe 2, 8 Minuten, bis der Kern über 72 °C hat.", timer: 480}
+gesichtet: false
 ---

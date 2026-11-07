@@ -29,6 +29,7 @@ schritte:
   - {titel: "Backen", text: "Je etwa 80 g Teig auf die unteren Platten geben, schließen und 4 Minuten backen.", timer: 240}
   - {titel: "Auskühlen", text: "Auf einem Gitter auskühlen lassen."}
 
+gesichtet: false
 ---
 
 ## Warum so

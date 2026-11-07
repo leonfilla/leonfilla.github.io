@@ -40,6 +40,7 @@ schritte:
 - titel: Auskühlen
   text: Vollständig auskühlen lassen.
   timer: 3600
+gesichtet: false
 ---
 
 ## Warum so

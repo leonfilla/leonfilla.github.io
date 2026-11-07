@@ -27,6 +27,7 @@ schritte:
   - {titel: "Sous vide", text: "Im Instant Pot im Sous-Vide-Programm bei 60 °C 120 Minuten extrahieren.", timer: 7200}
   - {titel: "Passieren", text: "Durch ein feines Sieb passieren; pH-Ziel 3,2–3,5."}
   - {titel: "Aufgießen", text: "40 ml Shrub mit 200 ml gekühltem Sprudelwasser aufgießen."}
+gesichtet: false
 ---
 
 ## Warum so

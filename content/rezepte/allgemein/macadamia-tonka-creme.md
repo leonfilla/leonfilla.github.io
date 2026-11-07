@@ -30,6 +30,7 @@ schritte:
   - titel: Fertigstellen
     text: "Schokolade, 0,5 g Tonka und 1 g Salz zugeben und 15 Sekunden auf niedriger Stufe verbinden."
     timer: 15
+gesichtet: false
 ---
 
 ## Warum so

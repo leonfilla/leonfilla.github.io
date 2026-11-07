@@ -45,6 +45,7 @@ schritte:
 - titel: Backen
   text: Mit restlichem Cheddar bedecken und 25 Minuten backen.
   timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

@@ -26,6 +26,7 @@ schritte:
     timer: 60
   - titel: Sofort servieren
     text: Direkt entnehmen und essen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -30,4 +30,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 15 Minuten.", timer: 900}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Fertigstellen, text: "Gründlich umrühren, 1 EL Agavendicksaft und 2 EL Kokosraspeln unterheben."}
+gesichtet: false
 ---

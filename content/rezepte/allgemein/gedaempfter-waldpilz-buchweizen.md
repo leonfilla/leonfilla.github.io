@@ -35,6 +35,7 @@ schritte:
   - titel: Rösten
     text: Dampf aus, Umluft 220 °C, Oberfläche anrösten und Restfeuchte verdampfen.
     timer: 600
+gesichtet: false
 ---
 
 ## Warum so

@@ -55,6 +55,7 @@ schritte:
     text: 20 ml Zitronensaft mit dem restlichen Olivenöl, Salz und Pfeffer emulgieren.
   - titel: Anrichten
     text: Bohnen, Quinoa und Ofengemüse warm mit dem Dressing vermengen.
+gesichtet: false
 ---
 
 ## Warum so

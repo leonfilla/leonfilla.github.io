@@ -30,6 +30,7 @@ schritte:
   - titel: Mixen
     text: "Auf Maximalstufe 45 Sekunden mixen, bis keine Eiskristalle mehr übrig sind, und sofort servieren."
     timer: 45
+gesichtet: false
 ---
 
 ## Warum so

@@ -44,6 +44,7 @@ schritte:
 - titel: Backen
   text: Bei 170 °C ca. 40 Minuten backen, bis die Kerntemperatur 92 °C erreicht.
   timer: 2400
+gesichtet: false
 ---
 
 ## Warum so

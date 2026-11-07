@@ -46,6 +46,7 @@ schritte:
     timer: 780
   - titel: Servieren
     text: Vor dem Servieren durchrühren.
+gesichtet: false
 ---
 
 ## Warum so

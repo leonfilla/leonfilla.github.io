@@ -28,6 +28,7 @@ schritte:
   - titel: Backen
     text: Teig portionsweise auf die Platten geben und je Charge 4 Minuten backen.
     timer: 240
+gesichtet: false
 ---
 
 ## Warum so

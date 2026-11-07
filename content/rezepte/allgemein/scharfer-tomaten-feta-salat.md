@@ -26,6 +26,7 @@ schritte:
   - {titel: "Feta zerbröseln", text: "80 g Feta darüber zerbröseln."}
   - {titel: "Anmachen", text: "2 EL Olivenöl, 1 EL Essig, 1 Prise Salz und reichlich groben Pfeffer zugeben und vermengen."}
   - {titel: "Durchziehen lassen", text: "Bis zum Servieren kühl beiseitestellen.", timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

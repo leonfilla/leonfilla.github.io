@@ -23,6 +23,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "40 g Haferflocken und 30 g Datteln, entsteint einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "150 g TK-Erdbeeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "60 Sekunden auf höchster Stufe mixen (oder Programm Smoothie) und sofort servieren, bevor sich etwas absetzt.", timer: 60}
+gesichtet: false
 ---
 
 ## Warum so

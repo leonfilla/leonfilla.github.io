@@ -40,6 +40,7 @@ schritte:
   - {titel: Warmhalten, text: Deckel auflegen und 3 Minuten auf Keep Warm garen., timer: 180}
   - {titel: Ausdampfen, text: Keep Warm ausschalten und die Linsen kurz ausdampfen lassen.}
   - {titel: Fertigstellen, text: "4 EL Leinöl, 2 EL Essig und 2 EL Kräuter unterheben, mit Salz und Pfeffer abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

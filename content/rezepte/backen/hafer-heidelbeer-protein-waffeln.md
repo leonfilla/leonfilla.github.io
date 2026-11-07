@@ -25,6 +25,7 @@ schritte:
   - {titel: "Beeren unterheben", text: "100 g gefrorene Heidelbeeren von Hand unterheben."}
   - {titel: "Backen", text: "Teig portionsweise auf die Platten geben und 4–5 Minuten backen.", timer: 270}
 
+gesichtet: false
 ---
 
 ## Warum so

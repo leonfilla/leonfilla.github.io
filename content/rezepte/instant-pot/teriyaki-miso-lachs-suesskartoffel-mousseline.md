@@ -32,4 +32,5 @@ schritte:
   - {titel: Grill vorheizen, text: OptiGrill manuell auf 220 °C vorheizen.}
   - {titel: Lachs grillen, text: "30 g Miso und 20 g Sojasauce mischen, Lachsunterseite bestreichen und 4 Minuten grillen, mit Backpapier geschützt.", timer: 240}
   - {titel: Pürieren, text: Süßkartoffeln abtropfen und mit 40 g Butter 60 Sekunden mit dem Stabmixer seidig pürieren., timer: 60}
+gesichtet: false
 ---

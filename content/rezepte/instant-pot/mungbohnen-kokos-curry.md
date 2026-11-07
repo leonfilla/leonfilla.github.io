@@ -50,6 +50,7 @@ schritte:
   - titel: Kokosmilch
     text: 400 ml Kokosmilch einrühren und 2 Minuten auf Sauté erwärmen.
     timer: 120
+gesichtet: false
 ---
 
 ## Warum so

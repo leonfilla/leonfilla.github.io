@@ -29,6 +29,7 @@ schritte:
   - {titel: Säuern, text: "30 g Reisessig und 5 g Salz erwärmen, lösen und unter den leicht abgekühlten Reis heben; pH unter 4,6."}
   - {titel: Anrösten, text: "Miso abkratzen, nicht waschen, Lachs im OptiGrill bei 270 °C je Seite 30 Sekunden anrösten.", timer: 60}
   - {titel: Anrichten, text: Tranchieren und auf dem Reis servieren.}
+gesichtet: false
 ---
 
 ## Warum so

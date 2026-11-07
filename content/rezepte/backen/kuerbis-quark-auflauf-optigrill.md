@@ -25,6 +25,7 @@ schritte:
   - {titel: "Kürbis unterheben", text: "300 g gefrorene Kürbiswürfel unterheben."}
   - {titel: "Einfüllen", text: "Masse in die Backschale füllen."}
   - {titel: "Backen", text: "OptiGrill im manuellen Modus (orange, 210 °C) 35 Minuten backen, bis die Oberfläche deutlich gebräunt ist.", timer: 2100}
+gesichtet: false
 ---
 
 ## Warum so

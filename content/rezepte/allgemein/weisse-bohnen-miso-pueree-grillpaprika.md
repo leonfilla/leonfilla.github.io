@@ -30,6 +30,7 @@ schritte:
   timer: 45
 - titel: Anrichten
   text: Püree flächig anrichten und die Paprika auflegen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -34,6 +34,7 @@ schritte:
     text: "pH messen, Ziel 3,2–3,6."
   - titel: Servieren
     text: "40 ml Shrub mit 200 ml kaltem Sprudelwasser aufgießen."
+gesichtet: false
 ---
 
 ## Warum so

@@ -22,6 +22,7 @@ schritte:
   - {titel: "Hacken", text: "Abkühlen lassen und grob hacken."}
   - {titel: "Frischkäse rühren", text: "200 g Frischkäse glatt rühren."}
   - {titel: "Vermengen", text: "Walnüsse, 2 EL Honig und 1 Prise Salz unterrühren."}
+gesichtet: false
 ---
 
 ## Varianten

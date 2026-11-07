@@ -34,4 +34,5 @@ schritte:
   - {titel: Natural Release, text: Vollständigen Natural Release abwarten.}
   - {titel: Hähnchen zerpflücken, text: "Hähnchen herausnehmen, entbeinen, Haut entfernen, Fleisch zerkleinern und zurückgeben."}
   - {titel: Abschmecken, text: Mit 40 g Tamari verrühren.}
+gesichtet: false
 ---

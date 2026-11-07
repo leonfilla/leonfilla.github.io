@@ -32,6 +32,7 @@ schritte:
   - titel: Ziehen lassen
     text: Edamame in den Sud geben und bei ausgeschalteter Platte in der Restwärme ziehen lassen.
     timer: 180
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,6 +28,7 @@ schritte:
     text: 600 g abgetropften Thunfisch mit 250 g Frischkäse, Sellerie, Zwiebel und 20 g Senf vermengen.
   - titel: Rollen
     text: Masse auf die Wraps verteilen und fest einrollen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -32,4 +32,5 @@ schritte:
     text: Dressing mit dem abgetropften Thunfisch und dem Gemüse vermengen.
   - titel: Rollen
     text: Masse mittig auf die Tortillas geben, Ränder einklappen und straff rollen.
+gesichtet: false
 ---

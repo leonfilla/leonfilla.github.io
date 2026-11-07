@@ -50,6 +50,7 @@ schritte:
 - titel: Durchkühlen
   text: Mindestens 4 Stunden, besser über Nacht, im Kühlschrank durchkühlen.
   timer: 14400
+gesichtet: false
 ---
 
 ## Warum so

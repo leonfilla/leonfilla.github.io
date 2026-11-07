@@ -47,6 +47,7 @@ schritte:
     timer: 600
   - titel: Hefeflocken einrühren
     text: 10 g Hefeflocken gleichmäßig unterrühren.
+gesichtet: false
 ---
 
 ## Warum so

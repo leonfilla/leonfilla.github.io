@@ -38,6 +38,7 @@ schritte:
     text: 10 g Senf und 15 ml Essig vorlegen, 30 ml Olivenöl tröpfchenweise unter ständigem Schlagen einarbeiten.
   - titel: Vermengen
     text: Warme Linsen abtropfen und sofort mit Gemüse und Emulsion mischen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -29,6 +29,7 @@ schritte:
   - titel: Backen
     text: "Bei 200 °C backen, bis die Eimasse vollständig gestockt ist."
     timer: 720
+gesichtet: false
 ---
 
 ## Warum so

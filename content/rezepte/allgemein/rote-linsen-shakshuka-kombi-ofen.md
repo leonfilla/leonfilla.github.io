@@ -30,6 +30,7 @@ schritte:
   - {titel: "Garen", text: "Mikrowelle 360 W plus Heißluft 200 °C, ohne Deckel 8 Minuten.", timer: 480}
   - {titel: "Eier", text: "Zwei Mulden drücken und die Eier hineinschlagen."}
   - {titel: "Stocken", text: "Weitere 4 Minuten im selben Modus garen, bis das Eiweiß fest ist; die Masse sollte über 85 °C haben.", timer: 240}
+gesichtet: false
 ---
 
 ## Warum so

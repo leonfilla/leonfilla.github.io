@@ -33,6 +33,7 @@ schritte:
   - titel: Mixen
     text: "50 Sekunden auf maximaler Stufe mixen, bis nichts mehr sedimentiert."
     timer: 50
+gesichtet: false
 ---
 
 ## Warum so

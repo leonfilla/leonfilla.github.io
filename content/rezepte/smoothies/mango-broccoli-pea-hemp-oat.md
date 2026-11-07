@@ -37,6 +37,7 @@ schritte:
     text: "160 g TK-Mango, 70 g TK-Brokkoli und 70 g TK-Erbsen (aufgetaut) zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

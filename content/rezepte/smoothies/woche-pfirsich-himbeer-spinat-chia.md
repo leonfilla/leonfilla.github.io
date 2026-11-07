@@ -32,6 +32,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "14 g Paranüsse, ganz, 14 g Chiasamen und 25 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "150 g TK-Pfirsich, 100 g TK-Himbeeren und 55 g TK-Blattspinat zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

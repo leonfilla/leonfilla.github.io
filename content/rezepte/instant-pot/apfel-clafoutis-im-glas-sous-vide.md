@@ -33,6 +33,7 @@ schritte:
   - {titel: "Abfüllen", text: "Apfelwürfel auf 4 Sturzgläser à 250 ml verteilen, Teig darübergießen, Gläser handfest verschließen."}
   - {titel: "Garen", text: "Gläser einsetzen, Deckel schließen und 90 Minuten garen.", timer: 5400}
 
+gesichtet: false
 ---
 
 ## Warum so

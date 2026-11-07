@@ -35,6 +35,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "22 g Hanfsamen, geschält und 28 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Brombeeren, 100 g TK-Blaubeeren, 100 g TK-Zucchini, roh gewürfelt und 65 g TK-Banane zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

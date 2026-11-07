@@ -30,6 +30,7 @@ schritte:
   - {titel: "Abgießen", text: "Quick Release, Bohnen abgießen und heiß in den Mixer füllen."}
   - {titel: "Würzen", text: "Zitronensaft, Tahini und Salz dazugeben."}
   - {titel: "Mixen", text: "Auf Stufe 1 starten, langsam auf Maximum erhöhen und dabei das Eiswasser in dünnem Strahl zugießen. 2 Minuten mixen.", timer: 120}
+gesichtet: false
 ---
 
 ## Warum so

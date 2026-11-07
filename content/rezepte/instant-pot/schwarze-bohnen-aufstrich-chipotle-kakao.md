@@ -25,4 +25,5 @@ zutaten:
 schritte:
   - {titel: Pürieren, text: "400 g Bohnen mit 20 g Chipotle, 10 g Kakao, 15 g Essig, 40 g Olivenöl, 3 g Paprika und 30 g Kochwasser glatt pürieren."}
   - {titel: pH prüfen, text: "pH messen; Ziel unter 4,5, sonst mit Essig oder Zitronensäure nachsäuern. Luftdicht abfüllen und kühl lagern."}
+gesichtet: false
 ---

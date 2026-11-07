@@ -25,6 +25,7 @@ schritte:
   - {titel: "Mixen", text: "Alles außer den Schokodrops mixen; ist es zu trocken, esslöffelweise Milch oder Wasser zugeben."}
   - {titel: "Drops unterheben", text: "Schokodrops unterheben."}
 
+gesichtet: false
 ---
 
 ## Warum so

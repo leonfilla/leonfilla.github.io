@@ -29,6 +29,7 @@ schritte:
     text: Sirup im Kühlschrank auf etwa 5 °C abkühlen.
   - titel: Mischen
     text: Kalten Sirup mit 200 g Grauburgunder im Glas verrühren.
+gesichtet: false
 ---
 
 ## Warum so

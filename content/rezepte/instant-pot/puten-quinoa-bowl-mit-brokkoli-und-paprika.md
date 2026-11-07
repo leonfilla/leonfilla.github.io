@@ -39,4 +39,5 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Gemüse auflegen, text: "400 g Brokkoli und 200 g Paprika sofort obenauf legen, Deckel schließen, Keep Warm."}
   - {titel: Dämpfen, text: "5 Minuten im Dampf garen, dann alles durchmischen.", timer: 300}
+gesichtet: false
 ---

@@ -38,6 +38,7 @@ schritte:
   - {titel: "Backen", text: "45–55 Minuten backen; wegen des Kakaos auf die Stäbchenprobe statt auf die Farbe verlassen.", timer: 3000}
   - {titel: "Auskühlen", text: "Vor dem Schneiden vollständig auskühlen lassen."}
 
+gesichtet: false
 ---
 
 ## Warum so

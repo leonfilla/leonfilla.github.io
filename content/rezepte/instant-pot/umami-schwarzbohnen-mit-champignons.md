@@ -28,6 +28,7 @@ schritte:
   - {titel: "Einfüllen", text: "Bohnen, Wasser, Pilze, Sojasauce und Öl in den Instant Pot geben."}
   - {titel: "Druckgaren", text: "Pressure Cook, Max, 40 Minuten, NutriBoost aus.", timer: 2400}
   - {titel: "Nachziehen", text: "Quick Release, umrühren und 5 Minuten bei offenem Deckel nachziehen lassen.", timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

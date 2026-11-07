@@ -26,4 +26,5 @@ zutaten:
 schritte:
   - {titel: Edamame brühen, text: "200 g Edamame mit kochendem Wasser übergießen, 5 Minuten ziehen lassen, abtropfen.", timer: 300}
   - {titel: Pürieren, text: "Edamame mit 3 EL Erdnussmus, 3 EL Sojasauce, 1 EL Essig, 1 TL Sesamöl, Ingwer, Knoblauch und 150 ml kochendem Wasser glatt mixen."}
+gesichtet: false
 ---

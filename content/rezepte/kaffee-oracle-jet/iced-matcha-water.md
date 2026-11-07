@@ -29,6 +29,7 @@ schritte:
     text: Glas mit 150 g Eiswürfeln und 120 ml kaltem Wasser füllen.
   - titel: Kombinieren
     text: Matcha-Shot darübergießen und umrühren.
+gesichtet: false
 ---
 
 ## Warum so

@@ -50,4 +50,5 @@ schritte:
   - titel: Erbsen ziehen lassen
     text: 200 g TK-Erbsen einrühren, auf Keep Warm mit aufgelegtem Deckel 3–5 Minuten ziehen lassen.
     timer: 240
+gesichtet: false
 ---

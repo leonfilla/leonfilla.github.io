@@ -42,6 +42,7 @@ schritte:
     timer: 300
   - titel: Miso einrühren
     text: Bei unter 80 °C 120 g Misopaste in der Restflüssigkeit auflösen und einrühren.
+gesichtet: false
 ---
 
 ## Warum so

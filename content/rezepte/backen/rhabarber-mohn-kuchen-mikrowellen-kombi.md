@@ -33,6 +33,7 @@ schritte:
   - {titel: "Rhabarber unterheben", text: "200 g fein gewürfelten Rhabarber unterheben und in die Form füllen."}
   - {titel: "Backen", text: "Kombi-Betrieb 600 W Mikrowelle + 170 °C Heißluft, 12 Minuten backen.", timer: 720}
 
+gesichtet: false
 ---
 
 ## Warum so

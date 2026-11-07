@@ -38,6 +38,7 @@ schritte:
   - {titel: "Sauce erhitzen", text: "160 g TK-Beeren, 20 g Zucker und 1 EL Wasser in einem mikrowellengeeigneten Gefäß bei 600 W etwa 3 Minuten erhitzen.", timer: 180}
   - {titel: "Pürieren", text: "Heiße Beeren optional kurz pürieren."}
   - {titel: "Anrichten", text: "Brioches auf zwei Teller setzen und die heiße Beerensauce mittig auf die Käsemasse geben."}
+gesichtet: false
 ---
 
 ## Warum so

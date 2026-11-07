@@ -30,4 +30,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 1 Minute.", timer: 60}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Beeren einrühren, text: 100 g gefrorene Beeren in den heißen Quinoa rühren.}
+gesichtet: false
 ---

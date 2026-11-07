@@ -39,6 +39,7 @@ schritte:
     timer: 300
   - titel: Vermengen
     text: Abgetropfte Pasta mit dem Ragout vermengen.
+gesichtet: false
 ---
 
 ## Warum so

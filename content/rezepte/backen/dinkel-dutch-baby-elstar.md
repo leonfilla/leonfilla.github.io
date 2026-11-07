@@ -40,6 +40,7 @@ schritte:
   - {titel: "Äpfel dämpfen", text: "Parallel die Apfelwürfel im Instant Pot auf dem Gestell mit 200 g Wasser 3 Minuten unter Druck dämpfen, dann Quick Release.", timer: 180}
   - {titel: "Belegen", text: "Dutch Baby mit den Äpfeln belegen."}
 
+gesichtet: false
 ---
 
 ## Warum so

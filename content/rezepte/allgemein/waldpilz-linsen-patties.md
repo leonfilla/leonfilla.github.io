@@ -38,6 +38,7 @@ schritte:
   - titel: Grillen
     text: OptiGrill manuell auf 200 °C, Patties 8 Minuten grillen.
     timer: 480
+gesichtet: false
 ---
 
 ## Warum so

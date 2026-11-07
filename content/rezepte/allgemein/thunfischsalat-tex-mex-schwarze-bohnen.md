@@ -31,6 +31,7 @@ schritte:
   text: Thunfisch, 150 g Bohnen, Mais, Frühlingszwiebeln, Koriander, 3 EL Sriracha-Mayo und 0,5 TL Paprikapulver mischen, mit Limette abschmecken.
 - titel: Servieren
   text: Mit Avocadoscheiben aufs Brötchen geben.
+gesichtet: false
 ---
 
 ## Warum so

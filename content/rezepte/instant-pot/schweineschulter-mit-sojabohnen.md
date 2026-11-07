@@ -43,6 +43,7 @@ schritte:
     timer: 900
   - titel: Gewürze entfernen
     text: Sternanis und Zimtstange vor dem Servieren entfernen.
+gesichtet: false
 ---
 
 ## Warum so

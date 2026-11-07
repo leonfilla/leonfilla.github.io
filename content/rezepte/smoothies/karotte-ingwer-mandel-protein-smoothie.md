@@ -34,6 +34,7 @@ schritte:
   - titel: Mixen
     text: "60 Sekunden auf höchster Stufe mixen."
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

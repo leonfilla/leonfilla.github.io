@@ -33,6 +33,7 @@ schritte:
   text: 100 g Champignons grob hacken, in einer Pfanne bei hoher Hitze trocken anrösten und mit 20 ml Sojasauce ablöschen.
 - titel: Anrichten
   text: Eier aufschlagen und über die Pilze gleiten lassen.
+gesichtet: false
 ---
 
 ## Warum so

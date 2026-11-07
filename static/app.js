@@ -51,6 +51,7 @@
   // ---- Filterleiste auf Bereichsseiten
   $$("[data-filterbar]").forEach((bar) => {
     const chips = $$("[data-st]", bar), text = $("[data-filter-text]", bar), leer = $(".filter-leer", bar);
+    const nurNeu = $("[data-nur-neu]", bar);
     const items = $$("[data-filter-item]");
     const anwenden = () => {
       const stati = chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.dataset.st);
@@ -58,7 +59,8 @@
       let sichtbar = 0;
       items.forEach((el) => {
         const st = (el.dataset.status || "").split(" ");
-        const ok = st.some((s) => stati.includes(s)) && woerter.every((w) => (el.dataset.q || "").includes(w));
+        const neuOk = !nurNeu || nurNeu.getAttribute("aria-pressed") !== "true" || el.hasAttribute("data-neu");
+        const ok = neuOk && st.some((s) => stati.includes(s)) && woerter.every((w) => (el.dataset.q || "").includes(w));
         el.hidden = !ok; if (ok) sichtbar++;
       });
       $$("[data-filter-gruppe]").forEach((g) => { g.hidden = !$$("[data-filter-item]", g).some((el) => !el.hidden); });
@@ -67,6 +69,9 @@
     chips.forEach((c) => c.addEventListener("click", () => {
       c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true"); anwenden();
     }));
+    if (nurNeu) nurNeu.addEventListener("click", () => {
+      nurNeu.setAttribute("aria-pressed", nurNeu.getAttribute("aria-pressed") === "true" ? "false" : "true"); anwenden();
+    });
     text.addEventListener("input", anwenden);
   });
   function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }

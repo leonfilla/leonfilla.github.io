@@ -31,6 +31,7 @@ schritte:
   text: 1 g Salz und 10 g Puderzucker kurz untermixen, bis alles homogen ist.
 - titel: Abfüllen
   text: Abschmecken, in ein sauberes, trockenes Schraubglas füllen und abkühlen lassen.
+gesichtet: false
 ---
 
 ## Warum so

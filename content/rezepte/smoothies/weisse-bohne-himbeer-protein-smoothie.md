@@ -35,6 +35,7 @@ schritte:
   - titel: Mixen
     text: "45 Sekunden mixen."
     timer: 45
+gesichtet: false
 ---
 
 ## Warum so

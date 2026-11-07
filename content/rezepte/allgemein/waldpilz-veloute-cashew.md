@@ -28,6 +28,7 @@ schritte:
   - {titel: Rösten, text: "600 g Pilze auf einem Blech verteilen und 20 Minuten rösten, bis die Ränder karamellisieren.", timer: 1200}
   - {titel: Mixer füllen, text: "100 g Cashews, 700 ml Wasser, 30 ml Sojasauce und 2 g Thymian in den Mixer geben."}
   - {titel: Mixen, text: "Pilze mit Röstsaft zugeben und das Suppenprogramm starten, etwa 5–7 Minuten.", timer: 360}
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,6 +28,7 @@ schritte:
   - {titel: Ruhen, text: In Folie 30 Minuten kühlen., timer: 1800}
   - {titel: Ausrollen, text: "3 mm dick rund ausrollen, Apfelscheiben fächerförmig in die Mitte legen, 4 cm Rand lassen und umklappen."}
   - {titel: Backen, text: "Ober-/Unterhitze 200 °C, unterste Schiene, 35 Minuten.", timer: 2100}
+gesichtet: false
 ---
 
 ## Warum so

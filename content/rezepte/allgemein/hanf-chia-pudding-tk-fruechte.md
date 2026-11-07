@@ -27,6 +27,7 @@ schritte:
   - {titel: "Quellen lassen", text: "Verschlossen mindestens 4 Stunden, ideal über Nacht, im Kühlschrank quellen lassen.", timer: 28800}
   - {titel: "Umrühren", text: "Morgens einmal kurz umrühren."}
 
+gesichtet: false
 ---
 
 ## Warum so

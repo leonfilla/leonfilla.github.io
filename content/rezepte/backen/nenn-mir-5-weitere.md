@@ -38,6 +38,7 @@ schritte:
   - titel: Backen
     text: Auf mittlerer Schiene 35 Minuten backen, bis die Masse gestockt ist und bräunt.
     timer: 2100
+gesichtet: false
 ---
 
 ## Warum so

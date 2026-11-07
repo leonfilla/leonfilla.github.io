@@ -30,6 +30,7 @@ schritte:
     text: "100 g Avocado (Fruchtfleisch) und 100 g Zucchini (roh gewürfelt) zugeben."
   - titel: Mixen
     text: Mit dem Smoothie-Programm mixen.
+gesichtet: false
 ---
 
 ## Warum so

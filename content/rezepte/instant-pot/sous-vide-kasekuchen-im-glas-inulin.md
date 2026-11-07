@@ -40,6 +40,7 @@ schritte:
 - titel: Kühlen
   text: Gläser auf Raumtemperatur abkühlen lassen, dann mindestens 4 Stunden kühlen, bis die Textur anzieht.
   timer: 14400
+gesichtet: false
 ---
 
 ## Warum so

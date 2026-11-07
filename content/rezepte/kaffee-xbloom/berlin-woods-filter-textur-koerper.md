@@ -23,6 +23,7 @@ xbloom:
     - {phase: Bloom, menge: 50, temp: 89, fluss: 3.5, pause: 40, muster: spirale, vib_vor: true, vib_nach: false}
     - {phase: Guss 2, menge: 174, temp: 87, fluss: 3.0, pause: 0, muster: kreis, vib_vor: false, vib_nach: false}
 bohne: 19grams-berlin-woods
+gesichtet: false
 ---
 
 ## Warum so

@@ -37,6 +37,7 @@ schritte:
   timer: 150
 - titel: Fertig mixen
   text: Datteln mit Einweichwasser, 30 g Kakao und 1 g Salz zugeben und auf mittlerer Stufe glatt mixen. In Gläser füllen und kühlen.
+gesichtet: false
 ---
 
 ## Warum so

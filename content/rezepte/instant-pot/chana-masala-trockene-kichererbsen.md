@@ -35,6 +35,7 @@ schritte:
   - {titel: Ablöschen, text: Mit dem Tomatenpüree ablöschen und den Bratensatz lösen.}
   - {titel: Druckgaren, text: "300 g Kichererbsen und 600 ml Wasser zugeben. Pressure Cook, High, NutriBoost an, 50 Minuten.", timer: 3000}
   - {titel: Natural Release, text: Vollständigen Natural Release abwarten.}
+gesichtet: false
 ---
 
 ## Warum so

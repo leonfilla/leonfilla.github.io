@@ -34,6 +34,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Erbsen einrühren, text: 200 g Erbsen einrühren.}
   - {titel: Miso einrühren, text: Unter 80 °C 60 g Miso in der Restflüssigkeit lösen und unterheben.}
+gesichtet: false
 ---
 
 ## Warum so

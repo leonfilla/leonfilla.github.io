@@ -30,6 +30,7 @@ schritte:
   - {titel: Wasser wechseln, text: "Beutel herausnehmen, Wasser ausgießen, 150 ml gefiltertes Wasser einfüllen und den Dämpfeinsatz einsetzen."}
   - {titel: Buchweizen dämpfen, text: "70 g Buchweizen in einem feuerfesten Gefäß auf den Einsatz stellen, Steam 10 Minuten.", timer: 600}
   - {titel: Anrichten, text: Mango ohne Sternanis über den Buchweizen geben und mit 20 g Mandeln bestreuen.}
+gesichtet: false
 ---
 
 ## Varianten

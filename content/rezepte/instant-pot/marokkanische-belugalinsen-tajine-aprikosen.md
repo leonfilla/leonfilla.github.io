@@ -54,4 +54,5 @@ schritte:
     timer: 600
   - titel: Abschließen
     text: Mit Harissa, Zitronensaft, Kräutern und gerösteten Mandeln abschließen.
+gesichtet: false
 ---

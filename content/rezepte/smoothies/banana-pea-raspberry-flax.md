@@ -32,6 +32,7 @@ schritte:
     text: "90 g TK-Banane, 90 g TK-Erbsen (aufgetaut) und 120 g TK-Himbeeren zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

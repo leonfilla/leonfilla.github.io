@@ -13,6 +13,7 @@ importiert: true
 linie: joven-macario-2025-07-09
 bohne: heilandt-joven-macario
 fokus: Gemini-Rezeptsatz für den Red-Honey-Kaffee aus Chiapas (Pour Over, Flash Brew, Honey Maceration V1/V2, Mahlgrad 56), ohne Muster und meist ohne Mahlgrad erhalten. Vollständige Joven-Macario-Programme liegen als eigene xBloom-Rezepte vor.
+gesichtet: false
 ---
 
 ## Notizen

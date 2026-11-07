@@ -35,6 +35,7 @@ schritte:
     timer: 45
   - titel: Servieren
     text: Sofort in ein vorgekühltes Glas füllen.
+gesichtet: false
 ---
 
 ## Warum so

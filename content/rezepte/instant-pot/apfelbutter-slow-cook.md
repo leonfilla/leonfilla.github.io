@@ -34,6 +34,7 @@ schritte:
   timer: 1800
 - titel: Abfüllen
   text: Heiß abfüllen.
+gesichtet: false
 ---
 
 ## Warum so

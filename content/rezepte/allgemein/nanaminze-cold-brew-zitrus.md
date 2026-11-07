@@ -26,6 +26,7 @@ schritte:
   timer: 43200
 - titel: Abseihen
   text: Durch ein feines Sieb abgießen und die Rückstände leicht auspressen.
+gesichtet: false
 ---
 
 ## Warum so

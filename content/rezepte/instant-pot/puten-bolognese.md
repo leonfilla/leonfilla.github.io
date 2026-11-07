@@ -35,6 +35,7 @@ schritte:
   - {titel: Ablöschen, text: "800 g passierte Tomaten und Gewürze zugeben, den Boden mit dem Holzlöffel freikratzen."}
   - {titel: Druckgaren, text: "Deckel schließen. Pressure Cook, High, 15 Minuten.", timer: 900}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

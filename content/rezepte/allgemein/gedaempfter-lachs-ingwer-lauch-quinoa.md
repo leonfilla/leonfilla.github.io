@@ -29,4 +29,5 @@ schritte:
   - {titel: Lachs belegen, text: "Lachs in ein hitzefestes Gefäß legen, 10 g Ingwer und 20 g Lauch darauf verteilen."}
   - {titel: Dämpfen, text: Bei 85 °C Dampf 12 Minuten garen., timer: 720}
   - {titel: Anrichten, text: "Sud aus dem Gefäß unter die Quinoa mischen, Lachs daraufsetzen."}
+gesichtet: false
 ---

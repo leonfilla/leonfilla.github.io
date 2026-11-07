@@ -23,6 +23,7 @@ schritte:
   - {titel: Einfüllen, text: Alle Zutaten in den Mixbehälter geben.}
   - {titel: Mixen, text: Auf maximale Drehzahl hochfahren und 45 Sekunden mixen., timer: 45}
   - {titel: Anrichten, text: Als Bowl anrichten.}
+gesichtet: false
 ---
 
 ## Varianten

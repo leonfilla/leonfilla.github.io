@@ -34,6 +34,7 @@ schritte:
   - {titel: Befüllen, text: 200 g Linsen und 600 ml Wasser zugeben.}
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Quick Release, text: Sofort Quick Release.}
+gesichtet: false
 ---
 
 ## Warum so

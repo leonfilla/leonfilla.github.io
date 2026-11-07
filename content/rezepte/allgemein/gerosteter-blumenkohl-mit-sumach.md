@@ -44,6 +44,7 @@ schritte:
   timer: 1680
 - titel: Finish
   text: Heißen Blumenkohl mit 2 TL Zitronensaft beträufeln, mit 1 TL Sumach, 2 EL Petersilie und optional 20 g gerösteten Kernen bestreuen. Sofort servieren.
+gesichtet: false
 ---
 
 ## Warum so

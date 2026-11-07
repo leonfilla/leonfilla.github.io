@@ -34,6 +34,7 @@ schritte:
 - titel: Backen
   text: In die Springform füllen und backen, bis die Kerntemperatur 85 °C erreicht (ca. 55 Minuten).
   timer: 3300
+gesichtet: false
 ---
 
 ## Warum so

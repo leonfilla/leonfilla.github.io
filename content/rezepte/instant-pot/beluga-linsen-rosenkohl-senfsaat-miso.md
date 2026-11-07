@@ -34,6 +34,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Abkühlen, text: Offen unter sanftem Rühren unter 80 °C fallen lassen oder 50 ml kaltes Wasser zugeben.}
   - {titel: Miso einrühren, text: 60 g Miso einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

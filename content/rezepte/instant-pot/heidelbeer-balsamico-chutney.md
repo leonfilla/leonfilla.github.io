@@ -31,6 +31,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Eindicken, text: Bei Bedarf 3 Minuten auf Sauté (Low) einkochen., timer: 180}
+gesichtet: false
 ---
 
 ## Varianten

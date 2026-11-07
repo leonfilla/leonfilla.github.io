@@ -33,6 +33,7 @@ schritte:
   - {titel: Pürieren, text: "Warme Kichererbsen, 180 g Paprika und 6 g Rauchpaprika zugeben und auf höchster Stufe 2–3 Minuten pürieren.", timer: 150}
   - {titel: Prüfen, text: "Unter 45 °C halten, sonst bis 20 g Eiswasser nachgeben; Ziel-pH 4,2–4,5, sonst in 5-g-Schritten Zitronensaft nachgeben."}
   - {titel: Kühlen, text: 2 Stunden durchkühlen., timer: 7200}
+gesichtet: false
 ---
 
 ## Warum so

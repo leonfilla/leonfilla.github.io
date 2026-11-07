@@ -40,6 +40,7 @@ schritte:
   - titel: Wenden und fertig rösten
     text: Wenden und weitere 6–7 Minuten rösten.
     timer: 400
+gesichtet: false
 ---
 
 ## Warum so

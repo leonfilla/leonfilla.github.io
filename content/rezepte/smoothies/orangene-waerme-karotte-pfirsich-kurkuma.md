@@ -39,6 +39,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Walnüsse, ganz, 12 g Leinsamen, gemahlen und 30 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Karotte, gegart, 140 g TK-Pfirsich und 70 g TK-Banane zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

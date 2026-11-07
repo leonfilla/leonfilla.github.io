@@ -26,6 +26,7 @@ schritte:
     text: "1000 g Skyr und 40 g Honig unter das Chia-Gel mischen."
   - titel: Toppen
     text: Mit 80 g Mandeln bestreuen.
+gesichtet: false
 ---
 
 ## Warum so

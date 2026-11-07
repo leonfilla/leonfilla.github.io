@@ -31,6 +31,7 @@ schritte:
   - {titel: "Binden", text: "100 g Thunfisch mit 30 g Chili-Mayo binden."}
   - {titel: "Schichten", text: "Thunfisch, rote Zwiebel und 40 g Cheddar zwischen zwei Scheiben Sauerteigbrot schichten."}
   - {titel: "Grillen", text: "OptiGrill-Programm Sandwich starten und bis zum Signal grillen (Kern über 65 °C).", timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

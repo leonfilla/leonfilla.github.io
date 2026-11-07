@@ -46,6 +46,7 @@ schritte:
 - titel: Sanft fertigbacken
   text: Temperatur auf 110 °C senken und weitere 55 Minuten backen.
   timer: 3300
+gesichtet: false
 ---
 
 ## Warum so

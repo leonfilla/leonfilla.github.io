@@ -31,6 +31,7 @@ schritte:
   - {titel: Inkubieren, text: Im Ofen auf Gärstufe bei 43 °C 8–10 Stunden inkubieren., timer: 28800}
   - {titel: pH prüfen, text: "Ab 8 Stunden den pH messen; bei 4,5–4,6 abbrechen."}
   - {titel: Kühlen, text: Mindestens 12 Stunden bei 4 °C kühlen., timer: 43200}
+gesichtet: false
 ---
 
 ## Warum so

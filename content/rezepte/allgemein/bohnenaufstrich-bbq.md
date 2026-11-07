@@ -23,4 +23,5 @@ zutaten:
 schritte:
   - titel: Pürieren
     text: Alle Zutaten in ein hohes Gefäß geben und vollständig glatt pürieren.
+gesichtet: false
 ---

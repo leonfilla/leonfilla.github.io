@@ -30,4 +30,5 @@ schritte:
   - {titel: Pürieren, text: "Zwiebelmischung, 400 g Tomaten, Gewürze und 1 Dose Bohnen im Mixer glatt pürieren."}
   - {titel: Zurückgießen, text: Sauce zurück in den Instant Pot gießen und die zweite Dose ganze Bohnen unterrühren.}
   - {titel: Erhitzen, text: Auf Keep Warm oder kurz auf Sauté unter Rühren vollständig erhitzen.}
+gesichtet: false
 ---

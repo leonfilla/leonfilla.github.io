@@ -48,6 +48,7 @@ schritte:
   text: Zitronen auspressen (ca. 80 ml) und mit 100 g Zucker nur verrühren, nicht auflösen. Den warmen Kuchen in der Form mehrfach tief einstechen und den Drizzle löffelweise verteilen.
 - titel: Auskühlen
   text: Vollständig einziehen lassen, dann stürzen und auskühlen.
+gesichtet: false
 ---
 
 ## Warum so

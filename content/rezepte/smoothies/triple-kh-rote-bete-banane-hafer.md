@@ -36,6 +36,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "15 g Chiasamen einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "110 g TK-Banane, 100 g TK-Rote Bete, gegart und 120 g TK-Blaubeeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

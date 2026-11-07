@@ -9,6 +9,7 @@ quelle:
 importiert: true
 fokus: "Vergleich dreier portabler Espressomaker, die Nespresso-Kapseln und 14–18 g Mahlgut aus der 1Zpresso X-Ultra verarbeiten."
 tags: ["Kaufberatung"]
+gesichtet: false
 ---
 
 ## Notizen

@@ -32,6 +32,7 @@ schritte:
   - titel: Mixen
     text: Geröstete Pilze, 480 g Bohnen, 600 g kochendes Wasser, 30 ml Olivenöl und 10 g Salz im Hochleistungsmixer 5 Minuten im Soup-Programm mixen.
     timer: 300
+gesichtet: false
 ---
 
 ## Warum so

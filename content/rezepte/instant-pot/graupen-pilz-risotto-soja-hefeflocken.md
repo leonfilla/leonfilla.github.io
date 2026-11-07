@@ -32,6 +32,7 @@ schritte:
   - {titel: Druckgaren, text: "500 g Wasser zugeben, verrühren. Pressure Cook, High, 20 Minuten.", timer: 1200}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Fertigstellen, text: 15 g Hefeflocken in das heiße Risotto rühren.}
+gesichtet: false
 ---
 
 ## Varianten

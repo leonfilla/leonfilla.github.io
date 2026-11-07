@@ -34,6 +34,7 @@ schritte:
     text: "80 g TK-Banane, 150 g TK-Mango, 55 g TK-Blattspinat, 60 g TK-Brokkoli und 60 g TK-Erbsen zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

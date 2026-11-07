@@ -32,6 +32,7 @@ schritte:
     timer: 60
   - titel: Einkochen
     text: Für mehr Dicke auf Sauté Low unter gelegentlichem Rühren bis zur Zielkonsistenz einkochen.
+gesichtet: false
 ---
 
 ## Warum so

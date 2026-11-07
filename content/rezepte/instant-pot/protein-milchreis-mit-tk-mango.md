@@ -38,6 +38,7 @@ schritte:
   - {titel: "Cremig rühren", text: "Kräftig umrühren und auf etwa 60 °C abkühlen lassen."}
   - {titel: "Protein einbinden", text: "35 g Proteinpulver mit 2–3 EL Milchreis zu einer glatten Paste verrühren, dann unter den restlichen Reis heben. Zu fest → einen Schluck Milch nachgeben."}
   - {titel: "Anrichten", text: "100 g TK-Mango kurz erwärmen oder leicht gefroren auflegen, 15 g gehackte Mandeln darüberstreuen, nach Geschmack mit 5 g Honig süßen."}
+gesichtet: false
 ---
 
 ## Warum so

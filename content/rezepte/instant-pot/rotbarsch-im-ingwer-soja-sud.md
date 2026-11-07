@@ -32,6 +32,7 @@ schritte:
     timer: 600
   - titel: Spinat
     text: In der letzten Minute 150 g Babyspinat unterheben.
+gesichtet: false
 ---
 
 ## Warum so

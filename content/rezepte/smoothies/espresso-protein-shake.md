@@ -35,6 +35,7 @@ schritte:
   - titel: Mixen
     text: "Milch-Espresso, 60 g Whey und 100 g Banane in den Mixer geben und 15 Sekunden auf mittlerer Stufe mixen."
     timer: 15
+gesichtet: false
 ---
 
 ## Warum so

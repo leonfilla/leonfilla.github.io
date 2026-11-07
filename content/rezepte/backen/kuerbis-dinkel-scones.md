@@ -42,6 +42,7 @@ schritte:
   - titel: Backen
     text: Bei 200 °C Heißluft mit einmaligem Dampfstoß 18 Minuten backen.
     timer: 1080
+gesichtet: false
 ---
 
 ## Warum so

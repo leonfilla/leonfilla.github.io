@@ -23,4 +23,5 @@ zutaten:
 schritte:
   - titel: Pürieren
     text: Alle Zutaten fein pürieren.
+gesichtet: false
 ---

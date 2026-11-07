@@ -52,6 +52,7 @@ schritte:
   - titel: Druckabbau
     text: 5 Minuten Natural Release, dann Quick Release.
     timer: 300
+gesichtet: false
 ---
 
 ## Warum so

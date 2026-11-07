@@ -32,6 +32,7 @@ schritte:
   - {titel: Sirup prüfen, text: Einen Löffel Sirup auf einen kalten Teller geben – er soll zähfließend liegen bleiben.}
   - {titel: Gewürze entfernen, text: "Vom Herd nehmen, Zimtstange und Nelken herausnehmen; die Vanilleschote darf drinbleiben."}
   - {titel: Servieren, text: "Abgedeckt warm halten und lauwarm, bei etwa 55–60 °C, servieren."}
+gesichtet: false
 ---
 
 ## Warum so

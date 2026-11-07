@@ -38,6 +38,7 @@ schritte:
   - titel: Mixen
     text: In den Hochleistungsmixer umfüllen und 60 Sekunden im Soup-Programm oder auf höchster Stufe mixen.
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

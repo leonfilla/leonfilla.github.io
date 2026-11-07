@@ -50,6 +50,7 @@ schritte:
   - titel: Edamame ziehen lassen
     text: 200 g TK-Edamame und 15 g Balsamico einrühren, Deckel auflegen und bei ausgeschaltetem Gerät 5 Minuten ziehen lassen.
     timer: 300
+gesichtet: false
 ---
 
 ## Warum so

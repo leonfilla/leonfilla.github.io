@@ -27,6 +27,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Mandelmus und 30 g Haferflocken einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "100 g TK-Blaubeeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

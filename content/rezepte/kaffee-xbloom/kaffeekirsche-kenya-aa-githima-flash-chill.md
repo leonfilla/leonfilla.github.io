@@ -28,6 +28,7 @@ xbloom:
   guesse:
   - {phase: Bloom, menge: 40, fluss: 3.0, pause: 30}
   - {phase: Guss 2, menge: 100, fluss: 3.5, pause: 30, vib_vor: false, vib_nach: false}
+gesichtet: false
 ---
 
 ## Warum so

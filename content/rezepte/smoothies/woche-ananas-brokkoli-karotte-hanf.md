@@ -32,6 +32,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Hanfsamen, geschält, 28 g Haferflocken, fein und 30 ml Bio-Limette mit Schale einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "150 g TK-Ananas, 80 g TK-Brokkoli und 100 g TK-Karotte, gegart zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

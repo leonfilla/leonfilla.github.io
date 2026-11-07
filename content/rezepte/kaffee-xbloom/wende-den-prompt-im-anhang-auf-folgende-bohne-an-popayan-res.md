@@ -13,6 +13,7 @@ importiert: true
 linie: kaffeekirsche-popayan-decaf-2025-07-09
 bohne: kaffeekirsche-popayan-decaf
 fokus: Gemini-Rezeptsatz für den Sugar-Cane-Decaf (Pour Over, Flash Brew, Signatur V1/V2, Zusatzrezept Mahlgrad 56), nur bruchstückhaft erhalten. Vollständige Popayan-Programme liegen als eigene xBloom-Rezepte vor.
+gesichtet: false
 ---
 
 ## Notizen

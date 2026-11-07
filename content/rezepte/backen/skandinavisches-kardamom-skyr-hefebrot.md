@@ -64,6 +64,7 @@ schritte:
   - titel: Auskühlen
     text: Auf dem Gitter vollständig auskühlen lassen, frühestens nach ca. 30 Minuten anschneiden.
     timer: 1800
+gesichtet: false
 ---
 
 ## Warum so

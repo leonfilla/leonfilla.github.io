@@ -40,6 +40,7 @@ schritte:
   - {titel: Pürieren, text: "Warme Kichererbsen, Karotte, 12 g Ingwer, 6 g Kurkuma und 1 g Pfeffer zugeben und auf höchster Stufe 2–3 Minuten pürieren.", timer: 150}
   - {titel: Prüfen, text: "Unter 45 °C halten, sonst bis 20 g Eiswasser nachgeben; Ziel-pH 4,2–4,5, sonst in 5-g-Schritten Zitronensaft nachgeben."}
   - {titel: Kühlen, text: 2 Stunden durchkühlen., timer: 7200}
+gesichtet: false
 ---
 
 ## Warum so

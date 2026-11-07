@@ -32,6 +32,7 @@ schritte:
     text: "100 g TK-Pfirsichspalten zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

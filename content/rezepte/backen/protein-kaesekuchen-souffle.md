@@ -35,6 +35,7 @@ schritte:
   - titel: Backen
     text: Im Wasserbad bei 150 °C 40 Minuten backen.
     timer: 2400
+gesichtet: false
 ---
 
 ## Warum so

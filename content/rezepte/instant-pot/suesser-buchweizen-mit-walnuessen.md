@@ -31,4 +31,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 8 Minuten.", timer: 480}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Fertigstellen, text: 2 EL Honig und 30 g Walnüsse in den heißen Brei rühren.}
+gesichtet: false
 ---

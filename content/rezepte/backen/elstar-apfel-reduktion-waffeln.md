@@ -28,6 +28,7 @@ schritte:
     timer: 480
   - titel: Servieren
     text: Heiß über die Waffeln gießen.
+gesichtet: false
 ---
 
 ## Warum so

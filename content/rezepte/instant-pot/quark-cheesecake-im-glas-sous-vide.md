@@ -34,6 +34,7 @@ schritte:
   - {titel: "Akklimatisieren", text: "Gläser herausnehmen und 20 Minuten bei Raumtemperatur stehen lassen.", timer: 1200}
   - {titel: "Kühlen", text: "2 Stunden im Kühlschrank durchkühlen.", timer: 7200}
 
+gesichtet: false
 ---
 
 ## Warum so

@@ -55,6 +55,7 @@ schritte:
     timer: 150
   - titel: Konsistenz
     text: Eiswasser bei laufendem Motor in 10-ml-Schritten zugeben.
+gesichtet: false
 ---
 
 ## Warum so

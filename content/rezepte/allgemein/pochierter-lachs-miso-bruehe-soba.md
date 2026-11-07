@@ -26,6 +26,7 @@ schritte:
   - {titel: Nudeln ziehen lassen, text: "5 g Wakame und Soba zugeben, 4 Minuten bei 85 °C ziehen lassen.", timer: 240}
   - {titel: Pochieren, text: "Lachswürfel einlegen, Hitze aus und 4 Minuten in der Restwärme pochieren.", timer: 240}
   - {titel: Anrichten, text: In Schalen anrichten und mit Frühlingszwiebeln bestreuen.}
+gesichtet: false
 ---
 
 ## Warum so

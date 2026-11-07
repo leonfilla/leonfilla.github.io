@@ -58,6 +58,7 @@ schritte:
     timer: 120
   - titel: Abschmecken
     text: "20 ml Zitronensaft einrühren, bei Bedarf nachsalzen."
+gesichtet: false
 ---
 
 ## Warum so

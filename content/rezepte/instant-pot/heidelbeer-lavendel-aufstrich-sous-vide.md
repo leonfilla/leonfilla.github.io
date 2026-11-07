@@ -32,6 +32,7 @@ schritte:
   timer: 3600
 - titel: Pürieren
   text: Beutelinhalt in ein Gefäß geben und auf die gewünschte Textur pürieren.
+gesichtet: false
 ---
 
 ## Warum so

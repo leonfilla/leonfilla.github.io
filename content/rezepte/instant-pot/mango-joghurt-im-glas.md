@@ -30,6 +30,7 @@ schritte:
   - {titel: Einsetzen, text: "Gläser in den Instant Pot stellen, 500 ml etwa 40 °C warmes Wasser angießen."}
   - {titel: Fermentieren, text: "Yogurt, 42 °C, 10 Stunden; ab 9 Stunden den pH prüfen, Ziel 4,4–4,5.", timer: 36000}
   - {titel: Kühlen, text: Sofort mindestens 4 Stunden kühlen., timer: 14400}
+gesichtet: false
 ---
 
 ## Warum so

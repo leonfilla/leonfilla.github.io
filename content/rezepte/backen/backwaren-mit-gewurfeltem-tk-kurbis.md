@@ -44,6 +44,7 @@ schritte:
 - titel: Backen
   text: Ofen auf 230 °C Ober-/Unterhitze vorheizen, Blech auf mittlerer Schiene einschieben und backen; in Minute 1 und 5 je einen Dampfstoß geben.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

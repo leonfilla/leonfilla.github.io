@@ -26,6 +26,7 @@ schritte:
   - {titel: "Teig rühren", text: "250 g Ricotta, 3 Eigelb, 50 ml Milch und 100 g Mehl verquirlen, Eischnee in drei Portionen unterheben."}
   - {titel: "Braten", text: "Butter erhitzen, Apfelringe einlegen, mit je 2 EL Teig übergießen und 3 Minuten pro Seite braten.", timer: 180}
 
+gesichtet: false
 ---
 
 ## Warum so

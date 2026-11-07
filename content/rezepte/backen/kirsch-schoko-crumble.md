@@ -31,6 +31,7 @@ schritte:
   - {titel: "Streuen", text: "Crumble über die Kirschen streuen."}
   - {titel: "Backen", text: "Bei 190 °C Heißluft 25 Minuten backen, bis das Topping fest und die Kirschflüssigkeit geliert ist.", timer: 1500}
 
+gesichtet: false
 ---
 
 ## Warum so

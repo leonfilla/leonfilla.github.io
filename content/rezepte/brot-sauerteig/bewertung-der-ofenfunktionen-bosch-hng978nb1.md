@@ -87,6 +87,7 @@ schritte:
     timer: 900
   - titel: Ausbacken
     text: Auf 210 °C reduzieren und bis 97–98 °C Kerntemperatur backen.
+gesichtet: false
 ---
 
 ## Warum so

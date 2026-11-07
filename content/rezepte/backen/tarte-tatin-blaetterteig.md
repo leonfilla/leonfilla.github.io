@@ -32,6 +32,7 @@ schritte:
   - {titel: "Backen", text: "Bei 200 °C Ober-/Unterhitze 25 Minuten backen.", timer: 1500}
   - {titel: "Ruhen und stürzen", text: "5 Minuten ruhen lassen, dann direkt auf einen Teller stürzen.", timer: 300}
 
+gesichtet: false
 ---
 
 ## Warum so

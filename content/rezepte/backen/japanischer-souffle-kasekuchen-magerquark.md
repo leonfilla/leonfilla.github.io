@@ -43,6 +43,7 @@ schritte:
 - titel: Ausklingen
   text: Ofentür 30 Minuten leicht geöffnet lassen.
   timer: 1800
+gesichtet: false
 ---
 
 ## Warum so

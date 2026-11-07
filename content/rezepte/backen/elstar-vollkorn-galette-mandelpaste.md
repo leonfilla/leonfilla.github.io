@@ -32,6 +32,7 @@ schritte:
   - {titel: Äpfel hobeln, text: Äpfel in 2 mm dünne Scheiben hobeln.}
   - {titel: Formen, text: "Teig 3 mm dick rund ausrollen, Paste mittig verstreichen, 4 cm Rand lassen, Äpfel fächerförmig auflegen und den Rand einklappen."}
   - {titel: Backen, text: "Ober-/Unterhitze 190 °C, 40 Minuten, bis der Rand bräunt.", timer: 2400}
+gesichtet: false
 ---
 
 ## Varianten

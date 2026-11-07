@@ -28,6 +28,7 @@ schritte:
   - {titel: "Einfüllen", text: "Mango, Zwiebel, Chili, 2 TL Ingwer, Knoblauch, 150 g braunen Zucker, 100 ml Apfelessig und ½ TL Salz in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Marmelade wählen und die Zeit auf 1 Stunde 30 Minuten stellen.", timer: 5400}
   - {titel: "Abfüllen", text: "Heißes Chutney in sterilisierte Gläser füllen und verschließen."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -31,6 +31,7 @@ schritte:
   - {titel: Anbraten, text: Pfanne maximal erhitzen und den Thunfisch je Seite 20 Sekunden anbraten., timer: 40}
   - {titel: Tranchieren, text: In 1 cm dicke Tranchen schneiden.}
   - {titel: Rollen, text: "Abgetropfte Pickles und Thunfisch auf die Tortillas legen, rollen und kalt servieren."}
+gesichtet: false
 ---
 
 ## Varianten

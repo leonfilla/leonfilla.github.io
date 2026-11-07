@@ -38,6 +38,7 @@ schritte:
     text: "150 ml Vollmilch mit Auto MilQ auf 65 °C, Textur Stufe 1."
   - titel: Aufgießen
     text: Milch eingießen und verrühren.
+gesichtet: false
 ---
 
 ## Warum so

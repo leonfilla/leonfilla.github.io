@@ -48,6 +48,7 @@ schritte:
   - titel: Mixen
     text: Paprika grob zerkleinern und mit Kichererbsen, Knoblauch, Paprikapulver und Salz 2–3 Minuten mixen.
     timer: 150
+gesichtet: false
 ---
 
 ## Warum so

@@ -29,6 +29,7 @@ schritte:
   - {titel: "Verkneten", text: "Mit 80 g Walnüssen, 120 g Dinkelmehl, 30 g Zucker und 10 g Lecithin von Hand verkneten – kein Wasser zugeben."}
   - {titel: "Formen", text: "Auf dem Blech zu flachen Cookies formen."}
   - {titel: "Backen", text: "Im Kombibetrieb mit 180 °C Heißluft und 90 W Mikrowelle 12 Minuten backen.", timer: 720}
+gesichtet: false
 ---
 
 ## Warum so

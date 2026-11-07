@@ -32,6 +32,7 @@ schritte:
   timer: 60
 - titel: Miso einrühren
   text: Brühe unter 60 °C abkühlen lassen, 45 g Miso mit dem Schneebesen einrühren, Nudeln und Edamame zugeben.
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,6 +28,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, Max, 5 Minuten.", timer: 300}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Pürieren, text: 50 g Miso zugeben und mit dem Stabmixer direkt im Topf 60 Sekunden seidig pürieren., timer: 60}
+gesichtet: false
 ---
 
 ## Warum so

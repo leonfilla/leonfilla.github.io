@@ -32,6 +32,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "15 g Chiasamen, 30 g Haferflocken, fein, 18 g Medjool-Dattel, entkernt und 30 ml Bio-Limette mit Schale einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "130 g TK-Blaubeeren, 130 g TK-Ananas und 80 g TK-Brokkoli zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

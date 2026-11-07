@@ -40,6 +40,7 @@ schritte:
     timer: 120
   - titel: Abfüllen
     text: In sterilisierte Gläser füllen.
+gesichtet: false
 ---
 
 ## Warum so

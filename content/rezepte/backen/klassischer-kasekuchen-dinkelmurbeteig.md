@@ -50,6 +50,7 @@ schritte:
 - titel: Nachziehen
   text: Ofen ausschalten und den Kuchen bei leicht geöffneter Tür 30 Minuten ruhen lassen.
   timer: 1800
+gesichtet: false
 ---
 
 ## Warum so

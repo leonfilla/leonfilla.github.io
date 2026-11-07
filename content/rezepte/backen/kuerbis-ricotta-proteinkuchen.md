@@ -46,6 +46,7 @@ schritte:
   - titel: Backen
     text: Bei 160 °C Heißluft 35 Minuten backen, bis die Masse gestockt ist (Kerntemperatur ca. 82 °C).
     timer: 2100
+gesichtet: false
 ---
 
 ## Warum so

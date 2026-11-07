@@ -26,6 +26,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "30 g Pflanzliches Proteinpulver auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "100 g Banane, 20 g Pistazienmus und 10 g Chiasamen einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

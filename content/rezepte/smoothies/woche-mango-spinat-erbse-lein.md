@@ -32,6 +32,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "30 g Haferflocken, fein, 12 g Leinsamen, gemahlen und 15 g Hanfsamen, geschält einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "160 g TK-Mango, 65 g TK-Blattspinat und 80 g TK-Erbsen, aufgetaut zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

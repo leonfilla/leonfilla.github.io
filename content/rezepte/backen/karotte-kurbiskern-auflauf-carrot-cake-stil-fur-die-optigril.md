@@ -39,6 +39,7 @@ schritte:
   - {titel: "Einfüllen", text: "Teig höchstens zwei Drittel hoch einfüllen, glatt streichen und 20 g Nüsse darüberstreuen."}
   - {titel: "Backen", text: "Deckel schließen und backen, bis die Oberfläche gebräunt und die Mitte fest ist; ab Minute 18 mit der Stäbchenprobe prüfen.", timer: 1380}
   - {titel: "Ruhen lassen", text: "In der Schale 5–10 Minuten ruhen lassen, dann mit einem Silikonspatel lösen und in 2 Portionen schneiden.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

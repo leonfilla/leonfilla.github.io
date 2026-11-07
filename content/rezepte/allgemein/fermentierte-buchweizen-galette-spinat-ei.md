@@ -23,6 +23,7 @@ schritte:
   - {titel: "Ausbacken", text: "OptiGrill mit Backschale auf 220 °C vorheizen, Teig dünn ausgießen und 4 Minuten backen.", timer: 240}
   - {titel: "Spinat", text: "Parallel den Spinat in einer beschichteten Pfanne zusammenfallen lassen."}
   - {titel: "Füllen", text: "Galette wenden, Spinat mittig, Ei darauf, Ränder quadratisch einklappen und 3 Minuten weiterbacken, bis das Eiweiß gestockt ist.", timer: 180}
+gesichtet: false
 ---
 
 ## Warum so

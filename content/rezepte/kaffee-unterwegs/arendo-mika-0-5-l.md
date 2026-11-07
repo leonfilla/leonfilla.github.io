@@ -9,6 +9,7 @@ quelle:
 importiert: true
 fokus: Kein Rezept – Produktvergleich günstiger Schwanenhals-Wasserkocher mit Temperaturwahl für Filterkaffee auf Reisen.
 tags: [Ausrüstung, Reise]
+gesichtet: false
 ---
 
 ## Notizen

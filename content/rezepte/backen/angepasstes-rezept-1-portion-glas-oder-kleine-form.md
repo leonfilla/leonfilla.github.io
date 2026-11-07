@@ -50,6 +50,7 @@ schritte:
     timer: 1020
   - titel: Über Nacht kühlen
     text: Abkühlen lassen und über Nacht in den Kühlschrank stellen.
+gesichtet: false
 ---
 
 ## Warum so

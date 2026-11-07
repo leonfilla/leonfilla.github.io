@@ -34,6 +34,7 @@ schritte:
 - {titel: Eistreiche, text: Ofen auf 180 °C Heißluft vorheizen. 1 Ei mit 15 ml Milch und einer Prise Salz verquirlen und vorsichtig aufpinseln.}
 - {titel: Backen, text: 'Zopf 30–35 Minuten, Brötchen 18–22 Minuten backen; nach 15–20 Minuten bei Bedarf mit Alufolie abdecken. Fertig bei 90–92 °C Kerntemperatur.', timer: 1800}
 - {titel: Auskühlen, text: Auf dem Gitter vollständig auskühlen lassen.}
+gesichtet: false
 ---
 
 ## Warum so

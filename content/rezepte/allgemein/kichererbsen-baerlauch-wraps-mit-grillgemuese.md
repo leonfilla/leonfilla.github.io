@@ -30,6 +30,7 @@ schritte:
   - {titel: "Kühlen", text: "Gemüse im Kühlschrank auf etwa 5 °C abkühlen lassen.", timer: 600}
   - {titel: "Creme mixen", text: "Bärlauch, Kichererbsen, Tahini, Olivenöl und Zitronensaft im Mixer etwa 45 Sekunden zu einer homogenen Emulsion mixen.", timer: 45}
   - {titel: "Rollen", text: "Jeden Wrap mit 100 g Creme bestreichen, kaltes Gemüse auflegen, straff rollen."}
+gesichtet: false
 ---
 
 ## Warum so

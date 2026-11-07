@@ -33,6 +33,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "20 g Walnüsse, ganz, 35 g Haferflocken, fein und 18 g Medjool-Dattel, entkernt einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "150 g TK-Sauerkirschen und 100 g TK-Zucchini, roh zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

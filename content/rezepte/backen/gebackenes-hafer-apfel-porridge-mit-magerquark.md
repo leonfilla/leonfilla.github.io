@@ -43,6 +43,7 @@ schritte:
   - {titel: "Feucht garen", text: "25 Minuten bei 160 °C mit voller Dampfzugabe garen.", timer: 1500}
   - {titel: "Bräunen", text: "Dampf abschalten, auf 185 °C erhöhen und 10–12 Minuten bräunen; Kerntemperatur 82–85 °C.", timer: 660}
   - {titel: "Ruhen lassen", text: "10 Minuten außerhalb des Ofens stehen lassen.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

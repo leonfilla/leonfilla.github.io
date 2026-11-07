@@ -36,6 +36,7 @@ schritte:
     timer: 60
   - titel: Kühlen
     text: Bis zum Servieren auf etwa 8 °C kühlen, mit dem zweiten Thymianzweig servieren.
+gesichtet: false
 ---
 
 ## Warum so

@@ -21,6 +21,7 @@ zutaten:
 schritte:
 - {titel: Einfüllen, text: Alle Zutaten in die Backform geben.}
 - {titel: Programm wählen, text: 'Menü 26 wählen, Timer möglichst kurz einstellen und starten.'}
+gesichtet: false
 ---
 
 ## Warum so

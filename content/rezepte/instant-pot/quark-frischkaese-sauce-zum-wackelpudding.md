@@ -27,6 +27,7 @@ schritte:
   - {titel: Temperieren, text: "50 g Frischkäse, 60 ml Sahne und 30 g Zucker im Joghurt-Modus 15 Minuten bei etwa 40 °C temperieren.", timer: 900}
   - {titel: Glatt mixen, text: Die warme Mischung klumpenfrei mixen.}
   - {titel: Quark unterrühren, text: 150 g Magerquark kalt unterrühren.}
+gesichtet: false
 ---
 
 ## Warum so

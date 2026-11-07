@@ -28,6 +28,7 @@ schritte:
   - {titel: "Abschrecken", text: "Konzentrat über 4 große Eiswürfel gießen."}
   - {titel: "Aufgießen", text: "150 g Grauburgunder zugeben, mit 50 g Sprudelwasser auffüllen und sanft verrühren."}
 
+gesichtet: false
 ---
 
 ## Warum so

@@ -29,6 +29,7 @@ schritte:
   - titel: Mixen
     text: Matcha mit 300 g kaltem Wasser, 40 g Mandelmus und 60 g Whey in den Mixer geben und 20 Sekunden auf hoher Stufe emulgieren.
     timer: 20
+gesichtet: false
 ---
 
 ## Warum so

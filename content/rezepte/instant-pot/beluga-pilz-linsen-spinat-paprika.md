@@ -42,6 +42,7 @@ schritte:
     text: 300 g TK-Spinat einrühren, er senkt die Temperatur schnell.
   - titel: Miso einrühren
     text: Bei unter 80 °C 120 g Misopaste in der Restflüssigkeit auflösen und einrühren.
+gesichtet: false
 ---
 
 ## Warum so

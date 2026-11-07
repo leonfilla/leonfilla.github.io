@@ -35,6 +35,7 @@ schritte:
 - titel: Abkühlen und schneiden
   text: Backschale entnehmen, Masse 5 Minuten darin abkühlen lassen und in quadratische Schnitten teilen.
   timer: 300
+gesichtet: false
 ---
 
 ## Warum so

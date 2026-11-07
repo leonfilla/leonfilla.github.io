@@ -34,6 +34,7 @@ schritte:
   - titel: Backen
     text: OptiGrill mit Backblech-Einsatz im manuellen Modus auf 200 °C vorheizen und die Scones 18 Minuten backen.
     timer: 1080
+gesichtet: false
 ---
 
 ## Warum so

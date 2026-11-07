@@ -35,6 +35,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "15 g Walnüsse, ganz, 18 g Medjool-Dattel, entkernt und 12 g Leinsamen, gemahlen einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "130 g TK-Mango, 100 g TK-Ananas und 70 g TK-Karotte, gegart zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

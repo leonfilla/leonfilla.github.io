@@ -46,6 +46,7 @@ schritte:
     timer: 300
   - titel: Öl
     text: 35 g Rapsöl unterrühren.
+gesichtet: false
 ---
 
 ## Warum so

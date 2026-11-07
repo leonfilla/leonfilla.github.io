@@ -27,6 +27,7 @@ schritte:
 - titel: Quellen lassen
   text: Im Kühlschrank quellen lassen.
   timer: 7200
+gesichtet: false
 ---
 
 ## Warum so

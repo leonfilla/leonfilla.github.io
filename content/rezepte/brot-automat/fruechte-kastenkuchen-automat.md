@@ -23,6 +23,7 @@ schritte:
 - {titel: Knethaken einsetzen, text: Den Knethaken in die Backform einsetzen.}
 - {titel: Einfüllen, text: Alle Zutaten in die Backform geben; die Reihenfolge ist hier weniger wichtig.}
 - {titel: Programm wählen, text: 'Menü 26 (Kuchen) wählen, Timer auf die Fertigzeit stellen und starten.'}
+gesichtet: false
 ---
 
 ## Warum so

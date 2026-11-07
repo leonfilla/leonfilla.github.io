@@ -31,6 +31,7 @@ schritte:
     text: "150 g Ricotta und 10 g Ahornsirup mit dem Handmixer auf Stufe 3 aufschlagen."
   - titel: Espresso einarbeiten
     text: "Heißen Espresso langsam einlaufen lassen, bis eine glatte Creme entsteht, sofort auf die warmen Waffeln geben."
+gesichtet: false
 ---
 
 ## Warum so

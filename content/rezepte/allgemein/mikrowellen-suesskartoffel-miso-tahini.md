@@ -24,4 +24,5 @@ schritte:
   - {titel: Garen, text: Süßkartoffel mehrfach einstechen und bei 900 W 5–6 Minuten in der Mikrowelle weich garen., timer: 330}
   - {titel: Emulsion mixen, text: "20 g Tahini, 15 g Miso, 10 g Zitronensaft und 30 ml Wasser mit dem Stabmixer glatt mixen; Ziel-pH 4,3–4,6."}
   - {titel: Anrichten, text: "Kartoffel aufschneiden, 100 g Kichererbsen einfüllen und mit der Emulsion übergießen."}
+gesichtet: false
 ---

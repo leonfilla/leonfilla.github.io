@@ -34,6 +34,7 @@ schritte:
     text: Doppelten Espresso (18 g auf 36 g) separat in ein Kännchen beziehen.
   - titel: Schichten
     text: Espresso sehr langsam über einen Löffelrücken auf die Oberfläche gießen.
+gesichtet: false
 ---
 
 ## Warum so

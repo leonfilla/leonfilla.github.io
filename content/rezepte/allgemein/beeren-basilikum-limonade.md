@@ -28,6 +28,7 @@ schritte:
   text: Püree durch ein Feinsieb ins Glas streichen.
 - titel: Aufgießen
   text: Mit 150 g Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

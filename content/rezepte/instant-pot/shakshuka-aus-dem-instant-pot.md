@@ -41,6 +41,7 @@ schritte:
   - titel: Stocken lassen
     text: Gerät aus, Deckel auflegen und 5–7 Minuten in der Restwärme stocken lassen.
     timer: 360
+gesichtet: false
 ---
 
 ## Warum so

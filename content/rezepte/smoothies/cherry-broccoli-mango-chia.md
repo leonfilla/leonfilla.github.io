@@ -36,6 +36,7 @@ schritte:
     text: "130 g TK-Sauerkirschen, 140 g TK-Mango und 75 g TK-Brokkoli zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

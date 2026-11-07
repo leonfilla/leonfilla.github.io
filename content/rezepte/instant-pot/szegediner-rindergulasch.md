@@ -45,6 +45,7 @@ schritte:
   - titel: Natürlicher Druckabbau
     text: 15 Minuten Natural Release.
     timer: 900
+gesichtet: false
 ---
 
 ## Warum so

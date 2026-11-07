@@ -38,6 +38,7 @@ schritte:
 - titel: Waffeln backen
   text: OptiGrill im manuellen Modus auf 200 °C vorheizen, Platten leicht ölen, Teig eingießen und 5–6 Minuten backen, bis die Kruste stabil ist.
   timer: 330
+gesichtet: false
 ---
 
 ## Warum so

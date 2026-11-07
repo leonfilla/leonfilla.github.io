@@ -28,6 +28,7 @@ schritte:
   - {titel: "Abfüllen", text: "In hitzebeständige Gläser füllen und dicht verschließen."}
   - {titel: "Garen", text: "Gläser ins Wasserbad stellen und 60 Minuten garen.", timer: 3600}
   - {titel: "Kühlen", text: "Vor dem Servieren im Kühlschrank auf etwa 15 °C abkühlen."}
+gesichtet: false
 ---
 
 ## Warum so

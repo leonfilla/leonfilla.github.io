@@ -19,6 +19,7 @@ schritte:
 - {titel: Coulis, text: 100 g TK-Beeren mit 1 TL Honig kurz erhitzen und mit dem Pürierstab glatt mixen.}
 - {titel: Toasten, text: Brot toasten.}
 - {titel: Anrichten, text: Ricotta aufstreichen und das Coulis darübergeben.}
+gesichtet: false
 ---
 
 ## Warum so

@@ -34,6 +34,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "30 g Haferflocken, fein und 12 g Leinsamen, gemahlen einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "140 g TK-Ananas, 80 g TK-Brokkoli und 70 g TK-Banane zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

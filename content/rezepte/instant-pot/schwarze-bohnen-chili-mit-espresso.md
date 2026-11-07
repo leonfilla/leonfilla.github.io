@@ -34,6 +34,7 @@ schritte:
   - {titel: "Einfüllen", text: "Bohnen, Wasser, Chili und Salz dazugeben."}
   - {titel: "Druckgaren", text: "Pressure Cook, Max, 40 Minuten. NutriBoost aus, damit die Bohnen ganz bleiben.", timer: 2400}
   - {titel: "Druck ablassen", text: "Quick Release."}
+gesichtet: false
 ---
 
 ## Warum so

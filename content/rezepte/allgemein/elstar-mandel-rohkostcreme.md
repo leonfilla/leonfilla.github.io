@@ -22,6 +22,7 @@ schritte:
   - {titel: Einfüllen, text: Alle Zutaten in den Mixbehälter geben.}
   - {titel: Mixen, text: Innerhalb von 10 Sekunden auf Maximum hochfahren und 45 Sekunden mixen., timer: 45}
   - {titel: Servieren, text: Sofort ausgießen und essen.}
+gesichtet: false
 ---
 
 ## Warum so

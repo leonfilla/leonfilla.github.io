@@ -9,6 +9,7 @@ quelle:
 importiert: true
 fokus: Kein Rezept – Korrekturrechnung, wie viel Wasser nachgegeben wird, wenn beim Umfüllen 62 g Kochstück (Mehl und Wasser) verloren gingen.
 tags: [Brot, Korrektur]
+gesichtet: false
 ---
 
 ## Notizen

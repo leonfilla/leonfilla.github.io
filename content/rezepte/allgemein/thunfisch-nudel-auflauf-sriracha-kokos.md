@@ -46,6 +46,7 @@ schritte:
   - titel: Backen
     text: Bei 180 °C 4D Heißluft 20 Minuten backen, bis der Käse goldbraun ist.
     timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

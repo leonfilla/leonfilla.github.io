@@ -42,6 +42,7 @@ schritte:
   - titel: Backen
     text: Auf Einschubhöhe 2 bei 190 °C 4D Heißluft mit Mikrowelle 90 W 18 Minuten backen.
     timer: 1080
+gesichtet: false
 ---
 
 ## Warum so

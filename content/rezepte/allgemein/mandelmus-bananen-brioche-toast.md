@@ -16,6 +16,7 @@ zutaten:
 schritte:
 - {titel: Toasten, text: Brot toasten.}
 - {titel: Belegen, text: Mit Mandelmus bestreichen und mit Bananenscheiben belegen.}
+gesichtet: false
 ---
 
 ## Warum so

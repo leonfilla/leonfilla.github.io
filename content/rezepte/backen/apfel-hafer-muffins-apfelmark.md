@@ -33,4 +33,5 @@ schritte:
   - {titel: "Verbinden", text: "Flüssiges zur Mehlmischung geben, nur kurz verrühren und die Apfelwürfel unterheben."}
   - {titel: "Backen", text: "In Muffinförmchen füllen und bei 180 °C 20–25 Minuten backen.", timer: 1350}
 
+gesichtet: false
 ---

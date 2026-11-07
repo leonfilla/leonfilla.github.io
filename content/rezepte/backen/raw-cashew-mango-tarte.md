@@ -32,6 +32,7 @@ schritte:
 - titel: Fest werden lassen
   text: Füllung auf den Boden gießen und mindestens 6 Stunden kühlen.
   timer: 21600
+gesichtet: false
 ---
 
 ## Warum so

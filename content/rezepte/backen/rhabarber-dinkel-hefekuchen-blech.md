@@ -45,6 +45,7 @@ schritte:
 - titel: Fertigbacken
   text: Weitere 20 Minuten ohne Dampf backen.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

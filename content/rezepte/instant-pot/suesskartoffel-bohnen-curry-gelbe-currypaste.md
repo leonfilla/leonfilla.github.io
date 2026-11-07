@@ -43,6 +43,7 @@ schritte:
   - titel: Spinat
     text: Sauté erneut starten und 100 g Babyspinat 60 Sekunden unterheben.
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

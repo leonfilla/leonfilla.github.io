@@ -29,6 +29,7 @@ schritte:
   - {titel: "Creme rühren", text: "2 EL Schmand, 1 EL Frischkäse, 1 TL Zucker und 1 TL Zitronensaft homogen verrühren."}
   - {titel: "Aufstreichen", text: "Creme etwa 1 cm dick auf die Brioche-Scheibe streichen."}
   - {titel: "Grillen", text: "Auf Einschubhöhe 3 mit Heißluftgrillen bei 200 °C 4–5 Minuten backen, bis die Creme leicht stockt.", timer: 240}
+gesichtet: false
 ---
 
 ## Warum so

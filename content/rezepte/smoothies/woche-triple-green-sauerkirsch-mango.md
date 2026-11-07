@@ -33,6 +33,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "18 g Hanfsamen, geschält und 30 ml Bio-Limette mit Schale einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "150 g TK-Mango, 100 g TK-Sauerkirschen, 70 g TK-Brokkoli, 55 g TK-Blattspinat und 60 g TK-Erbsen, aufgetaut zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

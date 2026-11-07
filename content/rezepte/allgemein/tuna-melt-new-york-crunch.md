@@ -27,6 +27,7 @@ schritte:
 - {titel: Grill vorheizen, text: OptiGrill im Programm Sandwich vorheizen.}
 - {titel: Einlegen, text: 'Sandwich mittig, leicht schräg zu den Rillen einlegen. Deckel bis zum Brot absenken und 30 Sekunden mit leichtem Gegendruck halten.'}
 - {titel: Grillen, text: 'Loslassen und grillen, bis die Anzeige Orange bis Rot erreicht.'}
+gesichtet: false
 ---
 
 ## Warum so

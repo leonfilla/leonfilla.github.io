@@ -33,6 +33,7 @@ schritte:
   - titel: Dampfgaren
     text: Bei 90 °C mit 100 % Dampf garen.
     timer: 900
+gesichtet: false
 ---
 
 ## Warum so

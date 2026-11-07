@@ -51,6 +51,7 @@ schritte:
   - titel: Rösten
     text: Auf der oberen Schiene 18–20 Minuten rösten, bis die Ränder dunkel gebräunt sind.
     timer: 1140
+gesichtet: false
 ---
 
 ## Warum so

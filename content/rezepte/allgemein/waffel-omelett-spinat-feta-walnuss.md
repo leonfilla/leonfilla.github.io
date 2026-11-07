@@ -30,6 +30,7 @@ schritte:
   - titel: Backen
     text: Masse in die Waffelplatte gießen, Deckel schließen und 4 Minuten backen, bis am Rand keine Feuchtigkeit mehr austritt.
     timer: 240
+gesichtet: false
 ---
 
 ## Warum so

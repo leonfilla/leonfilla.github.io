@@ -42,6 +42,7 @@ schritte:
 - titel: Kühlen
   text: Gläser entnehmen, Deckel festziehen, bei Raumtemperatur abkühlen lassen und kühlen. Beeren beim Servieren daraufgeben.
   timer: 7200
+gesichtet: false
 ---
 
 ## Warum so

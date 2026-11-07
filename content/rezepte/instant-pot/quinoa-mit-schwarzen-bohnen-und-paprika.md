@@ -37,6 +37,7 @@ schritte:
   - titel: Natürlicher Druckabbau
     text: 10 Minuten Natural Release, Restdruck ablassen, mit der Gabel auflockern.
     timer: 600
+gesichtet: false
 ---
 
 ## Warum so

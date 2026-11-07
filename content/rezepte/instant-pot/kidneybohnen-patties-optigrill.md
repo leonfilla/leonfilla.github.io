@@ -46,6 +46,7 @@ schritte:
   - titel: Grillen
     text: OptiGrill manuell auf 200 °C vorheizen, Patties auflegen und bei geschlossenem Grill 6 Minuten grillen.
     timer: 360
+gesichtet: false
 ---
 
 ## Warum so

@@ -25,6 +25,7 @@ schritte:
 - {titel: Einfüllen, text: Alle Zutaten in die Backform geben.}
 - {titel: Programm starten, text: Programm Marmelade wählen und starten., timer: 5400}
 - {titel: Abfüllen, text: Heiß in sterilisierte Gläser füllen.}
+gesichtet: false
 ---
 
 ## Warum so

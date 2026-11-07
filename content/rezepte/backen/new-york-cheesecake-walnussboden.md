@@ -48,6 +48,7 @@ schritte:
 - titel: Setzen lassen
   text: 8 Stunden kühlen.
   timer: 28800
+gesichtet: false
 ---
 
 ## Warum so

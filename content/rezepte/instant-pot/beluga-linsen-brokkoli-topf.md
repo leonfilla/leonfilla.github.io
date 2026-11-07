@@ -37,6 +37,7 @@ schritte:
   - {titel: Gemüse einrühren, text: "250 g Brokkoli, 150 g Erbsen und 20 g Kräuter einrühren."}
   - {titel: Warmhalten, text: "Keep Warm 5–7 Minuten, bis Brokkoli und Erbsen gar, aber bissfest sind.", timer: 360}
   - {titel: Öl einrühren, text: Vor dem Servieren 30 g Leinöl unterrühren.}
+gesichtet: false
 ---
 
 ## Warum so

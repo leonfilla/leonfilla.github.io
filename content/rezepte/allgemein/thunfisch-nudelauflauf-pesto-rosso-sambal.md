@@ -47,6 +47,7 @@ schritte:
 - titel: Backen
   text: Bei 180 °C 4D-Heißluft backen.
   timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

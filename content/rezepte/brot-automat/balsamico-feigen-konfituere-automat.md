@@ -25,6 +25,7 @@ schritte:
   - {titel: "Einfüllen", text: "500 g Feigen, 150 g braunen Zucker, 60 ml Balsamico, 1 EL Zitronensaft und 1 Prise Pfeffer in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Marmelade wählen und starten.", timer: 5400}
   - {titel: "Abfüllen", text: "Heiße Konfitüre in sterilisierte Gläser füllen und verschließen."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,6 +28,7 @@ schritte:
     text: "Milchsorte im Menü wählen (Dairy/Oat), Auto MilQ auf 60–65 °C, Textur mittel."
   - titel: Kombinieren
     text: Milch in kreisenden Bewegungen über den Matcha gießen.
+gesichtet: false
 ---
 
 ## Warum so

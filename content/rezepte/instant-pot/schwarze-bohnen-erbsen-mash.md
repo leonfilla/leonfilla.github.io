@@ -30,6 +30,7 @@ schritte:
   - titel: Pulsen
     text: In Intervallen etwa 15 Sekunden pulsen, bis eine stückige, zusammenhängende Paste entsteht.
     timer: 15
+gesichtet: false
 ---
 
 ## Varianten

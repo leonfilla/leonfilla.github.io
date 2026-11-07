@@ -37,4 +37,5 @@ schritte:
   - {titel: "Schichten", text: "Nudeln mit der Sauce mischen, in die Auflaufform füllen und mit 150 g Gouda bestreuen."}
   - {titel: "Backen", text: "20 Minuten backen.", timer: 1200}
 
+gesichtet: false
 ---

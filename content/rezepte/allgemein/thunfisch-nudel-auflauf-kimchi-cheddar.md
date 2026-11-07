@@ -44,6 +44,7 @@ schritte:
 - titel: Backen
   text: Bei 180 °C 4D-Heißluft 20 Minuten backen.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

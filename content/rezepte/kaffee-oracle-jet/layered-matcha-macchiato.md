@@ -31,6 +31,7 @@ schritte:
     timer: 30
   - titel: Schichten
     text: Matcha-Shot sehr langsam über den Rand oder einen Löffelrücken einlaufen lassen.
+gesichtet: false
 ---
 
 ## Warum so

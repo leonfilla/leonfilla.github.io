@@ -32,4 +32,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 10 Minuten.", timer: 600}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Kürbis zerdrücken, text: Gut umrühren und die weichen Kürbiswürfel mit dem Löffel zerdrücken.}
+gesichtet: false
 ---

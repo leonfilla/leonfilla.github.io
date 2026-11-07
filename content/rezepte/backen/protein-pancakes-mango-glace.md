@@ -33,6 +33,7 @@ schritte:
     timer: 150
   - titel: Servieren
     text: Mit der Mango-Glace toppen.
+gesichtet: false
 ---
 
 ## Varianten

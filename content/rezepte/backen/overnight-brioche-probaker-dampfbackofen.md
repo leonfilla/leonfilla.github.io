@@ -8,7 +8,7 @@ quelle:
   hinweis: Overnight-Brioche für Wilfa und Bosch Dampfbackofen
 importiert: true
 linie: overnight-brioche-probaker-dampfbackofen-f02e1
-fokus: Teig abends im ProBaker kneten, über Nacht kalt gehen lassen, morgens im Bosch mit Dampf backen – noch warm zum Frühstück.
+fokus: Teig abends in der ProBaker-Küchenmaschine kneten, über Nacht kalt gehen lassen, morgens im Bosch mit Dampf backen – noch warm zum Frühstück.
 ergebnis: 1 kleiner Laib oder 6 Brötchen, für 2 Personen
 portionen: 2
 zeit: {aktiv: 25, gesamt: 690}
@@ -33,14 +33,16 @@ zutaten:
 - {gruppe: Zum Bestreichen, name: Eigelb, menge: 1, einheit: ""}
 - {gruppe: Zum Bestreichen, name: Milch, menge: 1, einheit: EL}
 schritte:
-- titel: ProBaker beladen
-  text: 60 ml lauwarme Milch und 2 Eier in den Behälter geben, 300 g Mehl darauf. 7 g Trockenhefe, 40 g Zucker und 5 g Salz in drei getrennte Ecken geben, Hefe ohne Salzkontakt. Optional den Zitronenabrieb zum Mehl. Butter zurückstellen.
-- titel: Teigprogramm starten
-  text: Teigprogramm starten (nur Kneten und 1. Gare, ca. 1:30 h).
+- titel: Schüssel befüllen
+  text: 60 ml lauwarme Milch und 2 Eier in die Rührschüssel des ProBaker geben, 300 g Mehl, 7 g Trockenhefe, 40 g Zucker, 5 g Salz und optional den Zitronenabrieb darauf. Butter zurückstellen.
+- titel: Kneten
+  text: Mit dem Knethaken auf niedriger Stufe 3 Minuten mischen, dann auf mittlerer Stufe 8–10 Minuten kneten, bis der Teig homogen ist und sich vom Schüsselrand löst.
+  timer: 780
 - titel: Butter einarbeiten
-  text: Nach 10–12 Minuten, sobald der Teig homogen ist, 120 g weiche Butter je 2–3 Würfel durch die Öffnung zugeben, die nächste Portion erst, wenn die vorige eingearbeitet ist (5–8 Minuten).
-- titel: Programm beenden
-  text: Programm durchlaufen lassen. Der Teig ist danach weich, leicht klebrig und seidig.
+  text: Bei laufender Maschine 120 g weiche Butter je 2–3 Würfel zugeben, die nächste Portion erst, wenn die vorige eingearbeitet ist. Danach weiterkneten, bis der Teig seidig glänzt und sich dünn ausziehen lässt (insgesamt 6–8 Minuten).
+  timer: 480
+- titel: Erste Gare
+  text: Schüssel abdecken und den Teig bei Raumtemperatur gehen lassen, bis er etwa um die Hälfte aufgegangen ist. Der Teig ist danach weich, leicht klebrig und seidig.
   timer: 4500
 - titel: Formen
   text: Teig auf leicht bemehlter Fläche kurz entgasen. Für die Kastenform in 4–5 Stücke teilen, rund schleifen und nebeneinander einlegen; für Brötchen 6 gleiche Stücke rund schleifen und mit Abstand aufs Blech setzen.

@@ -33,6 +33,7 @@ schritte:
   - {titel: "Pfanne erhitzen", text: "Schwere Pfanne ohne Öl auf hoher Stufe erhitzen."}
   - {titel: "Backen", text: "Fladen nacheinander von jeder Seite 2–3 Minuten backen, bis sie Blasen werfen und goldbraune Flecken bekommen.", timer: 300}
   - {titel: "Warm halten", text: "Fertige Fladen in ein sauberes Küchentuch einschlagen."}
+gesichtet: false
 ---
 
 ## Warum so

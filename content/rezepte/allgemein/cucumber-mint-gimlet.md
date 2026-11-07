@@ -27,6 +27,7 @@ schritte:
     text: Püree durch ein sehr feines Sieb drücken.
   - titel: Shaken
     text: Flüssigkeit kurz mit Eis shaken und ohne Eis in eine vorgekühlte Coupette abseihen.
+gesichtet: false
 ---
 
 ## Warum so

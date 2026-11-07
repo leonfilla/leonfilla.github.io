@@ -32,6 +32,7 @@ schritte:
   - {titel: "Druckgaren", text: "Pressure Cook, Max, 45 Minuten, NutriBoost an.", timer: 2700}
   - {titel: "Natürlicher Druckabbau", text: "15 Minuten Natural Release, dann Restdruck ablassen.", timer: 900}
   - {titel: "Säuern", text: "Apfelessig einrühren, bis der pH-Wert bei 4,8–5,2 liegt."}
+gesichtet: false
 ---
 
 ## Warum so

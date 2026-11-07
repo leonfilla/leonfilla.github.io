@@ -28,6 +28,7 @@ schritte:
     timer: 30
   - titel: Abseihen
     text: Direkt in einen Becher abseihen.
+gesichtet: false
 ---
 
 ## Warum so

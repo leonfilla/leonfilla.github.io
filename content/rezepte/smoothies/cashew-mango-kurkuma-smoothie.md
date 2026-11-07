@@ -28,6 +28,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "25 g Cashewmus einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "100 g TK-Mango zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

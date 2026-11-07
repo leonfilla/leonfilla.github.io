@@ -24,6 +24,7 @@ xbloom:
     - {phase: "Guss 2", menge: 104, temp: 90, fluss: 3.2, pause: 35, vib_vor: false, vib_nach: false}
     - {phase: "Guss 3", menge: 104, temp: 88, fluss: 3.2, pause: 0, vib_vor: false, vib_nach: false}
 bohne: kaffeehimmel-traumzeit
+gesichtet: false
 ---
 
 ## Warum so

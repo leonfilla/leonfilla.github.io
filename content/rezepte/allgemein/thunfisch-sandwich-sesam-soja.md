@@ -25,6 +25,7 @@ zutaten:
 schritte:
   - {titel: "Vermengen", text: "100 g Thunfisch mit 10 g Sojasauce, 5 g Sesamöl, Frühlingslauch und Chili vermengen."}
   - {titel: "Belegen", text: "Auf das Brot geben und mit geröstetem Sesam abschließen."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -5,13 +5,14 @@
 
 {% macro karte(r, zeige_bereich=false) -%}
 <a class="karte st-{{ r.status }}{{ ' veraltet' if r.veraltet }}" href="{{ r.url }}" style="--akzent: {{ r.bereich_info.farbe }}"
-   data-filter-item data-status="{{ 'archiv' if r.veraltet else r.status }}" data-q="{{ (r.titel ~ ' ' ~ (r.variante or '') ~ ' ' ~ ((r.tags or [])|join(' ')) ~ ' ' ~ ((r.zutaten or [])|map(attribute='name')|join(' ')))|lower }}">
+   data-filter-item{% if r.gesichtet is sameas false %} data-neu{% endif %} data-status="{{ 'archiv' if r.veraltet else r.status }}" data-q="{{ (r.titel ~ ' ' ~ (r.variante or '') ~ ' ' ~ ((r.tags or [])|join(' ')) ~ ' ' ~ ((r.zutaten or [])|map(attribute='name')|join(' ')))|lower }}">
   <span class="karte-titel">{{ r.titel }}</span>
   <span class="karte-meta">
     {% if zeige_bereich %}<span>{{ r.bereich_info.name }}</span>{% endif %}
     {% if r.version %}<span>{{ r.version }}</span>{% endif %}
     {% if r.variante and r.variante not in r.titel %}<span>{{ r.variante }}</span>{% endif %}
     {% if r.favorit %}<span class="stern" title="Go-to">★</span>{% endif %}
+    {% if r.gesichtet is sameas false %}<span class="marke-neu" title="Beim Aufteilen entstanden, noch nicht gesichtet">ungesichtet</span>{% endif %}
     {{ status(r) }}
   </span>
   {% if r.fokus %}<span class="karte-text">{{ r.fokus }}</span>{% endif %}
@@ -24,6 +25,7 @@
     {% for s, name in STATUS.items() %}
     <button type="button" class="chip st-{{ s }}" data-st="{{ s }}" aria-pressed="true">{{ name }} <b>{{ anzahl[s] }}</b></button>
     {% endfor %}
+    {% if anzahl.ungesichtet %}<button type="button" class="chip chip-neu" data-nur-neu aria-pressed="false">Nur ungesichtete <b>{{ anzahl.ungesichtet }}</b></button>{% endif %}
   </div>
   <input type="search" data-filter-text placeholder="{{ platzhalter }}" aria-label="Freitext-Filter">
   <p class="leise filter-leer" hidden>Keine Treffer für diese Auswahl.</p>

@@ -30,6 +30,7 @@ schritte:
   - {titel: "Infundieren", text: "Beutel 45 Minuten im Wasserbad lassen.", timer: 2700}
   - {titel: "Abseihen", text: "Durch ein Feinsieb abgießen und bei etwa 60 °C servieren."}
 
+gesichtet: false
 ---
 
 ## Warum so

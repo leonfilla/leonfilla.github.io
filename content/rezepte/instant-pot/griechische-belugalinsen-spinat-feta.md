@@ -49,4 +49,5 @@ schritte:
     text: 150 g Spinat einrühren, bis er zusammenfällt, Zitronensaft und Abrieb zugeben.
   - titel: Anrichten
     text: Mit 100 g Feta, Oliven und Olivenöl anrichten.
+gesichtet: false
 ---

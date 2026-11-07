@@ -24,4 +24,5 @@ schritte:
   - {titel: Programmieren, text: "xBloom: 80 °C, 250 g Wasser – 30 g Bloom für 30 Sekunden, dann zwei Güsse à 110 g."}
   - {titel: Brühen, text: Dripper über die Karaffe setzen und starten.}
   - {titel: Schwenken, text: "Schwenken, bis das restliche Eis den Drink auf etwa 2 °C bringt."}
+gesichtet: false
 ---

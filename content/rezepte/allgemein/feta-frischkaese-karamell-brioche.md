@@ -28,6 +28,7 @@ schritte:
   - {titel: "Aufstreichen", text: "Creme glatt auf die Brioche-Scheibe streichen."}
   - {titel: "Bestreuen", text: "½ TL Zucker oder Honig direkt auf die Cremeoberfläche streuen bzw. träufeln."}
   - {titel: "Grillen", text: "Auf Einschubhöhe 4 mit Flächengrill Stufe 3 für 2–3 Minuten unter ständiger Sichtkontrolle grillen.", timer: 120}
+gesichtet: false
 ---
 
 ## Warum so

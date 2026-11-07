@@ -52,6 +52,7 @@ schritte:
   - {titel: "Schichten", text: "Kompott auf die abgekühlte Käsemasse schichten und die Gläser verschließen."}
   - {titel: "Kühlen", text: "Mindestens 2 Stunden kühlen.", timer: 7200}
 
+gesichtet: false
 ---
 
 ## Warum so

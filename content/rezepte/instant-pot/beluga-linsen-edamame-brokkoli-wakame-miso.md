@@ -34,6 +34,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Brokkoli einrühren, text: 250 g Brokkoli einrühren und in der Restwärme garen.}
   - {titel: Miso einrühren, text: Unter 80 °C 60 g Miso einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

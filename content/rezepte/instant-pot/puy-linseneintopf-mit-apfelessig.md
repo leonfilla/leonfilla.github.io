@@ -43,6 +43,7 @@ schritte:
     text: Quick Release.
   - titel: Abschließen
     text: Lorbeer entfernen, 15 ml Apfelessig einrühren.
+gesichtet: false
 ---
 
 ## Warum so

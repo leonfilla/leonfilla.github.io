@@ -28,6 +28,7 @@ schritte:
     text: "20 g Cashewmus, 75 g Avocado und 10 g Honig zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

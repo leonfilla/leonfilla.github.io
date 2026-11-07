@@ -25,4 +25,5 @@ schritte:
   - {titel: Pürieren, text: "Edamame mit etwas Kochwasser, 5 g Zitronensaft und 2 g Salz mit dem Stabmixer grob pürieren."}
   - {titel: Grillen, text: "Lachs auflegen, schließen und bis zur Anzeige Medium garen."}
   - {titel: Glasieren, text: Sofort mit 10 g Teriyaki bepinseln und auf dem Püree anrichten.}
+gesichtet: false
 ---

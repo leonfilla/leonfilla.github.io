@@ -30,6 +30,7 @@ schritte:
     text: "50 g TK-Banane zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

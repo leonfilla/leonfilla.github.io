@@ -27,6 +27,7 @@ handbrew:
   temperatur: "94–96 °C"
   bloom: {menge: 60, zeit: 45}
   gesamtzeit: "4:00–4:30"
+gesichtet: false
 ---
 
 ## Warum so

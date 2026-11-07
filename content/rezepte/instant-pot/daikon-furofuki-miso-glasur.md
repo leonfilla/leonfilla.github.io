@@ -31,6 +31,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen; Daikon vorsichtig herausheben.", timer: 600}
   - {titel: Reduzieren, text: "Kombu entfernen, Sauté (High), Sud auf etwa 100 ml einkochen."}
   - {titel: Glasieren, text: "Gerät aus, 40 g Miso und 15 ml Mirin einrühren und die Glasur über den Daikon geben."}
+gesichtet: false
 ---
 
 ## Warum so

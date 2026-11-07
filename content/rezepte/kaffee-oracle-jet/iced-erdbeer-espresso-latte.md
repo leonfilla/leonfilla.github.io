@@ -28,6 +28,7 @@ schritte:
   - {titel: "Pürieren", text: "Mit dem Stabmixer fein pürieren und in ein Glas mit mehr als 350 ml Volumen füllen."}
   - {titel: "Schichten", text: "Eiswürfel und 180 ml kalte Milch auf das Püree schichten."}
   - {titel: "Espresso", text: "18 g mahlen und tampen, einen doppelten Espresso auf 36 g in 25–30 Sekunden direkt über Eis und Milch beziehen.", timer: 28}
+gesichtet: false
 ---
 
 ## Warum so

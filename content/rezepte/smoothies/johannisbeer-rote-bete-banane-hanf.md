@@ -36,6 +36,7 @@ schritte:
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Schwarze Johannisbeeren und 75 g TK-Banane zuletzt obenauf geben."}
   - {titel: "Zum Schluss", text: "65 g Rote Bete, roh, gerieben ganz oben einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -25,6 +25,7 @@ schritte:
 - {titel: Chia einrühren, text: 'Chiasamen, Süßungsmittel und Vanille gründlich unter die heiße Masse rühren.'}
 - {titel: Quellen lassen, text: Mindestens 30 Minuten in der warmen Form stehen lassen und gelegentlich umrühren., timer: 1800}
 - {titel: Abfüllen, text: In sterilisierte Gläser füllen und im Kühlschrank lagern.}
+gesichtet: false
 ---
 
 ## Warum so

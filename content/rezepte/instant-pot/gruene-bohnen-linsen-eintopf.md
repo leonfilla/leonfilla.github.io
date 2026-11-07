@@ -31,4 +31,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 12 Minuten.", timer: 720}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Öl zugeben, text: Auf Verzehrtemperatur abkühlen lassen und 2 EL Leinöl einrühren.}
+gesichtet: false
 ---

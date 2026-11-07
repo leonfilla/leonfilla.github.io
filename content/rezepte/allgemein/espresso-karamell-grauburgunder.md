@@ -30,6 +30,7 @@ schritte:
   - {titel: "Wein eingießen", text: "150 g Grauburgunder über große Eiswürfel ins Servierglas gießen."}
   - {titel: "Zusammengießen", text: "Espresso-Karamell-Mischung schnell über das Eis zum Wein gießen."}
 
+gesichtet: false
 ---
 
 ## Warum so

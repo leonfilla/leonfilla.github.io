@@ -33,6 +33,7 @@ schritte:
   text: 150 g Thunfisch mit der Sauce vermengen.
 - titel: Wickeln
   text: Tortilla auslegen, Rotkohl und Karotte als Basis legen, Thunfisch darauf, mit 15 g Erdnüssen toppen und eng wickeln.
+gesichtet: false
 ---
 
 ## Warum so

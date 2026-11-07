@@ -23,6 +23,7 @@ schritte:
   - {titel: "Belegen", text: "Mit Pute und Tomaten belegen."}
   - {titel: "Vorheizen", text: "OptiGrill auf Programm Sandwich oder manuell 210 °C vorheizen."}
   - {titel: "Pressen", text: "Belegte Brote 3 Minuten pressen.", timer: 180}
+gesichtet: false
 ---
 
 ## Warum so

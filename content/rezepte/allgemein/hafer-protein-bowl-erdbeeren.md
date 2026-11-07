@@ -25,6 +25,7 @@ schritte:
   - {titel: Gelieren, text: 600 ml kochendes Wasser zugeben und 15 Sekunden auf mittlerer Stufe mixen., timer: 15}
   - {titel: Quark unterheben, text: 400 g Quark und 20 g Zucker 5 Sekunden im Puls unterheben.}
   - {titel: Anrichten, text: In Schalen füllen und mit den aufgetauten Erdbeeren garnieren.}
+gesichtet: false
 ---
 
 ## Warum so

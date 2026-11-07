@@ -31,6 +31,7 @@ schritte:
   - {titel: Natural Release, text: "Unbedingt 15 Minuten Natural Release, dann Restdruck ablassen.", timer: 900}
   - {titel: Würzen, text: 35 g Miso in etwas Congee lösen und mit 100 g Spinat und 5 ml Sesamöl einrühren.}
   - {titel: Zusammenfallen lassen, text: Deckel 2 Minuten lose auflegen., timer: 120}
+gesichtet: false
 ---
 
 ## Warum so

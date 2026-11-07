@@ -22,6 +22,7 @@ xbloom:
     - {phase: "Guss 2", menge: 70, muster: "spirale"}
     - {phase: "Guss 3", menge: 70, muster: "spirale"}
     - {phase: "Guss 4", menge: 68, muster: "zentral"}
+gesichtet: false
 ---
 
 ## Warum so

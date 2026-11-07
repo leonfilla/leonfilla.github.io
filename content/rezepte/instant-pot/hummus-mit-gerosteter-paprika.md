@@ -53,6 +53,7 @@ schritte:
     timer: 180
   - titel: Konsistenz
     text: Bei Bedarf 1–2 EL Kochwasser zugeben.
+gesichtet: false
 ---
 
 ## Warum so

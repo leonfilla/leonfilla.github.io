@@ -26,6 +26,7 @@ schritte:
   timer: 165
 - titel: Anrichten
   text: Erdbeeren im eigenen Saft grob zerdrücken und heiß über das Porridge geben.
+gesichtet: false
 ---
 
 ## Warum so

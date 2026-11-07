@@ -10,6 +10,7 @@ importiert: true
 linie: gaerraum-steuerung-backofen-20260228
 fokus: Kein Rezept – Hardware-Empfehlung, um Sauerteig gradgenau bei 25–28 °C zu fermentieren, da die Gärstufe des Ofens erst bei 30 °C beginnt.
 tags: [Sauerteig, Equipment]
+gesichtet: false
 ---
 
 ## Notizen

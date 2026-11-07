@@ -31,6 +31,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "50 g Karotten, frisch, 100 g Banane, 40 g Tahini und 20 g Kokosraspeln einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "50 g TK-Himbeeren zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 

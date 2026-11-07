@@ -37,6 +37,7 @@ schritte:
     timer: 180
   - titel: Schnell ablassen
     text: Quick Release, pH stichprobenartig prüfen (Ziel ca. 3,8).
+gesichtet: false
 ---
 
 ## Warum so

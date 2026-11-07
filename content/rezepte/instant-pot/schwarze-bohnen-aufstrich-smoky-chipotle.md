@@ -25,4 +25,5 @@ zutaten:
 schritte:
   - {titel: Mixen, text: "Alle Zutaten mit 30 ml Kochwasser auf mittlerer Stufe starten, auf Maximum steigern und 45 Sekunden glatt mixen.", timer: 45}
   - {titel: Kühlen, text: In ein luftdichtes Gefäß füllen und mindestens 2 Stunden bei 4 °C kühlen., timer: 7200}
+gesichtet: false
 ---

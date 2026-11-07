@@ -28,6 +28,7 @@ schritte:
   timer: 480
 - titel: Prüfen
   text: Kerntemperatur über 85 °C prüfen, 5 Sekunden anpürieren, pH messen (Ziel 3,0–3,3) und abkühlen lassen.
+gesichtet: false
 ---
 
 ## Warum so

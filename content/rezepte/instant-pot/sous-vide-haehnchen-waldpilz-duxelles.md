@@ -32,6 +32,7 @@ schritte:
   - {titel: Duxelles reduzieren, text: "Pilzpaste zugeben und 15–20 Minuten unter ständigem Rühren braten, bis sie trocken und dunkel ist; salzen.", timer: 1050}
   - {titel: Anbraten, text: Hähnchen herausnehmen und auf höchster Stufe je Seite höchstens 45 Sekunden anbraten; Kern unter 64 °C., timer: 90}
   - {titel: Anrichten, text: Duxelles auf der Brust anrichten.}
+gesichtet: false
 ---
 
 ## Varianten

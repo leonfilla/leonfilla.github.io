@@ -30,6 +30,7 @@ schritte:
   - {titel: "Portionieren", text: "Teig auf einer bemehlten Fläche in 16 Portionen teilen, zu Kugeln formen und flach drücken."}
   - {titel: "Ruhen lassen", text: "Abgedeckt ruhen lassen.", timer: 900}
   - {titel: "Ausbacken", text: "In heißem Öl oder Butter von beiden Seiten goldbraun backen.", timer: 900}
+gesichtet: false
 ---
 
 ## Warum so

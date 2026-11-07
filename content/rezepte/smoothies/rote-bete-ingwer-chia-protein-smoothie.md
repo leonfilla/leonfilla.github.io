@@ -31,6 +31,7 @@ schritte:
   - titel: Mixen
     text: "90 Sekunden auf maximaler Drehzahl mixen."
     timer: 90
+gesichtet: false
 ---
 
 ## Warum so

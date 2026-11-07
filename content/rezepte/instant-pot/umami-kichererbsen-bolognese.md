@@ -34,6 +34,7 @@ schritte:
   - {titel: Ablöschen, text: Mit 40 g Sojasauce ablöschen und den Boden vollständig lösen.}
   - {titel: Druckgaren, text: "200 g Kichererbsen, 500 g Passata und 500 ml Wasser zugeben. Pressure Cook, High, 45 Minuten.", timer: 2700}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
+gesichtet: false
 ---
 
 ## Warum so

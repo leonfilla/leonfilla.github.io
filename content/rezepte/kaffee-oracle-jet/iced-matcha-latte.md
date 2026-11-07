@@ -29,6 +29,7 @@ schritte:
     text: Glas mit Eiswürfeln füllen und 150 ml kalte Milch zugeben.
   - titel: Schichten
     text: Matcha-Shot direkt über das Eis gießen.
+gesichtet: false
 ---
 
 ## Warum so

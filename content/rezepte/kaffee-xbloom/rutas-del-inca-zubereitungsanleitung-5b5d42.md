@@ -24,6 +24,7 @@ xbloom:
     - {phase: Guss 2, menge: 70, temp: 90, pause: 30, muster: spirale}
     - {phase: Guss 3, menge: 70, temp: 88, pause: 30, muster: spirale}
     - {phase: Guss 4, menge: 68, temp: 86, pause: 0, muster: kreis}
+gesichtet: false
 ---
 
 ## Warum so

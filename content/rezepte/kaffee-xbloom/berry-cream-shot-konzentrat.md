@@ -34,6 +34,7 @@ schritte:
   - {titel: "Guss 3", text: "26 g bei 88 °C, Fluss 3,2, Kreis."}
   - {titel: "Milch aufschäumen", text: "180–200 ml Milch cremig aufschäumen."}
   - {titel: "Aufgießen", text: "Milch auf das Konzentrat im Glas gießen."}
+gesichtet: false
 ---
 
 ## Warum so

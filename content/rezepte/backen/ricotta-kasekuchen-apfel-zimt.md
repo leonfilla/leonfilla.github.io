@@ -45,6 +45,7 @@ schritte:
   - {titel: "Akklimatisieren", text: "Ofen aus und den Kuchen bei leicht geöffneter Tür 30 Minuten stehen lassen.", timer: 1800}
   - {titel: "Kühlen", text: "Auf Raumtemperatur abkühlen und mindestens 4 Stunden kühlen.", timer: 14400}
 
+gesichtet: false
 ---
 
 ## Warum so

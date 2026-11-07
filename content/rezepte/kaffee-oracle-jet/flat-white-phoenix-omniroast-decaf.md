@@ -34,6 +34,7 @@ schritte:
   - titel: Milch
     text: "Ca. 140 g Vollmilch mit Auto MilQ auf 58 °C, niedrige Textur, eingießen."
 bohne: phoenix-omniroast-decaf
+gesichtet: false
 ---
 
 ## Warum so

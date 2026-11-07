@@ -21,6 +21,7 @@ schritte:
 - {titel: Anrühren, text: '2 EL Tahin, 1,5 EL Zitronensaft, Knoblauch und eine Prise Salz verrühren – die Masse wird zuerst dick und klumpig.'}
 - {titel: Aufschlagen, text: '4 EL kaltes Wasser löffelweise einrühren, bis die Sauce cremig fließt.'}
 - {titel: Abschließen, text: Optional 1 EL Petersilie unterrühren.}
+gesichtet: false
 ---
 
 ## Warum so

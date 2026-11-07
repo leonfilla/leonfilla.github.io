@@ -30,4 +30,5 @@ schritte:
   - {titel: Rösten, text: Bei 200 °C Ober-/Unterhitze 45 Minuten rösten – parallel zum Bohnengaren., timer: 2700}
   - {titel: Pürieren, text: "Zehen aus der Schale drücken und mit 400 g Bohnen, 15 g Douchi, 20 g Reisessig und 30 g Sesamöl pürieren."}
   - {titel: pH prüfen, text: "pH messen; Ziel unter 4,5, sonst mit Essig oder Zitronensäure nachsäuern. Luftdicht abfüllen und kühl lagern."}
+gesichtet: false
 ---

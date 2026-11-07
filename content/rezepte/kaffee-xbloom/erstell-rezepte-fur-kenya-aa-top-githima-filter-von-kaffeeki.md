@@ -10,6 +10,7 @@ importiert: true
 linie: kaffeekirsche-kenya-aa-githima-2025-07-15
 bohne: kaffeekirsche-kenya-aa-githima
 fokus: Drei Gemini-Rezepte (Ausgewogen, Physalis Sweetness Amplifier, Black Tea Cooler) für den doppelt fermentierten Kenia, nur bruchstückhaft erhalten. Vollständige Githima-Programme liegen als eigene xBloom-Rezepte vor.
+gesichtet: false
 ---
 
 ## Notizen

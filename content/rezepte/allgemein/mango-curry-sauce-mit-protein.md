@@ -31,6 +31,7 @@ schritte:
     text: Topf vom Herd nehmen und abkühlen lassen, bis die Sauce unter 70 °C liegt.
   - titel: Protein einrühren
     text: 40 g Proteinpulver zügig mit dem Schneebesen einrühren.
+gesichtet: false
 ---
 
 ## Warum so

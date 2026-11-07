@@ -38,6 +38,7 @@ schritte:
   timer: 15
 - titel: Vermengen
   text: Heißen Brokkoli mit dem Dressing vermengen.
+gesichtet: false
 ---
 
 ## Warum so

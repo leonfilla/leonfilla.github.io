@@ -24,4 +24,5 @@ schritte:
   - {titel: Nussbutter, text: 30 g Butter in der Pfanne schmelzen und bräunen lassen.}
   - {titel: Miso einrühren, text: "Hitze aus, Knoblauch und 15 g Miso einrühren."}
   - {titel: Schwenken, text: Edamame 30 Sekunden in der Butter schwenken., timer: 30}
+gesichtet: false
 ---

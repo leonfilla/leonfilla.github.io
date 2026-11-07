@@ -26,4 +26,5 @@ schritte:
   - {titel: Vorbereiten, text: Kirschen in eine ungelochte Schale geben und die Orangenzesten darüber verteilen.}
   - {titel: Tank füllen, text: Wassertank des Ofens mit gefiltertem Wasser füllen.}
   - {titel: Dämpfen, text: "Dampfgaren 90 °C, 15 Minuten.", timer: 900}
+gesichtet: false
 ---

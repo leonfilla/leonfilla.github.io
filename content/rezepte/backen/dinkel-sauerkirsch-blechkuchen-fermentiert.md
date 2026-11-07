@@ -40,6 +40,7 @@ schritte:
   - {titel: "Stückgare", text: "60 Minuten bei Raumtemperatur gehen lassen. Ofen rechtzeitig auf 220 °C Heißluft vorheizen.", timer: 3600}
   - {titel: "Backen", text: "Mit Dampfstoß 25 Minuten backen.", timer: 1500}
 
+gesichtet: false
 ---
 
 ## Warum so

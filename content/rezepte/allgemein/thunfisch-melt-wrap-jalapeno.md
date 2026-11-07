@@ -34,6 +34,7 @@ schritte:
   - titel: Grillen
     text: Wraps in den OptiGrill legen und bis zur Anzeige „Knusprig“ grillen.
     timer: 240
+gesichtet: false
 ---
 
 ## Warum so

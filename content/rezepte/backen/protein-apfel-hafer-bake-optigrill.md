@@ -24,4 +24,5 @@ schritte:
   - {titel: Äpfel häckseln, text: Äpfel vierteln und 3 Sekunden im Zerkleinerer grob häckseln.}
   - {titel: Mischen, text: "Hafer, Proteinpulver, Leinsamen, Äpfel und 200 ml Wasser direkt in der Backschale mischen."}
   - {titel: Backen, text: Grill schließen und 20 Minuten backen., timer: 1200}
+gesichtet: false
 ---

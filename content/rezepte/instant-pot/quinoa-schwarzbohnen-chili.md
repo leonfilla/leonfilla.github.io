@@ -49,6 +49,7 @@ schritte:
     timer: 600
   - titel: Abschmecken
     text: Mit Salz abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

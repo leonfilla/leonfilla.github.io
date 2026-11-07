@@ -47,6 +47,7 @@ schritte:
 - {titel: Eistreiche, text: Ofen auf 180 °C Heißluft vorheizen. Ei mit 15 ml Milch und einer Prise Salz verquirlen und aufpinseln.}
 - {titel: Backen, text: 'Mit kurzem Dampfstoß einschießen und 35–40 Minuten backen, nach 20 Minuten bei Bedarf abdecken. Ziel 92 °C Kerntemperatur.', timer: 2100}
 - {titel: Auskühlen, text: 'Mindestens 30, besser 60 Minuten auf dem Gitter auskühlen lassen.', timer: 3600}
+gesichtet: false
 ---
 
 ## Warum so

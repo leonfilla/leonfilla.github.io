@@ -29,6 +29,7 @@ schritte:
   - {titel: "Bohnen blanchieren", text: "500 ml Wasser aufkochen und die Bohnen 3 Minuten blanchieren, dann in Eiswasser abschrecken.", timer: 180}
   - {titel: "Brot vorbereiten", text: "Brot optional im OptiGrill anrösten und mit 10 ml Olivenöl beträufeln."}
   - {titel: "Belegen", text: "100 g Thunfisch, Eischeiben, Bohnen und gehackte Oliven auflegen, mit Zitronensaft abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

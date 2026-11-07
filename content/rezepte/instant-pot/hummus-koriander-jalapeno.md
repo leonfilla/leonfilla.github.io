@@ -51,6 +51,7 @@ schritte:
     timer: 180
   - titel: Konsistenz
     text: Mit 2–4 EL eiskaltem Wasser oder Kochwasser anpassen.
+gesichtet: false
 ---
 
 ## Warum so

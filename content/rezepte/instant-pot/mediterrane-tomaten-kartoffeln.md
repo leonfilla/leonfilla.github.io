@@ -41,6 +41,7 @@ schritte:
     timer: 300
   - titel: Durchmischen
     text: Alles durchmischen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -43,6 +43,7 @@ schritte:
   - titel: Mixen
     text: Alles in den Hochleistungsmixer geben, 10 ml Apfelessig zufügen und 90 Sekunden auf höchster Stufe mixen.
     timer: 90
+gesichtet: false
 ---
 
 ## Warum so

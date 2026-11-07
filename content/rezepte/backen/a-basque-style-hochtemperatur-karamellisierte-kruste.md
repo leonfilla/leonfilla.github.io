@@ -36,6 +36,7 @@ schritte:
   - titel: Backen
     text: 18–22 Minuten backen, bis die Oberfläche dunkel ist und die Mitte noch wabbelt.
     timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

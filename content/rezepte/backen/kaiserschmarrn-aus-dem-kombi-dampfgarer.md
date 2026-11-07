@@ -53,6 +53,7 @@ schritte:
   timer: 150
 - titel: Anrichten
   text: Mit 1 EL Puderzucker bestäuben und sofort servieren.
+gesichtet: false
 ---
 
 ## Warum so

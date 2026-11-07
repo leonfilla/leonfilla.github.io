@@ -34,6 +34,7 @@ schritte:
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Spinat unterheben, text: 150 g Spinat unterheben.}
   - {titel: Miso einrühren, text: 60 g Miso in die Restflüssigkeit rühren.}
+gesichtet: false
 ---
 
 ## Warum so

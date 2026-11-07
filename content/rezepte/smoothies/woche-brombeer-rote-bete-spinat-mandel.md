@@ -33,6 +33,7 @@ schritte:
   - {titel: "TK-Zutaten obenauf", text: "140 g TK-Brombeeren, 80 g TK-Banane und 50 g TK-Blattspinat zuletzt obenauf geben."}
   - {titel: "Zum Schluss", text: "65 g Rote Bete, roh, gerieben ganz oben einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

@@ -28,6 +28,7 @@ schritte:
   - {titel: Einfüllen, text: "Edamame, 50 g Parmesan, Knoblauch, 30 g Nüsse, 50 ml Olivenöl und Zitronensaft in den Mixer geben."}
   - {titel: Pürieren, text: Beim Mixen 100 ml heißes Nudelwasser langsam zugießen bis zur gewünschten Cremigkeit.}
   - {titel: Mischen, text: Mit den heißen Nudeln vermengen.}
+gesichtet: false
 ---
 
 ## Varianten

@@ -36,6 +36,7 @@ schritte:
   - {titel: "Einfüllen", text: "Teig in die ausgelegte Form füllen und 250 g gefrorene Kirschen eindrücken."}
   - {titel: "Backen", text: "4D-Heißluft 160 °C mit 90 W Mikrowelle 20 Minuten backen.", timer: 1200}
 
+gesichtet: false
 ---
 
 ## Warum so

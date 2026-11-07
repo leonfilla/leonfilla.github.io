@@ -33,6 +33,7 @@ schritte:
   - {titel: "Schokolade unterheben", text: "Optional 50 g gehackte Schokolade unterheben und in die 24-cm-Springform füllen."}
   - {titel: "Backen", text: "40–45 Minuten backen.", timer: 2550}
 
+gesichtet: false
 ---
 
 ## Warum so

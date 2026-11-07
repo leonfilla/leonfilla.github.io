@@ -36,6 +36,7 @@ schritte:
 - {titel: Gewürzpaste rühren, text: '30 g Butter, 60 g Rohrohrzucker, 3 g Zimt, 1 g Kardamom, 1 g Koriander und 7 g Orangenabrieb bei Raumtemperatur verrühren.'}
 - {titel: Fermentolyseteig mischen, text: '200 g Levain (pH 4,10), 270 g Weizenvollkornmehl, 100 g Weizenmehl 1050, 6 g Ascorbinsäure-Mehl-Mischung und 150 g kaltes Wasser abzüglich des Einweichwassers mischen.'}
 - {titel: Hauptteig kneten, text: 'Fermentolyseteig mit Kochstück, Gewürzpaste, abgetropften Maulbeeren und 10 g Salz verkneten. Kein Bassinage-Wasser.'}
+gesichtet: false
 ---
 
 ## Warum so

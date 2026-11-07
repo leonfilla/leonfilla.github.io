@@ -36,4 +36,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 5 Minuten.", timer: 300}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Restdruck ablassen.", timer: 600}
   - {titel: Limette, text: Limettensaft unterheben.}
+gesichtet: false
 ---

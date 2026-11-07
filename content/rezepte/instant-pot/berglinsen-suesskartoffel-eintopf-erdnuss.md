@@ -39,6 +39,7 @@ schritte:
   - titel: Natürlicher Druckabbau
     text: 10 Minuten Natural Release, dann Ventil auf Venting und gründlich umrühren, um die Erdnussbutter zu verteilen.
     timer: 600
+gesichtet: false
 ---
 
 ## Warum so

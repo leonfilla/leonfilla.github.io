@@ -29,4 +29,5 @@ schritte:
   - {titel: Thunfisch unterheben, text: "150 g Thunfisch unterheben, nicht mitmixen."}
   - {titel: Anwärmen, text: Tortillas im OptiGrill bei 150 °C 10 Sekunden anwärmen., timer: 10}
   - {titel: Rollen, text: "Masse aufs untere Drittel geben, Gurke und Frühlingszwiebeln darauf, eng rollen."}
+gesichtet: false
 ---

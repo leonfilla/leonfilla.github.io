@@ -35,6 +35,7 @@ schritte:
     text: Weichen Knoblauch aus der Schale drücken.
   - titel: Mixen
     text: Tomaten samt Saft, Knoblauch, Thunfisch, restliches Öl, 4 EL Hefeflocken und Chili auf mittlerer Stufe kurz mixen, sodass die Sauce stückig bleibt.
+gesichtet: false
 ---
 
 ## Warum so

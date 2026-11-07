@@ -46,6 +46,7 @@ schritte:
     timer: 360
   - titel: Schnell ablassen
     text: Quick Release, vorsichtig umrühren und nachwürzen.
+gesichtet: false
 ---
 
 ## Warum so

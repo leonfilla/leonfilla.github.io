@@ -47,6 +47,7 @@ schritte:
     timer: 240
   - titel: Schnell ablassen
     text: Quick Release.
+gesichtet: false
 ---
 
 ## Warum so

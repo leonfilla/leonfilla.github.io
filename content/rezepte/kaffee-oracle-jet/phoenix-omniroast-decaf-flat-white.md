@@ -32,6 +32,7 @@ schritte:
   - {titel: "Milch", text: "Auto MilQ, Milchtyp Vollmilch, 58 °C, niedrige Textur (Flat-White-Stufe), etwa 130 g im 360-ml-Kännchen."}
   - {titel: "Eingießen", text: "Milch auf den Shot gießen."}
 bohne: phoenix-omniroast-decaf
+gesichtet: false
 ---
 
 ## Warum so

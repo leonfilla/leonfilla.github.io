@@ -46,6 +46,7 @@ schritte:
   - titel: Backen
     text: Bei 190 °C Ober-/Unterhitze 20 Minuten backen.
     timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

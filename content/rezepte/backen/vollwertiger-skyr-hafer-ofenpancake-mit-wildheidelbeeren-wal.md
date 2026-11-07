@@ -40,6 +40,7 @@ schritte:
   - {titel: "Belegen", text: "150 g gefrorene Wildheidelbeeren direkt aus dem Gefrierfach verteilen, nicht andrücken, und die Walnüsse darüberstreuen."}
   - {titel: "Fertig backen", text: "12–15 Minuten weiterbacken, bis die Mitte auf Druck zurückfedert und das Stäbchen zwischen den Beeren trocken herauskommt (ca. 90 °C Kern).", timer: 780}
   - {titel: "Ruhen lassen", text: "5 Minuten in der Form ruhen lassen, am Backpapier herausheben, schneiden und mit 15 g Ahornsirup beträufeln.", timer: 300}
+gesichtet: false
 ---
 
 ## Warum so

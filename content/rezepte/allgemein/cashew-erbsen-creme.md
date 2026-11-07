@@ -26,4 +26,5 @@ schritte:
   - {titel: Cashews einweichen, text: "150 g Cashews mit kochendem Wasser übergießen, 15 Minuten einweichen, abtropfen.", timer: 900}
   - {titel: Einfüllen, text: "Cashews, 300 g Erbsen, 3 EL Hefeflocken, Knoblauch, 1 EL Zitronensaft, Salz und Pfeffer in den Mixer geben."}
   - {titel: Pürieren, text: 200 ml heiße Brühe bei laufendem Mixer langsam zugießen und 2 Minuten auf höchster Stufe cremig mixen., timer: 120}
+gesichtet: false
 ---

@@ -25,6 +25,7 @@ schritte:
   - {titel: "Feta zerbröseln", text: "40 g Feta grob mit den Händen in eine Schüssel zerbröseln."}
   - {titel: "Anmachen", text: "Tomaten, 1 EL Olivenöl und 1 EL Essig zugeben und vermengen."}
   - {titel: "Abschmecken", text: "Mit grobem Pfeffer abschmecken und bis zum Servieren kühl stellen."}
+gesichtet: false
 ---
 
 ## Warum so

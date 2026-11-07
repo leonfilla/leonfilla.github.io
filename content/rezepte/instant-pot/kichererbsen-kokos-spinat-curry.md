@@ -30,4 +30,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, Low, 1 Minute.", timer: 60}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Umrühren, text: Kräftig umrühren.}
+gesichtet: false
 ---

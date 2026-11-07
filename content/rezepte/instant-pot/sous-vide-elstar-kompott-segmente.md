@@ -26,6 +26,7 @@ schritte:
   - {titel: Vakuumieren, text: Apfelspalten mit dem Vanillemark auf maximales Vakuum versiegeln.}
   - {titel: Garen, text: Beutel 60 Minuten untergetaucht garen., timer: 3600}
   - {titel: Abschrecken, text: Im Eisbad sofort unter 10 °C abkühlen.}
+gesichtet: false
 ---
 
 ## Varianten

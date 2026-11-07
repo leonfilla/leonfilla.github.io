@@ -39,6 +39,7 @@ schritte:
   text: Seiten einschlagen und aufrollen.
 - titel: Grillen
   text: OptiGrill im Programm „Panini/Sandwich“ mit Knusprig-Funktion vorheizen. Wrap mit der Naht nach unten bis Stufe Rot grillen.
+gesichtet: false
 ---
 
 ## Warum so

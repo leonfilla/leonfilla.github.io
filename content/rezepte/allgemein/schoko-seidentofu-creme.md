@@ -21,6 +21,7 @@ schritte:
   - {titel: "Mixen", text: "200 g Seidentofu mit 30 g Proteinpulver und 1 EL Nussmus glatt mixen."}
   - {titel: "Kühlen", text: "1–2 Stunden kühlen, bis die Creme fest ist.", timer: 5400}
 
+gesichtet: false
 ---
 
 ## Warum so

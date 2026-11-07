@@ -26,4 +26,5 @@ schritte:
     text: 40 g getrocknete Tomaten grob zerkleinern.
   - titel: Pürieren
     text: Alle Zutaten zu einer streichfähigen Masse pürieren.
+gesichtet: false
 ---

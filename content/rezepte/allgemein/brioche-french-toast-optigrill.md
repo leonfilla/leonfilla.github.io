@@ -20,6 +20,7 @@ schritte:
 - {titel: Tränken, text: Brotscheiben je Seite 30 Sekunden darin tränken.}
 - {titel: Grill vorheizen, text: OptiGrill im manuellen Modus auf 200 °C vorheizen.}
 - {titel: Grillen, text: 'Scheiben einlegen, Deckel schließen und 3–4 Minuten grillen.', timer: 210}
+gesichtet: false
 ---
 
 ## Warum so

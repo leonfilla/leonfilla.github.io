@@ -36,6 +36,7 @@ schritte:
     text: Durch das Shakersieb in ein Glas mit 3–4 frischen Eiswürfeln abseihen.
   - titel: Aufgießen
     text: "60 ml Haferdrink aufgießen."
+gesichtet: false
 ---
 
 ## Warum so

@@ -30,6 +30,7 @@ schritte:
   - {titel: Gare, text: "Abgedeckt gehen lassen, bis der pH auf etwa 5,3 fällt, ca. 60 Minuten.", timer: 3600}
   - {titel: Füllen, text: "Teig in 8 Portionen teilen, flach drücken, mit Apfelwürfeln füllen und verschließen."}
   - {titel: Dämpfen, text: "In einer Form bei 100 °C Dampf 25 Minuten garen, bis der Kern 92 °C hat.", timer: 1500}
+gesichtet: false
 ---
 
 ## Varianten

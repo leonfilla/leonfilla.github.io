@@ -45,6 +45,7 @@ schritte:
   timer: 10
 - titel: Wickeln
   text: Rucola, Bohnen, Thunfischmasse und das geschnittene Ei schichten und fest wickeln.
+gesichtet: false
 ---
 
 ## Warum so

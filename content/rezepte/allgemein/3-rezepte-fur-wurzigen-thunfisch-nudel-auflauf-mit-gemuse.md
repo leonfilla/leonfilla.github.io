@@ -38,4 +38,5 @@ schritte:
   - {titel: "Einfüllen", text: "Mischung in die Auflaufform füllen und mit 150 g Cheddar bestreuen."}
   - {titel: "Backen", text: "20 Minuten backen, bis der Käse goldbraun ist.", timer: 1200}
 
+gesichtet: false
 ---

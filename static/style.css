@@ -297,3 +297,8 @@ body.kochmodus [data-kochmodus] { background: var(--akzent); color: #fff; border
 .versionsliste { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
 .versionsliste li { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
 .versionsliste a { color: var(--tinte); }
+
+/* Beim Aufteilen entstandene, noch nicht gesichtete Rezepte */
+.marke-neu { font-size: .72rem; padding: 1px 7px; border-radius: 999px; border: 1px dashed var(--st-unfertig); color: var(--st-unfertig); }
+.chip-neu[aria-pressed="true"] { border-style: dashed; }
+.hinweis-neu { margin: 12px 0; padding: 10px 14px; border: 1px dashed var(--st-unfertig); border-radius: var(--radius); color: var(--tinte-2); font-size: .92rem; }

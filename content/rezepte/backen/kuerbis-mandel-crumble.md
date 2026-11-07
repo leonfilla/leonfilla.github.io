@@ -31,6 +31,7 @@ schritte:
   - {titel: Streusel reiben, text: "Mandeln, Mehl, kalte Butter, Zucker und Zimt mit den Händen zu groben Streuseln zerreiben."}
   - {titel: Bestreuen, text: Streusel über den Kürbis verteilen.}
   - {titel: Backen, text: "Heißluft 190 °C, 30 Minuten, bis die Streusel goldbraun sind und der Kürbis über 90 °C Kerntemperatur hat.", timer: 1800}
+gesichtet: false
 ---
 
 ## Warum so

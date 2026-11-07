@@ -37,6 +37,7 @@ schritte:
     timer: 60
   - titel: Limette
     text: 15 ml Limettensaft einrühren.
+gesichtet: false
 ---
 
 ## Warum so

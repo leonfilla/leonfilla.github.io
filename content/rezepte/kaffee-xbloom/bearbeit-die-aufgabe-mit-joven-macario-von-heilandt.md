@@ -10,6 +10,7 @@ importiert: true
 linie: joven-macario-2025-07-09
 bohne: heilandt-joven-macario
 fokus: Gemini-Rezepte, die auf einer falschen Recherche beruhen (Peru, gewaschen, Steinobst statt Mexiko, Red Honey) und nur bruchstückhaft erhalten sind.
+gesichtet: false
 ---
 
 ## Notizen

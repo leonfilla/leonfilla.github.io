@@ -47,6 +47,7 @@ schritte:
   timer: 600
 - titel: Entnehmen
   text: Restdruck ablassen, Form entnehmen, Folie entfernen. Kerntemperatur prüfen, Ziel 90 °C.
+gesichtet: false
 ---
 
 ## Warum so

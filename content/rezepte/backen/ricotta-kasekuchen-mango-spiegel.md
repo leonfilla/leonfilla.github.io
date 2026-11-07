@@ -47,6 +47,7 @@ schritte:
   - {titel: "Spiegel gießen", text: "Zügig auf den kalten Kuchen in der Form gießen und durch Rütteln nivellieren."}
   - {titel: "Aushärten", text: "60 Minuten kühlen, dann den Rand mit einem warmen Messer lösen.", timer: 3600}
 
+gesichtet: false
 ---
 
 ## Warum so

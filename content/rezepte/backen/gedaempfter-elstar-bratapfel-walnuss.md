@@ -29,4 +29,5 @@ schritte:
   - {titel: Füllung mischen, text: 60 g Walnüsse grob hacken und mit 30 g Rosinen und 40 g Mandelmus vermengen.}
   - {titel: Füllen, text: Masse in die Äpfel pressen.}
   - {titel: Garen, text: "Thermometer ins Fruchtfleisch eines Apfels stecken und garen, bis es 85 °C zeigt, etwa 20–25 Minuten.", timer: 1350}
+gesichtet: false
 ---

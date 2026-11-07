@@ -32,6 +32,7 @@ schritte:
   - {titel: Aufschäumen, text: "Dashi auf 80 °C bringen, 50 g Miso und 10 g Ingwer zugeben und 3 Minuten mit dem Schneebesen-Aufsatz aufschäumen.", timer: 180}
   - {titel: Soba kochen, text: 250 g Soba 4 Minuten sprudelnd kochen und eiskalt abschrecken., timer: 240}
   - {titel: Anrichten, text: "Soba als Basis, Lachs und Pak Choi darauf, mit dem Miso-Dashi-Schaum übergießen."}
+gesichtet: false
 ---
 
 ## Warum so

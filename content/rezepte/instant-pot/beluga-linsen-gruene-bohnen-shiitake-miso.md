@@ -32,6 +32,7 @@ schritte:
   - {titel: Natural Release, text: "5 Minuten Natural Release, dann Restdruck ablassen.", timer: 300}
   - {titel: Bohnen blanchieren, text: "300 g Bohnen in die heiße Masse geben, Deckel auflegen, 4 Minuten ziehen lassen.", timer: 240}
   - {titel: Miso einrühren, text: 55 g Miso direkt einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

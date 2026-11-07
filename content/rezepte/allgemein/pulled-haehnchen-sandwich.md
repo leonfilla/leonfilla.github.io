@@ -21,6 +21,7 @@ schritte:
 - {titel: Binden, text: 'Mit 1 EL Mayonnaise, Salz und Pfeffer binden.'}
 - {titel: Anrösten, text: Brot im OptiGrill leicht anrösten.}
 - {titel: Belegen, text: Salatblatt und Hähnchen auf das Brot geben.}
+gesichtet: false
 ---
 
 ## Warum so

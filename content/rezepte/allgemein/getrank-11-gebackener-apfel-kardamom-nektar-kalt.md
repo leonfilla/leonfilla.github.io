@@ -32,6 +32,7 @@ schritte:
   - {titel: "Pürieren", text: "Kardamomkapseln entfernen, die heiße Apfelmasse mit 200 g kaltem Grauburgunder im Mixer auf höchster Stufe 60 Sekunden pürieren."}
   - {titel: "Kühlen", text: "Auf 6 °C herunterkühlen und servieren."}
 
+gesichtet: false
 ---
 
 ## Warum so

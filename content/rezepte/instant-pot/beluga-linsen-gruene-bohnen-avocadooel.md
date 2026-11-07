@@ -37,6 +37,7 @@ schritte:
   - {titel: Bohnen einrühren, text: 400 g grüne Bohnen einrühren.}
   - {titel: Warmhalten, text: Deckel auflegen und 5 Minuten auf Keep Warm garen., timer: 300}
   - {titel: Fertigstellen, text: "4 EL Avocadoöl und 3 EL Kräuter unterheben, mit Salz und kräftig Pfeffer abschmecken."}
+gesichtet: false
 ---
 
 ## Warum so

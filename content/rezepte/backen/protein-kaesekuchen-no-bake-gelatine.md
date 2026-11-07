@@ -34,6 +34,7 @@ schritte:
   - titel: Kühlen
     text: Abgedeckt kalt stellen.
     timer: 14400
+gesichtet: false
 ---
 
 ## Warum so

@@ -39,6 +39,7 @@ schritte:
   - {titel: Natural Release, text: 10 Minuten Natural Release., timer: 600}
   - {titel: Mixen, text: Creme glatt mixen.}
   - {titel: Verdünnen, text: Mit Sahne oder Wasser auf Gießkonsistenz bringen.}
+gesichtet: false
 ---
 
 ## Warum so

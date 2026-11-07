@@ -28,6 +28,7 @@ schritte:
     text: "130 g Banane (reif), 30 g Erdnussbutter, 30 g Haferflocken und 10 g Chiasamen zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

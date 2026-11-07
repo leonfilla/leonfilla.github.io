@@ -39,6 +39,7 @@ schritte:
 - titel: Waffeln backen
   text: OptiGrill im manuellen Modus auf 210 °C vorheizen und portionierte Masse je 5 Minuten backen.
   timer: 300
+gesichtet: false
 ---
 
 ## Warum so

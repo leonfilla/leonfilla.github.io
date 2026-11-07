@@ -23,6 +23,7 @@
 </header>
 
 {{ hinweise(r.hinweise) }}
+{% if r.gesichtet is sameas false %}<p class="hinweis-neu">Beim Aufteilen einer Chat-Antwort entstanden und noch nicht gesichtet. Status prüfen und <code>gesichtet: false</code> entfernen{% if repo_edit %} – <a href="{{ repo_edit }}{{ r.quelle_datei }}" rel="noopener">auf GitHub bearbeiten</a>{% endif %}.</p>{% endif %}
 
 {% if r.ergebnis or r.zeit %}
 <section class="abschnitt eck-allgemein">

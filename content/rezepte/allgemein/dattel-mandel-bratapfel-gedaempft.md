@@ -34,6 +34,7 @@ schritte:
   - titel: Dampfgaren
     text: Wassertank mit gefiltertem Wasser füllen, Äpfel aufs Lochblech setzen und bei 100 °C dämpfen.
     timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

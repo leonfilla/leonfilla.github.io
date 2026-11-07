@@ -53,6 +53,7 @@ schritte:
   - {titel: "Hüttenkäse unterheben", text: "Bei etwa zwei Dritteln Stockung vom Herd ziehen und den kalten Hüttenkäse unterheben."}
   - {titel: "Schichten", text: "Je ca. 12 g Frischkäse dünn auf jede Scheibe streichen, darauf Avocado, Rührei und locker den Lachs."}
   - {titel: "Finish", text: "Mit Zwiebeln, Klecksen Senf-Dill-Creme, restlichem Dill, Zitronenzeste, 1 g Flockensalz und Pfeffer vollenden und sofort essen."}
+gesichtet: false
 ---
 
 ## Warum so

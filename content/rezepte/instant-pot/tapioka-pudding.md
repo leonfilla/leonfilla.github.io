@@ -30,4 +30,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 3 Minuten.", timer: 180}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Andicken, text: Gründlich umrühren und bei offenem Deckel 5–10 Minuten andicken lassen., timer: 420}
+gesichtet: false
 ---

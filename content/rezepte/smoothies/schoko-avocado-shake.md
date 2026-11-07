@@ -28,6 +28,7 @@ schritte:
     text: "75 g Avocado, 100 g Banane und 25 g Medjool-Dattel zugeben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -26,6 +26,7 @@ schritte:
   - {titel: Zimt entfernen, text: Zimtstange herausnehmen.}
   - {titel: Mixen, text: Masse 30 Sekunden auf mittlerer Stufe glatt mixen., timer: 30}
   - {titel: Abfüllen, text: In sterilisierte Gläser füllen.}
+gesichtet: false
 ---
 
 ## Warum so

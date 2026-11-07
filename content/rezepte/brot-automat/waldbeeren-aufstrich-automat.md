@@ -24,6 +24,7 @@ schritte:
 - {titel: Einfüllen, text: 'Früchte samt Saft, restlichen Zucker, Pektin-Zucker-Mischung und Zitronensaft in die Backform geben.'}
 - {titel: Programm starten, text: 'Form einsetzen, Programm Marmelade wählen und starten.', timer: 5400}
 - {titel: Abfüllen, text: Sofort heiß in sterilisierte Gläser füllen.}
+gesichtet: false
 ---
 
 ## Warum so

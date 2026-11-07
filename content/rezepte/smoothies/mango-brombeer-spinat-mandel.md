@@ -35,6 +35,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "18 g Mandeln, ganz und 18 g Haferflocken, fein einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Mango, 110 g TK-Brombeeren, 55 g TK-Blattspinat und 60 g TK-Banane zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

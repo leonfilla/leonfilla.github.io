@@ -29,6 +29,7 @@ schritte:
     text: 50 g Walnüsse in einer Pfanne ohne Fett anrösten und abkühlen lassen.
   - titel: Pürieren
     text: Avocado, 100 g Basilikum, Walnüsse, Knoblauch, 2 EL Zitronensaft und 80 ml Olivenöl im Mixer glatt pürieren. Sofort mit Salz und Pfeffer abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

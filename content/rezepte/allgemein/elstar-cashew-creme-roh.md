@@ -26,6 +26,7 @@ schritte:
   - titel: Kühlen
     text: Mindestens 15 Minuten kühlen, damit das Pektin anzieht.
     timer: 900
+gesichtet: false
 ---
 
 ## Warum so

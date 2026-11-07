@@ -28,6 +28,7 @@ schritte:
   - {titel: "Marzipan einrühren", text: "25 g Marzipan mit der Gabel zerdrücken und mit 200 g Frischkäse klümpchenfrei glatt rühren."}
   - {titel: "Unterheben", text: "Apfelmasse, 20 g Mandeln und optional 1 EL Likör unterheben."}
   - {titel: "Durchziehen lassen", text: "Optional einige Stunden im Kühlschrank durchziehen lassen."}
+gesichtet: false
 ---
 
 ## Warum so

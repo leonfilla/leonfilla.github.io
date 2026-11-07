@@ -38,6 +38,7 @@ schritte:
   - {titel: "Kühlretard", text: "12–16 Stunden im Kühlschrank.", timer: 50400}
   - {titel: "Backen", text: "Auf dem Stein mit Dampf in vier Phasen backen bis Kerntemperatur 97 °C."}
   - {titel: "Auskühlen", text: "Mindestens 3 Stunden auskühlen lassen.", timer: 10800}
+gesichtet: false
 ---
 
 ## Warum so

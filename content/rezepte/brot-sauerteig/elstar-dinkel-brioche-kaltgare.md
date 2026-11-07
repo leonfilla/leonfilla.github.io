@@ -46,6 +46,7 @@ schritte:
   - titel: Backen
     text: Bei 220 °C Heißluft mit starker Dampfzugabe 25 Minuten backen.
     timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

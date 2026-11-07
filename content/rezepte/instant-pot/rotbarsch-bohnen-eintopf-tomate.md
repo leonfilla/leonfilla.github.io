@@ -42,6 +42,7 @@ schritte:
   - titel: Fisch pochieren
     text: Rotbarsch in die heiße Sauce legen, Deckel ohne Programm schließen und 5–7 Minuten in der Restwärme garziehen lassen.
     timer: 360
+gesichtet: false
 ---
 
 ## Warum so

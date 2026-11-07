@@ -40,6 +40,7 @@ schritte:
   - titel: Backen
     text: In die gefettete Form füllen und bei 175 °C Ober-/Unterhitze 25 Minuten backen, bis 90 °C Kerntemperatur erreicht sind.
     timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

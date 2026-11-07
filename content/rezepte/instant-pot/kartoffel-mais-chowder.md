@@ -40,6 +40,7 @@ schritte:
     text: 200 ml Sahne einrühren.
   - titel: Anpürieren
     text: Etwa ein Drittel der Suppe mit dem Pürierstab anpürieren, mit Salz und Pfeffer abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

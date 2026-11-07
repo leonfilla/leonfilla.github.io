@@ -30,6 +30,7 @@ schritte:
 - titel: Backen
   text: Masse einfüllen und 20 Minuten backen, bis die Oberfläche fest und goldbraun ist.
   timer: 1200
+gesichtet: false
 ---
 
 ## Warum so

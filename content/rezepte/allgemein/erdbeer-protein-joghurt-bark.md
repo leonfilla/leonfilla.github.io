@@ -27,6 +27,7 @@ schritte:
 - titel: Gefrieren
   text: Im Gefrierfach bei −18 °C aushärten lassen, dann in Stücke brechen.
   timer: 10800
+gesichtet: false
 ---
 
 ## Warum so

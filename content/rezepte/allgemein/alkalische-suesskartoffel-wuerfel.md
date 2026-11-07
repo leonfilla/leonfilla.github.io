@@ -50,6 +50,7 @@ schritte:
     timer: 1200
   - titel: Würzen
     text: Sofort mit 5 g Salz und 5 g Paprikapulver bestreuen.
+gesichtet: false
 ---
 
 ## Warum so

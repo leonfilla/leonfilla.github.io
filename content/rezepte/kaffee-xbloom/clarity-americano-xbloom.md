@@ -24,6 +24,7 @@ xbloom:
 schritte:
   - titel: Verdünnen
     text: Dripper entfernen und das Konzentrat mit 130 ml Heißwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

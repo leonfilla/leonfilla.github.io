@@ -27,6 +27,7 @@ schritte:
   - {titel: Klären, text: Gel durch ein Passiertuch brechen und die klare Flüssigkeit abtropfen lassen.}
   - {titel: pH prüfen, text: "Ziel pH 2,8–3,0."}
   - {titel: Aufgießen, text: 150 g geklärten Sirup im Glas mit 800 g Sprudelwasser aufgießen.}
+gesichtet: false
 ---
 
 ## Warum so

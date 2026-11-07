@@ -30,6 +30,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 3 Minuten.", timer: 180}
   - {titel: Quick Release, text: Sofort Quick Release.}
   - {titel: Einrühren, text: "100 ml Kokosmilch, 200 g Erbsen und 50 g Miso einrühren, bis alles gebunden ist."}
+gesichtet: false
 ---
 
 ## Warum so

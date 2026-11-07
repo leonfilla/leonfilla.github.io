@@ -10,6 +10,7 @@ importiert: true
 linie: proteinreiche-fruehstuecksideen-20251212
 fokus: Kein ausgearbeitetes Rezept – Ideenliste mit fünf herzhaften und fünf süßen proteinreichen Frühstücken samt grober Proteinangabe.
 tags: [Frühstück, High Protein, Ideen]
+gesichtet: false
 ---
 
 ## Notizen

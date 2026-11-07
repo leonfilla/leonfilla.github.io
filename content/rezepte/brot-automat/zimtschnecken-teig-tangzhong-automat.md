@@ -34,6 +34,7 @@ schritte:
   - {titel: "Form befüllen", text: "Erst 480 g Weizenmehl 550, 70 g Zucker und 1 TL Salz, dann den Tangzhong, 1 Ei, 130 ml Milch und 60 g Butter in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
+gesichtet: false
 ---
 
 ## Warum so

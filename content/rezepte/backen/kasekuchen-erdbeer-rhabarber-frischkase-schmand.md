@@ -42,6 +42,7 @@ schritte:
   - {titel: "Backen", text: "55–65 Minuten backen, bis nur noch die Mitte beim Rütteln leicht wackelt.", timer: 3600}
   - {titel: "Durchkühlen", text: "Mindestens 4 Stunden im Kühlschrank durchkühlen lassen, erst dann anschneiden.", timer: 14400}
 
+gesichtet: false
 ---
 
 ## Warum so

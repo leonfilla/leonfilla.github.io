@@ -19,6 +19,7 @@ schritte:
   - {titel: "Ansetzen", text: "Tee und Himbeeren in ein verschließbares Glas wiegen und mit 800 ml kaltem Wasser aufgießen."}
   - {titel: "Ziehen", text: "Verschlossen bei 4 °C im Kühlschrank 12 Stunden ziehen lassen.", timer: 43200}
   - {titel: "Abseihen", text: "Durch ein feines Sieb oder einen Kaffeefilter abseihen, Himbeeren nicht auspressen. Kalt servieren."}
+gesichtet: false
 ---
 
 ## Warum so

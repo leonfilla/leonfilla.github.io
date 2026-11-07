@@ -37,6 +37,7 @@ schritte:
   - {titel: Vorheizen, text: Ofen auf 230 °C Ober-/Unterhitze mit hohem Dampfstoß vorheizen.}
   - {titel: Backen mit Dampf, text: 10 Minuten mit Dampf backen., timer: 600}
   - {titel: Trocken backen, text: Dampf aus und weitere 15 Minuten backen., timer: 900}
+gesichtet: false
 ---
 
 ## Warum so

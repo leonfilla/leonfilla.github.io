@@ -40,6 +40,7 @@ schritte:
   - titel: Backen
     text: 22 Minuten backen.
     timer: 1320
+gesichtet: false
 ---
 
 ## Warum so

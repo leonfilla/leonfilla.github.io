@@ -10,6 +10,7 @@ importiert: true
 fokus: Technikleitfaden ohne vollständige Einzelrezepte – acht Frittata-Skizzen von Resteverwertung bis zur Entkopplung von Garen und Bräunen, jeweils mit Ei-Flüssigkeits-Verhältnis und Temperatur.
 geraete: [bosch-hng978, instant-pot-pro-max, kernthermometer]
 tags: [Frühstück, Eier, Technik]
+gesichtet: false
 ---
 
 ## Notizen

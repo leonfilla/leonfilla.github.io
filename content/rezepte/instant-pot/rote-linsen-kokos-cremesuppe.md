@@ -40,6 +40,7 @@ schritte:
   - titel: Mixen
     text: Optional 45 Sekunden im Standmixer auf höchster Stufe glatt mixen.
     timer: 45
+gesichtet: false
 ---
 
 ## Warum so

@@ -22,6 +22,7 @@ schritte:
   - {titel: "Einfüllen", text: "TK-Mango und Hüttenkäse in den Mixer geben, Lecithin dazu."}
   - {titel: "Mixen", text: "Auf höchster Stufe 40 Sekunden zu einer homogenen Creme mixen.", timer: 40}
   - {titel: "Anrichten", text: "Mit Kürbiskernen bestreuen."}
+gesichtet: false
 ---
 
 ## Warum so

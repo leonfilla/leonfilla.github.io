@@ -490,6 +490,7 @@ def schreibe(ctx):
         liste = sorted(rs, key=lambda r: (STATUS_RANG.get(r["status"], 9) + (1.5 if r.get("veraltet") else 0),
                                           not r.get("favorit"), r["titel"].lower(), version_key(r.get("version"))))
         anzahl = {s: sum(1 for r in rs if r["status"] == s) for s in STATUS}
+        anzahl["ungesichtet"] = sum(1 for r in rs if r.get("gesichtet") is False)
         wissen = [w for w in ctx["wissen"] if w.get("bereich") == bid]
         ohne_bohne = [r for r in liste if b["typ"] == "xbloom" and not r.get("bohne")]
         ideen_n = sum(1 for i in ctx["ideen"] if i["bereich"] == bid)

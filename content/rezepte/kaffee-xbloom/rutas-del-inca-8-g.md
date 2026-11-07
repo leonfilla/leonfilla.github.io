@@ -23,6 +23,7 @@ xbloom:
   - {phase: Guss 2, menge: 52, temp: 92, pause: 20, muster: spirale}
   - {phase: Guss 3, menge: 52, temp: 90, pause: 0, muster: zentral}
 bohne: rutas-del-inca
+gesichtet: false
 ---
 
 ## Warum so

@@ -21,6 +21,7 @@ xbloom:
   guesse:
   - {phase: Bloom, menge: 55, temp: 88, fluss: 3.0, pause: 35, muster: kreis}
   - {phase: Guss 2, menge: 215, temp: 88, fluss: 3.5, pause: 0, muster: kreis}
+gesichtet: false
 ---
 
 ## Warum so

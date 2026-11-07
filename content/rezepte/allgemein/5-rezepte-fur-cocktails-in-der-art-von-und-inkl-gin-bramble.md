@@ -27,6 +27,7 @@ schritte:
     timer: 12
   - titel: Abseihen
     text: Durch ein feines Sieb doppelt in einen Tumbler mit frischem Eis abseihen.
+gesichtet: false
 ---
 
 ## Warum so

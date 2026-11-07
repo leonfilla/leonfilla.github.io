@@ -30,6 +30,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "35 g Pflanzliches Proteinpulver, Vanille, 1 TL Zimt und 1 Prise Muskatnuss auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "100 g Karotten, frisch, 50 g Walnüsse und 40 g Datteln, entsteint einfüllen."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

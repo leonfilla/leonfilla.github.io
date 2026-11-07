@@ -29,6 +29,7 @@ schritte:
     text: "120 g TK-Mango zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

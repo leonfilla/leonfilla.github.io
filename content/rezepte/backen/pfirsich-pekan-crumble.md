@@ -41,6 +41,7 @@ schritte:
   - titel: Ohne Dampf fertig backen
     text: Dampf abschalten und weiterbacken.
     timer: 600
+gesichtet: false
 ---
 
 ## Warum so

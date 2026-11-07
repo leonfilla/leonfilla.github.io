@@ -32,6 +32,7 @@ schritte:
     timer: 1200
   - titel: Mixen
     text: Röstgut samt Saft, Kichererbsen und 150 g Wasser in den Hochleistungsmixer geben und das Soup-Programm starten.
+gesichtet: false
 ---
 
 ## Warum so

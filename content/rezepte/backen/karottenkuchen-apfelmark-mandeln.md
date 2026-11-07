@@ -31,6 +31,7 @@ schritte:
   - {titel: "Eischnee unterheben", text: "Eiweiß steif schlagen und vorsichtig unterheben."}
   - {titel: "Backen", text: "In die Springform füllen und bei 175 °C etwa 40 Minuten backen.", timer: 2400}
 
+gesichtet: false
 ---
 
 ## Warum so

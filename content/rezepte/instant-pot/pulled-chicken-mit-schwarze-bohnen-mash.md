@@ -39,6 +39,7 @@ schritte:
     timer: 600
   - titel: Zupfen
     text: Fleisch mit zwei Gabeln entlang der Fasern zerzupfen, Bohnen dabei teilweise zerdrücken, 20 ml Limettensaft unterrühren.
+gesichtet: false
 ---
 
 ## Warum so

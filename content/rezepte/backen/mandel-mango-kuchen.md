@@ -31,6 +31,7 @@ schritte:
   - {titel: "Unterheben", text: "200 g Mandelmehl und 200 g gefrorene Mangowürfel mit einem Spatel vorsichtig unterheben und in die Kastenform füllen."}
   - {titel: "Backen", text: "Bei 170 °C Heißluft mit Dampf Stufe 1 35–40 Minuten backen, bis der Kern 92 °C erreicht.", timer: 2250}
 
+gesichtet: false
 ---
 
 ## Warum so

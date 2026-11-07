@@ -29,6 +29,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "40 g Erbsen-Reis-Proteinisolat, neutral (70:30) auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "60 g Haferflocken, fein, 50 g Erdnussmus, 100 % und 100 g Banane, reif einfüllen."}
   - {titel: "Mixen", text: "45 Sekunden auf höchster Stufe mixen und sofort trinken – die Viskosität steigt durch die Hafer-Hydratation beim Stehen rapide.", timer: 45}
+gesichtet: false
 ---
 
 ## Warum so

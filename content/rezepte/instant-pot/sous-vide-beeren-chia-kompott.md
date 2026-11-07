@@ -35,6 +35,7 @@ schritte:
   - titel: Quellen lassen
     text: 15 Minuten quellen lassen, bis die gewünschte Konsistenz erreicht ist.
     timer: 900
+gesichtet: false
 ---
 
 ## Warum so

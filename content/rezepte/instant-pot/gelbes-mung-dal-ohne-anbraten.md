@@ -39,6 +39,7 @@ schritte:
     timer: 600
   - titel: Cremig rühren
     text: Kräftig umrühren, bis das Dal cremig ist.
+gesichtet: false
 ---
 
 ## Warum so

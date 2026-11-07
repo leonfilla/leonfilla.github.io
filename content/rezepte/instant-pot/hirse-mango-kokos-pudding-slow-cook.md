@@ -27,4 +27,5 @@ schritte:
   - {titel: Einfüllen, text: "Hirse, 100 g Mango, 100 ml Kokosmilch, 100 ml Wasser und Kardamom in den Innentopf geben."}
   - {titel: Slow Cook, text: "Slow Cook, Low, 4 bis 8 Stunden.", timer: 28800}
   - {titel: Durchrühren, text: Kräftig durchrühren.}
+gesichtet: false
 ---

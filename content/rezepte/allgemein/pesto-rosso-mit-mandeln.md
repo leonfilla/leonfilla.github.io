@@ -29,4 +29,5 @@ schritte:
     text: 50 g Mandeln in einer Pfanne ohne Fett hellbraun rösten und abkühlen lassen.
   - titel: Mixen
     text: Tomaten, Mandeln, 50 g Basilikum, 50 g Parmesan, Knoblauch und 100 ml Öl im Mixer zu einer groben Masse verarbeiten. Mit Salz und Pfeffer würzen.
+gesichtet: false
 ---

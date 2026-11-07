@@ -41,6 +41,7 @@ schritte:
     text: Durchrühren und offen stehen lassen, bis unter 80 °C.
   - titel: Miso einrühren
     text: Bei unter 80 °C 100 g Misopaste in der Restflüssigkeit auflösen und einrühren.
+gesichtet: false
 ---
 
 ## Warum so

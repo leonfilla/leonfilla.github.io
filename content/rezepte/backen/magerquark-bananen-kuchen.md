@@ -32,6 +32,7 @@ schritte:
   timer: 2400
 - titel: Auskühlen
   text: Ofen abschalten und den Kuchen bei geöffneter Tür auskühlen lassen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -47,6 +47,7 @@ schritte:
 - titel: Auskühlen
   text: In der Form auf einem Gitter vollständig auskühlen lassen, erst dann den Rand lösen.
   timer: 3600
+gesichtet: false
 ---
 
 ## Warum so

@@ -27,6 +27,7 @@ xbloom:
     - {phase: "Bloom", menge: 40, temp: 90, fluss: 3.0, pause: 35, muster: "zentral", vib_vor: true, vib_nach: false}
     - {phase: "Guss 2", temp: 90, fluss: 3.3, pause: 30, muster: "spirale", vib_vor: false, vib_nach: false}
     - {phase: "Guss 3", temp: 88, fluss: 3.3, pause: 0, muster: "kreis", vib_vor: false, vib_nach: false}
+gesichtet: false
 ---
 
 ## Warum so

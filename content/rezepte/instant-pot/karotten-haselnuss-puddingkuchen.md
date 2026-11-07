@@ -36,6 +36,7 @@ schritte:
   - {titel: "Druckgaren", text: "Pressure Cook, High, 35 Minuten.", timer: 2100}
   - {titel: "Druck ablassen", text: "5 Minuten Natural Release, dann Quick Release.", timer: 300}
 
+gesichtet: false
 ---
 
 ## Warum so

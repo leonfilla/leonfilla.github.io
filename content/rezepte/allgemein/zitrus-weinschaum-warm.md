@@ -24,6 +24,7 @@ schritte:
     text: 200 g Wein, 50 g Saft und 20 g Honig ins Milchkännchen geben.
   - titel: Aufschäumen
     text: Dampflanze manuell, 3 Sekunden Luft ziehen, dann rollen lassen, bis das Thermometer 60 °C zeigt. Sofort ausgießen.
+gesichtet: false
 ---
 
 ## Warum so

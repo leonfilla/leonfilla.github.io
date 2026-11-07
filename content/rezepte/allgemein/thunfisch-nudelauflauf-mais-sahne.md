@@ -37,4 +37,5 @@ schritte:
   - {titel: "Übergießen", text: "Sauce darübergießen und mit 150 g Käse bestreuen."}
   - {titel: "Backen", text: "20 Minuten backen.", timer: 1200}
 
+gesichtet: false
 ---

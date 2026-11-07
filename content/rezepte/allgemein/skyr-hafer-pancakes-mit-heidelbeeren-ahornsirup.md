@@ -27,6 +27,7 @@ schritte:
 - {titel: Erste Seite backen, text: 'Ein Viertel des Teigs eingießen, sofort ein Viertel der gefrorenen Heidelbeeren von oben eindrücken und 2,5–3 Minuten backen, bis die Oberfläche matt ist.', timer: 165}
 - {titel: Wenden, text: 'Vorsichtig wenden und 1,5–2 Minuten fertig backen.', timer: 100}
 - {titel: Servieren, text: 'Restlichen Teig ebenso verarbeiten, stapeln und mit 30 g Ahornsirup übergießen.'}
+gesichtet: false
 ---
 
 ## Warum so

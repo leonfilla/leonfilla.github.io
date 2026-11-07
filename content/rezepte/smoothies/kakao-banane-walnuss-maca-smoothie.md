@@ -30,6 +30,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "40 g Erbsen-Reis-Proteinisolat, neutral (70:30), 15 g Rohkakao-Pulver und 5 g Maca-Pulver auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "200 g Banane, reif und 30 g Walnüsse einfüllen."}
   - {titel: "Mixen", text: "60 Sekunden auf höchster Stufe emulgieren.", timer: 60}
+gesichtet: false
 ---
 
 ## Warum so

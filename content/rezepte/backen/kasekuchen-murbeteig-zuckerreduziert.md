@@ -40,6 +40,7 @@ schritte:
   - {titel: "Backen", text: "Masse auf den Boden geben und 55 Minuten backen. Bei starker Bräunung nach 40 Minuten abdecken.", timer: 3300}
   - {titel: "Im Ofen abkühlen", text: "Im ausgeschalteten Ofen bei leicht geöffneter Tür 30 Minuten abkühlen lassen.", timer: 1800}
 
+gesichtet: false
 ---
 
 ## Warum so

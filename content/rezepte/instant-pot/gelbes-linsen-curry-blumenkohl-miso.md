@@ -32,6 +32,7 @@ schritte:
   - {titel: Natural Release, text: "5 Minuten Natural Release, dann Quick Release.", timer: 300}
   - {titel: Durchrühren, text: Kräftig durchrühren und unter 80 °C abkühlen lassen.}
   - {titel: Miso einrühren, text: 40 g Miso einrühren.}
+gesichtet: false
 ---
 
 ## Warum so

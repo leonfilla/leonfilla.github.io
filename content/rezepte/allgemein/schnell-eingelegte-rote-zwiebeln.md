@@ -21,6 +21,7 @@ schritte:
 - {titel: Zwiebel ins Glas, text: Zwiebel-Halbringe in ein sauberes Glas geben.}
 - {titel: Lake erhitzen, text: '60 ml Essig, 60 ml Wasser, 1 TL Zucker, ½ TL Salz und optional die Korianderkörner erhitzen, bis Zucker und Salz gelöst sind.'}
 - {titel: Übergießen, text: Heiße Lake über die Zwiebeln gießen und mindestens 30 Minuten ziehen lassen., timer: 1800}
+gesichtet: false
 ---
 
 ## Warum so

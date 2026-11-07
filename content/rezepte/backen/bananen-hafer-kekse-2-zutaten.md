@@ -27,4 +27,5 @@ schritte:
   - {titel: "Formen", text: "Kleine Häufchen auf ein Backblech setzen und flach drücken."}
   - {titel: "Backen", text: "Bei 175 °C 15–20 Minuten backen.", timer: 1050}
 
+gesichtet: false
 ---

@@ -31,4 +31,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Porridge oder Pressure Cook, High, 25 Minuten.", timer: 1500}
   - {titel: Natural Release, text: "15 Minuten Natural Release, dann Quick Release.", timer: 900}
   - {titel: Süßen, text: Umrühren und 2 EL Agavendicksaft einrühren.}
+gesichtet: false
 ---

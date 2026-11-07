@@ -29,6 +29,7 @@ schritte:
   - {titel: "Pulver dazugeben", text: "40 g Erbsen-Reis-Proteinisolat, neutral (70:30) und 10 g Ingwer, frisch auf die Flüssigkeit geben."}
   - {titel: "Feststoffe dazugeben", text: "130 g Orange, geschält und 150 g Rote Bete, gekocht einfüllen."}
   - {titel: "Mixen", text: "50 Sekunden auf höchster Stufe mixen.", timer: 50}
+gesichtet: false
 ---
 
 ## Warum so

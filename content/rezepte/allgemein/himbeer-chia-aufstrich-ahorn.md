@@ -28,6 +28,7 @@ schritte:
 - titel: Quellen lassen
   text: In Gläser füllen und im Kühlschrank quellen lassen.
   timer: 7200
+gesichtet: false
 ---
 
 ## Warum so

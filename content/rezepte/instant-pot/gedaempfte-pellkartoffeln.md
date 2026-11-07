@@ -33,6 +33,7 @@ schritte:
     text: Quick Release.
   - titel: Prüfen
     text: Die größte Kartoffel mit der Gabel prüfen; ist sie noch fest, weitere 2 Minuten unter Druck garen.
+gesichtet: false
 ---
 
 ## Stellschrauben

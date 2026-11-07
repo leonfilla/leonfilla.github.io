@@ -24,6 +24,7 @@ xbloom:
     - {phase: "Guss 3", menge: 80, temp: 90, fluss: 3.4, pause: 40}
     - {phase: "Guss 4", menge: 64, temp: 88, fluss: 3.4, pause: 0, vib_vor: false, vib_nach: false}
 bohne: la-finca-los-pirineos
+gesichtet: false
 ---
 
 ## Warum so

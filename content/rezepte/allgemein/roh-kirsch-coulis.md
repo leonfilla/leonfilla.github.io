@@ -22,4 +22,5 @@ schritte:
   - {titel: Pürieren, text: Kirschen und 15 g Honig auf höchster Stufe 45 Sekunden pürieren., timer: 45}
   - {titel: Emulgieren, text: Auf mittlere Stufe schalten und 20 g Öl in sehr dünnem Strahl einlaufen lassen.}
   - {titel: pH prüfen, text: "Ziel pH 3,4–3,6, bei Bedarf mit etwas Zitronensaft nachjustieren."}
+gesichtet: false
 ---

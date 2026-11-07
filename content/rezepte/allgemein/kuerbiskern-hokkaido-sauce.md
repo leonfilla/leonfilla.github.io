@@ -32,4 +32,5 @@ schritte:
   - {titel: Rösten, text: "20 Minuten rösten, bis der Kürbis weich ist.", timer: 1200}
   - {titel: Kerne mahlen, text: 100 g Kürbiskerne im trockenen Mixer auf mittlerer Stufe fein mahlen.}
   - {titel: Pürieren, text: "Kürbis, ausgedrückten Knoblauch, 3 EL Hefeflocken, Gewürze und 250 ml heiße Brühe zugeben und auf höchster Stufe glatt mixen."}
+gesichtet: false
 ---

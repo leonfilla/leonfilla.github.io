@@ -33,6 +33,7 @@ schritte:
   - titel: Druckabbau
     text: 5 Minuten Natural Release, dann Restdruck ablassen.
     timer: 300
+gesichtet: false
 ---
 
 ## Warum so

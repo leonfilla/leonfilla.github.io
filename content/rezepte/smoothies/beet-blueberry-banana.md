@@ -32,6 +32,7 @@ schritte:
     text: "100 g TK-Rote Beete (gegart), 130 g TK-Blaubeeren und 90 g TK-Banane zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

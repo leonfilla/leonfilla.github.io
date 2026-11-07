@@ -35,6 +35,7 @@ schritte:
     timer: 240
   - titel: Schnell ablassen
     text: Quick Release, Gemüse herausnehmen und salzen.
+gesichtet: false
 ---
 
 ## Varianten

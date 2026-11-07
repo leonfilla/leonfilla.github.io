@@ -53,6 +53,7 @@ schritte:
     timer: 600
   - titel: Spinat untermischen
     text: Den aufgetauten Spinat vollständig untermischen.
+gesichtet: false
 ---
 
 ## Warum so

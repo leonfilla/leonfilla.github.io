@@ -34,6 +34,7 @@ schritte:
   - titel: Backen
     text: "Kombimodus Mikrowelle 360 W + Heißluft 170 °C + Dampfstoß Stufe 2, 12 Minuten."
     timer: 720
+gesichtet: false
 ---
 
 ## Warum so

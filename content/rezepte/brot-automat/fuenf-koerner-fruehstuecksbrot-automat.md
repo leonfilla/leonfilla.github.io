@@ -31,6 +31,7 @@ schritte:
 - {titel: Programm wählen, text: 'Form einsetzen, Deckel schließen, Menü 3, Größe L, Bräunung nach Wunsch wählen.'}
 - {titel: Starten, text: 'Timer auf die gewünschte Fertigzeit stellen (z. B. 8 Stunden um 23:00 für 7:00) und starten.'}
 - {titel: Herauslösen, text: 'Brot 5–10 Minuten in der Form abkühlen lassen, dann stürzen; einen steckengebliebenen Knethaken erst nach dem Auskühlen mit Kunststoffwerkzeug lösen.'}
+gesichtet: false
 ---
 
 ## Warum so

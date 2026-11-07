@@ -19,6 +19,7 @@ schritte:
   - {titel: "Ansetzen", text: "Sencha und Erdbeeren in ein verschließbares Gefäß (über 1 l) geben, mit 800 ml kaltem Wasser aufgießen."}
   - {titel: "Ziehen", text: "Verschlossen im Kühlschrank bei 4 °C 12–14 Stunden ziehen lassen.", timer: 43200}
   - {titel: "Abseihen", text: "Durch ein feines Sieb abgießen, die Erdbeeren nicht auspressen. Kalt servieren, höchstens 48 Stunden haltbar."}
+gesichtet: false
 ---
 
 ## Warum so

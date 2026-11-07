@@ -33,4 +33,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 2 Minuten.", timer: 120}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Fertigstellen, text: 3 EL Kräuter und 2 EL Olivenöl unterrühren.}
+gesichtet: false
 ---

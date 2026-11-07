@@ -33,4 +33,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Pressure Cook, High, 5 Minuten.", timer: 300}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Durchschlagen, text: Folie entfernen und den Brei sofort kräftig durchschlagen.}
+gesichtet: false
 ---

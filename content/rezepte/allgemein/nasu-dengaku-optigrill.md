@@ -27,6 +27,7 @@ schritte:
   - {titel: Grillen, text: Leicht ölen und im OptiGrill manuell bei 220 °C 5 Minuten weich grillen., timer: 300}
   - {titel: Glasur rühren, text: "35 g Miso, 15 g Zucker und 15 g Sake verrühren."}
   - {titel: Karamellisieren, text: Auberginen bestreichen und unter dem Ofengrill auf höchster Stufe 3–4 Minuten karamellisieren., timer: 210}
+gesichtet: false
 ---
 
 ## Varianten

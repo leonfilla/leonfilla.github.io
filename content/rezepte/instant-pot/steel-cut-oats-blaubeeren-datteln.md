@@ -30,6 +30,7 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, High, 10 Minuten, NutriBoost aus.", timer: 600}
   - {titel: Quick Release, text: Druck per Quick Release ablassen.}
   - {titel: Fertigstellen, text: 100 ml Hafermilch und 80 g Blaubeeren unterrühren.}
+gesichtet: false
 ---
 
 ## Warum so

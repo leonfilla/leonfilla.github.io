@@ -31,6 +31,7 @@ schritte:
   - {titel: "Form befüllen", text: "Erst 500 g Weizenmehl 550, 90 g Zucker und ½ TL Salz, dann 2 Eier, 1 Eigelb, 120 g Butter und 160 ml Milch (optional mit 0,5 g Safran) in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
+gesichtet: false
 ---
 
 ## Warum so

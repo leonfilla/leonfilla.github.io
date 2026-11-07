@@ -102,6 +102,7 @@ schritte:
   - titel: Auskühlen
     text: Auf dem Gitter mindestens 4 Stunden, besser 6, auskühlen lassen.
     timer: 14400
+gesichtet: false
 ---
 
 ## Warum so

@@ -25,6 +25,7 @@ schritte:
 - {titel: Füllung mischen, text: Creme mit Thunfisch und 15 g Kürbiskernen mischen.}
 - {titel: Brot rösten, text: 'OptiGrill im manuellen Modus auf 220 °C stellen und die 4 Brotscheiben 3 Minuten rösten, bis sie kräftig gebräunt sind.', timer: 180}
 - {titel: Belegen, text: Füllung auf die gerösteten Scheiben geben.}
+gesichtet: false
 ---
 
 ## Warum so

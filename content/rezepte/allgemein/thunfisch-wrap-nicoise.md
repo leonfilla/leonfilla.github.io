@@ -41,6 +41,7 @@ schritte:
     text: 100 g grüne Bohnen unter fließendem Wasser auftauen.
   - titel: Rollen
     text: 400 g Thunfisch, Bohnen, Kartoffeln und Eier auf die Wraps legen und rollen.
+gesichtet: false
 ---
 
 ## Warum so

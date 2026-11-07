@@ -36,6 +36,7 @@ schritte:
   timer: 300
 - titel: Aufgießen
   text: Das klare Konzentrat (ca. 120 ml) mit 300 ml eiskaltem Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

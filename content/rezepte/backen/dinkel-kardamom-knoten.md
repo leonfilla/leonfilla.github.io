@@ -50,6 +50,7 @@ schritte:
 - titel: Backen
   text: 15–18 Minuten backen, Kerntemperatur 92 °C.
   timer: 1020
+gesichtet: false
 ---
 
 ## Warum so

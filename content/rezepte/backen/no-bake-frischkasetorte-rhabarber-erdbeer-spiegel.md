@@ -44,6 +44,7 @@ schritte:
 - titel: Spiegel aufgießen
   text: Püree auf Zimmertemperatur abkühlen lassen, ohne dass es geliert, auf die feste Füllung gießen und weitere 2 Stunden kühlen.
   timer: 7200
+gesichtet: false
 ---
 
 ## Warum so

@@ -29,4 +29,5 @@ schritte:
   - {titel: Rösten, text: "25 Minuten rösten, bis die Paprikahaut Blasen wirft.", timer: 1500}
   - {titel: Knoblauch auslösen, text: Weichen Knoblauch aus der Schale drücken.}
   - {titel: Pürieren, text: "Paprika, Knoblauch, 300 g Hüttenkäse und Gewürze auf höchster Stufe 1–2 Minuten klumpenfrei mixen.", timer: 90}
+gesichtet: false
 ---

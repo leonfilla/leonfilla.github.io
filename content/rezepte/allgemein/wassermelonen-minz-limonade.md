@@ -28,6 +28,7 @@ schritte:
   text: 20 g Limettensaft zugeben; für eine klare Limonade durch ein Sieb passieren.
 - titel: Aufgießen
   text: Mit 100 g Sprudelwasser aufgießen.
+gesichtet: false
 ---
 
 ## Warum so

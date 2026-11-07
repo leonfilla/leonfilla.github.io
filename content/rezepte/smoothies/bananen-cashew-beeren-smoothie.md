@@ -29,6 +29,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "100 g Banane und 25 g Cashewkerne einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "100 g TK-Beerenmischung zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

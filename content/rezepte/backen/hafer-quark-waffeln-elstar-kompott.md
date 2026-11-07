@@ -33,6 +33,7 @@ schritte:
   - {titel: "Quellen lassen", text: "Teig 10 Minuten quellen lassen. OptiGrill mit Waffelplatten im manuellen Modus auf 210 °C vorheizen.", timer: 600}
   - {titel: "Waffeln backen", text: "Teig portionsweise 5 Minuten backen.", timer: 300}
 
+gesichtet: false
 ---
 
 ## Warum so

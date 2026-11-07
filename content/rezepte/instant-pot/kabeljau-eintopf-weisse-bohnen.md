@@ -39,6 +39,7 @@ schritte:
   - titel: Fisch pochieren
     text: 600 g Kabeljau in die Sauce legen, Deckel schließen und 8 Minuten ziehen lassen.
     timer: 480
+gesichtet: false
 ---
 
 ## Warum so

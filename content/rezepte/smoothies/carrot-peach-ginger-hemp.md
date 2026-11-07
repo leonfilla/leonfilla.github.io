@@ -36,6 +36,7 @@ schritte:
     text: "80 g TK-Banane, 110 g TK-Karotte (gegart) und 120 g TK-Pfirsich zuletzt obenauf geben."
   - titel: Mixen
     text: Auf höchster Stufe glatt mixen.
+gesichtet: false
 ---
 
 ## Warum so

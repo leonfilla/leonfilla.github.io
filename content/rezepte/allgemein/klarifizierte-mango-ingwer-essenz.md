@@ -27,6 +27,7 @@ schritte:
   - {titel: "Einfrieren", text: "In einem flachen Behälter durchfrieren lassen.", timer: 28800}
   - {titel: "Klären", text: "Gefrorene Masse auf ein mit Passiertuch ausgelegtes Sieb geben und im Kühlschrank über einem Gefäß auftauen lassen; die klare Essenz auffangen."}
   - {titel: "Aufgießen", text: "40 ml Essenz mit 200 ml karbonisiertem Wasser aufgießen."}
+gesichtet: false
 ---
 
 ## Warum so

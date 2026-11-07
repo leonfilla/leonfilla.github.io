@@ -36,6 +36,7 @@ schritte:
   - {titel: "Formen", text: "Teig auf eine gut bemehlte Fläche geben, in 4–6 Stücke teilen und sehr vorsichtig zu Fladen formen – die Blasen erhalten."}
   - {titel: "Ruhen lassen", text: "Abgedeckt nochmals ruhen lassen.", timer: 2400}
   - {titel: "Backen", text: "In der heißen, trockenen Pfanne von jeder Seite 2–3 Minuten oder im Ofen bei sehr hoher Temperatur backen."}
+gesichtet: false
 ---
 
 ## Warum so

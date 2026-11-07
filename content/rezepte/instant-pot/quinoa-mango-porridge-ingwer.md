@@ -30,4 +30,5 @@ schritte:
   - {titel: Druckgaren, text: "Pressure Cook, Low, 5 Minuten.", timer: 300}
   - {titel: Quick Release, text: Sofort Quick Release.}
   - {titel: Fertigstellen, text: 15 g Kürbiskerne unterheben.}
+gesichtet: false
 ---

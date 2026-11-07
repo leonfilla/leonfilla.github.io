@@ -34,6 +34,7 @@ schritte:
   - {titel: "Äpfel unterfalten", text: "2 Äpfel in feine Julienne schneiden und vorsichtig unter den Teig falten."}
   - {titel: "Backen", text: "OptiGrill mit Waffelplatten auf 200 °C, Teig portionsweise 6 Minuten backen.", timer: 360}
 
+gesichtet: false
 ---
 
 ## Warum so

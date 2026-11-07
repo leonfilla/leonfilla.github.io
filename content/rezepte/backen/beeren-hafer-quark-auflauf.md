@@ -30,6 +30,7 @@ schritte:
   - {titel: "Mischen", text: "Quark, Eier und Zimt unterheben."}
   - {titel: "Einfüllen", text: "In eine Glasform füllen, Himbeeren darauf verteilen."}
   - {titel: "Garen", text: "Heißluft 180 °C plus Mikrowelle 360 W, 10 Minuten.", timer: 600}
+gesichtet: false
 ---
 
 ## Warum so

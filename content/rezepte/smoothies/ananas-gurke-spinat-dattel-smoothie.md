@@ -36,6 +36,7 @@ schritte:
   - {titel: "Feststoffe dazugeben", text: "110 g Salatgurke, frisch, 18 g Medjool-Dattel, entkernt, 20 g Haferflocken, fein, 10 g Chiasamen und ½ Bio-Limette mit Schale einfüllen."}
   - {titel: "TK-Zutaten obenauf", text: "120 g TK-Ananas und 50 g TK-Blattspinat zuletzt obenauf geben."}
   - {titel: "Mixen", text: "Auf höchster Stufe mixen, bis alles vollständig glatt ist."}
+gesichtet: false
 ---
 
 ## Warum so

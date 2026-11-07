@@ -27,6 +27,7 @@ schritte:
   - {titel: "Creme", text: "Bärlauch fein hacken, Feta mit einer Gabel zerdrücken und mit Joghurt und Bärlauch mischen."}
   - {titel: "Schneiden", text: "Steak in 2 mm feine Tranchen schneiden."}
   - {titel: "Rollen", text: "Wraps mit der Creme bestreichen, Steak auflegen, fest rollen."}
+gesichtet: false
 ---
 
 ## Warum so

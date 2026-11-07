@@ -37,6 +37,7 @@ schritte:
   - {titel: Brokkoli auflegen, text: "400 g Brokkoli obenauf legen, nicht unterrühren."}
   - {titel: Dämpfen, text: "Deckel verriegeln. Steam, Low, 0 Minuten."}
   - {titel: Quick Release, text: "Sofort Quick Release, dann vorsichtig vermengen."}
+gesichtet: false
 ---
 
 ## Warum so

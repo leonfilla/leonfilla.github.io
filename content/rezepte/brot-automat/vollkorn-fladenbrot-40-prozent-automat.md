@@ -36,6 +36,7 @@ schritte:
   - {titel: "Formen", text: "Teig auf eine leicht bemehlte Fläche geben und in 6 runde Fladen von ca. 1 cm Dicke formen."}
   - {titel: "Gehen lassen", text: "Auf einem Blech mit Backpapier abgedeckt gehen lassen; Ofen auf 230 °C Ober-/Unterhitze vorheizen.", timer: 1200}
   - {titel: "Backen", text: "Fladen mit etwas Wasser bestreichen und 10–12 Minuten backen, bis sie leicht gebräunt und durchgebacken sind.", timer: 660}
+gesichtet: false
 ---
 
 ## Warum so

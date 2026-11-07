@@ -29,6 +29,7 @@ schritte:
   - {titel: "Creme rühren", text: "2 EL Frischkäse, 1 EL abgetropften Joghurt, 1 TL Vanilleextrakt und 1 TL Zucker verrühren."}
   - {titel: "Aufstreichen", text: "Creme auf die Brioche-Scheibe streichen."}
   - {titel: "Backen", text: "Auf Einschubhöhe 2 bei 190 °C Ober-/Unterhitze 7–8 Minuten backen.", timer: 420}
+gesichtet: false
 ---
 
 ## Warum so

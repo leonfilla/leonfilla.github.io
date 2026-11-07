@@ -28,6 +28,7 @@ schritte:
   - {titel: "Form befüllen", text: "Erst 500 g Dinkelmehl 630, 70 g Rohrzucker und ½ TL Salz, dann 80 g Butter und 280 ml Milch in die Backform geben."}
   - {titel: "Programm starten", text: "Programm Dinkel Teig (Menü 25) starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
+gesichtet: false
 ---
 
 ## Warum so

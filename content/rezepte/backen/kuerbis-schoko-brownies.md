@@ -33,6 +33,7 @@ schritte:
   - {titel: Mixen, text: "Kürbis, Schokoladenbutter, 3 Eier, 40 g Zucker, 40 g Kakao und 30 g Mehl auf Stufe 3 25 Sekunden mixen.", timer: 25}
   - {titel: Form füllen, text: Teig in eine gefettete Form von etwa 15 × 20 cm gießen.}
   - {titel: Backen, text: "Ober-/Unterhitze 175 °C, 25 Minuten.", timer: 1500}
+gesichtet: false
 ---
 
 ## Warum so

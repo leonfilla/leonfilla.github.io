@@ -26,6 +26,7 @@ xbloom:
     - {phase: "Guss 4", menge: 60, temp: 91, fluss: 3.4, pause: 35, muster: "kreis", vib_vor: false, vib_nach: false}
     - {phase: "Guss 5", menge: 52, temp: 88, fluss: 3.4, pause: 0, muster: "zentral", vib_vor: false, vib_nach: false}
 bohne: la-finca-lerida
+gesichtet: false
 ---
 
 ## Warum so

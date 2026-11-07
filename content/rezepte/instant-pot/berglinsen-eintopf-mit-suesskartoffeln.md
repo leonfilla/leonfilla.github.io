@@ -34,4 +34,5 @@ schritte:
   - {titel: Druckgaren, text: "Deckel schließen, Ventil auf Sealing. Pressure Cook, High, 12 Minuten.", timer: 720}
   - {titel: Natural Release, text: 10 Minuten Natural Release., timer: 600}
   - {titel: Restdruck ablassen, text: "Ventil auf Venting, dann umrühren."}
+gesichtet: false
 ---

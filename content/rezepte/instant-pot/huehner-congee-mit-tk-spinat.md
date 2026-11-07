@@ -44,6 +44,7 @@ schritte:
     timer: 300
   - titel: Abschmecken
     text: Mit 40 g Sojasauce abschmecken.
+gesichtet: false
 ---
 
 ## Warum so

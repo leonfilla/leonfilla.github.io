@@ -25,4 +25,5 @@ zutaten:
 schritte:
   - {titel: Pürieren, text: Alle Zutaten 1–2 Minuten auf höchster Stufe fein und cremig mixen., timer: 90}
   - {titel: Verdünnen, text: Zu dick → beim Mixen schluckweise heißes Wasser zugeben.}
+gesichtet: false
 ---

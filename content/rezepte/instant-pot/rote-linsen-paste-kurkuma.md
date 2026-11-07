@@ -29,6 +29,7 @@ schritte:
   - {titel: "Druckgaren", text: "Pressure Cook, High, 4 Minuten.", timer: 240}
   - {titel: "Natürlicher Druckabbau", text: "5 Minuten Natural Release, dann Restdruck ablassen.", timer: 300}
   - {titel: "Abschmecken", text: "Zitronensaft unterrühren."}
+gesichtet: false
 ---
 
 ## Warum so

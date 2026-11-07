@@ -25,4 +25,5 @@ schritte:
   - {titel: Nudeln kochen, text: "1,5 l Wasser aufkochen, Udon und Edamame 2 Minuten kochen, abseihen.", timer: 120}
   - {titel: Brühe ansetzen, text: "400 ml Wasser auf 80 °C erhitzen, 5 g Dashi und 25 g Miso einrühren, bis alles gelöst ist."}
   - {titel: Anrichten, text: "Nudeln und Edamame in eine Schüssel geben, mit der Brühe übergießen, Frühlingszwiebeln darauf."}
+gesichtet: false
 ---

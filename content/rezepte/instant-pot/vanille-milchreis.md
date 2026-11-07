@@ -32,4 +32,5 @@ schritte:
   - {titel: Druckgaren, text: "Ventil auf Sealing. Porridge oder Pressure Cook, High, 10 Minuten.", timer: 600}
   - {titel: Natural Release, text: "10 Minuten Natural Release, dann Quick Release.", timer: 600}
   - {titel: Durchrühren, text: Gründlich umrühren und den am Boden angedickten Reis lösen.}
+gesichtet: false
 ---

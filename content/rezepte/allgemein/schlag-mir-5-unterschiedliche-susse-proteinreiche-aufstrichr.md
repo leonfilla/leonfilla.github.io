@@ -23,6 +23,7 @@ schritte:
   - {titel: "Pürieren", text: "Alle Zutaten im Mixer pürieren, bis keine Schalenreste mehr sichtbar sind."}
   - {titel: "Kalt stellen", text: "Kalt stellen, dabei wird der Aufstrich fester.", timer: 3600}
 
+gesichtet: false
 ---
 
 ## Warum so

@@ -44,6 +44,7 @@ schritte:
   - titel: Backen
     text: Bei 180 °C Heißluft 25 Minuten backen, die ersten 10 Minuten mit Dampf Stufe 2.
     timer: 1500
+gesichtet: false
 ---
 
 ## Warum so

@@ -41,6 +41,7 @@ schritte:
     timer: 5400
   - titel: Kühlen
     text: Im Kühlschrank vollständig durchkühlen lassen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -9,6 +9,7 @@ quelle:
 importiert: true
 fokus: Kein eigenes Rezept – Vorschläge, wie das Gewürzprofil eines Rosinen-Sauerteigbrots mit Butter, Zimt und Kardamom verbessert wird.
 tags: [Sauerteig, Gewürze]
+gesichtet: false
 ---
 
 ## Notizen

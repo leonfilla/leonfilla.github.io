@@ -39,4 +39,5 @@ schritte:
   - {titel: Natural Release, text: "5 Minuten Natural Release, dann Restdruck ablassen.", timer: 300}
   - {titel: Gemüse einrühren, text: 200 g Erbsen und 200 g Spinat sofort in das heiße Curry rühren.}
   - {titel: Köcheln, text: "Sauté (Low), 2–3 Minuten offen köcheln, bis alles heiß ist.", timer: 150}
+gesichtet: false
 ---

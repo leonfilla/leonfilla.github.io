@@ -30,6 +30,7 @@ schritte:
   timer: 600
 - titel: Mischen
   text: Thunfisch, 150 g Kichererbsen, Gurke, Frühlingszwiebeln, 3 EL Sriracha-Mayo, 1 TL Reisessig und 1 TL Sesamöl mischen und mit Sesam bestreuen.
+gesichtet: false
 ---
 
 ## Warum so

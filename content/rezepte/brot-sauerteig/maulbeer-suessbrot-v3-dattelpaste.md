@@ -62,6 +62,7 @@ schritte:
   - {titel: "Backen", text: "35–40 Minuten backen, optional in den ersten 10 Minuten mit leichtem Dampf, bis zur Kerntemperatur 93–95 °C.", timer: 2280}
   - {titel: "Auskühlen", text: "Sofort aus der Form auf ein Gitter stürzen und mindestens 1–2 Stunden auskühlen lassen.", timer: 5400}
   - {titel: "Portionieren", text: "Vollständig ausgekühlt in Scheiben schneiden und einfrieren; einzelne Scheiben direkt aus dem Gefrierfach toasten."}
+gesichtet: false
 ---
 
 ## Warum so

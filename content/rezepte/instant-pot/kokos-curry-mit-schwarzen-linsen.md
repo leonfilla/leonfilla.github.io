@@ -42,6 +42,7 @@ schritte:
   - titel: Gemüse ziehen lassen
     text: Auf Sauté Low schalten, Paprika und 100 g gefrorene Erbsen einrühren und 3 Minuten ziehen lassen.
     timer: 180
+gesichtet: false
 ---
 
 ## Warum so

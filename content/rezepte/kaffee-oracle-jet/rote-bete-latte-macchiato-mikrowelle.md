@@ -35,6 +35,7 @@ schritte:
   - {titel: "Espresso beziehen", text: "2 × 18 g Espressobohnen mahlen und tampen, zwei doppelte Espressi à 36 g bei 93 °C beziehen."}
   - {titel: "Milch texturieren", text: "450 ml Milch mit Auto MilQ auf 65 °C und hohen Schaumgrad texturieren, auf die Gläser gießen."}
   - {titel: "Schichten", text: "Espresso durch den Schaum eingießen."}
+gesichtet: false
 ---
 
 ## Warum so

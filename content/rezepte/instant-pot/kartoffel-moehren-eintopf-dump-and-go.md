@@ -40,4 +40,5 @@ schritte:
     timer: 600
   - titel: Binden
     text: Einige Kartoffelstücke im Topf mit einer Gabel zerdrücken und unterrühren.
+gesichtet: false
 ---

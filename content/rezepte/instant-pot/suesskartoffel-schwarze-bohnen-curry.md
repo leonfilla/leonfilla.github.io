@@ -39,6 +39,7 @@ schritte:
   - titel: Spinat unterheben
     text: 150 g Babyspinat unterheben und in der Restwärme etwa 1 Minute zusammenfallen lassen.
     timer: 60
+gesichtet: false
 ---
 
 ## Warum so

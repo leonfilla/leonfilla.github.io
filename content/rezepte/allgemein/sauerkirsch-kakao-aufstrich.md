@@ -28,6 +28,7 @@ schritte:
   timer: 180
 - titel: Abfüllen
   text: Vom Herd nehmen und in sterile Gläser füllen.
+gesichtet: false
 ---
 
 ## Warum so

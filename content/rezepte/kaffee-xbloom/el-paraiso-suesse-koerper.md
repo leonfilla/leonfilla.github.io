@@ -23,6 +23,7 @@ xbloom:
   - {phase: Bloom, menge: 50, temp: 91, pause: 40}
   - {phase: Guss 2, menge: 100, temp: 90}
   - {phase: Guss 3, menge: 90, temp: 89}
+gesichtet: false
 ---
 
 ## Warum so

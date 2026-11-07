@@ -8,6 +8,7 @@ quelle:
   hinweis: Fünf Rezepte für Schokobananenbrot
 importiert: true
 fokus: "Fünf Skizzen für Schokobananenbrot mit alkalisiertem Kakao (Bensdorp), u. a. mit brauner Butter und Espresso – Ideen ohne vollständige Rezepte."
+gesichtet: false
 ---
 
 ## Notizen

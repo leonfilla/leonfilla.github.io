@@ -23,4 +23,5 @@ zutaten:
 schritte:
   - {titel: Mixen, text: Alle Zutaten auf mittlerer Stufe 45 Sekunden fein pürieren., timer: 45}
   - {titel: Bestreuen, text: Mit geröstetem Sesam bestreuen.}
+gesichtet: false
 ---

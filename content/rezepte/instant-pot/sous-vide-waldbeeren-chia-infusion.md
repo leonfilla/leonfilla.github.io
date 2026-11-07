@@ -28,4 +28,5 @@ schritte:
   - {titel: Vakuumieren, text: "Beeren, 40 g Chia, 20 g Agavendicksaft und 50 ml Wasser vakuumieren."}
   - {titel: Garen, text: Beutel bei 82 °C einlegen und 60 Minuten garen., timer: 3600}
   - {titel: Durchmischen, text: Beutel aufschneiden und den Inhalt durchmischen.}
+gesichtet: false
 ---

@@ -53,6 +53,7 @@ schritte:
     timer: 600
   - titel: Anrichten
     text: Mit den Kürbiskernen bestreuen.
+gesichtet: false
 ---
 
 ## Warum so

@@ -40,4 +40,5 @@ schritte:
   - titel: Natürlicher Druckabbau
     text: 10 Minuten Natural Release, dann Ventil auf Venting und umrühren.
     timer: 600
+gesichtet: false
 ---

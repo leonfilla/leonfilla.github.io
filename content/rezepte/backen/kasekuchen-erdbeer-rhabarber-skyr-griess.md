@@ -41,6 +41,7 @@ schritte:
   - {titel: "Backen", text: "Etwa 60 Minuten backen.", timer: 3600}
   - {titel: "Auskühlen", text: "Im Ofen bei geöffneter Tür abkühlen lassen, danach bis zum Servieren kalt stellen."}
 
+gesichtet: false
 ---
 
 ## Warum so
