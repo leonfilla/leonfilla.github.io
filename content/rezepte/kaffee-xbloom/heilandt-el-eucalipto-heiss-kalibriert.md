@@ -1,9 +1,8 @@
 ---
-titel: El Eucalipto – Go-to heiß
+titel: El Eucalipto – Heiß, kalibriert
 linie: heilandt-el-eucalipto
-variante: Go-to heiß
+variante: Heiß, kalibriert
 status: aktiv
-favorit: true
 quelle:
   typ: chat
   url: https://claude.ai/chat/b009a168-b98a-4e8e-b653-4cd70a674f57

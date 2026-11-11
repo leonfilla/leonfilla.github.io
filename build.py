@@ -467,10 +467,9 @@ def schreibe(ctx):
     sichtbar = [r for r in ctx["rezepte"]]
     zaehler = {b: {s: sum(1 for r in sichtbar if r["bereich"] == b and r["status"] == s) for s in STATUS}
                for b in ctx["bereiche"]}
-    favoriten = [r for r in sichtbar if r.get("favorit")]
     neueste = sorted([r for r in sichtbar if r.get("datum")], key=lambda r: r["datum"], reverse=True)[:6]
 
-    seite("/", "index.html", zaehler=zaehler, favoriten=favoriten, neueste=neueste,
+    seite("/", "index.html", zaehler=zaehler, neueste=neueste,
           index_json=json.dumps(suchindex(ctx), ensure_ascii=False))
 
     for bid, b in ctx["bereiche"].items():
@@ -488,7 +487,7 @@ def schreibe(ctx):
             gruppen = sorted(nach_aufb.items(), key=lambda kv: (kv[0] == "Decaf",
                              ordnung.index(kv[0]) if kv[0] in ordnung else 9, kv[0]))
         liste = sorted(rs, key=lambda r: (STATUS_RANG.get(r["status"], 9) + (1.5 if r.get("veraltet") else 0),
-                                          not r.get("favorit"), r["titel"].lower(), version_key(r.get("version"))))
+                                          r["titel"].lower(), version_key(r.get("version"))))
         anzahl = {s: sum(1 for r in rs if r["status"] == s) for s in STATUS}
         anzahl["ungesichtet"] = sum(1 for r in rs if r.get("gesichtet") is False)
         wissen = [w for w in ctx["wissen"] if w.get("bereich") == bid]

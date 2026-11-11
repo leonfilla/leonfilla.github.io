@@ -22,6 +22,7 @@ xbloom:
     - {phase: "Bloom", menge: 50, temp: 96, fluss: 3.5, pause: 45, muster: "spirale", vib_vor: true, vib_nach: true}
     - {phase: "Guss 2", menge: 100, temp: 95, fluss: 3.2, pause: 20, muster: "spirale", vib_vor: false, vib_nach: true}
     - {phase: "Guss 3", menge: 90, temp: 93, fluss: 3.0, pause: 0, muster: "zentral", vib_vor: false, vib_nach: false}
+bohne: finca-hartmann
 ---
 
 ## Warum so

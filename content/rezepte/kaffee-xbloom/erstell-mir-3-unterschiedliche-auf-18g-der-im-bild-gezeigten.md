@@ -23,6 +23,7 @@ xbloom:
   - {phase: Bloom, menge: 54, temp: 94, fluss: 3.5, pause: 45, muster: spirale}
   - {phase: Guss 2, menge: 117, temp: 93, fluss: 3.2, pause: 30, muster: spirale, vib_vor: false, vib_nach: false}
   - {phase: Guss 3, menge: 117, temp: 92, fluss: 3.0, pause: 0, muster: zentral, vib_vor: false, vib_nach: false}
+bohne: panama-geisha
 ---
 
 ## Warum so

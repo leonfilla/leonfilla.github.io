@@ -24,6 +24,7 @@ xbloom:
   - {phase: Bloom, menge: 48, temp: 90, fluss: 3.0, pause: 40, muster: zentral, vib_vor: true, vib_nach: false}
   - {phase: Guss 2, menge: 108, temp: 91, fluss: 3.2, pause: 35, muster: spirale, vib_vor: false, vib_nach: false}
   - {phase: Guss 3, menge: 108, temp: 90, fluss: 3.4, pause: 0, muster: kreis, vib_vor: false, vib_nach: false}
+bohne: enrique-lopez-pink-bourbon
 ---
 
 ## Warum so

@@ -82,7 +82,7 @@ Wahrscheinlich nicht. Ihre Funktionen lassen sich anders abdecken:
 
 **6. Ohne Instant Pot?**
 
-Machbar. Ein ungewärmter Edelstahleinsatz kostet dich rechnerisch ~3 °C, deshalb die Schüssel vorher mit heißem Wasser anwärmen und isolieren (Handtuch oder Ofen mit Lampe). Wenn die Masse über 45 min von 45 auf ~40 °C fällt, verlierst du nach den Temperaturdaten oben grob 10–15 % Phytaserate. Gemessen an dem kleinen Anteil des Soaks am Gesamtabbau ist das vernachlässigbar. Einmal die Endtemperatur messen.
+Machbar. Ein ungewärmter Edelstahleinsatz kostet dich rechnerisch ~3 °C, deshalb die Schüssel vorher mit heißem Wasser anwärmen und isolieren (Handtuch oder ausgeschalteter, kurz vorgewärmter Ofen – die Lampe heizt nicht). Wenn die Masse über 45 min von 45 auf ~40 °C fällt, verlierst du nach den Temperaturdaten oben grob 10–15 % Phytaserate. Gemessen an dem kleinen Anteil des Soaks am Gesamtabbau ist das vernachlässigbar. Einmal die Endtemperatur messen.
 
 **7. Intervallkneten kürzen?**
 

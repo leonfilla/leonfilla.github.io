@@ -39,4 +39,4 @@ Koffein extrahiert schneller und vollständiger als Aromastoffe – kühler, gr�
 
 ## Varianten
 
-- Half-Caf bei 16 g: 8 g El Eucalipto + 8 g Filter-Decaf (z. B. Pink Bourbon Decaf, nicht den Espresso-Decaf), Mahlgrad 59–60, RPM 60, Gussmengen wie Go-to, Temperaturen je −1 °C (91/89/86/85 °C) – volle Tasse, Charakter zur Hälfte fremd
+- Half-Caf bei 16 g: 8 g El Eucalipto + 8 g Filter-Decaf (z. B. Pink Bourbon Decaf, nicht den Espresso-Decaf), Mahlgrad 59–60, RPM 60, Gussmengen wie das kalibrierte Heiß-Rezept, Temperaturen je −1 °C (91/89/86/85 °C) – volle Tasse, Charakter zur Hälfte fremd

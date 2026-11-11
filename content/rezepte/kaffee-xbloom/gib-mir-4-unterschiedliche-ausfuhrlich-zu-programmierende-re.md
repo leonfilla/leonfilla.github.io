@@ -22,6 +22,7 @@ xbloom:
   - {phase: Bloom, menge: 45, temp: 93, fluss: 6, pause: 45, muster: spirale}
   - {phase: Guss 2, menge: 100, temp: 90, fluss: 5, pause: 15, muster: spirale}
   - {phase: Guss 3, menge: 105, temp: 88, fluss: 4, pause: 0, muster: zentral}
+bohne: volcan-azul
 ---
 
 ## Warum so

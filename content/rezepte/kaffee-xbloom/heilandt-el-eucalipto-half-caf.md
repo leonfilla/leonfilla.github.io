@@ -10,7 +10,7 @@ quelle:
   hinweis: "Koffeinreduktion bei El Eucalipto"
 importiert: true
 bohne: "heilandt-el-eucalipto"
-fokus: "Das Go-to-Rezept mit halbierter Koffeinlast: 8 g El Eucalipto plus 8 g Decaf, zusammen exakt 16 g – Bettgeometrie, TDS und Stärke bleiben gleich, nur der Mahlgrad geht einen Schritt gröber."
+fokus: "Das kalibrierte Heiß-Rezept mit halbierter Koffeinlast: 8 g El Eucalipto plus 8 g Decaf, zusammen exakt 16 g – Bettgeometrie, TDS und Stärke bleiben gleich, nur der Mahlgrad geht einen Schritt gröber."
 ergebnis: "1 Tasse, 256 ml"
 geraete: ["xbloom-studio"]
 tags: ["Kaffee", "Half-Caf"]

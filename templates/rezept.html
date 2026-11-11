@@ -14,7 +14,6 @@
   <p class="marken">
     {% if r.version %}<span class="marke">{{ r.version }}</span>{% endif %}
     {% if r.variante and r.variante not in r.titel %}<span class="marke">{{ r.variante }}</span>{% endif %}
-    {% if r.favorit %}<span class="marke stern">★ Go-to</span>{% endif %}
     {{ status(r) }}
     {% if r.bewertung %}<span class="marke">{{ r.bewertung }}/10</span>{% endif %}
     {% if r.datum %}<span class="marke leise">{{ r.datum|datum }}</span>{% endif %}

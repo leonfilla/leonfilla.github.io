@@ -48,7 +48,7 @@ zutaten:
 - {gruppe: Hauptteig, name: Zuckerrübenmelasse, menge: 5, einheit: g}
 - {gruppe: Hauptteig, name: 'Flohsamenschalen, ganz', menge: 8, einheit: g}
 schritte:
-- {titel: Levain ansetzen, text: 'Morgens (ca. 06:00) 12 g Anstellgut, 60 g Weizen-, 60 g Roggenvollkornmehl und 120 g lauwarmes Wasser verrühren und bei 28 °C (Ofen mit Lampe) reifen lassen, bis pH 4,2 und deutlich aufgewölbt.', timer: 21600}
+- {titel: Levain ansetzen, text: 'Morgens (ca. 06:00) 12 g Anstellgut, 60 g Weizen-, 60 g Roggenvollkornmehl und 120 g lauwarmes Wasser verrühren und bei etwa 28 °C reifen lassen (Ofen als passive Thermobox: Gärstufe kurz bis 30 °C Luft, dann ausschalten – die LED-Beleuchtung heizt nicht), bis pH 4,2 und deutlich aufgewölbt.', timer: 21600}
 - {titel: Tangzhong kochen, text: '20 g Weizenvollkornmehl und 80 g Wasser unter Rühren auf 65–70 °C erhitzen, bis gelatinös; auf ≤ 30 °C abkühlen lassen.'}
 - {titel: Quellstück ansetzen, text: '30 g geschrotete Leinsamen, 35 g Hanfsamen und 100 g Wasser 20 Minuten quellen lassen.', timer: 1200}
 - {titel: Salz lösen, text: '253 g Wasser (29 °C) mit 9,5 g Salz vollständig auflösen.'}

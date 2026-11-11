@@ -28,7 +28,7 @@ xbloom:
 ---
 
 ## Warum so
-Konventioneller Natural ohne anaerobe Stufe: Die weinige Tiefe kommt aus der Trocknung in der Kirsche, nicht aus Tank-Fermentation – daher vorne mehr Energie als beim El-Eucalipto-Go-to. Sauerkirsche (helle Äpfelsäure) extrahiert früh und mag Klarheit, Portwein (dunkle Trockenfrucht-Süße) sitzt spät und braucht Kontakt. Dieses Rezept zielt auf den Kirsch-Pol.
+Konventioneller Natural ohne anaerobe Stufe: Die weinige Tiefe kommt aus der Trocknung in der Kirsche, nicht aus Tank-Fermentation – daher vorne mehr Energie als beim kalibrierten El-Eucalipto-Rezept. Sauerkirsche (helle Äpfelsäure) extrahiert früh und mag Klarheit, Portwein (dunkle Trockenfrucht-Süße) sitzt spät und braucht Kontakt. Dieses Rezept zielt auf den Kirsch-Pol.
 
 ## Stellschrauben
 - Spitz-sauer ohne Süße darunter → Bloom auf 95 °C oder 1–2 Stufen feiner

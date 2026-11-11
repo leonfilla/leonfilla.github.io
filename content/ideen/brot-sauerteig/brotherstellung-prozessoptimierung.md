@@ -35,7 +35,7 @@ Die Krume spricht allerdings dafür, dass der Teig tatsächlich zu wenig sauer w
 ## Nächstes Backen: gleiche Formel, korrigierter Prozess
 
 - **ASG auffrischen:** Am Vortag einmal füttern (10 / 20 / 20 g) und erst nach Verdopplung in den Kühlschrank stellen oder direkt verwenden.
-- **Levain warm führen:** Bei ~24–25 °C, etwa im Ofen nur mit Lampe und mit Thermometer kontrolliert. Ziel ist Reife nach ~11–12 h, damit das Quellstück wieder bei ~12 h liegt.
+- **Levain warm führen:** Bei ~24–25 °C, etwa im ausgeschalteten, mit der Gärstufe kurz auf 30 °C vorgewärmten Ofen als passive Thermobox (die Lampe heizt nicht), mit Thermometer kontrolliert. Ziel ist Reife nach ~11–12 h, damit das Quellstück wieder bei ~12 h liegt.
 - **Stockgare warm halten:** Die Behälter bei 25–26 °C stehen lassen statt bei Raumtemperatur. Die Gare beendest du nach Volumen (+40–50 %) und Poke-Test. Als pH-Untergrenze gilt mindestens ≤ 5,0, sonst wird die Krume wieder feucht.
 - **Knetziel anpassen:** Bei 20 % Vollkornroggen und 10 % Keimmehl ist ein dünnes Fenster das falsche Ziel. Besser: Der Teig löst sich vom Rand, ist glatt, und ein dickes, durchscheinendes Fenster reicht. Höchstens die 3 Blöcke plus 3 min, danach übernehmen die Coil Folds.
 - **Quellstück-Temperatur:** 40 statt 45 °C ist unkritisch. Wenn du 45 willst, nimm ~65 °C Wasser.

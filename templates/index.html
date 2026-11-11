@@ -22,13 +22,6 @@
   </div>
 </section>
 
-{% if favoriten %}
-<section class="abschnitt">
-  <h2>Go-to</h2>
-  <div class="raster">{% for r in favoriten %}{{ karte(r, true) }}{% endfor %}</div>
-</section>
-{% endif %}
-
 {% for gruppe in ctx.cfg.gruppen %}
 <section class="abschnitt">
   <h2>{{ gruppe.name }}</h2>
