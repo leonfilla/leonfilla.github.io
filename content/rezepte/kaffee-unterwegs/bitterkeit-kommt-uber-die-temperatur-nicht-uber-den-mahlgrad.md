@@ -1,6 +1,6 @@
 ---
-titel: La Esperanza – Pulsar 10 g
-status: unfertig
+titel: La Esperanza – Pulsar 10 g, Ventil-zu-Hybrid
+status: archiv
 datum: '2026-10-30'
 quelle:
   typ: claude
@@ -8,6 +8,8 @@ quelle:
   hinweis: Mobiles Kaffee-Equipment und Rezepte
 importiert: true
 linie: la-esperanza-heiss-0558b
+variante: Ventil-zu-Hybrid 10 g
+version: v1
 bohne: la-esperanza
 fokus: 'Kleine Pulsar-Tasse mit Dispersionsdeckel und Ventil-zu-Hybrid: Die Immersion kühlt von selbst ab und ersetzt die fallende Temperaturkurve des xBloom-Programms; eine echte Dwell-Phase verhindert „fermentierte“ Noten.'
 ergebnis: 1 Tasse, ca. 140 ml
@@ -34,6 +36,8 @@ gesichtet: false
 ---
 
 ## Warum so
+
+Überholt: Im selben Chat ersetzt durch die Rezepte mit offenem Ventil (La Esperanza – Pulsar 16 g bzw. 10 g, Ventil offen). Die bilden das xBloom-Programm nach, der Hybrid hält zu viel Wasser über dem Bett. Nur noch als Notlösung, falls der Takt unterwegs nicht klappt.
 
 Bitterkeit kommt bei der Esperanza über die Temperatur, nicht über den Mahlgrad – deshalb kühler als im Sommer-Rezept. Bei kleiner Dosis kühlt die geringe Wassermasse schnell aus, deshalb heißer starten und feiner mahlen (flaches Bett von ca. 5 mm).
 

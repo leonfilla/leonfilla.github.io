@@ -37,6 +37,10 @@ Höhere Temperaturen lösen schneller und betonen Säure und Frucht; niedrigere 
 
 Die Drehzahl verändert die Partikelverteilung und damit den Feinanteil. In den bisherigen Rezepten ist die Richtung nicht einheitlich beschrieben – mal mit „niedrige RPM = weniger Fines“, mal umgekehrt. **Offener Punkt:** gezielt mit einer Bohne bei sonst gleichen Parametern testen und hier festhalten.
 
+**Quellenlage:** Die Recherche löst den Widerspruch nicht, erklärt aber, woher er kommt. Allgemein gilt langsameres Drehen als schonender – weniger Fines, engere Verteilung, weniger Wärme. Der Effekt hängt aber stark vom Mahlwerk ab; bei manchen Geometrien mahlt schnelleres Drehen effektiv sogar gröber. Konische 48-mm-Scheiben wie in der Studio neigen zu einer bimodalen Verteilung, niedrige RPM werden deshalb meist als Mittel gegen Fines genannt. Studio-spezifisch gibt es nur zwei Beobachtungen: In einem Vergleichsvideo (Tanner Colson) betonte 120 RPM die Säure und wirkte „interessanter“, verlor aber Nuancen, während 60 RPM ausgewogener und klarer, „süß, zahm“, vielleicht etwas steril schmeckte. Im Kaffee-Netz wird berichtet, dass die RPM bei Filtermahlgraden über etwa 40 wenig ausmacht und erst in Richtung Espresso-Feinheit deutlich wird. Die KI-Recherchen, aus denen viele Rezepte stammen, widersprechen sich teils innerhalb desselben Textes („helle, dichte Bohnen brauchen höhere RPM für gleichmäßige Zerkleinerung“ neben „niedrige RPM für Klarheit“) – daher die uneinheitliche Richtung in den Rezepten.
+
+Für den Eigentest folgt daraus: die Extreme 60 und 120 RPM vergleichen, bevorzugt bei einem feineren Mahlgrad unter 40 (etwa einem Flash-Brew-Konzentrat), wo ein Unterschied am ehesten zu erwarten ist; blind verkosten und die Brühzeit mitschreiben, denn mehr Fines verlängern den Drawdown.
+
 Vibration ebnet das Bett nach dem Bloom ein, kann aber Fines Richtung Filter spülen. Sparsam einsetzen.
 
 ## Systematisch nachjustieren

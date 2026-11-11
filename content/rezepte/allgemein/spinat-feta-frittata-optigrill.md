@@ -1,4 +1,6 @@
 ---
+linie: spinat-feta-frittata-optigrill
+variante: Ganze Eier
 titel: Spinat-Feta-Frittata aus dem OptiGrill
 status: aktiv
 datum: "2026-04-07"

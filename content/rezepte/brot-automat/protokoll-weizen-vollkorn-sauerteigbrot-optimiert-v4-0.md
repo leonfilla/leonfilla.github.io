@@ -32,28 +32,29 @@ changelog:
   - {version: "V4.0", text: "Beispiel-Uhrzeiten zwischen 12 und 20 Uhr"}
   - {version: "V4.0", text: "Coil Folds genauer beschrieben"}
   - {version: "V4.0", text: "Dampfstoß als Ein/Aus, Crisp Finish statt Kochlöffeltrick"}
+  - {version: "V4.0", datum: "2026-02-02", text: "Levain-Menge korrigiert: Ansatz 40 g Anstellgut + 55 g Weizenvollkorn + 55 g Wasser (150 g), davon 50 g Rücklage und ca. 100 g in den Teig statt nur 30–35 g"}
 zutaten:
-  - {gruppe: "Levain", name: "Anstellgut", menge: 30, einheit: "g", hinweis: "kalt"}
-  - {gruppe: "Levain", name: "Weizenvollkornmehl", menge: 45, einheit: "g", hinweis: "davon 80–90 g Levain zurück ins Vorratsglas"}
-  - {gruppe: "Levain", name: "Wasser", menge: 45, einheit: "g", hinweis: "35–40 °C"}
+  - {gruppe: "Levain", name: "Anstellgut", menge: 40, einheit: "g", hinweis: "kalt"}
+  - {gruppe: "Levain", name: "Weizenvollkornmehl", menge: 55, einheit: "g", hinweis: "vom fertigen Levain 50 g zurück ins Vorratsglas"}
+  - {gruppe: "Levain", name: "Wasser", menge: 55, einheit: "g", hinweis: "35–40 °C"}
   - {gruppe: "Kochstück", name: "Weizenvollkornmehl", menge: 30, einheit: "g", mehl: true}
   - {gruppe: "Kochstück", name: "Wasser", menge: 150, einheit: "g", wasser: 1}
   - {gruppe: "Hauptteig", name: "Wasser", menge: 135, einheit: "g", wasser: 1, hinweis: "kalt"}
   - {gruppe: "Hauptteig", name: "Zitronensaft", menge: 15, einheit: "g", wasser: 0.9, hinweis: "frisch"}
   - {gruppe: "Hauptteig", name: "Weizenvollkornmehl", menge: 340, einheit: "g", mehl: true}
   - {gruppe: "Hauptteig", name: "Weizenmehl 550", menge: 80, einheit: "g", mehl: true}
-  - {gruppe: "Hauptteig", name: "Levain", menge: 30, einheit: "g", hinweis: "Rest aus dem Becher, 30–35 g"}
+  - {gruppe: "Hauptteig", name: "Levain", menge: 100, einheit: "g", hinweis: "Rest aus dem Becher, ca. 100 g"}
   - {gruppe: "Hauptteig", name: "Salz", menge: 12, einheit: "g"}
   - {gruppe: "Reserve", name: "Wasser", menge: 20, einheit: "g", hinweis: "optional, für Bassinage"}
 schritte:
-  - {titel: "12:00 – Levain ansetzen", text: "Knethaken entfernen. 30 g kaltes Anstellgut, 45 g Weizenvollkornmehl und 45 g warmes Wasser im Sauerteigbecher mischen, Becher in den Backbehälter stellen, Menü 29 starten.", timer: 11700}
+  - {titel: "12:00 – Levain ansetzen", text: "Knethaken entfernen. 40 g kaltes Anstellgut, 55 g Weizenvollkornmehl und 55 g warmes Wasser im Sauerteigbecher mischen, Becher in den Backbehälter stellen, Menü 29 starten.", timer: 11700}
   - {titel: "Kochstück kochen", text: "30 g Weizenvollkornmehl und 150 g Wasser klumpenfrei verrühren und bis puddingartig (65 °C) aufkochen."}
   - {titel: "Kochstück abkühlen", text: "In eine Schale umfüllen und mit Deckel auf Raumtemperatur abkühlen lassen."}
-  - {titel: "15:15 – Anstellgut sichern", text: "Menü 29 stoppen. Vom verdoppelten Levain (ca. 120 g) 80–90 g zurück ins Vorratsglas und in den Kühlschrank; 30–35 g bleiben im Becher."}
+  - {titel: "15:15 – Anstellgut sichern", text: "Menü 29 stoppen. Vom verdoppelten Levain (ca. 150 g) 50 g zurück ins Vorratsglas und in den Kühlschrank; ca. 100 g bleiben im Becher."}
   - {titel: "Befüllen", text: "Roggen-Knethaken einsetzen. Kochstück, 135 g kaltes Wasser, 15 g Zitronensaft, 340 g Weizenvollkornmehl und 80 g Weizenmehl 550 in den Behälter geben."}
   - {titel: "Mischen", text: "Menü 31 für 2 Minuten laufen lassen.", timer: 120}
   - {titel: "Quellen lassen", text: "Maschine aus, Deckel zu.", timer: 1800}
-  - {titel: "15:45 – Kneten", text: "Ca. 30 g Levain und 12 g Salz zugeben, Menü 31 auf 10 Minuten stellen.", timer: 600}
+  - {titel: "15:45 – Kneten", text: "Ca. 100 g Levain und 12 g Salz zugeben, Menü 31 auf 10 Minuten stellen.", timer: 600}
   - {titel: "Bassinage", text: "Bei Minute 8: Löst sich der Teig gut, die 20 g Reservewasser schluckweise zugeben; ist er noch klebrig, weglassen."}
   - {titel: "Entnehmen", text: "Teig sofort entnehmen (unter 26 °C) und abgedeckt in eine leicht geölte, eckige Wanne geben."}
   - {titel: "16:45 – Coil Fold 1", text: "Mit nassen Händen mittig unter den Teig greifen, anheben, bis sich das untere Ende löst, und so ablegen, dass es sich unterfaltet. Wanne um 90° drehen, viermal wiederholen.", timer: 2700}
