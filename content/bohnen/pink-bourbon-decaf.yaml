@@ -1,9 +1,11 @@
-name: Pink Bourbon Decaf
-roesterei: Coffee Circle
+name: "Pink Bourbon Decaf"
+roesterei: "Coffee Circle"
 herkunft: "Kolumbien, Huila (Acevedo)"
+produzent: "Jhoan Vergara"
 aufbereitung: "Anaerobic Washed mit Oxidationsvorstufe, EA-Decaf (Zuckerrohr)"
-decaf: true
-geschmack: "Erdbeere, Cashew, florale Eleganz"
-quelle: Import aus Chats – Angaben ergänzen
 varietaet: "Pink Bourbon"
 hoehe: 1750
+decaf: true
+geschmack: "Erdbeere, Cashew, florale Eleganz"
+kauflink: "https://coffeecircle.com/en/k/pink-bourbon-decaf"
+quelle: "Röster-Website"

@@ -1,4 +1,9 @@
-name: La Cristalina Decaf
-roesterei: Schamong
+name: "La Cristalina Decaf"
+roesterei: "Schamong"
+herkunft: "Kolumbien, Quindío"
+produzent: "Finca La Cristalina (Familie Grajales)"
+aufbereitung: "Decaf"
+varietaet: "Castillo"
 decaf: true
-aufbereitung: Decaf
+kauflink: "https://kaffeeroester.de/shop/espresso/espresso-decaf/"
+quelle: "Röster-Website und Leons Angaben"
