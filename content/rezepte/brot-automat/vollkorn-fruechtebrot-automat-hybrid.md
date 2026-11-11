@@ -1,5 +1,5 @@
 ---
-titel: Weizenvollkorn-Sauerteigbrot mit Rosinen und Aprikosen (Automat)
+titel: Vollkorn-Sauerteigbrot mit Rosinen und Aprikosen (Automat)
 status: aktiv
 datum: '2025-07-12'
 quelle: {typ: gemini, url: 'https://gemini.google.com/app/9a6d273f9c7b4238', hinweis: Weizenvollkorn-Sauerteigbrot mit Früchten aus dem Brotbackautomaten}

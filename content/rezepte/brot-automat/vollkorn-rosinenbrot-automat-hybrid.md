@@ -1,5 +1,5 @@
 ---
-titel: Weizenvollkorn-Rosinenbrot Hybrid (Sauerteig + Hefe, Automat)
+titel: Weizenvollkorn-Rosinenbrot Hybrid (Automat)
 status: aktiv
 datum: '2025-07-08'
 quelle: {typ: gemini, url: 'https://gemini.google.com/app/63cfed140432155b', hinweis: Weizenvollkorn-Rosinenbrote aus dem Brotbackautomaten}
