@@ -14,7 +14,7 @@ ergebnis: 1 Laib
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Sauerteig, Vollkorn]
 brot:
-  programm: Menü 31 (Kneten)
+  programm: Menü 21 – Vollkorn (Teig), nur zum Kneten
   gare:
     - {phase: "Vorteig", temp: "Raumtemperatur", zeit: "4–6 h, bis verdoppelt"}
     - {phase: "Autolyse", zeit: "45–60 min"}
@@ -37,9 +37,9 @@ zutaten:
 schritte:
   - {titel: "Vorteig ansetzen", text: "30 g Anstellgut, 35 g Weizenvollkornmehl und 35 g lauwarmes Wasser im Glas mischen."}
   - {titel: "Vorteig reifen lassen", text: "Bei Raumtemperatur stehen lassen, bis er sich verdoppelt hat.", timer: 18000}
-  - {titel: "Autolyse mischen", text: "Roggen-Knethaken einsetzen. 370 g Weizenvollkornmehl, 80 g Weizenmehl 550, 305 g kaltes Wasser und 15 g Zitronensaft in den Behälter geben, Menü 31 starten und 2 Minuten mischen.", timer: 120}
+  - {titel: "Autolyse mischen", text: "Roggen-Knethaken einsetzen. 370 g Weizenvollkornmehl, 80 g Weizenmehl 550, 305 g kaltes Wasser und 15 g Zitronensaft in den Behälter geben, Menü 21 starten und 2 Minuten mischen.", timer: 120}
   - {titel: "Quellen lassen", text: "Maschine stoppen und mit geschlossenem Deckel ruhen lassen.", timer: 3000}
-  - {titel: "Kneten", text: "Vorteig und 10 g Salz zugeben, Menü 31 auf 8 Minuten stellen. Löst sich der Teig noch nicht vom Rand, max. 2 Minuten verlängern – insgesamt höchstens 12 Minuten.", timer: 480}
+  - {titel: "Kneten", text: "Vorteig und 10 g Salz zugeben, Menü 21 starten und nach 8 Minuten stoppen. Löst sich der Teig noch nicht vom Rand, max. 2 Minuten verlängern – insgesamt höchstens 12 Minuten.", timer: 480}
   - {titel: "Entnehmen", text: "Teig sofort in eine leicht geölte, eckige Wanne geben."}
   - {titel: "Coil Folds", text: "Dreimal im Abstand von 45 Minuten falten: Teig mittig anheben, Enden unterklappen lassen.", timer: 2700}
   - {titel: "Stockgare beenden", text: "Ruhen lassen, bis der Teig luftig ist und deutlich an Volumen zugenommen hat (ca. 4 Stunden ab Knetende)."}

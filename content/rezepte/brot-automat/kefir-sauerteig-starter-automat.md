@@ -15,7 +15,7 @@ zeit: {aktiv: 5, gesamt: 1445}
 geraete: [panasonic-sd-yr2540]
 tags: [Sauerteig, Starter]
 brot:
-  programm: "Menü 23 – Sauerteig Starterkultur, 24 h (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 24 – Sauerteig-Starterkultur, 24 h"
 zutaten:
   - {name: "Roggenmehl Type 1150", menge: 80, einheit: "g"}
   - {name: "Salz", menge: 3, einheit: "g", hinweis: "½ TL, ca. 3–4 g"}
@@ -26,7 +26,7 @@ schritte:
   - {titel: "Knethaken entfernen", text: "Den Knethaken aus der Backform nehmen."}
   - {titel: "Anrühren", text: "80 g Roggenmehl 1150, 3 g Salz, 60 g Kefir, 80 ml Wasser und 0,1 g Trockenhefe im Sauerteigbecher glatt verrühren."}
   - {titel: "Einsetzen", text: "Deckel auf den Becher setzen, Becher in die leere Backform stellen, Form einsetzen und Deckel schließen."}
-  - {titel: "Programm starten", text: "Menü 23 (Sauerteig Starterkultur) wählen und starten.", timer: 86400}
+  - {titel: "Programm starten", text: "Menü 24 (Sauerteig-Starterkultur) wählen und starten.", timer: 86400}
   - {titel: "Entnehmen", text: "Nach dem Signalton entnehmen; der Starter riecht säuerlich und leicht alkoholisch. Sofort verwenden oder bis zu 1 Woche kühl lagern."}
 ---
 
@@ -37,4 +37,3 @@ Joghurt liefert fast nur Milchsäurebakterien; Milchkefir ist eine Kultur aus Ba
 ## Stellschrauben
 
 - Brote aus diesem Starter fallen ein → im Brot die Hefe im Spender reduzieren, nicht am Starter sparen
-- Menünummer bezieht sich auf das SD-YR2550 → am SD-YR2540 an der Programmtabelle prüfen

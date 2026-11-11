@@ -11,7 +11,7 @@ ergebnis: 1 Auflaufform Schnecken
 zeit: {aktiv: 30, gesamt: 220}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [süß, Hefeteig, Vollkorn]
-brot: {programm: 'Brot-Teig (empfohlen, ca. 2 h 20 min) oder Pizza-Teig (ca. 45 min) – Menü-Nr. laut Deckeltabelle'}
+brot: {programm: 'Menü 21 – Vollkorn (Teig), empfohlen; oder Pizza-Teig (ca. 45 min)'}
 ofen: {modus: Umluft, temp: 180, zeit: 20–25, form: Auflaufform}
 zutaten:
 - {gruppe: Teig (Backform), name: Dinkelvollkornmehl (oder Weizenvollkorn), menge: 300, einheit: g, mehl: true}
@@ -37,7 +37,7 @@ schritte:
 - {titel: Knethaken einsetzen, text: Den normalen Knethaken einsetzen.}
 - {titel: Backform füllen, text: 'Mehle, Salz, Zucker, Gewürze und Butter in die Form geben, die ausgedrückten Karotten darauf, Milch und verquirltes Ei außen herum gießen.'}
 - {titel: Hefe einfüllen, text: 7 g Trockenhefe in den Hefespender geben.}
-- {titel: Teigprogramm starten, text: Brot-Teig-Programm starten (ca. 2 h 20 min). Beim Pizza-Teig-Programm den Teig danach noch 20 Minuten im ausgeschalteten Gerät ruhen lassen., timer: 8400}
+- {titel: Teigprogramm starten, text: Menü 21 – Vollkorn (Teig) starten. Beim Pizza-Teig-Programm den Teig danach noch 20 Minuten im ausgeschalteten Gerät ruhen lassen., timer: 8400}
 - {titel: Ausrollen und füllen, text: 'Teig auf bemehlter Fläche zu einem Rechteck ausrollen, mit Butter, Zucker und Zimt bestreichen, Nüsse und Orangenabrieb darauf.'}
 - {titel: Schneiden, text: 'Aufrollen, in 3–4 cm dicke Scheiben schneiden und in eine Auflaufform setzen.'}
 - {titel: Gehen lassen, text: Abgedeckt ca. 30 Minuten gehen lassen., timer: 1800}
@@ -47,12 +47,12 @@ schritte:
 
 ## Warum so
 
-Dinkel-630er liefert das Klebergerüst, damit der Vollkornteig nicht zu kompakt wird. Die Karotten bringen Feuchtigkeit mit und geben sie erst beim Backen ab, deshalb ist die Milchmenge etwas reduziert. Die Anwärmphase des Brot-Teig-Programms hilft der Hefe gegen die schweren Ballaststoffe.
+Dinkel-630er liefert das Klebergerüst, damit der Vollkornteig nicht zu kompakt wird. Die Karotten bringen Feuchtigkeit mit und geben sie erst beim Backen ab, deshalb ist die Milchmenge etwas reduziert. Die Anwärmphase des Vollkorn-Teigprogramms hilft der Hefe gegen die schweren Ballaststoffe.
 
 ## Stellschrauben
 
 - Teig zu nass → Karotten noch gründlicher ausdrücken
-- Teig zu kompakt → Brot-Teig- statt Pizza-Teig-Programm
+- Teig zu kompakt → Menü 21 – Vollkorn (Teig) statt Pizza-Teig-Programm
 
 ## Varianten
 

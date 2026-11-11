@@ -16,7 +16,7 @@ zeit: {aktiv: 5, gesamt: 305}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 13 – Sauerteig, 5 h (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 23 – Sauerteigbrot (Teig)"
   groesse: L
   braeunung: mittel
 zutaten:
@@ -30,7 +30,8 @@ zutaten:
 schritte:
   - {titel: "Backform füllen", text: "Knethaken einsetzen. Kefir-Starter, 250 ml Wasser, 350 g Weizenvollkornmehl, 150 g Weizenmehl 1050, 10 g Salz und 1 TL Honig in dieser Reihenfolge in die Form geben."}
   - {titel: "Hefe einfüllen", text: "½ TL (1,5 g) Trockenhefe in den Hefespender geben, Form einsetzen."}
-  - {titel: "Programm starten", text: "Menü 13 (Sauerteig), Größe L, Bräunung mittel wählen und starten; Zeitvorwahl möglich.", timer: 18000}
+  - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten; Zeitvorwahl möglich.", timer: 18000}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
   - {titel: "Stürzen", text: "Nach dem Backen sofort entnehmen und auf einem Gitter auskühlen lassen."}
 ---
 
@@ -41,4 +42,3 @@ Das helle, backstarke Mehl liefert mehr Klebergerüst als Vollkorn allein; die K
 ## Stellschrauben
 
 - Brot oben eingefallen → Hefe auf ¼ TL senken, kühleres Wasser
-- Menünummer bezieht sich auf das SD-YR2550 → am SD-YR2540 prüfen

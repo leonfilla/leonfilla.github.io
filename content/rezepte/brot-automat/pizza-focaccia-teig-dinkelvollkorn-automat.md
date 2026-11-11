@@ -15,7 +15,7 @@ zeit: {aktiv: 15, gesamt: 75}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Pizza, Abendessen, Vollkorn]
 brot:
-  programm: "Pizza-Teig, ca. 45 min (laut Text meist Menü 30 oder 31 – prüfen)"
+  programm: "Pizza-Teig, ca. 45 min"
 ofen:
   temp: 220
   zeit: 15–20
@@ -41,7 +41,6 @@ Das Pizzateig-Programm knetet und lässt den Teig nur kurz gehen; die volle Päc
 
 ## Stellschrauben
 
-- Programmnummer stammt aus dem Chat → vor dem Start an der Programmtabelle im Deckel prüfen
 - Teig klebt beim Entnehmen → Hände und Arbeitsfläche bemehlen
 
 ## Varianten

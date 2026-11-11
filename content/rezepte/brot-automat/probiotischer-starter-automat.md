@@ -15,7 +15,7 @@ zeit: {aktiv: 10, gesamt: 2160}
 geraete: [panasonic-sd-yr2540]
 tags: [Sauerteig, Starter]
 brot:
-  programm: "Menü 23 – Sauerteig Starterkultur, 24 h (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 24 – Sauerteig-Starterkultur, 24 h"
   gare:
     - {phase: "Aktivierung im Glas", temp: "warm", zeit: "12–24 h"}
     - {phase: "Starterprogramm", zeit: "24 h"}
@@ -30,7 +30,7 @@ schritte:
   - {titel: "Aufwecken", text: "Locker abgedeckt an einem warmen Ort stehen lassen.", timer: 43200}
   - {titel: "Becher ansetzen", text: "Aktivierten Ansatz mit 80 g Roggenmehl und 80 ml Wasser im Sauerteigbecher gründlich mischen und den Deckel aufsetzen."}
   - {titel: "Einsetzen", text: "Knethaken entfernen, Becher in die Backform stellen und die Form einsetzen."}
-  - {titel: "Programm starten", text: "Menü 23 (Sauerteig Starterkultur) wählen und starten.", timer: 86400}
+  - {titel: "Programm starten", text: "Menü 24 (Sauerteig-Starterkultur) wählen und starten.", timer: 86400}
   - {titel: "Entnehmen", text: "Nach dem Signalton Stopp drücken und den Becher sofort entnehmen."}
 ---
 

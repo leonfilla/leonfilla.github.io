@@ -15,7 +15,7 @@ zeit: {aktiv: 20, gesamt: 315}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 22 – Sauerteigbrot Teig, ca. 2 h 20 min (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 23 – Sauerteigbrot (Teig), ca. 2 h 20 min"
   gare:
     - {phase: "Teigprogramm mit Stockgare", zeit: "ca. 2 h 20 min"}
     - {phase: "Stückgare im Gärkorb", temp: "Raumtemperatur", zeit: "2–4 h, bis +70–80 % Volumen"}
@@ -30,7 +30,7 @@ zutaten:
   - {name: "Salz", menge: 12, einheit: "g"}
 schritte:
   - {titel: "Backform füllen", text: "Knethaken einsetzen. 370 g Wasser, 100 g aktives Anstellgut, 500 g Weizenvollkornmehl und 12 g Salz in dieser Reihenfolge einfüllen. Hefespender leer lassen."}
-  - {titel: "Teigprogramm starten", text: "Menü 22 (Sauerteigbrot Teig) wählen und starten.", timer: 8400}
+  - {titel: "Teigprogramm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten.", timer: 8400}
   - {titel: "Formen", text: "Teig auf leicht bemehlter Fläche zu einer Kugel oder einem länglichen Laib formen und mit dem Schluss nach oben in ein gut bemehltes Gärkörbchen legen."}
   - {titel: "Stückgare", text: "Abgedeckt bei Raumtemperatur gehen lassen, bis das Volumen um 70–80 % zugenommen hat.", timer: 7200}
   - {titel: "Ofen vorheizen", text: "Ofen rechtzeitig mit Gusseisentopf oder Backstein auf 250 °C vorheizen."}
@@ -47,9 +47,8 @@ Ein reiner Sauerteig bringt seine Triebkraft ohne Zusatzhefe mit; die Endgare is
 
 - Brot kompakt → Anstellgut vor dem Backen 2–3-mal kurz hintereinander auffrischen, Stückgare verlängern
 - Zu sauer → Anstellgut bei 24–26 °C führen und mit kleinerem Anteil altem Ansatz auffrischen (5 statt 10 g)
-- Menünummer bezieht sich auf das SD-YR2550 → am SD-YR2540 prüfen
 
 ## Varianten
 
-- Vollautomatisch: gleiche Zutaten, Menü 13 (Sauerteig), Größe L, Bräunung mittel oder dunkel, Hefespender leer – Ergebnis hängt stark von der Aktivität des Anstellguts ab
+- Im Automaten backen: gleiche Zutaten, Menü 23 (Sauerteigbrot, Teig), Hefespender leer. Programm 23 knetet und gärt nur – danach das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel oder dunkel) – Ergebnis hängt stark von der Aktivität des Anstellguts ab
 - Autolyse: Mehl und Wasser im Teigprogramm 5–10 Minuten mischen, Stopp, 30–60 Minuten ruhen lassen, dann restliche Zutaten zugeben und neu starten

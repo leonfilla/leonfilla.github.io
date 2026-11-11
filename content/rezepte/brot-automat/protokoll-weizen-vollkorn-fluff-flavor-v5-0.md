@@ -12,7 +12,7 @@ zeit: {aktiv: 30, gesamt: 2020}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Vollkorn, Sauerteig]
 brot:
-  programm: Menü 29 (Vorteig), Menü 31 (Mischen/Kneten)
+  programm: Vorteig-Programm (warm) · Menü 21 – Vollkorn (Teig) zum Mischen/Kneten
   gare:
   - {phase: Vorteig im Panasonic, temp: 30, zeit: 3 h 15 min}
   - {phase: Autolyse, zeit: 30 min}
@@ -36,12 +36,12 @@ zutaten:
 - {gruppe: Hauptteig, name: Salz, menge: 12, einheit: g}
 - {gruppe: Hauptteig, name: 'Wasser, kalt (Reserve)', menge: 20, einheit: g, wasser: 1, hinweis: nur bei Bedarf}
 schritte:
-- {titel: Vorteig ansetzen, text: '12:00: 40 g Anstellgut, 55 g Weizenvollkornmehl und 55 g Wasser (35–40 °C) im Panasonic-Behälter mischen, Menü 29 starten.', timer: 11700}
+- {titel: Vorteig ansetzen, text: '12:00: 40 g Anstellgut, 55 g Weizenvollkornmehl und 55 g Wasser (35–40 °C) im Panasonic-Behälter mischen, das warme Vorteig-Programm starten.', timer: 11700}
 - {titel: Kochstück kochen, text: Parallel 30 g Vollkornmehl und 150 g Wasser aufkochen und in einer Schüssel mit Deckel abkühlen lassen.}
 - {titel: Backup abnehmen, text: '15:15: Programm stoppen und 50 g Sauerteig als Backup in den Kühlschrank stellen.'}
-- {titel: Autolyse mischen, text: 'Roggenhaken einsetzen. Kochstück, 135 g Wasser, 15 g Zitronensaft, 340 g Vollkornmehl und 80 g Type 550 zugeben und mit Menü 31 2 Minuten mischen.', timer: 120}
+- {titel: Autolyse mischen, text: 'Roggenhaken einsetzen. Kochstück, 135 g Wasser, 15 g Zitronensaft, 340 g Vollkornmehl und 80 g Type 550 zugeben und mit Menü 21 2 Minuten mischen.', timer: 120}
 - {titel: Autolyse ruhen, text: 30 Minuten quellen lassen., timer: 1800}
-- {titel: Kneten, text: '100 g Sauerteig und 12 g Salz zugeben und mit Menü 31 10 Minuten kneten. Bei Minute 8 prüfen: Teig muss sich lösen, Reservewasser nur bei Bedarf.', timer: 600}
+- {titel: Kneten, text: '100 g Sauerteig und 12 g Salz zugeben und mit Menü 21 10 Minuten kneten. Bei Minute 8 prüfen: Teig muss sich lösen, Reservewasser nur bei Bedarf.', timer: 600}
 - {titel: Stockgare, text: 'Teig in die Wanne geben und gehen lassen, bis +60–70 % Volumen (nicht verdoppeln).', timer: 14400}
 - {titel: Coil Folds, text: Dreimal im Abstand von 45 Minuten sanft Coil Folds geben.}
 - {titel: Formen, text: '20:00: Teig straff wirken und mit dem Schluss nach oben ins Gärkörbchen legen, Deckel drauf.'}

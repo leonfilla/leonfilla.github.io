@@ -15,7 +15,7 @@ zeit: {aktiv: 10, gesamt: 160}
 geraete: [panasonic-sd-yr2540]
 tags: [Hefeteig, süß, Zimtschnecken]
 brot:
-  programm: Brotteig (Menü 30 oder 31)
+  programm: Brotteig
 zutaten:
   - {gruppe: "Tangzhong", name: "Mehl", menge: 25, einheit: "g", mehl: true}
   - {gruppe: "Tangzhong", name: "Wasser oder Milch", menge: 100, einheit: "ml", wasser: 1}
@@ -32,7 +32,7 @@ schritte:
   - {titel: "Abkühlen lassen", text: "Tangzhong auf Raumtemperatur abkühlen lassen."}
   - {titel: "Hefe einfüllen", text: "2 TL Trockenhefe in den Hefespender im Deckel geben."}
   - {titel: "Form befüllen", text: "Erst 480 g Weizenmehl 550, 70 g Zucker und 1 TL Salz, dann den Tangzhong, 1 Ei, 130 ml Milch und 60 g Butter in die Backform geben."}
-  - {titel: "Programm starten", text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
+  - {titel: "Programm starten", text: "Programm Brotteig (ca. 2 Std. 20 Min.) starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
 gesichtet: false
 ---

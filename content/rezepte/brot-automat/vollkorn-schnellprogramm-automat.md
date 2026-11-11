@@ -16,7 +16,7 @@ zeit: {aktiv: 5, gesamt: 185}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Vollkorn, Frühstück]
 brot:
-  programm: "Vollkorn Schnell (laut Text meist Menü 5 oder 6 – prüfen)"
+  programm: "Vollkorn Schnell"
   groesse: L
   braeunung: mittel
 zutaten:
@@ -40,7 +40,6 @@ Vollkorn braucht eigentlich Zeit zum Quellen; im Schnellprogramm fehlt sie. 20 %
 
 ## Stellschrauben
 
-- Programmnummer stammt aus dem Chat → vor dem Start an der Programmtabelle im Deckel prüfen
 - Laib zu flach → Hefe an die Obergrenze von 2 TL setzen
 
 ## Varianten

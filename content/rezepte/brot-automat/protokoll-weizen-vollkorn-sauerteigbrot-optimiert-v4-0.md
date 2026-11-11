@@ -9,13 +9,13 @@ quelle:
 importiert: true
 linie: protokoll-weizen-vollkorn-sauerteigbrot-high-hydra-4224d
 version: V4.0
-fokus: Weizen-Vollkorn-Sauerteigbrot mit Levain und Kneten im Automaten (Menü 29/31) und Backen frei auf dem Pizzastein. Neu sind die Anstellgut-Rücklage, ein Kochstück und Uhrzeiten von 12 bis 20 Uhr.
+fokus: Weizen-Vollkorn-Sauerteigbrot mit Levain und Kneten im Automaten (warmes Levain-Programm, Menü 21) und Backen frei auf dem Pizzastein. Neu sind die Anstellgut-Rücklage, ein Kochstück und Uhrzeiten von 12 bis 20 Uhr.
 ergebnis: 1 Laib
 zeit: {gesamt: 1560}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Sauerteig, Vollkorn]
 brot:
-  programm: Menü 29 (Levain) · Menü 31 (Kneten)
+  programm: Levain-Programm (warm) · Menü 21 – Vollkorn (Teig) zum Kneten
   gare:
     - {phase: "Levain im Sauerteigbecher", zeit: "3 h 15 min"}
     - {phase: "Autolyse", zeit: "30 min"}
@@ -47,14 +47,14 @@ zutaten:
   - {gruppe: "Hauptteig", name: "Salz", menge: 12, einheit: "g"}
   - {gruppe: "Reserve", name: "Wasser", menge: 20, einheit: "g", hinweis: "optional, für Bassinage"}
 schritte:
-  - {titel: "12:00 – Levain ansetzen", text: "Knethaken entfernen. 40 g kaltes Anstellgut, 55 g Weizenvollkornmehl und 55 g warmes Wasser im Sauerteigbecher mischen, Becher in den Backbehälter stellen, Menü 29 starten.", timer: 11700}
+  - {titel: "12:00 – Levain ansetzen", text: "Knethaken entfernen. 40 g kaltes Anstellgut, 55 g Weizenvollkornmehl und 55 g warmes Wasser im Sauerteigbecher mischen, Becher in den Backbehälter stellen, das warme Levain-Programm starten.", timer: 11700}
   - {titel: "Kochstück kochen", text: "30 g Weizenvollkornmehl und 150 g Wasser klumpenfrei verrühren und bis puddingartig (65 °C) aufkochen."}
   - {titel: "Kochstück abkühlen", text: "In eine Schale umfüllen und mit Deckel auf Raumtemperatur abkühlen lassen."}
-  - {titel: "15:15 – Anstellgut sichern", text: "Menü 29 stoppen. Vom verdoppelten Levain (ca. 150 g) 50 g zurück ins Vorratsglas und in den Kühlschrank; ca. 100 g bleiben im Becher."}
+  - {titel: "15:15 – Anstellgut sichern", text: "Levain-Programm stoppen. Vom verdoppelten Levain (ca. 150 g) 50 g zurück ins Vorratsglas und in den Kühlschrank; ca. 100 g bleiben im Becher."}
   - {titel: "Befüllen", text: "Roggen-Knethaken einsetzen. Kochstück, 135 g kaltes Wasser, 15 g Zitronensaft, 340 g Weizenvollkornmehl und 80 g Weizenmehl 550 in den Behälter geben."}
-  - {titel: "Mischen", text: "Menü 31 für 2 Minuten laufen lassen.", timer: 120}
+  - {titel: "Mischen", text: "Menü 21 für 2 Minuten laufen lassen.", timer: 120}
   - {titel: "Quellen lassen", text: "Maschine aus, Deckel zu.", timer: 1800}
-  - {titel: "15:45 – Kneten", text: "Ca. 100 g Levain und 12 g Salz zugeben, Menü 31 auf 10 Minuten stellen.", timer: 600}
+  - {titel: "15:45 – Kneten", text: "Ca. 100 g Levain und 12 g Salz zugeben, Menü 21 starten und nach 10 Minuten stoppen.", timer: 600}
   - {titel: "Bassinage", text: "Bei Minute 8: Löst sich der Teig gut, die 20 g Reservewasser schluckweise zugeben; ist er noch klebrig, weglassen."}
   - {titel: "Entnehmen", text: "Teig sofort entnehmen (unter 26 °C) und abgedeckt in eine leicht geölte, eckige Wanne geben."}
   - {titel: "16:45 – Coil Fold 1", text: "Mit nassen Händen mittig unter den Teig greifen, anheben, bis sich das untere Ende löst, und so ablegen, dass es sich unterfaltet. Wanne um 90° drehen, viermal wiederholen.", timer: 2700}

@@ -10,13 +10,13 @@ importiert: true
 gesichtet: false
 linie: kefir-sauerteigbrot-automat-2025-07-04
 variante: 100 % Vollkorn
-fokus: 100 % Weizenvollkorn mit dem ganzen Kefir-Starter und nur ½ TL Hefe, vollautomatisch im Sauerteigprogramm und mit Zeitvorwahl bis 9 Stunden. Der Kefir bringt eine mild-säuerliche, fruchtig-buttrige Note und lange Frischhaltung.
+fokus: 100 % Weizenvollkorn mit dem ganzen Kefir-Starter und nur ½ TL Hefe, Teig im Programm 23 (Sauerteigbrot), danach gebacken. Der Kefir bringt eine mild-säuerliche, fruchtig-buttrige Note und lange Frischhaltung.
 ergebnis: 1 Laib, Größe L
 zeit: {aktiv: 5, gesamt: 305}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 13 – Sauerteig, 5 h (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 23 – Sauerteigbrot (Teig)"
   groesse: L
   braeunung: mittel
 zutaten:
@@ -31,7 +31,8 @@ schritte:
   - {titel: "Flüssiges einfüllen", text: "Den gesamten Kefir-Starter und 280 ml Wasser in die Form geben."}
   - {titel: "Trockenes darauf", text: "450 g Weizenvollkornmehl, 10 g Salz und 1 TL Honig zugeben."}
   - {titel: "Hefe einfüllen", text: "½ TL (1,5 g) Trockenhefe in den Hefespender geben, Form einsetzen."}
-  - {titel: "Programm starten", text: "Menü 13 (Sauerteig), Größe L, Bräunung mittel wählen und starten; Zeitvorwahl bis 9 Stunden möglich.", timer: 18000}
+  - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten; Zeitvorwahl bis 9 Stunden möglich.", timer: 18000}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
   - {titel: "Stürzen", text: "Nach Programmende sofort aus der Form nehmen und auf einem Gitter auskühlen lassen."}
 ---
 
@@ -45,4 +46,3 @@ Der Kefir-Starter ist durch Kefirhefen und Trockenhefe bereits stark triebaktiv,
 - Brot kompakt und klitschig → Wasser in 5-g-Schritten anpassen, backstärkeres Mehl mit über 12 % Protein
 - Zu sauer → Starter frischer verwenden, nicht überlagern
 - Kruste zu hart → heißes Brot mit Wasser oder Kartoffelstärke-Kochwasser abstreichen; zu blass → Bräunung eine Stufe dunkler
-- Menünummer bezieht sich auf das SD-YR2550 → am SD-YR2540 prüfen

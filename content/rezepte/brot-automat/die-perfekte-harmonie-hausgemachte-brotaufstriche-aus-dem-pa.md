@@ -13,7 +13,7 @@ ergebnis: ca. 750 g Konfitüre
 geraete: [panasonic-sd-yr2540]
 tags: [Aufstrich, süß, vegan]
 brot:
-  programm: Marmelade (z. B. Menü 30)
+  programm: Marmelade
 zutaten:
   - {name: "Reife Aprikosen, entsteint", menge: 500, einheit: "g"}
   - {name: "Gelierzucker 2:1", menge: 250, einheit: "g"}
@@ -23,7 +23,7 @@ schritte:
   - {titel: "Aprikosen würfeln", text: "500 g Aprikosen waschen, halbieren, entsteinen und klein würfeln."}
   - {titel: "Knethaken einsetzen", text: "Knethaken in die Backform setzen."}
   - {titel: "Einfüllen", text: "Aprikosenwürfel, 250 g Gelierzucker und 1 EL Zitronensaft in die Form geben, 1 TL Lavendelblüten darüberstreuen."}
-  - {titel: "Programm starten", text: "Programm Marmelade (z. B. Menü 30) wählen und starten.", timer: 5400}
+  - {titel: "Programm starten", text: "Programm Marmelade wählen und starten.", timer: 5400}
   - {titel: "Abfüllen", text: "Heiße Konfitüre sofort in sterilisierte Gläser füllen und fest verschließen."}
 ---
 

@@ -15,7 +15,7 @@ zeit: {aktiv: 5, gesamt: 145}
 geraete: [panasonic-sd-yr2540]
 tags: [Hefeteig, süß, Zimtschnecken]
 brot:
-  programm: Dinkel Teig (Menü 25)
+  programm: Dinkel Teig
 zutaten:
   - {gruppe: "Backform", name: "Dinkelmehl Type 630", menge: 500, einheit: "g", mehl: true}
   - {gruppe: "Backform", name: "Rohrzucker", menge: 70, einheit: "g"}
@@ -26,7 +26,7 @@ zutaten:
 schritte:
   - {titel: "Hefe einfüllen", text: "2 TL Trockenhefe in den Hefespender im Deckel geben."}
   - {titel: "Form befüllen", text: "Erst 500 g Dinkelmehl 630, 70 g Rohrzucker und ½ TL Salz, dann 80 g Butter und 280 ml Milch in die Backform geben."}
-  - {titel: "Programm starten", text: "Programm Dinkel Teig (Menü 25) starten.", timer: 8400}
+  - {titel: "Programm starten", text: "Programm Dinkel Teig starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
 gesichtet: false
 ---

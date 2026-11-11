@@ -15,7 +15,7 @@ zeit: {aktiv: 20, gesamt: 195}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Brot, Beilage, vegetarisch]
 brot:
-  programm: 19 – Basic Dough (2 h 20 min)
+  programm: Basic Dough (2 h 20 min)
 ofen:
   modus: Ober-/Unterhitze, mittlere Schiene
   temp: 220
@@ -32,7 +32,7 @@ zutaten:
   - {gruppe: "Zum Bestreichen", name: "Sesam und Schwarzkümmel", einheit: "", hinweis: "zum Bestreuen"}
 schritte:
   - {titel: "Einfüllen", text: "300 ml Wasser und 25 g Olivenöl in die Backform, 500 g Mehl darüber verteilen, 5 g Zucker und 10 g Salz in je eine Ecke. 7 g Trockenhefe in den Hefespender."}
-  - {titel: "Programm starten", text: "Programm 19 (Basic Dough) starten.", timer: 8400}
+  - {titel: "Programm starten", text: "Programm Basic Dough starten.", timer: 8400}
   - {titel: "Teilen", text: "Teig auf eine leicht bemehlte Fläche geben, kurz durchkneten und in zwei Kugeln teilen."}
   - {titel: "Fladen formen", text: "Jede Kugel zu einem Fladen von 1–1,5 cm Dicke und ca. 25 cm Durchmesser ausrollen oder flach drücken."}
   - {titel: "Gehen lassen", text: "Auf einem Blech mit Backpapier abgedeckt an einem warmen Ort gehen lassen; Ofen auf 220 °C Ober-/Unterhitze vorheizen.", timer: 1500}

@@ -15,7 +15,7 @@ zeit: {aktiv: 20}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 22 – Sauerteig Teig (Nummer vom SD-YR2550 – prüfen)"
+  programm: "Menü 23 – Sauerteigbrot (Teig)"
   hydration: 70
   backprofil:
     - {phase: "Topf mit Deckel vorheizen", temp: 230, zeit: "45–60 min"}
@@ -32,7 +32,7 @@ zutaten:
   - {name: "Trockenhefe", menge: 2, einheit: "g", hinweis: "ca. ½ TL, in den Hefespender"}
 schritte:
   - {titel: "Backform füllen", text: "350 g Wasser und 15 g Butter, dann 100 g Starter, darauf 350 g Weizenvollkornmehl, 150 g Brotmehl, 10 g Zucker und 10 g Salz in die Backform geben; 2 g Trockenhefe in den Hefespender."}
-  - {titel: "Teigprogramm starten", text: "Menü 22 (Sauerteig Teig) wählen und starten."}
+  - {titel: "Teigprogramm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten."}
   - {titel: "Fenstertest", text: "Ein Stück Teig dünn ausziehen: Scheint Licht durch, ohne dass es reißt, ist das Gluten ausreichend entwickelt."}
   - {titel: "Formen", text: "Teig entnehmen, auf leicht bemehlter Fläche zu einer Kugel oder einem länglichen Laib formen und in ein bemehltes Gärkörbchen legen."}
   - {titel: "Stückgare", text: "Bei Raumtemperatur oder für mehr Aroma lang im Kühlschrank gehen lassen."}

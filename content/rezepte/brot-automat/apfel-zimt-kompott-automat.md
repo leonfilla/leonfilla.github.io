@@ -13,7 +13,7 @@ ergebnis: ca. 550 g Kompott
 geraete: [panasonic-sd-yr2540]
 tags: [Aufstrich, süß, vegan]
 brot:
-  programm: Kompott (Menü 29), 50–60 min
+  programm: Kompott, 50–60 min
 zutaten:
   - {name: "Äpfel", menge: 500, einheit: "g", hinweis: "z. B. Boskop oder säuerlich/süß gemischt"}
   - {name: "Rohrohrzucker", menge: 50, einheit: "g", hinweis: "nach Geschmack"}
@@ -25,7 +25,7 @@ schritte:
   - {titel: "Knethaken entfernen", text: "Für das Kompott-Programm den Knethaken aus der Backform nehmen."}
   - {titel: "Äpfel würfeln", text: "500 g Äpfel waschen, vierteln, entkernen und in 1–2 cm große Würfel schneiden; die Schale kann dranbleiben."}
   - {titel: "Einfüllen", text: "Äpfel, 50 g Rohrohrzucker, 1 EL Zitronensaft, 1 EL Wasser, 1 Zimtstange und ½ TL Zimt in die Form geben."}
-  - {titel: "Programm starten", text: "Kompott (Menü 29) wählen, Zeit auf 50–60 Minuten stellen und starten.", timer: 3300}
+  - {titel: "Programm starten", text: "Kompott wählen, Zeit auf 50–60 Minuten stellen und starten.", timer: 3300}
   - {titel: "Abfüllen", text: "Heißes Kompott umrühren und in Schalen oder Gläser füllen."}
 gesichtet: false
 ---

@@ -69,7 +69,7 @@ Weizenmehl 550 bringt wenig Kleie und genug Kleber; ohne Vital-Weizengluten blei
 
 ## Varianten
 
-- **Mehr Vollkorn:** Dinkelvollkorn 120 g, Weizenmehl 550 280 g; ab ca. 40 % Vollkorn Menü 6/9 statt Brioche.
+- **Mehr Vollkorn:** Dinkelvollkorn 120 g, Weizenmehl 550 280 g; ab ca. 40 % Vollkorn Menü 7 oder 9 (Vollkorn bzw. Vollkorn Rosinen) statt Brioche.
 - **Noch fluffiger:** 0 % Vollkorn, alle 400 g als 550 (oder 60 g davon als 405), Flüssigkeit am unteren Ende.
 - **Butter-Brioche:** Mandelmus und Öl durch ca. 55 g kalte, gewürfelte Butter ersetzen – gleich mit einfüllen oder beim Signalton.
 - **Voll hands-off:** Rosinen-Programm wählen und die trockenen Maulbeeren in den Rosinen-Nuss-Spender geben.

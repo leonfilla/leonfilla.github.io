@@ -15,7 +15,7 @@ zeit: {aktiv: 20, gesamt: 385}
 geraete: [panasonic-sd-yr2540, bosch-hng978, kernthermometer]
 tags: [Brot, Vollkorn, Hefeteig]
 brot:
-  programm: "Whole Wheat Dough / Vollkorn Teig, ca. 3 h 15 min (laut Text meist Menü 31 – prüfen)"
+  programm: "Menü 21 – Vollkorn (Teig), ca. 3 h 15 min"
   hydration: 76
   kerntemperatur: 96–98
   gare:
@@ -39,7 +39,7 @@ schritte:
   - {titel: "Ascorbinsäure lösen", text: "0,1 g Ascorbinsäure in 380 ml kaltes Wasser rühren."}
   - {titel: "Backform füllen", text: "500 g Weizenvollkornmehl, 15 g Weizenkleber, 12 g Salz, 10 g Honig und 10 g Öl in die Backform geben, das Wasser darübergießen."}
   - {titel: "Hefe einfüllen", text: "1,5 TL Trockenhefe in den Hefespender geben."}
-  - {titel: "Teigprogramm starten", text: "Whole Wheat Dough (Vollkorn Teig) wählen und starten.", timer: 11700}
+  - {titel: "Teigprogramm starten", text: "Menü 21 (Vollkorn Teig) wählen und starten.", timer: 11700}
   - {titel: "Entnehmen", text: "Nach dem Signalton den leicht klebrigen Teig sofort auf eine leicht bemehlte Fläche geben."}
   - {titel: "Rundwirken", text: "Flach drücken, die Außenkanten zur Mitte falten, bis eine straffe Kugel entsteht, und mit dem Schluss nach unten drehen."}
   - {titel: "In Form legen", text: "Teigling auf ein Blech mit Backpapier oder in eine gefettete Kastenform legen."}
@@ -57,7 +57,6 @@ Kleie zerschneidet mit ihren scharfen Kanten das Glutennetz; 3 % zusätzlicher W
 
 ## Stellschrauben
 
-- Programmnummer stammt aus dem Chat; im Bestand läuft Whole Wheat Dough (3 h 15 min) als Menü 21 → an der Programmtabelle im Deckel prüfen
 - Teig zäh → Ascorbinsäure nicht über 0,1 g dosieren
 - Krume klitschig → nicht warm anschneiden, erst nach vollständigem Auskühlen
 

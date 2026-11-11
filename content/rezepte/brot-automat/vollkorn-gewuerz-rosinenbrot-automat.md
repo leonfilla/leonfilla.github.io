@@ -45,4 +45,4 @@ Das 80-%-Anstellgut (100 Teile Mehl, 80 Teile Wasser) bringt bei 150 g ca. 83 g 
 
 - **Größe XL:** 415 g Wasser, 180 g Anstellgut, 500 g Weizenvollkornmehl, 12 g Salz, optional 20 g Honig, 25 g Butter, ¾ TL Zimt, eine kräftige Prise Kardamom, 2 g Hefe, 150 g Rosinen
 - **Mit Quellstück (Menü 7 „Vollkorn“):** Zimt und Kardamom in ca. 250 ml heißem Wasser lösen, 150 g Rosinen darin 1 Stunde quellen lassen und sehr gut abtropfen. Hauptteig wie oben ohne Gewürze, beim Signalton für die Zugabe die Rosinen zügig auf dem Teig verteilen
-- **Ohne Hefe (Menü 13 „Sauerteig“):** sehr aktives Anstellgut, Hefespender leer, Rosinen-Quellstück wie bei Menü 7; Größe und Kruste sind nicht wählbar. Die Knetphase dauert ca. 45–55 Minuten – die abgetropften Rosinen nach ca. 40 Minuten Laufzeit zugeben
+- **Ohne Hefe (Menü 23 „Sauerteigbrot (Teig)“):** sehr aktives Anstellgut, Hefespender leer, Rosinen-Quellstück wie bei Menü 7; Größe und Kruste sind nicht wählbar. Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen. Die Knetphase dauert ca. 45–55 Minuten – die abgetropften Rosinen nach ca. 40 Minuten Laufzeit zugeben

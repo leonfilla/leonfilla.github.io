@@ -16,7 +16,7 @@ zeit: {aktiv: 10, gesamt: 310}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Frühstück, süß, Sauerteig]
 brot:
-  programm: "Menü 6 – Weizenvollkorn Rosinen (Whole Wheat Raisin), ca. 5 h"
+  programm: "Menü 9 – Vollkorn Rosinen, ca. 5 h"
   groesse: L
   braeunung: mittel
   spender_g: 100
@@ -40,7 +40,7 @@ schritte:
   - {titel: "Gewürze aufstreuen", text: "1 TL Zimt, ½ TL Kardamom und optional 1 Messerspitze Nelke oder Piment mittig auf das Mehl streuen."}
   - {titel: "Form einsetzen", text: "Backform in den Automaten setzen."}
   - {titel: "Spender füllen", text: "1,5 TL Trockenhefe in den Hefespender, 100–120 g bemehlte Rosinen in den Rosinen-Nuss-Spender geben."}
-  - {titel: "Programm starten", text: "Menü 6, Größe L, Bräunung mittel wählen und starten.", timer: 18000}
+  - {titel: "Programm starten", text: "Menü 9, Größe L, Bräunung mittel wählen und starten.", timer: 18000}
 ---
 
 ## Warum so
@@ -49,7 +49,6 @@ Ein frischer, sehr flüssiger Sauerteig hat allein nicht genug Kraft, ein fett- 
 
 ## Stellschrauben
 
-- Menünummer stammt aus dem Chat; im Bestand läuft Vollkorn Rosinen als Menü 9 → an der Programmtabelle im Deckel prüfen
 - Rosinen sinken nach unten → vor dem Einfüllen in 1 TL Mehl schwenken
 
 ## Varianten

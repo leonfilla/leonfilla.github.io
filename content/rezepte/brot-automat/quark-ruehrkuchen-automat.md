@@ -10,7 +10,7 @@ ergebnis: 1 Kastenkuchen
 zeit: {aktiv: 10, gesamt: 120}
 geraete: [panasonic-sd-yr2540]
 tags: [Frühstück, Kuchen, süß]
-brot: {programm: Menü 26 – Kuchen}
+brot: {programm: Kuchen}
 zutaten:
 - {name: 'Butter, weich', menge: 125, einheit: g}
 - {name: Zucker, menge: 150, einheit: g}
@@ -20,7 +20,7 @@ zutaten:
 - {name: Backpulver, menge: 2, einheit: TL}
 schritte:
 - {titel: Einfüllen, text: Alle Zutaten in die Backform geben.}
-- {titel: Programm wählen, text: 'Menü 26 wählen, Timer möglichst kurz einstellen und starten.'}
+- {titel: Programm wählen, text: 'Programm Kuchen wählen, Timer möglichst kurz einstellen und starten.'}
 gesichtet: false
 ---
 

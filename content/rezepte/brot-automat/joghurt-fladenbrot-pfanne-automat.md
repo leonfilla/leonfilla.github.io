@@ -15,7 +15,7 @@ zeit: {aktiv: 30, gesamt: 90}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Beilage, vegetarisch]
 brot:
-  programm: 25 – Pizza (45 min)
+  programm: Pizzateig (45 min)
 
 zutaten:
   - {gruppe: "Backform", name: "Naturjoghurt 3,5 %, zimmerwarm", menge: 200, einheit: "g"}
@@ -26,7 +26,7 @@ zutaten:
   - {gruppe: "Hefespender", name: "Trockenhefe", menge: 7, einheit: "g", hinweis: "1 Päckchen"}
 schritte:
   - {titel: "Einfüllen", text: "200 g Joghurt, 120 ml Wasser und 25 g Olivenöl in die Backform, 500 g Mehl darüber, 8 g Salz in eine Ecke. 7 g Trockenhefe in den Hefespender."}
-  - {titel: "Programm starten", text: "Programm 25 (Pizza) starten.", timer: 2700}
+  - {titel: "Programm starten", text: "Programm Pizzateig starten.", timer: 2700}
   - {titel: "Teilen", text: "Den sehr weichen Teig auf eine gut bemehlte Fläche geben und in 4–6 Kugeln teilen."}
   - {titel: "Entspannen lassen", text: "Kugeln abgedeckt entspannen lassen.", timer: 900}
   - {titel: "Ausrollen", text: "Jede Kugel ca. 0,5 cm dünn ausrollen."}

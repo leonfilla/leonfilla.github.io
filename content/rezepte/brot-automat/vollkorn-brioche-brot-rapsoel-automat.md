@@ -15,7 +15,7 @@ ergebnis: 1 Laib
 geraete: [panasonic-sd-yr2540]
 tags: [Frühstück, süß, Hefeteig, Vollkorn]
 brot:
-  programm: "Brioche (Menü-Nummer im Handbuch prüfen)"
+  programm: "Menü 10 – Brioche"
   braeunung: hell
 zutaten:
   - {gruppe: "Backform, trocken", name: "Weizenmehl Type 550", menge: 200, einheit: "g", mehl: true}
@@ -34,7 +34,7 @@ schritte:
   - {titel: "Flüssiges zugeben", text: "200 ml kalte Milch, 2 Eier, 1 TL Vanilleextrakt und 55 g Rapsöl am Rand zugeben."}
   - {titel: "Form einsetzen", text: "Backform in den Automaten einsetzen."}
   - {titel: "Hefe einfüllen", text: "1,5 TL Trockenhefe in den Hefespender geben."}
-  - {titel: "Programm starten", text: "Brioche, Bräunung hell wählen und starten.", timer: 3300}
+  - {titel: "Programm starten", text: "Menü 10 (Brioche), Bräunung hell wählen und starten.", timer: 3300}
   - {titel: "Fett-Signalton", text: "Nach etwa 55 Minuten ertönt der Signalton zur Fettzugabe: Deckel geschlossen lassen und nur Start erneut drücken."}
   - {titel: "Stürzen", text: "Nach dem finalen Signalton sofort stürzen und auf einem Gitterrost vollständig auskühlen lassen."}
 ---

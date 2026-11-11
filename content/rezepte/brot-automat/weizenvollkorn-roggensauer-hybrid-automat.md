@@ -16,7 +16,7 @@ zeit: {aktiv: 10, gesamt: 545}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 5 – Weizenvollkorn (Whole Wheat), ca. 5 h"
+  programm: "Menü 7 – Vollkorn, ca. 5 h"
   gare:
     - {phase: "Sauerteig reifen bis zur Verdopplung", temp: "20–23", zeit: "4–8 h"}
 zutaten:
@@ -35,7 +35,7 @@ schritte:
   - {titel: "Anstellgut sichern", text: "20–50 g abnehmen und in den Kühlschrank stellen; 190 g aktiven Sauerteig abwiegen."}
   - {titel: "Backform füllen", text: "190 g Sauerteig, 260 ml lauwarmes Wasser und 400 g Weizenvollkornmehl in die Backform geben, 10 g Salz an den Rand, nicht direkt auf den Sauerteig. Optional 10 g Butter oder Öl zugeben."}
   - {titel: "Hefe einfüllen", text: "1 g Trockenhefe in den Hefespender geben."}
-  - {titel: "Programm starten", text: "Menü 5 (Weizenvollkorn) wählen und starten.", timer: 18000}
+  - {titel: "Programm starten", text: "Menü 7 (Vollkorn) wählen und starten.", timer: 18000}
   - {titel: "Stürzen", text: "Nach dem Signalton stürzen und auf einem Gitter auskühlen lassen."}
 ---
 
@@ -45,7 +45,6 @@ Der Roggensauer bringt Säure und Würze und hält das Brot länger frisch; der 
 
 ## Stellschrauben
 
-- Menünummer stammt aus dem Chat; im Bestand läuft das Vollkornprogramm als Menü 7 → an der Programmtabelle im Deckel prüfen
 - Starter nach 3–4 Auffrischungen stabil → auf die reine Sauerteigfassung ohne Hefe wechseln
 
 ## Varianten

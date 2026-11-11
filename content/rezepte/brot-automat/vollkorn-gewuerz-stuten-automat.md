@@ -11,7 +11,7 @@ fokus: "Weizenvollkorn-Rosinenstuten aus reinem, sehr flüssigem Roggensauerteig
 ergebnis: 1 Laib
 geraete: [panasonic-sd-yr2540]
 tags: [Vollkorn, Sauerteig, süß]
-brot: {programm: "Menü 32 (Pizza) zum Vorkneten, dann Menü 24 – Sauerteigbrot", spender_g: 120}
+brot: {programm: "Pizzateig zum Vorkneten, dann Menü 23 – Sauerteigbrot (Teig)", spender_g: 120}
 zutaten:
 - {gruppe: Flüssig-Phase, name: "Roggensauerteig, aktiv und flüssig", menge: 190, einheit: g}
 - {gruppe: Flüssig-Phase, name: "Wasser, lauwarm", menge: 240, einheit: ml, wasser: 1, hinweis: reduziert wegen des flüssigen Sauerteigs}
@@ -28,12 +28,13 @@ zutaten:
 schritte:
 - {titel: Rosinen vorbereiten, text: "Rosinen kurz heiß abwaschen, sehr gründlich trockentupfen und leicht mit 1 TL Mehl bestäuben."}
 - {titel: Vormischen, text: "190 g Sauerteig, 240 ml Wasser, 30 g Honig, 400 g Weizenvollkornmehl und die Gewürze in die Backform geben – Salz, Butter und Rosinen noch nicht."}
-- {titel: Vorkneten, text: "Menü 32 (Pizza) starten und 5 Minuten laufen lassen, dann Stop drücken.", timer: 300}
+- {titel: Vorkneten, text: "Programm Pizzateig starten und 5 Minuten laufen lassen, dann Stop drücken.", timer: 300}
 - {titel: Konsistenz prüfen, text: "Der Teig soll sich vom Boden lösen, aber feucht sein. Sieht er aus wie Pfannkuchenteig, esslöffelweise Mehl zugeben, bis eine Kugel entsteht."}
 - {titel: Autolyse, text: Teig 20 Minuten im ausgeschalteten Gerät ruhen lassen., timer: 1200}
 - {titel: Salz und Butter, text: 8 g Salz und 30 g Butterflocken oben auf den Teig geben.}
 - {titel: Spender füllen, text: Die bemehlten Rosinen in den Rosinen-Spender im Deckel füllen.}
-- {titel: Programm wählen, text: "Menü 24 (Sauerteigbrot) wählen, Rosinen-Option auf „Yes“ stellen und starten."}
+- {titel: Programm wählen, text: "Menü 23 (Sauerteigbrot, Teig) wählen, Rosinen-Option auf „Yes“ stellen und starten."}
+- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen."}
 - {titel: Auskühlen, text: "Brot sofort aus der Form nehmen und mindestens 2 Stunden auf einem Gitter vollständig auskühlen lassen.", timer: 7200}
 ---
 

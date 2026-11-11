@@ -15,7 +15,7 @@ zeit: {aktiv: 30, gesamt: 1200}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Beilage, vegetarisch]
 brot:
-  programm: 25 – Pizza (45 min, nur Kneten)
+  programm: Pizzateig (45 min, nur Kneten)
   gare:
     - {phase: "Kalte Gare", temp: "Kühlschrank", zeit: "12–24 h"}
     - {phase: "Akklimatisieren", temp: "Raumtemperatur", zeit: "2–3 h"}
@@ -30,7 +30,7 @@ zutaten:
   - {gruppe: "Hefespender", name: "Trockenhefe", menge: 2, einheit: "g", hinweis: "½ TL"}
 schritte:
   - {titel: "Einfüllen", text: "150 g Joghurt, 180 ml kaltes Wasser und 25 g Olivenöl in die Backform, 500 g Mehl darüber, 10 g Salz in eine Ecke. 2 g Trockenhefe in den Hefespender."}
-  - {titel: "Kneten", text: "Programm 25 (Pizza) starten.", timer: 2700}
+  - {titel: "Kneten", text: "Programm Pizzateig starten.", timer: 2700}
   - {titel: "Kalt stellen", text: "Teig in eine leicht geölte Schüssel geben, luftdicht abdecken und 12–24 Stunden in den Kühlschrank stellen.", timer: 43200}
   - {titel: "Akklimatisieren", text: "2–3 Stunden vor dem Backen aus dem Kühlschrank nehmen.", timer: 9000}
   - {titel: "Formen", text: "Teig auf eine gut bemehlte Fläche geben, in 4–6 Stücke teilen und sehr vorsichtig zu Fladen formen – die Blasen erhalten."}

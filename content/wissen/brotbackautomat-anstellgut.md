@@ -13,7 +13,7 @@ Die Säure hat neben dem Geschmack eine technische Funktion. Bei Roggen trägt n
 
 ## Vier Starter im Vergleich
 
-Der Panasonic-Starter wird aus 80 g Roggenmehl, 60 g Joghurt, 80 ml Wasser und 0,1 g Trockenhefe angesetzt und läuft 24 h bei etwa 30 °C. Die Programmnummer stammt in der Quelle von einem Schwestermodell und ist für den SD-YR2540 im Handbuch nachzusehen.
+Der Panasonic-Starter wird aus 80 g Roggenmehl, 60 g Joghurt, 80 ml Wasser und 0,1 g Trockenhefe angesetzt und läuft 24 h bei etwa 30 °C. Am SD-YR2540 ist das Menü 24 – Sauerteig-Starterkultur.
 
 | | Klassischer Sauerteig | Panasonic-Starter (Joghurt + Hefe) | Kefir statt Joghurt | Probiotika-Kapseln |
 |---|---|---|---|---|
@@ -39,6 +39,6 @@ Die Automatenprogramme sind für schnelle Hefeteige gebaut und können eine lang
 4. **Kaltgare:** formen, im Gärkorb 12–24 h bei etwa 5 °C – dort entstehen Aroma und der größte Teil des Phytatabbaus.
 5. **Backen im Ofen:** 230–250 °C mit Dampf ergeben Ofentrieb und eine rösche Kruste, die der Automat nicht liefern kann.
 
-Die Protokolle V4 und V5 im Bestand setzen genau das um, mit dem warmen Programm als Inkubator für den Levain (Menü 29) und dem Knetprogramm für den Teig (Menü 31), siehe [V4.0](/rezept/brot-automat/protokoll-weizen-vollkorn-sauerteigbrot-optimiert-v4-0/). Der Vorteil des Inkubators ist die Reproduzierbarkeit: Der Vorteig reift im Dezember wie im August.
+Die Protokolle V4 und V5 im Bestand setzen genau das um, mit einem warmen Programm als Inkubator für den Levain und Menü 21 – Vollkorn (Teig) zum Kneten, siehe [V4.0](/rezept/brot-automat/protokoll-weizen-vollkorn-sauerteigbrot-optimiert-v4-0/). Der Vorteil des Inkubators ist die Reproduzierbarkeit: Der Vorteig reift im Dezember wie im August.
 
 Zwei Grenzen bleiben. Ein volles Knetprogramm erwärmt den Teig deutlich, ein kurzes Mischen kaum – ob kaltes Wasser nötig ist, entscheidet die Rechnung zur Teigtemperatur auf der Fermentationsseite, nicht eine Pauschalregel. Und wer für das maximal bequeme Brot doch alles im Automaten backt, fährt mit Milchkefir statt Joghurt im Starter besser: mehr Trieb, mehr Aroma, mit denselben Handgriffen.

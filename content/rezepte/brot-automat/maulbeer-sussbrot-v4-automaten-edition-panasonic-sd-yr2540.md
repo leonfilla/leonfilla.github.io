@@ -12,7 +12,7 @@ ergebnis: 1 Laib XL, ca. 1 kg
 zeit: {aktiv: 10, gesamt: 240}
 geraete: [panasonic-sd-yr2540]
 tags: [Frühstück, süß, Meal Prep]
-brot: {programm: Menü 3 – Basic Rosinen, groesse: XL, braeunung: hell, spender_g: 130}
+brot: {programm: Menü 3 – Normal Rosinen, groesse: XL, braeunung: hell, spender_g: 130}
 zutaten:
 - {gruppe: Backform, name: 'Weizenvollkornmehl, fein', menge: 250, einheit: g, mehl: true}
 - {gruppe: Backform, name: Weizenmehl Type 550, menge: 250, einheit: g, mehl: true, hinweis: 1 EL davon zum Bestäuben der Beeren}

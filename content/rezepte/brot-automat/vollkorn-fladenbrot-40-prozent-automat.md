@@ -15,7 +15,7 @@ zeit: {aktiv: 20, gesamt: 240}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Brot, Beilage, vegetarisch]
 brot:
-  programm: 21 – Whole Wheat Dough (3 h 15 min)
+  programm: Menü 21 – Vollkorn (Teig), 3 h 15 min
   spender_g: 50
 ofen:
   modus: Ober-/Unterhitze
@@ -32,7 +32,7 @@ zutaten:
   - {gruppe: "Rosinen-Nuss-Spender", name: "Sonnenblumen- oder Kürbiskerne", menge: 50, einheit: "g", hinweis: "optional"}
 schritte:
   - {titel: "Einfüllen", text: "360 ml Wasser und 35 g Olivenöl in die Backform, 200 g Vollkornmehl und 300 g Weizenmehl 550 darüber, 5 g Zucker und 10 g Salz an den Rand. 7 g Hefe in den Hefespender, optional 50 g Kerne in den Nussspender."}
-  - {titel: "Programm starten", text: "Programm 21 (Whole Wheat Dough) starten.", timer: 11700}
+  - {titel: "Programm starten", text: "Menü 21 (Vollkorn Teig) starten.", timer: 11700}
   - {titel: "Formen", text: "Teig auf eine leicht bemehlte Fläche geben und in 6 runde Fladen von ca. 1 cm Dicke formen."}
   - {titel: "Gehen lassen", text: "Auf einem Blech mit Backpapier abgedeckt gehen lassen; Ofen auf 230 °C Ober-/Unterhitze vorheizen.", timer: 1200}
   - {titel: "Backen", text: "Fladen mit etwas Wasser bestreichen und 10–12 Minuten backen, bis sie leicht gebräunt und durchgebacken sind.", timer: 660}

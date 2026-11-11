@@ -17,7 +17,7 @@ zeit: {aktiv: 5, gesamt: 300}
 geraete: [panasonic-sd-yr2540]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 24 – Sauerteigbrot, ca. 5 h"
+  programm: "Menü 23 – Sauerteigbrot (Teig)"
 zutaten:
   - {gruppe: "Backform", name: "Roggensauerteig, aktiv", menge: 190, einheit: "g", hinweis: "Volumen muss sich beim Reifen verdoppelt haben"}
   - {gruppe: "Backform", name: "Wasser", menge: 270, einheit: "ml", wasser: 1}
@@ -25,7 +25,8 @@ zutaten:
   - {gruppe: "Backform", name: "Salz", menge: 10, einheit: "g"}
 schritte:
   - {titel: "Backform füllen", text: "190 g Sauerteig, 270 ml Wasser, 400 g Weizenvollkornmehl und 10 g Salz in dieser Reihenfolge in die Backform geben."}
-  - {titel: "Programm starten", text: "Menü 24 (Sauerteigbrot) wählen und starten.", timer: 18000}
+  - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten.", timer: 18000}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen."}
 ---
 
 ## Warum so

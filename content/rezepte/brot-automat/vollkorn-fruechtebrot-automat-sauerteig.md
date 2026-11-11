@@ -11,7 +11,7 @@ fokus: "Die Puristen-Variante des Früchtebrots: 200 g sehr aktives 80-%-Anstell
 ergebnis: 1 Laib, Größe L
 geraete: [panasonic-sd-yr2540]
 tags: [Vollkorn, Sauerteig]
-brot: {programm: "Menü 13 – Sauerteig", groesse: L, braeunung: mittel}
+brot: {programm: "Menü 23 – Sauerteigbrot (Teig)", groesse: L, braeunung: mittel}
 zutaten:
 - {gruppe: Früchte, name: Rosinen, menge: 80, einheit: g}
 - {gruppe: Früchte, name: "Getrocknete Aprikosen, fein gewürfelt", menge: 70, einheit: g, hinweis: "ca. 0,5 cm"}
@@ -28,8 +28,9 @@ schritte:
 - {titel: Knethaken einsetzen, text: Den Standard-Knethaken in die Backform einsetzen.}
 - {titel: Flüssiges einfüllen, text: "200 g Anstellgut, dann das Einweichwasser, mit lauwarmem Wasser auf 300 ml aufgefüllt, in die Backform geben."}
 - {titel: Mehl und Salz, text: "390 g Weizenvollkornmehl darübergeben und 12 g Salz in eine Ecke auf das Mehl geben. Hefespender leer lassen."}
-- {titel: Programm wählen, text: "Menü 13, Größe L und Bräunung mittel wählen und starten."}
+- {titel: Programm wählen, text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten."}
 - {titel: Früchte zugeben, text: "Beim Signalton nach ca. 45 Minuten bis 1 Stunde (Restzeit ca. 2:45–2:30) Deckel öffnen, die abgetropften Früchte auf den Teig geben und Deckel wieder schließen."}
+- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
 - {titel: Auskühlen, text: Nach Programmende sofort stürzen und auf einem Kuchengitter vollständig auskühlen lassen.}
 ---
 

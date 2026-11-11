@@ -12,7 +12,7 @@ ergebnis: 1 Laib Größe L, ca. 900 g
 geraete: [panasonic-sd-yr2540]
 tags: [Frühstück, süß, vegetarisch]
 brot:
-  programm: Programm 1 – Normal
+  programm: Menü 1 – Normal
   groesse: L
   braeunung: mittel
   spender_g: 80
@@ -33,7 +33,7 @@ schritte:
   - {titel: "Feuchtes einfüllen", text: "200 g pürierte Bananen, 180 ml lauwarme Milch, 1 verquirltes Ei und 50 g weiche Butter in die Form geben."}
   - {titel: "Trockenes darüber", text: "500 g Weizenmehl 550, 50 g braunen Zucker, 1½ TL Zimt und 1 TL Vanilleextrakt darübergeben, sodass die Flüssigkeit bedeckt ist; 6 g Salz in eine Ecke."}
   - {titel: "Spender füllen", text: "4,5 g Trockenhefe in den Hefespender, optional 80 g Walnüsse oder Schokotropfen in den Rosinen-Nuss-Spender."}
-  - {titel: "Programm starten", text: "Programm 1 (Normal), Größe L, Bräunung Mittel, Start.", timer: 12600}
+  - {titel: "Programm starten", text: "Menü 1 (Normal), Größe L, Bräunung Mittel, Start.", timer: 12600}
   - {titel: "Ecken freikratzen", text: "Beim Signalton früh in der Knetphase Mehl aus den Ecken mit einem Silikonspatel freikratzen."}
   - {titel: "Entnehmen", text: "Nach Programmende Stop drücken, Form herausnehmen und das Brot 5–10 Minuten darin ruhen lassen.", timer: 450}
   - {titel: "Auskühlen", text: "Auf ein Gitter stürzen, Knethaken entfernen und vollständig auskühlen lassen."}
@@ -46,7 +46,7 @@ Hefe statt Backpulver baut ein Glutengerüst auf – das Ergebnis hat Brotbiss u
 ## Stellschrauben
 
 - Mitte eingefallen → Bananen genau wiegen, bei sehr feuchten Bananen 1–2 EL weniger Milch, Hefe und Zucker exakt abmessen
-- Krume dicht oder nicht durchgebacken → Hefe auf Frische prüfen; blasser Laib → Programm 26 (Nur Backen) für weitere 10–15 Minuten
+- Krume dicht oder nicht durchgebacken → Hefe auf Frische prüfen; blasser Laib → Programm „Nur Backen“ für weitere 10–15 Minuten
 - Mehlige Stellen an der Kruste → beim Signalton die Ecken freikratzen
 - Honig oder Ahornsirup statt Zucker → 1:1 nach Gewicht, je 50 g Sirup ca. 1 EL weniger Flüssigkeit
 

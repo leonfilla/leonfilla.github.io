@@ -15,7 +15,7 @@ zeit: {aktiv: 5, gesamt: 145}
 geraete: [panasonic-sd-yr2540]
 tags: [Hefeteig, süß, Zimtschnecken]
 brot:
-  programm: Brotteig (Menü 30 oder 31)
+  programm: Brotteig
 zutaten:
   - {gruppe: "Backform", name: "Weizenmehl Type 550", menge: 500, einheit: "g", mehl: true}
   - {gruppe: "Backform", name: "Zucker", menge: 80, einheit: "g"}
@@ -27,7 +27,7 @@ zutaten:
 schritte:
   - {titel: "Hefe einfüllen", text: "2 TL Trockenhefe in den Hefespender im Deckel geben."}
   - {titel: "Form befüllen", text: "Erst 500 g Weizenmehl 550, 80 g Zucker, ½ TL Salz und 1–2 TL Kardamom, dann 300 ml Milch und 80 g Butter in die Backform geben."}
-  - {titel: "Programm starten", text: "Programm Brotteig (Menü 30 oder 31, ca. 2 Std. 20 Min.) starten.", timer: 8400}
+  - {titel: "Programm starten", text: "Programm Brotteig (ca. 2 Std. 20 Min.) starten.", timer: 8400}
   - {titel: "Sofort entnehmen", text: "Teig direkt nach Programmende entnehmen und weiterverarbeiten – oder den ganzen Behälter abgedeckt in den Kühlschrank stellen."}
 ---
 
