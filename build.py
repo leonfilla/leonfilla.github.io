@@ -158,7 +158,8 @@ def pruefe(r, ctx, report: Report):
             add(hart, f"Güsse ergeben {summe} g, angegeben sind {xb['wasser']} g Wasser")
         if xb.get("dosis") and v and xb.get("wasser"):
             soll = xb["dosis"] * v
-            if abs(soll - xb["wasser"]) > 2.5:
+            bypass = (xb.get("bypass") or {}).get("menge") or 0 if isinstance(xb.get("bypass"), dict) else 0
+            if abs(soll - xb["wasser"]) > 2.5 and abs(soll - xb["wasser"] - bypass) > 2.5:
                 add("warnung", f"{fmt(xb['dosis'])} g × 1:{fmt(v)} = {soll:.0f} g, angegeben sind {xb['wasser']} g")
         by = xb.get("bypass")
         if by and not in_range(by.get("temp"), g.get("temp")):
