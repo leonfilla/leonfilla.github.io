@@ -217,7 +217,9 @@ WASSERANTEILE = [
 def berechne(r):
     calc = {}
     zut = r.get("zutaten") or []
-    mehl = sum(z.get("menge", 0) for z in zut if z.get("mehl") and isinstance(z.get("menge"), (int, float)))
+    # mehl: true zählt die ganze Menge, eine Zahl < 1 nur diesen Anteil (z. B. reifer Levain 0.5)
+    mehl = sum(z.get("menge", 0) * (z["mehl"] if isinstance(z.get("mehl"), float) and z["mehl"] < 1 else 1)
+               for z in zut if z.get("mehl") and isinstance(z.get("menge"), (int, float)))
     if mehl:
         # Unmarkierte Flüssigkeiten mit Standard-Wasseranteil mitzählen (Milch 0,87, Ei 0,75 …)
         for z in zut:

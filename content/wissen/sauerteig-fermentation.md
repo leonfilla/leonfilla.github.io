@@ -64,7 +64,7 @@ Die Wassertemperatur ergibt sich aus der Wunschteigtemperatur:
 
 **Wasser = 3 × Zielteigtemperatur − (Raum + Mehl + Reibung)**
 
-Beispiel: 3 × 25 − (21 + 21 + 2) = 31 °C. Mit Levain als vierter Komponente wird daraus 4 × Ziel − (Raum + Mehl + Reibung + Levain), so wie seit V11 im [Vollkorn-Sauerteigbrot](/rezept/brot-sauerteig/v18-1-vollstandiges-rezept-workflow-module-a-c-d-akazie/) (siehe Versionsgeschichte).
+Beispiel: 3 × 25 − (21 + 21 + 2) = 31 °C. Mit Levain als vierter Komponente wird daraus 4 × Ziel − (Raum + Mehl + Reibung + Levain), so wie seit V11 im [Vollkorn-Sauerteigbrot](/rezept/brot-sauerteig/vollkorn-sauerteig-v21-doppelcharge/) (siehe Versionsgeschichte).
 
 Der Reibungsfaktor hängt an Gerät und Knetzeit, und genau daran entscheidet sich, ob Eiswasser richtig oder falsch ist. Vier Minuten langsames Mischen im Automaten erzeugen weniger als 2 °C Reibungswärme; Eiswasser drückt den Teig dann weit unter das Ziel. Zehn bis zwölf Minuten in der Knetmaschine oder ein volles Automatenprogramm erwärmen deutlich; dort ist kaltes Wasser berechtigt. Statt zu raten, den Faktor einmal pro Gerät und Programm bestimmen, indem man die Formel umstellt: **Reibung = 3 × gemessene Teigtemperatur − (Raum + Mehl + Wasser).**
 

@@ -39,6 +39,6 @@ Die Automatenprogramme sind für schnelle Hefeteige gebaut und können eine lang
 4. **Kaltgare:** formen, im Gärkorb 12–24 h bei etwa 5 °C – dort entstehen Aroma und der größte Teil des Phytatabbaus.
 5. **Backen im Ofen:** 230–250 °C mit Dampf ergeben Ofentrieb und eine rösche Kruste, die der Automat nicht liefern kann.
 
-Die frühen Fassungen V4.0 und V5.0 des heutigen [Vollkorn-Sauerteigbrots](/rezept/brot-sauerteig/v18-1-vollstandiges-rezept-workflow-module-a-c-d-akazie/) setzten genau das um, mit einem warmen Programm als Inkubator für den Levain und Menü 21 – Vollkorn (Teig) zum Kneten (siehe dort die Versionsgeschichte). Der Vorteil des Inkubators ist die Reproduzierbarkeit: Der Vorteig reift im Dezember wie im August.
+Die frühen Fassungen V4.0 und V5.0 des heutigen [Vollkorn-Sauerteigbrots](/rezept/brot-sauerteig/vollkorn-sauerteig-v21-doppelcharge/) setzten genau das um, mit einem warmen Programm als Inkubator für den Levain und Menü 21 – Vollkorn (Teig) zum Kneten (siehe dort die Versionsgeschichte). Der Vorteil des Inkubators ist die Reproduzierbarkeit: Der Vorteig reift im Dezember wie im August.
 
 Zwei Grenzen bleiben. Ein volles Knetprogramm erwärmt den Teig deutlich, ein kurzes Mischen kaum – ob kaltes Wasser nötig ist, entscheidet die Rechnung zur Teigtemperatur auf der Fermentationsseite, nicht eine Pauschalregel. Und wer für das maximal bequeme Brot doch alles im Automaten backt, fährt mit Milchkefir statt Joghurt im Starter besser: mehr Trieb, mehr Aroma, mit denselben Handgriffen.
