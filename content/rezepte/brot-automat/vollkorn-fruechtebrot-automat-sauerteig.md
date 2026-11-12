@@ -30,7 +30,7 @@ schritte:
 - {titel: Mehl und Salz, text: "390 g Weizenvollkornmehl darübergeben und 12 g Salz in eine Ecke auf das Mehl geben. Hefespender leer lassen."}
 - {titel: Programm wählen, text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten."}
 - {titel: Früchte zugeben, text: "Beim Signalton nach ca. 45 Minuten bis 1 Stunde (Restzeit ca. 2:45–2:30) Deckel öffnen, die abgetropften Früchte auf den Teig geben und Deckel wieder schließen."}
-- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
+- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
 - {titel: Auskühlen, text: Nach Programmende sofort stürzen und auf einem Kuchengitter vollständig auskühlen lassen.}
 ---
 

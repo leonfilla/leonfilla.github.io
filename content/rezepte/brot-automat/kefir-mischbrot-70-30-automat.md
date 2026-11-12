@@ -31,7 +31,7 @@ schritte:
   - {titel: "Backform füllen", text: "Knethaken einsetzen. Kefir-Starter, 250 ml Wasser, 350 g Weizenvollkornmehl, 150 g Weizenmehl 1050, 10 g Salz und 1 TL Honig in dieser Reihenfolge in die Form geben."}
   - {titel: "Hefe einfüllen", text: "½ TL (1,5 g) Trockenhefe in den Hefespender geben, Form einsetzen."}
   - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten; Zeitvorwahl möglich.", timer: 18000}
-  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
   - {titel: "Stürzen", text: "Nach dem Backen sofort entnehmen und auf einem Gitter auskühlen lassen."}
 ---
 

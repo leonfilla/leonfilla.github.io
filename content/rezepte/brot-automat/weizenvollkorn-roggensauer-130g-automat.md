@@ -35,7 +35,7 @@ schritte:
   - {titel: "Backform füllen", text: "Den gesamten Sauerteig, 400 g Weizenvollkornmehl, 280–290 ml Wasser und 1,5 TL Salz in die Backform geben."}
   - {titel: "Hefe einfüllen", text: "½ TL Trockenhefe in den Hefespender geben."}
   - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten."}
-  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L)."}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
 ---
 
 ## Warum so

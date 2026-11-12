@@ -26,7 +26,7 @@ zutaten:
 schritte:
   - {titel: "Backform füllen", text: "190 g Sauerteig, 270 ml Wasser, 400 g Weizenvollkornmehl und 10 g Salz in dieser Reihenfolge in die Backform geben."}
   - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten.", timer: 18000}
-  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen."}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
 ---
 
 ## Warum so

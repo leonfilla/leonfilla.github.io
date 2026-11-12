@@ -16,7 +16,7 @@ zeit: {aktiv: 20, gesamt: 960}
 geraete: [panasonic-sd-yr2540, bosch-hng978]
 tags: [Brot, Sauerteig, Vollkorn]
 brot:
-  programm: "Menü 21 – Vollkorn (Teig), nur 15–20 min kneten"
+  programm: "Menü 21 – Vollkorn (Teig), nach der Ruhephase nur 15–20 min kneten"
   gare:
     - {phase: "Stockgare nach einmal Dehnen und Falten", zeit: "2–4 h, bis +30–50 % Volumen"}
     - {phase: "Kaltgare im Gärkorb", temp: "5–7", zeit: "12–16 h"}
@@ -29,7 +29,7 @@ zutaten:
   - {name: "Wasser", menge: 260, einheit: "ml", wasser: 1}
   - {name: "Salz", menge: 10, einheit: "g"}
 schritte:
-  - {titel: "Kneten", text: "190 g Sauerteig, 380 g Weizenvollkornmehl, 260 ml Wasser und 10 g Salz in den Automaten geben, Menü 21 starten und nach 15–20 Minuten stoppen.", timer: 900}
+  - {titel: "Kneten", text: "190 g Sauerteig, 380 g Weizenvollkornmehl, 260 ml Wasser und 10 g Salz in den Automaten geben, Menü 21 starten; die Ruhephase zu Beginn abwarten, dann 15–20 Minuten kneten lassen und stoppen.", timer: 900}
   - {titel: "Fenstertest", text: "Löst sich der Teig nicht vom Rand, 5 Minuten nachkneten.", timer: 300}
   - {titel: "Umfüllen und falten", text: "Teig in eine leicht geölte, rechteckige Wanne geben und einmal dehnen und falten."}
   - {titel: "Stockgare", text: "Bei Raumtemperatur gehen lassen, bis das Volumen um 30–50 % zugenommen hat.", timer: 7200}

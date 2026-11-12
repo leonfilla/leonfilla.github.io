@@ -32,7 +32,7 @@ schritte:
   - {titel: "Trockenes darauf", text: "450 g Weizenvollkornmehl, 10 g Salz und 1 TL Honig zugeben."}
   - {titel: "Hefe einfüllen", text: "½ TL (1,5 g) Trockenhefe in den Hefespender geben, Form einsetzen."}
   - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten; Zeitvorwahl bis 9 Stunden möglich.", timer: 18000}
-  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
   - {titel: "Stürzen", text: "Nach Programmende sofort aus der Form nehmen und auf einem Gitter auskühlen lassen."}
 ---
 

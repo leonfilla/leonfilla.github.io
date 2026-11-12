@@ -31,7 +31,7 @@ schritte:
   - {titel: "Autolyse", text: "Im ausgeschalteten Automaten stehen lassen.", timer: 1800}
   - {titel: "Sauerteig zugeben", text: "190 g Sauerteig oben auf den Teig geben, 10 g Salz und optional 10 g Butter oder Öl in die Ecken, getrennt vom Sauerteig."}
   - {titel: "Programm starten", text: "Menü 23 (Sauerteigbrot, Teig) wählen und starten.", timer: 18000}
-  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen."}
+  - {titel: "Backen", text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
   - {titel: "Stürzen", text: "Nach dem Signalton stürzen und auf einem Gitter auskühlen lassen."}
 ---
 

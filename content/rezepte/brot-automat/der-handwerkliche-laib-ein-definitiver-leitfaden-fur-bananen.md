@@ -46,7 +46,7 @@ Hefe statt Backpulver baut ein Glutengerüst auf – das Ergebnis hat Brotbiss u
 ## Stellschrauben
 
 - Mitte eingefallen → Bananen genau wiegen, bei sehr feuchten Bananen 1–2 EL weniger Milch, Hefe und Zucker exakt abmessen
-- Krume dicht oder nicht durchgebacken → Hefe auf Frische prüfen; blasser Laib → Programm „Nur Backen“ für weitere 10–15 Minuten
+- Krume dicht oder nicht durchgebacken → Hefe auf Frische prüfen; blasser Laib → Menü 27 – Nur Backen für weitere 10–15 Minuten
 - Mehlige Stellen an der Kruste → beim Signalton die Ecken freikratzen
 - Honig oder Ahornsirup statt Zucker → 1:1 nach Gewicht, je 50 g Sirup ca. 1 EL weniger Flüssigkeit
 

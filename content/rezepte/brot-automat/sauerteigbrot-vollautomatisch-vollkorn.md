@@ -44,13 +44,13 @@ Der Starter muss am Peak sein: Ein zu junger hat zu wenig Kraft für schweres Vo
 
 - Brot in der Mitte eingefallen → 10–15 % weniger Starter, optionale Hefe halbieren oder weglassen, 10–20 ml weniger Wasser
 - Dicht und kompakt → Starter erst am Peak verwenden, 10–20 ml mehr Wasser, unbedingt das Vollkornprogramm
-- Krume klitschig → Starter milder führen, mit „Nur Backen“ 10–15 Minuten nachbacken, sofort entnehmen
+- Krume klitschig → Starter milder führen, mit Menü 27 – Nur Backen 10–15 Minuten nachbacken, sofort entnehmen
 - Kruste blass oder weich → Bräunung dunkel, 1 TL Honig, Sirup oder diastatisches Malz; oder 5–10 Minuten bei 200 °C Oberhitze im Ofen nachbacken
 - Konsistenz unsicher → die ersten 5–10 Minuten im Pizza-Programm mischen, Teigkugel prüfen, abbrechen und dann das Vollkornprogramm starten
 
 ## Varianten
 
 - Ohne Knethakenloch: nach dem letzten Kneten pausieren, Teig entnehmen, Haken entfernen, Teig rund formen und zurücklegen
-- Kräftigere Kruste: nach Programmende 5–10 Minuten „Nur Backen“
+- Kräftigere Kruste: nach Programmende 5–10 Minuten Menü 27 – Nur Backen
 - ¾ TL diastatisches Malz für mehr Volumen und Bräunung
 - Für hellere Mischbrote mit 30 % Dinkel oder Roggen: Programm Französisch (5 h 40 min) für mehr Gärungsaroma

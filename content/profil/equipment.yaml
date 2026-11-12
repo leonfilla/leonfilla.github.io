@@ -63,7 +63,7 @@ geraete:
     kategorie: Backen
     notizen:
       - Brotbackautomat mit Hefespender und Rosinen-Nuss-Spender
-      - "Programme Brot: 1 Normal, 3 Normal Rosinen, 7 Vollkorn, 9 Vollkorn Rosinen, 10 Brioche"
+      - "Programme Brot: 1 Normal, 3 Normal Rosinen, 7 Vollkorn, 9 Vollkorn Rosinen, 10 Brioche, 27 Nur Backen"
       - "Programme Teig: 21 Vollkorn, 22 Vollkorn Rosinen, 23 Sauerteigbrot, 24 Sauerteig-Starterkultur"
     grenzen:
       spender_max_g: 150

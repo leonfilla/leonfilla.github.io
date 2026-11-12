@@ -27,7 +27,7 @@ schritte:
 - {titel: Backform füllen, text: "240 g Wasser, 170 g Starter, 25 g Butter, 450 g Weizenvollkornmehl, 1,5 TL Salz und 1 EL Zucker in dieser Reihenfolge einfüllen – Flüssiges zuerst, damit der Starter nicht früh mit Salz in Kontakt kommt."}
 - {titel: Spender füllen, text: "½ TL Trockenhefe in den Hefespender, 100–150 g Rosinen in den Rosinen-Nuss-Spender geben."}
 - {titel: Programm wählen, text: "Form einsetzen, Menü 23 „Sauerteigbrot (Teig)“ wählen und starten.", timer: 18000}
-- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel)."}
+- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
 - {titel: Auskühlen, text: "Brot stürzen und auskühlen lassen; einen steckengebliebenen Knethaken erst danach mit Kunststoffspatel oder Werkzeug lösen."}
 ---
 

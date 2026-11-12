@@ -34,7 +34,7 @@ schritte:
 - {titel: Salz und Butter, text: 8 g Salz und 30 g Butterflocken oben auf den Teig geben.}
 - {titel: Spender füllen, text: Die bemehlten Rosinen in den Rosinen-Spender im Deckel füllen.}
 - {titel: Programm wählen, text: "Menü 23 (Sauerteigbrot, Teig) wählen, Rosinen-Option auf „Yes“ stellen und starten."}
-- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder das Backprogramm des Automaten nutzen."}
+- {titel: Backen, text: "Programm 23 knetet und gärt nur – danach im Ofen backen (Kastenform) oder im Automaten mit Menü 27 – Nur Backen."}
 - {titel: Auskühlen, text: "Brot sofort aus der Form nehmen und mindestens 2 Stunden auf einem Gitter vollständig auskühlen lassen.", timer: 7200}
 ---
 

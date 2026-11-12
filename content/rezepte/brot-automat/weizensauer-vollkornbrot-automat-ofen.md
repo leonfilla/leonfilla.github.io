@@ -50,5 +50,5 @@ Ein reiner Sauerteig bringt seine Triebkraft ohne Zusatzhefe mit; die Endgare is
 
 ## Varianten
 
-- Im Automaten backen: gleiche Zutaten, Menü 23 (Sauerteigbrot, Teig), Hefespender leer. Programm 23 knetet und gärt nur – danach das Backprogramm des Automaten nutzen (Größe L, Bräunung mittel oder dunkel) – Ergebnis hängt stark von der Aktivität des Anstellguts ab
+- Im Automaten backen: gleiche Zutaten, Menü 23 (Sauerteigbrot, Teig), Hefespender leer. Programm 23 knetet und gärt nur – danach im Automaten mit Menü 27 – Nur Backen backen – Ergebnis hängt stark von der Aktivität des Anstellguts ab
 - Autolyse: Mehl und Wasser im Teigprogramm 5–10 Minuten mischen, Stopp, 30–60 Minuten ruhen lassen, dann restliche Zutaten zugeben und neu starten
