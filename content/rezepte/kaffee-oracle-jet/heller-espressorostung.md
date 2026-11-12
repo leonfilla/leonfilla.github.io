@@ -1,5 +1,5 @@
 ---
-titel: "Holm Popayán Decaf – Flat White"
+titel: "Kaffeekirsche Popayán Decaf – Flat White"
 status: "aktiv"
 datum: "2026-08-15"
 quelle:
@@ -7,7 +7,7 @@ quelle:
   url: "https://claude.ai/chat/1119d142-02e8-48eb-aaa6-19d531a777cb"
   hinweis: "Flat White Setup für Sage Oracle Jet"
 importiert: true
-fokus: "Flat White mit hell geröstetem, CO₂-entkoffeiniertem Holm-Decaf: 1:2 in 30–32 s, heißer gefahren (94–95 °C) und mit kühler Milch, damit Heidelbeere und Kakao lesbar bleiben."
+fokus: "Flat White mit hell geröstetem, entkoffeiniertem Kaffeekirsche Popayán Decaf: 1:2 in 30–32 s, heißer gefahren (94–95 °C) und mit kühler Milch, damit Heidelbeere und Kakao lesbar bleiben."
 ergebnis: "1 Flat White, ca. 150 ml"
 zeit: {aktiv: 3, gesamt: 3}
 geraete: ["oracle-jet"]
@@ -21,7 +21,7 @@ espresso:
   mahlgrad: "≈ 23 (21–25)"
   milch: {menge: 105, temp: 51, textur: "Schaumregler Minimum"}
 zutaten:
-  - {name: "Espressobohnen (Holm Popayán Decaf)", menge: 21, einheit: "g", hinweis: "erwartet 21–22 g, einmal wiegen"}
+  - {name: "Espressobohnen (Kaffeekirsche Popayán Decaf)", menge: 21, einheit: "g", hinweis: "erwartet 21–22 g, einmal wiegen"}
   - {name: "Milch", menge: 105, einheit: "g"}
 schritte:
   - {titel: "Dosis wiegen", text: "Eine Mahlung bei unveränderter Gewindeeinstellung wiegen; Out = Dosis × 2,0."}
@@ -29,7 +29,7 @@ schritte:
   - {titel: "Bezug", text: "Bei 94–95 °C auf 42 g Out in 30–32 Sekunden ab Pumpenstart beziehen.", timer: 31}
   - {titel: "Milch", text: "Auto MilQ: 105 g Milch, 51 °C, Schaumregler Minimum."}
   - {titel: "Eingießen", text: "Milch auf den Shot gießen – ergibt etwa 150 ml."}
-bohne: holm-popayan-decaf
+bohne: kaffeekirsche-popayan-decaf
 ---
 
 ## Warum so

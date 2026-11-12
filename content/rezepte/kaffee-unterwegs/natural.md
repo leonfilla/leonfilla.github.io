@@ -1,5 +1,5 @@
 ---
-titel: "Schamong Tolima Natural – Pulsar-Startrezept"
+titel: "Schamong La Esperanza – Pulsar-Startrezept"
 linie: "schamong-tolima-natural-pulsar"
 status: "aktiv"
 datum: "2026-06-25"
@@ -22,7 +22,7 @@ handbrew:
   bloom: {menge: 60, zeit: 45}
   gesamtzeit: "4:00–4:30"
 zutaten:
-  - {name: "Kaffee (Schamong Tolima Natural)", menge: 20, einheit: "g"}
+  - {name: "Kaffee (Schamong La Esperanza)", menge: 20, einheit: "g"}
   - {name: "Wasser", menge: 320, einheit: "g"}
 schritte:
   - {titel: "Vorbereiten", text: "Wasser aufkochen und etwa 30 s warten. Ventil schließen, Filter einlegen, Kaffee einfüllen."}
@@ -31,7 +31,7 @@ schritte:
   - {titel: "1:00 – Erster Aufguss", text: "Zentral und ruhig auf 190 g aufgießen, Säule 1–3 cm, minimale Agitation."}
   - {titel: "1:45 – Zweiter Aufguss", text: "Auf 320 g aufgießen."}
   - {titel: "4:00 – Fertig", text: "Durchlaufen lassen, Gesamtzeit 4:00–4:30."}
-bohne: schamong-tolima-natural
+bohne: la-esperanza
 ---
 
 ## Warum so

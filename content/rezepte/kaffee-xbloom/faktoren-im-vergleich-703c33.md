@@ -1,5 +1,5 @@
 ---
-titel: "La Cristalina – Startprogramm"
+titel: "Schön La Cristalina – Startprogramm"
 status: archiv
 datum: "2026-09-26"
 quelle:
@@ -22,7 +22,7 @@ xbloom:
     - {phase: "Guss 2", menge: 70, temp: 90}
     - {phase: "Guss 3", menge: 70, temp: 88}
     - {phase: "Guss 4", menge: 68, temp: 85}
-bohne: schamong-la-cristalina-decaf
+bohne: schoen-la-cristalina
 ---
 
 ## Warum so
