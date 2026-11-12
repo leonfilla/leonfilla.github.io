@@ -345,6 +345,18 @@ def lade():
         wissen.append(meta)
     wissen.sort(key=lambda w: (w.get("bereich", ""), w.get("reihenfolge", 99)))
 
+    notizen = []
+    for p in sorted((CONTENT / "notizen").glob("*/*.md")):
+        meta, body = read_md(p)
+        bereich = p.parent.name
+        if bereich not in bereiche:
+            continue
+        if isinstance(meta.get("datum"), (dt.date, dt.datetime)):
+            meta["datum"] = meta["datum"].isoformat()[:10]
+        meta.update({"slug": p.stem, "bereich": bereich, "bereich_info": bereiche[bereich],
+                     "url": f"/notiz/{bereich}/{p.stem}/", "body_html": md(body), "quelle_datei": str(p.relative_to(ROOT))})
+        notizen.append(meta)
+
     ideen = []
     for p in sorted((CONTENT / "ideen").glob("*/*.md")):
         meta, body = read_md(p)
@@ -368,7 +380,7 @@ def lade():
               for name in ("vorlieben", "prozess", "vorrat")}
     profil["equipment"] = equipment
     return {"cfg": cfg, "bereiche": bereiche, "geraete": geraete, "bohnen": bohnen,
-            "rezepte": rezepte, "wissen": wissen, "seiten": seiten, "profil": profil, "ideen": ideen}
+            "rezepte": rezepte, "wissen": wissen, "seiten": seiten, "profil": profil, "ideen": ideen, "notizen": notizen}
 
 
 def verknuepfe(ctx):
@@ -507,6 +519,9 @@ def schreibe(ctx):
         seite(b["url"], "bohne.html", b=b)
 
     seite("/profil/", "profil.html", p=ctx["profil"])
+    seite("/notizen/", "notizen.html")
+    for i in ctx["notizen"]:
+        seite(i["url"], "notiz.html", i=i)
     seite("/ideen/", "ideen.html")
     for i in ctx["ideen"]:
         seite(i["url"], "idee.html", i=i)

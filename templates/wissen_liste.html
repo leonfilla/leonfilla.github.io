@@ -6,6 +6,7 @@
   <h1>Wissen</h1>
   <p class="unterzeile">Grundlagen und Prinzipien, die sich in der Praxis bestätigt haben.</p>
 </header>
+{% if ctx.notizen %}<p class="leise">Dazu kommen <a href="/notizen/">{{ ctx.notizen|length }} ungeprüfte Notizen</a> aus den Chats – Analysen und Hintergrundwissen, die kein Rezept sind.</p>{% endif %}
 {% for bereich, eintraege in ctx.wissen|groupby('bereich') %}
 <section class="abschnitt">
   <h2>{{ ctx.bereiche[bereich].name if bereich in ctx.bereiche else 'Allgemein' }}</h2>

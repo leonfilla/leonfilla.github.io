@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block titel %}Notizen · {% endblock %}
+{% block akzent %}#2f5f9a{% endblock %}
+{% block inhalt %}
+<nav class="pfad" aria-label="Pfad"><a href="/">Start</a></nav>
+<header class="seitenkopf">
+  <h1>Notizen</h1>
+  <p class="unterzeile">Analysen, Vergleiche und Hintergrundwissen aus den Chats, die kein Rezept sind – noch nicht auf Stimmigkeit geprüft. {{ ctx.notizen|length }} insgesamt.</p>
+</header>
+<div class="filterleiste" data-filterbar>
+  <input type="search" data-filter-text placeholder="Notizen filtern …" aria-label="Notizen filtern">
+  <p class="leise filter-leer" hidden>Keine Treffer.</p>
+</div>
+{% for bid, liste in ctx.notizen|groupby('bereich') %}
+<section class="abschnitt" data-filter-gruppe id="{{ bid }}">
+  <h2>{{ ctx.bereiche[bid].name }} <span class="leise">{{ liste|length }}</span></h2>
+  <div class="raster">
+    {% for i in liste|sort(attribute='datum', reverse=true) %}
+    <a class="karte st-notiz" href="{{ i.url }}" style="--akzent: {{ i.bereich_info.farbe }}" data-filter-item data-status="notiz" data-q="{{ (i.titel ~ ' ' ~ (i.quelle.hinweis if i.quelle else ''))|lower }}">
+      <span class="karte-titel">{{ i.titel }}</span>
+      <span class="karte-meta"><span>{{ i.datum|datum }}</span><span>{{ 'Gemini' if i.quelle and i.quelle.typ == 'gemini' else 'Claude' }}</span></span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}
