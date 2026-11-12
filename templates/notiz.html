@@ -7,6 +7,9 @@
   <h1>{{ i.titel }}</h1>
   <p class="marken"><span class="marke-status idee">Notiz · ungeprüft</span>{% if i.datum %}<span class="marke leise">{{ i.datum|datum }}</span>{% endif %}</p>
 </header>
+{% if i.fokus %}<p class="unterzeile">{{ i.fokus }}</p>{% endif %}
+{% if i.zutaten %}<section class="abschnitt"><h2>Zutaten</h2><ul>{% for z in i.zutaten %}<li>{% if z.menge %}{{ z.menge }} {{ z.einheit or '' }} {% endif %}{{ z.name }}{% if z.hinweis %} <span class="leise">– {{ z.hinweis }}</span>{% endif %}</li>{% endfor %}</ul></section>{% endif %}
+{% if i.schritte %}<section class="abschnitt"><h2>Ablauf</h2><ol>{% for s in i.schritte %}<li>{% if s.titel %}<strong>{{ s.titel }}:</strong> {% endif %}{{ s.text }}</li>{% endfor %}</ol></section>{% endif %}
 <article class="fliesstext">{{ i.body_html|safe }}</article>
 <footer class="rezept-fuss leise">
   {% if i.quelle %}<p>Quelle: {% if i.quelle.url %}<a href="{{ i.quelle.url }}" rel="noopener">{{ 'Gemini' if i.quelle.typ == 'gemini' else 'Claude' }}-Chat</a>{% endif %}{% if i.quelle.hinweis %} · {{ i.quelle.hinweis }}{% endif %}</p>{% endif %}

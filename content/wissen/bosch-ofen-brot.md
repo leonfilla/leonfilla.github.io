@@ -22,7 +22,7 @@ Ohne Zubehör lässt sich der Garraum als isolierte Kiste nutzen:
 3. Teig hinein, Tür zu. Die LED-Beleuchtung heizt nicht; nur die Isolierung hält die Wärme.
 4. Nach 60 min messen. Unter 24 °C: 1 min Gärstufe, dann sofort wieder aus.
 
-Der Tipp „Ofen nur mit eingeschalteter Lampe“ aus einigen Quellen funktioniert bei diesem Ofen also nicht; die Rezepte sind entsprechend angepasst. Gradgenaue 25–28 °C liefert erst die Lösung mit externem Regler und Heizmatte aus der [Gärraum-Notiz](/rezept/brot-sauerteig/gaerraum-steuerung-backofen-inkbird/).
+Der Tipp „Ofen nur mit eingeschalteter Lampe“ aus einigen Quellen funktioniert bei diesem Ofen also nicht; die Rezepte sind entsprechend angepasst. Gradgenaue 25–28 °C liefert erst die Lösung mit externem Regler und Heizmatte aus der [Gärraum-Notiz](/notiz/brot-sauerteig/gaerraum-steuerung-backofen-inkbird/).
 
 ### Aktive Gärstufe
 

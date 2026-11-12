@@ -41,7 +41,7 @@ Frisch gerösteter Kaffee enthält viel eingeschlossenes CO₂. Es behindert das
 | Anaerobic | hell bis mittel | 10–21+ Tage | 14–30+ Tage |
 | alle | dunkel | 2–7 Tage | 4–10 Tage |
 
-Daraus zwei Korrekturen. **Unter 7 Tagen** einen kräftigeren Bloom mit Agitation – 3- bis 4-fache Wassermenge zur Dosis, bei 16 g also 48–64 g. **Über 21 Tagen** 1–2 °C kühler oder etwas gröber. Die Notiz [Mahlgrad nach Lagerung](/rezept/kaffee-xbloom/fall-1-du-hast-59-in-den-ersten-zwei-bis-drei-wochen-nach-ro/) bestätigt das an einer Bohne und ergänzt die Grenze: Nach rund neun Wochen dominiert der Aromaverlust, dann nicht weiter vergröbern. Eingefrorene Portionen bleiben auf dem alten Stand. Im Espresso läuft die Korrektur in die Gegenrichtung (feiner), weil dort auf Durchlaufzeit statt auf Geschmack geregelt wird – Begründung auf der Seite [Oracle Jet](/wissen/oracle-jet/).
+Daraus zwei Korrekturen. **Unter 7 Tagen** einen kräftigeren Bloom mit Agitation – 3- bis 4-fache Wassermenge zur Dosis, bei 16 g also 48–64 g. **Über 21 Tagen** 1–2 °C kühler oder etwas gröber. Die Notiz [Mahlgrad nach Lagerung](/notiz/kaffee-xbloom/fall-1-du-hast-59-in-den-ersten-zwei-bis-drei-wochen-nach-ro/) bestätigt das an einer Bohne und ergänzt die Grenze: Nach rund neun Wochen dominiert der Aromaverlust, dann nicht weiter vergröbern. Eingefrorene Portionen bleiben auf dem alten Stand. Im Espresso läuft die Korrektur in die Gegenrichtung (feiner), weil dort auf Durchlaufzeit statt auf Geschmack geregelt wird – Begründung auf der Seite [Oracle Jet](/wissen/oracle-jet/).
 
 ## Röstgrad
 

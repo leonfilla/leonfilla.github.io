@@ -15,7 +15,7 @@ Helle Röstungen sind dicht, hart und wenig löslich; sie brauchen viel Energie,
 
 **Preinfusion und Druck.** Die Jet automatisiert Tampen und Preinfusion. Die Preinfusionsdauer lässt sich anpassen (die Rezepte im Bestand nutzen 6–8 s); ein Druckprofil mit reduziertem Brühdruck, das helle Röstungen oft bevorzugen, bietet sie aber nicht. Eine Quelle behauptet, auch lange Preinfusion sei kaum möglich – das ist mindestens unvollständig.
 
-Gegenmittel sind Temperatur ans obere Ende (95–96 °C, Maximum 96 °C), feiner mahlen, längeres Verhältnis 1:2,5–1:3 und Leerspülen. Die Richtwerte je Röstgrad stehen in der Notiz [Temperatur und Rezept-Slots](/rezept/kaffee-oracle-jet/temperatur-pro-rezept-auf-der-oracle-jet-was-wirklich-geht/). Selbst dann bleibt das Ergebnis hinter Maschinen mit gesättigter Brühgruppe zurück: Mittlere bis dunkle Röstungen passen physikalisch besser zur Jet, helle sind machbar, aber ein Kompromiss.
+Gegenmittel sind Temperatur ans obere Ende (95–96 °C, Maximum 96 °C), feiner mahlen, längeres Verhältnis 1:2,5–1:3 und Leerspülen. Die Richtwerte je Röstgrad stehen in der Notiz [Temperatur und Rezept-Slots](/notiz/kaffee-oracle-jet/temperatur-pro-rezept-auf-der-oracle-jet-was-wirklich-geht/). Selbst dann bleibt das Ergebnis hinter Maschinen mit gesättigter Brühgruppe zurück: Mittlere bis dunkle Röstungen passen physikalisch besser zur Jet, helle sind machbar, aber ein Kompromiss.
 
 ## Zubehör-Kompatibilität
 
@@ -35,6 +35,6 @@ Der Workflow: Der Decaf bleibt im Jet-Hopper; helle Wochenendbohnen werden in de
 
 **Die Bohne altert.** Im Espresso laufen entgaste Bohnen schneller, weil das CO₂ als Fließwiderstand im Puck fehlt. Über eine Woche mit etwa einer Stufe feiner rechnen; läuft der Shot mehr als 3 s schneller als in der Vorwoche, sofort nachstellen. Bohnen luftdicht und dunkel lagern.
 
-Das wirkt wie ein Widerspruch zur Filter-Notiz [Mahlgrad nach Lagerung](/rezept/kaffee-xbloom/fall-1-du-hast-59-in-den-ersten-zwei-bis-drei-wochen-nach-ro/), nach der man mit fortschreitender Entgasung gröber mahlt. Es ist keiner, weil die Regelgröße eine andere ist. Beim Espresso wird auf die Durchlaufzeit geregelt: Fällt der CO₂-Widerstand, muss die Oberfläche steigen, um dieselbe Zeit zu halten. Beim Filter wird auf den Geschmack geregelt: Die Löslichkeit steigt, und gröberes Mahlen verhindert Überextraktion. Dieselbe Physik, zwei Regelkreise.
+Das wirkt wie ein Widerspruch zur Filter-Notiz [Mahlgrad nach Lagerung](/notiz/kaffee-xbloom/fall-1-du-hast-59-in-den-ersten-zwei-bis-drei-wochen-nach-ro/), nach der man mit fortschreitender Entgasung gröber mahlt. Es ist keiner, weil die Regelgröße eine andere ist. Beim Espresso wird auf die Durchlaufzeit geregelt: Fällt der CO₂-Widerstand, muss die Oberfläche steigen, um dieselbe Zeit zu halten. Beim Filter wird auf den Geschmack geregelt: Die Löslichkeit steigt, und gröberes Mahlen verhindert Überextraktion. Dieselbe Physik, zwei Regelkreise.
 
 **Die Maschine ist die größte Fehlerquelle.** Vor dem ersten Shot mit Fremdbohne die Gruppe leer spülen – das wäscht Decaf-Öle aus dem Duschsieb und heizt die Gruppe auf. Weil die Brühtemperatur nur global gilt, muss sie beim Wechsel vom Decaf (91–93 °C) auf die helle Röstung (95–96 °C) von Hand umgestellt und danach zurückgesetzt werden; vergessen wird meist das Zurücksetzen.
